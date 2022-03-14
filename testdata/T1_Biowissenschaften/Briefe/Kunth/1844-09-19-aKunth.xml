@@ -1,0 +1,110 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002931" oldID="avhr_xyj_kwg_kv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Donnerstag, [19. September 1844]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von
+                        (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date when="1844-09-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund
+                        (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Der im vorliegenden Brief angesprochene Vorgang – der Antrag
+                    auf ein Geldgeschenk für einen bislang nicht näher identifizierten Direktor
+                    Schubart – ist auch durch einen Brief eines ebenfalls in der Humboldt-Forschung
+                    bislang nicht bekannten Briefautors Strieker in Berlin an Humboldt (23.
+                    September 1844 ) dokumentiert (Biblioteka Jagiellońska, Krakau, Sammlung
+                    Autographa). Die im Brief angesprochene Reise nach Merseburg trat <persName key="H0002178">Friedrich Wilhelm IV</persName>. am 15. September 1844
+                    an. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Sowohl dem <persName key="H0014409">
+                        <choice>
+                            <abbr>Geh</abbr>
+                            <expan>Geheimen</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Cab.</abbr>
+                            <expan>Cabinetts</expan>
+                        </choice> Rath Müller</persName>
+                    <?oxy_comment_start author="paessler" timestamp="20160510T113144+0200" comment="vgl. Stricker/Strieker [an Kunth?], Berlin, 23.09.1844."?>
+                    <lb><?oxy_comment_end?></lb>als <persName key="H0002248">Uhden</persName> habe ich <hi rendition="#u">schriftlich</hi> das <lb/>Gnadengeschenk <choice>
+                        <abbr>
+                            <choice>
+                                <orig>fur</orig>
+                                <reg>für</reg>
+                            </choice>
+                        </abbr>
+                    </choice> den armen Director <lb/>Schubart empfohlen. Da es aber eine
+                    <lb/>Geldsache ist kann sie leider! in die <lb/>
+                    <choice>
+                        <orig>Hande</orig>
+                        <reg>Hände</reg>
+                    </choice> des alles abschlagenden <persName key="H0003932">General <lb/>
+                        Thile</persName> gefallen sein. Dieser und <persName key="H0002248">Uhden</persName>
+                    <lb/>sind mit dem <rs type="person" key="H0002178">König</rs> in <placeName key="H0008826">Merseburg</placeName>, <persName key="H0014409">
+                        <lb/>Müller</persName> ist unwohl
+                    in <placeName key="H0008392">Potsdam</placeName>. <lb/>Es ist also,
+                    theurer Freund, vor des <lb/>
+                    <rs type="person" key="H0002178">Königs</rs>
+                    <choice>
+                        <orig>Ruckunft</orig>
+                        <reg>Rückunft</reg>
+                    </choice> (23<supplied cert="high" prev="23">.</supplied>
+                    <choice>
+                        <abbr>Sept</abbr>
+                        <expan>September</expan>
+                    </choice>) rein <lb/>unmöglich, dass ich etwas erfahre<supplied cert="high" prev="erfahre">.</supplied>
+                    <lb/>Um den <rs type="person" key="H0002178">König</rs> sind alle zu
+                    <lb/>beschäftigt um zu antworten<supplied cert="high" prev="antworten">.</supplied>
+                    <lb/>Ich werde aber nichts versäumen <lb/>
+                    <del rendition="#s">und</del> wenn herauszubringen sein <lb/>wird, in wessen <choice>
+                        <orig>Handen</orig>
+                        <reg>Händen</reg>
+                    </choice> in <lb/>dem vielköpfigen Cabinett die <lb/>Sache gekommen ist. </p>
+                <closer>
+                    <salute>Liebevoll</salute>
+                    <signed>Ihr <lb/>AlHumboldt</signed>
+                    <dateline>Donnerstag</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

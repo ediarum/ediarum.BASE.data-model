@@ -1,0 +1,99 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0006509" oldID="prov_agz_mcn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Karl Ludwig Willdenow. [Paris], 1. Februar
+                    1805</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" sameAs="zotero-667230-9PZUBNH7">Bruhns 1872 , I,
+                            407 (Teildruck)</bibl> Vorlage</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0008129">Paris</placeName>
+                    <date when="1805-02-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0006403">Willdenow, Karl Ludwig (1765–1812) </persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener> </opener>
+                <p>So gross auch der Wirrwarr meiner eigenen Geschäfte ist, so werde ich doch Zeit
+                    finden, Deine Aufträge zu besorgen. Zu <persName key="H0012784">Dupetit-Thouard</persName>, der ein gar hölzerner Mensch ist, gehe ich
+                    heute selbst. Es ist unendlich schade, dass Dein guter Genius Dich nicht dieses
+                    Jahr statt nach <rs type="place" key="H0009514">Triest</rs> nach <rs type="place" key="H0008129">Paris </rs> geführt hat. Du hättest hier mein
+                    und <rs type="person" key="H0003476">Bonpland's</rs> grosses Herbarium, <rs type="person" key="H0004274">La Marque's </rs>und <rs type="person" key="H0004222">Jussieu's</rs> zu Gebote gehabt. Du hättest selbst
+                    ausgelesen, was Dir nützlich ist. So hat es <rs type="person" key="H0002737">Vahl </rs>gemacht, denn durch Correspondenz ist von den hiesigen Menschen
+                    nichts zu erlangen.</p>
+                <p>Mit diesem Briefe, guter Willdenow, geht ein Kistchen unserer südamerikanischen
+                    und mexicanischen Samen ab. In <rs type="place" key="H0008617">Malmaison</rs> haben viele davon gekeimt, und ich hoffe, sie sollen es in
+                        <rs type="place" key="H0005221">Berlin</rs> ebenfalls.</p>
+                <p>Ich lasse jetzt hier drucken: 1) <seg type="comment">
+                        <orig>„Tableau physique des régions équinoxiales“;</orig>
+                        <note xml:id="nh5n_vxl_hx">Der Essai sur la Géographie des Plantes
+                            accompagné d'un tableau physique des régions équinoxiales (<ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/NDEPCZEJ/q/essai">Humboldt 1805).</ref></note>
+                    </seg> 2) das erste Fascikel der <seg type="comment">
+                        <orig>„Plantae aequinoctiales“</orig>
+                        <note xml:id="nmlf_fyl_hx">
+                            <ref target="http://avhr_paessler:u2uZu3SpVk2qS06QW3SZ@telotadev.bbaw.de:9200/exist/webdav/db/projects/avhr/data/T1_Biowissenschaften/Briefe/Willdenow/Humboldt/Bonpland 1808-1813">Humboldt/Bonpland 1808-1813.</ref></note>
+                    </seg> mit prächtigen Kupfern; 3) <seg type="comment">
+                        <orig>„Observations de Zoologie et d'Anatomie comparée“</orig>
+                        <note xml:id="nrsk_kyl_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/4NTN2HVH/q/compar%C3%A9e">Humboldt 1811-1833</ref>.</note>
+                    </seg>; 4) <seg type="comment">
+                        <orig>„Observations astronomiques et Mesures exécutées dans un voyage aux
+                            Tropiques.“</orig>
+                        <note xml:id="nmq5_myl_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/JUIGPC3H/q/observations">Humboldt 1808-1811.</ref></note>
+                    </seg> Alle erscheinen deutsch zugleich.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0015157" oldID="avhr_btx_wbs_jv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 30. Januar 1844]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von
+                        (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date when="1844-01-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund
+                        (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Der unglükliche Tag Sontag <lb/>4<supplied cert="high" prev="4">.</supplied>
+                    <choice>
+                        <abbr>Febr</abbr>
+                        <expan>Februar</expan>
+                    </choice>.<?oxy_comment_start author="paessler" timestamp="20160321T113304+0100" comment="der 4.2.1844  und 4.2.1849 waren Sonntage"?>
+                    <?oxy_comment_end?>Ich kann Ihnen <lb/>nicht genug mein Bedauern <lb/>
+                    <choice>
+                        <orig>aussern</orig>
+                        <reg>äussern</reg>
+                    </choice><supplied cert="high" prev="äussern">.</supplied> Es ist Sontag
+                    <lb/>Abend 9–11<hi rendition="#sup">h</hi> die einzige <lb/>Carnaval-Cour
+                        bei<persName key="H0002161">
+                        <choice>
+                            <abbr>Pr</abbr>
+                            <expan>Prinz</expan>
+                        </choice>
+                        <lb/>Carl</persName>, wo man ganz <lb/>brodirt sein muss, also <lb/>ist bei
+                    der Entlegenheit <lb/>meiner Wohnung kein Mittel <lb/>des Umkleidens<supplied cert="high" prev="Umkleidens">.</supplied>
+                </p>
+                <signed>AHt </signed>
+                <dateline>Dienstag</dateline>
+            </div>
+            <postscript>
+                <p>Vorigen Sontag war <lb/>die erste Cour <lb/>bei <persName key="H0002173">
+                        <choice>
+                            <abbr>Pr.</abbr>
+                            <expan>Prinz</expan>
+                        </choice>
+                        <choice>
+                            <abbr>v.</abbr>
+                            <expan>von</expan>
+                        </choice> Preussen</persName><supplied cert="high">.</supplied>
+                </p>
+                <p>
+                    <address>
+                        <pb n="1v"/>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr
+                        </abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren</addrLine>
+                        <addrLine>Herrn <choice>
+                                <abbr>Prof.</abbr>
+                                <expan>Professor</expan>
+                            </choice> Kunth</addrLine>
+                    </address>
+                </p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

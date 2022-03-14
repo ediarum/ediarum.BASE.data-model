@@ -1,0 +1,97 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002652" oldID="avhr_qjc_q11_yv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonnabend,
+                    [vor 28. September 1830]</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>            
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin, Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 822 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 19,90 cm , B: 12,40 cm</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1830-01-01" notAfter="1830-09-27" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Sie sehen aus der Anlage, <lb/>mein theurer Herr Doctor<supplied cert="high">,</supplied>
+                    <lb/>daß endlich Ihre Sorge <lb/>beendigt <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> ich will hoffen, <lb/>nach meinem Wunsche beendigt ist<supplied cert="high">.</supplied>
+                </p>
+                <closer>
+                    <salute/>
+                    <signed> AHumboldt </signed>
+                    <dateline> Sonnabendt. </dateline>
+                </closer>
+                <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="2r"/><gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="2v"/><gap unit="pages" quantity="1" reason="empty"/>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_cvk_52c_wcb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 17. Juni
+                    1857</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Berlin</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Slg. Darmstaedter Asien 1855: Schlagintweit, Hermann von; 71-72</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                    <placeName key="H0005221">Berlin (Hauptstadt der heutigen Bundesrepublik
+                        Deutschland)</placeName>
+                  
+                    <date when="1857-06-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession"><pb n="1r"/>
+                <opener>
+                    <dateline>Berlin, Hôtel de</dateline>
+                    <dateline>Rome, Juni 17</dateline>
+                    <dateline>1857</dateline>
+                    <salute>Hochverehrteste
+                        <?oxy_comment_start author="lmartin" timestamp="20180315T142444+0100" comment="einmalkollationiert mit UP am 15.03.2018"?>Excellenz<?oxy_comment_end?>!</salute>
+                </opener>
+				<p><persName key="H0015556">Robert</persName> und ich sind <lb/>heute morgens hier
+                    <lb/>angekommen; wie <lb/>sehr freuen wir uns <lb/>dass wir das Glück
+                    <lb/>haben, Sie wieder <lb/>persönlich begrüssen, <lb/>und Ihnen wieder<g ref="#typoHyphen"/><lb break="no"/>holen zu können, <lb/><pb n="1v"/>wie
+                    unschätzbar <lb/>für uns Ihre <lb/>Belehrungen sind<supplied cert="high">,</supplied>
+                    <lb/>die stets lebhafte <lb/>Erinnerung an Ihre <lb/>Theilnahme an <lb/>unseren
+                    Arbeiten <lb/>gewesen sind.</p>
+                <p>Als wir, fast <lb/>genau vor 8 Jahren <lb/>zum ersten Male <lb/>das Glück hatten
+                    <lb/>Sie zu sehen, war es <lb/>Ihre ermunternde <lb/>damals kaum ver<g ref="#typoHyphen"/><lb break="no"/>diente Belehrung, <lb/><pb n="2r"/>der
+                    wir die Anregung <lb/>zu unseren spä<g ref="#typoHyphen"/><lb break="no"/>teren
+                    Arbeiten <lb/>verdankten.</p>
+                <p>Aber auch jetzt <lb/>können wir <hi rendition="#u">Ihr</hi> Ur<g ref="#typoHyphen"/><lb break="no"/>theil über unsere Un<g ref="#typoHyphen"/><lb break="no"/>tersuchungen und <lb/>Reisen in <placeName key="H0006686">Indien</placeName>
+                    <lb/>fast nur mit glei<g ref="#typoHyphen"/><lb break="no"/>cher Ängstlichkeit
+                    <lb/>erwarten.</p>
+                <p>Der Gegenstand<supplied cert="high">,</supplied>
+                    <lb/>der uns beschäftigte<supplied cert="high">,</supplied>
+                    <lb/>war so wichtig und <lb/>die Länder<supplied cert="high">,</supplied> die
+                    wir <lb/><pb n="2v"/>druchreisen konnten <lb/>so ausgedehnt, dass <lb/>wir kaum
+                    darüber <lb/>nachzudenken wagen, <lb/>ob, besonders in Ihren <lb/>Augen, die
+                        erhalte<g ref="#typoHyphen"/><lb break="no"/>nen Resultate die<g ref="#typoHyphen"/><lb break="no"/>sen günstigen Um<g ref="#typoHyphen"/><lb break="no"/>ständen genügend <lb/>entsprechen<supplied cert="high">.</supplied></p>
+                <p>Wir werden versuchen <lb/>Sie heute gegen 12"30 <lb/>zu besuchen, wenn Sie
+                    <lb/>uns schon heute empfan<g ref="#typoHyphen"/><lb break="no"/>gen können.</p>
+				<closer>
+                    <salute>Mit wiederholtem Aus<g ref="#typoHyphen"/><lb break="no"/>drucke
+                        in̅igster Verehrung</salute>
+                    <salute>und Dankbarkeit</salute>
+                    <signed>Ihr <choice>
+                            <abbr>H.</abbr>
+                            <expan>Hermann</expan>
+                        </choice> Schlagintweit.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

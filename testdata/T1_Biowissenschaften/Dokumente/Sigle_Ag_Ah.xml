@@ -1,0 +1,275 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="H0015184" oldID="avhr_cv4_dfz_5y">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ag / Ah – Cruciferen und Umbellaten Amerikas</title>
+                <editor>
+                    <persName ref=" http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">
+                    <p>Carl Sigismund Kunths <ref target="H0000005">Ideensammlung zur Neuausgabe der
+                            Geographie der Pflanzen</ref> verweist auf diese Notizen aus der Feder
+                        Humboldts und Willdenows (der sich im Winter 1810/11 in Paris aufhielt)
+                        unter der „No. 32. Crucifères des tropiques Ag. Mimosen Ah.“ Humboldt führt
+                        einige in Südamerika aufgenommene Kreuzblütengewächse auf. Für das in der
+                        Silla von Caracas gesammelte Lepidium virginicum ergänzt Humboldt, dass es
+                        auch in Virginia vorkomme (vgl. auch Sigle <ref xml:id="ed_cml_rsc_bbb" type="siglum" target="#Geographie_der_Pflanzen_Aa">Aa</ref>). Sigle <ref xml:id="ed_qrw_gdz_bbb" type="siglum" target="#Geographie_der_Pflanzen_Ah">Ah</ref> verweist auf eine
+                        Zusammenstellung von Pflanzenarten, deren Verbreitungsgebiet sich über
+                        mehrere Kontinente erstreckt.</p>
+                </note></notesStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2832864</idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 81a, Bl.
+                            8–9</idno></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0006403">Willdenow, Karl Ludwig (1765-1812)</persName>
+                <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                <placeName key="H0008129">Paris</placeName>
+                <date notBefore="1810-10-01" notAfter="1811-03-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p><pb n="8r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367380/1200/0/00000013.jpg"/>avec <gap unit="words" quantity="10" reason="lost"/><?oxy_comment_start author="paessler" timestamp="20170210T083304+0100" comment="wie kann man unklare fehlende Wortzahl angeben?"?></p>
+                <?oxy_comment_end?>
+                <p>Puchery<supplied cert="high">:</supplied> unser ist faba <choice>
+                        <sic>pichorim</sic>
+                        <corr cert="high">Pichurim</corr>
+                    </choice> minor <persName key="H0014456">Muray</persName> Laurus
+                        puchery<supplied cert="high">.</supplied></p>
+                <p>aber Toncabohne <subst>
+                        <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <add place="superlinear"><choice>
+                                <sic>Dipterix</sic>
+                                <corr cert="high">Dipteryx</corr>
+                            </choice></add>
+                    </subst> odorata <add place="superlinear"><choice>
+                            <abbr>W</abbr>
+                            <expan>Willdenow</expan>
+                        </choice></add> die wir auch gefunden ha<lb break="no"/>ben. (<choice>
+                        <abbr>od</abbr>
+                        <expan>oder</expan>
+                    </choice> Coumarouna odorata <persName key="H0012785">Aublet</persName>.<supplied cert="high">)</supplied></p>
+                <p>Dividivi zum schwarz färben ist wohl Caesalpinia coriaria in <placeName key="H0007693">Cumaná</placeName>
+                    <lb/>Viola du Pic bis <measure quantity="1700" unit="toise">1700 <choice>
+                            <abbr>t</abbr>
+                            <expan>toisen</expan>
+                        </choice></measure> Höhe. </p>
+                <p><del rendition="#s">Cam</del></p>
+                <p><hi rendition="#u"><choice>
+                            <sic>Tetradydyn.</sic>
+                            <corr cert="high">Tetradynamia</corr>
+                        </choice> des tropiques</hi> Senebiera pectinata <choice>
+                        <abbr>n</abbr>
+                        <expan>natio</expan>
+                    </choice>
+                    <placeName key="H0007379">Chillo</placeName><supplied cert="high">,</supplied>
+                    <lb/><hi rendition="#u">Pycnobolus</hi>
+                    <choice>
+                        <abbr>nov.</abbr>
+                        <expan>nova</expan>
+                    </choice>
+                    <choice>
+                        <abbr>gen.</abbr>
+                        <expan>genera</expan>
+                    </choice> siliculosa <placeName key="H0002643">Assuay</placeName>. <choice>
+                        <abbr>Lepid.</abbr>
+                        <expan>Lepidium</expan>
+                    </choice> microphyllum <lb/><choice>
+                        <abbr>n.</abbr>
+                        <expan>natio</expan>
+                    </choice>
+                    <placeName key="H0008847">Mexico</placeName>. <choice>
+                        <abbr>Lep.</abbr>
+                        <expan>Lepidium</expan>
+                    </choice> coronopifolium <choice>
+                        <abbr>n</abbr>
+                        <expan>natio</expan>
+                    </choice>
+                    <placeName key="H0007379">Chillo</placeName>, 4 neue Drabae <lb/><placeName key="H0002477">Antisana</placeName>, <placeName key="H0002643">Assuay</placeName><supplied cert="high">.</supplied> Sisymbrium <choice>
+                        <sic>miriophyllum</sic>
+                        <corr cert="high">myriophyllum</corr>
+                    </choice>
+                    <placeName key="H0007607">Cotopaxi</placeName>
+                    <lb/>dem <choice>
+                        <abbr>Sis.</abbr>
+                        <expan>Sisymbrium</expan>
+                    </choice> sophia ähnlich, <choice>
+                        <sic>Erisymum</sic>
+                        <corr cert="high">Erysimum</corr>
+                    </choice> biscutellifolium <lb/><placeName key="H0008143"><choice>
+                            <abbr>Prov.</abbr>
+                            <expan>Provinicia</expan>
+                        </choice> de los Pastos</placeName> ähnlich <choice>
+                        <abbr>E</abbr>
+                        <expan>Erysimum</expan>
+                    </choice>
+                    <choice>
+                        <abbr>cheiranthoid.</abbr>
+                        <expan>cheiranthoides</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Lepid.</abbr>
+                        <expan>Lepidium</expan>
+                    </choice> virgi<lb break="no"/>nicum Silla de Caraccas. <note place="inline" hand="#author"><choice>
+                            <orig>und</orig>
+                            <reg>Und</reg>
+                        </choice> in <placeName key="H0009177">Virginien</placeName><supplied cert="high">.</supplied></note>
+                    <note place="left" hand="#author"><ref xml:id="ed_ppm_cky_lz" type="siglum" target="#Geographie_der_Pflanzen_Ag">Ag</ref></note></p>
+                <p>
+                    <note place="inline" hand="H0006403">
+                        <p>Pycnobolus ist Eudema <choice>
+                                <abbr>pl.</abbr>
+                                <expan>plantae</expan>
+                            </choice>
+                            <choice>
+                                <abbr>aeq.</abbr>
+                                <expan>aequinoctiales</expan>
+                            </choice><supplied cert="high">.</supplied>
+                            <?oxy_comment_start author="paessler" timestamp="20170206T182824+0100" comment="https://books.google.de/books?id=I8oMV1lsS6kC&amp;pg=PA127&amp;redir_esc=y#v=onepage&amp;q&amp;f=false"?></p>
+                        <?oxy_comment_end?>
+                        <p>die übrigen Nahmen sind noch nicht gegeben und kön̅en also
+                            <lb/>beibehalten werden.</p>
+                        <p>Sollte Lepidium virginicum wirklich in der Silla de <lb/>Caracas
+                            vorkom̅en?</p>
+                    </note>
+                </p>
+                <p><note place="left" hand="#author"><persName key="H0013708"><choice>
+                                <abbr>Guiland</abbr>
+                                <expan>Guilandin</expan>
+                            </choice></persName>
+                        <lb/>Bonduc <lb/><choice>
+                            <abbr>G.</abbr>
+                            <expan>Guillandina</expan>
+                        </choice> Bonducella</note>
+                    <lb/>1. Cissus.</p>
+                <p>2. Rhizophora mangle <lb/><placeName key="H0008601">Malabar</placeName></p>
+                <p>3. Avicennia <add place="superlinear">tomentosa</add>
+                    <note place="right" hand="#author"><placeName key="H0002625"><choice>
+                                <abbr>Nov.</abbr>
+                                <expan>Nova</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Holl</abbr>
+                                <expan>Hollandia</expan>
+                            </choice></placeName>
+                        <lb/><placeName key="H0007873"><choice>
+                                <abbr>Ostind</abbr>
+                                <expan>Ostindien</expan>
+                            </choice></placeName>
+                        <lb/><seg type="comment">
+                            <orig>Reise</orig>
+                            <note xml:id="ngvf_rf1_1z"><bibl sameAs="zotero-667230-DR2NAW3J">Humboldt 1814–1825</bibl>, I 290: <quote>L'Avicennia de Cumaná
+                                    se distingue par une autre particularité non moins remarquable:
+                                    elle offre l'exemple d'une plante commune aux plages de
+                                    l'Amérique méridionale et aux côtes du Malabar.</quote></note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>pagina</expan>
+                        </choice> 290</note><lb/>Bombax <choice>
+                        <abbr>pent</abbr>
+                        <expan>pentandrum</expan>
+                    </choice></p>
+                <p>4. <choice>
+                        <abbr>Sisim.</abbr>
+                        <expan>Sisymbrium</expan>
+                    </choice> microphyllum<supplied cert="high">,</supplied><note place="mTop" hand="#author"> et <supplied cert="high">Sesuvium</supplied>
+                        <choice>
+                            <abbr>portulacastr.</abbr>
+                            <expan>portulacastrum</expan>
+                        </choice></note>
+                    <lb/><placeName key="H0010384">Südsee</placeName>
+                    <placeName key="H0009534">Truxillo</placeName></p>
+                <p>5. <hi rendition="#uu">Acacia</hi>
+                    <hi rendition="#u">scandens</hi> in <placeName key="H0006552">Jamaica</placeName> et <placeName key="H0007873">India
+                        orientali</placeName> (<seg type="comment">
+                        <orig><choice>
+                                <abbr>p.</abbr>
+                                <expan>pagina</expan>
+                            </choice> 1057.</orig>
+                        <note xml:id="nmfl_4wz_zy"><bibl sameAs="zotero-667230-QSKKF2NJ">Linné/Willdenow 1797–1830</bibl>, IV, pars II.</note>
+                    </seg>)<?oxy_comment_start author="paessler" timestamp="20170206T190826+0100" comment="https://books.google.de/books?id=XPETAAAAQAAJ&amp;pg=PA1057&amp;dq=%22acacia+scandens%22&amp;hl=de&amp;sa=X&amp;ved=0ahUKEwiiuOaQiPzRAhXEtxQKHeGaBfIQ6AEIKDAC#v=onepage&amp;q=%22acacia%20scandens%22&amp;f=false"?></p>
+                <?oxy_comment_end?>
+                <p><del rendition="#s">Banksia scandens Malabar <del rendition="#s"><gap quantity="3" unit="words"/></del></del></p>
+                <p>Acacia hebeclada <persName key="H0012873"><choice>
+                            <abbr>Cand.</abbr>
+                            <expan>Candolle</expan>
+                        </choice></persName>
+                    <placeName key="H0010379">Afrique austral</placeName>. pays <lb/>des Boushouans,
+                    fruteux <note place="right" hand="#author"><seg type="comment">
+                            <orig><persName key="H0012873"><choice>
+                                        <abbr>Cand.</abbr>
+                                        <expan>Candolle</expan>
+                                    </choice></persName>
+                                <choice>
+                                    <abbr>Catal.</abbr>
+                                    <expan>Catalogus</expan>
+                                </choice>
+                                <lb/>Monsp. 1813</orig>
+                            <note xml:id="nody_5q1_wy"><bibl sameAs="zotero-667230-CWB8TZK7">Candolle, A.-P. 1813</bibl>
+                            </note>
+                        </seg>
+                        <lb/><choice>
+                            <abbr>p</abbr>
+                            <expan>pagina</expan>
+                        </choice> 73</note></p>
+                <p>Acacia mauroceana<supplied cert="high">,</supplied>
+                    <persName key="H0012241"><choice>
+                            <abbr>Desf.</abbr>
+                            <expan>Desfontaines</expan>
+                        </choice></persName>
+                    <placeName key="H0008731"><choice>
+                            <abbr>Roy.</abbr>
+                            <expan>Royaume</expan>
+                        </choice> de Maroc</placeName><supplied cert="high">.</supplied>
+                    <lb/><placeName key="H0000384">Mer Caspienne</placeName>. <note place="left" hand="#author"><seg type="comment">
+                            <orig>{Limites</orig>
+                            <note xml:id="nkmw_2f1_wy">Anmerkung bezieht sich auf die letzten drei
+                                Zeilen des Textes.</note>
+                        </seg></note><note place="inline" hand="#author"><ref xml:id="ed_yq3_k2t_5bb" type="siglum" target="#Geographie_der_Pflanzen_Ah">Ah</ref></note></p>
+                <pb n="8v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367380/1200/0/00000014.jpg"/><gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="9r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367380/1200/0/00000015.jpg"/><gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="9v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367380/1200/0/00000016.jpg"/><gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

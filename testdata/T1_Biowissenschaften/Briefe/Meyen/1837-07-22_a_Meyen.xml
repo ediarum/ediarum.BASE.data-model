@@ -1,0 +1,126 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002650" oldID="avhr_k43_sng_1w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Teplitz, 22. Juli
+                    1837</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin,
+                            Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 818 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 13,20 cm , B: 11,00 cm, Wasserzeichen: J. Whatman, London </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0009328">Teplitz</placeName>
+                    <date when="1837-07-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p><pb n="1r"/>Da ich leider! seit 16 <lb/>Jahren nicht in <placeName key="H0006750">Italien</placeName>
+                    <lb/>war, so kenne ich auch <lb/>nicht einmal dem Namen <lb/>nach jemand in
+                        <placeName key="H0010840">Genua</placeName><supplied cert="high">.</supplied>
+                    <lb/>Ich freue mich dieser <lb/>sehr wichtigen Reise <lb/>in 2 wenig besuchte
+                    <lb/>Inseln. In <placeName key="H0010123">Sardinien</placeName> ist <lb/>alles neu, die <hi rend="underline" rendition="#u">Vögel</hi>, <lb/>die <hi rend="underline" rendition="#u">Süsswasser-Fische</hi>
+                    <lb/>die Trachyte und ganz <lb/><choice>
+                        <abbr>vulkan.</abbr>
+                        <expan>vulkanische</expan>
+                    </choice> Produkte<supplied cert="high">,</supplied> über <lb/>die <persName key="H0000080">Marmora</persName> eine grosse <lb/><seg type="comment">
+                        <orig>trigonometrische Carte</orig>
+                        <note xml:id="nphz_kh2_lx">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/Q28PZXHC">Marmora 1824</ref>. Ähnliche Karten publizierte <persName key="H0000080">Marmora</persName> auch 1839 und 1845. Die
+                            Veröffentlichung aus dem Jahre 1845 (<ref target="https://www.zotero.org/groups/avh-r/items/itemKey/RIAMA86P">Marmora 1845</ref>) schien Humboldt besonders zu schätzen. Auf sein
+                            privates Exemplar notierte er „Sehr wichtig“ (vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/8ZURHD9U">Stevens 1967</ref>, Nr. 6339–6341).</note>
+                    </seg>
+                    <lb/>entworfen. Wenn Sie die <lb/>Ausgabe nicht scheuen <lb/>so würde <persName key="H0013443"><choice>
+                            <orig>Gesenius</orig>
+                            <reg>Gesenius'</reg>
+                        </choice></persName> eben <lb/>erschienene <seg type="comment">
+                        <orig><choice>
+                                <abbr>Monum.</abbr>
+                                <expan>Monumenta</expan>
+                            </choice> Punica</orig>
+                        <note xml:id="nsyk_nh2_lx">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/Q64UTR4A">Gesenius 1836</ref>. Humboldt erwähnte die Arbeiten dieses Autors,
+                            die den Handel und die Kultur der Phönizier betreffen, ausführlich im
+                            'Kosmos'. Vgl. u. a. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/I87MJXIR">Humboldt 1845–1862</ref>, II, 167, 409.</note>
+                    </seg>
+                    <lb/>in dem punischen <placeName key="H0010123">Sardinien</placeName>
+                    <lb/>grosses Interesse erregen<supplied cert="high">.</supplied>
+                </p>
+                <p>Mögen Sie so glüklich  <lb/>reisen als Sie es verdienen. </p>
+                <closer>
+                    <salute>In Eile </salute>
+                    <signed>Ht</signed>
+                </closer>
+            </div>
+            <postscript>
+                <p>Da ich die Briefe  <lb/>offen lasse, so  <lb/>können Sie Ihnen  <lb/>auch bei
+                    anderen  <lb/>Personen <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Behörden  <lb/>zur Empfehlung  <lb/>dienen. </p>
+            </postscript>
+            <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="2r"/><gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="2v"/><gap unit="pages" quantity="1" reason="empty"/>
+        </body>
+    </text>
+</TEI>

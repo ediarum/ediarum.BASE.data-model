@@ -1,0 +1,144 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0015158" oldID="prov_d1l_nrc_j5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach September
+                    1828</title>
+                <editor> 	
+                    <persName ref="http://d-nb.info/gnd/139028285"> 		
+                        <surname>Päßler</surname> 		
+                        <forename>Ulrich</forename> 	
+                    </persName> 
+                </editor> 
+                <respStmt> 	
+                        <persName ref="http://d-nb.info/gnd/120113856"> 		
+                            <surname>Gerlach</surname> 		
+                            <forename>Klaus</forename>	
+                        </persName> 	
+                    <resp> 		
+                        <note type="remarkResponsibility">Mitarbeit</note> 	
+                    </resp> 
+                </respStmt> 
+                <respStmt> 	
+                    <persName ref="http://d-nb.info/gnd/123964172"> 		
+                        <surname>Schwarz</surname> 		
+                        <forename>Ingo</forename> 	
+                    </persName> 	
+                    <resp> 		
+                        <note type="remarkResponsibility">Mitarbeit</note> 	
+                    </resp> 
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische
+                            Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date when="1828-09-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <placeName key="H0008129">Paris</placeName>
+                </correspAction>
+                <note>Die Datierung richtet sich nach der Erwähnung von <persName key="H0003693">Robert Browns</persName> Artikel "A Brief Account of
+                    Microscopical Observations", der im September 1828 erschien (<bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/RIUKP4EA/q/brown">Brown 1828</bibl>).</note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb n="1r"/><note hand="#addressee" place="mTop">envoyer le pié de lunette zur
+                            See<supplied cert="high" prev="See">.</supplied>
+                        <lb/>Ecrivez si quelqu’un a vu <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>
+                        <placeName key="H0008129">Paris</placeName>
+                        <lb/>
+                        <seg type="comment">
+                            <orig>
+                                <choice>
+                                    <orig>le</orig>
+                                    <reg>les</reg>
+                                </choice>
+                                <choice>
+                                    <orig>Molecules</orig>
+                                    <reg>Molécules</reg>
+                                </choice>
+                            </orig>
+                            <note xml:id="nysb_2nw_bx">
+                                <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/RIUKP4EA">Brown 1828</bibl>.</note>
+                        </seg> de <persName key="H0003693">Brown</persName> et ce que
+                        l’on<lb/>en dit</note>
+                </p>
+                <p>Je Vous supplie cher <lb/>ami, de commander <lb/>chez <persName key="H0013031">Chevalier</persName> un <lb/>
+                    <hi rendition="#u">microscope</hi> semblable <lb/>aux derniers qu’il <lb/>a <choice>
+                        <sic>envoyé</sic>
+                        <corr cert="high">envoyés</corr>
+                    </choice> ici, mais <lb/>par la poste adressé <lb/>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice>
+                    <persName key="H0004550">
+                        <hi rendition="#u">Link</hi></persName>.<hi rendition="#uu">
+                        <note hand="#author" place="left">Link</note>
+                    </hi> Faites <lb/>le payer <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <persName key="H0004453">Leo</persName> mais <lb/>
+                    <choice>
+                        <sic>recommander</sic>
+                        <corr cert="high">recommandez</corr>
+                    </choice> qu’on se <lb/>presse et que la <lb/>construction <choice>
+                        <orig>mecanique</orig>
+                        <reg>mécanique</reg>
+                    </choice>
+                    <lb/>et l’emballage des <lb/>
+                    <choice>
+                        <orig>pieces</orig>
+                        <reg>pièces</reg>
+                    </choice> soyent moins <lb/>mauvaisses. Observez <lb/>l’effet de ma lettre
+                    <lb/>sur <persName key="H0004414">Legendre</persName><supplied cert="high" prev="Legendre">.</supplied>
+                </p>
+                <closer rend="paragraph">
+                    <salute>Je Vous <lb/>embrasse tendrement </salute>
+                    <signed>Ht</signed>
+                    <dateline rend="align(right)"/>
+                </closer>
+            </div>
+            <postscript>
+                <p/>
+            </postscript>
+        </body>
+    </text>
+</TEI>

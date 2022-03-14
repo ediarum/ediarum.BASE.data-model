@@ -1,0 +1,148 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0006178" oldID="avhr_vm5_kcy_lv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [Anfang 1849]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1849-01-03" notAfter="1849-05-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund
+                        (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Ich bin innigst gerührt, mein edler <lb/>theurer Freund, von der
+                    aufopfernden Hingebung <lb/>mit der Sie bei Ihren Leiden, unter <lb/>denen die
+                    Schlaflosigkeit Sie am meisten <lb/>martern muss, <choice>
+                        <abbr>fur</abbr>
+                        <expan>für</expan>
+                    </choice> mich gearbeitet haben<supplied cert="high" prev="haben">.</supplied>
+                    <seg type="comment">
+                        <orig>
+                            <lb/>Ihre Berichtigungen und Zusäze sind <lb/>wie immer es bei Ihnen der
+                            Fall <lb/>war, voller gründlicher Klarheit <lb/>und Scharfsinn.</orig>
+                        <note xml:id="nfbh_jx1_fx">Siehe <ref target="avhr_zk4_nrl_mv">das
+                                vorausgehende Schreiben Humboldts </ref> sowie <ref target="avhr_anm_fwg_fw"> Kunths Berichtigungen und Ergänzungen zu
+                                Band 2 der Ansichten der Natur, 3. Auflage</ref>.</note>
+                    </seg> Man ahndet schwer, <lb/>dass es Ihnen so viel Anstrengung <lb/>kostet und
+                    da dies alles aus alter <lb/>Liebe <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice> mich geschehen ist, so <lb/>ist meine Dankbarkeit <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice> Sie <lb/>um so daurender, und inniger<supplied cert="high" prev="inniger">.</supplied>
+                    <lb/>Sie haben meine <seg type="comment">
+                        <orig>
+                            <hi rendition="#u">Ansichten der Natur</hi>
+                        </orig>
+                        <note xml:id="nmhk_3y1_fx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/ansichten%20der%20natur/qmode/everything">Humboldt 1849.</ref></note>
+                    </seg>
+                    <lb/>mehr bereichert als Sie Selbst <lb/>glauben und in der <seg type="comment">
+                        <orig>neuen vierten <lb/>Auflage</orig>
+                        <note xml:id="nw1r_my1_fx">Eine vierte Auflage von <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/ansichten%20der%20natur/qmode/everything">Humboldt 1849</ref> ist nicht mehr erschienen.</note>
+                    </seg> werde <supplied cert="high" prev="werde">ich</supplied> von diesen
+                    schönen <lb/>und lieben <choice>
+                        <orig>Blattern</orig>
+                        <reg>Blättern</reg>
+                    </choice> Gebrauch machen<supplied cert="high" prev="machen">.</supplied>
+                    <lb/>Sie sind aus Liebe <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice> mich sogar <lb/>in <choice>
+                        <orig>Zahlenverhaltnisse</orig>
+                        <reg>Zahlenverhältnisse</reg>
+                    </choice>
+                    <choice>
+                        <sic>eingangen</sic>
+                        <corr>eingegangen</corr>
+                    </choice>, <lb/>die bei der Aufmerksamkeit die sie <lb/>Ihnen gekostet, ich fast
+                        beklage<supplied cert="high" prev="beklage">.</supplied>
+                    <lb/>
+                    <pb n="1v"/>Auch hier zeigt sich wieder das <lb/>Edle Ihres Charakters und Ihre <lb/>
+                    <choice>
+                        <orig>Anhanglichkeit</orig>
+                        <reg>Anhänglichkeit</reg>
+                    </choice> an den, dessen <lb/>Existenz in wichtigen Epochen <lb/>des Lebens so
+                    ganz an die Ihrige <lb/>gefesselt gewesen ist<supplied cert="high">.</supplied>
+                    Ich will <lb/>Sie nicht durch Trostgründe <lb/>zu beruhigen versuchen die im
+                    <lb/>Widerspruch mit Ihren inneren <lb/>Gefühlen sind: aber ich kann mir
+                    <lb/>den Trost nicht versagen <add place="left">klar auszusprechen, dass</add>
+                    nach <lb/>Durchlesung der Blätter die Sie <lb/>mir geschenkt, ich <choice>
+                        <orig>uber</orig>
+                        <reg>über</reg>
+                    </choice> das was <lb/>Sie <choice>
+                        <orig>uber</orig>
+                        <reg>über</reg>
+                    </choice> Sich <choice>
+                        <orig>vermogen</orig>
+                        <reg>vermögen</reg>
+                    </choice>, erstaune <lb/>und heiterer für Sie in die <lb/>Zukunft sehe. Nur die
+                        grim<g ref="#typoHyphen"/><lb break="no"/>mige <choice>
+                        <orig>Kalte</orig>
+                        <reg>Kälte</reg>
+                    </choice> und die politischen <lb/>Minister Crisen, die ganz und <lb/>Sicherung
+                    gewährend vorüber sind, <lb/>haben mich so lange abhalten <lb/>können. Ich
+                    werde, da jezt <lb/>mildere Lüfte wehen, Sie und <lb/>Ihre edle, gemüthliche
+                        <rs type="person" key="H0001516">Gattinn</rs>
+                    <lb/>in den nächsten Tagen besuchen <lb/>und <hi rendition="#u">beiden</hi>
+                    danken, <hi rendition="#u">Ihnen</hi>
+                    <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice>
+                    <lb/>Ihre sich aufopfernde Freund<g ref="#typoHyphen"/><lb break="no"/>schaft <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice> mich, der <rs type="person" key="H0001516">Gattin</rs>
+                    <lb/>
+                    <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice> die Pflege, die sie Ihnen <lb/>klagelos schenkt. </p>
+                <closer>
+                    <signed>AlHumboldt</signed>
+                    <dateline>Mittwoch Nacht.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,293 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_ktd_tpd_scb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adolph Schlagintweit an Alexander von Humboldt. Berlin, 06. Februar
+                    1852</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Berlin</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Nachl.Alexander von Humboldt, gr. Kasten 2, Mappe 4, Nr. 20; 8-10</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015552">Schlagintweit, Adolph von (1829-1857)</persName>
+                    <placeName key="H0005221">Berlin (Hauptstadt der heutigen Bundesrepublik
+                        Deutschland)</placeName>
+                    <date when="1852-06-02" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <note place="mTop" hand="#addressee">
+                    <p>Vulcanica wichtig</p>
+                    <?oxy_comment_start author="goehmann" timestamp="20180219T155403+0100" comment="ansonsten kollationiert mit UP, 19.02.2018"?>
+                    <?oxy_comment_end?>
+                    <p>1) <persName key="H0003780">Bunsen</persName>
+                        <hi rendition="#u">Wasser</hi> Zoolith <lb/>(<persName key="H0003366">Bischof</persName>) <bibl sameAs="zotero-667230-MQ26HR4V"><choice>
+                                <abbr>Pog</abbr>
+                                <expan>Poggendorff</expan>
+                            </choice>
+                            <choice>
+                                <abbr>B<hi rendition="#sup">d</hi></abbr>
+                                <expan>Band</expan>
+                            </choice> 83 (1851) <choice>
+                                <abbr>n</abbr>
+                                <expan>Nummer</expan>
+                            </choice>
+                            <hi rendition="#sup">6</hi>
+                            <lb/><choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 197</bibl>
+                        <gap unit="words" quantity="2" reason="illegible"/></p>
+                    <p>2) <persName key="ed_w3y_tmv_hdb">Sénarmont</persName> finden <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice>
+                        <persName key="H0014251">Mitscherlich</persName><supplied cert="high">,</supplied>
+                        <lb/>ich besize beide Hefte<supplied cert="high">,</supplied> A <choice>
+                            <abbr>u</abbr>
+                            <expan>und</expan>
+                        </choice> B.<note place="left" hand="#author">formations <lb/>de quarz <choice>
+                                <abbr>Sénarm</abbr>
+                                <persName key="ed_w3y_tmv_hdb"><expan>Sénarmont</expan></persName>
+                            </choice>
+                            <lb/><choice>
+                                <abbr><hi rendition="#u">No</hi></abbr>
+                                <expan>Numéro</expan>
+                            </choice>
+                            <hi rendition="#u">B</hi>
+                            <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 14.<note place="mTop" hand="#author"><?oxy_comment_start author="lmartin" timestamp="20180328T143338+0200" comment="wirklich Senermont oder Senarmont"?>Senermont<?oxy_comment_end?>
+                                formation <lb/>artificielle par voye humide <lb/>du corindon et du
+                                    diaspore<supplied cert="high">.</supplied>
+                                <lb/>L'alumine a donné le corindon <lb/>anhydre, le diaspore
+                                    <lb/>hydrate<supplied cert="high">.</supplied>
+                                <lb/><choice>
+                                    <?oxy_comment_start author="paessler" timestamp="20180301T111254+0100" comment="H. de Senarmont, Note sur la formation artificielle, par voie humide, du corindon et du diaspore. In: Comptes rendus hebdomadaires des séances de l&apos;Académie des sciences 32  [sic!] 1851, 762-763."?>
+                                    <abbr>C.</abbr>
+                                    <expan>Comptes</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>rend.</abbr>
+                                    <expan>rendus</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>T.</abbr>
+                                    <expan>Tome</expan>
+                                </choice> 33 <lb/>1851 <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice>
+                                <lb/>763<?oxy_comment_end?><lb/></note></note>
+                        <lb/>über Einfluss der Chemie auf Geologie<supplied cert="high">.</supplied>
+                        <lb/><persName key="H0014251">Mitscherlich</persName><supplied cert="high">,</supplied>
+                        <persName key="H0003292">Berthier</persName>, <persName key="H0013386">Gay<supplied cert="high">-</supplied>Lussac</persName>
+                            (quid?)<supplied cert="high">.</supplied>
+                        <lb/><persName key="H0005855">Ebelmen</persName>
+                        <note place="left" hand="#author"><metamark/>Ebelmen <gap unit="words" quantity="1" reason="illegible"/>
+                            <lb/><choice>
+                                <abbr>Darst.</abbr>
+                                <expan>Darstellung</expan>
+                            </choice></note> von <lb/>Mineralien in <choice>
+                            <abbr><lb/>Rammelsb.</abbr>
+                            <expan>Rammelsberg</expan>
+                        </choice> 4<hi rendition="#sup">tes</hi>
+                        <lb/><choice>
+                            <abbr><hi rendition="#u">Suppl.</hi></abbr>
+                            <expan><hi rendition="#u">Supplement</hi></expan>
+                        </choice><hi rendition="#u"> </hi><choice>
+                            <abbr><hi rendition="#u">p.</hi></abbr>
+                            <expan><hi rendition="#u">pagina</hi></expan>
+                        </choice><hi rendition="#u"> LVII</hi><lb/><persName key="H0011594">Haidinger</persName> (Dolomie!)</p>
+                    <p>3) Suche <choice>
+                            <abbr>Mém</abbr>
+                            <expan>Mémoire</expan>
+                        </choice> d'<persName key="H0005901">Élie de Beaumont</persName>
+                        <lb/>sur les émanations <choice>
+                            <abbr>volc.</abbr>
+                            <expan>volcaniques</expan>
+                        </choice> et métallifère<supplied cert="high">s</supplied>
+                        <lb/>in Bulletin de la <choice>
+                            <abbr>Soc</abbr>
+                            <expan>Société</expan>
+                        </choice>
+                        <choice>
+                            <abbr>géolog.</abbr>
+                            <expan>géologique</expan>
+                        </choice>
+                        <lb/>2<hi rendition="#sup"><choice>
+                                <sic>me</sic>
+                                <corr cert="high">ième</corr>
+                            </choice></hi> Série <choice>
+                            <abbr>T</abbr>
+                            <expan>Tome</expan>
+                        </choice> 15 <choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 1219 übersezt von <lb/><choice>
+                            <abbr>Rammelsb.</abbr>
+                            <expan>Rammelsberg</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Deut</abbr>
+                            <expan>Deutsche</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Geol.</abbr>
+                            <expan>Geologische</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Zeitsch</abbr>
+                            <expan>Zeitschrift</expan>
+                        </choice>
+                        <lb/>II, 41 388.</p>
+                </note>
+                <opener>
+                    <salute><pb n="9r"/><gap unit="words" quantity="1" reason="lost"/><supplied cert="high">Euer</supplied> Excellenz!</salute>
+                </opener>
+                <p>Indem ich mit dem verbindlichste Danke <lb/>das Werk von <persName key="H0014271">Moleschott</persName> zurücksende, <lb/>erlaube ich mir zugleich Ihnen den
+                    Titel <lb/>der Abhandlungen von <persName key="H0003776">Bunsen</persName> u.<choice>
+                        <expan>und</expan>
+                    </choice> von <lb/><persName key="ed_w3y_tmv_hdb">Sénarmont</persName>
+                    mitzutheilen, über <gap unit="words" quantity="1" reason="lost"/><supplied cert="high">welche</supplied>
+                    <gap unit="words" quantity="1" reason="lost"/><supplied cert="high">ich</supplied>bei <lb/>unserem letzen Besuche die Ehre hatte mit <lb/>Ihnen
+                    zu sprechen. </p>
+                <p>Die ausführliche Abhandlung <persName key="H0003780"><hi rendition="#u">von
+                            Bunsen</hi></persName><lb/>über die Processe der vulkanischen
+                    Gesteinsbildungen <lb/><placeName key="H0006739">Islands</placeName>, befindet
+                    sich <bibl sameAs="zotero-667230-MQ26HR4V">Poggendorff Annalen <lb/>Bd. 83.
+                        1851. Seite 197–272</bibl>. Es sind hier als Auszug <lb/>seiner größeren
+                    Arbeit zahlreiche Analysen <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>sehr wichtige Bemerkungen, namentlich über <lb/>Zeolithbildung mitgetheilt,
+                    in dem (Seite 236, 237 usw<supplied cert="high">.</supplied>) <lb/>durch
+                    Versuche nachgewiesen ist, daß ein wasser<g ref="#typoHyphen"/><lb break="no"/>haltiges Silicat, wie es die Zeolithe sind, <lb/>in der Glühhitze nicht nur
+                    entstehen sondern sich<lb/><pb n="9v"/>auch erhalten kann, während es nachdem
+                    <lb/>es einmal abgeschieden <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> von seiner Umgebung <lb/>getrennt worden, schon bei 109<hi rendition="#sup">o</hi> ein <lb/>Fünftel <choice>
+                        <abbr>u.</abbr>
+                        <expan>und </expan>
+                    </choice> noch unter der Glühhitze alles <lb/>Wasser wieder verliert. Es wird
+                    hiedurch großes <lb/>Licht geworfen auf das bisher so räthselhafte
+                    <lb/>Vorkom̅en von wasserhaltigen Silicatbildungen <lb/>inmitten von
+                    plutonischen Gesteinen, Trapp,<lb/>Basalt, Melaphyr usw<supplied cert="high">.</supplied>, bei welchen man offenbar <lb/>bedeutende Temperaturen
+                    voraussetzen muß. <lb/>Dieses Vorkom̅en hatte <subst>
+                        <del rendition="#s">Bischoff</del>
+                        <persName key="H0003366"><add place="intralinear">Bischof</add></persName>
+                    </subst> bei <lb/>Betrachtung der augitischen <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                        <expan> </expan>
+                    </choice> basaltischen Gesteine <lb/>(Chemische Geologie Bd. II. Heft. 3. Seite
+                    509 usw<supplied cert="high">.</supplied> usw<supplied cert="high">.</supplied>)
+                    <lb/>zu der, wie sich jetzt zeigt, irrigen Annahme <lb/>veranlaßt, daß alle
+                    diese wasserhaltigen <lb/>Fossilien nur Folge späterer Zersetzungen <lb/><choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> wässeriger Infiltration nach Abkühlung <lb/>des Gesteins sein kön̅ten.
+                    —</p>
+                <p>Ich darf hier noch einer anderen Abhandlung <lb/><pb n="10r"/>von <persName key="H0003780">Bunsen</persName> erwähnen (Poggendorff Annalen <lb/>Bd. 81.
+                    1850. <choice>
+                        <abbr>S.</abbr>
+                        <expan>Seite</expan>
+                    </choice> 562–567) über den Einfluß <lb/>des Drucks auf die chemische Natur der
+                    <lb/>plutonischen Gesteine, in welchen zuerst durch <lb/>Versuche der Beweis
+                    geliefert wurde, <lb/>„daß der Druck auf das Festwerden <lb/>der plutonischen
+                    Gebirge und auf die <lb/>chemische Constitution der darin enthaltenen
+                    <lb/>Gemengetheile einen großen, vielleicht <lb/>noch größeren Einfluß ausgeübt
+                    hat, <lb/>als selbst die Verhältnisse der Abkühlung“. <persName key="ed_w3y_tmv_hdb"><lb/><hi rendition="#u">H. de Senarmont</hi></persName>
+                    (jetzt an <persName key="H0003314">Beudant's</persName> Stelle in <lb/>die
+                    Akademie gewählt) hat seine wichtigen <lb/>Versuche über künstliche Bildung von
+                    Quarzkrystallen <lb/>usw. auf nassem Wege beschrieben in den <lb/>Annales de
+                    chimie, troisième série tome 32. <lb/>1851. <choice>
+                        <abbr>p.</abbr>
+                        <expan>page</expan>
+                    </choice> 129–176.</p>
+                <p>Eine frühere Abhandlung <subst>
+                        <del rendition="#s">über,</del>
+                        <add place="intralinear">sur</add>
+                    </subst> la
+                  
+                    <lb/><pb n="10v"/>formation artificielle, par voie <gap unit="words" quantity="1" reason="lost"/><lb/>quelques espèces minérales qui ont pu se <lb/>produire
+                    dans les sources thermales sous <lb/>l'influence combinée de la chaleur et de
+                    <lb/>la pression, ist Annales de chimie <lb/><choice>
+                        <abbr>trois.</abbr>
+                        <expan>troisème</expan>
+                    </choice>
+                    <choice>
+                        <abbr>sér.</abbr>
+                        <expan>série</expan>
+                    </choice>
+                    <subst>
+                        <del rendition="#ow">tolme</del>
+                        <add place="across">tome. </add>
+                    </subst>30. 1850. <choice>
+                        <abbr>p.</abbr>
+                        <expan>page </expan>
+                    </choice>129–146.</p>
+                <closer>
+                    <salute>Ich habe die Ehre zu sein <lb/>Euer Excellenz <lb/>dankbarst
+                        ergebenster</salute>
+                    <signed>Adolph Schlagintweit</signed>
+                    <dateline>Berlin<supplied cert="high">,</supplied> den 6<supplied cert="high">.</supplied> Februar 1852.</dateline>
+                    <address>
+                        <addrLine><choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Excellenz</addrLine>
+                        <addrLine>Baron <choice>
+                                <abbr>Alex.</abbr>
+                                <expan>Alexander</expan>
+                                <expan> </expan>
+                            </choice>von Humboldt <lb/><choice>
+                                <abbr>etc</abbr>
+                                <expan>et cetera</expan>
+                            </choice>
+                            <choice>
+                                <abbr>etc</abbr>
+                                <expan>et cetera</expan>
+                            </choice>
+                            <choice>
+                                <abbr>etc</abbr>
+                                <expan>et cetera</expan>
+                            </choice>
+                            <choice>
+                                <abbr>etc.</abbr>
+                                <expan>et cetera</expan>
+                            </choice></addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

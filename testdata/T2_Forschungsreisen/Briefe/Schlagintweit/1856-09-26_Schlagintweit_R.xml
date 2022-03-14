@@ -1,0 +1,129 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_ftr_phl_bdb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Robert Schlagintweit an Alexander von Humboldt. </title>
+                <title>Leh in Ladak, 26. September 1856</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Bayerische Staatsbibliothek</institution>
+                        <collection/>
+                        <idno>Schlagintweitiana II.1.43</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015556">Schlagintweit, Robert, Freiherr von
+                        (1833-1885)</persName>
+                    <placeName key="H0011406">Leh (Hauptstadt von Ladakh)</placeName>
+                    <date when="1856-09-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener><pb n="316r"/>
+                    <salute>Hochverehrteste
+                        <?oxy_comment_start author="lmartin" timestamp="20180320T151512+0100" comment="einmal kollationiert mit UP am 20.03.2018"?>Excellenz<?oxy_comment_end?>!
+                        <lb/></salute></opener>
+                <p>Es gelang uns jüngst, <persName key="H0015557">Herman</persName> und mir <lb/>selbst, unsere Beobachtungen auf
+                    einem <lb/>für uns besonders interessanten Wege <lb/>quer durch den <placeName key="H0000502">Kuenluen</placeName>, bis in die Nähe <lb/>von <placeName key="H0000412">Elghi</placeName>, der Hauptstadt <placeName key="H0000412">Khotans</placeName> fortzu<g ref="#typoHyphen"/><lb break="no"/>setzen.</p>
+                <p>Der Umstand, daß so viel wir <lb/>wissen, es niemals noch ein Europäer
+                    <lb/>versucht hatte, die Grenze von <placeName key="H0011319">Ladak</placeName>
+                    und <lb/><pb n="316v"/><placeName key="H0009597">Turkistan</placeName> zu
+                    überschreiten, mag wohl sehr <lb/>wesentlich, vielleicht mehr als unsere
+                    <lb/>eigenen, sehr geheimen Vorbereitungen <lb/>zu <placeName key="H0011406">Leh</placeName>, dazu beigetragen haben, uns diese <lb/>Reise möglich zu
+                    machen.</p>
+                <p>Dem Berichte, den wir uns erlaubten <lb/><persName key="H0002178"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Seiner </expan>
+                        </choice><choice>
+                            <abbr>M.</abbr>
+                            <expan>Majestät</expan>
+                        </choice>
+                        <choice>
+                            <abbr>d.</abbr>
+                            <expan>dem</expan>
+                        </choice> Könige</persName> vorzulegen, fügten <lb/>wir auch eine
+                    Zusammenstellung einiger <lb/>Resultate bei; vielleicht dürfte diese
+                    <lb/>Zusam̅enstellung, wenigstens ihrer <lb/>Form nach, nicht ganz unpassend
+                    sein, <lb/>vielleicht durch Ihre gütige Vermittlumng <lb/><pb n="317r"/>den
+                    Academieen zu <orgName key="H0000569">Berlin</orgName> und <orgName key="ed_m1c_h4q_fdb">Paris</orgName> mit<g ref="#typoHyphen"/><lb break="no"/>getheilt zu werden; (der <orgName key="H0000581">Royal Society</orgName>
+                    <lb/>werden immer unsere Schriften von <persName key="ed_hvb_lxb_wcb">Colonel
+                        <lb/>Sykes</persName> vorgelegt.)</p>
+                <p>Wir fühlen lebhaft, wie unvollständig <lb/>dieser Bericht erscheinen muß und wie
+                    sehr <lb/>es für uns nöthig ist, nachsichtige Beurthei<g ref="#typoHyphen"/><lb break="no"/>lung zu beanspruchen, besonders von Eu<g ref="#typoHyphen"/><lb break="no"/>rer Excellenz.</p>
+                <p>Wir hatten so oft das Glück, Ihrer <lb/>unschätzbaren Belehrungen <add place="superlinear">uns</add> zu erfreuen, <lb/>daß die Erin̅erung
+                    daran uns nur um<lb/><pb n="317v"/>so ängstlicher macht so allgemein gehaltene
+                    <lb/>und gedrängte Mittheilungen, von der <lb/>Zeit fast bedrängt, senden zu
+                    müssen.</p>
+                <note place="mTop" hand="H0015557">PS. Empfangen Sie <unclear reason="illegible" cert="high"><?oxy_comment_start author="lmartin" timestamp="20180320T144850+0100" comment="anders auszeichnen? Textverlust und rekonstruierter Text"?>meinen<?oxy_comment_end?></unclear>
+                    ganz <lb/>verbindlichsten Dank, <unclear reason="illegible" cert="high">mir</unclear> die ermuthi<g ref="#typoHyphen"/><lb break="no"/>gende
+                    Aufnahme, <unclear reason="illegible" cert="high">die</unclear> unser Bruder
+                        <lb/><persName key="H0015554">Emil</persName> bei Ihnen gefunden hat; alles
+                    <lb/>was er uns darüber schreibt ist uns um <lb/>so erfreulicher, da es uns auf
+                    das lebhafteste <lb/><unclear reason="illegible" cert="high">an</unclear> die
+                    für uns so wichtige Zeit erin̅ert in der <lb/>wir selbst das Glück hatten, mit <choice>
+                        <abbr>E.</abbr>
+                        <expan>Eurer </expan>
+                    </choice>Excellenz bekan̅t zu <lb/>sein<supplied cert="high">.</supplied><lb/></note>
+                <closer>
+                    <salute>Mit den verbindlichsten Empfehlun<g ref="#typoHyphen"/><lb break="no"/>gen von <persName key="H0015557">Hermann</persName> verbleibe ich <lb/>mit
+                        ausgezeichnetster Verehrung und <lb/>unbegrenzter Hochachtung.</salute>
+                    <salute>Euer Excellenz </salute>
+                    <salute>dankbarst ergebener </salute>
+                    <signed>Robert Schlagintweit</signed>
+                    <dateline>Leh, in Ladak,</dateline>
+                    <dateline>26. <choice>
+                            <abbr>Sept.</abbr>
+                            <expan>September</expan>
+                        </choice> 1856. <lb/><address>
+                            <addrLine><choice>
+                                    <abbr>Sr.</abbr>
+                                    <expan>Seiner</expan>
+                                </choice> Excellenz</addrLine>
+                            <addrLine><choice>
+                                    <abbr>Hr.</abbr>
+                                    <expan>Herr</expan>
+                                </choice> Baron von Humboldt</addrLine>
+                            <addrLine><choice>
+                                    <abbr>etc</abbr>
+                                    <expan>et cetera</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>etc.</abbr>
+                                    <expan>et cetera</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>etc</abbr>
+                                    <expan>et cetera</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>etc</abbr>
+                                    <expan>et cetera</expan>
+                                </choice></addrLine>
+                        </address></dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

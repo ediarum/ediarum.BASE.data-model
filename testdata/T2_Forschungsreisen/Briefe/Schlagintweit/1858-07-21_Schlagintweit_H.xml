@@ -1,0 +1,93 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_vkl_qmb_1db">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hermann Schlagintweit an Alexander von Humboldt. London, 21. Juli
+                    1858</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Deutsches Literaturarchiv Marbach</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>A:Humboldt 62.2276</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                    <placeName key="H0011492">London [Londres]</placeName>
+                    <date when="1858-07-21" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <pb n="1r"/><dateline>117 Jermynstreet <lb/>Juli 21 1858</dateline>
+                    <salute><?oxy_comment_start author="lmartin" timestamp="20180320T150720+0100" comment="einmal kollationiert mit UP am 20.03.2018"?>Hochverehrteste<?oxy_comment_end?>
+                        Excellenz!</salute>
+                </opener>
+                <p>Empfangen Sie unseren <lb/>wärmsten Dank für <lb/>die theilnahmsvolle
+                    <lb/>Mittheilung der Nachrichten <lb/>über <persName key="H0015552">Adolph</persName>; so sehr sie<lb/>noch der Bestätigung be<g ref="#typoHyphen"/><lb break="no"/>dürfen (wir haben seit <lb/>12 Monaten
+                    keine Zeile <lb/>von <persName key="H0015552">Adolph</persName> oder irgend<g ref="#typoHyphen"/><lb break="no"/>einem seiner Leute erhalten) <lb/>es sind
+                    doch diese letzten <lb/><pb n="1v"/>Nachrichten, wenigstens <lb/>dem Inhalte
+                    nach nicht <lb/>ganz ohne Wahrscheinlich<g ref="#typoHyphen"/><lb break="no"/>keit; gerade der Aufent<g ref="#typoHyphen"/><lb break="no"/>halt in <choice>
+                        <sic>dieser</sic>
+                        <corr cert="high">diesen</corr>
+                    </choice> Gegenden <lb/>liesse das lange Ausbleiben <lb/>aller Nachrichten
+                    erklären <lb/>ohne gerade das Schlim̅ste <lb/>zu fürchten.</p>
+                <p>Auch hier sind heute <lb/>Briefe und die Dehli <lb/>Gazette <choice>
+                        <sic>angekomen</sic>
+                        <corr cert="high">angekommen</corr>
+                    </choice>, die <lb/>in de<subst>
+                        <del rendition="#ow">n</del>
+                        <add place="intralinear">r</add>
+                    </subst>
+                    <del rendition="#s"><gap quantity="2" unit="words"/></del> Indian <lb/>Mail
+                    ausgezogen sind; wir <lb/>erlauben uns diese noch <lb/>beizulegen.</p>
+                <p>Es freut uns zugleich <lb/>beifügen zu können, <lb/>dass unter<persName key="ed_hvb_lxb_wcb">
+                        <choice>
+                            <abbr>Col</abbr>
+                            <expan>Colonel</expan>
+                        </choice> Sykes</persName>
+                    <lb/>thätiger und erfolgreicher <lb/>Hilfe, ungeachtet aller <lb/>politischer
+                    Stürme denen <lb/>das <orgName key="ed_xqn_1bd_wcb">India house</orgName> in
+                    <lb/>seiner bisherigen Form <lb/>unterlegen ist, unsere <lb/>Arrangements mit
+                    dem, <lb/><orgName key="ed_xqn_1bd_wcb">Indiahouse</orgName> gerade noch
+                    <lb/>zur rechten Zeit glücklich <lb/>beendet wurden. Wir waren <lb/>ohnehin eben
+                    im Begriffe <lb/>Ihnen diese angenehme <lb/>Nachricht mitzutheilen, als</p>
+                <p><pb n="2r"/>wir das Glück hatten Ihren <lb/>Brief zu erhalten.</p>
+                <p>Wir werden selbst in wenigen <lb/>Tagen (etwa 28) in Berlin <lb/>eintreffen, wo
+                    es uns eine <lb/>ganz besondere Freude sein <lb/>wird Sie wieder zu begrüssen,
+                    <lb/>und Ihnen mündlich alles <lb/>Nähere mitzutheilen.</p>
+                <closer><salute>Mit dem Ausdrucke <lb/>ausgezeichnetster Hochachtung <lb/>und Verehrung</salute>
+                    <salute>Euer Excellenz <lb/>dankbarst ergebener</salute>
+                    <signed><choice>
+                            <abbr>H.</abbr>
+                            <expan>Hermann </expan>
+                        </choice>Schlagintweit.</signed>
+                </closer><pb n="2v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

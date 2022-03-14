@@ -1,0 +1,191 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002933" oldID="avhr_b14_dr4_kv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 27. November
+                    1833–16. Dezember 1833]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date from="1833-11-27" to="1833-12-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Im Beginn des Briefes geht Humboldt auf den „Wahlkampf“
+                    Pierre-Jean-François Turpins um die Mitgliedschaft in der Pariser Académie des
+                    Sciences ein. Die erfolgreiche Wahl in die Section d'économie rurale der
+                    Akademie fand am 16. Dezember 1833 statt. Die in der Nachschrift enthaltene
+                    Andeutung auf „Oltmanns Gehalt“ bezieht sich wahrscheinlich auf Humboldts
+                    Bemühungen um die Finanzierung der Fortsetzung astrogeodätischer
+                    Berechnungsarbeiten Oltmanns' bereits unmittelbar nach dessen Tod am 27.
+                    November 1833 (vgl. Humboldt an Johann Franz Encke, [Berlin, wohl 3. Dezember
+                    1833], <bibl sameAs="zotero-667230-VCCG2H8C">Humboldt 2013</bibl>, 136–137). </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <p>
+                    <pb n="1r"/>Ich glaubte der <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="njxc_d2t_2x">Dieser Brief <persName key="H0004093">Pierre-Jean-François Turpins</persName> an Humboldt konnte bislang
+                            nicht nachgewiesen werden.</note>
+                    </seg> könne <lb/>Sie interessiren. Er nennt <lb/>übrigens nicht einmal die
+                    <lb/>Concurrenten. Ich habe <lb/>nicht einmal einen einzigen <lb/>Brief von hier <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice>
+                    <persName key="H0002750">
+                        <choice>
+                            <abbr>Valenc.</abbr>
+                            <expan>Valenciennes</expan>
+                        </choice>
+                    </persName>
+                    <lb/>bei seiner <choice>
+                        <orig>verunglukten</orig>
+                        <reg>verunglückten</reg>
+                    </choice>
+                    <lb/>Wahl geschrieben<supplied cert="high" prev="geschrieben">.</supplied> Es
+                    ist in <lb/>solcher Ferne ganz <choice>
+                        <orig>unnuz</orig>
+                        <reg>unnüz</reg>
+                    </choice>
+                    <lb/>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> da ich <choice>
+                        <orig>ohngefahr</orig>
+                        <reg>ohngefähr</reg>
+                    </choice> 14 <choice>
+                        <orig>Manner</orig>
+                        <reg>Männer</reg>
+                    </choice>
+                    <lb/>kenne, die herein wollen <lb/>so <choice>
+                        <orig>hatte</orig>
+                        <reg>hätte</reg>
+                    </choice> ich alle Jahre <lb/>4–5 Mahl ein Duzend <lb/>Briefe zu schreiben. Da
+                    <lb/>ich ohnedies an <persName key="H0003660">Mirbel</persName>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>
+                    <persName key="H0013410">Geoffroy</persName> zu
+                    antworten habe <lb/>so werde ich da <persName key="H0004093">Turpin's</persName>
+                    <lb/>erwähnen „pour conserver la <lb/>paix avec lui.“</p>
+                <p>Mille tendres amitiés<supplied cert="high" prev="amitiés">.</supplied>
+                </p>
+                <p>Nun fällt alles auf <persName key="H0011210">Oltmanns</persName>
+                    <lb/>Gehalt. Mein Haus ist ein <lb/>Klage<supplied cert="high" prev="Klage">-</supplied>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Jammer-Institut <lb/>à n'y pas tenir<supplied cert="high">.</supplied>
+                </p>
+                <p>Ht</p>
+                <p>
+                    <seg type="comment">
+                        <orig>Ein wirkliches Zeichen der Geistes<g ref="#typoHyphen"/><lb break="no"/>Abwesenheit von <persName key="H0004482">Dr<supplied cert="high" prev="Dr">.</supplied>
+                                Lessing</persName><supplied cert="high" prev="Lessing">.</supplied>
+                            <lb/>Sein <rs type="person" key="H0004481">Vater</rs> schreibt mir
+                            ich <lb/>solle dem <rs type="person" key="H0004482">Sohn</rs> nach <placeName key="H0010218">Sibirien</placeName>
+                            <lb/>(in einem Briefe?) eine Flinte <lb/>schikken die er fordere aus <lb/>
+                            <subst>
+                                <del rendition="#s">
+                                    <placeName key="H0008855">Miask</placeName>
+                                </del>
+                                <add place="intralinear">
+                                    <placeName key="H0015024">Slatoust</placeName>
+                                </add>
+                            </subst> schreibend wo die <choice>
+                                <orig>schone</orig>
+                                <reg>schöne</reg>
+                            </choice>
+                            <lb/>
+                            <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice> wohlfeile Gewehrfabrik ist! <lb/>Die Kiste ist noch in
+                                <placeName key="H0010361">Stettin</placeName>.</orig>
+                        <note xml:id="nhzd_hdt_2x">Vgl. <ref target="avhr_inh_qy4_3v">Humboldt an
+                                Kunth, [Berlin], Freitag, [26. Oktober 1832</ref>].</note>
+                    </seg>
+                </p>
+                <p>
+                    <persName key="H0016017">Sprengels</persName>
+                    <rs type="person" key="H0016016">Sohn</rs> der <lb/>Senator <seg type="comment">
+                        <orig>schreibt mir</orig>
+                        <note xml:id="nxx1_pvw_bx">Dieser Brief konnte bislang nicht nachgewiesen
+                            werden.</note>
+                    </seg>
+                    <lb/>er <hi rendition="#u">beschränke</hi> sich auf <lb/>folgende Bitten 1. ich
+                    <lb/>solle der <rs type="person" key="H0016014">Mutter</rs> 400 <measure quantity="400" unit="reichsthaler">
+                        <choice>
+                            <abbr>r</abbr>
+                            <expan>Reichstaler</expan>
+                        </choice>
+                    </measure> Pen<lb break="no"/>sion auswirken. 2. das Haus
+                    <lb/>kaufen lassen zu 8000 <measure quantity="8000" unit="reichsthaler">
+                        <choice>
+                            <abbr>r</abbr>
+                            <expan>Reichstaler</expan>
+                            <expan>n</expan>
+                        </choice>
+                    </measure>
+                    <lb/>3. den <seg type="comment">
+                        <orig>Sohn</orig>
+                        <note xml:id="njm5_nlv_dw">Möglicherweise Kurt Sprengels jüngster Sohn
+                                <persName key="H0016013">Anton Sprengel</persName>, der
+                            ebenfalls Botaniker in <placeName key="H0006785">Halle</placeName> war.
+                        </note>
+                    </seg> in <placeName key="H0010689">Russland</placeName>
+                    <choice>
+                        <abbr>od</abbr>
+                        <expan>oder</expan>
+                    </choice>
+                    <placeName key="H0005653">
+                        <lb/>England</placeName>! anstellen 4<supplied cert="high" prev="4">.</supplied> mit <persName key="H0012037">Hufe<lb break="no"/>land</persName> mich an die Spize einer <lb/>
+                    <choice>
+                        <abbr>Subscr.</abbr>
+                        <expan>Subscription</expan>
+                    </choice> stellen zu <add place="left">einer Ehren Medaille!</add>
+                    <lb/>
+                    <lb/>
+                    <lb/>
+                </p>
+                <closer>
+                    <salute/>
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0006053" oldID="prov_lgf_ncn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Karl Ludwig Willdenow. Havanna, 4. März
+                    1801</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>American Philosophical Society
+                            Philadelphia</institution>
+                        <repository>Library, Manuscript Department</repository>
+                        <collection>Alexander von Humboldt Papers</collection>
+                        <idno>B.H88</idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" sameAs="zotero-667230-CD8ZDJ5R">Humboldt 1993,
+                            131–134</bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0006819">Havanna</placeName>
+                    <date when="1801-03-04" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0006403">Willdenow, Karl Ludwig (1765–1812) </persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="align(right)"/>
+                    <salute>
+                        <pb n="1r"/>Liebster Freund,</salute>
+                </opener>
+                <p>In meinem lezten Briefe versprach ich Dir eine Samlung aus<g ref="#typoHyphen"/><lb break="no"/>erlesener Pflanzen (250 <choice>
+                        <abbr>Spec</abbr>
+                        <expan>Species</expan>
+                    </choice>) welche ich Dir zum Geschenk <lb/>
+                    <choice>
+                        <abbr>bestim̅t</abbr>
+                        <expan>bestimmt</expan>
+                    </choice> habe. Heute gehen <choice>
+                        <sic>Sie</sic>
+                        <corr cert="high">sie</corr>
+                    </choice> ab, mein Lieber <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>die Eil mit der ich Sie einpakke hindert mich die Be<g ref="#typoHyphen"/><lb break="no"/>schreibungen zu copiren. Bewahre die <choice>
+                        <abbr>n<hi rendition="#sup">
+                                <hi rendition="#u">o</hi>
+                            </hi>
+                        </abbr>
+                        <expan>Nummern</expan>
+                    </choice> wenn Du die <lb/>Pflanzen in Dein Herbarium legst. Sie werden einst
+                    <lb/>sehr nüzlich sein. Die Melastomae, Befariae, Paulliniae<supplied cert="high">,</supplied>
+                    <lb/>Poriana… sind Dir gewiß angenehm.</p>
+                <p>1700 <choice>
+                        <abbr>Spec.</abbr>
+                        <expan>Species</expan>
+                    </choice> ebenfalls Früchte unsrer Reise am <rs type="place" key="H0010593">Orinoco</rs>,<rs type="place" key="H0010589">
+                        <lb/>Río Negro</rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> der <rs type="place" key="H0008124">Parime</rs> , 1700 <choice>
+                        <abbr>Spec</abbr>
+                        <expan>Species</expan>
+                    </choice> (die doubletten <lb/>abgerechnet) sind Dir ebenfalls zum Geschenk <choice>
+                        <abbr>bestim̅t</abbr>
+                        <expan>bestimmt</expan>
+                    </choice>, wie <lb/>alle alle Pflanzen welche ich samle. Mr. <rs type="person" key="H0000256">John Fraser</rs>
+                    <lb/>den Du aus <rs type="person" key="H0006233">Walters</rs>
+                    <seg type="comment">
+                        <orig>Flora</orig>
+                        <note xml:id="nkgp_h2p_bx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/U3V7FR3N/q/Walter">Walter 1788.</ref></note>
+                    </seg> kennst, bringt sie nach <rs type="place" key="H0005653">Eng<g ref="#typoHyphen"/><lb break="no"/>land</rs>. Diese 1700 <choice>
+                        <abbr>Spec.</abbr>
+                        <expan>Species</expan>
+                    </choice> bitte ich Dich, da ich meine <lb/>Pflanzen selbst zu ediren gedenke,
+                    vor meiner Rükkunft <lb/>
+                    <pb n="1v"/>noch <hi rendition="#u">nicht</hi> in Dein Herbarium einzurangiren,
+                        da<lb break="no"/>mit mir die Arbeit leichter ist. <rs type="person" key="H0000256">Fraser</rs> wird <lb/>Dir schreiben, so bald er mit
+                    dem Pflanzenschaz <lb/>
+                    <choice>
+                        <abbr>ankom̅t</abbr>
+                        <expan>ankommt</expan>
+                    </choice>. Du siehst daß ich mein Versprechen <lb/>halte <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> daß wir auf einer Reise, die nicht eigent<lb break="no"/>lich
+                    botanische Zwekke hat, nicht faul sind.</p>
+                <p>Ich reise morgen von hier nach <rs type="place" key="H0007180">Carthagena</rs><supplied cert="high">,</supplied>
+                    <lb/>
+                    <rs type="place" key="H0008052">Panama</rs><supplied cert="high">,</supplied>
+                    <rs type="place" key="H0011115">Guajaquil</rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Quito ab, von da <lb/>nach <placeName key="H0011439">Lima</placeName>, dann <rs type="place" key="H0002309">Acapulco</rs>, <rs type="place" key="H0008847">Mexico</rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <rs type="place" key="H0008248">Phi<lb break="no"/>lippinen</rs>. So ist
+                    mein Plan. Meine Gesundheit <lb/>ist eisern fest. </p>
+                <p>Ich umarme Dich herzlich. Mein Begleiter <lb/>
+                    <rs type="person" key="H0003476">Bonpland</rs>, ein sehr wakkerer
+                    Botanist, grüßt <lb/>Dich unbekannter Weise. Tausend Empfehlungen an <lb/>Dein
+                    liebes <persName key="H0006401">Weib</persName><supplied cert="high">.</supplied>
+                </p>
+                <signed>A Humboldt.</signed>
+                <closer rend="paragraph">
+                    <dateline>Havana <lb/>den 4<supplied cert="high">.</supplied> Merz <lb/>1801.<address>
+                            <addrLine>
+                                <pb n="2r"/>À Monsieur </addrLine>
+                            <addrLine>
+                                <choice>
+                                    <abbr>Mr.</abbr>
+                                    <expan>Monsieur</expan>
+                                </choice>
+                            </addrLine>
+                            <addrLine>le Professeur <hi rendition="#u">Willdenow</hi>
+                            </addrLine>
+                            <addrLine>Membre de l'Académie</addrLine>
+                            <addrLine>
+                                <hi rendition="#u">Berlin</hi>
+                            </addrLine>
+                            <addrLine>en Allemagne </addrLine>
+                            <addrLine>
+                                <add place="right">
+                                    <hi rendition="#u">Germany</hi>
+                                </add>
+                            </addrLine>
+                            <addrLine> </addrLine>
+                            <addrLine>avec une Caisse</addrLine>
+                            <addrLine>signée <hi rendition="#u">Prussia</hi>
+                            </addrLine>
+                            <addrLine>contenant des plantes</addrLine>
+                            <addrLine>sèches.</addrLine>
+                            <addrLine> </addrLine>
+                        </address>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

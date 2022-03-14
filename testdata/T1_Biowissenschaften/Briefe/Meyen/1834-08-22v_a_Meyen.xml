@@ -1,0 +1,159 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0001202" oldID="avhr_nj5_gjg_1w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
+                    vor 22. August 1834</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin,
+                            Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 820 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 12,10 cm , B: 9,80 cm</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1833-08-22" notAfter="1834-08-21" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p><pb n="1r"/><gap unit="pages" quantity="1" reason="empty"/></p>
+                <p><pb n="1v"/>Anfang</p>
+                <p>Verzeihen Sie theurester Herr <lb/>Doctor, dass ich durch meine <lb/>Abwesenheit
+                    gehindert Ihnen <lb/>so spät erst Ihr schönes <lb/><choice>
+                        <abbr>Mém.</abbr>
+                        <expan>Mémoir</expan>
+                    </choice> über <seg type="comment">
+                        <orig>Saftbewegung</orig>
+                        <note xml:id="nphm_qhk_bw">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/A2AU67FU">Meyen 1834</ref>.</note>
+                    </seg> zu<lb break="no"/>rükgebe. Es ist mir sehr <lb/>wichtig gewesen da es (wie <lb/>alles was Sie
+                        schreiben) mit <lb/>der
+                    übersichtlichsten Klarheit <lb/>abgefasst ist. Sollte das <orgName key="H0000552"><choice>
+                            <abbr>Ins</abbr>
+                            <expan>Institut de France</expan>
+                        </choice></orgName>
+                    <lb/>der angeführten Formen wegen <lb/>es etwa nicht drukken <lb/>so wird dies
+                    wenn Sie es <lb/>wünschen, durch mich ver<lb break="no"/>anlasst, sogleich bei
+                        <persName key="H0003679"><choice>
+                            <abbr>Brongn</abbr>
+                            <expan>Brongniard</expan>
+                        </choice></persName>
+                    <lb/>(Annales de <choice>
+                        <abbr>Phys.</abbr>
+                        <expan>Physique</expan>
+                    </choice>) geschehen<supplied cert="high">,</supplied>
+                    <lb/>der Ihnen dann besondere <lb/>Abdrukke senden soll. Ich <lb/><pb n="2r"/>
+                    freu mich unendlich dass end<g ref="#typoHyphen"/><lb break="no"/>lich der Druk
+                    Ihres wichtigen <lb/>Reisewerks beginnt <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> unter <lb/>so leichten Bedingungen. <lb/>Wie man die leichteste Lösung
+                    <lb/>eines Problems immer zulezt <lb/>findet. Ich habe <choice>
+                        <abbr>Min.</abbr>
+                        <expan>Minister</expan>
+                    </choice>
+                    <persName key="H0012589">Alten<g ref="#typoHyphen"/><lb break="no"/>stein</persName> von neuem (in einer Zeit <lb/>wo er
+                    die <unclear reason="illegible" cert="low">Phastik</unclear> der <lb/><choice>
+                        <abbr>ausserord.</abbr>
+                        <expan>ausserordentlichen</expan>
+                    </choice> Professoren betreibt <lb/>decent) an Sie <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Ihre trefli<lb break="no"/>chen Arbeiten erinnert. Ich <lb/>rathe
+                    Ihnen sehr sich ihm <lb/>selbst in Erinnerung zu brin<g ref="#typoHyphen"/><lb break="no"/>gen<supplied cert="high">,</supplied> in dem Sie ihm den
+                    <lb/>Druk des Werks anzeigen. Sie <lb/>wissen dass ich Ihr Interesse <lb/>nie
+                    aus den Augen verliere. <lb/><pb n="2v"/> Ich habe alles nach <lb/>dem Fucus
+                    durchsucht <lb/>(vergebens) <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> da ich gar keine <lb/>getroknete Pflanzen besize, <lb/>bin ich sicher,
+                    dass ich <lb/>die Exemplare nicht habe. <lb/>Eben aber fällt mir ein <lb/>ich
+                    könne sie an <persName key="H0001517">Kunth</persName>
+                    <lb/>zur Vergleichung gegeben <lb/>haben<supplied cert="high">.</supplied> Ich
+                    schikke so <lb/>eben hin. Verzeihen Sie <lb/>ja, mein Theuerster, <lb/>diese von
+                    mir verschulde<lb break="no"/>te Unordnung. Ich bewah<lb break="no"/>re aber
+                    noch von Ihnen <lb/><seg type="comment">
+                        <orig>ein Blatt <choice>
+                                <abbr>meteor.</abbr>
+                                <expan>meteorologischer</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Beob</abbr>
+                                <expan>Beobachtungen</expan>
+                            </choice>
+                            <lb/>aus <placeName key="H0011439">Lima</placeName></orig>
+                        <note xml:id="nxlq_whk_bw">Dieses doppelseitig von Meyen beschriebene Blatt
+                            mit „Beobachtungen der Luft-Temperatur zu Lima im Maius 1831“ findet
+                            sich im Berliner Nachlass Alexander von Humboldts (<ref target="http://kalliope-verbund.info/DE-611-HS-1021416">Staatsbibliothek zu Berlin-Preußischer Kulturbesitz, Nachlass
+                                Alexander von Humboldt, gr. Kasten 4, Nr. 21; 11-13</ref>). Zwei
+                            angeklebte Zettel von Humboldts Hand belegen, dass er mit Meyens
+                            Aufzeichnungen noch 1845 gearbeitet hat.</note>
+                    </seg>. &#160; </p>
+                <closer>
+                    <salute> Mit freundschaftlichster Hochachtung </salute>
+                    <signed> Ihr AlHumboldt </signed>
+                    <dateline>Mittwochs</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

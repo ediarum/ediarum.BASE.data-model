@@ -1,0 +1,265 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002653" oldID="avhr_mw4_1kg_1w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch
+                    [1834]</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin,
+                            Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 825 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 23,00 cm , B: 14,00 cm; Wasserzeichen: J. Whatman, Turkey Mill
+                            1833</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1834-01-01" notAfter="1834-12-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Empfangen Sie, theurester Herr Doctor, <lb/>meinen wärmsten Dank für
+                    Ihre <seg type="comment">
+                        <orig>Saftbewe<lb break="no"/>gung</orig>
+                        <note xml:id="nhnh_3jj_bw">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/A2AU67FU">Meyen 1834</ref>. Das achtseitige Werk, erschienen 1834, war in
+                            Humboldts Bibliothek vorhanden. Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/8ZURHD9U">Stevens 1967</ref>, Nr. 6607.</note>
+                    </seg>, den besonderen Abdruk der Carte <lb/>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> den Genuss<supplied cert="high">,</supplied> den mir (und Herrn <lb/>
+                    <persName key="H0003735">
+                        <choice>
+                            <abbr>v</abbr>
+                            <expan>von</expan>
+                        </choice> Buch</persName>: er fordert mich auf es <lb/>Ihnen zu sagen) die
+                    Lesung Ihrer <lb/>gehaltvollen Reise verschaft hat<supplied cert="high">.</supplied>
+                    <lb/>Ich würde allerdings mit Ihnen über <lb/>die kalte Ströhmung an der
+                        perua<lb break="no"/>nischen Küste hadern. Es giebt eine <lb/>Masse von
+                    Menschen denen mein <lb/>Name unbequem ist, daher ich jede <lb/>Verherrlichung
+                    fürchten muss. Das <lb/>Geschehene ist aber zu tragen <lb/>wenn es geschehen
+                    ist: nur dann<supplied cert="high">.</supplied>
+                    <lb/>Ist das Wort noch nicht <seg type="comment">
+                        <orig>auf dem <lb/>Stein</orig>
+                        <note xml:id="ngxm_kjj_bw">Gemeint ist wahrscheinlich eine litographische
+                            Reproduktion der hier erwähnten Karte. Meyen kam Humboldts Bitte etwas
+                            halbherzig nach. Im zweiten Band seiner 'Reise um die Welt' kam er auf
+                            die Beobachtung der plötzlichen Temperaturabnahme des kalten Wassers im
+                                <quote>15. und 16. Grade der Breite</quote> zu sprechen, <quote>eine
+                                Beobachtung, welche unsere, im Jahre 1831 daselbst angestellten
+                                Messungen ganz genau bestätigen…</quote>. <quote>Diese Erscheinung
+                                hat gegenwärtig, durch die hydrographischen Arbeiten des Admiral
+                                    <persName key="H0012441">Duperrey</persName>, ihre Erklärung gefunden; auf Veranlassung
+                                des Herrn Alexander v. Humboldt hat dieser ausgezeichnete Seefahrer
+                                seine besondere Aufmerksamkeit den Strömungen an der Westküste von
+                                Süd-Amerika gewidmet, und diese Bemühungen haben ein
+                                ausserordentliches Resultat herbeigeführt.</quote> Allerdings war
+                            auf anderen Seiten immer wieder von der kalten Strömung die Rede, die
+                            Humboldt entdeckt haben soll. Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/7BETSW9C">Meyen 1834–1835</ref>, II, 51–52.</note>
+                    </seg> so lassen Sie es ja weg<supplied cert="high">.</supplied>
+                    <lb/>Ich habe allerdings zuerst jene <lb/>kalte Ströhmung<note hand="#author" place="left"><metamark/> Sie schreiben mein Theurer vom  <lb/>kalten Strohme
+                        wohl in Ihrem  <lb/>Briefe mir (als Schreibfehler)<supplied cert="high">,</supplied> er  <lb/>ginge gen <choice>
+                            <abbr>N<subst>
+                                    <del rendition="#s">W</del>
+                                    <add place="intralinear">O</add>
+                                </subst>
+                            </abbr>
+                            <expan>Nord Ost</expan>
+                        </choice>. Der Strohm geht  <lb/>gegen Nord West <choice>
+                            <abbr>u</abbr>
+                            <expan>und</expan>
+                        </choice> beugt ganz  <lb/>westlich (von <choice>
+                            <abbr>O</abbr>
+                            <expan>Ost</expan>
+                        </choice> nach <choice>
+                            <abbr>W</abbr>
+                            <expan>West</expan>
+                        </choice>) von  <lb/><placeName key="H0008020">Payta</placeName> gegen <placeName key="H0008128">Cabo Pariña</placeName>
+                        <lb/>ab. Ich erinnere bei dieser Gele<lb break="no"/>genheit dass in <choice>
+                            <abbr>engl.</abbr>
+                            <expan>englischen</expan>
+                        </choice> Büchern  <lb/><seg type="comment">
+                            <orig>
+                                <persName key="H0000833">Renell</persName></orig>
+                            <note xml:id="nklj_vmj_bw">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/7M9DFX63">Rennell 1832</ref>. Dieses Buch befand sich unter Nummer 8466
+                                (vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/8ZURHD9U">Stevens 1967</ref>) in Humboldts Bibliothek.</note>
+                        </seg>, <persName key="H0004078">Tuckey</persName> ein östlicher  <lb/>Strohm bei Wind heiss von <choice>
+                            <abbr>O</abbr>
+                            <expan>Ost</expan>
+                        </choice> gegen  <lb/>West, bei Luft aber von <choice>
+                            <abbr>W.</abbr>
+                            <expan>Westen</expan>
+                        </choice> gegen  <lb/>Osten <seg type="comment">
+                            <orig>Tuckey <choice>
+                                    <abbr>marit</abbr>
+                                    <expan>maritime</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>Geogr</abbr>
+                                    <expan>Geography</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>T</abbr>
+                                    <expan>Tome</expan>
+                                </choice> I <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 43</orig>
+                            <note xml:id="nv3w_1nj_bw">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/6XRD63KI">Tuckey 1815.</ref> Mit Notizen Humboldts. Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/8ZURHD9U">Stevens 1967</ref>, Nr. 10292, 730.</note>
+                        </seg><supplied cert="high">.</supplied>
+                        <lb/>Der aequinoctial Meeresstrohm heisst  <lb/>ein <hi rendition="#u">westlicher</hi> auf englisch was  <lb/>man den Worten nach nicht
+                        <lb/>errathen kann.</note> beobachtet und <lb/>
+                    <persName key="H0000833">Rennels</persName> Courant
+                    ist ein Beispiel <lb/>aber ich tadle alle diese bizarr <lb/>klingenden Nomina
+                    propria, eigent<lb break="no"/>lich schiffende Nazionen, <choice>
+                        <abbr>Engl.</abbr>
+                        <expan>Engländer</expan>
+                    </choice><supplied cert="high">,</supplied>
+                    <lb/>
+                    <choice>
+                        <abbr>Franz</abbr>
+                        <expan>Franzosen</expan>
+                    </choice>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Americaner nehmen von <lb/>Deutschen ohnedies dergleichen nie <lb/>an, <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> mit recht, weil man <lb/>so vielen Ströhmungen den <lb/>meisten an der
+                    West <choice>
+                        <abbr>afrikan</abbr>
+                        <expan>afrikanischen</expan>
+                    </choice>
+                    <lb/>Küste Gulf-Strohm, West Mexico <lb/>nur sehr willkührliche Namen <lb/>von
+                    Menschen geben kann. Wer <lb/>wird nicht lieber Golfstrohm als <lb/>
+                    <choice>
+                        <abbr>Str.</abbr>
+                        <expan>Strohm</expan>
+                    </choice> von
+                    <?oxy_comment_start author="kraft" timestamp="20160915T190243+0200" comment="noch offen"?>Williams<?oxy_comment_end?>,
+                        <persName key="H0000226">Franklin</persName>
+                    <choice>
+                        <abbr>od</abbr>
+                        <expan>oder</expan>
+                    </choice>
+                    <lb/>
+                    <pb n="1v"/>
+                    <persName key="H0003378">Blagden</persName> sagen. Auf Karten <lb/>löschen
+                    Sie ja solche <lb/>Namen aus. Hier das <lb/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Therm.</abbr>
+                                <expan>Thermometer</expan>
+                            </choice> in <choice>
+                                <abbr>Psychr.</abbr>
+                                <expan>Psychrometer</expan>
+                            </choice> Blatt</orig>
+                        <note xml:id="nagc_yjj_bw">Die Methode, mittels des Unterschiedes des
+                                <quote>Thaupunctes und der Luftwärme die relative Dampfmenge oder
+                                den Feuchtigkeitszustand der Atmosphäre zu bestimmen</quote> wurde
+                            von Humboldt im 'Kosmos' mehrfach erklärt. U. a. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/I87MJXIR">Humboldt 1845–1862</ref>, I, 358.</note>
+                    </seg>
+                    <lb/>von <placeName key="H0011439">Lima</placeName> mit Berechnung
+                    <lb/>Mittelzahlen von <persName key="H0011210">Oltmann</persName>
+                    <lb/>die Sie mir wohl gü<g ref="#typoHyphen"/><lb break="no"/>tigst
+                        widerschikken<supplied cert="high">.</supplied> Da <lb/>mich Ihre berufliche
+                        Un<lb break="no"/>abhängigkeit bei so vieler <lb/>schöner litterarischer
+                        Thä<lb break="no"/>tigkeit mehr, als <hi rendition="#u">alles</hi>
+                    <lb/>interessirt, so bitte ich <lb/>Sie zu mir zu kommen <lb/>von 9-11
+                        h<supplied cert="high">.</supplied> Ich verstehe <lb/>als wolle der
+                        <rs type="person" key="H0012589">Minister</rs>
+                    <lb/>einen Anstoss aus dem <lb/>Cabinett. </p>
+                <closer>
+                    <salute/>
+                    <signed>Ihr <lb/>Al.Ht.</signed>
+                    <dateline>Mittwochs</dateline>
+                </closer>
+            </div>
+            <postscript>
+                <p>
+                    <choice>
+                        <abbr>Hr</abbr>
+                        <expan>Herr</expan>
+                    </choice>
+                    <persName key="H0003735">
+                        <choice>
+                            <abbr>v.</abbr>
+                            <expan>von</expan>
+                        </choice> Buch</persName> wünscht <lb/>Sie zu sehen wegen <lb/>einer <seg type="comment">
+                        <orig>Muschel (Gryphaea<supplied cert="high">)</supplied></orig>
+                        <note xml:id="nngh_3kj_bw">Von Lamarck
+                            <?oxy_comment_start author="kraft" timestamp="20160523T160716+0200" comment="Quelle Lamarck und spezieller Zitat?"?>1801
+                            beschriebenes Leitfossil<?oxy_comment_end?>. Wegen ihrer Form auch als
+                            „Fußnagel des Teufels“ bezeichnet.</note>
+                    </seg>
+                    <lb/>die Sie aus der <hi rendition="#u">Jura<g ref="#typoHyphen"/><lb break="no"/>formation</hi> besizen<supplied cert="high">.</supplied>
+                </p>
+            </postscript>
+            <pb n="2r"/><gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="2v"/><gap unit="pages" quantity="1" reason="empty"/>
+        </body>
+    </text>
+</TEI>

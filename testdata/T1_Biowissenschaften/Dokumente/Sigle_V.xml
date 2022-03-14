@@ -1,0 +1,191 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="H0005035" oldID="avhr_rcn_brv_ry">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>V – Jan Mayen und Spitzbergen</title>
+                <?oxy_comment_start author="leitner" timestamp="20170911T140334+0200" comment="gelesen UL"?>
+                <editor><?oxy_comment_end?>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="  http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <surname>Göhmann</surname>
+                        <forename>Karin</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://catalogue.bnf.fr/ark:/12148/cb16542070b">
+                        <surname>Barbasetti</surname>
+                        <forename>Laurence</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt><notesStmt>
+                <note type="editorial"><p>Humboldt exzerpiert auf diesem Blatt Angaben zu zirkumpolar – das heißt sowohl auf dem
+                        amerikanischen als auch eurasischen Kontinent – vorkommende Pflanzen, die
+                        der englische Walfänger William Scoresby auf den Inseln Spitzbergen und Jan
+                        Mayen gesammelt hatte (vgl. <bibl sameAs="zotero-667230-FESBWXZ6">Scoresby
+                            1820</bibl>). Carl Sigismund Kunth verweist in seiner 1825 angelegten
+                            <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der
+                            Pflanzen</ref> auf diese Notizen unter dem Titel „No. 24. Spitzbergen
+                        (Skoresby)“ (Sigle <ref xml:id="ed_ijg_vws_z1b" type="siglum" target="#Geographie_der_Pflanzen_V">V</ref>). </p></note></notesStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno><idno type="shelfmark">gr. Kasten 6, Nr. 79a, Bl. 7</idno><idno type="uri">
+                            http://kalliope-verbund.info/DE-611-HS-2832781</idno></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                <placeName key="H0008129">Paris</placeName>
+                <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p><pb n="7r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000016.jpg"/><placeName key="H0006557">Jan
+                    Mayen</placeName><?oxy_comment_start author="paessler" timestamp="20170406T123527+0200" comment="kollationiert mit IS, 6.4.2017"?></p>
+                <?oxy_comment_end?>
+                <p>tout volcanique. Le <placeName key="H0005182">pic Beerenberg</placeName>
+                    <lb/><measure quantity="6870" unit="foot">6870 piés <choice>
+                            <abbr>angl.</abbr>
+                            <expan>anglais</expan>
+                        </choice></measure> dans les plaines Rumex <lb/>digynus, Saxifraga <choice>
+                        <orig>3cuspidata</orig>
+                        <reg>tricuspidata</reg>
+                    </choice><supplied cert="high">,</supplied>
+                    <lb/><choice>
+                        <abbr>S.</abbr>
+                        <expan>Saxifraga</expan>
+                    </choice> oppositifolia<supplied cert="high">,</supplied> Silene
+                        acaulis<supplied cert="high">,</supplied>
+                    <lb/>Draba verna, des Arénaires</p>
+                <p><seg type="comment">
+                        <orig><persName key="H0015758">Scoresby</persName>, Arctic
+                            Regions</orig>
+                        <note xml:id="nlyz_h1x_ry"><bibl sameAs="zotero-667230-FESBWXZ6">Scoresby
+                                1820</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>T</abbr>
+                        <expan>Tome</expan>
+                    </choice> I <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 164.</p>
+                <p><choice>
+                        <abbr>lat.</abbr>
+                        <expan>latitude</expan>
+                    </choice> 70° 50'. Le volcan actif <placeName key="H0005678"><lb/>Esk
+                        Mount</placeName>, rauchend um <measure quantity="1500" unit="foot"><?oxy_comment_start author="paessler" timestamp="20170123T111731+0100" comment="vgl. Scoresby, 162"?>1500<?oxy_comment_end?>
+                        piés</measure></p>
+                <p><placeName key="H0010336">Spitzbergen</placeName></p>
+                <p>
+                    <list>
+                        <item>Andromeda tetragona</item>
+                        <item>Luzula <choice>
+                                <abbr>campestr</abbr>
+                                <expan>campestris</expan>
+                            </choice></item>
+                        <item>Juncus <choice>
+                                <abbr>camp</abbr>
+                                <expan>campestris</expan>
+                            </choice></item>
+                        <item><choice>
+                                <abbr>Saxifr.</abbr>
+                                <expan>Saxifraga</expan>
+                            </choice>
+                            <choice>
+                                <abbr>oppositif</abbr>
+                                <expan>oppositifolia</expan>
+                            </choice></item>
+                        <item>— cernua</item>
+                        <item>— nivalis</item>
+                        <item>— caespitosa</item>
+                        <item><note place="left" hand="#author"><ref xml:id="ed_uxb_cwr_sy" type="siglum" target="#Geographie_der_Pflanzen_V">V</ref></note>Cerastium alpinum <persName key="H0006198"><choice>
+                                    <abbr>Wahlenb</abbr>
+                                    <expan>Wahlenberg</expan>
+                                </choice></persName></item>
+                        <item>Dryas octopetala</item>
+                        <item>Papaver radicatum <persName key="H0001088"><add place="sublinear"><choice>
+                                        <abbr>Rottb.</abbr>
+                                        <expan>Rottbøll</expan>
+                                    </choice></add></persName>
+                            <add place="sublinear"><choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Papaver</expan>
+                                </choice> alpinum, <persName key="ed_bzm_53g_v1b">Don</persName>
+                            </add><?oxy_comment_start author="paessler" timestamp="20170126T101142+0100" comment="vgl. Scoresby, 120"?>
+                            <?oxy_comment_end?></item>
+                        <item><choice>
+                                <abbr>Ranunc</abbr>
+                                <expan>Ranunculus</expan>
+                            </choice> sulphureus <persName key="H0015932"><add place="sublinear">Solander</add></persName></item>
+                        <item>Pedicularis hirsuta</item>
+                        <item>Cochlearia <choice>
+                                <abbr>grönlandic.</abbr>
+                                <expan>grönlandica</expan>
+                            </choice></item>
+                        <item>Cardamine bellidifo<lb break="no"/>lia</item>
+                        <item>Draba alpina</item>
+                        <item>Salix polaris <add place="sublinear"><persName key="H0006198">Wahlenberg</persName></add></item>
+                    </list>
+                </p>
+                <p>beaucoup de mousses <lb/><seg type="comment">
+                        <orig><choice>
+                                <abbr>l.</abbr>
+                                <expan>loco</expan>
+                            </choice>
+                            <choice>
+                                <abbr>c.</abbr>
+                                <expan>citato</expan>
+                            </choice></orig>
+                        <note xml:id="nncx_2mr_sy"><bibl sameAs="zotero-667230-FESBWXZ6">Scoresby
+                                1820</bibl>, I.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 75</p>
+                <p><pb n="7v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000017.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

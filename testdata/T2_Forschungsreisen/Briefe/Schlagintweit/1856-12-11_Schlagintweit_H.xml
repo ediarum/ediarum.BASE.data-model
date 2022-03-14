@@ -1,0 +1,269 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_x4w_k3l_bdb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hermann Schlagintweit an Alexander von Humboldt. Rawalpindi, 11. Dezember
+                    1856</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Bayerische Staatsbibliothek</institution>
+                        <collection/>
+                        <idno>Schlagintweitiana II.1.43</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                    <placeName key="ed_smv_gjl_bdb">Rawalpindi (Stadt auf dem Pothohar-Plateau in
+                        der Provinz Punjab in Pakistan)</placeName>
+                    <date when="1856-12-11" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <?oxy_comment_start author="lmartin" timestamp="20180323T131805+0100" comment="einmal kollationiert mit UP am 23.03.2018"?>
+    <text>
+        <?oxy_comment_end?>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <pb n="369r"/>
+                    <dateline><placeName key="ed_smv_gjl_bdb">Rawul Pindee</placeName></dateline>
+                    <dateline>in <placeName key="H0008478">Punjaub</placeName></dateline>
+                    <dateline><choice>
+                            <abbr>Dec</abbr>
+                            <expan>December</expan>
+                        </choice> 11 1856</dateline>
+                    <salute>Hochverehrteste Excellenz!</salute>
+                </opener>
+                <p>Es war uns eine grosse Freude in einem <lb/>jüngst von unserem Bruder <persName key="H0015554">Emil</persName> er<g ref="#typoHyphen"/><lb break="no"/>haltenem Briefe zu lesen, dass Sie die Be<g ref="#typoHyphen"/><lb break="no"/>richte<supplied cert="high">,</supplied> die wir von Zeit zu Zeit über
+                    unsere <lb/>wissenschaftlichen Arbeiten in Indien <lb/>geben<supplied cert="high">,</supplied> noch stets wie früher mit reger Theil<g ref="#typoHyphen"/><lb break="no"/>nahme aufnehmen.</p>
+                <p>Die Erinnerung an die Belehrungen <lb/>und die vielfachen Anregungen<supplied cert="high">,</supplied> die wir <lb/>Ihnen verdanken<supplied cert="high">,</supplied> ist uns stets auf das <lb/>lebhafteste gegenwärtig und es ist
+                    unser <lb/>eifrigstes Bestreben, Resultate zu er<g ref="#typoHyphen"/><lb break="no"/>halten, die vielleicht Ihrer Aufmerksam<g ref="#typoHyphen"/><lb break="no"/>keit nicht ganz unwerth sein möchten<supplied cert="high">.</supplied></p>
+                <p><persName key="H0015556">Robert</persName> und ich haben über unsere
+                    <lb/>Beobachtungen im <placeName key="H0000502">Kuenluen</placeName> einen
+                    <lb/>kleinen Bericht von <placeName key="H0011406">Leh</placeName>, Ende
+                    September <lb/>abgesandt, der jetzt wohl <placeName key="H0005221">Berlin</placeName> erreicht <lb/>hat.</p>
+                <p><pb n="369v"/>Gleichzeitig mit diesem Briefe geht ein <lb/>Bericht von <persName key="H0015552">Adolph</persName> ab, der die etwas <lb/>westlicher gelegenen
+                    Theile des <placeName key="H0000502">Kuenluen</placeName>
+                    <lb/>untersucht hatte<supplied cert="high">.</supplied></p>
+                <p>Unsere Pläne für diese kalte Jahres<g ref="#typoHyphen"/><lb break="no"/>zeit
+                    sind, dass <persName key="H0015552">Adolph</persName> nach <placeName key="ed_ik2_yjw_fdb">Peshawar</placeName>, <lb/>und dann dem <placeName key="H0006690">Indus</placeName> folgend nach <lb/><placeName key="ed_cyz_rkw_fdb">Kurachee</placeName> und <placeName key="H0005304">Bombay</placeName>, <persName key="H0015556">Robert</persName> auf
+                    <lb/>einer etwas südlicheren Route, über
+                        <?oxy_comment_start author="lmartin" timestamp="20180320T103749+0100" comment="Ortsname, unsichere Lesart - Ort nicht bekannt"?>Marl<?oxy_comment_end?><g ref="#typoHyphen"/><lb break="no"/>kan, und durch <placeName key="H0010255">Scind</placeName> und <?oxy_comment_start author="lmartin" timestamp="20180321T110001+0100" comment="Provinz/Stadt? Indien/Pakistan?"?>Gresserar<?oxy_comment_end?>
+                    <lb/>nach <placeName key="H0005304">Bombay</placeName> reisen. Ich selbst werde
+                    <lb/>nach <placeName key="H0011337">Lahore</placeName> und <placeName key="ed_tft_kmw_fdb">Patna</placeName> gehen, und <lb/>von dort, was endlich
+                    definitiv arran<g ref="#typoHyphen"/><lb break="no"/>girt zu sein scheint,
+                        <placeName key="ed_hvs_3xz_zcb">Katmandu</placeName>
+                    <lb/>besuchen. Nach kurzem Aufenthalte <lb/>in <placeName key="H0001596">Nepal</placeName> komme ich nach <placeName key="H0016218">Calcutta</placeName>.</p>
+                <p>Wir glauben dann, durch glückliche <lb/>Umstände begünstigt, die es uns möglich
+                    <lb/>machten fast immer getrennten Routen <lb/>zu folgen, unsere Beobachtungen
+                    in <lb/><placeName key="H0006686">Indien</placeName> so weit vervollständigt zu
+                    haben, <lb/>dass wir gegen Anfang der heissen Jahres<g ref="#typoHyphen"/><lb break="no"/>zeit aus <placeName key="H0006686">Indien</placeName> abzureisen
+                        beabsichti<g ref="#typoHyphen"/><lb break="no"/>gen.</p>
+                <p>Auch unsere Sammlungen, sowohl <lb/>in Beziehung auf Geologie, geographische
+                    <lb/>Botanik und Zoologie, als auch auf <lb/><pb n="370r"/>Ethnographie sind,
+                    glaube ich, ziemlich <lb/>vollständig. Wir haben während der Monate <lb/>März
+                    und April 1856 210 grosse Kisten an <lb/>das <orgName key="ed_xqn_1bd_wcb">India
+                        House</orgName> abgesandt, jüngst <lb/>109, die Sammlungen dieses Jahres
+                    <lb/>enthaltend. Von allem sind stets <lb/>Douppletten vorhanden, und ich hoffe,
+                    <lb/>dass es uns wohl gelingen wird vom <lb/>Court of
+                    <?oxy_comment_start author="lmartin" timestamp="20180321T110212+0100" comment="board of directors (Organisationsregister) gemeint? auszuzeichnen?"?>Directors<?oxy_comment_end?>
+                    einen grossen Theil <lb/>auch für Preussen zu erhalten.</p>
+                <p>Das einzige was unsere Abreise etwas <lb/>verzögern wird, sind die Geschäfte des
+                    <lb/>Rechnungsabschlusses mit dem Gouverne<g ref="#typoHyphen"/><lb break="no"/>ment.</p>
+                <p>Wir hatten es möglich gemacht durch <lb/>Privatarrangements mit unseren Agenten
+                    in <lb/><placeName key="H0005304">Bombay</placeName> und <placeName key="H0016218">Calcutta</placeName>, dann durch officielle <lb/>Vorschüsse
+                    vom Gouvernement gegen spätere <lb/>Abrechnung, ohne Zeitverlust alle Theile
+                        <lb/><placeName key="H0006686">Indiens</placeName> bereisen zu können und
+                    auch die <lb/>für Sammlungen nöthigen Ausgaben vor<g ref="#typoHyphen"/><lb break="no"/>läufig zu decken. Überdiess ist der grösste <lb/>Theil des
+                    Inlandtransportes noch nicht <lb/>an unseren Agenten in Calcutta bezahlt.
+                    <lb/>Ein sehr bedeutender Theil unserer Aus<g ref="#typoHyphen"/><lb break="no"/>gaben sind persönliche <add place="intralinear">für</add> Zelte,
+                        Bediente<supplied cert="high">,</supplied>
+                    <lb/>Pferde und besonders für Träger (Coolies), <lb/><pb n="370v"/>Ausgaben, die
+                    in <placeName key="H0006686">Indien</placeName> stets sehr gross <lb/>sind, und
+                    besonders bei beständigem Reisen <lb/>sich rasch anhäufen. Auch unsere Expe<g ref="#typoHyphen"/><lb break="no"/>ditionen in die an das indische Reich
+                    <lb/>angrenzenden Theile <placeName key="H0009370">Tibets</placeName> und
+                        <placeName key="H0009597">Turkestans</placeName>
+                    <lb/>waren mit grossen Ausgaben verbunden<supplied cert="high">,</supplied> die
+                    <lb/>wir dem indischen Gouvernement <unclear reason="illegible" cert="high">kaum</unclear>
+                    <lb/>vorlegen können.</p>
+                <p>Wir fanden in den Briefen unseres <lb/>Bruders <persName key="H0015554">Emil</persName> oft erwähnt, dass Sie <lb/>unser auch in dieser Beziehung
+                    oft ge<g ref="#typoHyphen"/><lb break="no"/>dacht haben, und in gewohnter Güte
+                    Ihre <lb/>Bereitwilligkeit unsere Arbeiten in In<g ref="#typoHyphen"/><lb break="no"/>dien zu fördern aussprachen.</p>
+                <p>Wir glaubten nicht, momentan mit den <lb/>nöthigen Mitteln versehen, dass unsere
+                    <lb/>Gesammtausgaben so sehr bedeutend <lb/>sich anhäufen würden. Da Sie
+                    <lb/>selbst es gestatten<supplied cert="high">,</supplied> können wir nicht
+                    <lb/>vermeiden, den Wunsch auszusprechen <lb/>dass diess durch Ihre gütige
+                    Vermittlung <lb/><persName key="H0002178"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Seiner</expan>
+                        </choice>
+                        <choice>
+                            <abbr>M.</abbr>
+                            <expan>Majestät</expan>
+                        </choice></persName> mitgetheilt würde.</p>
+                <p>Wir erhielten von <persName key="H0002178"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Seiner</expan>
+                        </choice>
+                        <choice>
+                            <abbr>M.</abbr>
+                            <expan>Majestät</expan>
+                        </choice></persName> so lange wir <lb/>in <placeName key="H0006686">Indien</placeName> sind, ausser der 80 £ für den <lb/>Theodolithen, nur
+                    einmal 100 £, Ende <lb/>1854 in <placeName key="H0008563">Madras</placeName>,
+                    obwohl <subst>
+                        <del rendition="#s">wir</del>
+                        <add place="superlinear">uns</add>
+                    </subst> durch <lb/>Sie mitgetheilt wurde, dass der <persName key="H0002178">König</persName>
+                    <lb/><pb n="371r"/>3000 Thaler jährlich schon am Anfange <lb/>unserer Reise
+                    bestimmt hatte<supplied cert="high">.</supplied></p>
+                <p>Wir wissen wohl, dass unser stetes <lb/>Reisen nachsenden von Geld sehr er<g ref="#typoHyphen"/><lb break="no"/>schwert, allein wir würden jetzt sehr
+                        glück<g ref="#typoHyphen"/><lb break="no"/>lich sein, wenn wir jetzt vor
+                    unserer Abreise <lb/>aus <placeName key="H0006686">Indien</placeName> Geld in
+                        <placeName key="H0016218">Calcutta</placeName> bekom̅en <lb/>könnten.</p>
+                <p>Das beste wäre vielleicht einen Cre<g ref="#typoHyphen"/><lb break="no"/>ditbrief
+                    an den <ref target="avhr_x4w_k3l_bdb">preussischen Consul <lb/>zu</ref>
+                    erhalten, der ihn berechtigt, uns bis <lb/>zu einem gewissen Betrage unsere
+                        Aus<g ref="#typoHyphen"/><lb break="no"/>gaben in <placeName key="H0006686">Indien</placeName> gegen vorgelegte Ab<g ref="#typoHyphen"/><lb break="no"/>rechnung zu bezahlen.</p>
+                <p>Der preussische Consul in <placeName key="H0016218">Calcutta</placeName>, <lb/><choice>
+                        <abbr>M<hi rendition="#sup">r</hi></abbr>
+                        <expan>Mister</expan>
+                    </choice>
+                    <anchor type="verweisziel" xml:id="start_ws2_mxw_fdb"/><persName key="ed_eqf_5qw_fdb">Kilbourn<anchor type="verweisziel" xml:id="stop_ws2_mxw_fdb"/></persName> hat seit unserer Ankunft <lb/>in
+                        <placeName key="H0006686">Indien</placeName> den lebhaftesten Antheil an
+                    <lb/>unseren Reisen genom̅en, und gethan <lb/>was er konnte, um unsere Arbeiten
+                    durch <lb/>Nachsenden von Packeten und Correspon<g ref="#typoHyphen"/><lb break="no"/>denz <choice>
+                        <abbr>etc</abbr>
+                        <expan>et cetera</expan>
+                    </choice> zu fördern. Er würde gewiss unse<g ref="#typoHyphen"/><lb break="no"/>re Angelegenheiten, für die er auch <lb/>die officielle Behörde ist, bestens
+                    <lb/>besorgen.</p>
+                <p><pb n="371v"/>Unser Vorschlag, den wir Sie bitten <lb/><persName key="H0002178"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Seiner</expan>
+                        </choice>
+                        <choice>
+                            <abbr>M.</abbr>
+                            <expan>Majestät</expan>
+                        </choice></persName> vorzulegen, wäre demnach folgender:</p>
+                <p>Durch einen Brief des Handels<g ref="#typoHyphen"/><lb break="no"/>mi<supplied cert="high">ni</supplied>steriums, oder des Ministeriums der
+                    <lb/>auswärtigen Angelegenheiten möchte <lb/>Herr <persName key="ed_eqf_5qw_fdb">Kilbourn</persName>, <choice>
+                        <abbr><add place="intralinear">k.</add></abbr>
+                        <expan>königlich</expan>
+                    </choice> preussischer Consul <lb/>in Calcutta<supplied cert="high">,</supplied>
+                    authorisiert werden, bis zu <lb/>einem Betrage von 18000 bis 20000 <lb/>Thalern
+                    (was natürlich die jährlich von <lb/><persName key="H0002178"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Seiner</expan>
+                        </choice>
+                        <choice>
+                            <abbr>M.</abbr>
+                            <expan>Majestät</expan>
+                        </choice></persName> bereits bewilligten 3000 Thaler <lb/>einschliesst) uns
+                    die Ausgaben für <lb/>unsere Reisen in <placeName key="H0006686">Indien</placeName> zu bezahlen<supplied cert="high">.</supplied>
+                    <lb/>Wir wünschen sehr, dass diese Mittheilung <lb/>an den preussischen Consul
+                    direct von <lb/><placeName key="H0005221">Berlin</placeName> nach <placeName key="H0016218">Calcutta</placeName> und nicht durch den <lb/><ref target="avhr_x4w_k3l_bdb/#start_jl2_5ml_gdb">Generalconsul in London</ref>
+                    und das <orgName key="ed_xqn_1bd_wcb">In<g ref="#typoHyphen"/><lb break="no"/>dia house</orgName> geht. Das indische Gou<g ref="#typoHyphen"/><lb break="no"/>vernement scheint in diesem Punkte sehr <lb/>empfindlich, wie
+                    wir selbst bei der Über<g ref="#typoHyphen"/><lb break="no"/>sendung der für
+                    Instrumente erhalte<g ref="#typoHyphen"/><lb break="no"/>nen 80 £ sahen, die
+                    durch Herrn <persName key="H0011722"><anchor type="verweisziel" xml:id="start_jl2_5ml_gdb"/>He<g ref="#typoHyphen"/><lb break="no"/>belers<anchor type="verweisziel" xml:id="stop_jl2_5ml_gdb"/></persName> Vermittlung übersandt wurden. <lb/>Überdiess ist es schon oft
+                    in den Zeitungen <lb/>stark betont worden, dass wir keine <lb/>Engländer seien.
+                    Erst jüngst war viel <lb/><pb n="372r"/>Unsinn in diesem Style in allen
+                    <lb/>Zeitungen, über „unsere etwaigen Zu<g ref="#typoHyphen"/><lb break="no"/>sammenkünfte mit russischen A<g ref="#typoHyphen"/><lb break="no"/>genten in
+                        <placeName key="H0009597">Turkestan</placeName><supplied cert="high">“</supplied>. Geldsendungen <lb/>von Preussen durch das indische Gou<g ref="#typoHyphen"/><lb break="no"/>vernement, würden uns besonders jetzt
+                    <lb/>entschiedene Schwierigkeiten machen.</p>
+                <p>Es bedarf sehr der Entschuldigung <lb/>dass die Summe die wir zu nennen wagten,
+                    <lb/>so gross ist. Aber die Ausgaben waren fast <lb/><choice>
+                        <sic>fast</sic>
+                        <corr type="deleted"/>
+                    </choice> immer über 3 verschiedene Routen wäh<g ref="#typoHyphen"/><lb break="no"/>rend nahe 3 Jahren vertheilt, und es war <lb/>uns nur durch
+                    Bemühung aller uns zugäng<g ref="#typoHyphen"/><lb break="no"/>lichen Transport-
+                    und Communicationsmittel <lb/>möglich in der verhältnissmässig nicht langen
+                        <measure quantity="15000" unit="mile"><lb/></measure>Zeit die für indische
+                    Verhältnisse bedeu<g ref="#typoHyphen"/><lb break="no"/>tenden Distancen
+                    zurückzulegen.</p>
+                <p>Wir berechneten dieselben jüngst, und <lb/>fanden, dass die Summe unserer Rou<g ref="#typoHyphen"/><lb break="no"/>ten in <placeName key="H0006686">Indien</placeName> und im <placeName key="H0006863">Himalaya</placeName>,
+                    von <lb/><placeName key="H0005304">Bombay</placeName> nach <placeName key="H0008563">Madras</placeName> und <placeName key="H0016218">Calcutta</placeName>, von <lb/><placeName key="ed_cgs_t5w_fdb">Sadiya</placeName> an der Umbiegungsstelle des
+                    <lb/><?oxy_comment_start author="lmartin" timestamp="20180321T121500+0100" comment="ist damit der Fluss Brahmaputra gemeint?"?>Dihongi<?oxy_comment_end?>,
+                        <placeName key="H0002582">Assam</placeName> bis <?oxy_comment_start author="lmartin" timestamp="20180321T121707+0100" comment="Tiruchirappalli - Südindien?"?>Tzichiropoli<?oxy_comment_end?>
+                    <lb/>in Südindien, und von <placeName key="H0005199">Bengalen</placeName> bis
+                    <lb/>zu den nordwestlichsten Punkten, in <lb/><placeName key="H0009370">Tibet</placeName> und <placeName key="H0009597">Turkestan</placeName>
+                    reichlich über 15000 <choice>
+                        <abbr>engl.</abbr>
+                        <expan>englische</expan>
+                    </choice>
+                    <lb/>Meilen beträgt.</p>
+                <p><pb n="372v"/>Ein Umstand der vielleicht ebenfalls an<g ref="#typoHyphen"/><lb break="no"/>geführt werden dürfte, um die von uns ge<g ref="#typoHyphen"/><lb break="no"/>nannte Summe zu entschuldigen ist <lb/>der, dass es uns
+                    ungleich leichter sein wird <lb/>von unseren Sammlungen einen grossen <lb/>Theil
+                    nach <placeName key="H0005221">Berlin</placeName> zu bekommen, <lb/>wenn nicht
+                    alle Angaben dafür dem Gouverne<g ref="#typoHyphen"/><lb break="no"/>ment in
+                    Indien vorgelegt werden müssen.</p>
+                <p>Briefe von <placeName key="H0005221">Berlin</placeName> nach <placeName key="H0016218">Calcutta</placeName> brau<g ref="#typoHyphen"/><lb break="no"/>chen jetzt gewöhnlich 1½ Monate. Es wäre <lb/>daher sehr wohl möglich dass
+                    diese Autorisa<g ref="#typoHyphen"/><lb break="no"/>tion an den <ref target="avhr_x4w_k3l_bdb">preussischen Consul in Calcutta</ref>
+                    <lb/>noch ganz früh genug käme, wenn durch Ihre <lb/>gütige Vermittlung der
+                    Brief von dem betreffen<lb break="no"/>den Ministerium <subst>
+                        <del rendition="#s">g als sogleich g ganz</del>
+                        <add place="superlinear">so bald als möglich</add>
+                    </subst> abgesandt <lb/>werden könnte. Wir schreiben erst jetzt, weil <lb/>wir
+                    erst jetzt im Stande waren, eine allgemeine <lb/>Zusammenstellung unserer
+                    Ausgaben zu <lb/>machen, ehe wir uns (für <placeName key="H0006686">Indien</placeName>) definitiv <lb/><unclear reason="illegible" cert="high">trennten</unclear>; sie haben bis jetzt für jeden von uns <lb/>im
+                    Durchschnitte 1000 <choice>
+                        <abbr>Rup</abbr>
+                        <expan>Rupien</expan>
+                    </choice> (1 <choice>
+                        <abbr>Rup</abbr>
+                        <expan>Rupie</expan>
+                    </choice> = ⅔ Thaler) <lb/>im Monate, im Ganzen, von October 1854 <lb/>bis
+                    Anfang 1857 für alle 3 etwas über <lb/>70000 <choice>
+                        <abbr>Rup</abbr>
+                        <expan>Rupien</expan>
+                    </choice> betragen.</p>
+                <p><pb n="373r"/>Es dürfte schwer sein für die Weit<g ref="#typoHyphen"/><lb break="no"/>läufigkeit und Offenheit dieser <lb/>Mittheilungen
+                    Entschuldigungen <lb/>zu finden.</p>
+                <p>Wir können als die einzige nur <lb/>die lebhafte Theilnahme nennen <lb/>die Sie
+                    stets unseren Untersuchungen <lb/>und Reisen in <placeName key="H0006686">Indien</placeName> schenkten<supplied cert="high">.</supplied></p>
+                <p>Meine beiden <persName key="H0015551">Brüder</persName> werden, ebenso <lb/>wie
+                    ich selbst <placeName key="ed_smv_gjl_bdb">Rawul Pindee</placeName> in
+                    <lb/>wenigen Tagen verlassen.</p>
+                <p>Unsere Adresse ist am besten <lb/><placeName key="H0016218">Calcutta</placeName>,
+                    care of the Prussian <lb/>Consul <choice>
+                        <abbr>et</abbr>
+                        <expan>et cetera</expan>
+                    </choice><persName key="ed_eqf_5qw_fdb"> Kilbourn</persName>
+                    <choice>
+                        <abbr>Esq.</abbr>
+                        <expan>Esquire</expan>
+                    </choice>
+                </p>
+                <closer>
+                    <salute>Mit wiederholtem Ausdrucke <lb/>unserer aufrichtigsten Verehrung
+                        <lb/>und Hochachtung.</salute>
+                    <salute>Euer Excellenz</salute>
+                    <salute>dankbarst ergebener</salute>
+                    <signed>Hermann Schlagintweit</signed>
+                </closer>
+                <pb n="373v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

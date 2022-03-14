@@ -1,0 +1,125 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002649" oldID="avhr_w1c_gmg_1w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach
+                    1834</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin,
+                            Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 817 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 16,50 cm , B: 13,60 cm; Wasserzeichen: J. Whatman, Angabe nur
+                            z. T. erhalten</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1835-01-01" notAfter="1835-12-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p><pb n="1r"/>Ich erhalte <gap reason="lost"/>
+                    <lb/>Sie, theurester <gap reason="lost"/>
+                    <supplied cert="high">sol</supplied>lten <lb/>Sie früher schreiben, so bitte ich
+                    <lb/>Sie 1) ihm <persName key="H0005973">Ermans</persName> 2 Theil der er<g ref="#typoHyphen"/><lb break="no"/>schienen ist, anzumelden <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> 2) ihm <lb/>zu sagen, dass es einen eigenen <lb/>Buchhändler in <subst>
+                        <del rendition="#s">Berl</del>
+                        <add place="intralinear">
+                            <placeName key="H0008129">Paris</placeName>
+                        </add>
+                    </subst> giebt, <lb/>der alle meine Werke in <choice>
+                        <abbr>fol.</abbr>
+                        <expan>folio</expan>
+                    </choice> 4<hi rendition="#sup">to</hi>
+                    <lb/>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> 8<hi rendition="#sup">vo</hi> liefert auch unvollständige
+                    <lb/>Exemplare completirt. Es ist </p>
+                <p>
+                    <note place="left">Mr Maze libraire</note> Mr Maze à <placeName key="H0008129">Paris</placeName>
+                    <lb/>Rue de Seine (<choice>
+                        <abbr>fb</abbr>
+                        <expan>faubourg</expan>
+                    </choice> St Germain) <lb/>n 31</p>
+                <closer>
+                    <salute>Freundlichst</salute>
+                    <signed>Ihr  <lb/>AlHumboldt</signed>
+                    <dateline>Mittwochs.</dateline>
+                </closer>
+            </div>
+            <postscript>
+                <p>Sie sagen mir wohl <lb/>mündlich wer Herr <lb/><seg type="comment">
+                        <orig>Lloyd</orig>
+                        <note xml:id="npyk_kkd_nx">Es ist möglich, dass Humboldt hier nach dem ihm
+                            damals noch unbekannten, irischen Physiker <persName key="H0004576">Humphrey Lloyd</persName>
+                            fragt, der 1839 Humboldt in Berlin zu geomagnetischen Studien aufsuchte.
+                        </note>
+                    </seg> ist?</p>
+            </postscript>
+            <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+        </body>
+    </text>
+</TEI>

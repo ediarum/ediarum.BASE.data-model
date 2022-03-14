@@ -1,0 +1,107 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0015080" oldID="prov_ikl_5s5_yt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Dienstag, [8.
+                    November 1842]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <date when="1842-11-08" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                </correspAction>
+                <note>Die Datierung folgt dem Poststempel. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <pb n="1r"/>Der junge Mann, theurer Freund, <?oxy_comment_start author="paessler" timestamp="20160412T110123+0200" comment="8.11.1842 (lt. Stempel + Wochentag)"?>
+                    <lb><?oxy_comment_end?></lb>hat mir sehr, sehr wohl gefallen<supplied cert="high" prev="gefallen">.</supplied>
+                    <lb/>Ich habe sogleich über ihn <lb/>an<persName key="H0012731">
+                        <choice>
+                            <abbr>Min.</abbr>
+                            <expan>Minister</expan>
+                        </choice>
+                        <choice>
+                            <abbr>v</abbr>
+                            <expan>von</expan>
+                        </choice> Arnim</persName> geschrieben <lb/>und ihn gebeten mir einen
+                    <lb/>Tag und eine Stunde zu <choice>
+                        <orig>bestim̅en</orig>
+                        <reg>bestimmen</reg>
+                    </choice>
+                    <lb/>in der er ihn <hi rendition="#u">besichtigen</hi>
+                    <lb/>will. Nehmen Sie bis dahin <lb/>meinen herzlichsten Dank an<supplied cert="high" prev="an">.</supplied>
+                </p>
+                <closer rend="paragraph">
+                    <salute>Ihr  </salute>
+                    <signed>AHt </signed>
+                    <dateline rend="align(right)">Dienstag </dateline>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <pb n="1v"/>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren</addrLine>
+                        <addrLine>Herrn <choice>
+                                <abbr>Prof.</abbr>
+                                <expan>Professor</expan>
+                            </choice> Kunth </addrLine>
+                        <addrLine>mit Zeitungen<note hand="#addressee" place="mBottom">Wegen Hartwitz</note>
+                        </addrLine>
+                        <pb n="2r"/>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren </addrLine>
+                        <addrLine>Herrn Professor Kunth</addrLine>
+                        <addrLine>in</addrLine>
+                        <addrLine>Berlin</addrLine>
+                        <addrLine>Schützenstraße</addrLine>
+                        <addrLine>
+                            <choice>
+                                <abbr>n</abbr>
+                                <expan>numero</expan>
+                            </choice> 7. </addrLine>
+                        <addrLine>AlHumbol<?oxy_comment_start author="paessler" timestamp="20160412T101029+0200" comment="Stempel noch eintragen? 8-11"?>dt</addrLine>
+                    </address>
+                </p>
+                <?oxy_comment_end?>
+            </div>
+        </body>
+    </text>
+</TEI>

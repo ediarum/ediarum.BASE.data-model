@@ -1,0 +1,115 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0001179" oldID="avhr_szh_z1j_sv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonnabend
+                    [wohl um 1828]</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin, Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 824 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 20,10 cm, B: 12,70 cm; Wasserzeichen: J. Whatman, Turkey Mill 1828</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1828-01-01" notAfter="1828-12-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Es gereicht mir zu einem ganz <lb/>besonderen Vergnügen <choice>
+                        <abbr>Ew.</abbr>
+                        <expan>Euer</expan>
+                    </choice> Wohlgeboren <lb/>zu der <seg type="comment">
+                        <orig>Erfüllung Ihrer Wünsche</orig>
+                        <note xml:id="nhhb_1qf_sv">Vermutlich betraf dies die Genehmigung der <ref target="http://avhr.bbaw.de/register/personen/detail.xql?id=prov_wsy_hnl_tt">Forschungsreise</ref> durch das Kultusministerium.</note>
+                    </seg>
+                    <lb/>Glück wünschen zu können<supplied cert="high">.</supplied>
+                    <lb/>Nehmen Sie zugleich meinen <lb/>freundlichsten Dank für Ihre <lb/>interessante <seg type="comment">
+                        <orig><choice>
+                                <abbr>Abhandl.</abbr>
+                                <expan>Abhandlung</expan>
+                            </choice> über die <lb/>niederen Formen der Algen</orig>
+                        <note xml:id="nbgn_cqf_sv">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/8FP7K584">Meyen 1829b</ref>, aufgeführt im Verzeichnis von Humboldts
+                            Bibliothek unter Nr. 6604. Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/8ZURHD9U">Stevens 1967</ref>, 477.</note>
+                    </seg><supplied cert="high">.</supplied>
+                    <lb/> Ueber das Wort <seg type="comment">
+                        <orig>„Spielereien <lb/>der Natur“</orig>
+                        <note xml:id="nvnj_fqf_sv">Die Bemerkung bezieht sich auf folgende Stelle
+                            der Arbeit Meyens: <quote>Es schien mir überhaupt, als wenn diese Algen
+                                als Producte von Bildungsversuchen des vegetativen Lebens angesehen
+                                werden müssten, als wenn sie gleichsam Spielereien der Natur
+                                seyen.</quote>
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/8FP7K584">Meyen 1829b</ref>, 772.</note>
+                    </seg> möchte ich aber <lb/>fast mit Ihnen hadern. </p>
+                <closer>
+                    <salute>Mit <lb/>freundschaftlichster Hochachtung</salute>
+                    <signed>Ihr <lb/>gehorsamster <lb/>AHumboldt</signed>
+                    <dateline>Sonnabend</dateline>
+                </closer>                    
+                <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="2r"/><gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="2v"/><gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

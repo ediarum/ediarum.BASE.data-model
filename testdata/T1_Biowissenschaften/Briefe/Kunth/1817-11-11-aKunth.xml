@@ -1,0 +1,342 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0014746" oldID="prov_ngs_mcn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. London, 11. November
+                    1817</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Universitätsbibliothek Gießen</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Nachl. Baer</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0011492">London</placeName>
+                    <date when="1817-11-11" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <placeName key="H0008129">Paris</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <address>
+                        <pb n="1r"/>
+                        <addrLine>Londres</addrLine>
+                        <addrLine>
+                            <choice>
+                                <orig>Morins</orig>
+                                <reg>Morin's</reg>
+                            </choice>
+                            <choice>
+                                <orig>In</orig>
+                                <reg>Inn</reg>
+                            </choice>
+                        </addrLine>
+                        <addrLine>Dukes Street</addrLine>
+                        <addrLine>Manchester Square</addrLine>
+                    </address>
+                    <dateline rend="align(right)">le 11 <choice>
+                            <abbr>Nov.</abbr>
+                            <expan>Novembre</expan>
+                        </choice> 1817.</dateline>
+                </opener>
+                <note hand="#author" place="mTop">
+                    <p>Ayez la bonté de<lb/>prier <persName key="H0016082">Steuben</persName> de<lb/>renvoyer à <persName key="H0012673">
+                            <choice>
+                                <abbr>Mad</abbr>
+                                <expan>Madame</expan>
+                            </choice>
+                            <lb/>Arago</persName> le portrait<lb/>
+                        <rs type="person" key="H0012670">du mari</rs>. Elle le <choice>
+                            <orig>desire</orig>
+                            <reg>désire</reg>
+                        </choice>
+                        <lb/>beaucoup. </p>
+                </note>
+                <p>
+                    <lb/>Je n’ai voulu vous <choice>
+                        <orig>ecrire</orig>
+                        <reg>écrire</reg>
+                    </choice>, mon cher ami, que lorsque j’aurais vu <lb/>
+                    <choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice>
+                    <persName key="H0003061">Banks </persName>qui a <choice>
+                        <orig>ete</orig>
+                        <reg>été</reg>
+                    </choice> à la campagne, jusqu’à l’ouverture de<lb/>la <orgName key="H0000583">
+                        <choice>
+                            <orig>Societé</orig>
+                            <reg>Société</reg>
+                        </choice> Royale</orgName>. Enfin cette ouverture a eu lieu, nous <lb/>avons
+                    diné (assez mal) avec toute l’illustre compagnie et <lb/>je puis Vous
+                    transmettre les expressions les plus amicales <lb/>de <choice>
+                        <abbr>Mrs.</abbr>
+                        <expan>Messieurs</expan>
+                    </choice>
+                    <persName key="H0004278">Lambert</persName>, <persName key="H0015396">Salisbury</persName> et <persName key="H0003693">Brown</persName>. Le dernier surtout est tou<g ref="#typoHyphen"/><lb break="no"/>jours de la plus grande amabilité pour
+                    Vous et pour moi. <choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice>
+                    <lb/>
+                    <persName key="H0003061">Banks</persName> devant une société nombreuse
+                    a loué Vos <hi rendition="#u">Species</hi> et <lb/>leur <choice>
+                        <orig>redaction</orig>
+                        <reg>rédaction</reg>
+                    </choice> comme une <choice>
+                        <sic>de</sic>
+                        <corr cert="high">des</corr>
+                    </choice> plus belles et des plus grandes <lb/>entreprises botaniques. Voilà la
+                    seule chose importante <lb/>que je puis Vous écrire: pour le reste Vous
+                    connoissez ma vie <lb/>ou <choice>
+                        <orig>plutot</orig>
+                        <reg>plutôt</reg>
+                    </choice> Vous la devinez. Le matin nous allons avec <persName key="H0003358">Biot</persName>
+                    <lb/>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName key="H0010917">Greenwich</placeName> et <placeName key="H0007989">Woolwich</placeName> pour la pendule, <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> 7 ou 8<choice>
+                        <abbr>
+                            <hi rendition="#sup">h</hi>
+                        </abbr>
+                        <expan> heures</expan>
+                    </choice> je <lb/>
+                    <choice>
+                        <sic>suis</sic>
+                        <corr cert="high">vois</corr>
+                    </choice> mon <rs type="person" key="H0012068">
+                        <choice>
+                            <orig>frere</orig>
+                            <reg>frère</reg>
+                        </choice>
+                    </rs> dans le <choice>
+                        <orig>dedale</orig>
+                        <reg>dédale</reg>
+                    </choice> de la grande <choice>
+                        <orig>societé</orig>
+                        <reg>société</reg>
+                    </choice>. Partout<lb/>j’ai à me louer de la plus grande prévenance. Tous les
+                    <lb/>hommes puissans sont favorables à mes projets, <rs type="person" key="H0013664">le Prince Regent</rs>
+                    <lb/>en a parlé avec beaucoup de bonté à mon <rs type="person" key="H0012068">
+                        <choice>
+                            <orig>frere</orig>
+                            <reg>frère</reg>
+                        </choice>
+                    </rs>. <lb/>Le tems est beau et doux, ma santé excellente. Quand à
+                    <lb/>l’amusement il y a plus de <subst>
+                        <del rendition="#s">jouiss</del>
+                        <add place="intralinear">mouvement</add>
+                    </subst> que <lb/>de jouissance. Il me tarde infiniment de revenir. Le retard
+                    <lb/>que <persName key="H0003358">Biot</persName> a mis <add place="superlinear">pour</add>
+                    <del rendition="#s" next="arriver">d'</del> arriver forcera <persName key="H0012670">Arago </persName>de prolonger <lb/>son <choice>
+                        <orig>sejour</orig>
+                        <reg>séjour</reg>
+                    </choice> de 10–11 jours. Je l’aime trop pour l’abandonner<supplied cert="high" prev="L'abandonner">,</supplied>
+                    <lb/>c’est un sacrifice de tems peu <choice>
+                        <orig>considerable</orig>
+                        <reg>considérable</reg>
+                    </choice> nous comptions<lb/>
+                    <choice>
+                        <orig>etre</orig>
+                        <reg>être</reg>
+                    </choice>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName key="H0008129">Paris</placeName> le 20, je crains que nous ne
+                    partirons d’ici que <lb/>les derniers jours du mois. Je ne <choice>
+                        <orig>prevois</orig>
+                        <reg>prévois</reg>
+                    </choice> pas que le <choice>
+                        <orig>delai</orig>
+                        <reg>délai</reg>
+                    </choice> pourroit <lb/>
+                    <choice>
+                        <orig>etre</orig>
+                        <reg>être</reg>
+                    </choice> plus grand, car les <choice>
+                        <orig>experiences</orig>
+                        <reg>expériences</reg>
+                    </choice> de pendule ne demanderent <lb/>pas plus de tems. J’ai <choice>
+                        <orig>ecrit</orig>
+                        <reg>écrit</reg>
+                    </choice> plusieurs fois <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice> de <persName key="H0016082">Steuben</persName>. <lb/>Vous
+                    savez combien je lui suis attaché. Veuillez bien je Vous <lb/>prie passer chez
+                    lui, pour le saluer et lui donner de mes <lb/>nouvelles. Il sera peiné du retard
+                    de mon retour, <lb/>il peut se vanter de l’avoir <choice>
+                        <orig>prevu</orig>
+                        <reg>prévu</reg>
+                    </choice>, mais la cause n’est autre <lb/>que celle de ne pas laisser <persName key="H0012670">Arago</persName> seul en ce pays. Il ne
+                    <lb/>me blamera pas. Je Vous renouvelle à Vous et à lui l’<lb break="no"/>expression de ma tendre amitié. Helas! au lieu des gravures <lb/>du <choice>
+                        <abbr>2<hi rendition="#sup">d</hi>
+                        </abbr>
+                        <expan>second</expan>
+                    </choice>
+                    <choice>
+                        <abbr>cah</abbr>
+                        <expan>cahier</expan>
+                    </choice> des <seg type="comment">
+                        <orig>Species</orig>
+                        <note xml:id="nats_tqs_2x">
+                            <bibl sameAs="https://www.zotero.org/groups/avh-r/items/itemKey/6A9ZSS73">Humboldt/Bonpland/Kunth 1815-1825 </bibl>.</note>
+                    </seg>, on avoit placé dans la caisse les gra-<lb/>vures de la <seg type="comment">
+                        <orig>Zoologie</orig>
+                        <note xml:id="nxbf_1rs_2x">
+                            <bibl sameAs="https://www.zotero.org/groups/avh-r/items/itemKey/4NTN2HVH/q/Zoologie">Humboldt 1811-1833 </bibl>.</note>
+                    </seg>. C’est un petit mal. Je <choice>
+                        <abbr>desire</abbr>
+                        <expan>désire</expan>
+                    </choice> pouvoir Vous embrasser entre le 30 <del rendition="#s" next="November">et</del>
+                    <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Novembre</expan>
+                    </choice> et le 2 <choice>
+                        <abbr>Dec.</abbr>
+                        <expan>Decembre</expan>
+                    </choice>
+                    <supplied cert="high" prev="Decembre">.</supplied> Ceci est pour Vous, <lb/>mon
+                    cher <choice>
+                        <abbr>K.</abbr>
+                        <expan>Kunth</expan>
+                    </choice> et pour <persName key="H0016082">Steuben</persName> seuls,
+                    quand au public il ne faut <lb/>jamais l’accoutumer à compter des jours. C’est
+                    une <choice>
+                        <orig>depen<lb/>dance</orig>
+                        <reg>dépendance</reg>
+                    </choice> qu’il faut <choice>
+                        <orig>eviter</orig>
+                        <reg>éviter</reg>
+                    </choice>. J’ai eu la bonheur de trouver mon <rs type="person" key="H0012068">
+                        <choice>
+                            <orig>frere</orig>
+                            <reg>frère</reg>
+                        </choice>
+                    </rs>
+                    <lb/>en beaucoup meilleure santé qu'à <placeName key="H0008129">Paris</placeName>. Mon arrivée lui a <lb/>fait un grand plaisir et j’ai rempli par
+                    là le but de ce voyage<supplied cert="high" prev="voyage">.</supplied>
+                    <lb/>Il reste ici et n’acceptera certainement rien de ce q'à present <lb/>on
+                    voudroit lui offrir <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName key="H0005221">Berlin</placeName>. J’ai <choice>
+                        <orig>eté</orig>
+                        <reg>été</reg>
+                    </choice> on ne peut plus content de <lb/>la <choice>
+                        <orig>societé</orig>
+                        <reg>société</reg>
+                    </choice> d’<persName key="H0012670">Arago</persName>. En botanique
+                    rien de neuf ici. Je <choice>
+                        <orig>desire</orig>
+                        <reg>désire</reg>
+                    </choice> que <seg type="comment">
+                        <orig>les <lb/>
+                            <choice>
+                                <orig>Composees</orig>
+                                <reg>Composées</reg>
+                            </choice>
+                        </orig>
+                        <note xml:id="nj4t_wm5_cx">
+                            <bibl sameAs="https://www.zotero.org/groups/avh-r/items/itemKey/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825, IV</bibl> war der Familie der
+                            Korbblütler (Compositae) gewidmet.</note>
+                    </seg> soyent <choice>
+                        <orig>commencees</orig>
+                        <reg>commencées</reg>
+                    </choice>.</p>
+                <closer rend="paragraph">
+                    <signed>A humboldt</signed></closer>
+
+                <postscript>
+                    <p><address>
+                            <pb n="1v"/>
+                            <addrLine>Monsieur</addrLine>
+                            <addrLine>Monsieur Kunth</addrLine>
+                            <addrLine>Professeur de Botanique</addrLine>
+                            <addrLine>
+                                <choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                                </choice> Paris</addrLine>
+                            <addrLine>Quai de l'</addrLine>
+                            <addrLine>
+                                <choice>
+                                    <orig>Ecole</orig>
+                                    <reg>École</reg>
+                                </choice>
+                                <choice>
+                                    <abbr>n</abbr>
+                                    <expan>numéro</expan>
+                                </choice> 26.</addrLine>
+                        </address></p>
+                </postscript>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,2014 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="avhr_p2d_w1t_sbb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>II. Considérations générales sur la Géographie des plantes à l'entrée de la
+                    Zone torride. Résultats</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz,
+                            Germany</institution>
+                        <collection>Alexander von Humboldt Nachlässe und Autographe</collection>
+                        <idno>
+                            <idno type="shelfmark">Nachl. Alexander von Humboldt, gr. Kasten 6, Nr.
+                                44 2 Nachl. Alexander von Humboldt, gr. Kasten 6, Nr. 44</idno>
+                            <idno type="URLCatalogue">http://kalliope-verbund.info/DE-611-HS-1036149</idno>
+                            <idno type="URLCatalogue">http://www.stabikat.de/DB=1/PPN?PPN=82636635X </idno>
+                            <idno type="URLImages">http://digital.staatsbibliothek-berlin.de/dms/werkansicht/?PPN=PPN82636635X</idno>
+                            <idno type="URN">http://resolver.staatsbibliothek-berlin.de/SBB00019EF200000000</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                <placeName key="H0008129">Paris</placeName>
+                <date notBefore="1814-01-01" notAfter="1814-10-17" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="1r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000001.jpg"/>
+                <fw type="folNum">1</fw>
+                <head>II. <subst>
+                        <del rendition="#s">G</del>
+                        <add place="intralinear">Considérations</add>
+                    </subst> générales <lb/>sur la <choice>
+                        <abbr>Géogr</abbr>
+                        <expan>Géographie</expan>
+                    </choice> des <lb/>plantes à l'entrée <lb/>de la zone torride. Résultats</head>
+                <p>J’ai <subst>
+                        <del rendition="#s">trié</del>
+                        <add place="superlinear">présenté</add>
+                    </subst> dans la première portée de <lb/>ce mémoire des considérations générales
+                    <lb/>sur la végétation des <placeName key="H0000346">îles Canaries</placeName><choice>
+                        <orig>;</orig>
+                        <reg>.</reg>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">j'ai <lb/>rappellé que mon but n'étoit pas</del>
+                        <add place="superlinear"><subst>
+                                <del rendition="#s">je ne me bornais pas à énumérer</del>
+                                <add place="superlinear">Je ne me suis pas borné </add>
+                            </subst></add>
+                        <lb/>
+                        <del rendition="#s">de donner <subst>
+                                <del rendition="#s">le</del>
+                                <add place="superlinear"> un</add>
+                            </subst> catalogue des <del rendition="#s">pla</del><add place="superlinear"> de</add> plantes</del>
+                        <add place="superlinear"> à faire l’énumération des plantes</add>
+                    </subst> de <placeName key="H0009313">Ténériffe</placeName>
+                    <lb/><subst>
+                        <del rendition="#s"><subst>
+                                <del rendition="#s">d’ap</del>
+                                <add place="intralinear"><del rendition="#s"><gap quantity="1" unit="words"/></del></add>
+                            </subst></del>
+                        <add place="intralinear">d'après</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#s">la hauteur</del>
+                        <add place="intralinear">leur distribution</add>
+                    </subst>
+                    <lb/><del rendition="#s">de </del><unclear reason="illegible" cert="high"><del rendition="#s">leurs</del></unclear><del rendition="#s"> stations</del>
+                    sur la pente rapide <lb/>du <placeName key="H0009297">Volcan</placeName>. <subst>
+                        <add place="superlinear">J'ai voulu</add>
+                        <del rendition="#s">J’ai</del>
+                    </subst><subst>
+                        <add place="superlinear"><del rendition="#s"><gap quantity="1" unit="words"/></del><del rendition="#s">de</del> tracer</add>
+                        <del rendition="#s">voulu tracer les</del>
+                    </subst> la <lb/>Géographie des Végétaux à l’entrée <lb/>de la zone torride,
+                    j’ai <subst>
+                        <del rendition="#s">tâché</del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">voulu</del>
+                                <add place="intralinear"><subst>
+                                        <del rendition="#s">tâché</del>
+                                        <add place="superlinear">voulu</add>
+                                    </subst></add>
+                            </subst></add>
+                    </subst><subst>
+                        <del rendition="#s"><subst>
+                                <add place="intralinear">
+                                    <lb/>de</add>
+                            </subst></del>
+                    </subst> lier la botanique descriptive <lb/>à cette partie de la Physique
+                    <lb/>du Monde qui <subst>
+                        <del rendition="#s">examine</del>
+                        <add place="superlinear">détermine</add>
+                    </subst> les rapports <lb/><subst>
+                        <del rendition="#s">qu'offre la nature</del>
+                        <add place="intralinear">entre les formes</add>
+                    </subst>
+                    <lb/>des êtres organisés et la hauteur <lb/>du sol qu’ils habitent,<note place="right" hand="#author"><placeName key="ed_pzr_hm3_tbb">Buet</placeName><supplied cert="high">,</supplied> neiges <lb/><choice>
+                            <abbr>perp.</abbr>
+                            <expan>perpétuelles <measure quantity="1453" unit="toise">1453 <choice>
+                                        <abbr>t</abbr>
+                                        <expan>toises</expan>
+                                    </choice></measure></expan>
+                        </choice><supplied cert="high">,</supplied>
+                        <lb/><persName key="H0001968">Pictet</persName><supplied cert="high">,</supplied> mon <lb/><choice>
+                            <abbr>Cah</abbr>
+                            <expan>Cahier</expan>
+                        </choice>
+                        <choice>
+                            <abbr>barom.</abbr>
+                            <expan>barométrique</expan>
+                        </choice><supplied cert="high">,</supplied>
+                        <lb/>mais <choice>
+                            <abbr>mont</abbr>
+                            <expan>montagne</expan>
+                        </choice>
+                        <lb/>isolée<supplied cert="high">.</supplied></note> la température <lb/>de
+                    l’air <add place="superlinear">et de l’eau</add> qu’ils <subst>
+                        <del rendition="#s">respirent</del>
+                        <add place="superlinear">décomposent</add>
+                    </subst>, <subst>
+                        <del rendition="#s">la t'</del>
+                        <add place="intralinear">
+                            <lb/><subst>
+                                <del rendition="#s">force des</del>
+                                <add place="intralinear"><subst>
+                                        <del rendition="#s">les rayons solaires, qui</del>
+                                        <add place="intralinear">
+                                            <lb/>la pression barométrique</add>
+                                    </subst></add>
+                            </subst></add>
+                    </subst>, et <subst>
+                        <del rendition="#s">la force <lb/>de</del>
+                        <add place="intralinear">l’intensité de</add>
+                    </subst> la lumière <subst>
+                        <add place="intralinear">solaire </add>
+                        <lb/>
+                        <del rendition="#s">solaire</del>
+                    </subst>, qui modifient <subst>
+                        <del rendition="#s">les</del>
+                        <add place="intralinear"><del rendition="#s">également</del> leurs</add>
+                    </subst> fonctions <lb/>cutanées<supplied cert="high">,</supplied>
+                    <add place="superlinear">enfin</add>
+                    <del rendition="#s">des plantes</del><choice>
+                        <sic>;</sic>
+                        <corr type="deleted"/>
+                    </choice><subst>
+                        <del rendition="#s"><add place="superlinear">enf</add> l'étendue</del>
+                        <add place="intralinear">l’espace <lb/></add>
+                        <del rendition="#s">du globe</del>
+                        <add place="superlinear">plus ou moins étendu</add>
+                    </subst>
+                    <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <supplied cert="high">qu'</supplied>ils ont <choice>
+                        <sic>occupés</sic>
+                        <corr cert="high">occupé</corr>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">dans</del>
+                        <add place="intralinear">par</add>
+                    </subst>
+                    <lb/>leurs migrations progressives. Je résumerai <add place="intralinear">aujourd’hui</add><supplied cert="high">,</supplied>
+                    <lb/>dans la seconde partie de ce mémoire <lb/>les faits principaux que j’ai
+                        indiqué<supplied cert="high">s</supplied>: <subst>
+                        <add place="intralinear">j’y ajouterai</add>
+                        <lb/>
+                        <del rendition="#s">en y ajoutant</del>
+                    </subst> quelques développemens <subst>
+                        <del rendition="#s">qui</del>
+                        <add place="intralinear">propres <lb/>à</add>
+                    </subst> répandre du jour sur <add place="right"><metamark/>deux sciences
+                        <lb/>intimement <lb/>liées<choice>
+                            <sic>,</sic>
+                            <corr type="deleted"/>
+                        </choice> entre <lb/><choice>
+                            <sic>elle</sic>
+                            <corr cert="high">elles</corr>
+                        </choice>,</add> la Géographie <lb/>des plantes <add place="superlinear">et
+                        la Météorologie</add>. <del rendition="#s"><gap quantity="8" unit="words"/></del>
+                    <lb/>1° <add place="superlinear"><subst>
+                            <add place="intralinear">Les</add>
+                            <del rendition="#s">Ces</del>
+                        </subst></add> résultats <add place="superlinear">généraux qui embrassent
+                        les <subst>
+                            <del rendition="#s">zones</del>
+                            <add place="intralinear">régions</add>
+                        </subst>
+                        <choice>
+                            <sic>équinoxia<lb break="no"/>le</sic>
+                            <corr cert="high">équinoxiales</corr>
+                        </choice>, la zone <lb/>tempérée <lb/>et les climats <subst>
+                            <del rendition="#s">d</del>
+                            <add place="intralinear"><choice>
+                                    <sic>voisin</sic>
+                                    <corr cert="high">voisins</corr>
+                                </choice></add>
+                        </subst>
+                        <lb/>du pôle</add>
+                    <del rendition="#s">qui sont</del><del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <lb/><subst>
+                        <del rendition="#s">qu'</del>
+                        <add place="superlinear">n'</add>
+                    </subst>ont été obtenus <add place="superlinear">que</add> depuis un très petit
+                    <lb/>nombre d’années <del rendition="#s">et qui on</del><del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <lb/><del rendition="#s">point</del><del rendition="#s"><gap quantity="3" unit="words"/></del><del rendition="#s">et qui n'ont <lb/>pu être
+                        suffisamment éclaircis ne</del><del rendition="#s"><gap quantity="2" unit="words"/></del>
+                    <lb/><del rendition="#s">point encore suffisamment éclaircis</del>. <lb/>Nous
+                    avons <subst>
+                        <del rendition="#s">dévelloppé</del>
+                        <add place="superlinear">rapellé</add>
+                        <del rendition="#s">plus haut</del>
+                    </subst> que <add place="right"><persName key="H0014144">Menzel</persName><supplied cert="high">,</supplied> l’auteur d’une
+                        <lb/>flore inédite <lb/>du <placeName key="H0006559">Japon</placeName><supplied cert="high">,</supplied>
+                        <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <lb/><del rendition="#s"><gap quantity="4" unit="words"/></del>
+                        <lb/>fait la première <lb/>mention de</add>
+                    <lb/>la <choice>
+                        <abbr>Géogr</abbr>
+                        <expan>Géographie</expan>
+                    </choice> des <choice>
+                        <abbr>pl.</abbr>
+                        <expan>plantes</expan>
+                    </choice>
+                    <del rendition="#s">est</del>
+                    <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <add place="superlinear">mais que</add> cette <choice>
+                        <sic>sciences</sic>
+                        <corr cert="high">science</corr>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">dont <lb/>le nom a existé longtems</del>
+                        <add place="intralinear">est au nombre <lb/>de celles dont le nom a existé
+                            longtems</add>
+                    </subst>
+                    <lb/>avant la science même. <del rendition="#s">Pour discuter</del>
+                    <pb n="1v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000002.jpg"/>
+                    <del rendition="#s">les rapports qu'offre la distribu<lb break="no"/>tion</del></p>
+                <p><del rendition="#s">Tournefort</del>
+                    <lb/>Les mots plantes <lb/>alpines, plantes des pays <lb/><add place="intralinear">chauds</add><supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">des côtes</del>
+                        <add place="superlinear">plantes</add>
+                    </subst> voisines <lb/>de la mer qui se <lb/>retrouvent <subst>
+                        <del rendition="#s">dans</del>
+                        <add place="intralinear">jusque <lb/>dans</add>
+                    </subst>
+                    <del rendition="#s">toutes</del> les langues <lb/>des peuples <choice>
+                        <sic>sauvage</sic>
+                        <corr cert="high">sauvages</corr>
+                    </choice>
+                    <lb/><subst>
+                        <del rendition="#s">des Cordillères</del>
+                        <add place="intralinear"><?oxy_comment_start author="paessler" timestamp="20171116T142752+0100" comment="Ort lässt sich nicht auszeichnen"?>de
+                            <lb/>l'Amérique</add>
+                    </subst>
+                    <add place="superlinear"><choice>
+                            <abbr>mérid</abbr>
+                            <expan>méridionale<?oxy_comment_end?></expan>
+                        </choice></add>, prouvent <lb/>que de tout tems <lb/>l’attention des
+                    <lb/>hommes a été fixé<supplied cert="high">e</supplied>
+                    <lb/>sur la distribution <lb/>des végétaux par <lb/>rapport à la
+                    <lb/>température de l’air <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del> et de la <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del> qualité du <lb/>sol <add place="left"><metamark/>qu’<subst>
+                            <del rendition="#s">il<lb break="no"/></del>
+                            <add place="intralinear">ils</add>
+                        </subst>
+                        <lb/>habi<lb break="no"/>tent</add>. Il ne fallut <lb/>pas de la sagacité
+                    <lb/>de <persName key="H0004028">Tournefort</persName> pour <lb/>observer <subst>
+                        <del rendition="#s">sur</del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">en Arménie</del>
+                                <add place="superlinear"><del rendition="#s">en</del></add>
+                            </subst></add>
+                    </subst><subst>
+                        <add place="intralinear">
+                            <lb/></add>
+                    </subst>que sur la pente <lb/>des hautes montagnes <add place="right">de
+                            <placeName key="H0002559">l'Ar <lb/>mé <lb/>nie</placeName></add>
+                    <lb/>les végétaux <add place="superlinear">qui</add>
+                    <del rendition="#s"><gap quantity="2" unit="words"/></del>
+                    <lb/>appartiennent à <choice>
+                        <abbr>différ</abbr>
+                        <expan>différentes</expan>
+                    </choice>
+                    <lb/>latitudes se suivent <lb/>comme les climats<supplied cert="high">,</supplied>
+                    <lb/>superposés les uns <lb/>aux autres. <del rendition="#s">Cette
+                        <lb/>observation ne peut <lb/>échapper à aucun</del>
+                    <lb/>Mais <subst>
+                        <del rendition="#s">qu'</del>
+                        <add place="intralinear">il</add>
+                    </subst> y a <lb/>loin<supplied cert="high">,</supplied> de cet aper<lb break="no"/>çu général<supplied cert="high">,</supplied> à l’<lb break="no"/>époque où l’on a <lb/>commencé<supplied cert="high">,</supplied> sur les
+                        <lb/><placeName key="H0008509">Pyrénées</placeName><supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">et à</del>
+                        <add place="superlinear">dans</add>
+                    </subst> les <lb/><placeName key="H0002402">Alpes</placeName> et <subst>
+                        <del rendition="#s">d'</del>
+                        <add place="superlinear">dans</add>
+                    </subst> les <placeName key="H0002454">Cordillères</placeName><supplied cert="high">,</supplied>
+                    <lb/>à fixer les limites <lb/>des <subst>
+                        <del rendition="#s">la végétation</del>
+                        <add place="intralinear">végé<lb break="no"/>taux</add>
+                    </subst>. La <choice>
+                        <abbr>Géogr.</abbr>
+                        <expan>Géographie</expan>
+                    </choice> des <lb/>plantes <choice>
+                        <sic>n’a pas s'elever</sic>
+                        <corr cert="high">ne s'est élevée</corr>
+                    </choice> au rang <lb/>d’une science que depuis que l’on <lb/>a eu des moyens <subst>
+                        <del rendition="#s">de</del>
+                        <add place="intralinear">faciles</add>
+                    </subst> à <lb/>multiplier les mesures de hauteur <lb/>par des <choice>
+                        <sic>nivellement</sic>
+                        <corr cert="high">nivellements</corr>
+                    </choice> barométriques, à <lb/>déterminer <add place="superlinear">non
+                        seulement</add> la température moyenne <lb/>de l’air mais<supplied cert="high">,</supplied> ce qui est beaucoup <lb/>plus important pour la
+                    végétation, <lb/>les différences entre la température <lb/><del rendition="#s"><gap quantity="2" unit="words"/></del> de l’été <choice>
+                        <sic>et</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">des mois d'hi<lb break="no"/>ver</del>
+                        <add place="intralinear">et de l’hiver</add>
+                    </subst>, <subst>
+                        <del rendition="#s">du</del>
+                        <add place="superlinear">entre celle du</add>
+                    </subst> jour et <lb/>de la nuit.</p>
+                <p>2° La hauteur des stations des plan<lb break="no"/>tes n’influe pas seulement sur
+                    <lb/>la distribution des espèces <add place="sublinear">des végétaux</add> et <subst>
+                        <del rendition="#s">leur</del>
+                        <add place="sublinear">les</add>
+                    </subst>
+                    <lb/><subst>
+                        <del rendition="#s">org</del>
+                        <add place="sublinear"><subst>
+                                <del rendition="#s">végét</del>
+                                <add place="sublinear"><subst>
+                                        <del rendition="#s">végét</del>
+                                        <add place="intralinear">fonctions</add>
+                                    </subst></add>
+                            </subst></add>
+                    </subst>
+                    <subst>
+                        <add place="intralinear">des</add>
+                        <del rendition="#s">leur</del>
+                    </subst> organes en modifiant la température des <lb/>couches d’air
+                        superposé<supplied cert="high">e</supplied>s: <subst>
+                        <del rendition="#s">cette</del>
+                        <add place="intralinear">l'</add>
+                        <lb/>
+                        <del rendition="#s">hauteur</del>
+                        <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <add place="superlinear">élévation du site</add>
+                    </subst> agit aussi <lb/><del rendition="#s"><gap quantity="3" unit="words"/></del> quoique <subst>
+                        <del rendition="#s">moins précisément</del>
+                        <add place="superlinear">avec moins d’énergie<supplied cert="high">,</supplied></add>
+                    </subst>
+                    <lb/>sur <del rendition="#s"><gap quantity="1" unit="words"/></del> la vie <del rendition="#s"><gap quantity="2" unit="words"/></del> végétale, <lb/>en
+                    modifiant <subst>
+                        <del rendition="#s">la pression</del>
+                        <add place="intralinear">la <lb/>pression</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#s">externe</del>
+                        <add place="intralinear">de l’air <lb/>ambiant</add>
+                    </subst>, son état de sécheresse<supplied cert="high">,</supplied>
+                    <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del> sa charge
+                    électrique et <lb/>l’extinction de la lumière <lb/>à son passage à travers les
+                    <lb/>couches de <choice>
+                        <sic>l’atmosphères</sic>
+                        <corr cert="high">l'atmosphère</corr>
+                    </choice>. Les plantes <lb/><subst>
+                        <del rendition="#s">obéissent</del>
+                        <add place="intralinear">plus que les animaux </add>
+                        <add place="superlinear">obéissent</add>
+                    </subst> à <subst>
+                        <del rendition="#s">des <lb/>sti</del>
+                        <add place="intralinear">l’action des <choice>
+                                <sic>stimulus</sic>
+                                <corr cert="high">stimuli</corr>
+                            </choice></add>
+                    </subst> extérieurs, <lb/><choice>
+                        <sic>leurs</sic>
+                        <corr cert="high">leur</corr>
+                    </choice> vitalité réside surtout <subst>
+                        <del rendition="#s">d</del>
+                        <add place="intralinear">
+                            <lb/>dans</add>
+                    </subst> leur tégumens, dans le parenchyme, <lb/>dans des fonctions qu’on peut
+                    apeller <lb/>cutanées. Il est probable que sous <lb/>une pression de 50
+                    centimètres de mer<lb break="no"/>cure, <subst>
+                        <del rendition="#s">leurs</del>
+                        <add place="intralinear">les</add>
+                    </subst> sécrétions<choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">la</del>
+                        <add place="intralinear">et</add>
+                    </subst> l’éva<lb break="no"/>poration <choice>
+                        <sic>invisibles</sic>
+                        <corr cert="high">invisible</corr>
+                    </choice> se font avec plus <lb/>d’énergie <subst>
+                        <del rendition="#s">que s</del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">qu'au bord</del>
+                                <add place="intralinear">que <lb/>dans les plaines</add>
+                            </subst></add>
+                    </subst> sous une pression baro<lb break="no"/>métrique de 76.
+                        centimètre<supplied cert="high">s</supplied>. <subst>
+                        <del rendition="#s">D</del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">Il y a</del>
+                                <add place="left">D'un autre <lb/>côté, <lb/>il y a</add>
+                            </subst></add>
+                    </subst> moins de lumière réfléchie dans <lb/>une atmosphère pure et presque
+                    démunie <lb/>de vapeurs aqueuses, <del rendition="#s">mais</del> l’air dilaté
+                    <lb/>des montagnes est <choice>
+                        <sic>éclairée</sic>
+                        <corr cert="high">éclairé</corr>
+                    </choice> par des ra<lb break="no"/>yons qui <subst>
+                        <del rendition="#s">n'ont</del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">ont été</del>
+                                <add place="intralinear"><subst>
+                                        <del rendition="#s">subi</del>
+                                        <add place="intralinear"><subst>
+                                                <del rendition="#s">n'</del>
+                                                <add place="intralinear">
+                                                  <lb/>ont subi</add>
+                                            </subst></add>
+                                    </subst></add>
+                            </subst></add>
+                    </subst> une moindre extinction <lb/><subst>
+                        <del rendition="#s">dans leur passage</del>
+                        <add place="intralinear">à leur entrée</add>
+                    </subst> dans <pb n="2r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000003.jpg"/><fw type="folNum">3</fw>l’atmosphère et dans un trajet <lb/>plus court de <subst>
+                        <del rendition="#s">20 à</del>
+                        <add place="intralinear">5 à 6000</add>
+                    </subst> mètres<supplied cert="high">.</supplied>
+                    <lb/>Cette extinction <del rendition="#s">de la lumière</del> est <subst>
+                        <del rendition="#s">deux fois</del>
+                        <add place="intralinear">deux fois</add>
+                    </subst>
+                    <lb/>plus grande dans les plaines <subst>
+                        <del rendition="#s">qu'à</del>
+                        <add place="intralinear">que</add>
+                        <lb/>
+                        <del rendition="#s">la hauteur des</del>
+                        <add place="intralinear">sur le dos des</add>
+                    </subst>
+                    <placeName key="H0002454">Cordillères</placeName><supplied cert="high">.</supplied>
+                    <lb/>En <subst>
+                        <del rendition="#s">mettant</del>
+                        <add place="right"><metamark/>prenant <lb/>pour unité</add>
+                    </subst> l’intensité de la lumière <lb/>dans le vide <del rendition="#s">égal</del>, celle des plaine<supplied cert="high">s</supplied>
+                    <lb/>est de 0.81.<supplied cert="high">,</supplied> tandis qu'à la hauteur
+                    <lb/>du <placeName key="H0008955">Mont blanc</placeName> et du <placeName key="H0007391">Chimborazo</placeName>
+                    <lb/>ces intensités<supplied cert="high">,</supplied> d’après les
+                        formule<supplied cert="high">s</supplied>
+                    <lb/>de la <supplied cert="high">„</supplied><?oxy_comment_start author="paessler" timestamp="20180326T123734+0200" comment="Bib.Angabe einfügen!"?>Mécanique<?oxy_comment_end?>
+                        céleste<supplied cert="high">“</supplied><supplied cert="high">,</supplied>
+                    <add place="superlinear">ne</add> sont <supplied cert="high">que</supplied> de
+                    <lb/>0.89 et 0.91. <note place="right" hand="#author"><metamark/>Les pertes
+                        <lb/>sont donc <lb/>sur les <choice>
+                            <sic>montagne</sic>
+                            <corr cert="high">montagnes</corr>
+                        </choice> de <lb/><subst>
+                            <del rendition="#s">2/10</del>
+                            <add place="intralinear">1/10</add>
+                        </subst>
+                        <lb/>et dans les <lb/>plaines de 2/10<supplied cert="high">.</supplied></note> Ces <del rendition="#s"><gap quantity="1" unit="words"/></del><subst>
+                        <del rendition="#s">suffisent pour</del>
+                        <add place="intralinear">
+                            <lb/>différences photométriques</add>
+                    </subst> modifient <lb/>les fonctions <del rendition="#s">cutanées</del> des
+                    pores corticaux<choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice> et <lb/>cellulaires, des poils <del rendition="#s"><gap quantity="1" unit="words"/></del> excrétoires et lymphatiques <lb/>et de tous ces
+                    organes qui exhalent <lb/>et qui attirent <subst>
+                        <del rendition="#s">du</del>
+                        <add place="intralinear">de</add>
+                    </subst> l’eau et <lb/>des gaz. Cette énergie de la <add place="right"><del rendition="#s"><metamark/>respiration <lb/>et de la</del></add> vie
+                    cutanée <lb/>des végétaux semble se manifester <lb/>dans <subst>
+                        <del rendition="#s">la grande villosité de tout <lb/>des plantes</del>
+                        <add place="intralinear">la grande abondance de poils</add>
+                    </subst>
+                    <lb/>qui couvrent la plupart des plantes <lb/>alpines. Sur le dos des <placeName key="H0002454">Cordillères</placeName>, <del rendition="#s">à 4 et
+                        5000</del><hi rendition="#sup"><del rendition="#s">m</del></hi><del rendition="#s"> de haut</del>
+                    <lb/>les Espeletia, les Culcitium et d’autres <lb/>plantes de la famille des
+                        composées<supplied cert="high">,</supplied>
+                    <lb/>dont les feuilles <del rendition="#s">velu</del> servent de <subst>
+                        <del rendition="#s">paletot</del>
+                        <add place="intralinear">couverture</add>
+                    </subst>
+                    <lb/>aux Indiens <subst>
+                        <del rendition="#s">après</del>
+                        <add place="intralinear">que</add>
+                    </subst> la nuit <lb/>surprend <subst>
+                        <del rendition="#s">dans</del>
+                        <add place="intralinear">près</add>
+                    </subst> des neiges perpétuelles, <lb/>sont plus velu<supplied cert="high">e</supplied>s à <subst>
+                        <del rendition="#s">5000</del>
+                        <add place="intralinear">la <choice>
+                                <abbr>haut.</abbr>
+                                <expan>hauteur</expan>
+                            </choice></add>
+                    </subst> du <placeName key="H0008955"><lb/>Montblanc</placeName> qu’à celle du
+                        <placeName key="H0009297">Pic <lb/>de Ténériffe</placeName>. <subst>
+                        <del rendition="#s">On a</del>
+                        <add place="superlinear">Aussi</add>
+                    </subst>
+                    <add place="right"><metamark/>les physio<lb break="no"/>logistes <lb/>ont</add>
+                    observé depuis longtems <lb/>en <placeName key="H0005696">Europe</placeName> que <subst>
+                        <del rendition="#s">les</del>
+                        <add place="sublinear">beaucoup</add>
+                    </subst> de plantes alpines <lb/>perdent une partie de leur<supplied cert="high">s</supplied> poils lorsqu’<lb break="no"/>on les cultive<del rendition="#s">r</del> dans nos plaines. <lb/>Les plantes des <placeName key="H0002454">Cordillères</placeName>, comme celles <lb/>des <placeName key="H0002402">Alpes</placeName> et des <placeName key="H0008509">Pyrénées</placeName><supplied cert="high">,</supplied> ont un
+                    <lb/>caractère résineux et aromatique<supplied cert="high">,</supplied>
+                    <lb/><subst>
+                        <del rendition="#s">et l'on</del>
+                        <add place="intralinear">on ne</add>
+                    </subst> sauroit douter que <lb/><subst>
+                        <del rendition="#s">la</del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">les</del>
+                                <add place="intralinear">l'énérgie</add>
+                            </subst></add>
+                    </subst> des rayons solaires <lb/>influe passivement sur la respiration <lb/>des
+                    plantes, la formation de la partie <lb/>colorante qui <subst>
+                        <del rendition="#s">a un caractère</del>
+                        <add place="superlinear">tient du</add>
+                    </subst> résineux <lb/>et <add place="right"><metamark>selon <persName key="H0003294"><choice>
+                                    <abbr>Mr</abbr>
+                                    <expan>Monsieur</expan>
+                                </choice>
+                                <lb/>Berthollet</persName></metamark></add> sur la fixation de
+                    l’azote <lb/>dans la fécule. Le Photomètre de <persName key="H0004478"><choice>
+                            <abbr>Mr</abbr>
+                            <expan>Monsieur</expan>
+                        </choice> Leslie</persName>
+                    <pb n="2v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000004.jpg"/><fw type="folNum">4</fw> n’a point encore été <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <lb/>porté sur les hautes cimes: <lb/>il deviendra précieux <subst>
+                        <del rendition="#s">pour mesurer</del>
+                        <lb/>
+                        <add place="intralinear">en mesurant</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#s">la force des rayons</del>
+                        <lb/>
+                        <add place="intralinear">l’énergie de la lumière di<g ref="#typoHyphen"/><lb break="no"/>recte</add>
+                    </subst> dans les plaines et <lb/>sur le dos des montagnes, sous <lb/>la zone
+                    tempérée et dans les <lb/>régions équinoxiales.</p>
+                <p>3° De même que toutes les plantes <lb/>très velues de la <lb/><placeName key="H0010922">Grèce</placeName> et la <placeName key="H0006712">Perse</placeName> ne sont <lb/>pas des plantes alpines, il existe <lb/>un
+                    certain nombre de végétaux <lb/><subst>
+                        <del rendition="#s"><subst>
+                                <del rendition="#s">du</del>
+                                <add place="intralinear">qui par leur</add>
+                            </subst></del>
+                        <add place="intralinear">qui<supplied cert="high">,</supplied>
+                            <subst>
+                                <del rendition="#s">doué</del>
+                                <add place="superlinear">doué</add>
+                            </subst></add>
+                    </subst> d'une<lb/>grande flexibilité d’organisation<supplied cert="high">,</supplied>
+                    <lb/>s’accommodent à des hauteurs <lb/>et des <choice>
+                        <abbr>températ.</abbr>
+                        <expan>températures</expan>
+                    </choice> très différentes. <lb/>En <placeName key="H0005696">Europe</placeName><supplied cert="high">,</supplied> par exemple<supplied cert="high">,</supplied> le <rs type="term" key="XXX">Gentiana verna</rs>
+                    <lb/>et <rs type="term" key="XXX">acaulis</rs>, le <rs type="term" key="XXX">Primula elatior</rs>, le <lb/><rs type="term" key="XXX">Saxifraga
+                        cotyledon</rs> n’ont pas des <lb/>limites fixes comme le <rs type="term" key="XXX">Ranunculus gla<lb break="no"/>cialis</rs>, le <rs type="term" key="XXX">Saxifraga androsacea</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">l’aretia alpina</rs> et le <rs type="term" key="XXX">Draba <lb/>tomentosa</rs>. Ce phénomène est sur<lb break="no"/>tout <choice>
+                        <sic>propres</sic>
+                        <corr cert="high">propre</corr>
+                    </choice> aux plantes herbacées de <lb/>la zone tempérée. <subst>
+                        <del rendition="#s">À l'hospice du <lb/>St Gothard à t de hauteur</del>
+                        <lb/>
+                        <add place="intralinear">Dans les <placeName key="H0002402">Alpes</placeName> et les <placeName key="H0008509">Pyrénées</placeName><supplied cert="high">,</supplied> près des
+                            neiges <choice>
+                                <abbr>perpét.</abbr>
+                                <expan>perpétuelles</expan>
+                            </choice><supplied cert="high">,</supplied></add>
+                    </subst> la chaleur <lb/>du jour s’élève encore dans l’été <lb/>à <subst>
+                        <del rendition="#s">14</del>
+                        <add place="superlinear">16</add>
+                    </subst> et <subst>
+                        <del rendition="#s">15</del>
+                        <add place="superlinear">18</add>
+                    </subst>
+                    <choice>
+                        <abbr>centigr</abbr>
+                        <expan>centigrades</expan>
+                    </choice>. À l’hos<lb break="no"/>pice du <placeName key="H0009940"><choice>
+                            <abbr>St Gothard</abbr>
+                            <expan>Saint-Gothard</expan>
+                        </choice></placeName><supplied cert="high">,</supplied> la température
+                    <lb/>moyenne du mois de Juillet est <lb/>de 8°. À d’égales hauteurs <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <lb/>relatives <choice>
+                        <abbr>c. à. d.</abbr>
+                        <expan>c'est-à-dire</expan>
+                    </choice> à d’égales <lb/><choice>
+                        <sic>distance</sic>
+                        <corr cert="high">distances</corr>
+                    </choice> des neiges <choice>
+                        <abbr>perpét.</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice><supplied cert="high">,</supplied> les <lb/><placeName key="H0002454">Cordillères</placeName> n’offrent pas aux végé<lb break="no"/>taux des
+                    jours si tempérés. Sous <lb/>la zone torride, chaque hauteur a <lb/>son
+                        climat<supplied cert="high">,</supplied>
+                    <add place="left"><metamark/>chaque <lb/>jour <lb/>ses sai<lb break="no"/>sons.</add> Une <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    extrême <lb/>uniformité <subst>
+                        <del rendition="#s">dans la</del>
+                        <add place="superlinear">de</add>
+                    </subst> température y <lb/>rend les végétaux très sensibles aux <pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000005.jpg"/><fw type="folNum">5</fw>moindres variations et on n’y <lb/>trouve pas de <choice>
+                        <sic>ses</sic>
+                        <corr cert="high">ces</corr>
+                    </choice> plantes que l’<lb break="no"/>on peut apeller vagues<supplied cert="high">,</supplied> par<add place="superlinear">ce</add> que <subst>
+                        <add place="intralinear">sur la</add>
+                        <lb/>
+                        <del rendition="#s">sur le dos</del>
+                        <add place="intralinear">pente</add>
+                    </subst> du <placeName key="H0009297">Pic de Ténériffe</placeName>, <subst>
+                        <add place="intralinear">dans les</add>
+                        <lb/>
+                        <del rendition="#s">aux</del>
+                    </subst>
+                    <placeName key="H0002402">Alpes</placeName>
+                    <add place="superlinear">de la <placeName key="H0010179">Suisse</placeName></add> et <subst>
+                        <del rendition="#s">dans</del>
+                        <add place="intralinear">dans</add>
+                    </subst> les montagnes <lb/>de la <placeName key="H0011377">Laponie</placeName><supplied cert="high">,</supplied> on les trouve <lb/>à
+                    des <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteurs</expan>
+                    </choice> très différentes.</p>
+                <p>4° <choice>
+                        <orig>nous</orig>
+                        <reg>Nous</reg>
+                    </choice> connoissons <del rendition="#s">aujourd’hui</del> d’après des mesures <subst>
+                        <del rendition="#s">exactes et</del>
+                        <add place="sublinear">directes</add>
+                    </subst>
+                    <lb/>les phénomènes principaux de la <choice>
+                        <abbr>Géogr</abbr>
+                        <expan>Géographie</expan>
+                    </choice>
+                    <lb/>des plantes sous <placeName key="H0002500"><choice>
+                            <abbr>l’Équat</abbr>
+                            <expan>l'Équateur</expan>
+                        </choice></placeName>, sous <lb/>les 45–47° de <choice>
+                        <abbr>lat.</abbr>
+                        <expan>latitude</expan>
+                    </choice> et sous <lb/>le cercle polaire. J’ai <subst>
+                        <del rendition="#s">ajout</del>
+                        <lb/>
+                        <add place="intralinear">exposé</add>
+                    </subst> dans ce mémoire les différences <lb/>qu’offre <add place="superlinear"><metamark/>l’entrée <lb/>de la zone <lb/>torride: c’est</add> un point
+                    intermédiaire entre <choice>
+                        <abbr><lb/>l’équat</abbr>
+                        <expan>l'équateur</expan>
+                    </choice> et le parallèle moyen <lb/>de 45°. Fixer les limites de hauteur
+                    <lb/>et de température que<supplied cert="high">,</supplied>
+                    <del rendition="#s">la nature</del> sous <lb/>différentes zones<supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">prescrivent</del>
+                        <add place="superlinear">la nature <choice>
+                                <sic>prescrite</sic>
+                                <corr cert="high">prescrit</corr>
+                            </choice></add>
+                    </subst> aux végétaux, <lb/>c’est déterminer <del rendition="#s">la nature</del>
+                    des <lb/>courbes qui<supplied cert="high">,</supplied> sans être parallèles
+                    <lb/>entre elles, se prolongent dans le <lb/><subst>
+                        <del rendition="#s">sens d’un parallèle</del>
+                        <add place="intralinear">plan des méridiens</add>
+                    </subst>
+                    <lb/>depuis <subst>
+                        <del rendition="#s">l'É</del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">la zone torride</del>
+                                <add place="intralinear"><placeName key="H0002500"><choice>
+                                            <abbr>l'Équat</abbr>
+                                            <expan>l'Équateur</expan>
+                                        </choice></placeName></add>
+                            </subst></add>
+                    </subst>
+                    <lb/>vers le <del rendition="#s"><gap quantity="1" unit="words"/></del> pôle.
+                    Cette déter<lb break="no"/>mination <choice>
+                        <sic>et</sic>
+                        <corr cert="high">est</corr>
+                    </choice> d’autant plus exacte <lb/>que l’on multiplie le nombre des <lb/>points
+                    par lesquels les courbes <lb/>doivent passer.</p>
+                <p>5°. <add place="right"><metamark/>Il résulte<supplied cert="high">:</supplied></add>
+                    <choice>
+                        <orig>Les</orig>
+                        <reg>les</reg>
+                    </choice> mesures <add place="superlinear">et les <choice>
+                            <abbr>observ</abbr>
+                            <expan>observations</expan>
+                        </choice></add> que nous avons faites <subst>
+                        <add place="intralinear"><choice>
+                                <abbr>MM</abbr>
+                                <expan>Messieurs</expan>
+                            </choice>
+                            <persName key="H0000726">Ramond</persName></add>
+                        <lb/>
+                        <del rendition="#s">Mr Ram</del>
+                    </subst><supplied cert="high">,</supplied>
+                    <persName key="H0003735">de Buch</persName>, <persName key="H0006198">Wahlenberg</persName><choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <del rendition="#s">Ramond</del>
+                    <lb/>et moi, depuis <add place="superlinear">les</add> 15° <choice>
+                        <abbr>lat.</abbr>
+                        <expan>latitude</expan>
+                    </choice> Sud <subst>
+                        <del rendition="#s">aux</del>
+                        <add place="intralinear">jusqu’au<supplied cert="high">x</supplied></add>
+                    </subst>
+                    <lb/>71° de <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> Nord, que la distance <lb/>des grands arbres <subst>
+                        <del rendition="#s">de</del>
+                        <add place="intralinear">à</add>
+                    </subst> la limite des <lb/>neiges <choice>
+                        <abbr>perpét.</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice> est <subst>
+                        <del rendition="#s">semblablement le <lb/>moins</del>
+                        <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <add place="intralinear">de la moitié moins</add>
+                    </subst> grande <lb/>dans la zone <choice>
+                        <sic>tempéré</sic>
+                        <corr cert="high">tempérée</corr>
+                    </choice> et sous le <placeName key="ed_lpc_kpj_wbb">cercle <lb/><choice>
+                            <abbr>pol</abbr>
+                            <expan>polaire</expan>
+                        </choice></placeName> que <subst>
+                        <del rendition="#s">sous l’Équateur</del>
+                        <add place="intralinear">dans les régions <lb/>équinoxiales</add>
+                    </subst>.<note place="right" hand="#author" type="auxCalc">1370 <supplied cert="high">+</supplied> 1370 <supplied cert="high">+</supplied> 1300
+                            <supplied cert="high">=</supplied> 4040 1347 <supplied cert="high">-</supplied> 1023 <gap unit="chars" quantity="2" reason="illegible"/>
+                        <supplied cert="high">=</supplied> 324</note></p>
+                <p><note place="right" hand="#author" type="auxCalc">450 <supplied cert="high">+</supplied> 520 <supplied cert="high">=</supplied> 970 <supplied cert="high">÷ 3</supplied>
+                        <supplied cert="high">=</supplied> 323</note></p>
+                <p><note place="right" hand="#author" type="auxCalc">920 <supplied cert="high">+</supplied> 1100 <supplied cert="high">+</supplied> 1050 <supplied cert="high">=</supplied> 3070 <supplied cert="high">÷ 3</supplied>
+                        <supplied cert="high">=</supplied> 1023</note></p>
+                <p><note place="right" hand="#author" type="auxCalc">450 <supplied cert="high">+</supplied> 550 <supplied cert="high">=</supplied> 1000 <supplied cert="high">÷ 3</supplied>
+                        <supplied cert="high">=</supplied> 333</note> Dans ces dernières<supplied cert="high">,</supplied> les <lb/>arbres cessent à <measure quantity="1800" unit="toise">1800 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure> de <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice>
+                    <lb/>et les neiges se trouvent à <measure quantity="2460" unit="toise">2460 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>. <lb/>Les <choice>
+                        <abbr>pl</abbr>
+                        <expan>plantes</expan>
+                    </choice> alpines occupent une région <lb/>de <measure quantity="650" unit="toise"><subst>
+                            <del rendition="#s">600</del>
+                            <add place="intralinear">650</add>
+                        </subst>
+                        <choice>
+                            <abbr>t</abbr>
+                            <expan><?oxy_comment_start author="paessler" timestamp="20171116T174222+0100" comment="keine schöne Lösung: der gestrichene Wert musste auch ausgezeichnet werden"?>toises<?oxy_comment_end?></expan>
+                        </choice></measure>. <subst>
+                        <add place="right"><metamark/>Vers les limites <lb/>de la zone <lb/>torride
+                            au <lb/><placeName key="H0008847">Mexique</placeName><supplied cert="high">,</supplied>
+                            <subst>
+                                <del rendition="#s">la</del>
+                                <lb/>
+                                <add place="intralinear">cette</add>
+                            </subst> région se <lb/>restreint déjà <lb/>à <measure quantity="360" unit="toise">360 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure>. <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                            <lb/>Plus loin<supplied cert="high">,</supplied> aux</add>
+                        <del rendition="#s">Aux</del>
+                    </subst>
+                    <placeName key="H0002402">Alpes</placeName>, aux <placeName key="H0008509">Pyrénées</placeName>
+                    <lb/>et en <placeName key="H0011377"><choice>
+                            <abbr>Lap</abbr>
+                            <expan>Laponie</expan>
+                        </choice></placeName><supplied cert="high">,</supplied> les arbres montent
+                    <lb/>plus haut encore, <add place="superlinear">encore</add> plus près des
+                    neiges <choice>
+                        <abbr>perp</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice>.</p>
+                <pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000006.jpg"/>
+                <p>En prenant la moyenne des <choice>
+                        <abbr>obs</abbr>
+                        <expan>observations</expan>
+                    </choice>
+                    <lb/>faites aux <placeName key="H0008509">Pyrénées</placeName> et sur les
+                        <lb/><gap unit="words" quantity="1" reason="illegible"/>
+                    <unclear reason="illegible" cert="high">pentes</unclear> des <placeName key="H0002402">Alpes</placeName> de la <lb/><placeName key="H0010179">Suisse</placeName><supplied cert="high">,</supplied> on trouve pour les
+                    <lb/>45° une distance <subst>
+                        <del rendition="#s">à les</del>
+                        <lb/>
+                        <add place="intralinear">aux </add>
+                    </subst>neiges <choice>
+                        <abbr>perp</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice> de <measure quantity="340" unit="toise">340 <choice>
+                            <abbr>t.</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>
+                    <add place="superlinear">et</add> sous <lb/>les 67° de <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice> de <measure quantity="300" unit="toise">300 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure><supplied cert="high">.</supplied>
+                    <lb/>Les nombres qui reprennent ces <lb/>rapports sous <choice>
+                        <abbr>l’équat.</abbr>
+                        <expan>l'équateur</expan>
+                    </choice>, <del rendition="#s">à</del><del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <add place="superlinear">près</add>
+                    <lb/>du tropique du cancer, sous les 45°<supplied cert="high">,</supplied>
+                    <lb/>et sous le cercle <choice>
+                        <abbr>pol</abbr>
+                        <expan>polaire</expan>
+                    </choice> sont <lb/>par conséquent</p>
+                <p><subst>
+                        <del rendition="#s">66. 36. 34 et 30.</del>
+                        <lb/>
+                        <add place="intralinear">33. 18. 17. et 15</add>
+                    </subst></p>
+                <p>Ce phénomène est sans doute bien <lb/>extraordinaire et ne peut <del rendition="#s">point</del>
+                    <lb/>s’expliquer <subst>
+                        <del rendition="#s">que <gap unit="words" quantity="1" reason="illegible"/></del>
+                        <add place="intralinear">directement</add>
+                    </subst>
+                    <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del> par les <choice>
+                        <abbr>différ</abbr>
+                        <expan>différences</expan>
+                    </choice> de <choice>
+                        <abbr>temp.</abbr>
+                        <expan>température</expan>
+                    </choice> ou de <lb/>pression barométrique. Sous <placeName key="H0002500"><choice>
+                            <abbr>l’équat</abbr>
+                            <expan>l'équateur</expan>
+                        </choice>
+                        <lb/></placeName>et <subst>
+                        <del rendition="#s">au Mexique</del>
+                        <add place="superlinear">à la <placeName key="H0001618"><choice>
+                                    <abbr>Nouv Espag</abbr>
+                                    <expan>Nouvelle-Espagne</expan>
+                                </choice></placeName></add>
+                    </subst><supplied cert="high">,</supplied> les <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteurs</expan>
+                    </choice>
+                    <lb/>absolues ne diffèrent que de <lb/><measure quantity="200" unit="toise">200 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure> et <add place="left"><metamark/>sous ces <choice>
+                            <abbr>lat.</abbr>
+                            <expan>latitudes</expan>
+                        </choice></add> les <choice>
+                        <abbr>temp</abbr>
+                        <expan>températures</expan>
+                    </choice> moyennes de <lb/><subst>
+                        <del rendition="#s">une</del>
+                        <add place="superlinear">deux</add>
+                    </subst> couches d’air<supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">qui</del>
+                        <add place="superlinear"><del rendition="#s"><gap quantity="1" unit="words"/></del> situées</add>
+                    </subst> à <measure quantity="360" unit="toise">360 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>
+                    <lb/>de <choice>
+                        <abbr>dist</abbr>
+                        <expan>distance</expan>
+                    </choice> des neiges <choice>
+                        <abbr>perp.</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice><supplied cert="high">,</supplied> ne diffè<lb break="no"/>rent pas
+                        <add place="superlinear">entre elles</add> de 2° <choice>
+                        <abbr>centigr</abbr>
+                        <expan>centigrade</expan>
+                    </choice>. La véri<lb break="no"/>table cause de ce phénomène <add place="intralinear">extraor</add><lb break="no"/><add place="intralinear">dinaire</add> consiste dans la différence des <lb/>espèces d’arbre<supplied cert="high">s,</supplied> par <choice>
+                        <sic>lesquels</sic>
+                        <corr cert="high">lesquelles</corr>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">se</del>
+                        <add place="intralinear">termi<g ref="#typoHyphen"/><lb break="no"/><subst>
+                                <del rendition="#s">nant</del>
+                                <add place="superlinear">ne</add>
+                            </subst></add>
+                    </subst> la végétation sous <placeName key="H0002500"><lb/><choice>
+                            <abbr>l’Équat</abbr>
+                            <expan>l'Équateur</expan>
+                        </choice></placeName> et au <placeName key="H0008847">Mexique</placeName><supplied cert="high">.</supplied>
+                    <lb/>Sur les <placeName key="H0002454">Cordillères</placeName> du <placeName key="H0008229">Pérou</placeName><supplied cert="high">,</supplied>
+                    <lb/>nous n’avons trouvé que des <lb/>Wintera, des Escallonia, <lb/><subst>
+                        <del rendition="#s">des</del>
+                        <add place="intralinear">l'Alstonia</add>
+                    </subst> theaeformis<supplied cert="high">,</supplied>
+                    <add place="left"><metamark/>des Aralia</add><lb break="no"/><add place="left">cées et </add><lb/><add place="left">des Vacci</add><g ref="#typoHyphen"/><lb break="no"/><add place="left">niées</add>, il n'<lb break="no"/>y a
+                    pas de Pins<supplied cert="high">,</supplied>
+                    <add place="left"><metamark/>pas d'arbres </add><lb/><add place="left">verts</add><supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">pas de</del>
+                        <add place="intralinear"> en général <lb/>pas de</add>
+                    </subst> conifères. Sur le flanc <lb/><subst>
+                        <del rendition="#s">au</del>
+                        <add place="superlinear">du</add>
+                    </subst>
+                    <placeName key="H0007391">Chimborazo</placeName><supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">j</del>
+                        <add place="intralinear">nous</add>
+                    </subst> avons <lb/>vu cesser la végétation des ar<lb break="no"/>bres à une <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice> dont la <choice>
+                        <abbr>temp</abbr>
+                        <expan>température</expan>
+                    </choice>
+                    <lb/><choice>
+                        <abbr>moy</abbr>
+                        <expan>moyenne</expan>
+                    </choice> est de <subst>
+                        <del rendition="#s">8°</del>
+                        <add place="intralinear">7°</add>
+                    </subst>. C’est celle <lb/>du mois de Mars à <placeName key="H0008129">Paris</placeName>, du <lb/>mois de mai à <placeName key="H0010362">Stockholm</placeName>, <lb/>et du mois de Juin <subst>
+                        <del rendition="#s">au</del>
+                        <add place="intralinear">à</add>
+                    </subst> l’hospice de <placeName key="H0009940"><choice>
+                            <abbr>St Gothard</abbr>
+                            <expan>Saint-Gothard</expan>
+                        </choice></placeName>.<note place="left" hand="#author">On peut <subst>
+                            <del rendition="#s">dire à</del>
+                            <add place="intralinear">déterminer</add>
+                        </subst>
+                        <lb/>la <choice>
+                            <abbr>haut.</abbr>
+                            <expan>hauteur</expan>
+                        </choice> à laquelle un <lb/>arbre<supplied cert="high">,</supplied> qui
+                        pousse annuellement <lb/>de nouvelles feuilles, peut <lb/>végéter. On
+                        observe la <choice>
+                            <abbr>tempér.</abbr>
+                            <expan>température</expan>
+                        </choice>
+                        <lb/>moyenne du mois dans <lb/>lequel<supplied cert="high">,</supplied> dans
+                        un lieu quel<lb break="no"/>conque<supplied cert="high">,</supplied> cet
+                        arbre développe <lb/><choice>
+                            <sic>ces</sic>
+                            <corr cert="high">ses</corr>
+                        </choice>
+                        <?oxy_comment_start author="paessler" timestamp="20180327T145005+0200" comment="korr. bis hier. 27.3."?>premières<?oxy_comment_end?>
+                        feuilles et <lb/>l'on <subst>
+                            <del rendition="#s">déd</del>
+                            <add place="intralinear">conclut</add>
+                        </subst> de là <lb/>que l'arbre ne peut pas <lb/>végéter partout, où
+                        <lb/>aucun des mois d'été <lb/>n'atteint <supplied cert="high">pas</supplied> cette tempéra<lb break="no"/>ture limite. Ces degrés
+                            <lb/>sont<supplied cert="high">,</supplied> d'après <persName key="H0006198">Wahlenberg</persName><supplied cert="high">,</supplied>
+                        <lb/>pour le Betula alba <lb/>11° <choice>
+                            <abbr>cent</abbr>
+                            <expan>centigrades</expan>
+                        </choice><choice>
+                            <orig>,</orig>
+                            <reg>.</reg>
+                        </choice>
+                        <subst>
+                            <del rendition="#s">pour le Prunus pa<lb break="no"/>dus 13°</del>
+                            <add place="intralinear">Le Prunus padus <lb/>ne fleurit qu'à 13°</add>
+                        </subst>. <lb/>Il est plus difficile <lb/><del rendition="#s"><gap quantity="2" unit="words"/></del>
+                        <supplied cert="high">à déterminer là</supplied> où les arbres verts
+                        <lb/>(Pins) cessent de végéter<supplied cert="high">.</supplied>
+                        <lb/>Il y en <supplied cert="high">a</supplied> à <placeName key="ed_f1f_nzg_xbb">Enontekies</placeName><supplied cert="high">,</supplied>
+                        <lb/>où la <choice>
+                            <abbr>t</abbr>
+                            <expan>température</expan>
+                        </choice>
+                        <choice>
+                            <abbr>m.</abbr>
+                            <expan>moyenne</expan>
+                        </choice> des mois d'hiver <lb/>est de -18°. Il n'y en <lb/>a pas en
+                            <placeName key="H0011377">Laponie</placeName> à <measure quantity="300" unit="toise">300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure>
+                        <lb/>de <choice>
+                            <abbr>haut</abbr>
+                            <expan>hauteur</expan>
+                        </choice> absolue et cepen<lb break="no"/>dant la <choice>
+                            <abbr>temp.</abbr>
+                            <expan>température</expan>
+                        </choice>
+                        <choice>
+                            <abbr>m.</abbr>
+                            <expan>moyenne</expan>
+                        </choice> de <lb/>l'hiver <del rendition="#s">n'y</del> est sans doute <lb/><subst>
+                            <del rendition="#s">pas au dessous de</del>
+                            <add place="intralinear">un peu <lb/>au dessus de</add>
+                        </subst> -18°. Mais il <lb/>y a d'autres circonstances <lb/>qui
+                            décident<supplied cert="high">:</supplied> 1° les arbres sont
+                        <lb/>détruits tous les ans par <lb/>des <subst>
+                            <del rendition="#s">gelées</del>
+                            <add place="intralinear">froids</add>
+                        </subst> excessifs <lb/>de quelques jours <lb/>qui changent <lb/>à peine les <choice>
+                            <abbr>t.</abbr>
+                            <expan>températures</expan>
+                        </choice>
+                        <choice>
+                            <abbr>m.</abbr>
+                            <expan>moyennes</expan>
+                        </choice>
+                        <lb/>de l'hiver<supplied cert="high">.</supplied> 2° les <lb/>arbres à
+                        <lb/>feuilles herba<lb break="no"/>cées vivraient <lb/>s'il le faut 30–40
+                        jours <lb/><choice>
+                            <sic>pour vu</sic>
+                            <corr cert="high">pourvu</corr>
+                        </choice> que ces jours atteignent <lb/>pour le Betula 11° de <choice>
+                            <abbr>t.</abbr>
+                            <expan>température</expan>
+                        </choice>
+                        <choice>
+                            <abbr>moy.</abbr>
+                            <expan>moyenne</expan>
+                        </choice><supplied cert="high">,</supplied>
+                        <lb/>ils parcourent rapidement le <lb/>cycle de la foliation et <lb/>de la
+                        floraison, mais les arbres <lb/>verts demandent pour leur<supplied cert="high">s</supplied>
+                        <lb/>fonctions vitales<supplied cert="high">,</supplied> plus
+                            <lb/>lentes<supplied cert="high">,</supplied> des étés peu chauds mais
+                        <lb/>plus longs. <choice>
+                            <sic>Il</sic>
+                            <corr cert="high">Ils</corr>
+                        </choice>
+                        <subst>
+                            <del rendition="#s">y a donc</del>
+                            <add place="intralinear">exigent</add>
+                        </subst>
+                        <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del> un certain
+                        nombre de jours <lb/>qui <del rendition="#s"><gap quantity="1" unit="words"/></del> ayent une certai<lb break="no"/>ne <choice>
+                            <abbr>tempér.</abbr>
+                            <expan>température</expan>
+                        </choice> limite<supplied cert="high">.</supplied>
+                        <lb/>Dans deux en<lb break="no"/>droits<supplied cert="high">,</supplied> la <choice>
+                            <abbr>temp</abbr>
+                            <expan>température</expan>
+                        </choice>
+                        <lb/>des 3 mois d'été <lb/>peut être <lb/>la même, et
+                            <lb/>cependant<supplied cert="high">,</supplied> dans <lb/>l'un<supplied cert="high">,</supplied> des pins <lb/>ne croîtroient pas<supplied cert="high">,</supplied>
+                        <lb/>parce <choice>
+                            <sic>qu'en à</sic>
+                            <corr cert="high">qu'</corr>
+                        </choice><lb break="no"/>un Août très <lb/>chaud suivroit <lb/>à des <choice>
+                            <abbr>J.</abbr>
+                            <expan>Juins</expan>
+                        </choice>
+                        <supplied cert="high">et</supplied>
+                        <choice>
+                            <abbr>J.</abbr>
+                            <expan>Juillets</expan>
+                        </choice> très <lb/>froids. Les Pins <lb/>végètent <p>où la <choice>
+                                <abbr>t.</abbr>
+                                <expan>température</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>moyenne</expan>
+                            </choice> d’aucun des 4. <lb/>mois d’été est au<supplied cert="high">-</supplied>dessous de… <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del><choice>
+                                <sic>.</sic>
+                                <corr type="deleted"/>
+                            </choice> Discutez d’après <lb/>ces idées les phénomènes <lb/>qu’offrent
+                            les pins <lb/>en <placeName key="H0010218">Sibérie</placeName>. <seg type="comment">
+                                <orig>Gilbert</orig>
+                                <note xml:id="nkqh_lrx_wbb"><bibl sameAs="zotero-667230-HAJQAX9E">Wahlenberg 1812a</bibl>. Der Aufsatz erschien in den von
+                                        <persName key="H0013474">Ludwig Wilhelm Gilbert</persName>
+                                    herausgegebenen Annalen der Physik.</note>
+                            </seg>
+                            <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 293. </p><p><hi rendition="#u">Arbres</hi></p><p><choice>
+                                <abbr>Caract.</abbr>
+                                <expan>Caractère</expan>
+                            </choice> général<supplied cert="high">.</supplied> Tous les ar<lb break="no"/>bres exigent une plus haute <lb/><choice>
+                                <abbr>temp</abbr>
+                                <expan>température</expan>
+                            </choice> de l’été que les herbes<supplied cert="high">.</supplied>
+                            <persName key="H0006198"><lb/><choice>
+                                    <abbr>Wahl</abbr>
+                                    <expan>Wahlenberg</expan>
+                                </choice></persName>. Une petite quantité de <lb/>chaleur également
+                                répan<lb break="no"/>due suffit aux herbes. </p><p><seg type="comment">
+                                <orig><persName key="H0013474">Gilbert</persName></orig>
+                                <note xml:id="nsjj_sty_wbb"><bibl sameAs="zotero-667230-HAJQAX9E">Wahlenberg 1812a</bibl>.</note>
+                            </seg>
+                            <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 283. </p></note><lb/>Or on ne peut comparer <subst>
+                        <del rendition="#s">des</del>
+                        <add place="superlinear">les Wintera<supplied cert="high">,</supplied>
+                            les</add>
+                    </subst> Escal<lb break="no"/>lonia, <add place="superlinear">et</add>
+                    <subst>
+                        <del rendition="#s">des</del>
+                        <add place="superlinear">les</add>
+                    </subst> Aralia des <pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000007.jpg"/><fw type="folNum">7.</fw>hautes <placeName key="H0002454">Cordillères</placeName> à des Conifères <lb/>de <placeName key="H0005696">l’Europe</placeName> et du <placeName key="H0008847">Mexique</placeName>:
+                    la <lb/>physiologie végétale n’indique <subst>
+                        <del rendition="#s">un</del>
+                        <add place="intralinear">
+                            <lb/>aucun</add>
+                    </subst> rapport entre des végétaux <lb/>de famille<supplied cert="high">s</supplied> si différentes. Dès qu’on <lb/><subst>
+                        <del rendition="#s">fixe s</del>
+                        <add place="intralinear">se borne</add>
+                    </subst> à étudier les <lb/>rapports qu’offrent les Pins du <lb/><placeName key="H0008847">Mexique</placeName> avec ceux des <placeName key="H0008509">Pyrénées</placeName>
+                    <lb/>et des <placeName key="H0002402">Alpes</placeName> (quoique d’espèces
+                        <lb/>différentes)<supplied cert="high">,</supplied> l’harmonie
+                        reparoît<supplied cert="high">:</supplied>
+                    <lb/>on <del rendition="#s">ne</del> trouve <subst>
+                        <add place="right"><metamark/>les presque égales</add>
+                        <del rendition="#s">les</del>
+                        <add place="superlinear"><subst>
+                                <del rendition="#s">des</del>
+                            </subst></add>
+                    </subst> distances <del rendition="#s">presque </del><lb/><del rendition="#s">égales aux</del>
+                    <supplied cert="high">des</supplied> neiges <choice>
+                        <abbr>perpét</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice>. Elles <lb/>sont de 20–71° de <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice>
+                    <lb/><subst>
+                        <del rendition="#s">de</del>
+                        <add place="intralinear">comme</add>
+                    </subst> les nombres</p>
+                <p>18. 17 et 15.</p>
+                <p>et <add place="intralinear"><metamark/>l'établi<lb break="no"/>ssement <lb/>de
+                        cette <lb/><choice>
+                            <sic>loix</sic>
+                            <corr cert="high">loi</corr>
+                        </choice></add>
+                    <choice>
+                        <sic>cette loix </sic>
+                        <corr type="deleted"/>
+                    </choice><subst>
+                        <del rendition="#s">de la nat</del>
+                        <add place="superlinear"><del rendition="#s"> de la nature n'</del></add>
+                    </subst>est <lb/>sans doute <subst>
+                        <del rendition="#s">pas du moins <lb/>intéres</del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">importantes pour</del>
+                                <add place="intralinear">bien important</add>
+                            </subst></add>
+                    </subst>
+                    <lb/>pour la <choice>
+                        <abbr>Phys.</abbr>
+                        <expan>Physique</expan>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">générale</del>
+                        <add place="intralinear">des Végétaux</add>
+                    </subst>.</p>
+                <p>6° Nous venons <subst>
+                        <del rendition="#s">de con</del>
+                        <add place="intralinear">d'examiner</add>
+                    </subst>
+                    <lb/>la <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice> des arbres sous un point <lb/>de vue général en comparant <lb/><del rendition="#s">en gros</del> le <placeName key="H0009532">Tropique</placeName>
+                    <subst>
+                        <del rendition="#s">de</del>
+                        <add place="superlinear">au</add>
+                    </subst>
+                    <placeName key="ed_lpc_kpj_wbb">cercle <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <lb/><subst>
+                            <del rendition="#s">le cercle</del>
+                            <add place="intralinear">polaire</add>
+                        </subst></placeName>. <subst>
+                        <del rendition="#s">La dist</del>
+                        <add place="intralinear">En <lb/>entrant</add>
+                    </subst> dans <subst>
+                        <del rendition="#s">un plus grand</del>
+                        <add place="intralinear">le <lb/>détail</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#s">des</del>
+                        <add place="superlinear">de ces</add>
+                    </subst> mesures<supplied cert="high">,</supplied> on aperçoit <lb/>qu'il y a
+                    une <subst>
+                        <del rendition="#s">rétrécissement</del>
+                        <add place="right"><metamark/>progression assez <lb/><subst>
+                                <add place="intralinear">petite</add>
+                                <del rendition="#s">petite</del>
+                            </subst> mais</add>
+                    </subst> très <lb/>régulière dans la <subst>
+                        <del rendition="#s">haut des</del>
+                        <add place="intralinear">
+                            <lb/>limite des</add>
+                    </subst> arbres depuis les 21° <supplied cert="high">jusqu'</supplied>aux
+                    <lb/>71°. Leur distance aux neiges est <lb/>au <placeName key="H0008847">Mexique</placeName> de <measure quantity="360" unit="toise">360 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure><supplied cert="high">,</supplied> au centre <lb/>de
+                        <placeName key="H0005696">l'Europe</placeName> de <choice>
+                        <sic>de</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">340</del>
+                        <add place="superlinear"><measure quantity="323" unit="toise">323</measure>.</add>
+                    </subst> et en <lb/>Laponie de <measure quantity="300" unit="toise">300</measure>.<note place="right" hand="#author"><metamark/><subst>
+                            <del rendition="#ow">a</del>
+                            <add place="across">A</add>
+                        </subst>u <placeName key="H0008847">Mexique</placeName><supplied cert="high">,</supplied>
+                        <lb/>le Pin <lb/>(<choice>
+                            <abbr>P</abbr>
+                            <expan>Pinus</expan>
+                        </choice>
+                        <choice>
+                            <abbr>occid</abbr>
+                            <expan>occidentalis</expan>
+                        </choice>) <lb/>est une <lb/>plante <lb/>alpine qui <lb/><del rendition="#s">ne</del> commence <lb/>là où les arbres <unclear reason="illegible" cert="high">finissent</unclear>
+                        <lb/><subst>
+                            <del rendition="#s">qu'à</del>
+                            <add place="superlinear">en <placeName key="H0005696">Europe</placeName>
+                                à</add>
+                        </subst>
+                        <measure quantity="950" unit="toise">950 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure>
+                        <lb/>et finit <lb/>à la <choice>
+                            <abbr>haut</abbr>
+                            <expan>hauteur</expan>
+                        </choice>
+                        <lb/>du <placeName key="H0009297">Pic de <lb/>Ténériffe</placeName><supplied cert="high">.</supplied></note> En comparant les <choice>
+                        <abbr>mont.</abbr>
+                        <expan>montagnes</expan>
+                    </choice>
+                    <lb/>de la <placeName key="H0011377">Laponie</placeName>
+                    <subst>
+                        <del rendition="#s">à la</del>
+                        <add place="intralinear">non aux</add>
+                    </subst>
+                    <unclear reason="illegible" cert="high">dépressions</unclear>
+                    <lb/>mais à la pente <choice>
+                        <abbr>septentr</abbr>
+                        <expan>septentrionale</expan>
+                    </choice>
+                    <lb/>des <placeName key="H0002402">Alpes</placeName>,on voit les arbres <lb/><subst>
+                        <del rendition="#s">monter</del>
+                        <add place="intralinear">s'approcher</add>
+                    </subst>
+                    <del rendition="#s">des</del><del rendition="#s"><gap quantity="2" unit="words"/></del> beaucoup <lb/>plus des neiges sous le cercle <lb/>polaire que par
+                    les 47° de latitude<supplied cert="high">.</supplied>
+                    <lb/>Dans le <placeName key="H0001700">Nord de l'Europe</placeName><supplied cert="high">,</supplied> la végétation <lb/>des arbres finit par des
+                    bouleaux <lb/><choice>
+                        <abbr>B.</abbr>
+                        <expan>Betula</expan>
+                    </choice> alba<supplied cert="high">,</supplied>
+                    <add place="right"><metamark/>par un <lb/>arbre à feuilles <lb/>herbacées
+                        <lb/>qui ne vit pour <lb/>ainsi dire <lb/>qu'en été</add>, <subst>
+                        <del rendition="#s">aux</del>
+                        <add place="superlinear">dans les</add>
+                    </subst>
+                    <placeName key="H0002402">Alpes</placeName> et aux <lb/><placeName key="H0008509">Pyrénées</placeName><supplied cert="high">,</supplied> la
+                    végétation finit <lb/>par le Pinus <choice>
+                        <abbr>sylvestr</abbr>
+                        <expan>sylvestris</expan>
+                    </choice> et le <choice>
+                        <abbr>P.</abbr>
+                        <expan>Pinus</expan>
+                    </choice>
+                    <lb/>mugho qui <subst>
+                        <del rendition="#s">demandent</del>
+                        <add place="superlinear">aiment</add>
+                    </subst> des <lb/>étés <subst>
+                        <del rendition="#s">moins</del>
+                        <add place="superlinear">plus</add>
+                    </subst> longs et <lb/>moins chauds. Le bouleau <pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000008.jpg"/><fw type="folNum">8.</fw>demande <subst>
+                        <del rendition="#s">une force végétative <lb/>de</del>
+                        <add place="intralinear">pour </add>
+                    </subst>développer <subst>
+                        <del rendition="#ow">les</del>
+                        <add place="intralinear">ses</add>
+                    </subst> feuilles <lb/>une <choice>
+                        <abbr>tempér</abbr>
+                        <expan>température</expan>
+                    </choice> moyenne <del rendition="#s">des mois</del>
+                    <lb/>de <subst>
+                        <del rendition="#s">8°</del>
+                        <add place="intralinear">11°</add>
+                    </subst> et en <placeName key="H0010179">Suisse</placeName><supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">aucun</del>
+                        <add place="intralinear">
+                            <lb/>à la limite</add>
+                    </subst> des grands arbres<supplied cert="high">,</supplied>
+                    <lb/>aucun mois d'été n'atteint <lb/>une <choice>
+                        <abbr>tempér.</abbr>
+                        <expan>température</expan>
+                    </choice> moyenne de 9°<supplied cert="high">,</supplied> comme <lb/>nous le
+                    savons avec certitude<supplied cert="high">,</supplied>
+                    <lb/>non par des calculs <choice>
+                        <sic>fondé</sic>
+                        <corr cert="high">fondés</corr>
+                    </choice>
+                    <lb/>sur le décroissement du calorique<supplied cert="high">,</supplied>
+                    <lb/>mais <del rendition="#s">surtout</del> par des <choice>
+                        <abbr>obs.</abbr>
+                        <expan>observations</expan>
+                    </choice>
+                    <choice>
+                        <abbr>météorol</abbr>
+                        <expan>météorologiques</expan>
+                    </choice>
+                    <lb/>faites pendant 18 ans à l'hos<lb break="no"/>pice de <placeName key="H0009940"><choice>
+                            <abbr>St Goth</abbr>
+                            <expan>Saint-Gothard</expan>
+                        </choice></placeName> et <lb/>dans la <placeName key="H0009678">vallée
+                        d'Ursern</placeName>.</p>
+                <p>7° Les nombres qu'expriment la <lb/>distance <subst>
+                        <del rendition="#s">des</del>
+                        <add place="superlinear"><subst>
+                                <del rendition="#s">de la</del>
+                                <add place="left"><metamark/>des neiges <lb/><choice>
+                                        <abbr>perp.</abbr>
+                                        <expan>perpétuelles</expan>
+                                    </choice> à <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del></add>
+                            </subst></add>
+                    </subst><subst>
+                        <add place="left"> la</add>
+                    </subst> limite des <lb/>Céréales (du froment et de <lb/>l'orge) <add place="superlinear">sont</add> sous <placeName key="H0002500"><choice>
+                            <abbr>l'Équat.</abbr>
+                            <expan>l'Équateur</expan>
+                        </choice></placeName><supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">à l</del>
+                        <add place="intralinear">
+                            <lb/>aux</add>
+                    </subst>
+                    <placeName key="H0002402">Alpes</placeName> et en <placeName key="H0011377">Laponie</placeName>
+                    <subst>
+                        <del rendition="#s">sur</del>
+                        <add place="intralinear">
+                            <lb/>dans <del rendition="#s"><gap quantity="1" unit="words"/></del></add>
+                    </subst> le rapport de</p>
+                <p><subst>
+                        <del rendition="#s">760 800 450</del>
+                        <add place="intralinear">
+                            <lb/>38. 40 et. 23</add>
+                    </subst></p>
+                <p><subst>
+                        <add place="intralinear">Sous</add>
+                        <del rendition="#s">De</del>
+                    </subst>
+                    <placeName key="H0002500"><choice>
+                            <abbr>l'Équat</abbr>
+                            <expan>l'Équateur</expan>
+                        </choice></placeName> jusqu'au centre <lb/>de la zone tempérée<supplied cert="high">,</supplied> la distance <lb/>est à peu près la même (de
+                        <lb/><measure quantity="760" unit="toise">760</measure> à <measure quantity="800" unit="toise">800 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>) mais<supplied cert="high">,</supplied> en <placeName key="H0011377">Lapponie</placeName><supplied cert="high">,</supplied>
+                    <lb/>elle <del rendition="#s"><gap quantity="1" unit="words"/></del> est <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <supplied cert="high">de</supplied> la moitié plus <lb/>petite.<note place="left" hand="#author"><metamark/>Si l'orge ne <lb/>pouvoit être
+                        <lb/>cultivée <subst>
+                            <del rendition="#s">qu' <lb/><gap unit="words" quantity="1" reason="illegible"/></del>
+                            <add place="intralinear">qu'<lb break="no"/>à</add>
+                        </subst> une <choice>
+                            <abbr>dist</abbr>
+                            <expan>distance</expan>
+                        </choice>
+                        <lb/>de <measure quantity="800" unit="toise">800 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure> des <lb/>neiges perpétuelles<supplied cert="high">,</supplied>
+                        <lb/>toute agricul<lb break="no"/>ture devroit ces<g ref="#typoHyphen"/><lb break="no"/>ser dans les <lb/><choice>
+                            <sic>plaine</sic>
+                            <corr cert="high">plaines</corr>
+                        </choice> à 63° de <lb/><choice>
+                            <abbr>lat</abbr>
+                            <expan>latitude</expan>
+                        </choice> et cependant <lb/>on retrouve <lb/>des céréales <lb/>en <placeName key="H0011377">Laponie</placeName> jus<g ref="#typoHyphen"/><lb break="no"/>qu'à 70°.</note> La <add place="superlinear">vie des</add>
+                    graminées est restreinte <lb/><subst>
+                        <del rendition="#s">aux mois chauds de</del>
+                        <add place="intralinear">à 4–5 mois de</add>
+                    </subst> l'été, leur <lb/>végétation est excessivement <lb/>rapide <subst>
+                        <del rendition="#s">sur le</del>
+                        <add place="superlinear">au<supplied cert="high">-</supplied>delà du</add>
+                    </subst> cercle polaire <lb/>où<supplied cert="high">,</supplied> par les 70° de <choice>
+                        <abbr>lat.</abbr>
+                        <expan>latitude</expan>
+                    </choice><supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">le sol</del>
+                        <add place="intralinear">
+                            <lb/>la température</add>
+                    </subst> de l'air est<supplied cert="high">,</supplied> le <lb/>jour<supplied cert="high">,</supplied> de 17°<supplied cert="high">,</supplied> la nuit
+                    (le soleil <lb/>étant plus bas) de 10–11° <choice>
+                        <abbr>centigr</abbr>
+                        <expan>centigrades</expan>
+                    </choice><supplied cert="high">.</supplied>
+                    <lb/>Or à <subst>
+                        <del rendition="#s">200 t</del>
+                        <add place="intralinear"><measure quantity="100" unit="toise">100 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></add>
+                    </subst> de <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice>
+                    <lb/>absolue<supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">l'orge n'est déjà éloi</del>
+                        <add place="intralinear">
+                            <lb/>les champs cultivés ne sont déjà</add>
+                    </subst>
+                    <lb/><del rendition="#s">pas plus</del>
+                    <supplied cert="high">plus</supplied> éloignés que de <measure quantity="450" unit="toise">450 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>
+                    <lb/>des neiges <choice>
+                        <abbr>perpét</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice> et <subst>
+                        <add place="superlinear">le</add>
+                        <del rendition="#s">la</del>
+                    </subst> décroisse<lb break="no"/>ment du calorique <add place="left"><metamark/>correspondant à <measure quantity="100" unit="toise">100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure>
+                        <lb/><subst>
+                            <del rendition="#s">ne</del>
+                            <add place="superlinear">de <choice>
+                                    <abbr>haut</abbr>
+                                    <expan>hauteur</expan>
+                                </choice></add>
+                        </subst> produit <lb/><del rendition="#s">encore</del>
+                        <lb/><del rendition="#s">qu'</del>un très <lb/><subst>
+                            <del rendition="#s">petit</del>
+                            <add place="intralinear">très petit <lb/>effet</add>
+                        </subst>
+                    </add><subst>
+                        <del rendition="#s">est très petit</del>
+                        <add place="superlinear">sur</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#ow">les</del>
+                        <add place="across">la</add>
+                    </subst> limite<del rendition="#s">s</del> des céréales.</p>
+                <pb n="5r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000009.jpg"/>
+                <fw type="folNum">9</fw>
+                <p>8° Pour répandre plus de jour <lb/>sur l'ensemble de ces phénomènes<supplied cert="high">,</supplied>
+                    <lb/>il <subst>
+                        <add place="superlinear">suffit de</add>
+                        <del rendition="#s">ne faut rappeller les suites éclaircissements <lb/>que
+                            nous avons vues depuis quelques <lb/>années sur</del>
+                        <add place="superlinear">rapeller</add>
+                    </subst> la <choice>
+                        <abbr>temp.</abbr>
+                        <expan>température</expan>
+                    </choice> de la couche <lb/>d'air qui <subst>
+                        <del rendition="#s">entoure</del>
+                        <add place="superlinear">enveloppe</add>
+                    </subst>
+                    <subst>
+                        <add place="intralinear">les</add>
+                        <del rendition="#s">les limites <lb/>des</del>
+                    </subst> neiges <choice>
+                        <abbr>perp.</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice> sous <choice>
+                        <abbr>diff.</abbr>
+                        <expan>différentes</expan>
+                    </choice>
+                    <choice>
+                        <abbr>lat.</abbr>
+                        <expan>latitudes</expan>
+                    </choice><supplied cert="high">.</supplied> Cette <lb/><choice>
+                        <abbr>temp</abbr>
+                        <expan>température</expan>
+                    </choice> moyenne n'est pas zéro comme <lb/>on l'a cru si longtems <add place="right"><metamark/>après <persName key="H0003536"><lb/>Bouguer</persName>,</add> et comme <persName key="H0001332"><choice>
+                            <abbr>Mr</abbr>
+                            <expan>Monsieur</expan>
+                        </choice>
+                        <lb/>Kirwan</persName> l'admet dans tous ces <lb/>calculs <del rendition="#s"><gap quantity="1" unit="words"/></del><del rendition="#s">clim</del> sur le <choice>
+                        <abbr>décroiss.</abbr>
+                        <expan>décroissement</expan>
+                    </choice>
+                    <lb/>de la chaleur. Les neiges <choice>
+                        <abbr>perp</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice>
+                    <lb/>sont de quelques centaines de toises <lb/>plus <choice>
+                        <sic>élevés</sic>
+                        <corr cert="high">élevées</corr>
+                    </choice> que le Couvent de <placeName key="H0009940"><lb/><choice>
+                            <abbr>S.<hi rendition="#sup">t</hi> Goth</abbr>
+                            <expan>Saint-Gothard</expan>
+                        </choice></placeName><supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">dont</del>
+                        <add place="superlinear"><choice>
+                                <sic>située</sic>
+                                <corr cert="high">situé</corr>
+                            </choice>
+                        </add>
+                        <add place="right">
+                            <lb/><subst>
+                                <add place="superlinear"><metamark/>dans une</add>
+                            </subst>
+                            <lb/><del rendition="#s">la </del>vallée, <del rendition="#s">est</del>
+                            <lb/>baignée par <lb/>des vents chauds <lb/><del rendition="#s">venant</del> des <lb/>plaines de <lb/>la <placeName key="H0011487">Lombardie</placeName>
+                            <lb/><choice>
+                                <sic>et dont</sic>
+                                <corr type="deleted"/>
+                            </choice></add>
+                    </subst><supplied cert="high">.</supplied> On connaît <unclear reason="illegible" cert="high">assez</unclear>
+                    <lb/><choice>
+                        <abbr>précisém</abbr>
+                        <expan>précisément</expan>
+                    </choice> la <choice>
+                        <abbr>temp</abbr>
+                        <expan>température</expan>
+                    </choice>
+                    <choice>
+                        <abbr>moy</abbr>
+                        <expan>moyenne</expan>
+                    </choice>
+                    <add place="superlinear"><subst>
+                            <add place="intralinear">de ce</add>
+                            <del rendition="#s">de cette vallée</del>
+                            <add place="intralinear"> plateau</add>
+                        </subst></add><supplied cert="high">.</supplied> Elle <lb/>est<supplied cert="high">,</supplied>
+                    <subst>
+                        <del rendition="#s">déjà <gap unit="chars" quantity="1" reason="illegible"/>
+                            aussi <gap unit="chars" quantity="1" reason="illegible"/></del>
+                        <add place="superlinear">malgré les vents <subst>
+                                <del rendition="#s">de</del>
+                                <add place="intralinear"> chauds<supplied cert="high">,</supplied>
+                                    <choice>
+                                        <sic>de un</sic>
+                                        <corr cert="high">d'un</corr>
+                                    </choice> degré</add>
+                            </subst></add>
+                    </subst>
+                    <supplied cert="high">au-</supplied>dessous de <lb/>zéro. Il suit <subst>
+                        <del rendition="#s">d'un grand</del>
+                        <add place="intralinear">des</add>
+                    </subst>
+                    <lb/><subst>
+                        <del rendition="#s">nombre</del>
+                        <add place="intralinear"><choice>
+                                <sic>des</sic>
+                                <corr type="deleted"/>
+                            </choice> recherches</add>
+                    </subst> que j'ai <subst>
+                        <add place="sublinear"><choice>
+                                <sic>exposé</sic>
+                                <corr cert="high">exposées</corr>
+                            </choice> ailleurs <lb/></add>
+                        <del rendition="#s">faites</del>
+                        <add place="superlinear"><del rendition="#s"><gap quantity="1" unit="words"/></del></add>
+                        <add place="superlinear"><choice>
+                                <sic>sous</sic>
+                                <corr type="deleted"/>
+                            </choice></add>
+                    </subst> que la <choice>
+                        <abbr>temp</abbr>
+                        <expan>température</expan>
+                    </choice>
+                    <choice>
+                        <abbr>moy.</abbr>
+                        <expan>moyenne</expan>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">de</del>
+                        <add place="superlinear">de l'air</add>
+                    </subst> à <lb/>la limite des neiges <choice>
+                        <abbr>perpét</abbr>
+                        <expan>perpétuelles</expan>
+                    </choice>
+                    <lb/>est<supplied cert="high">,</supplied> sous <placeName key="H0002500"><choice>
+                            <abbr>l'Équat</abbr>
+                            <expan>l'Équateur</expan>
+                        </choice></placeName><supplied cert="high">,</supplied> de 1½°<supplied cert="high">,</supplied> sous <lb/>le <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <placeName key="H0009532">tropique du Cancer</placeName>
+                    <del rendition="#s">décroît</del> de 0°, <lb/>par les 45° de <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> de -4.° <lb/>et au <subst>
+                        <del rendition="#s"><gap unit="chars" quantity="1" reason="illegible"/></del>
+                        <add place="intralinear">Cercle</add>
+                    </subst> polaire -6°<supplied cert="high">.</supplied>
+                    <lb/>Mais la végétation des plantes herbacées<supplied cert="high">,</supplied>
+                    <lb/>surtout <del rendition="#s"><gap quantity="1" unit="words"/></del> celles
+                    des céréales<supplied cert="high">,</supplied>
+                    <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del> ne dépend pas de
+                    la <choice>
+                        <abbr>temp</abbr>
+                        <expan>température</expan>
+                    </choice>
+                    <choice>
+                        <abbr>moy</abbr>
+                        <expan>moyenne</expan>
+                    </choice>
+                    <lb/>de l'année entière mais de celles <lb/>des mois d'été: <choice>
+                        <orig>Cette</orig>
+                        <reg>cette</reg>
+                    </choice> dernière <lb/>est <add place="right"><metamark/>pour <lb/>le mois
+                        <lb/>d'Août</add> sous<list>
+                        <item><placeName key="H0002500">l'Équateur</placeName> de +<subst>
+                                <del rendition="#s">1–2°</del>
+                                <add place="intralinear">2°</add>
+                            </subst></item>
+                        <item>aux <placeName key="H0002402">Alpes</placeName> de +6°</item>
+                        <item>En <placeName key="H0011377">Laponie</placeName> +10<choice>
+                                <reg>°</reg>
+                            </choice></item>
+                    </list>Voilà une série de <choice>
+                        <abbr>tempér</abbr>
+                        <expan>température</expan>
+                    </choice> croissante <lb/>de <subst>
+                        <del rendition="#s">la</del>
+                        <add place="intralinear"><placeName key="H0002500">l'Équateur</placeName></add>
+                    </subst> au pôle, tandis que <lb/>la série est <add place="sublinear">rapidement</add> décroissante lorsqu'on <lb/>considère <subst>
+                        <del rendition="#s">la masse</del>
+                        <add place="right"><metamark/>l'effet total</add>
+                    </subst> de chaleur <del rendition="#s">répandues <lb/>sur cette <gap unit="words" quantity="1" reason="illegible"/> ces partie du globe
+                        en</del>
+                    <lb/><add place="superlinear">de l'</add>hiver et de l'été. Il résulte de ces
+                    <lb/>considérations 1° que <del rendition="#s"><gap quantity="1" unit="words"/></del> la couche d'air <lb/>dans laquelle <subst>
+                        <del rendition="#s">se</del>
+                        <add place="intralinear">les neiges</add>
+                    </subst>
+                    <del rendition="#s"><gap quantity="2" unit="words"/></del>
+                    <subst>
+                        <del rendition="#s">les</del>
+                        <add place="intralinear">se conservent</add>
+                        <lb/>
+                        <del rendition="#s">conservent</del>
+                    </subst> n'a pas une même <choice>
+                        <abbr>tempér.</abbr>
+                        <expan>température</expan>
+                    </choice> moyenne <lb/>sous <choice>
+                        <abbr>différ.</abbr>
+                        <expan>différentes</expan>
+                    </choice> zones et 2° que cette température en été <lb/><choice>
+                        <sic>et</sic>
+                        <corr cert="high">est</corr>
+                    </choice> 6 fois plus élevée en <placeName key="H0011377">Laponie</placeName>
+                    <lb/>que sous <placeName key="H0002500">l'Équateur</placeName>. Ces différences
+                        <pb n="5v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636635X/1200/0/00000010.jpg"/><fw type="folNum">10.</fw>expliquent la <add place="superlinear">grande</add> force végétative <lb/>que l'on observe sur les <lb/>montagnes
+                    du nord près des <lb/>glaces perpétuelles<supplied cert="high">.</supplied><note place="mBottom" hand="#author"><metamark/>La <choice>
+                            <abbr>haut</abbr>
+                            <expan>hauteur</expan>
+                        </choice> des <lb/>neiges <choice>
+                            <abbr>perpét</abbr>
+                            <expan>perpétuelles</expan>
+                        </choice>
+                        <lb/>est l'effet <lb/>simultané de <lb/>la quantité <lb/>de neige qui tom<lb break="no"/>be en hiver et <lb/>de la <subst>
+                            <del rendition="#s">temp</del>
+                            <add place="intralinear">chaleur</add>
+                        </subst>
+                        <lb/>des mois d'été<supplied cert="high">.</supplied></note></p>
+                <p>9° La <choice>
+                        <abbr>températ</abbr>
+                        <expan>température</expan>
+                    </choice> des sources <lb/>et celle de <choice>
+                        <abbr>l'intér.</abbr>
+                        <expan>l'intérieur</expan>
+                    </choice> de la <lb/>terre à des <choice>
+                        <abbr>profond.</abbr>
+                        <expan>profondeurs</expan>
+                    </choice> considérables <lb/>est sous <choice>
+                        <abbr>l'équat.</abbr>
+                        <expan>l'équateur</expan>
+                    </choice>
+                    <add place="left"><metamark/>et dans <lb/>la zone <lb/><subst>
+                            <del rendition="#s"><gap unit="words" quantity="1" reason="illegible"/>
+                                <lb/><gap unit="words" quantity="1" reason="illegible"/></del>
+                            <lb/>
+                            <add place="intralinear">tempérée</add>
+                        </subst></add>
+                    <subst>
+                        <del rendition="#s">un</del>
+                        <add place="superlinear">à </add>
+                    </subst>peu <subst>
+                        <del rendition="#s">au</del>
+                        <add place="superlinear">près</add>
+                    </subst>
+                    <lb/><subst>
+                        <del rendition="#s">dessus de</del>
+                        <add place="sublinear">égale à</add>
+                    </subst> la <choice>
+                        <abbr>temp.</abbr>
+                        <expan>température</expan>
+                    </choice> moyenne <lb/>de l'air et à celle de <lb/>l'océan sous les mêmes
+                    <lb/>parallèles. Elle est <add place="superlinear">au contra<supplied cert="high">ire</supplied></add><supplied cert="high">,</supplied> près
+                    du <placeName key="ed_lpc_kpj_wbb"><lb/>cercle <choice>
+                            <abbr>pol.</abbr>
+                            <expan>polaire</expan>
+                        </choice></placeName> et à la <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice> du <lb/><placeName key="H0009940"><choice>
+                            <abbr>St Gothard</abbr>
+                            <expan>Saint-Gothard</expan>
+                        </choice></placeName><supplied cert="high">,</supplied> de 3–4° plus
+                    <lb/>élevée que la <choice>
+                        <abbr>temp.</abbr>
+                        <expan>température</expan>
+                    </choice>
+                    <choice>
+                        <abbr>moy</abbr>
+                        <expan>moyenne</expan>
+                    </choice> de <lb/>l'air.<subst>
+                        <add place="left">
+                            <metamark/>La connoissance de <lb/>ce fait extraordinai<lb break="no"/>re, entièrement <lb/>inconnu il y a <lb/><subst>
+                                <del rendition="#s">3</del>
+                                <add place="left">trois</add>
+                            </subst> ans, est <choice>
+                                <sic>du</sic>
+                                <corr cert="high">due</corr>
+                            </choice> à <lb/><persName key="H0006198"><choice>
+                                    <abbr>Mr</abbr>
+                                    <expan>Monsieur</expan>
+                                </choice> Wahlenberg</persName><supplied cert="high">,</supplied>
+                            <lb/>le savant auteur <lb/>de la <bibl sameAs="zotero-667230-CD3RX8GQ"><supplied cert="high">„</supplied>Flore <choice>
+                                    <abbr>Lapp</abbr>
+                                    <expan>Lapponica</expan>
+                                </choice></bibl><supplied cert="high">“</supplied>
+                            <lb/>et d'un <bibl sameAs="zotero-667230-8N8XBR7Q">ouvrage
+                                <lb/>latin</bibl> dans lequel <lb/><subst>
+                                <del rendition="#s">on compare les plantes</del>
+                                <add place="superlinear">se trouvent discuté<supplied cert="high">e</supplied>s à la fois les <lb/>stations des plantes dans
+                                    les hautes <placeName key="H0002402">Alpes</placeName></add>
+                            </subst>
+                            <subst>
+                                <del rendition="#s">aux montagnes <lb/>de la Nor</del>
+                                <add place="superlinear">et dans <lb/><subst>
+                                        <add place="intralinear">les</add>
+                                        <del rendition="#s">celles</del>
+                                        <add place="intralinear">montagnes</add>
+                                    </subst></add>
+                            </subst> situées <lb/>sous le <placeName key="ed_lpc_kpj_wbb">cercle
+                                polaire</placeName><supplied cert="high">.</supplied>
+                            <persName key="H0006198"><choice>
+                                    <abbr><lb/>Mr</abbr>
+                                    <expan>Monsieur</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>Wahlenb.</abbr>
+                                    <expan>Wahlenberg</expan>
+                                </choice></persName> a <lb/>comparé la <choice>
+                                <abbr>tempér</abbr>
+                                <expan>température</expan>
+                            </choice> des <lb/>sources <subst>
+                                <add place="sublinear">en <placeName key="H0005696">Europe</placeName>, </add>
+                                <del rendition="#s">s</del>
+                            </subst>à <choice>
+                                <abbr>différ</abbr>
+                                <expan>différentes</expan>
+                            </choice>
+                            <lb/>hauteurs<supplied cert="high">,</supplied>
+                            <lb/>aux <choice>
+                                <abbr>obs.</abbr>
+                                <expan>observations</expan>
+                            </choice>
+                            <subst>
+                                <del rendition="#s">que nous</del>
+                                <lb/>
+                                <add place="intralinear">analogues que <lb/>nous</add>
+                            </subst> avons faites <lb/><persName key="H0003476"><choice>
+                                    <abbr>Mr</abbr>
+                                    <expan>Monsieur</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>B.</abbr>
+                                    <expan>Bonpland</expan>
+                                </choice></persName> et moi sur <lb/>le dos des <placeName key="H0002454">Andes</placeName>. <lb/>La <choice>
+                                <abbr>différ.</abbr>
+                                <expan>différence</expan>
+                            </choice> que l'on <lb/>vient de découvrir <lb/>entre <lb/>la <choice>
+                                <abbr>temp</abbr>
+                                <expan>température</expan>
+                            </choice>
+                            <lb/>de la <lb/>terre <lb/>sous <placeName key="H0002500"><choice>
+                                    <abbr>l'<lb break="no"/>Équat.</abbr>
+                                    <expan>l'Équateur</expan>
+                                </choice></placeName>
+                            <lb/>et en <placeName key="H0011377"><lb/>Lapponie</placeName>,
+                            <lb/>dans les <lb/>plaines de <lb/>la zone tempérée <lb/>et sur le dos
+                            <lb/>des <placeName key="H0002402">Alpes</placeName></add>
+                        <del rendition="#s">Cette différente<subst>
+                                <add place="intralinear">importante</add>
+                            </subst>
+                            <lb/><gap unit="chars" quantity="3" reason="illegible"/> pour la
+                            distribution des <lb/>Végétaux</del>
+                    </subst> est <subst>
+                        <del rendition="#s"><gap unit="words" quantity="1" reason="illegible"/></del>
+                        <add place="superlinear">due</add>
+                    </subst> sans doute <lb/>à la masse de neige qui <choice>
+                        <sic>couvrant</sic>
+                        <corr cert="high">couvre</corr>
+                    </choice>
+                    <lb/>uniformément et <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <supplied cert="high">sur</supplied> de grandes <lb/>épaisseur<supplied cert="high">s</supplied> le dos des montagnes <lb/>de la <placeName key="H0010179">Suisse</placeName> et les plaines <lb/><subst>
+                        <del rendition="#s">de la Laponie. Cette</del>
+                        <add place="superlinear">du Nord. Cette</add>
+                    </subst> neige mol<lb break="no"/>le et renfermant beaucoup d'air <lb/><subst>
+                        <del rendition="#s">aux</del>
+                        <add place="intralinear">dans</add>
+                    </subst>
+                    <choice>
+                        <sic>ces</sic>
+                        <corr cert="high">ses</corr>
+                    </choice> interstices <subst>
+                        <del rendition="#s">condui<lb break="no"/>sent la chaleur</del>
+                        <add place="intralinear">est un mauvais <lb/><subst>
+                                <del rendition="#s">conduct</del>
+                                <add place="intralinear">conducteur</add>
+                            </subst> du calorique</add>
+                    </subst>
+                    <del rendition="#s">et</del><supplied cert="high">.</supplied>
+                    <lb/><subst>
+                        <del rendition="#s">l'effet</del>
+                        <add place="intralinear">L'effet</add>
+                    </subst> des grands froids de <lb/>20 à <subst>
+                        <del rendition="#s">20</del>
+                        <add place="intralinear">30</add>
+                    </subst>° au<supplied cert="high">-</supplied>dessous de zéro <lb/><subst>
+                        <del rendition="#s">qui ne </del>
+                        <add place="intralinear"><subst>
+                                <del rendition="#s">durent</del>
+                                <add place="intralinear"><subst>
+                                        <del rendition="#s">dure que quelques <lb/>heures</del>
+                                        <add place="intralinear"><subst>
+                                                <del rendition="#s">jours qui</del>
+                                                <add place="intralinear"><choice>
+                                                  <sic>est</sic>
+                                                  <corr cert="high">qui</corr>
+                                                  </choice> circulent</add>
+                                            </subst></add>
+                                    </subst></add>
+                            </subst></add>
+                    </subst> partout <lb/>à un court espace de tems <subst>
+                        <del rendition="#s">est</del>
+                        <add place="intralinear">: <choice>
+                                <orig>Il</orig>
+                                <reg>il</reg>
+                            </choice> est</add>
+                    </subst>
+                    <lb/><del rendition="#s">probablement</del> trop lent pour <subst>
+                        <del rendition="#s"><gap unit="chars" quantity="1" reason="illegible"/></del>
+                        <add place="intralinear">
+                            <lb/>se</add>
+                    </subst> communiquer en entier à l'in<g ref="#typoHyphen"/><lb break="no"/>térieur du globe<supplied cert="high">.</supplied> Nos instrumens
+                    <lb/>tiennent compte des <subst>
+                        <del rendition="#s"><gap unit="words" quantity="1" reason="illegible"/></del>
+                        <add place="intralinear">changemens</add>
+                    </subst> des <lb/><subst>
+                        <add place="intralinear">températures</add>
+                        <del rendition="#s">temp</del>
+                    </subst> les plus éphémères: <subst>
+                        <del rendition="#s">de la température; <lb/>la terre</del>
+                        <add place="superlinear">mais le globe</add>
+                    </subst>
+                    <add place="left">uniformément</add>
+                    <subst>
+                        <del rendition="#s">couverte</del>
+                        <add place="across">couvert</add>
+                    </subst> d'une <lb/>couche épaisse de neige <subst>
+                        <del rendition="#s"><gap unit="chars" quantity="1" reason="illegible"/></del>
+                        <add place="superlinear">et de glace</add>
+                    </subst>
+                    <subst>
+                        <add place="intralinear">échape</add>
+                        <lb/>
+                        <del rendition="#s">reçoit <gap unit="words" quantity="2" reason="lost"/></del>
+                    </subst> à l'influence <lb/><del rendition="#s"><gap quantity="1" unit="words"/></del> des <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    petites variations<choice>
+                        <sic>.</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>de l'Atmosphère. <add place="superlinear">C'est ainsi que</add>
+                    <choice>
+                        <sic>Les</sic>
+                        <corr cert="high">les</corr>
+                    </choice> phénomènes de <lb/>la végétation peuvent être discutés avec <lb/><subst>
+                        <del rendition="#s">d'autant plus <gap unit="words" quantity="1" reason="lost"/> précision</del>
+                        <add place="superlinear">quelque certitude</add>
+                    </subst>
+                    <subst>
+                        <add place="superlinear">si</add>
+                        <del rendition="#s">que</del>
+                    </subst> l'on <lb/>parvient à les énoncer en nombres et <lb/>à les réduire <subst>
+                        <del rendition="#s">sous</del>
+                        <add place="intralinear">à</add>
+                    </subst> des lois générales<supplied cert="high">.</supplied><note place="left" hand="#author"><persName key="H0006198"><choice>
+                                <abbr>Wahl.</abbr>
+                                <expan>Wahlenberg</expan>
+                            </choice></persName> croit <lb/>que partout la <lb/>végétation cesse
+                        <lb/>où la <choice>
+                            <abbr>températ</abbr>
+                            <expan>température</expan>
+                        </choice>
+                        <lb/>de la terre est 0<choice>
+                            <orig>.</orig>
+                            <reg>,</reg>
+                        </choice>
+                        <lb/><subst>
+                            <del rendition="#s">Il admet</del>
+                            <add place="intralinear">
+                                <choice>
+                                    <abbr>c à. d.</abbr>
+                                    <expan>C'est-à-dire</expan>
+                                </choice></add>
+                        </subst> à <lb/>la limite des <choice>
+                            <sic>neige</sic>
+                            <corr cert="high">neiges</corr>
+                        </choice>
+                        <lb/><choice>
+                            <abbr>perpét</abbr>
+                            <expan>perpétuelles</expan>
+                        </choice>. <seg type="comment">
+                            <orig><persName key="H0013474">Gilbert</persName></orig>
+                            <note xml:id="nhnp_nmz_wbb"><bibl sameAs="zotero-667230-HAJQAX9E">Wahlenberg 1812a</bibl>.</note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 278<supplied cert="high">.</supplied> Il en <lb/><subst>
+                            <del rendition="#s">s</del>
+                            <add place="intralinear">résulte</add>
+                        </subst><supplied cert="high">,</supplied> selon moi 1) <choice>
+                            <sic>qui</sic>
+                            <corr cert="high">que</corr>
+                        </choice>
+                        <lb/>sous les 67° <choice>
+                            <abbr>lat</abbr>
+                            <expan>latitude</expan>
+                        </choice><supplied cert="high">,</supplied> à <measure quantity="550" unit="toise">550 <choice>
+                                <abbr>t.</abbr>
+                                <expan>toises</expan>
+                            </choice></measure><supplied cert="high">,</supplied> la <lb/><choice>
+                            <abbr>t.</abbr>
+                            <expan>température</expan>
+                        </choice>
+                        <choice>
+                            <abbr>m</abbr>
+                            <expan>moyenne</expan>
+                        </choice> de l'air est au moins <lb/>-5° car la <choice>
+                            <abbr>différ.</abbr>
+                            <expan>différence</expan>
+                        </choice> entre l'air et la <lb/>terre sera à cette <choice>
+                            <abbr>haut</abbr>
+                            <expan>hauteur</expan>
+                        </choice> plus grande <lb/>qu'en <placeName key="H0011377">Laponie</placeName> dans les plaines. 2<choice>
+                            <orig>°</orig>
+                            <reg>)</reg>
+                        </choice> que <lb/>sous <placeName key="H0002500"><choice>
+                                <abbr>l'équat.</abbr>
+                                <expan>l'équateur</expan>
+                            </choice></placeName><supplied cert="high">,</supplied> la <choice>
+                            <abbr>temp</abbr>
+                            <expan>température</expan>
+                        </choice> de la terre <lb/>à <measure quantity="2460" unit="toise">2460 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure> est au<supplied cert="high">-</supplied>dessous de
+                        la <choice>
+                            <abbr>t.</abbr>
+                            <expan>température</expan>
+                        </choice> de l'air<supplied cert="high">.</supplied></note>
+                </p>
+                <milestone unit="section" rendition="#hr"/>
+            </div>
+        </body>
+    </text>
+</TEI>

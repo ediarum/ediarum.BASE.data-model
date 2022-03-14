@@ -1,0 +1,289 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0000006" oldID="prov_ncy_xjg_d5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 20. April 1839]
+                </title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date when="1839-04-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb n="1r"/>
+                    <note hand="#addressee" place="mTop">le 20 <choice>
+                            <abbr>avr.</abbr>
+                            <expan>avril</expan>
+                        </choice> 39</note>Mille <choice>
+                        <orig>graces</orig>
+                        <reg>grâces</reg>
+                    </choice> pour <seg type="comment">
+                        <orig>cette folie</orig>
+                        <note xml:id="nqlj_lhg_fx">Die folgenden Ausführungen nehmen Bezug auf eine
+                            von <persName key="H0000047">Frédéric Fayot</persName> für den
+                            „Dictionnaire de la Conversation et de la Lecture“ verfasste
+                            biographische Notiz über den Maler <persName key="H0016082">Carl
+                                von Steuben</persName> (<bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/56KN9QX6">Fayot 1839</bibl>). </note>
+                    </seg>
+                    <lb/>qui ne peut pas faire du bien <lb/>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> celui qu’elle vante dans <lb/>tous ces tableaux.<?oxy_comment_start author="paessler" timestamp="20160415T144609+0200" comment="nimmt Bezug auf eine biographische Notiz von Frédéric Fayot (1797-1861) über Carl von Steuben, Art. Steuben (Charles), in: Dictionnaire de la Conversation et de la Lecture, Bd. 1,  Paris 1839, 1-5. Möglicherweise als Separatdruck oder Zeitschriftenartikel auch anderswo erschienen."?>
+                    <?oxy_comment_end?>Quel <lb/>salmi de noms! <choice>
+                        <abbr>Mad</abbr>
+                        <expan>Madame</expan>
+                    </choice>
+                    <persName key="H0016032">de <choice>
+                            <orig>Stael</orig>
+                            <reg>Staël</reg>
+                        </choice>
+                    </persName>
+                    <lb/>et <persName key="H0015536">Schiller</persName> qui recommandent <lb/>
+                    <persName key="H0016082">Steuben</persName> à <persName key="H0013415">
+                        <choice>
+                            <orig>Gerard</orig>
+                            <reg>Gérard</reg>
+                        </choice>
+                    </persName>! Et mon <lb/>
+                    <choice>
+                        <orig>age</orig>
+                        <reg>âge</reg>
+                    </choice> de 47 ans, ami de <lb/>
+                    <persName key="H0016082">Steuben</persName> quand à peine il <lb/>
+                    <choice>
+                        <orig>etoit</orig>
+                        <reg>étoit</reg>
+                    </choice> né. Voilà le <lb/>vrai <persName key="H0016082">Steuben</persName> d’une <lb/>ancienne famille noble est <lb/>né en
+                        <placeName key="H0004796">Franconie</placeName>
+                    dans une <lb/>campagne de <choice>
+                        <abbr>Mad.</abbr>
+                        <expan>Madame</expan>
+                    </choice> de <lb/>
+                    <persName key="H0006471">Wollzogen</persName> belle <choice>
+                        <orig>soeur</orig>
+                        <reg>sœur</reg>
+                    </choice> de <persName key="H0015536">
+                        <lb/>Schiller</persName> et qui vit encore <lb/>à <placeName key="H0006574">Jena</placeName>
+                    <supplied cert="high" prev="Jena">.</supplied> C’est l’auteur <lb/>de la belle
+                    biographie <lb/>de <persName key="H0015536">Schiller</persName>. <choice>
+                        <orig>Celui ci</orig>
+                        <reg>Celui-ci</reg>
+                    </choice> avoit <lb/>
+                    <choice>
+                        <orig>ete</orig>
+                        <reg>été</reg>
+                    </choice>
+                    <choice>
+                        <orig>elevé</orig>
+                        <reg>élevé</reg>
+                    </choice> avec <rs type="person" key="H0016081">le <choice>
+                            <orig>pere</orig>
+                            <reg>père</reg>
+                        </choice>
+                        <lb/>de Steuben </rs> qui <choice>
+                        <orig>etoit</orig>
+                        <reg>étoit</reg>
+                    </choice>
+                    <lb/>Colonel au service de <lb/>
+                    <placeName key="H0010689">Russie</placeName>. <rs type="person" key="H0016078">La <choice>
+                            <orig>mere</orig>
+                            <reg>mère</reg>
+                        </choice>
+                    </rs> refusa <lb/>à<rs type="person" key="H0015374"> la Grande
+                        Duchesse</rs> de <lb/>
+                    <pb n="1v"/>Weimar Princesse de Russie <lb/>de lui donner le fils <lb/>pour
+                    l’accompagner comme <lb/>page <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName key="H0007930">Weimar</placeName>. Il <choice>
+                        <orig>etu<lb break="no"/>dia</orig>
+                        <reg>étudia</reg>
+                    </choice> la peinture, le <lb/>
+                    <rs type="person" key="H0016081">
+                        <choice>
+                            <orig>pere</orig>
+                            <reg>père</reg>
+                        </choice>
+                    </rs>
+                    <choice>
+                        <orig>etant</orig>
+                        <reg>étant</reg>
+                    </choice> pauvre, <choice>
+                        <orig>jusqu'<lb break="no"/>a</orig>
+                        <reg>jusqu'à</reg>
+                    </choice>
+                    <choice>
+                        <orig>l’age</orig>
+                        <reg>l'âge</reg>
+                    </choice> de 15 ans <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <lb/>
+                    <choice>
+                        <orig>l’Academie</orig>
+                        <reg>l'Académie</reg>
+                    </choice> des <choice>
+                        <orig>beaux <lb/>arts</orig>
+                        <reg>Beaux-Arts</reg>
+                    </choice> de<placeName key="H0008236">
+                        <choice>
+                            <orig>Petersbourg</orig>
+                            <reg>Pétersbourg</reg>
+                        </choice>
+                    </placeName>
+                    <supplied cert="high" prev="Pétersbourg">.</supplied>
+                    <lb/>Comme il montra beaucoup <lb/>de talent on hazarda de <lb/>l'envoyer <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName key="H0008129">Paris</placeName> d’abord <lb/>dans la pension
+                    de Mr <persName key="H0003848">Taillefer</persName> aujourd’hui
+                    <lb/>Inspecteur <choice>
+                        <orig>d’Universite</orig>
+                        <reg>d'Université</reg>
+                    </choice>
+                    <lb/>puis à <?oxy_comment_start author="paessler" timestamp="20160415T092910+0200" comment="so lassen. Im 18./19. Jh. hier und da vorkommende Schreibweise"?>l’attelier<?oxy_comment_end?>
+                    <lb/>de <persName key="H0004411">
+                        <choice>
+                            <sic>Rober</sic>
+                            <corr>Robert</corr>
+                        </choice> Lefebre </persName> et <persName key="H0002205">Prud’homme</persName><supplied cert="high" prev="Prud'homme">.</supplied> Les
+                    liaisons <lb/>avec <persName key="H0013415">
+                        <choice>
+                            <orig>Gerard</orig>
+                            <reg>Gérard</reg>
+                        </choice>
+                    </persName>
+                    <choice>
+                        <orig>commencerent</orig>
+                        <reg>commencèrent</reg>
+                    </choice>
+                    <lb/>par <persName key="H0013416">
+                        <hi rendition="#u">Madame</hi>
+                        <choice>
+                            <abbr>G.</abbr>
+                            <expan>Gérard</expan>
+                        </choice>
+                    </persName> de <lb/>pudique <choice>
+                        <orig>memoire</orig>
+                        <reg>mémoire</reg>
+                    </choice> et <lb/>j’appris à le <choice>
+                        <orig>connoitre</orig>
+                        <reg>connoître</reg>
+                    </choice>
+                    <lb/>dans les <choice>
+                        <sic>attelier</sic>
+                        <corr>atteliers</corr>
+                    </choice> de <persName key="H0013415">
+                        <choice>
+                            <abbr>Gerard</abbr>
+                            <expan>Gérard</expan>
+                        </choice>
+                    </persName>
+                    <lb/>je crois en 1810. Le mot <lb/>sur „la constitution <lb/>de Prusse et ce <hi rendition="#u">beau <lb/>grand</hi> jeune homme le <lb/>
+                    <pb n="2r"/>Prince Royal de Prusse<supplied cert="high" prev="Prusse">“</supplied>
+                    <lb/>est <choice>
+                        <orig>delicieux</orig>
+                        <reg>délicieux</reg>
+                    </choice> et je <lb/>conçois par ce mot <lb/>qui dit dans un attelier
+                    <lb/><?oxy_comment_start author="paessler" timestamp="20160415T152111+0200" comment="être im Futur simple als Ausdruck einer Vermutung (modaler Gebrauch des FS). &quot;ce sera un carton rouge&quot; = das gibt wohl eine rote Karte."?>sera<?oxy_comment_end?>
+                    un mensonge, pour<lb break="no"/>quoi notre <rs type="person" key="H0002177">Roi</rs> l’autre <lb/>jour à <placeName key="H0008392">Potsdam</placeName> est <lb/>revenu plusieurs fois <lb/>“sur un article bien
+                    <lb/>detaillé dans lequel <lb/>
+                    <choice>
+                        <orig>j’etois</orig>
+                        <reg>j'étois</reg>
+                    </choice> souvent nommé<supplied cert="high" prev="nommé">.“</supplied>
+                    <lb/>Il lit depuis 20 ans <lb/>le <choice>
+                        <orig>meme</orig>
+                        <reg>même</reg>
+                    </choice> Journal de <lb/>
+                    <placeName key="H0008129">Paris</placeName> et <choice>
+                        <orig>s’appercoit</orig>
+                        <reg>s'apperç</reg>
+                        <reg>oit</reg>
+                    </choice>
+                    <lb/>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> peine (<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> ce qui <choice>
+                        <orig>paroit</orig>
+                        <reg>paroît</reg>
+                    </choice>) <lb/>des changemens de couleur <lb/>qu’à ce triste Jour<lb break="no"/>nal depuis qu’il n’<lb break="no"/>est plus la <choice>
+                        <orig>propriete</orig>
+                        <reg><?oxy_comment_start author="paessler" timestamp="20160415T153254+0200" comment="Moniteur universel"?>propriété<?oxy_comment_end?></reg>
+                    </choice>
+                    <lb/>du Duc poudré <lb/>(<persName key="H0003127">Duc de
+                        Bassano</persName>)<supplied cert="high" prev="Bassano)">.</supplied>
+                </p>
+                <p>Pardon du volume <lb/>historique que je <lb/>Vous adresse<supplied cert="high" prev="adresse">.</supplied>
+                </p>
+                <signed rend="paragraph">AHt</signed>
+            </div>
+        </body>
+    </text>
+</TEI>

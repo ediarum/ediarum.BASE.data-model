@@ -1,0 +1,1206 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="avhr_fyl_q2w_4bb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Christian Gottfried Ehrenberg: Tagebuch der russisch-sibirischen Reise
+                    1829</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                    Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften</institution>
+                        <collection>Nachlass C. G. Ehrenberg</collection>
+                        <idno/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="1v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="2r"/>
+            <p>Abreise von <placeName key="H0005221">Berlin</placeName>
+                <lb/>am 12<supplied cert="high">.</supplied> April Abends</p>
+            <pb n="2v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="3r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="3v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="4r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="4v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="5r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="5v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="6r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="6v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="7r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="7v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="8r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="8v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="9r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="9v"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-04-28" calendar="#Julian">April 28
+                        </date></hi>/<hi rendition="#sub"><date when="1829-05-10" calendar="#Gregorian">May 10.</date></hi> Sonntag</head>
+                <p>Besuch des <orgName key="ed_fjq_htn_jdb">botanischen Gartens</orgName> um 9 Uhr
+                    Morgens.</p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-04-29" calendar="#Julian">April 29
+                        </date></hi>/<hi rendition="#sub"><date when="1829-05-11" calendar="#Gregorian">May 11</date></hi>Montag</head>
+            </div>
+            <pb facs="#f0021" n="10r"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-04-30" calendar="#Julian">April
+                            30</date></hi>/<hi rendition="#sub"><date when="1829-05-12" calendar="#Gregorian">May 12</date></hi> Dienstag</head>
+                <p>Besuch von Herren <seg type="comment">
+                        <orig><persName>Dyrrsen</persName></orig>
+                        <note xml:id="njkw_jd4_jdb">wohl der Kaufmann <persName key="ed_wrj_xc4_jdb">Johann Dyrssen</persName>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <persName key="ed_urp_r14_jdb">Sobolewsky</persName>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>um</expan>
+                    </choice> 9<lb/>Uhr Morgens. Krämser. Herr <persName key="ed_ibv_k24_jdb">Würth</persName> über-<lb/>bringt uns die Diplome der <orgName key="ed_bwj_b34_jdb">mineralogisch<?oxy_comment_start author="paessler" timestamp="20180212T184416+0100" comment="hier wäre ich etwas großzügiger... es ist ein langezogener Strich nach dem sch " flag="done"?>en
+                        <?oxy_comment_end?>Ge- <lb/>sellschaft</orgName>. Wir fahren nach
+                        <persName><?oxy_comment_start author="thomas" timestamp="20180220T163746+0100" comment="&quot;Alexander&quot; als &lt;persName&gt; oder &quot;Alexanders Manufactur&quot; als Instution oder gar nicht auszeichnen?"?>Alexander</persName>s<?oxy_comment_end?>
+                        Manufactur<supplied cert="high" resp="#UP">,</supplied><lb/>die großartigste
+                    Maschinerie welche es hier giebt.<lb/>5 Dampfmaschinen, davon eine 24
+                    Pferdekräfte
+                    die<lb/>and<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>re<?oxy_custom_end?>n
+                    weniger haben. 540 Findlings Knaben<lb/>und 130 dregliche Mädchen verrichten die
+                    Special-<lb/>aufsicht über die Maschinerien. Hanf <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Baumwolle<lb/>wird gesponnen und fertig zubereitet zu leinenen
+                    <lb/>Strümpfen cet. Spielchartenfabrik. 4 fach farbiger<lb/>Druk auf Einer
+                    Maschine. Wasserpresse. Russisches <lb/>Getränk: Quaß. Säuerlich nicht angenehm.
+                    Frühstük <lb/>im Freyen an der Kirche. Muium mit
+                    Frucht. <lb/>Newa dort sehr schmal. Der Weg geht den Fluß <lb/>entlang. Keine
+                        Flußconchylien am Rand.</p>
+            </div>
+            <pb n="10v"/>
+            <div>
+                <head><choice>
+                        <abbr>d.</abbr>
+                        <expan>den </expan>
+                    </choice><hi rendition="#sup"><date when="1829-05-01" calendar="#Julian">1</date></hi>/<hi rendition="#sub"><date when="1829-05-13" calendar="#Gregorian">13.</date> May Mittwoch</hi></head>
+                <p>Besuch von General <persName key="ed_mx5_p44_jdb"><unclear reason="illegible" cert="low">Basaen</unclear></persName> und Herrn <persName key="ed_urp_r14_jdb">Sobolewsky</persName> mit dem
+                    <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Mechanikus<?oxy_custom_end?>.
+                    Neuer
+                        Ro<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>c<?oxy_custom_end?>k<supplied cert="high">,</supplied>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>die
+                    Elle<?oxy_custom_end?> Tuch 18 Rubel. Besuch der <lb/>Eremitage. Kochler und
+                        <space dim="horizontal" unit="words" quantity="1"/> führen herum. Schöne
+                    <lb/>große Jaspis Vasen graugrün mit weiß marmorirt. 6' <lb/>Durchmesser; 2
+                    Stück 1 rund 1 oval. Achatvasen von großer <lb/>Schönheit. Große antik
+                    griechische Gefäße mit <lb/>getriebenen Figuren. (Amazonenkrieg. Leda <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Hymen<?oxy_custom_end?>.)
+                    <lb/>Herrliche Cameen von <rs type="term" key="XXX">Sardonyx</rs>. Größte 5–6''
+                    lang. Viele <lb/>Gemälde <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>–<?oxy_custom_end?>
+                    <persName key="H0001109">Rubens</persName>, <persName key="ed_vyy_bnd_gdb">W<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>u<?oxy_custom_end?>wermann</persName>,
+                        <persName key="H0004634">Claude Lorain</persName>, <persName key="H0000738">Raphael</persName><supplied cert="high">,</supplied>
+                    <lb/><persName key="H0002823">Vernet</persName><supplied cert="high">,</supplied> oft ganze Säle voll von
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Einem<?oxy_custom_end?>.
+                        P<?oxy_comment_start author="paessler" timestamp="20180322T095539+0100" comment="Die Pfauenuhr von James Cox. https://de.wikipedia.org/wiki/Pfauenuhr"?>fau<supplied cert="high">,</supplied> Hahn <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>Eule
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>bewegliches<?oxy_custom_end?>
+                    Kunstwerk<?oxy_comment_end?>. Hahn schreit. Kleiner Saal <lb/>mit russischen
+                    Gemälden. Sehr wenig. Garten auf dem <lb/>Dach mit 30' hohen Bäumen. Erde 2 Fuß
+                    hoch. Orangerie <lb/>ebenda<supplied cert="high">.</supplied> Bäume sind Birken.
+                    Einzige Buche daselbst. Eremitage <lb/>Theater. Raphaelische Gallerie. <persName key="H0002906">Voltaire</persName> in
+                    Mamor<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>,
+                    s<?oxy_custom_end?>eine <lb/>Bibliothek. Beissende Bemerkung handschriftlich in
+                    Rousseaus <lb/>Werken über <persName key="H0001099">Rousseau</persName>.</p>
+            </div>
+            <pb n="11r"/>
+            <div>
+                <head><date when="1829-05-14" calendar="#Gregorian">Donnerstag</date></head>
+            </div>
+            <pb n="11v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="12r"/>
+            <div>
+                <head>Dienstag<hi rendition="#sup"><date when="1829-05-07" calendar="#Julian">7</date></hi>/<date when="1829-05-19" calendar="#Gregorian"><hi rendition="#sub">19</hi> May</date></head>
+                <p>Wir sehen Morgens einige Abschied nehmende Freunde<supplied cert="high">:</supplied>
+                    <lb/><persName key="ed_urp_r14_jdb">Sobolefski</persName><supplied cert="high">,</supplied>
+                    <persName key="ed_zvf_fk4_jdb">Kaemmerer</persName><supplied cert="high">,</supplied>
+                    <persName key="H0001522">Kupfer</persName>. Um 10 Uhr
+                    wohn<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>t<?oxy_custom_end?>en
+                    <lb/>wir der Aufstellung einer der
+                    65<?oxy_comment_start author="paessler" timestamp="20180328T155951+0200" comment="korrektes Zoll-/Fußzeichen noch eintragen"?>'<?oxy_comment_end?>
+                    hohen Granitsäulen an <lb/>der
+                    Issac<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>s<?oxy_custom_end?>
+                    Kirche bey welche mit <unclear reason="illegible" cert="high">hundertmündigem</unclear>
+                    <lb/>Ruf durch Göpel und Flaschenzüge in weniger als einer <lb/>Stunde zu Stande
+                    kam. Herr <persName key="ed_o1k_vyj_kdb">Graf A. Strogonof</persName>
+                    <lb/>war nicht zu treffen. Abreise des Herrn Generals <lb/><persName key="H0015635">von Schoeler</persName> unseres freundlichen Wirthes.
+                        <unclear reason="illegible" cert="high">Ankunft</unclear>
+                    <lb/>von noch 2 Exemplaren der Flora rossica. Mittags <lb/>bei Herrn <persName key="H0015621"><choice>
+                            <abbr>v</abbr>
+                            <expan>von</expan>
+                        </choice> Schöler</persName> in dessen Abwesenheit. Abends <lb/>beym Herrn
+                    Minister <persName key="H0012872">Cancrin</persName> zum Abschiedsbe<g ref="#typoHyphen"/><lb break="no"/>such<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>e<?oxy_custom_end?></p>
+            </div>
+            <pb facs="#f0026" n="12v"/>
+            <div>
+                <head>Mitwoch <choice>
+                        <abbr>d</abbr>
+                        <expan>den</expan>
+                    </choice>
+                    <hi rendition="#sup"><date when="1829-05-08" calendar="#Julian">8</date></hi>/<date when="1829-05-20" calendar="#Gregorian"><hi rendition="#sub">20</hi> May</date></head>
+                <p>Abreise um 11 Uhr Morgens. Herr <persName key="ed_xlp_bx4_jdb">Kra-
+                        <lb/>nief</persName> Director des Bergcorps erwartet die <lb/>Abreise. Ich
+                    übergebe Herrn Grafen <persName key="H0013291">Kah-<lb/>len</persName> meine
+                    Symbolae physicae zur Obhut. <lb/>Mittags in Sarskoi Selo. Wir besuchen <lb/>das <choice>
+                        <abbr>Kayserl.</abbr>
+                        <expan>Kayserliche</expan>
+                    </choice> Palais. Die Treibhäuser hatten <lb/>reifende Äpfel, Birnen, Kirschen
+                        <unclear reason="illegible" cert="low" resp="#CT">doch</unclear>
+                    <lb/>keine botanischen Schätze. Im Garten <lb/>blühten im Freyen <rs type="term" key="XXX">Anemone ranuncoloides</rs> und <lb/><rs type="term" key="XXX">nemorosa</rs> mit <rs type="term" key="XXX">Chrysosplenium
+                        alternifolium</rs>
+                    <?oxy_comment_start author="paessler" timestamp="20180212T185406+0100" comment="finde ich wieder etwas streng, siehe eine Zeile darüber" flag="done"?>und<?oxy_comment_end?><lb/><rs type="term" key="XXX">ornithogalum luteum</rs>. Birken bildeten mit
+                    <lb/>Linden die Bäume. <rs type="term" key="XXX">Papilio Atalanta<supplied cert="high" resp="#UP">,</supplied>
+                        <rs type="term" key="XXX">Antiopa</rs></rs>
+                    <lb/>und <rs type="term" key="XXX">Ve<supplied cert="high" resp="#UP">r</supplied>ticae</rs> plagen. Die Kirschblüthen in den
+                    <lb/>Treibhäusern durch Honigbienen und <lb/>Hummeln (terrestris) besucht.
+                    Tageswärme sehr <lb/>hoch. Schöner Sonnenschein.</p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-09" calendar="#Julian">9</date></hi>/<hi rendition="#sub"><date when="1829-05-21" calendar="#Gregorian">21</date></hi></head>
+                <p>Morgens 7 Uhr treffen wir in <placeName key="H0001718">Nowgorod</placeName>
+                    <lb/>ein wo wir 3 Stunden bleiben. Besuch der Kirche.<lb/><choice>
+                        <orig>merkwürdig</orig>
+                        <reg>Merkwürdig</reg>
+                    </choice> alte Tür mit gegoßenen Verzierungen<supplied cert="high" resp="#UP">,</supplied>
+                    <lb/>alte lateinische Inschrift aus der Bibel.</p>
+                <p>Nachts Ankunft in <placeName key="H0009073">Waldai</placeName> (12 Uhr in einer
+                    <lb/>schlechten Dorfs pinte Waldai. Deutsche<supplied cert="high" resp="#UP">r</supplied> Wirth.<supplied cert="high" resp="#UP">)</supplied></p>
+            </div>
+            <pb facs="#" n="13r"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-10" calendar="#Julian">10</date></hi>/<date when="1829-05-22" calendar="#Gregorian"><hi rendition="#sub">22</hi></date></head>
+                <p>Vormittag Aufenthalt daselbst</p>
+                <p>Abreise Nachmittag</p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-11" calendar="#Julian">11</date></hi>/<date when="1829-05-23" calendar="#Gregorian"><hi rendition="#sub">23</hi></date></head>
+                <p>Morgens in <placeName key="ed_nfl_ybk_kdb"><?oxy_comment_start author="paessler" timestamp="20180319T180914+0100" comment="vielmehr: Vyšnij Voločëk (Вышний Волочёк)"?>Nischne
+                        Wolodschok<?oxy_comment_end?></placeName>
+                    <?oxy_comment_start author="paessler" timestamp="20180319T180934+0100" comment="Der Verbindungskanal zwischen Wolga und Newa"?>Canal<?oxy_comment_end?></p>
+                <p>Mittags in <placeName key="H0009614">Twer</placeName></p>
+            </div>
+            <pb facs="#" n="13v"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-12" calendar="#Julian">12</date></hi>/<date when="1829-05-24" calendar="#Gregorian"><hi rendition="#sub">24</hi></date></head>
+                <p>Ankunft in <placeName key="H0009006">Moskau</placeName> Mittags</p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-13" calendar="#Julian">13</date></hi>/<date when="1829-05-25" calendar="#Gregorian"><hi rendition="#sub">25</hi></date></head>
+            </div>
+            <pb facs="#" n="14r"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-14" calendar="#Julian">14</date></hi>/<date when="1829-05-26" calendar="#Gregorian"><hi rendition="#sub">26</hi></date></head>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-15" calendar="#Julian">15</date></hi>/<date when="1829-05-27" calendar="#Gregorian"><hi rendition="#sub">27</hi></date></head>
+                <p><choice>
+                        <abbr>H.</abbr>
+                        <expan>Humboldt</expan>
+                    </choice> besucht früh die Wasser Anstalt. Besuch <lb/>der Universität. <choice>
+                        <abbr>H.</abbr>
+                        <expan>Humboldt</expan>
+                    </choice> Diplom. Bibliothek Natur <lb/>Cabinet der Academie.
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Entbindungs<?oxy_custom_end?>
+                    Institut. <lb/>Scelet
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>des Moschus
+                    Thiers<?oxy_custom_end?>. Kahlköpfiger <lb/><rs type="term" key="XXX">Corvus</rs> (<choice>
+                        <abbr><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Nov.</abbr>
+                        <expan>Nova</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Spec</abbr>
+                        <expan>Species</expan>
+                    </choice><?oxy_custom_end?>)<supplied cert="high">.</supplied> Studenten
+                        Erziehungs<g ref="#typoHyphen"/><lb break="no"/>Institut. Nachmittags großes
+                    Diner. <persName key="H0004586">Loder</persName>s <lb/>Rede<supplied cert="high">,</supplied>
+                    <persName key="H0014157">Mertens</persName><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><supplied cert="high">'</supplied><?oxy_custom_end?> Rede. Gedicht. <persName key="ed_usl_bhk_kdb">Prinz Gaga<g ref="#typoHyphen"/><lb break="no"/>rin</persName>. <persName key="ed_evw_tkk_kdb">Youssoupoff</persName>.
+                    Besuch
+                    de<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>s<?oxy_custom_end?>
+                        Sperlings<lb break="no"/>berge<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>s<?oxy_custom_end?>
+                    mit <persName key="H0011806">Hermann</persName> und <choice>
+                        <abbr>Dr</abbr>
+                        <expan>Doctor</expan>
+                    </choice>
+                    <?oxy_comment_start author="paessler" timestamp="20180319T190118+0100" comment="Jähnichen. Vgl. Rose, Reise nach dem Ural, I, 80."?>Jaenigen<?oxy_comment_end?>
+                    und <lb/>Subkow. Niet<space dim="horizontal" quantity="1" unit="words"/>
+                        (<unclear reason="illegible" cert="high">sans ennuy</unclear>)
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>recht<?oxy_custom_end?>
+                    schön <lb/>romantische Gegend. <rs type="term" key="XXX">Primula
+                        veris</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Gleichenia <gap unit="words" quantity="1" reason="illegible"/></rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Oxalis acetosella. Paludina
+                        vivipara</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Planorbis</rs>
+                    <gap unit="chars" quantity="3" reason="illegible"/><supplied cert="high">.</supplied></p>
+            </div>
+            <pb facs="#" n="14v"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-16" calendar="#Julian">16</date></hi>/<hi rendition="#sub"><date when="1829-05-28" calendar="#Gregorian">28 Donnerstags</date></hi></head>
+                <p><placeName key="H0009006">Moskau</placeName> bis <placeName key="ed_hzd_kdk_kdb">Po<subst>
+                            <del rendition="#ow">r</del>
+                            <add place="across">k</add>
+                        </subst>row</placeName>.<list>
+                        <item><rs type="term" key="XXX">Or<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>i<?oxy_custom_end?>olus
+                                Galbula</rs></item>
+                        <item><rs type="term" key="XXX">Cuculus canorus</rs></item>
+                        <item><rs type="term" key="XXX">Luscinia</rs></item>
+                        <item><rs type="term" key="XXX">Fringilla coelebs</rs>
+                            <?oxy_comment_start author="paessler" timestamp="20180320T155633+0100" comment="} bezieht sich auf ganze Liste"?>}<?oxy_comment_end?>
+                            gehört</item>
+                    </list></p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-17" calendar="#Julian">17</date></hi>/<hi rendition="#sub"><date when="1829-05-29" calendar="#Gregorian">29.</date></hi></head>
+                <p><placeName key="H0009185">Wladimir</placeName></p>
+            </div>
+            <pb facs="#f0031" n="15r"/>
+            <div>
+                <head><choice>
+                        <abbr>d.</abbr>
+                        <expan>den</expan>
+                    </choice>
+                    <hi rendition="#sup"><date when="1829-05-18" calendar="#Julian">18</date></hi>/<hi rendition="#sub"><date when="1829-05-30" calendar="#Gregorian">30</date></hi><supplied cert="high">.</supplied>
+                    May Sonnabend</head>
+                <p>Um 8 Uhr nach <placeName key="H0009059">Morom</placeName>. Frühstück
+                        daselbst<supplied cert="high" resp="#UP">.</supplied>
+                    <lb/>Alte ziemlich ansehnliche Stadt mit vielen Thürmen <lb/>und Thürmchen.
+                    Gegen 10. Uhr Abfahrt. – Garten <lb/>des
+                        <?oxy_comment_start author="thomas" timestamp="20180220T164145+0100" comment="&lt;persName&gt; oder nicht? Bekommen wir ihn noch identifiziert?"?><persName>Commandanten<?oxy_comment_end?></persName>
+                    mit Kirschbäum<supplied>en,</supplied> Apfel<supplied cert="high">-</supplied>
+                    und Birnbäu- <lb/>men die anfingen zu blühen. Gedeihen im Freyen <lb/>wohl. <subst>
+                        <del rendition="#ow"><unclear reason="illegible" cert="low" resp="#CT">Einige</unclear></del>
+                        <add place="across">Zwey</add>
+                    </subst> Stunden vor der Stadt an der <lb/>lezten Station sammelte ich zuerst
+                        <rs type="term" key="XXX">Myosurus <lb/>minimus</rs>
+                    <rs type="term" key="XXX">(Ranunculus Myosurus)</rs><supplied resp="#CT" cert="low">,</supplied>
+                    <rs type="term" key="XXX">Veronica serpylli- <lb/>folia</rs>, <rs type="term" key="XXX">Erophila vulgaris</rs>, <rs type="term" key="XXX">Capsellabursa<supplied cert="high" resp="#UP">-</supplied>
+                        <lb/>pastoris</rs>, <rs type="term" key="XXX">Viola canina foliis
+                        elongatis</rs>.</p>
+                <p>Im Garten zu <placeName key="H0009059">Morom</placeName> blühten <rs type="term" key="XXX">Draba lutea<supplied cert="high" resp="#UP">,</supplied></rs>
+                    <lb/><rs type="term" key="XXX">Glechoma hederacea</rs>. Abfahrt <choice>
+                        <abbr>u</abbr>
+                        <expan>um</expan>
+                    </choice> 10 Uhr<supplied cert="high" resp="#UP">.</supplied>
+                    <lb/>11<del rendition="#s">½</del> Uhr erreichten wir den Fluß <placeName key="H0016251"><foreign xml:lang="rus">Окка</foreign></placeName>
+                    <?oxy_comment_start author="thomas" timestamp="20180220T164837+0100" comment="tatsächlich &quot;auf den wir&quot; oder &quot;auf de*m* wir&quot; ... ?"?>auf
+                    <lb/>den wir<?oxy_comment_end?> 3 Stunden zur Überfahrt auf 2 großen <lb/>Barken
+                    verwandten. <rs type="term" key="XXX">Salix fam. <unclear reason="illegible" cert="low" resp="#CT"><choice>
+                                <abbr>cart.</abbr>
+                                <expan>cordata</expan>
+                            </choice></unclear> rubra</rs> im <lb/>Fluße <?oxy_comment_start author="paessler" timestamp="20180213T173056+0100" comment="wahrscheinlich: Velet&apos;ma (Велетьма), Zufluss der Oka bei Murom"?>Wilegma<?oxy_comment_end?>
+                    <del rendition="#s">Diaescha</del>. <rs type="term" key="XXX">Lymnaeus</rs>
+                    <lb/><rs type="term" key="XXX">auricularius<metamark>?</metamark><!-- metamark oder 'normales' Fragezeichen? -->
+                        stagnalis, ovata, fuscus.</rs>
+                    <subst>
+                        <del rendition="#s"><gap reason="illegible" unit="words" quantity="1"/></del>
+                        <add place="across"><rs type="term" key="XXX">Palydina</rs></add>
+                    </subst>
+                    <lb/><rs type="term" key="XXX">vivipara, impura, Succinea amphibia. Cyclas</rs>
+                    <lb/><rs type="term" key="XXX">cornea. Planorbis corneus, marginatus</rs> in der
+                        <lb/><placeName key="H0016251"><choice>
+                            <orig>Occa</orig>
+                            <reg>Oka</reg>
+                        </choice></placeName>. Zwischen Wilegmafluß <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> der
+                    <?oxy_comment_start author="paessler" timestamp="20180213T172710+0100" comment="wahrscheinlich: Tjoscha (Тёша), Zufluss der Oka bei Murom"?>Diaescha<?oxy_comment_end?>
+                        zu<lb break="no"/>erst <rs type="term" key="XXX">Citysus</rs><note type="editorial" resp="#KA">Richtig: Cytisus Ginster</note>
+                    <rs type="term" key="XXX">supinus</rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <rs type="term" key="XXX">biflorus. Pyrus Malus<supplied cert="high" resp="#UP">,</supplied></rs> syl-<lb/>vestris <rs type="term" key="XXX">fluminis
+                        effusa. Rosa
+                        canina<metamark>?</metamark><!-- metamark oder 'normales' Fragezeichen? -->
+                        Convallaria</rs>
+                    <lb/><rs type="term" key="XXX">majalis. Poa nemorosa. Prunus Padus</rs>. Eichen-
+                    <lb/>gesträuch als Waldung. <subst>
+                        <add place="superlinear"><unclear reason="illegible" cert="low" resp="KA">grünschalige</unclear></add>
+                        <add place="superlinear"><gap reason="illegible" unit="words" quantity="1"/></add>
+                        <del rendition="#s"><gap reason="illegible" unit="words" quantity="1"/>
+                            <lb/><gap reason="illegible" unit="words" quantity="3"/></del>
+                    </subst>. Wasserfahrt dauert bis <lb/>Abend.
+                    The<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>e<?oxy_custom_end?>
+                    als Abendbrod in <choice>
+                        <abbr>ein</abbr>
+                        <expan>einem</expan>
+                    </choice> hölzern<supplied cert="high" resp="#UP">en</supplied> Hause der
+                    <lb/>Station. Sehr schlecht. Wir essen im Garten und <lb/>übernacht<supplied cert="high">en</supplied> auf dem Wagen zu Felde.</p>
+            </div>
+            <div>
+                <pb n="15v" facs="#f00014"/>
+                <head><hi rendition="#sup"><date when="1829-05-19" calendar="#Julian">19</date></hi>/<hi rendition="#sub"><date when="1829-05-31" calendar="#Gregorian">31</date></hi><supplied cert="high">.</supplied>
+                    May Sonntag. </head>
+                <p>Wir waren die Nacht hindurch gefahren<supplied cert="high">.</supplied> Das
+                    <lb/>Land wird etwas hüglicher. Die höchsten Rücken <lb/>sind
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>barometrisch<?oxy_custom_end?>
+                    einige hundert Fuß höher als <lb/><placeName key="H0009006">Moskau</placeName>.
+                    Viele Pappelwaldungen. <rs type="term" key="XXX">Populus <lb/>tremla</rs> und
+                        <rs type="term" key="XXX">nigra</rs>. <rs type="term" key="XXX">Columba
+                        turtu<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>s<?oxy_custom_end?></rs>
+                    dicht <lb/>am Wege sitzend. <rs type="term" key="XXX">Trollinus
+                        europaeus</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Ranunculus auricomus</rs>, <rs type="term" key="XXX">acris</rs>. <rs type="term" key="XXX">Nasturtium
+                        <lb/>sylvestre</rs>.
+                    Großblüth<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>i<?oxy_custom_end?>ge
+                        <rs type="term" key="XXX">Caltha palustris</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Veronica serpyllifolia</rs>. <rs type="term" key="XXX">Stellaria palustris</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Equisetum arvense</rs>, <rs type="term" key="XXX">nemorosum</rs><rs type="term" key="XXX"><supplied cert="high">,</supplied>
+                            Ranunculus<supplied cert="high">,</supplied>
+                        <lb/>Myosurus</rs>.<rs type="term" key="XXX">Thlaspi arvense</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX"><?oxy_comment_start author="paessler" timestamp="20180215T140307+0100" comment="eigentlich: Capsella bursa-pastoris"?>Capsellabursa<?oxy_comment_end?>
+                        <lb/>pastoris</rs>. <rs type="term" key="XXX">Erophila vulgaris</rs>. <rs type="term" key="XXX">Myosotis arvensis.</rs>
+                    <lb/><rs type="term" key="XXX">Tanacetum vulgare</rs>? <rs type="term" key="XXX">Polygon<supplied cert="high">um</supplied> aviculare</rs>
+                    <lb/>sehr häufig. <rs type="term" key="XXX">Alchemilla</rs>, <rs type="term" key="XXX">Primula veris</rs>. <rs type="term" key="XXX">Allysum
+                        <lb/>incanum</rs>. <rs type="term" key="XXX">Betula alba latifolia</rs>, <rs type="term" key="XXX">parvi <lb/>folia</rs>. – <rs type="term" key="XXX">Salamandra lacustris.</rs>
+                        (<?oxy_comment_start author="paessler" timestamp="20180328T175136+0200" comment="gemeint wohl: Ящерка = Echse"?><?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="40"?>Jaschd<g ref="#typoHyphen"/><lb break="no"/>scherka<?oxy_comment_end?><?oxy_custom_end mid="40"?> Salamandra). Ein Baum
+                    von <lb/><rs type="term" key="XXX">Acer platanoides</rs>. Mehrere große
+                        Weiden<lb break="no"/>bäume. Baum von <rs type="term" key="XXX">Prunus
+                        padus</rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>nd</expan>
+                    </choice><rs type="term" key="XXX"> Ulmus effusa</rs><supplied cert="high">.</supplied>
+                    <lb/>Wir frühstücken <choice>
+                        <abbr>u</abbr>
+                        <expan>um</expan>
+                    </choice> 8½ in <gap unit="words" quantity="1" reason="empty"/>
+                    <supplied cert="high">.</supplied></p>
+                <p>Um 3 Uhr erreichen wir <placeName key="H0001687">Nischny Nowgorod</placeName>
+                    <lb/>wo Herr <persName key="H0002056">Pollier</persName>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>noch
+                    verweilt<?oxy_custom_end?>. Der große <lb/>Bazar ist unter Wasser an der
+                        Landspitze<supplied cert="high">,</supplied>
+                    <lb/>welche die <placeName key="H0016251">Occa</placeName>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <placeName key="H0007984">Wolga</placeName> beym Zusammen<lb break="no"/>fluß
+                    trennt. Man klagt über die Anlage <lb/>des Bazars durch <persName key="H0003311">Voudencourt</persName> an dießer<pb n="16r"/> Stelle. Der Schutz vor dem
+                    Wasser soll 2 Milli<supplied cert="high">o</supplied>n<supplied cert="high">en</supplied>
+                    <lb/>Rubel kosten. Pollier erzählt daß die <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Policey<?oxy_custom_end?>
+                    <lb/>gleich bey Voudencourts erster <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Beurtheilung<?oxy_custom_end?>
+                    <lb/>des Platzes die Häuser sofort
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>eingerissen<?oxy_custom_end?>
+                    hat. <lb/>Im Creml ist ein Denkmal <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>auf<?oxy_custom_end?>
+                    <?oxy_comment_start author="paessler" timestamp="20180214T155425+0100" comment="Poscharski"?><?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="47"?>Poschascin<?oxy_comment_end?><?oxy_custom_end mid="47"?><supplied cert="high">,</supplied>
+                    <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>den
+                    Befreyer<?oxy_custom_end?> der Stadt gegen die Tataren<supplied cert="high">,</supplied>
+                    <lb/>welcher
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>auch<?oxy_custom_end?>
+                    eine <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Stele in
+                    Moscau<?oxy_custom_end?> hat<supplied cert="high">.</supplied>
+                    <?oxy_comment_start author="paessler" timestamp="20180214T155441+0100" comment="Minin"?>Mini<?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="52"?>s<?oxy_comment_end?><?oxy_custom_end mid="52"?><supplied cert="high">:</supplied>
+                    <lb/>Sein Grab ist in der Hauptkirche. die alte <lb/>Kirche Wladimirs wird jezt
+                    repar<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>i<?oxy_custom_end?>rt.
+                    <lb/>Wir
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>besahen<?oxy_custom_end?>
+                    die Stadt <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>vom
+                        Policeythurm<?oxy_custom_end?><supplied cert="high">.</supplied>
+                    <lb/>Groß<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>e
+                    Wasserfläche<?oxy_custom_end?>. Wenig
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Privat<?oxy_custom_end?>häuser<supplied cert="high">,</supplied>
+                    <lb/>ziemlich viele öffentliche Gebäude. <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Nichts<?oxy_custom_end?>
+                    <lb/>imponirend. Die Stadt liegt am Abhange <lb/>des <add place="superlinear">rechten</add> Flußrandes
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>der<?oxy_custom_end?>
+                    280 Fuß hoch ist. <lb/>wie die die Saal<supplied cert="high">e</supplied>wand
+                    bei Kösen. <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Vor<?oxy_custom_end?>
+                    <lb/>der Stadt
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>westlich<?oxy_custom_end?>
+                    fanden wir
+                    <?oxy_comment_start author="paessler" timestamp="20180215T164225+0100" comment="vgl. Rose I, 90."?>beym
+                    Graben
+                    <lb/>e<?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="63"?>ines
+                        Brunnen<?oxy_comment_end?><supplied cert="high">s</supplied><?oxy_custom_end mid="63"?> Sandstein
+                    (<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>rothen<?oxy_custom_end?>).
+                    der Fluß Abhang <lb/>zeigt Kalkmergel blau <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>roth<?oxy_custom_end?>,
+                    ohne Conchy<lb break="no"/>lien. Abhang bewachsen.
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>– Der
+                    <?oxy_custom_end?>Fischmarkt
+                    <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>gab<?oxy_custom_end?>
+                    Sterled (<rs type="term" key="XXX"><choice>
+                            <abbr>Acip.</abbr>
+                            <expan>Acipenser</expan>
+                        </choice>
+                        <choice>
+                            <abbr>ruth.</abbr>
+                            <expan>ruthenus</expan>
+                        </choice></rs>) <unclear reason="illegible" cert="high">Jesotro</unclear>
+                        (<rs type="term" key="XXX"><choice>
+                            <abbr>Acip.</abbr>
+                            <expan>Acipenser</expan>
+                        </choice> sturio</rs>)<supplied cert="high">,</supplied>
+                    <lb/><?oxy_comment_start author="paessler" timestamp="20180216T112802+0100" comment="щука"?>Dschuga<?oxy_comment_end?>
+                        (<rs type="term" key="XXX">Esox lucius</rs>)<supplied cert="high">,</supplied>
+                    <?oxy_comment_start author="paessler" timestamp="20180216T113131+0100" comment="Налим"?>Nalym<?oxy_comment_end?>
+                        (<rs type="term" key="XXX">Gadus Lota</rs>)<supplied cert="high">,</supplied>
+                    <lb/><?oxy_comment_start author="paessler" timestamp="20180216T113412+0100" comment="судак"?>Sudak<?oxy_comment_end?>
+                        (<rs type="term" key="XXX">Perca lucioperca</rs>)<supplied cert="high">,</supplied>
+                    <?oxy_comment_start author="paessler" timestamp="20180216T113710+0100" comment="окунь"?>Okum<?oxy_comment_end?>
+                        (<rs type="term" key="XXX">Perca fluviatilis</rs>)<supplied cert="high">,</supplied><lb/>Jaes
+                    (<?oxy_comment_start author="paessler" timestamp="20180216T115632+0100" comment="Язь"?>Jasi<?oxy_comment_end?>)
+                        (<rs type="term" key="XXX">Cyprinus
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Jeses</rs><?oxy_custom_end?>)<supplied cert="high">,</supplied>
+                    <?oxy_comment_start author="paessler" timestamp="20180216T120316+0100" comment="eigentlich: Линь (Schleie). Verwechselt Ehrenberg mit Лещ (Brasche / Aspius aspius?)"?>Leschtsch<?oxy_comment_end?>
+                        (<rs type="term" key="XXX">Cyprinus
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Tinca<?oxy_custom_end?></rs>)<supplied cert="high">,</supplied><lb/><?oxy_comment_start author="paessler" timestamp="20180216T115409+0100" comment="Жерех"?>Scherecha<?oxy_comment_end?>
+                        (<rs type="term" key="XXX">Cyprinus <space dim="horizontal" quantity="1"/></rs>?)<supplied cert="high">.</supplied></p>
+            </div>
+            <div>
+                <p>Die Fischer fangen überdieß noch
+                    <?oxy_comment_start author="paessler" timestamp="20180216T122614+0100" comment="Сом"?>So<?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="80"?>m<?oxy_comment_end?><?oxy_custom_end mid="80"?>, <?oxy_comment_start author="paessler" timestamp="20180216T122638+0100" comment="Линь"?>Lin<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>n<?oxy_custom_end?>
+                    <?oxy_comment_end?><?oxy_comment_start author="paessler" timestamp="20180216T122517+0100" comment="пескарь (Gobio gobio)"?><lb/>Pis<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>c<?oxy_custom_end?>ari<?oxy_comment_end?><supplied cert="high">,</supplied>
+                    <?oxy_comment_start author="paessler" timestamp="20180216T121509+0100" comment="Карась "?>Carassi<?oxy_comment_end?><supplied cert="high">,</supplied>
+                    <?oxy_comment_start author="paessler" timestamp="20180216T123211+0100" comment="noch nicht überprüft!"?>Wigma<supplied cert="high">,</supplied>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Schelesniza<?oxy_custom_end?><supplied cert="high">,</supplied> Calabli<supplied cert="high">,</supplied>
+                    <lb/>Plotwa<supplied cert="high">,</supplied> Dschegani, Jerschi, Sasan,
+                        Jelzi<?oxy_comment_end?><supplied cert="high">.</supplied></p>
+            </div>
+            <div>
+                <pb n="16v"/>
+                <?oxy_comment_start author="paessler" timestamp="20180212T141157+0100" comment="16v"?>
+                <?oxy_comment_start author="paessler" timestamp="20180216T123230+0100" comment="16v" mid="89"?>
+                <head><?oxy_comment_end?><?oxy_comment_end mid="89"?>20 May/1 Juny Montag
+                    <lb/></head>
+                <p><rs type="term" key="XXX">Beluga</rs>, <rs type="term" key="XXX">Schevriga</rs>,
+                        <rs type="term" key="XXX">Bela rybiza</rs>. Ich <lb/>sah 9 Arten, man nannte
+                    24. Ein <lb/>Flußkrebs den sie Raxi nennen ist eine
+                    <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>eigene<?oxy_custom_end?>
+                    Art von <rs type="term" key="XXX">Astacus</rs> mit gleichen Scheeren.</p>
+                <p>Wir fahren <date when="1829-06-01" calendar="#Gregorian">heut<supplied cert="high">e</supplied> (Montag)</date> mit einer großen
+                        <lb/>Barke<supplied cert="high">,</supplied> welche alle 3 Kutschen
+                        faßt<supplied cert="high">,</supplied> ab. <add place="superlinear">300
+                            Rubel<supplied cert="high">.</supplied></add> Eben so <lb/>war Graf
+                    Pollier abgereißt. In Begleitung des <lb/>Grafen Pollier war 1 Arzt, <choice>
+                        <abbr>Dr</abbr>
+                        <expan>Doctor</expan>
+                    </choice>
+                    <space dim="horizontal" unit="words" quantity="1"/><supplied cert="high">.</supplied>
+                    <lb/>1
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Rechnungsführer<?oxy_custom_end?>
+                    Herr Moehring, ein Salzinspecteur <lb/>Schmidt. Das rechte Ufer der Wolga wird
+                    <lb/>etwas niedriger<supplied cert="high">,</supplied> bis 80 <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <unclear reason="illegible" cert="high">200</unclear> Fuß<supplied cert="high">,</supplied> ist schroff <lb/>aber mit Birkengesträuch <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Bäumen wohl bewachsen.
+                    <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Viele<?oxy_custom_end?>
+                    Dörfer <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Felder beleben die Gegend<supplied cert="high">.</supplied>
+                    <lb/>das linke Ufer ist niedrig<supplied cert="high">,</supplied> oft in Inseln
+                    <lb/>zertheilt. Die gemeßene Flußtiefe <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>gab<?oxy_custom_end?>
+                    <lb/><subst>
+                        <del rendition="#ow">16</del>
+                        <add place="across">12</add>
+                    </subst> Klafter (12)<supplied cert="high">.</supplied> Temperatur von <choice>
+                        <abbr>H.</abbr>
+                        <expan>Humboldt</expan>
+                    </choice> ge<g ref="#typoHyphen"/><lb break="no"/>messen 14° <choice>
+                        <abbr>R</abbr>
+                        <expan>Réaumur</expan>
+                    </choice>. Abends 12°. Eine mit hohen <lb/>Schwarzpap<supplied cert="high">p</supplied>eln bewachsene Insel bleibt uns <lb/>Nachmittags zur Linken.
+                    Bäume 60–70 Fuß <lb/>hoch, wie Eichen. <unclear reason="illegible" cert="low" resp="UP">Bienenbesuch</unclear>. <rs type="term" key="XXX">Sterna
+                        Hirundo</rs>
+                    <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Nordlicht<?oxy_custom_end?>?
+                        <unclear reason="illegible" cert="low" resp="KA">Mückenfang</unclear>.</p>
+            </div>
+            <div>
+                <head>
+                    <hi rendition="#sup"><date when="1829-05-21" calendar="#Julian">21
+                        May</date></hi> / <hi rendition="#sub"><date when="1829-06-02" calendar="#Gregorian">2 Juny</date></hi> Dienstag</head>
+                <p>In der Nacht haben wir Makarief passirt <lb/>und waren am Morgen bey der 2<hi rendition="#u">ten</hi> Station <gap unit="chars" quantity="2" reason="illegible"/>
+                    <lb/><gap unit="chars" quantity="2" reason="illegible"/>. Nisiny die <rs type="term" key="XXX">Sterna</rs><supplied cert="high">,</supplied>
+                    <gap unit="words" quantity="1" reason="illegible"/>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Fischkopf <lb/>gezeichnet. <unclear reason="illegible" cert="high" resp="KA"><?oxy_comment_start author="paessler" timestamp="20180329T140901+0200" comment="ich hatte: Gemessen"?>Gewitter<?oxy_comment_end?></unclear>.
+                    Rose und <choice>
+                        <abbr>Mensch</abbr>
+                        <expan>Menschenin</expan>
+                    </choice> setzen <lb/>am Morgen mit der Barke ans Land. </p>
+                <pb n="17r"/>
+                <?oxy_comment_start author="paessler" timestamp="20180212T141229+0100" comment="17r"?>
+                <p><?oxy_comment_end?>Rose bringt <rs type="term" key="XXX">Lonicera
+                            Xylosteum<supplied cert="high">,</supplied> Acer
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>platanoides<?oxy_custom_end?></rs><supplied cert="high">,</supplied>
+                    <lb/>ein <rs type="term" key="XXX">Robus</rs> und <rs type="term" key="XXX">Orobus vernus</rs> als neue Pflanzen <lb/>mit. Auch wieder <rs type="term" key="XXX">Euonymus
+                        verrucos<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>us<?oxy_custom_end?></rs>.
+                    Eine <lb/><rs type="term" key="XXX">Saperda</rs><note type="editorial" resp="#KA">Bockkäfer</note> auf dem Schilfröhricht. Das Wolga Ufer <lb/>wird
+                    wieder etwas höher<supplied cert="high">,</supplied> 100–200 Fuß <lb/>erst noch
+                    sehr schroff, allmälig sanfter <lb/>abfallend. An den vorigen Tagen war
+                        heiter<supplied resp="#UP" cert="high">es</supplied>
+                    <lb/>Wetter <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Sonnenschein, Hitze
+                    1<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>6<?oxy_custom_end?>–20°
+                        R<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>éau<?oxy_custom_end?>mur<supplied cert="low" resp="#CT">;</supplied>
+                    <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>heut<?oxy_custom_end?>
+                    Mittag
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>entschied<?oxy_custom_end?>
+                    sich die windige <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Trübe<?oxy_custom_end?>
+                    <lb/>des Morgens in Regenwolken. Ein Ungewitter
+                    <lb/>nöthigt<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>e<?oxy_custom_end?>
+                    uns an einer Insel anzulegen, <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>deren<?oxy_custom_end?>
+                    <lb/>westlich<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>es<?oxy_custom_end?>
+                    Ende mit ei<supplied cert="high">nem</supplied> Pappelwald <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>von<?oxy_custom_end?>
+                    <rs type="term" key="XXX">Popu- <lb/>lus alba</rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <rs type="term" key="XXX">nigra</rs> besezt war. Ich stieg aus<supplied cert="high">,</supplied> um <lb/>die Vegetation zu sehen<supplied cert="high">,</supplied>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ward<?oxy_custom_end?>
+                    sehr naß <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> sah <lb/>nur <rs type="term" key="XXX">Salix alba</rs>, <rs type="term" key="XXX">fragilis</rs> und <rs type="term" key="XXX">pentandra</rs> mit <lb/><rs type="term" key="XXX"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Salix</expan>
+                        </choice> caprea</rs>. Sehr viel dornloses Rosengestrüpp <lb/>in
+                    eigenthümliche<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>m<?oxy_custom_end?>
+                    Habitus. Die Wald<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>bienen<?oxy_custom_end?>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>war<supplied resp="#UP" cert="high">en</supplied>
+                    <lb/>die angegeben<supplied resp="#CT" cert="high">en</supplied><?oxy_custom_end?>. Eine Ente <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> 1 <rs type="term" key="XXX"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Rhynchops</rs><?oxy_custom_end?><metamark>??</metamark><!-- metamark oder 'normales' Fragezeichen? -->
+                    ge- <lb/>sehen Grau mit weißen Flügelbinden beyde, erste <lb/>fast schwarz. – In
+                    den Bergabhängen lag noch <lb/>im Schatten viel Schnee gestern <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    heu<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>t<?oxy_custom_end?>.</p>
+                <p>Um 4 Uhr <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>der<?oxy_custom_end?>
+                    <subst>
+                        <del rendition="#ow"><gap reason="illegible" unit="chars" quantity="1"/></del>
+                        <add place="across">W</add>
+                    </subst>asilisurskoj. Um <subst>
+                        <del rendition="#s"><gap reason="illegible" unit="chars" quantity="1"/></del>
+                        <add place="across">7</add>
+                    </subst> Uhr <lb/>von
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Kufnitimianskoi<?oxy_custom_end?>
+                    Kora
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>wohin<?oxy_custom_end?>
+                    wir mit Herrn <choice>
+                        <abbr>v</abbr>
+                        <expan>von</expan>
+                    </choice>
+                    <choice>
+                        <abbr>H</abbr>
+                        <expan>Humboldt</expan>
+                    </choice>
+                    <lb/>zu Barke vorausfahren.
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Zugebracht<?oxy_custom_end?>
+                    auf der Wolga bis <lb/>10 Uhr. 3 Begleiter des Herrn Pollier fallen ins Wasser,
+                    <lb/>warden aber gerettet. Lichtsignal. Milch geholt. <lb/><rs type="term" key="XXX">Salix alba</rs><supplied cert="high">,</supplied> Bäume.</p>
+            </div>
+            <pb n="17v"/>
+            <?oxy_comment_start author="paessler" timestamp="20180221T174233+0100" comment="Bl. 17v"?>
+            <div>
+                <?oxy_comment_end?>
+                <head><hi rendition="#sup"><date when="1829-05-22" calendar="#Julian">22</date></hi>
+                    / <hi rendition="#sub"><date when="1829-06-03" calendar="#Gregorian">3
+                            Juny</date></hi></head>
+                <p>Um 11 Uhr wird angehalten am rechten <lb/>Wolga Ufer
+                    d<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>em Dörfchen<?oxy_custom_end?>
+                    <space dim="horizontal" unit="words" quantity="1"/> gegenüber. Ich sammele in
+                    <lb/>3 Stunden die Pflanzen <choice>
+                        <abbr><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>u</abbr>
+                        <expan>und</expan>
+                    </choice> Thiere<?oxy_custom_end?> des Abhanges.</p>
+                <p><rs type="term" key="XXX">Aristolochia clematitis</rs>, <rs type="term" key="XXX">Actaea spicata</rs>, <rs type="term" key="XXX">Asarum
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><lb/>europaeum<?oxy_custom_end?></rs>.
+                        <rs type="term" key="XXX">Mercurialis annua</rs>
+                    <gap unit="words" quantity="1" reason="illegible"/> et sem. <rs type="term" key="XXX">Viola odora<lb break="no"/>ta</rs>. <?oxy_comment_start author="paessler" timestamp="20180320T164353+0100" comment="Uredo"?>Vredo<?oxy_comment_end?>
+                    <rs type="term" key="XXX">Potentillae rubra</rs> et <rs type="term" key="XXX">negra</rs>. <rs type="term" key="XXX">Draba lutea</rs>. <rs type="term" key="XXX">Briza <lb/>minor</rs>.
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><rs type="term" key="XXX">Dracocephalum <add place="superlinear">thymiflo<supplied cert="high">rum</supplied></add></rs><?oxy_custom_end?><supplied cert="high">.</supplied>
+                    <rs type="term" key="XXX">Lathyrus pratensis</rs>. <rs type="term" key="XXX"><gap unit="words" quantity="1" reason="illegible"/>
+                        stellulis</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Chrysosplenium alternifolium</rs>. <rs type="term" key="XXX">Rubus arcticus</rs>? <rs type="term" key="XXX">Viola
+                        <lb/>mirabilis</rs>, <rs type="term" key="XXX">hirta</rs>. <rs type="term" key="XXX">Aconitum septentrionale</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Salix caprea</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Ulmus effusa</rs>, <rs type="term" key="XXX">campestris</rs>. <rs type="term" key="XXX">Anemone
+                        ranunculoides</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Scleranthus perennis</rs>. <rs type="term" key="XXX">Crataegus oxyacantha</rs><supplied cert="high">,</supplied>
+                    <?oxy_comment_start author="paessler" timestamp="20180320T174630+0100" comment="(Geum rivale)"?>
+                    <rs type="term" key="XXX">Geum <lb/>rivulare</rs><?oxy_comment_end?><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Chel<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>i<?oxy_custom_end?>donium
+                        majus</rs>. <rs type="term" key="XXX">Veronica Chamaedrys</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Daphne Mezereum</rs><supplied cert="high">.</supplied>
+                    <rs type="term" key="XXX">Euphorbia Esula</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Myosotis <lb/>arvensis</rs><supplied cert="high">.</supplied>
+                    <rs type="term" key="XXX">Corydalis digitata</rs>.<rs type="term" key="XXX">
+                        Aecidium <subst>
+                            <del rendition="#ow">A</del>
+                            <add place="across">a</add>
+                        </subst>coniti</rs><supplied cert="high">,</supplied>
+                    <lb/><del rendition="#s">Aconitum septentrionale</del>. <rs type="term" key="XXX">Pulmonaria offici<g ref="#typoHyphen"/><lb break="no"/>nalis</rs>.
+                        <rs type="term" key="XXX">Tilia parvifolia</rs>. <rs type="term" key="XXX">Rosa canina</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Carex</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Sorbus aucuparia</rs>. <rs type="term" key="XXX">Viola tricolor</rs>, <rs type="term" key="XXX">arvensis</rs>. <lb/><rs type="term" key="XXX">Viburnum Opulus</rs>. <rs type="term" key="XXX"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Phyllerium <choice>
+                            <abbr>Tiliac.</abbr>
+                            <expan>tiliaceum<?oxy_custom_end?></expan>
+                        </choice></rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Phyllerium <lb/>Oxyacanthae</rs>.<rs type="term" key="XXX">
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Sphaeria
+                        fusca<?oxy_custom_end?></rs>, <rs type="term" key="XXX"><gap unit="words" quantity="1" reason="illegible"/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                        pyrinus</rs><?oxy_custom_end?>. <rs type="term" key="XXX"><unclear reason="illegible" cert="high">Peziza</unclear>
+                        <lb/><gap unit="words" quantity="1" reason="illegible"/></rs>. <rs type="term" key="XXX">Phylleri<supplied cert="high">um</supplied>
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>rosa<?oxy_custom_end?></rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Betulae</rs>. <rs type="term" key="XXX">Trifoli<supplied cert="high">um</supplied>
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>rubens</rs><?oxy_custom_end?><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Alyssium <space dim="horizontal" unit="words" quantity="1"/></rs>. <rs type="term" key="XXX">Equisetum arvense</rs>,
+                        <rs type="term" key="XXX">palustre</rs>. <rs type="term" key="XXX">Funaria
+                        <lb/>hygrometrica</rs>. <rs type="term" key="XXX">Lonicera
+                        xylosteum</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Acer platanoides</rs>, <lb/><rs type="term" key="XXX">Urtica dioica</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">Lamium purpureum</rs>.
+                        <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><rs type="term" key="XXX">Coluber cerastes<?oxy_custom_end?></rs>. <rs type="term" key="XXX">Rana Wolgae</rs>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><choice>
+                        <abbr>n.</abbr>
+                        <expan>nova</expan>
+                    </choice>
+                    <choice>
+                        <abbr>sp.</abbr>
+                        <expan>species</expan>
+                    </choice><?oxy_custom_end?>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und <lb/></expan>
+                    </choice><rs type="term" key="XXX">Lacerta agilis</rs>.</p>
+                <p>1 <rs type="term" key="XXX">Brachinus crepitans</rs>, <rs type="term" key="">Carabici</rs><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Buprestes<?oxy_custom_end?></rs>
+                        2<supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Culex pipiens</rs>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>admodum
+                    frequens<?oxy_custom_end?>. <lb/>2
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><rs type="term" key="XXX">Helices<?oxy_custom_end?></rs>
+                    <lb/>Schnee.</p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-23" calendar="#Julian">23</date></hi><hi rendition="#sub"><date when="1829-06-04" calendar="#Gregorian">4 Juny</date></hi> Donnerstag.</head>
+                <p>Ankuft in Kasan. <unclear reason="illegible" cert="high">Frost</unclear>.
+                    <lb/>Morgens 4 Uhr. Graf Pollier war schon angekommen.
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><lb/>Entrée
+                    durch die Festung in <supplied cert="high">das</supplied> Absteigequartir
+                        <?oxy_custom_end?>im<pb n="18r"/> Hause der Adlichen. Deutscher Wirth aus
+                        <unclear reason="illegible" cert="high">Baireuth</unclear>. Ein <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Tischler<?oxy_custom_end?>
+                    <add place="superlinear">E.</add> Ehrenberg in Kasan aus <placeName key="H0008576">Magdeburg</placeName>. Besuch <lb/>beym Curator der
+                    Universität. <persName key="H0014461">Puschkin</persName>, beym <lb/>Rector
+                        <space unit="words" quantity="1" dim="horizontal"/> Ansicht des
+                    Universitätsgebäude<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>s<?oxy_custom_end?>.
+                        <gap unit="words" quantity="1" reason="lost"/>
+                    <lb/><gap unit="words" quantity="5" reason="lost"/> Besuch der Ruinen <lb/>in
+                    der Festung.</p>
+                <div>
+                    <dateline><hi rendition="#sup"><date when="1829-05-24" calendar="#Julian">24</date><supplied cert="high">.</supplied></hi>/<hi rendition="#sub"><date when="1829-06-05" calendar="#Gregorian">5.</date></hi> Freytag</dateline>
+                    <p><add place="superlinear">Excursion nach dem Dorfe <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice>
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Veste
+                                4–8<?oxy_custom_end?><supplied cert="high">.</supplied></add>Morgens
+                            <add place="intralinear">8 Uhr</add> Besuch auf der Universität. <choice>
+                            <abbr>Hum</abbr>
+                            <expan>Humboldt</expan>
+                        </choice>
+                        <lb/>beko<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>m<?oxy_custom_end?>t
+                        ein Diplom. Naturalienkabinet gehört <lb/>größtentheils <persName key="H0000310">Fuchs</persName>, besteht aus 2 Zimmern mit
+                        <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>verschiedenen<?oxy_custom_end?>
+                        Sachen. Nichts besonderes. Fast kein
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Säuge<lb break="no"/><?oxy_custom_end?>thier. 2 Exemplar<supplied cert="high">e</supplied> des Caspischen Seehunds. 2
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Moschus<?oxy_custom_end?><lb break="no"/>ratten. Die Vögel sind gut. Anatomisches Museum <lb/>besteht
+                        in 1 Schranke. Physikalisches Cabinet, Münz<lb break="no"/>kabinet,
+                        Mineralogisches Cabinet
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>wichtig<?oxy_custom_end?>
+                        als geognostische <lb/>Arbeit von Fuchs. Vor 1 Uhr Abreise zu Schiff <choice>
+                            <abbr>a</abbr>
+                            <expan>auf</expan>
+                        </choice>
+                        <lb/>der Wolga nach Bulgari. 5 Canonenschüsse zur <lb/>Abfahrt. Der Capitain
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>freundlich<?oxy_custom_end?>.
+                        –</p>
+                    <milestone rendition="#hr" unit="section"/>
+                    <p><rs type="term" key="XXX">Salix alba</rs>, <rs type="term" key="XXX">pentandra</rs>.
+                        Birkenwäld<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>chen<?oxy_custom_end?>
+                        mit <rs type="term" key="XXX"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Pinus<?oxy_custom_end?>
+                            <lb/>silvestris</rs>. <rs type="term" key="XXX">Trollius europaeus</rs>
+                        häufig. <rs type="term" key="XXX">Eriophorum <choice>
+                                <abbr>vaginat</abbr>
+                                <expan>vaginatum</expan>
+                            </choice></rs><supplied cert="high">,</supplied>
+                        <lb/><rs type="term" key="XXX">triquetrum</rs>. <rs type="term" key="XXX">Lemna minor</rs>
+                        <rs type="term" key="XXX">Caltha palustris</rs>. <rs type="term" key="XXX">Viola ca<g ref="#typoHyphen"/><lb break="no"/>nina</rs> sehr
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>oft
+                            <?oxy_custom_end?><rs type="term" key="XXX">Conv<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>a<?oxy_custom_end?>llaria
+                            majalis</rs><supplied cert="high">,</supplied>
+                        <rs type="term" key="XXX"><choice>
+                                <abbr>Polygonat.</abbr>
+                                <expan>Polygonatum</expan>
+                            </choice>
+                            <choice>
+                                <sic>multi<g ref="#typoHyphen"/><lb break="no"/>flora</sic>
+                                <corr cert="high">multiflorum</corr>
+                            </choice></rs>. <rs type="term" key="XXX">Briza minor</rs>. <rs type="term" key="XXX">Cytisus
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>supinus<?oxy_custom_end?></rs>
+                        <rs type="term" key="XXX">Salix myrtilloides</rs><supplied cert="high">,</supplied>
+                        <lb/><rs type="term" key="XXX">Betula alba</rs><supplied cert="high">.</supplied></p>
+                    <p><rs type="term" key="XXX">Apus cancriformis</rs>? <rs type="term" key="XXX"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Sanguisuga<?oxy_custom_end?>
+                            vulgaris</rs>
+                        <add place="superlinear">variegata</add>.
+                            <?oxy_comment_start author="paessler" timestamp="20180301T171845+0100" comment="eigentlich: Lymnaea fusca"?><rs type="term" key="XXX">Lymnaeus <lb/>fuscus</rs><?oxy_comment_end?>, <rs type="term" key="XXX">vulgaris</rs>. <rs type="term" key="XXX">Succinea
+                            amphibia</rs><supplied cert="high">,</supplied>
+                        <?oxy_comment_start author="paessler" timestamp="20180301T172921+0100" comment="eigentlich: Lymnaea"?><rs type="term" key="XXX">Lymnaeus<?oxy_comment_end?>
+                            lacustris</rs><supplied cert="high">,</supplied>
+                        <lb/><rs type="term" key="XXX">Planorbis albus</rs>, <rs type="term" key="XXX">corneus</rs>. <rs type="term" key="XXX"><unclear reason="illegible" cert="high">Leocarpus</unclear>
+                            vernicosus</rs><supplied cert="high">,</supplied>
+                        <rs type="term" key="XXX">Populus <lb/>Tremula</rs><supplied cert="high">.</supplied></p>
+                    <pb n="18v"/>
+                    <p><rs type="term" key="XXX"><hi rendition="#u">Prunus chamaecerasus</hi></rs>,
+                            <rs type="term" key="XXX">Ajuga reptans</rs><supplied cert="high">,</supplied>
+                        <hi rendition="#u"><rs type="term" key="XXX">Lilium
+                            Martagon</rs></hi><supplied cert="high">,</supplied>
+                        <lb/><hi rendition="#u"><rs type="term" key="XXX">Asparagus</rs></hi>. <hi rendition="#u"><rs type="term" key="XXX">Androsace
+                            septentrionalis</rs></hi>, <hi rendition="#u"><rs type="term" key="XXX">elongata</rs></hi><supplied cert="high">,</supplied>
+                        <lb/><hi rendition="#u"><rs type="term" key="XXX">Thalictrum</rs></hi>. <hi rendition="#u"><rs type="term" key="XXX">Pulmonaria
+                            angustifolia</rs></hi>. <rs type="term" key="XXX">Stellaria
+                            <lb/>palustris</rs>. <hi rendition="#u"><rs type="term" key="XXX">Arabis
+                                thaliana</rs></hi><supplied cert="high">,</supplied>
+                        <hi rendition="#u"><rs type="term" key="XXX">Veronica
+                            triphyllos</rs></hi><supplied cert="high">,</supplied>
+                        <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><rs type="term" key="XXX">Limax<?oxy_custom_end?></rs>. <rs type="term" key="XXX">Carex <choice>
+                                <sic><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>pellata</sic>
+                                <corr cert="high">pellita<?oxy_custom_end?></corr>
+                            </choice></rs>. <rs type="term" key="XXX">Quercus pedunculata</rs>
+                        <lb/>blüht. – <rs type="term" key="XXX">Papilio Aceris</rs>. <rs type="term" key="XXX">Anas crecca</rs><supplied cert="high">,</supplied><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+                        <unclear reason="illegible" cert="high">ferner</unclear>
+                        <rs type="term" key="XXX">Nisus<?oxy_custom_end?>
+                            <lb/>vulgaris</rs>. <rs type="term" key="XXX">Larus ridibundus</rs> var.
+                            <del rendition="#s"><gap quantity="1" unit="words"/></del></p>
+                </div>
+                <div>
+                    <head><hi rendition="#sup"><date when="1829-05-25" calendar="#Julian"><?oxy_comment_start author="paessler" timestamp="20180321T175537+0100" comment="Exkursion begann am Freitag (5.6., 14  Uhr), Rückehr am Sonnabend"?>24</date></hi>/<hi rendition="#sub"><date when="1829-06-05" calendar="#Gregorian">5</date></hi>
+                        <add place="superlinear"><date when="1829-06-06" calendar="#Gregorian">Sonnabend</date></add><?oxy_comment_end?></head>
+                    <p>Bulgari Excursion Nachmittags 2 Uhr</p>
+                </div>
+            </div>
+            <pb n="19r"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-25" calendar="#Julian">25</date></hi>/<hi rendition="#sub"><date when="1829-06-06" calendar="#Gregorian">6</date></hi></head>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-26" calendar="#Julian">26</date></hi>/<hi rendition="#sub"><date when="1829-06-07" calendar="#Gregorian">7</date></hi>
+                </head>
+                <p>Rück<supplied cert="high">k</supplied>ehr Abends 9 Uhr</p>
+            </div>
+            <pb n="19v"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-27" calendar="#Julian">27</date></hi>/<hi rendition="#sub"><date when="1829-06-08" calendar="#Gregorian">8</date></hi></head>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-28" calendar="#Julian">28</date></hi>/<hi rendition="#sub"><date when="1829-06-09" calendar="#Gregorian">9</date></hi>
+                </head>
+                <p>Abreise 7½ Uhr</p>
+            </div>
+            <pb n="20r"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-29" calendar="#Julian">29</date></hi>/<hi rendition="#sub"><date when="1829-06-10" calendar="#Gregorian">10</date></hi></head>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-30" calendar="#Julian">30</date></hi>/<hi rendition="#sub"><date when="1829-06-11" calendar="#Gregorian">11</date></hi></head>
+            </div>
+            <pb n="20v"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-05-31" calendar="#Julian">31</date></hi>/<hi rendition="#sub"><date when="1829-06-12" calendar="#Gregorian">12</date></hi></head>
+                <p>Früh in <placeName key="ed_lbx_ytk_kdb">Werchnemulinsk</placeName></p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-01" calendar="#Julian">1</date></hi>/<hi rendition="#sub"><date when="1829-06-13" calendar="#Gregorian">13</date></hi></head>
+                <p>Ankunft in <placeName key="H0008223">Perm</placeName></p>
+                <p>Abreise nach Kungur</p>
+            </div>
+            <pb n="21r"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-02" calendar="#Julian">2</date></hi>/<hi rendition="#sub"><date when="1829-06-14" calendar="#Gregorian">14</date></hi></head>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-03" calendar="#Julian">3</date></hi>/<hi rendition="#sub"><date when="1829-06-15" calendar="#Gregorian"><hi rendition="#u">15</hi></date></hi></head>
+                <p>In Penipajewsk</p>
+                <p>Ankunft in Catharinburg 4 Uhr Nachmittags</p>
+            </div>
+            <pb n="21v"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-04" calendar="#Julian">4</date></hi>/<hi rendition="#sub"><date when="1829-06-16" calendar="#Gregorian">16.</date></hi></head>
+                <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Besehen<?oxy_custom_end?>
+                    der Schleiferey</p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-05" calendar="#Julian">5</date></hi>/<hi rendition="#sub"><date when="1829-06-17" calendar="#Gregorian">17</date></hi></head>
+                <p>Besuch der Goldwäsche Schabrofski. <unclear reason="illegible" cert="high"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Rothbraun</unclear><?oxy_custom_end?>
+                    <lb/>Steinbruch</p>
+                <p><?oxy_comment_start author="paessler" timestamp="20180406T195423+0200" comment="wohl kein eigenständiger Ort:  Пруд Нижнеисетский bei Jekaterinburg"?>Nischni
+                    Isetzk <?oxy_comment_end?>Eisengießerey</p>
+            </div>
+            <pb n="22r"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-06" calendar="#Julian">6</date></hi>/<hi rendition="#sub"><date when="1829-06-16" calendar="#Gregorian">18</date></hi></head>
+                <p>Nach Beresow</p>
+                <p>Plagobatschinki</p>
+                <p>Preopatschinski</p>
+                <p>Peroe Pawloswki</p>
+                <p>Narinski</p>
+            </div>
+            <pb n="22v"/>
+            <div>
+                <head><date when="1829-06-08" calendar="#Julian">8</date></head>
+                <p>Nagornoi unterirdische Goldwäsche</p>
+                <p>Klenowskaja Goldwäsche</p>
+            </div>
+            <pb n="23r"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-08" calendar="#Julian">8</date></hi>/<hi rendition="#sub"><date when="1829-06-20" calendar="#Gregorian">20</date></hi></head>
+                <p>Abreise zum See Tschachtasch. Mittags bey Jacob<g ref="#typoHyphen"/><lb break="no"/>lew in Werch Isetzk</p>
+            </div>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-09" calendar="#Julian">9</date></hi>/<hi rendition="#sub"><date when="1829-06-21" calendar="#Gregorian">21</date></hi></head>
+                <p>In Catharinenburg</p>
+            </div>
+            <pb n="23v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="24r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="24v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="25r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="25v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="26r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="26v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="27r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="27v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="28r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="28v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="29r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="29v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="30r"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+            <pb n="30v"/>
+            <div>
+                <head><hi rendition="#sup"><date when="1829-06-10" calendar="#Julian">10</date></hi>/<hi rendition="#sub"><date when="1829-06-22" calendar="#Gregorian">22 Juny</date></hi>
+                    <add place="superlinear">Montags</add></head>
+                <p>Reise von Catharinenburg südöstlich <lb/>zu den Gold<supplied cert="high">-</supplied>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Kupfer<supplied cert="high">-</supplied>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Eisenwerk<supplied cert="high">en</supplied>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>des<?oxy_custom_end?>
+                    <lb/>Herrn <persName key="H0015939">Solomirski</persName>
+                    <placeName key="H0008343">Polewski<del rendition="#s">oki</del></placeName>.
+                        Marmor<lb break="no"/>bruch</p>
+                <p>durch
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>C<?oxy_custom_end?>ornaschizkaja</p>
+            </div>
+            <pb n="31r"/>
+            <div>
+                <head><date when="1829-06-23" calendar="#Gregorian">23</date></head>
+                <p>Ausflug von Polews<subst>
+                        <del rendition="#ow">kaja</del>
+                        <add place="across">ki</add>
+                    </subst> nach die Goldwäsche <lb/>Nicolewskaja</p>
+                <p>Gold auf Quarz. <rs type="term" key="XXX">Caperonia palustris</rs>. <rs type="term" key="XXX">Peziza hirta</rs></p>
+                <p>Nicolskaja <choice>
+                        <abbr>i</abbr>
+                        <expan>im</expan>
+                    </choice> Tale der <unclear reason="illegible" cert="high"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Tscheniseja<?oxy_custom_end?></unclear></p>
+            </div>
+            <div>
+                <head><date when="1829-06-24" calendar="#Gregorian">24</date></head>
+                <p>Mittwoch in Catharinenburg. Spinne gezeichnet<supplied cert="high">.</supplied>
+                    <lb/>Apotheker Helm schickt mir Päckchen sibirisch<supplied cert="high">er</supplied> Pflanzen<supplied cert="high">.</supplied>
+                    <lb/>Große Pflanzentrommeln unbrauchbar. </p>
+            </div>
+            <pb n="31v"/>
+            <div>
+                <head><date when="1829-06-25" calendar="#Gregorian">25.</date> Donnerstag</head>
+                <p>Abfahrt von Catharinenburg um 8 Uhr. Pisch-<lb/>minsk. Kitaif. Große Goldwäsche
+                    mit eisernen <lb/>Maschinen. In der Pischma 2 <choice>
+                        <abbr>Sp.</abbr>
+                        <expan>Species</expan>
+                    </choice>
+                    <rs type="term" key="XXX">Planorbis</rs>. Vege-<lb/>tation sehr einfach. <rs type="term" key="XXX">Pinus silvestris</rs> mit <rs type="term" key="XXX">Birken</rs>. Einzelne <lb/><rs type="term" key="XXX">Weiden</rs>. Flüßchen
+                    Agat
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="paessler" timestamp="20180329T183026+0200" comment="KA: erreicht" mid="163"?>macht<?oxy_custom_end?><?oxy_comment_end mid="163"?>
+                    eine auffallende <lb/>Vegetationsgrenze. An der Goldwäsche kehren <lb/>die
+                    Bergbeamteten Voelkner cet zurük. <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Heißt<?oxy_custom_end?>
+                    <unclear reason="illegible" cert="low" resp="#KA">Mela- <lb/>ga</unclear>
+                    Mustofskaja. Seifert schießt: <rs type="term" key="XXX">Parus
+                        palustris</rs><supplied resp="#CT" cert="low">,</supplied>
+                    <lb/>Pferd <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>an
+                    Bein getroffen<?oxy_custom_end?>. <rs type="term" key="XXX">Polemonium caeru-
+                        <lb/>leum</rs>. <rs type="term" key="XXX">Pinus larix</rs>, <rs type="term" key="XXX">abies</rs>, <rs type="term" key="XXX">picea</rs>. <rs type="term" key="XXX">Rosa cinnamo-<lb/>mea</rs>? <rs type="term" key="XXX">Sagina
+                        procumbens</rs> in Werchoturski<supplied resp="#CT" cert="low">.</supplied>
+                    Gold <lb/>auf Talkschiefer. Spechte gesehen. Große Birken-<lb/>blätter. <rs type="term" key="XXX">Humulus lupulus</rs>. In Pischminsk werden in <lb/>12
+                    Stunden 1000 Pud von 270
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Wäschern<?oxy_custom_end?>
+                        gewaschen<supplied cert="high">.</supplied> 100 Pud geben <lb/>2½
+                    Solotnik.</p>
+            </div>
+            <div>
+                <head><date when="1829-06-26" calendar="#Gregorian">26.</date> Freytag in Newianski
+                    an der Neiwa. Altes Schloß.</head>
+                <p><rs type="term" key="XXX">Prunella vulgaris</rs> zuerst gesehen. Große
+                        <lb/>Eisenhütte<supplied resp="#CT" cert="low">,</supplied> Kupferhütte und
+                    Goldwäsche von <unclear reason="covered" resp="#UP" cert="high"><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Demid</unclear><g ref="#typoHyphen"/><lb break="no"/><unclear reason="covered" cert="high">of</unclear>
+                    <add place="superlinear">seit 1814<?oxy_custom_end?></add>! <rs type="term" key="XXX"><choice>
+                            <sic>Vaccium</sic>
+                            <corr cert="high">Vaccinium</corr>
+                        </choice> uliginosum</rs>,
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><add place="superlinear"><rs type="term" key="XXX">Linnaea<?oxy_custom_end?></rs></add><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX">R<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>u<?oxy_custom_end?>bus
+                        chamaemorus</rs>, <lb/><rs type="term" key="XXX">Pinus Cembra</rs> zuerst
+                    wild. Ausflug nach <lb/>Rudianski<supplied cert="high">,</supplied> ein großes
+                    Kupferwerk. Im <lb/>See <rs type="term" key="XXX"><?oxy_comment_start author="paessler" timestamp="20180403T105549+0200" comment="eigentlich: Lymnaea auricularia "?>Lymnae<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>us<?oxy_custom_end?>
+                        auriculari<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>us<?oxy_custom_end?></rs><?oxy_comment_end?><supplied cert="high">,</supplied>
+                    <rs type="term" key="XXX"><unclear reason="illegible" cert="low" resp="#UP">alb<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>is<?oxy_custom_end?></unclear></rs>.
+                        <rs type="term" key="XXX">Alsine media</rs><supplied cert="high">,</supplied>
+                    <lb/><rs type="term" key="XXX">Potamogeton marinus</rs>.<metamark><space dim="horizontal"/></metamark><!-- @UP: Korrekt als bedeutungstragende Lücke? -->
+                    <rs type="term" key="XXX">Sagittaria sagitti-<lb/>folia</rs>. <rs type="term" key="XXX">Menyanthes trifoliata</rs>. <rs type="term" key="XXX">Calla.</rs>
+                    – Wir <lb/>aßen Fisch. Jersch <choice>
+                        <abbr>ud</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Carassi</abbr>
+                        <expan>Carassius</expan>
+                    </choice>. Jung<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>e<?oxy_custom_end?>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Schuhu<?oxy_custom_end?><note type="editorial" resp="#UP">Strix Bubo L.</note>
+                    <lb/>und Dohlen.
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Alexeje<?oxy_custom_end?>wskoi
+                    rudnik Kupfergrube<supplied resp="#CT" cert="low">.</supplied>
+                    <lb/>Intendant Polusatof (Alexei Iwanowitsch Jacoblef)
+                    <lb/><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>fand<?oxy_custom_end?>
+                    1813 ein Stük Gold von 36 Solotnik. <?oxy_comment_start author="paessler" timestamp="20180212T155626+0100" comment="wohl Николай Алексеевич Шленев  (1777-1863)"?>Schlenef<?oxy_comment_end?>
+                    <unclear reason="illegible" resp="#UP" cert="low">Acht.</unclear><?oxy_comment_start author="paessler" timestamp="20180403T130448+0200" comment="bis hier (31r) geliefert von KA, 11.3.18"?></p>
+                <?oxy_comment_end?>
+                <?oxy_comment_start author="paessler" timestamp="20180403T110623+0200" comment="es fehlt noch fol. 32r!"?>
+            </div>
+            <?oxy_comment_end?>
+            <pb n="32v"/>
+            <?oxy_comment_start author="paessler" timestamp="20180212T164533+0100" comment="32v"?>
+            <div>
+                <?oxy_comment_end?>
+                <head><date when="1829-06-29" calendar="#Gregorian">29<supplied resp="#CT" cert="low">.</supplied></date> Montag</head>
+                <p>Excursion zu Wagen nach Tschorno Istoktschins-<lb/>koj <unclear reason="illegible" resp="#UP" cert="high">und dann</unclear> zu Wagen nach 2
+                    Platina Wäschen<lb/>unter Torf über schiefrigem Grünstein:<lb/>Neue Pflanzen<!-- @UP: Tabelle ok so? -->
+                    <table>
+                        <row>
+                            <cell><rs type="term" key="XXX">Vaccinium Myrtillus</rs></cell>
+                            <cell>Goldwäschen</cell>
+                        </row>
+                        <row>
+                            <cell><rs type="term" key="XXX">Oxalis arctop<supplied resp="#KA" cert="high">hy</supplied>lla</rs></cell>
+                            <cell>1. Suchobisi</cell>
+                        </row>
+                        <row>
+                            <cell><rs type="term" key="XXX">Veronica hybrida</rs></cell>
+                            <cell>2. Rublowski</cell>
+                        </row>
+                        <row>
+                            <cell><rs type="term" key="XXX"><choice>
+                                        <?oxy_comment_start author="paessler" timestamp="20180212T173501+0100" comment="als Ersetzungszeichen?
+"?>
+                                        <orig>–</orig>
+                                        <reg>〃</reg>
+                                    </choice>
+                                    <?oxy_comment_end?>spuria</rs></cell>
+                            <cell>3. Suchoilot</cell>
+                        </row>
+                        <row>
+                            <cell><rs type="term" key="XXX">Hypnum crista<supplied resp="#KA" cert="high">-</supplied>castrensis</rs></cell>
+                        </row>
+                    </table>Viel Lindengesträuch kein Baum Alles blühend.<lb/>Viel <rs type="term" key="XXX">Pinus Cembra</rs>. <rs type="term" key="XXX">Linnaea</rs>.</p>
+                <p>Von Suchoilot zu Pferde auf die Platin-<lb/>wäsche und den Belāga Go<subst>
+                        <del rendition="#ow"><gap reason="illegible" unit="chars" quantity="3"/></del>
+                        <add place="across">ra</add>
+                    </subst> (Montblanc)<supplied resp="#KA" cert="high">.</supplied><lb/>Furchtbarer Weg durch Sumpf und Wildniß.</p>
+                <p>
+                    <rs type="term" key="XXX">Campanula glomerata
+                    Arundo</rs><metamark>?</metamark><!-- metamark oder 'normales' Fragezeichen? -->
+                </p>
+                <p><rs type="term" key="XXX">Bupl<supplied resp="#KA" cert="high">eur</supplied>um&#160;<subst>
+                            <del rendition="#s">po</del>
+                            <add place="across">fol.</add>
+                        </subst></rs>
+                    <rs type="term" key="XXX">Trollius</rs>. <rs type="term" key="XXX">Epilobium <choice>
+                            <abbr>angustifol</abbr>
+                            <expan>angustifolium</expan>
+                        </choice></rs>.<lb/><rs type="term" key="XXX">Aconitum septentrionale</rs>.
+                        <rs type="term" key="XXX">Chaerophyllum</rs>. Birken,<lb/>Linden und Tannen.
+                    Fische des Sees bey Tschorno sind<lb/>Okun, Plotwa,
+                    Tschtschuka,<!-- Komma=sic, corr=streichen? @CT würde das so lassen --> (Esox),
+                    <?oxy_comment_start author="paessler" timestamp="20180216T101235+0100" comment="ёрш"?>Jersche<?oxy_comment_end?>,<lb/>Jeses
+                    <?oxy_comment_start author="paessler" timestamp="20180216T101844+0100" comment="Лещ ? (Brachse)"?>Len<?oxy_comment_end?>
+                    oder
+                    <?oxy_comment_start author="paessler" timestamp="20180216T092739+0100" comment=" Hucho taimen (Talmen / Taimen vgl.  Bloch, Naturgeschichte der ausländischen Fische, VII, 77. Dem Heuch ähnlich
+https://de.wikipedia.org/wiki/Taimen"?>Talma<?oxy_comment_end?>
+                    (eigenthümlicher Fisch des<lb/>Urals)
+                    <?oxy_comment_start author="paessler" timestamp="20180216T102657+0100" comment="Хариусы ? Die Äsche (Thymallus)"?>Harr<?oxy_comment_end?>ius.</p>
+                <p>Jungermannia liliata,<lb/><choice>
+                        <orig><metamark><space dim="horizontal"/></metamark></orig>
+                        <reg>〃</reg>
+                    </choice>bidentata</p>
+                <space dim="vertical"/>
+                <p><rs type="term" key="XXX"><unclear reason="covered" resp="#UP" cert="low">Cuculus
+                                <add place="sublinear">canoru<supplied cert="high">s</supplied></add></unclear></rs>. <rs type="term" key="XXX">Anas
+                        crecca</rs>. <rs type="term" key="XXX">Charadrius minor</rs>. <rs type="term" key="XXX">Oenanthe</rs><note type="editorial" resp="#KA">Steinschmätzer</note>. <rs type="term" key="XXX">Emberiza</rs>
+                    <lb/><rs type="term" key="XXX">Mustela Foina</rs>.</p>
+            </div>
+            <pb facs="#f0067"/>
+            <?oxy_comment_start author="paessler" timestamp="20180212T181004+0100" comment="33r"?>
+            <div>
+                <?oxy_comment_end?>
+                <div>
+                    <head>30<supplied resp="#KA" cert="high">.</supplied> Dienstag</head>
+                    <p>Abreise von Nischne
+                            Tagilsk<?oxy_comment_start author="paessler" timestamp="20180212T181535+0100" comment="kein Metamark (&quot;doppeltes Verweiszeichen&quot;)"?><metamark><?oxy_comment_end?></metamark><add place="superlinear"> Mittags um 3 Uhr Nachmittags</add>. Rose erhält
+                        Gold <lb/>und Platina Proben. <rs type="term" key="XXX">Mustela&#160;Foina</rs>lebendig <lb/>beym Intendanten. Richtung der
+                        Reise nördlich <lb/>etwas gen West. Dorf L<subst>
+                            <del rendition="#s"><gap reason="illegible" unit="chars" quantity="3"/></del>
+                            <add place="across">aja</add>
+                        </subst>
+                        <subst>
+                            <del rendition="#s">derebna</del>
+                            <add place="superlinear">Sabot</add>
+                        </subst> an <lb/>ein<supplied resp="#KA" cert="high">em</supplied> See <choice>
+                            <abbr>v</abbr>
+                            <expan>von</expan>
+                        </choice> aufgestautem Wasser. Am 2<hi rendition="#sup #u">ten</hi> Laiga
+                        <lb/>dem eigentlichen Dorfe Laiga derebna ein <lb/>schroffer Fels von
+                        Grünstein mit metallischen <lb/>Puncten <del rendition="#s">(</del><subst>
+                            <del rendition="#s"><gap reason="illegible" unit="chars" quantity="3"/></del>
+                            <add place="across">die</add>
+                        </subst> Engelhardt für Platina gehalten. <lb/>Dabey zuerst <rs type="term" key="XXX">Spiraea crenata</rs>. <rs type="term" key="XXX">Poa
+                            <lb/>Lappula squarrosa<add place="across"> weiß <choice>
+                                    <abbr>u</abbr>
+                                    <expan>und</expan>
+                                </choice> blau</add></rs>. <rs type="term" key="XXX">Comarum
+                            palustre</rs>. <rs type="term" key="XXX">Junger-<lb/>mannia</rs> mit
+                        Frucht. Mehrere Moose am Fels.</p>
+                    <p>Ankunft in Kuschba (Kuschbinskaja Sabota) um <lb/>9 ½ Uhr Abends. – Viel <rs type="term" key="XXX">Pinus Cembra</rs>
+                        <choice>
+                            <abbr>u</abbr>
+                            <expan>und</expan>
+                        </choice> Linden.</p>
+                </div>
+                <div>
+                    <head><del rendition="#s"><gap reason="illegible" unit="chars" quantity="1"/></del>1. July Mittwochs</head>
+                    <p>Besuch des Magnetberges Plagodat. Hübsche <lb/>Brücke mit Häuschen. Östlich
+                        von dem Dorfe der <lb/>Berg. Stört die Magnetnadel sehr. Ein Wogu-<lb/>le
+                        welcher der Regierung die Anwesenheit des <lb/>Eisenberges anzeigte ist nach
+                        der Tradition <lb/>von seinen Stammverwandten auf demselben
+                        ver-<lb/>bannt<!-- @UP: war: "ver-<lb/>brannt", m.E. ist er aber 'nur' verbannt worden. @CT: lese ich auch. er ist aber (lt. Sage) tatsächlich verbrannt worden - Eingreifen? -->
+                        worden, weil die Nachricht verursachte, <lb/>daß die sonst freye Gegend in
+                        Besitz genommen wurde.</p>
+                    <!-- @UP: Tabelle ok so? -->
+                    <table>
+                        <row>
+                            <cell><rs type="term" key="XXX">Turritis hirsuta</rs></cell>
+                            <cell><rs type="term" key="XXX">Potentilla
+                                    supina<metamark>?</metamark><!-- metamark oder 'normales' Fragezeichen? --></rs></cell>
+                        </row>
+                        <row>
+                            <cell><rs type="term" key="XXX">Filago germanica</rs></cell>
+                            <cell><rs type="term" key="XXX">Carex hirt<supplied resp="#KA" cert="high">a</supplied></rs></cell>
+                        </row>
+                        <row>
+                            <cell><rs type="term" key="XXX">Arenaria trinervis</rs>.</cell>
+                        </row>
+                    </table>
+                    <p><unclear reason="illegible" cert="low" resp="#KA">Ein</unclear>
+                        <rs type="term" key="XXX">Polemonium <choice>
+                                <abbr>caerule</abbr>
+                                <expan>caeruleum</expan>
+                            </choice></rs> in breitblättriger Form mit mon<supplied resp="#CT" cert="high">-</supplied><lb/>strösen&#160;<unclear reason="illegible" cert="low" resp="#UP"><gap reason="illegible" unit="chars" quantity="4"/>sporen</unclear> und <unclear reason="illegible" cert="low" resp="#UP">Blattständen</unclear>. <rs type="term" key="XXX">Marchantia</rs><lb/><rs type="term" key="XXX">Cuculus rufus</rs>.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

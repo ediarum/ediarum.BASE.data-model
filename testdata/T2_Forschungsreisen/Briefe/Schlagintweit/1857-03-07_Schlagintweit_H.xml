@@ -1,0 +1,147 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_qfd_44l_bdb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hermann Schlagintweit an Alexander von Humboldt. Kathmandu, 7. März
+                    1857</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Bayerische Staatsbibliothek</institution>
+                        <collection/>
+                        <idno>Schlagintweitiana II.1.43</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                    <placeName key="ed_hvs_3xz_zcb">Kathmandu [Kantipur, Kāṭhmāṇḍau] (Großstadt in
+                        Nepal, liegt im Zentrum des Kathmandutales, in 1300 Meter Höhe)</placeName>
+                    <date when="1857-03-07" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <pb n="388r"/>
+                <?oxy_comment_start author="lmartin" timestamp="20180321T154948+0100" comment="einmal kollationiert mit UP am 21.03.2018"?>
+                <opener>
+                    <?oxy_comment_end?>
+                    <dateline><placeName key="ed_hvs_3xz_zcb">Katmandoo</placeName></dateline>
+                    <dateline><placeName key="H0001596">Nepal</placeName><supplied cert="high">,</supplied> März 7 1857</dateline>
+                    <salute>Hochverehrteste Excellenz</salute>
+                </opener>
+                <p>Nach ängstlichem Zweifeln, ob <lb/>meine Reise nach <placeName key="H0001596">Nepal</placeName>, die <lb/>ich fast mit zu grosser Zuversicht <lb/>in
+                    meinem letzten Briefe erwähnte, <lb/>wirklich zur Ausführung kom̅en <lb/>werde,
+                    erreichte ich über <placeName key="H0011337">Lahore</placeName>
+                    <lb/><placeName key="ed_nwh_32x_fdb">Jhelum</placeName><supplied cert="high">,</supplied>
+                    <?oxy_comment_start author="lmartin" timestamp="20180321T131458+0100" comment="unbekannt"?>Loodiana<?oxy_comment_end?>,
+                        <placeName key="H0005507">Dehli</placeName> und <lb/><placeName key="ed_g4j_52x_fdb"><subst>
+                            <del rendition="#ow">G</del>
+                            <add place="across">A</add>
+                        </subst><?oxy_comment_start author="lmartin" timestamp="20180321T123111+0100" comment="über dem Text: Transkription (Bleistift) fortlaufend"?>gra<?oxy_comment_end?></placeName>
+                    die Station <placeName key="ed_tft_kmw_fdb">Patna</placeName>, wo <lb/>ich einen
+                    Brief <choice>
+                        <sic>von</sic>
+                        <corr cert="high">vom</corr>
+                    </choice> nepale<g ref="#typoHyphen"/><lb break="no"/>sischen Gouvernment fand,
+                    <lb/>durch den sowohl mir als mei<g ref="#typoHyphen"/><lb break="no"/><pb n="388v"/>nem Establishment von <lb/>Beobachtern und Sam̅lern <lb/>die Reise
+                    nach <placeName key="H0001596">Nepal</placeName>
+                    <lb/>gestattet wurde.</p>
+                <p>Ich habe in einem Briefe <lb/>an <persName key="H0002178"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Seine</expan>
+                        </choice>
+                        <choice>
+                            <abbr>M</abbr>
+                            <expan>Majestät</expan>
+                        </choice></persName> über einige mei<g ref="#typoHyphen"/><lb break="no"/>ner Beobachtungen berichtet <lb/>und auch erwähnt dass es <lb/>mir gestattet
+                    war <subst>
+                        <del rendition="#s">so wohl</del>
+                        <add place="intralinear">weit</add>
+                    </subst>
+                    <lb/>mehr in <placeName key="H0001596">Centralnepal</placeName> zu reisen
+                    <lb/>und mit Instrumenten zu beob<lb break="no"/>achten, als ich hoffen konnte.
+                    <lb/>Ich werde, da ich gegen Anfang <lb/>May <placeName key="H0006686">Indien</placeName> verlassen werde, <lb/>in nicht zu ferner Zeit das
+                    <lb/>Glück haben, Ihnen persön<g ref="#typoHyphen"/><lb break="no"/>lich unsere
+                    Beobachtungen <lb/>vorzulegen.</p>
+                <p><pb n="389r"/>Ich erhielt in <placeName key="ed_tft_kmw_fdb">Patna</placeName>,
+                    eben vor <lb/>meiner Abreise nach <placeName key="H0001596">Nepal</placeName>
+                    den <lb/>Brief des <ref target="avhr_qfd_44l_bdb"><choice>
+                            <abbr>k</abbr>
+                            <expan>königlichen</expan>
+                        </choice> preussischen Consuls</ref>
+                    <lb/>mit <choice>
+                        <sic>dem</sic>
+                        <corr cert="high">den</corr>
+                    </choice> von <persName key="H0002178"><choice>
+                            <abbr>S</abbr>
+                            <expan>Seiner</expan>
+                        </choice>
+                        <choice>
+                            <abbr>M.</abbr>
+                            <expan>Majestät</expan>
+                        </choice></persName> bewilligten <lb/>3000 Thalern, für welche wir
+                        <lb/><persName key="H0002178"><choice>
+                            <abbr>S</abbr>
+                            <expan>Seiner</expan>
+                        </choice>
+                        <choice>
+                            <abbr>M</abbr>
+                            <expan>Majestät</expan>
+                        </choice></persName> unseren tiefgefühlten Dank <lb/>auszusprechen
+                    bitten.</p>
+                <p>Bei Ihrer stets so liebevollen <lb/>Theilnahme an unseren Arbeiten <lb/>wage ich
+                    kaum zu wiederholen, <lb/>w<subst>
+                        <del rendition="#s">i</del>
+                        <add place="across">a</add>
+                    </subst>s ich in meinem letzten Briefe <lb/>über die Summe schrieb, die <lb/>uns
+                    zur Regelung unserer <lb/>Ausgaben in <placeName key="H0006686">Indien</placeName> nöthig <lb/>scheint; <persName key="H0015552">Adolph</persName> der noch <lb/>einige Monate länger in In<g ref="#typoHyphen"/><lb break="no"/>dien bleiben wird, zunächst <lb/><pb n="389v"/>um jenen Theil des <placeName key="H0006863">Himalayas</placeName>
+                    <lb/>zwischen <placeName key="ed_edx_zfx_fdb"><?oxy_comment_start author="lmartin" timestamp="20180321T152611+0100" comment="Fragezeichen und unterstrichen durch Humboldt?"?>Kangra<?oxy_comment_end?></placeName>
+                    und <placeName key="H0000378">Kashmir</placeName>
+                    <lb/>zu untersuchen, den keiner von <lb/>uns bereist hatte, wird dann
+                    <lb/>unsere Geldangelegenheiten in <lb/><placeName key="H0006686">Indien</placeName>, auch nach <persName key="H0015556">Roberts</persName>
+                    und <lb/>meiner Abreise arrangiren <lb/>können.</p>
+                <closer>
+                    <salute>Mit wiederholtem bestem <lb/>Danke und mit dem Aus<g ref="#typoHyphen"/><lb break="no"/>drucke aufrichtigster <lb/>Verehrung und
+                        Hochachtung</salute>
+                    <salute>Ihr</salute>
+                    <signed><choice>
+                            <abbr>H.</abbr>
+                            <expan>Hermann</expan>
+                        </choice> Schlagintweit.<address>
+                            <addrLine>Addresse für <persName key="H0015552">Adolph</persName></addrLine>
+                            <addrLine><persName key="ed_eqf_5qw_fdb"><anchor type="verweisziel" xml:id="start_xxr_lfx_fdb"/><choice>
+                                        <abbr>A</abbr>
+                                        <expan>Admiral</expan>
+                                    </choice> Kilbourn<anchor type="verweisziel" xml:id="stop_xxr_lfx_fdb"/></persName>
+                                <choice>
+                                    <abbr>Esq</abbr>
+                                    <expan>Esquire</expan>
+                                </choice></addrLine>
+                            <addrLine>Prussian Consul <placeName key="H0016218">Calcutta</placeName></addrLine>
+                        </address></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

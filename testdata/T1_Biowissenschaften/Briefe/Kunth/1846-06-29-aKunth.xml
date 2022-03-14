@@ -1,0 +1,82 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0000008" oldID="avhr_p5g_ks3_3v">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. Berlin, Montag, [29. Juni 1846]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+                <?oxy_comment_start author="schwarz" timestamp="20160318T102729+0100" comment="Zur Begründung der Datierung siehe Hs Brief an K, 28.6.1846.
+Rückkehr von Rügen, 4.7.1846, Spenersche Zeitung, Nr. 154, 6.7.1846."?>
+            </titleStmt>
+            <?oxy_comment_end?>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von
+                        (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date when="1846-06-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund
+                        (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung siehe <ref target="prov_wfr_ndf_h5">Humboldts Brief an Kunth vom
+                        28. Juni 1846</ref>. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <p>
+                    <pb n="1r"/>Es ist alles wieder <choice>
+                        <orig>umgeandert</orig>
+                        <reg>umgeändert</reg>
+                    </choice>. <rs type="person" key="H0002178">Der <lb/>König</rs> wird den
+                        <persName key="H0015356">
+                        <choice>
+                            <orig>Konig</orig>
+                            <reg>König</reg>
+                        </choice> von Sachsen</persName>
+                    <lb/>begleiten und will morgen Dienstag <lb/>von der Eisenbahn um 8¾ Uhr
+                    <lb/>nach dem <orgName key="H0000605">
+                        <choice>
+                            <abbr>zool.</abbr>
+                            <expan>zoologischen</expan>
+                        </choice> Garten</orgName><supplied cert="high" prev="Garten">,</supplied>
+                    <lb/>dann nach dem <orgName key="H0000532">botanischen
+                        <lb/>Garten</orgName><supplied cert="high" prev="Garten">,</supplied>
+                    <lb/>dann nach dem <rs type="org" key="H0000526">Museum</rs>
+                    <lb/>fahren.</p>
+                <signed>AlHumboldt</signed>
+                <dateline>Berlin</dateline>
+                <dateline>Montag Abend</dateline>
+                <postscript>
+                    <p>in Eile</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

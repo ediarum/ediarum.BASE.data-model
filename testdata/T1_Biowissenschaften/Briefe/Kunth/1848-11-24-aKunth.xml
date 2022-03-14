@@ -1,0 +1,351 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0000608" oldID="avhr_fpt_rlq_nv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Freitag, [24. November 1848]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0008392">Potsdam</placeName>
+                    <date when="1848-11-24" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Der Brief wurde am Todestag <persName key="H0014108">Joseph Mendelssohns</persName>
+                    (24. November 1848) verfasst. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Mein theurer Freund! Vor einigen Wochen <lb/>habe ich mir die Freude
+                    gemacht, Ihnen zu <lb/>melden dass <persName key="H0013205">Cotta</persName> auf mein Andringen <lb/>den Druk <seg type="comment">
+                        <orig>Ihres wichtigen Werkes</orig>
+                        <note xml:id="nv3s_5db_fx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7DZGI486">Kunth 1833-1850.</ref></note>
+                    </seg> in Berlin <lb/>selbst fortsezen will. Ich klage nicht dass <lb/>Sie mir
+                    nicht geantwortet, ich <choice>
+                        <orig>wunsche</orig>
+                        <reg>wünsche</reg>
+                    </choice>
+                    <lb/>bloss zu wissen ob Ihnen <seg type="comment">
+                        <orig>mein Brief</orig>
+                        <note xml:id="nhn2_c2b_fx">
+                            <ref target="avhr_kjq_pr4_3v">Humboldts Schreiben vom 2. November
+                                1848</ref>.</note>
+                    </seg>
+                    <lb/>richtig zugekommen ist. Vielleicht haben Sie, <lb/>und mit Recht, abwarten
+                    wollen, ob das <lb/>Versprechen mehr als ein höfliches Wort <lb/>gewesen ist.
+                    Heute muss ich Sie theurer <lb/>Kunth mit einigen Bitten belästigen, bitte
+                    <lb/>aber sehr nicht deshalb eigene Untersu<g ref="#typoHyphen"/><lb break="no"/>chungen anzustellen. Ich brauche sehr <lb/>ohngefähre Schäzungen, bloss zu
+                    wissen was <lb/>Sie <hi rendition="#u">glauben</hi>, wenn Sie mit 10–12000
+                        beschrie<g ref="#typoHyphen"/><lb break="no"/>benen Composeen die 3 grossen
+                    Familien der <lb/>Gräser, Leguminosen <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Labiaten vergleichen.</p>
+                <p>1) Ein <persName key="H0014449">D<hi rendition="#sup">r</hi>
+                        <hi rendition="#u">Münter</hi>
+                    </persName>
+                    <choice>
+                        <abbr>Charitéstr.</abbr>
+                        <expan>Charitéstraße</expan>
+                    </choice>
+                    <choice>
+                        <abbr>n</abbr>
+                        <expan>numero</expan>
+                    </choice> 1 der <lb/>über das Curaregift gearbeitet, ist mir <lb/>als
+                    ausgezeichnet in Chemie bekannt. Er <lb/>
+                    <choice>
+                        <abbr>qualt</abbr>
+                        <expan> </expan>
+                        <expan>quält</expan>
+                    </choice> mich da <persName key="H0015505">Schauer</persName> in <placeName key="H0005620">Eldena</placeName>
+                    <lb/>gestorben um Empfehlung an <persName key="H0003151">Baumstark</persName>
+                    <lb/>
+                    <choice>
+                        <abbr>fur</abbr>
+                        <expan>für</expan>
+                    </choice> Pflanzenphysiologie und <subst>
+                        <del rendition="#s">Landschaft</del>
+                        <add place="intralinear">
+                            <lb/>Landwirthschaftliche</add>
+                    </subst> Botanik. Dazu <lb/>
+                    <choice>
+                        <abbr>gehort</abbr>
+                        <expan>gehört</expan>
+                    </choice> neben der Chemie botanik<supplied cert="high" prev="botanik">.</supplied>
+                    <lb/>Ist Ihnen der Mann bekannt und zwar <lb/>vortheilhaft? Ich <choice>
+                        <orig>hore</orig>
+                        <reg>höre</reg>
+                    </choice> so eben von <persName key="H0004521">Lichtenstein</persName>
+                    <lb/>dass er sich viel mit Botanik <choice>
+                        <orig>beschaftigt</orig>
+                        <reg>beschäftigt</reg>
+                    </choice>.</p>
+                <p>2. Ich habe in den <seg type="comment">
+                        <orig>Ansichten</orig>
+                        <note xml:id="npmr_1dp_fx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/AA7UJAQF/q/Ansichten%20der%20Natur">Humboldt 1826</ref>, II, 35.</note>
+                    </seg> mich des Worts <lb/>bedient afrikanische <choice>
+                        <orig>Aloestamme</orig>
+                        <reg>Aloestämme</reg>
+                    </choice> candela<lb break="no"/>ber artig getheilt<supplied cert="high" prev="getheilt">.</supplied> Ich habe dergleichen <lb/>in <placeName key="H0009313">Teneriffa</placeName> gesehen, es
+                    waren nicht <lb/>Cactus (cerei) die allerdings bei<placeName key="H0007693">
+                        <choice>
+                            <orig>Cumana</orig>
+                            <reg>Cumaná</reg>
+                        </choice>
+                    </placeName>
+                    <lb/>mit Lichenen bedekte dicke Stämme <lb/>bilden, oben candelaberartig
+                        getheilt<supplied cert="high" prev="getheilt">.</supplied>
+                    <lb/>Sehen Sie gütigst in <persName key="H0004274">Lamark</persName>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Encyclop.</abbr>
+                                <expan>Encyclopédie</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="nah1_g1p_fx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/NPNV6RBT">Lamarck/Poiret 1783-1817.</ref></note>
+                    </seg>
+                    <lb/>ob dergleichen vom habitus unter <add place="sublinear">Aloe</add>
+                    <lb/>angegeben ist? Antworten <lb/>Sie auf diese Frage nicht. Ich finde
+                    <lb/>eben dass das Candelaberartige <lb/>
+                    <choice>
+                        <orig>baumart.</orig>
+                        <reg>baumartigen</reg>
+                    </choice>
+                    <choice>
+                        <orig>Aloestammen</orig>
+                        <reg>Aloestämmen</reg>
+                    </choice>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>besonders den Euphor<lb break="no"/>bien <choice>
+                        <orig>ahnlich</orig>
+                        <reg>ähnlich</reg>
+                    </choice>
+                    <lb/>ist. 
+                    <lb/><figure facs="Kunth/1848_11_24_1r.jpg" hand="#author">
+                        <figDesc><?oxy_comment_start author="thomas" timestamp="20180313T164015+0100" comment="@UP: Text müsste doch eigentlich noch als nicht-von-Humboldt, also Hrsg.-Kommentar gekennzeichnet werden, oder?"?>Zeichnerische
+                            Verdeutlichung des von Humboldt beschriebenen kandelaberartigen
+                            Baumwuchses<?oxy_comment_end?></figDesc>
+                    </figure></p>
+                <p>
+                    <pb n="1v"/>3) Sie sagen <seg type="comment">
+                        <orig>in Ihrem früheren <lb/>Werke</orig>
+                        <note xml:id="nblg_scp_fx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7TQAQNC4/q/Handbuch">Kunth 1831.</ref></note>
+                    </seg> dessen Familien <choice>
+                        <orig>Aufzahlung</orig>
+                        <reg>Aufzählung</reg>
+                    </choice> mir <lb/>so unendlich wichtig ist, es <lb/>seien in <seg type="comment">
+                        <orig>
+                            <persName key="H0013985">Martius</persName>
+                        </orig>
+                        <note xml:id="nnhw_fbp_fx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/QES2H7PX">Martius 1823-1850.</ref></note>
+                    </seg> 175 Palmenspecies <lb/>beschrieben, <choice>
+                        <abbr>p</abbr>
+                        <expan>pagina</expan>
+                    </choice> 259. Glauben Sie <lb/>dass die Palmen neuerdings sehr zu
+                    <lb/>genommen, wohl beschrieben bis <lb/>200 <choice>
+                        <abbr>Spec.</abbr>
+                        <expan>Species</expan>
+                    </choice>?</p>
+                <p>4) Wagen Sie <choice>
+                        <orig>ohngefahr</orig>
+                        <reg>ohngefähr</reg>
+                    </choice> eine Schäzung</p>
+                <p>a) der beschriebenen Glumaceen (d. i. Gramineen <lb/>Juncaceen und Cyperaceen
+                        <lb/>zusammen<supplied cert="high" prev="zusammen">).</supplied>
+                </p>
+                <p>b) der Leguminosen,</p>
+                <p>c) der Labiaten <lb/>wenn man 10–11000 Composeen <choice>
+                        <abbr>
+                            <lb/>annim̅t</abbr>
+                        <expan>annimmt</expan>
+                    </choice>. <lb/>Ich nenne <hi rendition="#u">Sie</hi> bloss nach dem <ref target="avhr_ujk_xbg_fw">schönen <lb/>Aufsaz über den <rs type="org" key="H0000532">Garten</rs>
+                    </ref>; compro<g ref="#typoHyphen"/><lb break="no"/>mittire Sie aber sonst nicht
+                    in <lb/>den Familien, also geben Sie sich <lb/>nicht viel Mühe. <note hand="#author" place="left">Sollte es nur 900 bis 1000 <choice>
+                            <abbr>Doldengew.</abbr>
+                            <expan>Doldengewächse</expan>
+                        </choice> geben<supplied cert="high" prev="geben">?</supplied>
+                        <seg type="comment">
+                            <orig>Ihre alte <choice>
+                                    <abbr>Aufl.</abbr>
+                                    <expan>Auflage</expan>
+                                </choice>
+                            </orig>
+                            <note xml:id="nkpj_h2p_fx">
+                                <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7TQAQNC4/q/Handbuch">Kunth 1831.</ref></note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>pagina</expan>
+                        </choice> 478.</note>
+                </p>
+                <p>d) Ich habe nach <persName key="H0003693">Brown</persName> des sonderbaren
+                    <lb/>Lichteffects erwähnen müssen den <lb/>in Australien die <hi rendition="#u">Richtung</hi> der Phylloden <lb/>bei blattlosen Acacien und
+                    <lb/>Eucalyptusarten hervorbringen. Werfen <lb/>Sie einen Blik auf <persName key="H0004221">Jussieu (Adrien)</persName>
+                    <seg type="comment">
+                        <orig>
+                            <lb/>Botanique</orig>
+                        <note xml:id="nqk5_p2p_fx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/NFN8X76V/q/Jussieu">Jussieu, Ad. 1844.</ref></note>
+                    </seg>
+                    <choice>
+                        <orig>p</orig>
+                        <reg>page</reg>
+                    </choice> 106 (Note) <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 700; auch <seg type="comment">
+                        <orig>Ihr neues Werk</orig>
+                        <note xml:id="nisj_txg_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/D37WFUS6/q/lehrbuch">Kunth 1847.</ref></note>
+                    </seg>
+                    <lb/>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>pagina</expan>
+                    </choice> 214<supplied cert="high" prev="214">.</supplied> Nicht wahr diese
+                    verticale <lb/>Stellung ist nur bei wirklichen <lb/>phyllodien also bei <hi rendition="#u">blattlosen</hi>
+                    <lb/>Arten von Myrthaceen <lb/>Eucalyptus<supplied cert="high">,</supplied>
+                    <lb/>Metrosideros und <lb/>Melaleuca<supplied cert="high">,</supplied>
+                    <lb/>aber giebt es unter diesen 3 generibus <lb/>besonders unter Eucalyptus
+                    nicht <lb/>auch Species mit wahren <choice>
+                        <orig>Blattern</orig>
+                        <reg>Blättern</reg>
+                    </choice>
+                    <lb/>mit solchen <hi rendition="#u">wie bei uns gerichte<g ref="#typoHyphen"/><lb break="no"/>ten</hi>. <persName key="H0004221">Adrien Jussieu</persName> sagt ja
+                    auch <lb/>bestimmt <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 107 </orig>
+                        <note xml:id="nel3_ggr_gx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/NFN8X76V/q/jussieu/qmode/everything">Jussieu, Ad. 1844</ref>. </note>
+                    </seg>: ce sont de <choice>
+                        <orig>veritables</orig>
+                        <reg>véritables</reg>
+                    </choice>
+                    <lb/>feuilles dans un certain nombre <choice>
+                        <orig>d'especes</orig>
+                        <reg>d'espèces</reg>
+                    </choice>
+                    <lb/>
+                    <hi rendition="#u">dans d'autres</hi> de simples phyllodes<supplied cert="high" prev="phyllades">.</supplied>
+                </p>
+                <p>c) Ich hatte in <seg type="comment">
+                        <orig>Ansichten</orig>
+                        <note xml:id="nrbx_1yg_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/AA7UJAQF/q/ansichten">Humboldt 1826.</ref></note>
+                    </seg>
+                    <choice>
+                        <abbr>Th</abbr>
+                        <expan>Theil</expan>
+                    </choice> II <choice>
+                        <abbr>p</abbr>
+                        <expan>pagina</expan>
+                    </choice> 118 das <lb/>12 Fuss hohe <choice>
+                        <orig>Doldengewachs</orig>
+                        <reg>Doldengewächs</reg>
+                    </choice>, ein <lb/>wirklich <hi rendition="#u">baumartiges</hi> Selinum
+                    decipiens <lb/>genannt<supplied cert="high" prev="genannt">.</supplied> Haben
+                    Sie die <choice>
+                        <abbr>Spec.</abbr>
+                        <expan>Species</expan>
+                    </choice> noch <lb/>im <rs type="org" key="H0000532">Garten</rs>. Können Sie
+                    mir schrei<g ref="#typoHyphen"/><lb break="no"/>ben ob sie aus dem <placeName key="H0001699">
+                        <choice>
+                            <abbr>Nordl</abbr>
+                            <expan>Nördlichen</expan>
+                        </choice>
+                        <lb/>Asien</placeName> (woher?) ist und <lb/>
+                    <pb n="2r"/>Sie irgend ein <hi rendition="#u">zweites</hi> Beispiel von
+                    <lb/>einem baumartigen <choice>
+                        <orig>Doldengewachs</orig>
+                        <reg>Doldengewächs</reg>
+                    </choice>
+                    <lb/>wie Selinum decipiens kennen. <lb/>Etwa eine Ferula von denen <persName key="H0004221">Jussieu</persName> sagt
+                    <lb/>Caulis altissimus, wohl nicht ein <lb/>Eryngium, denn ich meine Baumartige <lb/>
+                    <choice>
+                        <orig>uber</orig>
+                        <reg>über</reg>
+                    </choice> 10 Fuss hoch<supplied cert="high" prev="hoch">.</supplied>
+                    <lb/>Zürnen Sie mir nicht über so <lb/>viele <choice>
+                        <orig>qualende</orig>
+                        <reg>quälende</reg>
+                    </choice> Fragen<supplied cert="high" prev="Fragen">.</supplied>
+                </p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Indem ich diesen Brief schliesse <lb/>erhalte ich die Schreckensnach<lb break="no"/>richt von dem Tode von 
+                        <lb/><persName key="H0014108">Joseph Mendelssohn</persName>. Er ist sanft <lb/>an einem Blutschlage
+                    <lb/>heute früh um 7½ Uhr <lb/>verschieden. Er war ein edler <lb/>Mensch, mein <choice>
+                        <abbr>altester</abbr>
+                        <expan>ältester</expan>
+                    </choice> und <lb/>wärmster Freund, ein <lb/>
+                    <choice>
+                        <orig>merkwurdiges</orig>
+                        <reg>merkwürdiges</reg>
+                    </choice> Gemisch von <lb/>Stärke und Klarheit des <lb/>Geistes und
+                    liebenswürdiger <lb/>
+                    <choice>
+                        <orig>Gemuthlichkeit</orig>
+                        <reg>Gemüthlichkeit</reg>
+                    </choice>
+                    <supplied cert="high" prev="Gemuthlichkeit">.</supplied> Ich bin
+                    <lb/>sehr traurig <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> beschäftige <lb/>mich um so lieber mit <lb/>
+                    <hi rendition="#u">Ihnen</hi>. </p>
+                <signed>AHt</signed>
+                <dateline>Potsdam</dateline>
+                <dateline>Freitag Abend</dateline>
+                <closer> </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

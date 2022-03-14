@@ -1,0 +1,233 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="H0013749" oldID="avhr_t52_3z2_2z">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Q — Pinus occidentalis</title>
+                <?oxy_comment_start author="leitner" timestamp="20170911T144348+0200" comment="gelesen UL"?>
+                <editor><?oxy_comment_end?>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="  http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <surname>Göhmann</surname>
+                        <forename>Karin</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://catalogue.bnf.fr/ark:/12148/cb16542070b">
+                        <surname>Barbasetti</surname>
+                        <forename>Laurence</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">
+                    <p>Das von Carl Sigismund Kunth mit der Sigle Q versehene Blatt enthält Notizen
+                        zur geographischen Verbreitung der Art Pinus occidentalis auf den
+                        Karibikinseln Hispaniola, Guadeloupe und Puerto Rico mit Ergänzungen
+                        Humboldts. In Kunths <ref target="H0000005">Ideensammlung zur Neuausgabe der
+                            Geographie der Pflanzen</ref> wird auf das Manuskript unter „No. 21.
+                        Pinus occidentalis. (<ref xml:id="ed_bg1_dd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Q">Q</ref>)“ verwiesen. Darüber hinaus
+                        enthält das Blatt statistische Bemerkungen Humboldts zur Menge der in
+                        europäischen Botanischen Gärten bekannten Phanerogamen (vgl. Sigle <ref xml:id="ed_pf1_p2s_bbb" type="siglum" target="#Geographie_der_Pflanzen_H">H</ref>). Der Verweis auf eine
+                        Auskunft Heinrich Wilhelm Schotts legt eine Datierung des Blattes auf das
+                        Jahr 1821 nahe. In diesem Jahr hielt sich Schott nach Beendigung seiner
+                        Brasilienreise in Paris auf (vgl. Humboldts Schreiben an den
+                        österreichischen Gesandten in Paris Karl von Vincent, in dem er um die
+                        Verlängerung des Aufenthaltes Schotts bittet: Paris 2. November 1821,
+                        Österreichisches Staatsarchiv, Haus- Hof- und Staatsarchiv: Frankreich,
+                        Varia, Kasten 79). Im selben Jahr befand sich auch Wilhelm Ludwig von
+                        Eschwege, ebenfalls aus Brasilien kommend, in Paris. Angaben Eschweges zur
+                        Höhengrenze des Zuckeranbaus und zur Vegetation Brasiliens klebte Humboldt
+                        auf den unteren Rand des Blattes. </p>
+                </note></notesStmt> 
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 794, Bl. 2</idno>
+                            <idno type="uri">
+                                http://kalliope-verbund.info/DE-611-HS-1255436</idno></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                <date notBefore="1821-01-01" notAfter="1821-12-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p><pb n="5r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000013.jpg"/><ref xml:id="ed_l1q_gd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Q">Q</ref></p>
+                <p>Pinus occidentalis<note place="left" hand="prov_uhm_svf_ks"><choice><orig>immer</orig><reg>Immer</reg></choice> mit
+                            <?oxy_comment_start author="leitner" timestamp="20170911T142904+0200" comment="sollen das wirklich so viele einzelen Absätze sein? "?><lb><?oxy_comment_end?></lb>Juglans
+                        <lb/>baccata <lb/>in mäßigen <lb/>Höhen<supplied cert="high">.</supplied></note>
+                    <choice>
+                        <orig>à</orig>
+                        <reg>À</reg>
+                    </choice> la basse terre <lb/><hi rendition="#u">de la <placeName key="H0010967">Guadeloupe</placeName></hi>, <subst>
+                        <del rendition="#s">au</del>
+                        <add place="superlinear"><subst>
+                                <del rendition="#s">pied du</del>
+                                <add place="sublinear">à mi<supplied cert="high">-</supplied>côte
+                                    du</add>
+                            </subst></add>
+                    </subst>
+                    <placeName key="H0010326">volcan <lb/>de la Souffrière</placeName><supplied cert="high">.</supplied></p>
+                <p><hi rendition="#u"><choice>
+                            <orig>à</orig>
+                            <reg>À</reg>
+                        </choice>
+                        <placeName key="H0008458">Portorico</placeName></hi> dans le centre de
+                        <lb/>l'île<supplied cert="high">.</supplied></p>
+                <p><hi rendition="#u"><choice>
+                            <orig>à</orig>
+                            <reg>À</reg>
+                        </choice>
+                    </hi><placeName key="H0010099"><choice>
+                            <abbr><hi rendition="#u">S.</hi></abbr>
+                            <expan><hi rendition="#u">Saint</hi></expan>
+                        </choice><supplied cert="high"><hi rendition="#u">-</hi></supplied><hi rendition="#u">Domingue</hi></placeName><supplied cert="high">.</supplied></p>
+                <p><subst>
+                        <del rendition="#s">à l'</del>
+                        <add place="intralinear"><choice>
+                                <orig>au</orig>
+                                <reg>Au</reg>
+                            </choice></add>
+                    </subst>
+                    <placeName key="H0016295">limón</placeName><?oxy_comment_start author="paessler" timestamp="20170704T160008+0200" comment="Ortsverweis fehlerhaft
+"?>
+                    <?oxy_comment_end?>à <choice>
+                        <sic>l'Oueste</sic>
+                        <corr cert="high">ouest</corr>
+                    </choice>
+                    <lb/>du Cap <subst>
+                        <del rendition="#s">Samala,</del>
+                        <add place="superlinear"><placeName key="ed_wvv_1y2_l1b">Samaná</placeName>
+                            <?oxy_comment_start author="paessler" timestamp="20170704T154510+0200" comment="Link  funktioniert nicht"?>et<?oxy_comment_end?></add>
+                    </subst><add place="left"><metamark/>tout à <lb/>fait <lb/>dans la <lb/>plaine
+                        <lb/>dans le pays <lb/>chaud</add>, le long <lb/>de la <placeName key="ed_mnh_dx2_l1b">rivière Juna</placeName>.</p>
+                <milestone unit="section" rendition="#hr"/>
+            </div>
+            <div>
+                <p><seg type="comment">
+                        <orig><choice>
+                                <abbr>M</abbr>
+                                <expan>Monsieur</expan>
+                            </choice> Schott</orig>
+                        <note xml:id="nvdb_wrf_l1b">wohl <persName key="H0015663">Heinrich Wilhelm
+                                Schott</persName>.</note>
+                    </seg> croit qu'aucun Jardin botanique <lb/>n'a plus de 7 à 8000 espèces. </p>
+                <p><orgName key="H0000532"><choice>
+                            <orig>celui</orig>
+                            <reg>Celui</reg>
+                        </choice> de Berlin</orgName> à 13–14000 espèces<supplied cert="high">.</supplied></p>
+                <p><persName key="H0004587">Lofling</persName> recueillit (et seulement <lb/>en 20
+                        mois<note place="left" hand="#author"><metamark/><supplied cert="high">(</supplied>n’ayant pas <lb/>vu <choice>
+                            <sic>come</sic>
+                            <corr cert="high">comme</corr>
+                        </choice> il <lb/>dit beaucoup <lb/>de lieux circon<lb break="no"/>voisins)</note> dans les environs de <lb/><placeName key="H0008564">Madrid</placeName><supplied cert="high">,</supplied> sans
+                        cryptogames<supplied cert="high">,</supplied>
+                    <lb/>1300 espèces. (<seg type="comment">
+                        <orig><choice>
+                                <abbr>Loefl</abbr>
+                                <expan>Loefling</expan>
+                            </choice> Reise</orig>
+                        <note xml:id="nwtn_1bn_1bb"><bibl sameAs="zotero-667230-IUS5VMNZ">Loefling
+                                1766</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 381<supplied cert="high">.</supplied>)</p>
+                <p>(<choice>
+                        <orig>also</orig>
+                        <reg>Also</reg>
+                    </choice> wohl auch nahe an <lb/>1800–2000 espèces phanérogames<supplied cert="high">.)</supplied></p>
+                <p><note place="mBottom" hand="prov_uhm_svf_ks" rend="sticked"><pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000011.jpg"/><p><persName key="H0005988">Eschwege</persName></p><p><choice>
+                                <orig>bananen</orig>
+                                <reg>Bananen</reg>
+                            </choice><supplied cert="high">,</supplied> Zukker <add place="superlinear">noch</add>
+                            <measure quantity="5000" unit="foot">5000 Fuß</measure>
+                            <choice>
+                                <abbr>engl.</abbr>
+                                <expan>englisch</expan>
+                            </choice>
+                            <lb/><choice>
+                                <abbr>östl.</abbr>
+                                <expan>östlich</expan>
+                            </choice>
+                            <choice>
+                                <abbr>v.</abbr>
+                                <expan>von</expan>
+                            </choice>
+                            <placeName key="ed_pdp_xjf_l1b">Villarica</placeName><supplied cert="high">.</supplied></p><p><choice>
+                                <orig>friert</orig>
+                                <reg>Friert</reg>
+                            </choice> mehr in <measure quantity="3000" unit="foot">3000 <choice>
+                                    <abbr>F</abbr>
+                                    <expan>Fuß</expan>
+                                </choice></measure>
+                            <add place="sublinear"><supplied cert="high">(</supplied>plateaux<supplied cert="high"><?oxy_comment_start author="leitner" timestamp="20170911T144254+0200" comment="diese Klammer vielleicht besser hinter brésil?? "?>)<?oxy_comment_end?></supplied></add>
+                            als höher herauf<supplied cert="high">,</supplied>
+                            <add place="superlinear">in engen Thälern</add><supplied cert="high">.</supplied></p><p>Strahlung<supplied cert="high">.</supplied></p><p><choice>
+                                <orig>fougères</orig>
+                                <reg>Fougères</reg>
+                            </choice>
+                            <choice>
+                                <abbr>arbor</abbr>
+                                <expan>arborescentes</expan>
+                            </choice>
+                            <measure quantity="20" unit="foot">20 <choice>
+                                    <abbr>F.</abbr>
+                                    <expan>Fuß</expan>
+                                </choice></measure> noch auf <placeName key="H0006749">Itacolumi</placeName>
+                            <lb/>in <measure quantity="900" unit="toise">900 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toisen</expan>
+                                </choice></measure><supplied cert="high">,</supplied>
+                            <persName key="H0015802">Sello</persName><supplied cert="high">.</supplied></p><p><choice>
+                                <orig>pas</orig>
+                                <reg>Pas</reg>
+                            </choice> chê<lb break="no"/>nes, pas <lb/>Pinus <lb/>au <placeName key="H0005346">Brésil</placeName><supplied cert="high">.</supplied></p><pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000012.jpg"/><gap unit="pages" quantity="1" reason="empty"/></note><pb n="5v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000014.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

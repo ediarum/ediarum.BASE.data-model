@@ -1,0 +1,117 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0006175" oldID="avhr_rjb_h4g_1w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, Montag,
+                    [1838]</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin,
+                            Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 815 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 15,90 cm , B: 13,80 cm; Wasserzeichen zerschnitten:
+                            Whatman</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1838-01-01" notAfter="1838-12-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p><pb n="1r"/>Ich habe in einer Angelegenheit <lb/>die <persName key="H0012520">Agassiz</persName> betrifft an
+                        <seg type="comment">
+                        <orig>Dr. Carl <lb/><persName key="H0015542">Schimper</persName></orig>
+                        <note xml:id="nssw_2xg_1w"><persName key="H0015542">Schimper</persName> war
+                            Geologe, hatte aber ursprünglich Theologie und später Medizin studiert.
+                            Auf dem Gebiet der Eiszeitlehre wurde er zum Widersacher von Humboldts
+                            Freund, dem Geologen <persName key="H0003735">Leopold von
+                                Buch</persName>. Von Schimper stammt das Gedicht „Der Wirbel“, das
+                            sich auf Verwirbelungen in der Wasserflut bezieht. Vgl. <bibl sameAs="https://www.zotero.org/groups/avh-r/items/itemKey/RNE52JKW">Schimper 1840</bibl>, 25.</note>
+                    </seg>, an den Wirbel<g ref="#typoHyphen"/><lb break="no"/>Mann zu schreiben.
+                    Darf ich <lb/>Sie bitten theurer Herr Professor <lb/>ob er irgend eine
+                    Anstellung <lb/>hat und wo er jezt sich <lb/>aufhält? In <placeName key="H0009046">München</placeName>? Ich
+                    <lb/>hoffe Sie werden nicht un<lb break="no"/>zufrieden gewesen sein mit
+                    <lb/>der <seg type="comment">
+                        <orig>Beurtheilung Ihrer vor<g ref="#typoHyphen"/><lb break="no"/>treflichen
+                            Reise in <choice>
+                                <abbr>Geogr</abbr>
+                                <expan>Geographical</expan>
+                            </choice>
+                            <lb/><choice>
+                                <abbr>Soc</abbr>
+                                <expan>Society</expan>
+                            </choice></orig>
+                        <note xml:id="nejq_jxg_1w"> Bezieht sich eventuell auf <bibl sameAs="https://www.zotero.org/groups/avh-r/items/itemKey/XX7D8E8K">Hamilton 1838</bibl>, 4. Hier wurde Meyens Name lobend erwähnt,
+                            zusammen mit anderen Entdeckern der letzten 50 Jahre. In diesem
+                            Zusammenhang wurden auch Humboldts Verdienste besonders hervorgehoben.
+                        </note>
+                    </seg>. Sie wissen dass die <lb/>Engländer nie sehr lobend sind. </p>
+                <closer rend="within the line">
+                    <salute>Mit innigster Freund<lb break="no"/>schaft und Hochschäzung</salute>
+                    <signed>Ihr AlHumboldt</signed>
+                    <dateline>Montags</dateline>
+                </closer>
+            </div>
+            <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+        </body>
+    </text>
+</TEI>

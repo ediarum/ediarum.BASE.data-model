@@ -1,0 +1,295 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_mpl_vvf_qcb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adolph Schlagintweit an Alexander von Humboldt. Berlin, 18. Dezember
+                    1851</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Berlin</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Nachl. Alexander von Humboldt, gr. Kasten 11, Nr. 53</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015552">Schlagintweit, Adolph von (1829-1857)</persName>
+                    <placeName key="H0005221">Berlin (Hauptstadt der heutigen Bundesrepublik
+                        Deutschland)</placeName>
+                    <date when="1851-12-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession"><pb n="1r"/>
+                <note place="mTop" hand="#addressee">Schlagintweit über Dolomit</note>
+                <opener>
+                    <dateline><choice>
+                            <abbr>Dec.</abbr>
+                            <expan>Dezember</expan>
+                        </choice> 1851.</dateline>
+                    <?oxy_comment_start author="lmartin" timestamp="20180131T101305+0100" comment="kollationiert mit UP am 31.01.2018"?>
+                </opener>
+                <?oxy_comment_end?>
+                <p rendition="#mMM">Ihrem gütigen Wunsche entsprechend erlaube ich mir Ihnen
+                    <lb/>einige Zeilen in Bezug auf <persName key="H0011594">Haidingers</persName>
+                    Experiment über <lb/>Dolomitbildung mitzutheilen.– <persName key="H0012695">Arduin</persName>
+                    <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <persName key="H0012338">Dolomieu</persName> haben zuerst <lb/>die
+                    magnesiumhaltigen, sehr schwach brausenden Kalke beschrieben, <lb/>welche später
+                        <persName key="H0015469">Horâce de Saussure</persName> an verschiedenen
+                    Punkten der Alpen, <lb/><choice>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> am <placeName key="H0009940">Gotthard</placeName> nachwies
+                    (<?oxy_comment_start author="lmartin" timestamp="20180126T131403+0100" comment="bei Zotero einpflegen und verlinken"?>Voyages<?oxy_comment_end?>.
+                        4<hi rendition="#sup">o</hi>. IV. §1929. <choice>
+                        <abbr>pag.</abbr>
+                        <expan>pagina</expan>
+                    </choice> 109.). <lb/><persName key="H0015470">Théodore de Saussure</persName>,
+                    der die Zusam̅ensetzung <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> die Charaktere dieser <lb/>Steinart näher untersuchte, gab ihr den
+                    Namen Dolomit (Journal <lb/>de physique XL <choice>
+                        <abbr>p.</abbr>
+                        <expan>paginga</expan>
+                    </choice> 167.)<anchor type="verweisziel" xml:id="start_vcj_4ff_scb"/>
+                    <persName key="H0003735">Herr von Buch</persName>
+                    <anchor type="verweisziel" xml:id="stop_vcj_4ff_scb"/>hat nach seinen
+                    <lb/>berühmten und genauen Beobachtungen im <placeName key="ed_skm_wqg_qcb">Fassathale</placeName> zuerst die <lb/>Ansicht entwickelt, daß diese
+                    mächtigen Dolomitmassen überhaupt <lb/>als das Produkt <subst>
+                        <del rendition="#s">einer</del>
+                        <add place="superlinear">von</add>
+                    </subst> großartigen Umwandlungen aus <lb/>gewöhnlichem <choice>
+                        <sic>kohlensauren</sic>
+                        <corr cert="high">kohlensaurem</corr>
+                    </choice> Kalke zu betrachten seien. Die <lb/>Möglichkeit einer ähnlichen
+                    Metamorphose und Ihrer Ausdehnung <lb/>auf so große Massen wurde anfangs
+                    vielfach bestritten; es <lb/>scheint jdedoch gegenwärtig sowohl durch zahlreiche
+                    Beobachtungen <lb/>über die Lagerungsverhältnisse dieser merkwürdigen
+                    <lb/>Felsart an verschiedenen Punkten als auch durch direkte <lb/><pb n="1v"/>chemische Versuche nachgewiesen, daß solche Umwandlungs<g ref="#typoHyphen"/><lb break="no"/>prozesse für die Mehrzal der Dolomite sehr wahr<g ref="#typoHyphen"/><lb break="no"/>scheinlich sind. Es kan̅ natürlich nicht
+                    befremden, daß <lb/>die Erklärungen über die Art und Weise des Vorganges
+                    <lb/>gegenwärtig <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> nach so verschiedenen Versuchen etwas von den <lb/>Ansichten
+                    abweichen, welche der<ref target="avhr_mpl_vvf_qcb/#start_vcj_4ff_scb">
+                        <persName key="H0003735">berühmte Geologe</persName>
+                    </ref>selbst, bei <lb/>der ersten Anregung dieser Betrachtungen <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> zu einer Zeit <lb/>gegeben hat, wo die mineralogische und geologische
+                    Chemie in Bezug <lb/>auf Zahl der Beobachtungen und Man̅igfaltigkeit der
+                    Experimente <lb/>noch so weit hinter ihren jetzigen Standpunkte zurück war.
+                        <lb/><persName key="H0003735">Herr von Buch</persName>, welcher damals ein
+                    Eindringen der Magnesia in <del rendition="#s">den <lb/></del>dampfförmigen
+                    Zustande aus großen, dampferfüllten Spalten für <lb/>wahrscheinlich hielt,
+                    machte bei seiner unübertrefflichen Beschreibung <lb/>der Lagerungsverhältnisse
+                    sogleich dararuf aufmerksam, daß <lb/>Dolomit, Gips und zellige Rauchwacke sehr
+                    häufig zusam̅en<g ref="#typoHyphen"/><lb break="no"/>vorkom̅en und eine gewisse
+                    Verwandtschaft ihrer Bildung <lb/>zu haben schienen. <persName key="H0011594">Haidinger</persName> hat diese Verhältnisse <lb/>weiter verfolgt, und schon
+                    früher vermuthet daß die <lb/>Magnesia als schwefelsaures Salz zugefürt <del rendition="#s">worden sind</del>
+                    <lb/>und so der Kalkstein bei gleichzeitiger Ausscheidung von <lb/><pb n="2r"/>Gips in Dolomit verwandelt worden sei. Das Wasser <lb/>hätte zunächst seine
+                    Molecularbewegungen vermittelt. <lb/>Jedoch zeigte sich daß unter gewöhnlichen
+                    Verhältnissen <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> bei <lb/>gewöhnlicher Temperatur die Reaktion umgekehrt eintritt,
+                    <lb/>und eine neue Lösung von Gips (schwefelsaurer Kalk) durch <?oxy_comment_start author="lmartin" timestamp="20180126T145814+0100" comment="grammatikalisch falsch - 1 Verb zu viel"?>gepulvertes<?oxy_comment_end?>
+                    <lb/>Dolomit (kohlensaurer Kalk und kohlensaure Magnesia) filtrirt diesen
+                    <lb/>in reinen kohlensauren Kalk verwandelt, wobei gleichzeitig Bittersalz
+                    <lb/>(schwefelsaure Magnesia) abgeschieden wird. <persName key="H0011594">Haidinger</persName> glaubte, <lb/>daß vielleicht bei erhöhter Temperatur <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> bei einem größeren <lb/>Drucke sich diese <add place="superlinear">chemischen</add> Wechselwirkungen umkehren würden; und <lb/>Versuche welche
+                        <persName key="ed_b4l_yqt_qcb">Morlot</persName> auf seine Veranlassung
+                    anstellte, zeigten <lb/>in der That daß ein Gemenge von krystallisiertem
+                    Bittersalz <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> gepulvertem <lb/>Kalkspath in den Gewichtsverhältnissen von 1 zu 2
+                    Atomen in einer <subst>
+                        <del rendition="#s">geschl</del>
+                        <add place="intralinear">
+                            <lb/>Glasröhre eingeschlossen</add>
+                    </subst> bei <choice>
+                        <abbr>circ.</abbr>
+                        <expan>circa</expan>
+                    </choice> 200<hi rendition="#u">°</hi> sich so vollständig zu dem Doppelsalz
+                    <lb/>von kohlensaurem Kalk <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> kohlensaurer Magnesia (=Dolomit) einerseits <lb/>und zu schwefelsaurem
+                    Kalk andererseits zersetzte, daß keine Spur <lb/>von Bittersalz übrig blieb. Bei
+                    einer Senkung der Gesteine in etwas <lb/>tiefere Erdschichten und bei den
+                    Erscheinungen, welche das Auftreten <lb/>großer pyrogener Massen häufig
+                    begleiten, könenn ähnliche Temperaturen<note place="mBottom" hand="#author"><hi rendition="#u">Morlot</hi> in <bibl sameAs="zotero-667230-VVFVHCWM">Poggendorff's Annalen <choice>
+                                <abbr>Bd.</abbr>
+                                <expan>Band</expan>
+                            </choice> 74 <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite</expan>
+                            </choice> 591.</bibl>; in <persName key="H0011594">Haidinger</persName>'s <bibl sameAs="zotero-667230-GIKUFUUR">Berichten
+                            <lb/>über die Gesellschaft naturwissenschaftlicher Freunde <choice>
+                                <abbr>usw.</abbr>
+                                <expan>und so weiter</expan>
+                            </choice> II. 393</bibl>, <bibl sameAs="zotero-667230-X3SHG3IK"><add place="intralinear">461.</add></bibl>
+                        <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice>
+                        <bibl sameAs="zotero-667230-MAJ6FTUT">IV. <seg type="comment">
+                                <orig>185</orig>
+                                <note xml:id="neyv_zd5_qcb">vielmehr: 158.</note>
+                            </seg></bibl>; daraus <lb/>in <persName key="H0004463">Leonhard</persName>
+                        <bibl sameAs="zotero-667230-AJ9V2SSG">Jahrbuch der Geognosie 1847.</bibl>
+                        862 <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice>
+                        <bibl sameAs="zotero-667230-D5N3NTVZ">1848.</bibl> 489.</note>
+                    <lb/><pb n="2v"/> und Pressungen nicht unwahrscheinlich eingetreten sein.
+                        <persName key="ed_b4l_yqt_qcb">Morlot</persName> hat <lb/>seiner Abhandlung
+                    einige instructive Abbildungen größerer <lb/>und kleinerer Handstücke beigefügt,
+                    in denen Dolomit <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Gips <lb/>so in̅ig <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> vielfach verflochten sind, daß eine gemeinsame Ursache <lb/>ihrer
+                    Bildung in der That höchst warscheinlich wird. —</p>
+                <p>Für die spätere Umwandlung des Dolomites aus Kalkstein <lb/><subst>
+                        <del rendition="#s"><del rendition="#s">überh</del></del>
+                        <add place="intralinear">überhaupt</add>
+                    </subst>, spricht auch die zellige Struktur der meisten <lb/>Dolomite. <persName key="H0005901">Élie de Beaumont</persName> hatte gefunden, daß wenn in
+                    <lb/>einem geschlossenem Raume ein Doppelatom Kalkstein durch ein <lb/>Atom
+                    Dolomit ersetzt wird, wegen des größeren specifischen <lb/>Gewichtes des Ganzen
+                    bei einem niedrigerem Atomgewicht <subst>
+                        <del rendition="#s">das</del>
+                        <add place="intralinear">der</add>
+                    </subst>
+                    <lb/>Magnesia eine Anzahl von Drusenräumen = 12 Procent <lb/>des ganzen Volumens
+                    übrig bleiben muß.<note place="mBottom" hand="#author"><persName key="H0005901">Élie de Beaumont</persName>
+                        <bibl sameAs="zotero-667230-KAZIJBJV"><choice>
+                                <abbr>Compt.</abbr>
+                                <expan>Comptes</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Rend.</abbr>
+                                <expan>Rendus</expan>
+                            </choice> XXVI. 311.</bibl>
+                        <bibl sameAs="zotero-667230-3A9WQ2PI">Bulletin de la société géologique.
+                                2<hi rendition="#sup"><hi rendition="#u">me</hi></hi> série V.
+                            243</bibl>, <choice>
+                            <abbr>u.</abbr>
+                            <expan>und</expan>
+                        </choice> schon früher <bibl sameAs="zotero-667230-VGX3TFA3">Bulletin <choice>
+                                <abbr>géolog.</abbr>
+                                <expan>géologique</expan>
+                            </choice>. 1837. <choice>
+                                <abbr>p.</abbr>
+                                <expan>page</expan>
+                            </choice> 174.</bibl></note>
+                    <persName key="ed_b4l_yqt_qcb">Morlot</persName> fand auch <lb/>in Dolomiten von
+                    <?oxy_comment_start author="lmartin" timestamp="20180126T132434+0100" comment="Ort?"?>Predial<?oxy_comment_end?>
+                    hiemit übereinstim̅end <hi rendition="#u">12,9</hi> Procent. <lb/>Ich darf mir
+                    erlauben zu bemerken, daß in manchen Fällen nach den <lb/>Untersuchungen von
+                        <persName key="ed_iln_y4q_rcb">Grandjean</persName><hi rendition="#sup">1)</hi><note place="mBottom" hand="#author">1). <bibl sameAs="zotero-667230-5QUC583W">Über Dolomite im <placeName key="ed_ev2_hq5_qcb">Lahnthal</placeName>.</bibl> Jahrbuch für
+                        Geognosie von <persName key="H0004463">Leonhard</persName> 1844. <choice>
+                            <abbr>p.</abbr>
+                            <expan>pagina</expan>
+                        </choice> 543.</note>, <persName key="ed_t24_csp_rcb">Sandberger</persName><hi rendition="#sup">2)</hi><note place="mBottom" hand="#author">2) <bibl sameAs="zotero-667230-CVP6DE6C">Übersicht der
+                            geologischen Verhältnisse im Herzogthum Nassau</bibl> 1847.</note>,
+                        <persName key="ed_zxf_x5q_rcb">Nauck</persName><hi rendition="#sup">3)</hi><note place="mBottom" hand="#author">3.) <bibl sameAs="zotero-667230-QHJ2BVIA">Über die Specksteine von
+                            Göpfersgrün</bibl> Poggendorff's Annalen. <choice>
+                            <abbr>Bd.</abbr>
+                            <expan>Band</expan>
+                        </choice> 75. <choice>
+                            <abbr>S.</abbr>
+                            <expan>Seite</expan>
+                        </choice> 129</note>
+                    <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <persName key="H0003366">Bischoff</persName><hi rendition="#sup">4)</hi><note place="mBottom" hand="#author">4.) <bibl sameAs="zotero-667230-GE453BGB"><?oxy_comment_start author="lmartin" timestamp="20180129T152859+0100" comment="Zweiter Band, erste Abtheilung. Nur dieses in dem angegebenem Jahr erschienen."?>Lehrbuch
+                            der chemischen Geologie. Band 3. Heft. 1.<?oxy_comment_end?></bibl>
+                        1851.</note><lb/><pb n="3r"/>die Bildung des Dolomites auch dadurch erfolgen
+                    <lb/>kann, daß gewöhnlicher kohlensaurer Kalk, der ja <lb/>zuweilen schon selbst
+                    sehr bemerkenswerthe Mengen von <lb/>Magnesia enthält, durch kohlensäurehaltiges
+                    Wasser <lb/>zersetzt wird; es bildet sich dan̅ Bicarbonat von <lb/>Kalk, welches
+                    leicht löslich ist und hinweggeführt wird, <lb/><subst>
+                        <del rendition="#s">und</del>
+                        <add place="superlinear">während</add>
+                    </subst> das nach und nach zurückbleibende <del rendition="#s">ist</del>
+                        Dolomit<add place="superlinear"> ist.</add> Diese <lb/>Bildungsweise wird
+                    sehr befördert, wen̅ das hinzutretende <lb/>Wasser bereits selbst kohlensaure
+                    Magnesia enthält, die sich ja <lb/>stets bei Zersetzung von Silicaten in den
+                    krystallinischen <lb/>Gesteinen bildet. Es spricht für eine solche langsame <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>einfache Pseudomorphosenbildung des Dolomites aus magnesia<g ref="#typoHyphen"/><lb break="no"/>haltigem Kalke auf nassem Wege <subst>
+                        <del rendition="#s">auf</del>
+                        <add place="superlinear">ausser</add>
+                    </subst> manchen anderen <lb/>Umständen auch die Erscheinung, daß nicht selten
+                    der Kalkstein <lb/>nur in den oberen Teufen, welche hauptsächlich den
+                    Einwirkungen der <lb/>atmosphärischen Wasser ausgesetzt sind, oder in der Nähe
+                    von <lb/>Spalten in Dolomit verwandelt ist. Auch ist zu bemerken, <lb/>daß
+                    kohlensaurer Kalk <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> kohlensaure Magnesia für sich <lb/>mal leichter auflösbar sind als die
+                    durch ihr Zusam̅entreten <lb/>geildete Doppelverbindung, der Dolomit. — <lb/><pb n="3v"/>
+                    <?oxy_comment_start author="lmartin" timestamp="20180129T102739+0100" comment="1 Seite Textverlust?"?>der<?oxy_comment_end?>
+                    geologischen Karte <persName key="H0005901">Beaumont's</persName>, welche sie
+                    die <lb/>große Güte hatten, mir für unsere Reise anzuvertrauen. <lb/>Ich habe
+                    mich natürlich auf das sorgfältigste bemüht, dieselben <lb/>ganz unversehrt
+                    hieher zurückzubringen. Sollten <lb/>Euer Excellenz dieselben nicht eben
+                    gebrauchen, so <lb/>dürfte ich vielleicht die unbescheidene Bitte wagen, <lb/>ob
+                    ich sie noch<subst>
+                        <del rendition="#s"><del rendition="#s"><gap quantity="1" unit="words"/></del></del>
+                        <add place="superlinear">auf kurze Zeit</add>
+                    </subst> behalten könnte, da sie mir <lb/>gerade gegnwärtig zur Vergleichung
+                    neuer geognostischer<lb/>Beobachtungen von so viel Interesse sind.</p>
+                <closer>
+                    <salute>Ich habe die Ehre zu sein, in unbegrenzter Verehrung <lb/>Euer Excellenz
+                        <lb/>dankbarst ergebenster</salute>
+                    <signed>Adolph Schlagintweit. <lb/><date>Berlin den
+                                <?oxy_comment_start author="thomas" timestamp="20180312T151747+0100" comment="&lt;date&gt;-Tag sollte
+* das gesamte Datum inkl. Jahr umschließen
+* mit Attribut @when usw. spezifiziert werden!!"?>18<supplied cert="high">.</supplied> November 1851</date><?oxy_comment_end?>. <lb/><address>
+                            <addrLine>Seiner Excellenz</addrLine>
+                            <milestone unit="section" rendition="#hr"/>
+                            <addrLine>Baron Alexander von Humboldt </addrLine>
+                            <addrLine>etc. etc. etc. etc<supplied cert="high">.</supplied></addrLine>
+                        </address></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

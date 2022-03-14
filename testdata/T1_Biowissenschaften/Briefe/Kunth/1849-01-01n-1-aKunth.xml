@@ -1,0 +1,235 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002924" oldID="avhr_zk4_nrl_mv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, Anfang 1849]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1849-01-01" notAfter="1849-05-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zwischen Ende 1848 und Anfang 1849 überarbeitete Humboldt Band 2 der <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/2WVKCKG3/q/1849">Ansichten der Natur</ref> für eine dritte Auflage des Werkes. Die letzten
+                    korrigierten Bogen des zweiten Bandes gingen wohl im Februar 1849 an den Verlag
+                    (vgl. Humboldt an Eduard Buschmann, 19. Februar 1849, Biblioteka Jagiellońska,
+                    Krakau, Sammlung Autographa, ehemals Preußische Staatsbibliothek, Berlin). Im
+                    vorliegenden Brief übersendet Humboldt Kunth diesen für die Neuauflage
+                    überarbeiteten und fertig gesetzten zweiten Teil mit der Bitte, sie in Hinblick
+                    auf eine geplante englische Übersetzung durchzusehen. (vgl. Humboldt an
+                        <persName key="H0013205">Johann Georg von Cotta</persName>, Berlin,
+                    7. April 1849, <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/KGM28M3V">Humboldt
+                        2009</ref>, 369). </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>
+                    <seg type="comment">
+                        <orig>Die neue englische Ausgabe der <hi rendition="#u">Ansichten <lb/>der
+                                Natur</hi>
+                        </orig>
+                        <note xml:id="nsjw_b2s_2x">Die im Herbst 1849 im Verlag Longman erschienene
+                            Übersetzung von Lady Sabine (<ref target="https://www.zotero.org/groups/avh-r/items/itemKey/MU3FGUXF">Humboldt 1849a</ref>), zu der Humboldt Druckbogen der noch nicht
+                            erschienenen dritten deutschen Auflage von 1849 (<ref target="https://www.zotero.org/groups/avh-r/items/itemKey/2WVKCKG3/q/1849">Humboldt 1849</ref>) beisteuerte (siehe <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/384RP7BM/q/Fiedler">Fiedler/Leitner 2000</ref>, 45–46). </note>
+                    </seg>
+                    <seg type="comment">
+                        <orig>veranlasst mir die Bitte, <lb/>ob es Ihnen, theurer Kunth, wohl
+                            <lb/>möglich sein würde, wenigstens den <lb/>ganzen zweiten Theil ganz
+                            durchzusehen <lb/>und mir was Ihnen beim Lesen <lb/>einfiele und mit
+                            denselben <choice>
+                                <orig>Gegenstanden</orig>
+                                <reg>Gegenständen</reg>
+                            </choice>
+                            <lb/>im Zusammenhang <choice>
+                                <orig>stunde</orig>
+                                <reg>stünde</reg>
+                            </choice>, aus dem <lb/>Gedächtniss niederzuschreiben, etwas <choice>
+                                <orig>
+                                    <lb/>weitlauftig</orig>
+                                <reg>weitläuftig</reg>
+                            </choice> damit ich daraus <lb/>
+                            <choice>
+                                <orig>schopfen</orig>
+                                <reg>schöpfen</reg>
+                            </choice> könne<supplied cert="high" prev="könne">.</supplied>
+                        </orig>
+                        <note xml:id="niny_b1h_hx">Siehe <ref target="avhr_anm_fwg_fw">Kunths
+                                Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur, 3.
+                                Auflage</ref>.</note>
+                    </seg>
+                    <lb/>Am angenehmsten <choice>
+                        <orig>ware</orig>
+                        <reg>wäre</reg>
+                    </choice> mir ein </p>
+                <p><subst>
+                        <del rendition="#s">As</del>
+                        <add place="intralinear">1) Aufsaz</add>
+                    </subst> über die Grundsäze <lb/>der numerischen Vertheilung der <lb/>Arten und
+                    der Individuen <lb/>bloss <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice> die Zone die Sie <lb/>in Deutschland <choice>
+                        <orig>u</orig>
+                        <reg>und</reg>
+                    </choice> Frankreich <lb/>Selbst aus Erinnerung kennen <lb/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Th</abbr>
+                                <expan>Theil</expan>
+                            </choice> II</orig>
+                        <note xml:id="ndyy_np5_cx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/2WVKCKG3">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                    <choice>
+                        <orig>S.</orig>
+                        <reg>Seite</reg>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">127</del>
+                        <add place="intralinear">122–137</add>
+                    </subst><supplied cert="high" prev="127">.</supplied></p>
+                <p>2) ob ich wohl im Rechten <lb/>bin <choice>
+                                <abbr>uber</abbr>
+                                <expan>über</expan>
+                            </choice> gesellschaftliche <lb/>Pflanzen und die <hi rendition="#u">Ursach</hi> des <lb/>Phaenomens. Stolonen? <choice>
+                                <abbr>Th</abbr>
+                                <expan>Theil</expan>
+                            </choice> I <choice>
+                                <abbr>p</abbr>
+                                <expan>pagina</expan>
+                            </choice> 84 <lb/>
+                            <choice>
+                                <abbr>Th</abbr>
+                                <expan>Theil</expan>
+                            </choice> II <choice>
+                                <abbr>p</abbr>
+                                <expan>pagina</expan>
+                            </choice> 173.</p>
+                        <p>3) die <choice>
+                                <orig>grosste</orig>
+                                <reg>grösste</reg>
+                            </choice> Längenaxe, <choice>
+                                <orig>riesen<lb break="no"/>massige</orig>
+                                <reg>riesenmässige</reg>
+                            </choice>
+                            <choice>
+                                <orig>Hohen</orig>
+                                <reg>Höhen</reg>
+                            </choice> bei so <lb/>ganz verschiedenen Familien <lb/>
+                            <choice>
+                                <orig>T</orig>
+                                <reg>Teil</reg>
+                            </choice> II <choice>
+                                <abbr>p</abbr>
+                                <expan>pagina</expan>
+                            </choice> 196–199<supplied cert="high" prev="199">.</supplied> Warum am
+                            <lb/>meisten Coniferen? warum <lb/>in diesen keine Augen am <lb/>Stamme
+                            (Seitenzweige) <lb/>entstehen<supplied cert="high" prev="entstehen">.</supplied></p>
+                <p><pb n="1v"/>4) Sie haben gewiss den Leib voller <lb/>Wahrheit über das
+                            Unrichtige <lb/>des Appendicularsystems, so <lb/>verschieden in einem
+                                genus<supplied cert="high" prev="genus">.</supplied>
+                            <lb/>Es quälen mich <choice>
+                                <abbr>T</abbr>
+                                <expan>Teil</expan>
+                            </choice> II <choice>
+                                <abbr>S.</abbr>
+                                <expan>Seite</expan>
+                            </choice> 243 <lb/>–248<supplied cert="high" prev="248">.</supplied>
+                        </p>
+                        <p>5) Ich habe immer noch Zweifel <lb/>
+                            <choice>
+                                <orig>uber</orig>
+                                <reg>über</reg>
+                            </choice> Umwallung <choice>
+                                <abbr>Th</abbr>
+                                <expan>Theil</expan>
+                            </choice> II <choice>
+                                <abbr>p</abbr>
+                                <expan>pagina</expan>
+                            </choice> 203 <lb/>wahrscheinlich weil ich <lb/>irrige Meinung <choice>
+                                <orig>uber</orig>
+                                <reg>über</reg>
+                            </choice> die Holzfaser <lb/>und ihre Entstehung habe<supplied cert="high" prev="habe">.</supplied>
+                        </p>
+                        <p>6) Sie glauben nicht an <seg type="comment">
+                        <orig>
+                            <persName key="H0004485">Suminski</persName>
+                        </orig>
+                        <note xml:id="nfkb_pk5_cx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/BHXBR3K8">Leszczyc-Suminski 1848</ref>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>Th</abbr>
+                        <expan>Theil</expan>
+                    </choice> II <lb/>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>pagina</expan>
+                    </choice> 228<supplied cert="high" prev="228">.</supplied>
+                </p>
+                    <p>Aber ich quäle Sie nur zu viel! </p>
+                <signed>AlHumboldt</signed>
+                <dateline>Freitag</dateline>
+            </div>
+            <div type="writingSession" n="2">
+                
+                    <p>
+                    <address><pb n="2r"/>
+                        <addrLine>
+                            <choice>
+                                <orig>Sr</orig>
+                                <reg>Seiner</reg>
+                            </choice> Wohlgeboren</addrLine>
+                        <addrLine>Herrn Professor Kunth</addrLine>
+                        <addrLine>Schüzenstraße <choice>
+                                <abbr>n</abbr>
+                                <expan>numero</expan>
+                            </choice> 7.</addrLine>
+                        <addrLine>
+                            <hi rendition="#u">frei</hi>
+                            <lb/>
+                        </addrLine>
+                    </address>
+                </p>
+                <p>
+                    <lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

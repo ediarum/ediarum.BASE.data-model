@@ -1,0 +1,77 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_irn_rwb_ycb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hermann und Robert Schlagintweit an Alexander von Humboldt. Berlin, 20. März
+                    1859</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Geheimes Staatsarchiv – Preußischer Kulturbesitz</institution>
+                        <collection/>
+                        <idno>Hist. Abt. II, Rep. 92, Olshausen, B I, 7, lit. Hir–Hu, Bl. 129</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                    <persName key="H0015556">Schlagintweit, Robert, Freiherr von
+                        (1833-1885)</persName>
+                    <placeName key="H0005221">Berlin (Hauptstadt der heutigen Bundesrepublik
+                        Deutschland)</placeName>
+                    <date when="1859-03-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession"><pb n="129r"/>
+                <opener>
+                    <dateline><?oxy_comment_start author="goehmann" timestamp="20180228T155900+0100" comment="einmal kollationiert"?>Berlin<?oxy_comment_end?>,
+                            20<supplied cert="high">.</supplied> Maerz 1859. <lb/>(Behrenstraße 1<hi rendition="#sup">a </hi>)</dateline><salute>Hochverehrteste Excellenz!</salute>
+                </opener>
+                <p>Da Sie selbst so überaus gütig waren<supplied cert="high">,</supplied> in dem
+                    <lb/>letzten Briefe mit dem Sie uns beglückten<supplied cert="high">,</supplied>
+                    <lb/>den Brief an
+                    <?oxy_comment_start author="goehmann" timestamp="20180221T181821+0100" comment="welcher der beiden Brockhaus?"?><?oxy_comment_start author="lmartin" timestamp="20180223T103319+0100" comment="namentlich nicht aufgeführt: &quot;gez. F.A. Brockhaus&quot; " mid="2"?>Brockhaus<?oxy_comment_end?><?oxy_comment_end mid="2"?>
+                    und unsere Vorschläge <lb/>in Betreff der deutschen Ausgabe unseres Werkes
+                    <lb/>zu verlangen<supplied cert="high">,</supplied> wagen wir es, ungeachtet des
+                    <lb/>erschreckenden Aufrufes in der Spiker'schen <lb/>Zeitung eine Abschrift
+                    derselben beiliegend zu <lb/>übersenden.<lb/></p>
+                <p>Eine demiofficielle Note haben wir uns erlaubt <lb/>beizulegen, die vielleicht
+                    den
+                    <?oxy_comment_start author="lmartin" timestamp="20180223T103137+0100" comment="Brief vorhanden (Ka. 48.3, 18.1-18.3 - Dokument als Anlage im Briefwechsel)"?>Brief
+                    von Brockhaus<?oxy_comment_end?>
+                    <lb/><pb n="129v"/>begleiten könnte<supplied cert="high">.</supplied></p>
+                <p>Wir dürfen wohl uns erlauben beizufügen, daß wir <lb/>gestern Abend den badischen
+                    Gesandten sahen, <lb/>der uns davon sprach, daß wir hoffen <lb/>dürften der
+                    <?oxy_comment_start author="lmartin" timestamp="20180320T165256+0100" comment="welcher Großherzog ist gemeint?"?>Großherzog<?oxy_comment_end?>
+                    würde unsere <lb/>Sammlungen sehen wenn die Zeit es er<g ref="#typoHyphen"/><lb break="no"/>laubt, was wir wahrscheinlich nur wieder <lb/>Ihrer Güte allein
+                    werden zu danken haben.</p>
+				<closer>
+				    <salute>Mit dem Ausdrucke ausgezeichnetster Hochachtung <lb/>und Verehrung</salute>
+                    <salute>Euer Excellenz <lb/>dankbarst ergebene</salute>
+                    <signed>Hermann Schlagintweit <lb/>Robert Schlagintweit</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

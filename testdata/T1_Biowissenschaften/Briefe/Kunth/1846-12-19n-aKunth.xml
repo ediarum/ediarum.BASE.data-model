@@ -1,0 +1,126 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002925" oldID="avhr_jjf_xfh_3v">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, nach 19. Dezember
+                    1846]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von
+                        (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1846-12-19" notAfter="1846-12-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund
+                        (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Dem vorliegenden Brief legte Humboldt ein Schreiben des
+                    Staatsministers <persName key="H0003932">Ludwig Gustav von
+                        Thile</persName> vom 16. Dezember 1846 bei. Humboldt hatte dieses Schreiben
+                    zuvor, wahrscheinlich am 19. Dezember, <persName key="H0014098">Alexander Mendelssohn</persName>
+                    mit Bitte um Rücksendung übermittelt (vgl. Humboldt an Alexander Mendelssohn,
+                    [Berlin], Sonnabend, [wohl 19. Dezember 1846], <bibl sameAs="zotero-667230-69XS9XZT">Humboldt 2011</bibl>, 159). </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <pb n="1r"/>Ich finde keine Worte um Ihnen und <lb/>Ihrer liebenswürdigen <rs type="person" key="H0001516">Gattinn</rs> lebhaft <lb/>genug meinen Dank für die
+                so ausgesucht <lb/>
+                <choice>
+                    <orig>schonen</orig>
+                    <reg>schönen</reg>
+                </choice> Blüthen darzubringen<supplied cert="high" prev="darzubringen">.</supplied>
+                Das <lb/>amnestirte Veilchen macht den grössten <lb/>Effect bei allen die mich
+                    besuchen<supplied cert="high" prev="besuchen">.</supplied>
+                <lb/>Ich lese oft <seg type="comment">
+                    <orig>Ihre neue Arbeit</orig>
+                    <note xml:id="nt1g_wcb_fx">Wohl <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/D37WFUS6">Kunth 1847.</ref></note>
+                </seg>. Es ist <lb/>ein schönes Werk, voll Klarheit und <lb/>Bestimmtheit des
+                Ausdruks. Es ist <lb/>das erste Mal <choice>
+                    <sic>das</sic>
+                    <corr>dass</corr>
+                </choice> ich anfange <lb/>meine Ideen <choice>
+                    <orig>uber</orig>
+                    <reg>über</reg>
+                </choice> Pflanzenanatomie <lb/>zu reinigen<supplied cert="high" prev="reinigen">.</supplied> Dazu ist der Styl <lb/>geschmakvoll durch Ruhe <choice>
+                    <abbr>u</abbr>
+                    <expan>und</expan>
+                </choice> Maass<supplied cert="high" prev="Maass">.</supplied>
+                <lb/>Um Sie zu überzeugen, mein <lb/>theurer Freund, dass die Mexicana <lb/>nun ganz
+                in Ordnung sind <lb/>sende ich die <seg type="comment">
+                    <orig>officielle Anlage</orig>
+                    <note xml:id="ni4v_gj3_bw">
+                        <persName key="H0003932">Ludwig Gustav von Thile</persName> an Humboldt,
+                        Berlin, 16. Dezember 1846 (Biblioteka Jagiellońska Krakau,
+                        Autographen-Sammlung (ehemals Preußische Staatsbibliothek zu Berlin Krakau),
+                        A. von Humboldt).</note>
+                </seg>. <lb/>Die 600 <measure quantity="600" unit="reichsthaler">
+                    <choice>
+                        <abbr>r</abbr>
+                        <expan>Reichstaler</expan>
+                    </choice></measure> werden mir aus dem <lb/>
+                <choice>
+                    <abbr>Extraord.</abbr>
+                    <expan>Extraordinairen</expan>
+                </choice> fond gezahlt erst <lb/>nach Neu Jahr, weil der <choice>
+                    <orig>diesjahrige</orig>
+                    <reg>diesjährige</reg>
+                </choice>
+                <lb/>erschöpft war<supplied cert="high" prev="war">.</supplied>
+                <persName key="H0003932">General Thile</persName>
+                <lb/>hat mir gestern Abend noch <lb/>bestimmter mündlich gesagt, dass <lb/>es der <choice>
+                    <abbr>Extr.</abbr>
+                    <expan>Extraordinaire</expan>
+                </choice> fond ist, <persName key="H0005881">Minister <choice>
+                        <abbr>E</abbr>
+                        <expan>Eichhorn</expan>
+                    </choice>
+                </persName>
+                <lb/>zahlt von sich nichts<supplied cert="high" prev="nichts">.</supplied> Es war
+                <lb/>also nur ein Schrecken aus <lb/>Misverständniss.</p>
+            <p>Freundschaftlichst <lb/>Ihr <lb/>Al Humboldt</p>
+            <p>Der alte <persName key="H0012200">
+                    <choice>
+                        <abbr>Benj.</abbr>
+                        <expan>Benjamin</expan>
+                    </choice> Delessert</persName>
+                <lb/>ist bedeutend krank.</p>
+            <p>Mit <persName key="H0004494">Leverrier</persName> ist es
+                <lb/>mir nicht <choice>
+                    <orig>geglukt</orig>
+                    <reg>geglükt</reg>
+                </choice>
+                <lb/>doch <persName key="H0003647">Brewster</persName>
+                ist <lb/>auch eine schöne Wahl<supplied cert="high" prev="Wahl">.</supplied>
+            </p>
+        </body>
+    </text>
+</TEI>

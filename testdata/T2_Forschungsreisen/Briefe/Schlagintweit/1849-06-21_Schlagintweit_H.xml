@@ -1,0 +1,85 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_awh_qzg_4cb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Adolph und Hermann Schlagintweit</title>
+                <title>. Potsdam, 21. Juni 1849</title>
+                <?oxy_comment_start author="lmartin" timestamp="20180117T151837+0100" comment="Einmal kollationiert mit UP"?>
+            </titleStmt>
+            <?oxy_comment_end?>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Humboldt-Schloss Tegel</institution>
+                        <collection>Archiv des Humboldt-Schlosses Tegel</collection>
+                        <idno/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0008392">Potsdam</placeName>
+                    <date when="1849-06-21" cert="high"/>
+                </correspAction>
+                <correspAction type="received">               
+                    <persName key="H0015552">Schlagintweit, Adolph von (1829-1857)</persName>
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <p><pb n="1r"/>Der Name und die rühmlichen Unternehmungen <lb/>der Gebrüder
+                    Schlagenweit, Ihre treflichen <lb/>Arbeiten über den Kohlensäure Gehalt der
+                    <lb/>Atmosphäre sind mir längst bekannt. Ich<lb/>werde eine recht grosse Freude
+                    haben<lb/>Sie beide Sonnabend zwischen 12 und <lb/>1<hi rendition="#sup">u</hi>½
+                    hier zu empfangen, wenn Ihnen Tag<lb/>und Stunde nicht unbequem sind.
+                    Die<lb/>Abhandlung über die <choice>
+                        <abbr>Geogr.</abbr>
+                        <expan>Geographie</expan>
+                    </choice> der Pflanzen <lb/>in den <placeName key="ed_yph_vgv_4cb">bayerischen
+                        Voralpen</placeName> hatte ich<lb/>mir längst gewünscht. Das <seg type="comment">
+                        <orig>Werk über<lb/>die <choice>
+                                <abbr>phys.</abbr>
+                                <expan>physicalische</expan>
+                            </choice> Geographie der Alpen</orig>
+                        <note xml:id="ndvb_lmv_4cb">
+                            <bibl sameAs="zotero-667230-CU8W2N3I">Schlagintweit, H./Schlagintweit,
+                                A.: Untersuchungen über diee physicalische Geographie der
+                                1850</bibl>.</note>
+                    </seg> dessen<lb/>inhaltsreicher Prospectus ich die Ehre<lb/>haben werde, Ihnen
+                    zurückzugeben,<lb/>verspricht das vielumfassendste Werk <lb/>welches seit
+                        <persName key="H0015469">Saussure</persName> erschienen ist.</p>
+                <closer>
+                    <salute>Mit der ausgezeichnetsten Hochachtung</salute>
+                    <salute><choice>
+                            <orig>Ew</orig>
+                            <reg>Euer</reg>
+                        </choice> Wohlgeboren</salute>
+                    <salute>gehorsamster</salute>
+                    <signed>AlHumboldt</signed>
+                </closer>
+                <dateline>Potsdam, <lb/>den 21<supplied cert="high">.</supplied> Juni <lb/>1849
+                    </dateline>
+                <pb n="1v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_dbk_r1l_zcb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an [Hermann] Schlagintweit. Berlin, 2. April
+                    1859</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Stargardt Katalog Nr. 706, März 2018, Seite 129.</institution>
+                        <?oxy_comment_start author="lmartin" timestamp="20180228T142840+0100" comment="bei Erwerb Signatur verändern"?>
+                    </msIdentifier>
+                    <?oxy_comment_end?>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin (Hauptstadt der heutigen Bundesrepublik
+                        Deutschland)</placeName>
+                    <date when="1859-04-02" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession"><pb n="1r"/>
+                <opener>
+                    <address>
+                        <?oxy_comment_start author="lmartin" timestamp="20180228T144229+0100" comment="einmal kollationiert mit UP, 28.02.2018."?>
+                        <addrLine><?oxy_comment_end?>an Herr <choice>
+                                <abbr>D<hi rendition="#sup">r</hi></abbr>
+                                <expan>Doktor</expan>
+                            </choice> Schlagintweit</addrLine>
+                    </address>
+                </opener>
+                <p>mit dringender Bitte <lb/>mir diesen Brief <lb/>morgen Sontag <lb/>vormitag <subst>
+                        <del rendition="#s">bis</del>
+                        <add place="intralinear">bis</add>
+                    </subst>
+                    <lb/>9 Uhr zurükzusenden <lb/>weil ich <persName key="H0011208"><choice>
+                            <abbr>G.R</abbr>
+                            <expan>Geheimrat</expan>
+                        </choice>
+                        <lb/>Olshausen</persName> um <lb/>die Zeit erwarte.</p>
+                <dateline><note place="mBottom" hand="#addressee"><choice>
+                            <abbr>D. D.</abbr>
+                            <expan>De Dato</expan>
+                        </choice> Berlin. 2<supplied cert="high">.</supplied> April
+                    1859.</note></dateline>
+                <closer>
+                    <signed>AlHumboldt</signed>
+                </closer><pb n="1v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

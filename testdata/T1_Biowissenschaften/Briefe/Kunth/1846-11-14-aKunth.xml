@@ -1,0 +1,138 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0005737" oldID="prov_ulx_4yp_zt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 14. November
+                    1846</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische
+                            Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <placeName key="H0008392">Potsdam</placeName>
+                    <date when="1846-11-14" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb n="1r"/>Ich habe die Freude Ihnen anzukündigen <lb/>mein theurer Freund,
+                    dass der <rs type="person" key="H0002178">
+                        <choice>
+                            <orig>Konig</orig>
+                            <reg>König</reg>
+                        </choice>
+                    </rs> auf <lb/>meine schriftliche Bitte befohlen hat dass <lb/>dem <rs type="org" key="H0000532">Garten</rs> extraordinaire nicht 680 <lb/>sondern
+                    600 <measure quantity="600" unit="reichsthaler">Thaler</measure> für die <choice>
+                        <abbr>mexican.</abbr>
+                        <expan>mexicanischen</expan>
+                    </choice>
+                    <lb/>Pflanzen angewiesen werde<supplied cert="high" prev="werde">.</supplied>
+                    Ich habe <lb/>keine schriftliche Antwort von Minister <lb/>
+                    <persName key="H0003932">Thile</persName> erhalten, aber der <choice>
+                        <orig>Konig</orig>
+                        <reg>König</reg>
+                    </choice> hat <lb/>mir heute <choice>
+                        <orig>mundlich</orig>
+                        <reg>mündlich</reg>
+                    </choice> gesagt, ich <choice>
+                        <orig>konne</orig>
+                        <reg>könne</reg>
+                    </choice>
+                    <lb/>auf die Zahlung rechnen<supplied cert="high" prev="rechnen">.</supplied>
+                    <seg type="comment">
+                        <orig>Ich schreibe <lb/>es heute an <persName key="H0014098">Mendelsohn</persName>.</orig>
+                        <note xml:id="nqtw_tvg_tx">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/69XS9XZT">Humboldt 2011</ref>, 159.</note>
+                    </seg>
+                    <?oxy_comment_start author="paessler" timestamp="20160713T102147+0200" comment="vgl. H an Alexander Mendelssohn, Briefwechsel 159. "?>Nehmen<?oxy_comment_end?>
+                    <lb/>Sie also bald die Pflanzen in <lb/>Empfang <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> sehen Sie ob Sie sich <lb/>80 <measure quantity="80" unit="reichsthaler">
+                        <choice>
+                            <abbr>r</abbr>
+                            <expan>Reichstaler</expan>
+                        </choice>
+                    </measure> mehr von <persName key="H0005881"><choice>
+                            <abbr>Min.</abbr>
+                            <expan>Minister</expan>
+                        </choice> Eichorn</persName>
+                    <lb/>dem ich heute ebenfalls <choice>
+                        <orig>daruber</orig>
+                        <reg>darüber</reg>
+                    </choice>
+                    <lb/>schreibe, schaffen können, wenn <lb/>es <choice>
+                        <orig>nothig</orig>
+                        <reg>nöthig</reg>
+                    </choice> ist.</p>
+            </div>
+            <closer rend="paragraph"> <salute>Mit alter Freundschaft</salute><signed>Ihr
+                    AlHumboldt</signed>
+                <signed> </signed>
+            </closer>
+            <dateline rend="align(right)">Potsdam</dateline>
+            <dateline rend="align(right)">den 14<supplied cert="high" prev="14">.</supplied>
+                <choice>
+                    <abbr>Nov</abbr>
+                    <expan>November</expan>
+                </choice>
+            </dateline>
+            <dateline rend="align(right)">1846</dateline>
+            <postscript>
+                <p>Bemühen Sie Sich nicht <lb/>hieher. Ich ziehe 19<hi rendition="#sup">t.</hi>
+                    <lb/>ganz nach Berlin<supplied cert="high" prev="Berlin">.</supplied>
+                </p>
+                <p>
+                   
+                    <address> <pb n="1v"/>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice>
+                        </addrLine>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine>Herrn Professor D<hi rendition="#sup">r</hi> Kunth
+                            <lb/>in</addrLine>
+                        <addrLine>Berlin</addrLine>
+                        <addrLine>Schüzenstraße <choice>
+                                <abbr>n</abbr>
+                                <expan>numero</expan>
+                            </choice> 7.</addrLine>
+                        <addrLine>
+                            <hi rendition="#u">frei</hi>
+                        </addrLine>
+                        <addrLine>Potsdam 14 11</addrLine>
+                    </address>
+                </p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

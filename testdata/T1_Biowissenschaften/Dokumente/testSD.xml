@@ -1,0 +1,234 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="avhr_fyl_q2w_4bb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> B<subst>
+                        <del rendition="#s">e</del>
+                        <add place="superlinear">i</add>
+                    </subst>li<del rendition="#s">e</del>ve me S<add place="superlinear">i</add>r
+                        your<del rendition="#s">s</del> Sincer<subst>
+                        <del rendition="#ow">ely</del>
+                        <add place="intralinear">e</add>
+                    </subst>
+                    <lb/>&amp; very Humble <choice>
+                        <abbr>Serv.</abbr>
+                        <expan>Servant</expan>
+                    </choice>
+                </p>
+                <p>Hier kommt eine Zeile und dann eine Wort<g ref="#typoHyphen"/><lb break="no"/>trennung. Mal <subst>
+                        <del rendition="#ow"><gap unit="words" quantity="1" reason="illegible"/></del>
+                        <add place="across">schauen</add>
+                    </subst> ob das okay ist. Und noch ein Test<lb break="no"/>wort</p>
+                <p/>
+                <p>Ich, <persName key="H0012069">Alexander von Humboldt</persName>, habe meinen <rs type="person" key="H0012069">Bruder</rs> und dessen <rs type="person" key="H0012060">Frau</rs> in Rom besucht. Wir sprachen über mein <gap unit="words" quantity="2" reason="illegible"/>
+                    <del rendition="#s"><gap quantity="1" unit="words"/></del> neues Werk und <rs type="term" key="ae58da1b-9440-492b-bad0-66df5c4fbf45">Vulkanasche</rs>.</p>
+            </div>
+            <div>                 <head><hi rendition="#u"><hi rendition="#aq"><placeName>Wiltshire</placeName></hi></hi></head><lb/>
+                <p>Viel Tuchmanufakturen in <hi rendition="#aq"><choice><abbr>Wiltsh.</abbr><expan>Wiltshire</expan></choice></hi><supplied>,</supplied><lb/>
+                    <hi rendition="#aq"><placeName><choice><abbr>Glocestersh.</abbr><expan>Glocestershire</expan></choice></placeName></hi> und <hi rendition="#aq"><placeName><choice><abbr>Sommersetsh.</abbr><expan>Sommersetshire</expan></choice></placeName></hi>, be- <note place="right"><p>Den hohen Preis der Wolle<lb/> im <choice>
+                                <abbr>J.</abbr>
+                                <expan resp="#koelbel-et-al">Jahre</expan>
+                            </choice>
+                            <date when="1790">1790</date> schrieb man<lb/> in <choice>
+                                <abbr>öffentl.</abbr>
+                                <expan>öffentlichen</expan>
+                            </choice> Blättern dem<lb/> Steigen <choice>
+                                <abbr>d.</abbr>
+                                <expan>der</expan>
+                            </choice> Tuchmanufakturen<lb/> zu. Die höchsten Preise waren<supplied resp="koelbel-et-al">:</supplied><lb/>
+                            <add place="left"><hi rendition="#aq"><placeName>Welch</placeName></hi>
+                                per lb. 15.3 <hi rendition="#aq">d.</hi><note resp="#koelbel-et-al" type="editorial">Bis 1971 wurde für Penny die Abkürzung <hi rendition="#aq">d</hi> (lat. denarius) verwendet.</note>
+                                <hi rendition="#aq"><placeName>South Down</placeName></hi> 13.2 d.<lb/>
+                                <hi rendition="#aq"><placeName>Norfolk</placeName></hi> 15.<lb/> 1
+                                    <hi rendition="#aq">d. <placeName>West<lb/>
+                                    Country</placeName></hi> 8 <hi rendition="#aq">d<supplied>.</supplied><lb/> halfpeñy</hi>.</add></p><lb/>
+                        <p>Ueber <choice>
+                                <abbr>engl.</abbr>
+                                <expan>englische</expan>
+                            </choice> Schaafzucht<lb/> im Allgemeinen und<lb/> über ihr Alter,
+                            da<lb/> schon für die <choice>
+                                <abbr>Röm.</abbr>
+                                <expan>Römischen</expan>
+                            </choice><lb/> Kaiser Wollene Zeuge<lb/> zu <hi rendition="#aq"><placeName>Winchester</placeName></hi> ge-<lb/> macht wurden S.
+                                <hi rendition="#aq"><persName key="H0012628">D.<lb/>
+                                    Anderson</persName></hi><note resp="#koelbel-et-al" type="editorial">Anderson, D. (1766-1846), Botaniker, Gärtner, Autor
+                                zahlreicher Publikationen.</note>
+                            <del rendition="#s"><gap reason="illegible" unit="chars" quantity="1"/></del> im <hi rendition="#aq">report<lb/> of the Comittee of<lb/>
+                                the highland Socie-<lb/> ty, to whom the sub-<lb/> ject of
+                                Shetland<lb/> Wool was <subst>
+                                    <del rendition="#s"><?oxy_comment_start author="thomas" timestamp="20180110T151635+0100" comment="@SD: Siehe hier z.B. &lt;lb/&gt;-innerhalb-von-&lt;subst&gt;-Problem, vgl. https://redmine.bbaw.de/issues/9278 "?>committed<lb/>
+                                    </del>
+                                    <add place="intralinear">referred<?oxy_comment_end?></add>
+                                </subst></hi>. 1790.<note resp="#koelbel-et-al" type="editorial">
+                                <p>Der exakte Titel der hier von Alexander von Humboldt zitierten
+                                    Arbeit lautet: <bibl>”Report of the Committee of the Highland
+                                        Society of Scotland, to whom the subject of Shetland wool,
+                                        drawn up by Sir John Sinclair and Dr. Anderson. Subject:
+                                        Wool industry – Scotland”, Edinburgh 1790.</bibl></p>
+                            </note></p></note><lb/>
+                    sonders um <hi rendition="#aq"><placeName>Bath</placeName></hi> in <hi rendition="#aq"><placeName>Trow-<lb/>
+                        bridge</placeName></hi> und <hi rendition="#aq"><placeName>Bradford</placeName></hi>. Die Schaa-<lb/>
+                    fe in diesen <choice><abbr>südwestl.</abbr><expan>südwestlichen</expan></choice> Grafschaf-<lb/>
+                    ten sind zweischürig, in <hi rendition="#aq"><placeName>Leicester-</placeName></hi><supplied>,</supplied><lb/>
+                    <hi rendition="#aq"><placeName>Lincoln-</placeName></hi> <choice><abbr>ud</abbr><expan>und</expan></choice> <hi rendition="#aq"><placeName>Warwickshire</placeName></hi> aber<lb/>
+                    größtentheils einschürig. Die Fär-<lb/>
+                    ber drängen sich alle an den<lb/>
+                    <hi rendition="#aq"><placeName>Avon</placeName></hi>, dessen reines Wasser zum<lb/>
+                    Färben von vorzüglicher Güte<lb/>
+                    ist.</p><lb/>
+                <p>Es fehlt noch immer an genau-<lb/> en <choice>
+                        <abbr>chem.</abbr>
+                        <expan>chemischen</expan>
+                    </choice> Untersuchungen über<lb/> den Einfluß verschiedener Wasser-<lb/> arten
+                    beim Färben, Bierbrauung.<lb/> Es ist eben so
+                    unverständig<supplied>,</supplied><lb/> den Vorzug des <choice>
+                        <abbr>engl.</abbr>
+                        <expan>englischen</expan>
+                    </choice> Biers<supplied>,</supplied><lb/> der <choice>
+                        <abbr>engl.</abbr>
+                        <expan>englischen</expan>
+                    </choice> Färbereien, dem <choice>
+                        <abbr>engl.</abbr>
+                        <expan>englischen</expan>
+                    </choice><lb/> Wasser zuzuschreiben, als es vor-<lb/> eilig ist den Einfluß des Wassers,<lb/>
+                    <choice>
+                        <abbr>d.</abbr>
+                        <expan>der</expan>
+                    </choice> Atmosphäre bei so schweren
+                    
+                    
+                </p></div>
+            <div>
+                <table rows="7" cols="5">
+                    <head>Tabelle zur Pflanzengeographie</head>
+                    <row role="label">
+                        <cell>A</cell>
+                        <cell>B</cell>
+                        <cell>C</cell>
+                        <cell>D</cell>
+                        <cell>E</cell>
+                    </row>
+                    <row>
+                        <cell>45</cell>
+                        <cell>546</cell>
+                        <cell>65</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>54</cell>
+                        <cell/>
+                        <cell>45</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>45</cell>
+                        <cell/>
+                        <cell/>
+                        <cell>65</cell>
+                        <cell>56</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                </table>
+                
+                <table cols="4" rows="20" rend="drawn">
+                    <head>Océan entre l’europe<supplied>,</supplied> l’afrique et l’amérique.</head>
+                    <row role="label">
+                        <cell rows="2">Latitude <lb/>boréale.</cell>
+                        <cell rows="2">Longitude du<lb/>méridien<lb/>de Paris.</cell>
+                        <cell>température de<lb/>la surface de<lb/>la mer.</cell> 
+                        <cell>température <lb/>de l’atmosphère.</cell>
+                    </row>
+                    <row role="label">
+                        <cell cols="2" rendition="#c">thermomètre de reaumur.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">43°. 29′</cell>
+                        <cell rendition="#right">10°. 31′. ″</cell>
+                        <cell rendition="#right">12°.</cell>
+                        <cell rendition="#right">18°.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">39. 10.</cell>
+                        <cell rendition="#right">16. 18. 30″</cell>
+                        <cell rendition="#right">12.</cell>
+                        <cell rendition="#right">13.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">36. 3.</cell>
+                        <cell rendition="#right">17. 3. 0.</cell>
+                        <cell rendition="#right">12.</cell>
+                        <cell rendition="#right">14.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">35. 8.</cell>
+                        <cell rendition="#right">17. 15. 0.</cell>
+                        <cell rendition="#right">13.</cell>
+                        <cell rendition="#right">16,5.</cell>
+                    </row>
+                    <!--[…]-->
+                </table>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

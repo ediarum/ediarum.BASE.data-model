@@ -1,0 +1,479 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xmlns:dalf="http://www.kantl.be/ctb/project/dalf/" telota:doctype="letter avhr" xml:id="H0015156" oldID="prov_f4b_fcn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
+                    1848</title><editor>
+                        <persName ref="http://d-nb.info/gnd/139028285">
+                            <surname>Päßler</surname>
+                            <forename>Ulrich</forename>
+                        </persName>
+                    </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin - Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>gr. Kasten 8, Nr. 22<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1288916</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date from="1848-11-25" to="1850-03-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859)
+                    </persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                    <dateline rend="align(right)"/>
+                <p>
+                    <pb n="1r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677F00000000"/>
+                    weil hier bei jeder Art nachgesehen werden muß, ob <lb/>sie nicht schon früher
+                    aufgeführt worden ist.<note hand="#humboldt" place="right">a</note></p>
+                <p>3. Die nachfolgenden Angaben dagegen gründen sich <lb/>auf wirkliche
+                    Zählungen:</p>
+                <p>In meiner <seg type="comment">
+                        <orig>1841 erschienen Enumeratio</orig>
+                        <note xml:id="nbkc_wpq_gx">
+                            <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7DZGI486/q/enumeratio">Kunth 1833-1850</bibl>, III.</note>
+                    </seg> sind <hi rendition="#u">356</hi>
+                    <lb/>
+                    <hi rendition="#uu">Palmen</hi> aufgeführt, mit den seitdem <lb/>neu
+                    hinzugekommenen dürften jezt <lb/>nahe an 400 beschrieben sein.</p>
+                <p>
+                    <table cols="2" rows="">
+                        <row>
+                            <cell>
+                                <hi rendition="#uu">Gräser</hi> in meiner <seg type="comment">
+                                    <orig>1833 erschienenen Enumeratio</orig>
+                                    <note xml:id="nrcb_zpq_gx">
+                                        <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7DZGI486/q/enumeratio">Kunth 1833-1850</bibl>, I.</note>
+                                </seg>
+                            </cell>
+                            <cell>3044 Arten.</cell>
+                        </row>
+                        <row>
+                            <cell>Seitdem wahrscheinlich neu hinzu<g ref="#typoHyphen"/><lb break="no"/>gekommen </cell>
+                            <cell>
+                                <hi rendition="#u">500. Arten</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>= <hi rendition="#u">3544</hi>. Arten. </cell>
+                        </row>
+                    </table>
+                </p>
+                <table cols="2" rows="">
+                    <row>
+                        <cell>
+                            <hi rendition="#uu">Cyperaceen</hi> in meiner <seg type="comment">
+                                <orig>1836 erschienenen <lb/>Enumeratio</orig>
+                                <note xml:id="nu2c_gqq_gx">
+                                    <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7DZGI486/q/enumeratio">Kunth 1833-1850</bibl>, II. Im Titel ist das
+                                    Erscheinungsjahr 1837 angegeben.</note>
+                            </seg></cell>
+                        <cell>1802. </cell>
+                    </row>
+                    <row>
+                        <cell>Seitdem neuhinzukommen muthmaßlich</cell>
+                        <cell>
+                            <hi rendition="#u">200</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>runde Zahl</cell>
+                        <cell>
+                            <hi rendition="#u">2000</hi>.</cell>
+                    </row>
+                </table>
+                <table rows="3" cols="2">
+                    <row>
+                        <cell><hi rendition="#uu">Juncaceen</hi> in meiner <seg type="comment">
+                                <orig>1841 erschienenen <lb/>Enumeratio</orig>
+                                <note xml:id="nc3m_bqq_gx">
+                                    <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7DZGI486/q/enumeratio">Kunth 1833-1850</bibl>, III.</note>
+                            </seg></cell>
+                        <cell>185 Arten.</cell>
+                    </row>
+                    <row>
+                        <cell>jetzt füglich auf <hi rendition="#u">200</hi> zu erhöhen.</cell>
+                        <cell/>
+                    </row>
+                </table>
+                <p><note hand="#humboldt" place="mBottom">Kunth II 3544 <table rows="3" cols="1">
+                            <row>
+                                <cell>3544</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>
+                                    <hi rendition="#u">17</hi>
+                                </cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>7088</cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>
+                                    <hi rendition="#u">3544</hi>
+                                </cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>42528</cell>
+                                <cell/>
+                            </row>
+                        </table>
+                    </note>
+                </p>
+                <p>
+                    <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677F00000000"/>
+                    <note hand="#humboldt" place="left">b</note>Aroideen in meiner <seg type="comment">
+                        <orig>1841 erschienenen Enumeratio</orig>
+                        <note xml:id="nh1r_dqq_gx">
+                            <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7DZGI486/q/enumeratio">Kunth 1833-1850</bibl>, III.</note>
+                    </seg>
+                    <hi rendition="#u">284</hi> Arten. <lb/>Ihre Zahl ist seitdem wahrscheinlich
+                    <lb/>auf 300–330 gestiegen.</p>
+                <p>
+                    <hi rendition="#uu">Labiaten</hi> in <persName key="H0006228">Walpers</persName>
+                    <seg type="comment">
+                        <orig>Repertorium (1844–47.)</orig>
+                        <note xml:id="ngws_ygr_sx"><bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/N79BQP2X">Walpers 1842-1846</bibl>, IV-VI.</note>
+                    </seg> – <hi rendition="#u">2184</hi>
+                    <lb/>(<persName key="H0012873">Decandolle</persName> ist noch nicht
+                        erschienen.)<note hand="#humboldt" place="right">nach Bentham 2393 <choice>
+                            <abbr>Lab</abbr>
+                            <expan>Labiaten</expan>
+                        </choice>
+                    </note>
+                    <table cols="3" rows="">
+                        <row>
+                            <cell>
+                                <hi rendition="#uu">Leguminosen</hi>
+                            </cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>in <persName key="H0012873"><choice>
+                                        <abbr>Decand.</abbr>
+                                        <expan>De Candolle</expan>
+                                    </choice></persName>
+                                <seg type="comment">
+                                    <orig><choice>
+                                            <abbr>Prod.</abbr>
+                                            <expan>Prodromus</expan>
+                                        </choice> (1825)</orig>
+                                    <note xml:id="nrrh_rhr_sx"><bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/6ZR5F4D5/q/Prodromus">Candolle 1824-1873</bibl>, II.</note>
+                                </seg> ————</cell>
+                            <cell>4104 Arten</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>in <persName key="H0006228">Walpers</persName>
+                                <seg type="comment">
+                                    <orig><choice>
+                                            <abbr>Rep.</abbr>
+                                            <expan>Repertorium</expan>
+                                        </choice> (1842–46.)</orig>
+                                    <note xml:id="nqc4_mgr_sx"><bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/N79BQP2X">Walpers 1842-1846</bibl>, I-VI.</note>
+                                </seg> ———</cell>
+                            <cell>
+                                <hi rendition="#u">3964 Arten</hi>
+                            </cell>
+                            <cell>
+                                <hi rendition="#u">8068.</hi>
+                            </cell>
+                        </row>
+                    </table>
+                    <table cols="3" rows="">
+                        <row>
+                            <cell>
+                                <hi rendition="#uu">Umbelliferen</hi>
+                            </cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>in <persName key="H0012873"><choice>
+                                        <abbr>DeC.</abbr>
+                                        <expan>De Candolle</expan>
+                                    </choice></persName>
+                                <seg type="comment">
+                                    <orig><choice>
+                                            <abbr>Prod.</abbr>
+                                            <expan>Prodromus</expan>
+                                        </choice> (1830)</orig>
+                                    <note xml:id="npcs_xhr_sx"><bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/6ZR5F4D5/q/Prodromus">Candolle 1824-1873</bibl>, IV.</note>
+                                </seg> ————</cell>
+                            <cell>997.</cell>
+                            <cell>
+                                <note hand="#humboldt" place="right">258.</note>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>in <choice>
+                                    <persName key="H0006228"><abbr>Walp.</abbr><expan>Walpers</expan></persName>
+                                </choice>
+                                <seg type="comment">
+                                    <orig><choice>
+                                            <abbr>Rep.</abbr>
+                                            <expan>Repertorium</expan>
+                                        </choice> (1843–46.)</orig>
+                                    <note xml:id="naft_3gr_sx"><bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/N79BQP2X">Walpers 1842-1846</bibl>, II-VI</note>
+                                </seg>. ————</cell>
+                            <cell>
+                                <hi rendition="#u">618.</hi>
+                            </cell>
+                            <cell>
+                                <hi rendition="#u">1615.</hi>
+                            </cell>
+                        </row>
+                    </table>
+                </p>
+                <p>Das Vaterland von Selinum decipiens <persName key="H0015671">
+                        <choice>
+                            <abbr>Schrad.</abbr>
+                            <expan>Schrader</expan>
+                        </choice>
+                    </persName> et <persName key="H0006320">
+                        <choice>
+                            <abbr>Wendl.</abbr>
+                            <expan>Wendland</expan>
+                        </choice>
+                    </persName>
+                    <lb/>(jetzt Melanoselinum decipiens <persName key="H0011940">
+                        <choice>
+                            <abbr>Hoff<ex>.</ex>
+                            </abbr>
+                            <expan>Hoffmann</expan>
+                        </choice>
+                    </persName>) ist un<g ref="#typoHyphen"/><lb break="no"/>bekannt. Vielleicht von den
+                        <placeName key="H0000346">Kanarischen Inseln</placeName>.)<note hand="#author" place="mBottom"><metamark/>Das im <rs type="org" key="H0000532">Garten</rs> befindliche Exemplar hat höchstens
+                        einen 1½ Fuß hohen Stamm.</note>
+                    <lb/>Andre Baumdolden kenne ich nicht. Strauchartige <lb/>sind Bupleurum
+                    (Tenoria <persName key="H0016017">
+                        <choice>
+                            <abbr>Spr.</abbr>
+                            <expan>Sprengel</expan>
+                        </choice>
+                    </persName>) fruticosum <persName key="H0004551">
+                        <choice>
+                            <abbr>L</abbr>
+                            <expan>Linné</expan>
+                        </choice>
+                    </persName>
+                    <lb/>
+                    <note hand="#humboldt" place="right">c<pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677F00000003"/>
+                    </note>von den Ufern des <placeName key="H0008895">mittelländischen Meeres</placeName>, Hetero<g ref="#typoHyphen"/><lb break="no"/>morpha arborescens <persName key="H0012990">
+                        <choice>
+                            <abbr>Cham.</abbr>
+                            <expan>Chamisso</expan>
+                        </choice></persName> et<persName key="H0015558">
+                        <choice>
+                            <abbr>Schl.</abbr>
+                            <expan>Schlechtendal</expan>
+                        </choice>
+                    </persName> vom <rs type="place" key="H0000355">Cap</rs>, <lb/>Crithmum
+                    maritimum <persName key="H0004551">
+                        <choice>
+                            <abbr>L.</abbr>
+                            <expan>Linné</expan>
+                        </choice>
+                    </persName> am Seestrande <lb/>ein Halbstrauch. Bubon Galbanum und gummi<g ref="#typoHyphen"/><lb break="no"/>ferum <persName key="H0004551">
+                        <choice>
+                            <abbr>L.</abbr>
+                            <expan>Linné</expan>
+                        </choice>
+                    </persName> sind beides Sträucher und am <rs type="place" key="H0000355">Cap</rs>
+                    <lb/>zu Hause. Ferula, Heracleum und Thapsia <lb/>werden sehr hoch, sind aber
+                    Stauden.</p>
+                <p>Ich kenne keine Aloe mit candelaberartiger <lb/>Verästelung, auch in <seg type="comment">
+                        <orig>
+                            <persName key="H0004274"> Lamarck </persName>
+                        </orig>
+                        <note xml:id="nv4f_gcr_gx">
+                            <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/NPNV6RBT/q/lamarck/qmode/everything">Lamarck/Poiret 1783-1817</bibl>.</note>
+                    </seg> finde ich darüber <lb/>nichts. Aloe plicatilis <persName key="H0014227">
+                        <choice>
+                            <abbr>Mill.</abbr>
+                            <expan>Miller</expan>
+                        </choice>
+                    </persName> und <choice>
+                        <abbr>A.</abbr>
+                        <expan>Aloe</expan>
+                    </choice> dichotoma <persName key="H0004551">
+                        <choice>
+                            <abbr>L.</abbr>
+                            <expan>Linné</expan>
+                        </choice>
+                    </persName>
+                    <lb/>bilden das ehemalige <persName key="H0006403">Willdenowsche</persName> genus <lb/>Rhipidodendrum; <choice>
+                        <sic>ihr</sic>
+                        <corr cert="high">Ihr</corr>
+                    </choice> caulis ist arboreus, <lb/>dichtomo-ramofus. Bei Aloe arborenscens
+                    <lb/>und africana <persName key="H0014227">
+                        <choice>
+                            <abbr>Mill.</abbr>
+                            <expan>Miller</expan>
+                        </choice>
+                    </persName> erreicht der (einfache) <lb/>Stamm die Höhe von 7–8 Fuß.</p>
+                <p>Candelaberartig würde ich den Blüthenschaft <lb/>von Agava americana nennen, er
+                    ist in <lb/>
+                    <persName key="H0003660">Mirbels </persName>
+                    <seg type="comment">
+                        <orig>Elemens de <choice>
+                                <abbr>bot.</abbr>
+                                <expan>botanique</expan>
+                            </choice></orig>
+                        <note xml:id="nltk_cyq_sx">Vgl. den Tafelband zu <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/8RX5TSV3">Brisseau 1815</bibl>, Planche 6.</note>
+                    </seg> abgebildet. Wenn ich <lb/>nicht irre, hat zuweilen auch <choice>
+                        <orig>Auraucaria</orig>
+                        <reg>Araucaria</reg>
+                    </choice>
+                    <lb/>dieses Ansehen.</p>
+                <p>
+                    <pb n="2v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677F00000004"/>
+                    <note hand="#humboldt" place="left">d</note>4.) Nach meiner Ansicht können
+                    Phyllodia (Blatt<g ref="#typoHyphen"/><lb break="no"/>stielblätter) blos in
+                    Familien vorkommen,<lb break="no"/>welche folia composita haben, und in der That
+                    <lb/>hat man sie bis jetzt blos bei den Leguminosen <lb/>(Acacia) angetroffen.
+                        <note hand="#humboldt" place="left">
+                        <seg type="comment">
+                            <orig>Neue Kunth</orig>
+                            <note xml:id="no5g_h2r_gx">
+                                <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/D37WFUS6">Kunth 1847</bibl>, I.</note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>pagina</expan>
+                        </choice> 214 <seg type="comment">
+                            <orig>
+                                <persName key="H0005935">Endlicher</persName>
+                            </orig>
+                            <note xml:id="nzgm_r2r_gx">
+                                <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/WA9BRUNP/q/endlicher/qmode/everything">Endlicher/Unger 1843</bibl>.</note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>pagina</expan>
+                        </choice> 110 Darwin <choice>
+                            <abbr>p</abbr>
+                            <expan>pagina</expan>
+                        </choice> 433 <seg type="comment">
+                            <orig>Jussieu</orig>
+                            <note xml:id="nez1_zfr_gx">
+                                <bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/NFN8X76V/q/jussieu/qmode/everything">Jussieu, Ad 1844</bibl>.</note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>pagina</expan>
+                        </choice> 107. 700 <choice>
+                            <abbr>p</abbr>
+                            <expan>pagina</expan>
+                        </choice> 120 § 141 <metamark function="used" spanTo="#byx_5cr_gx"/>
+                        <choice>
+                            <abbr>Escall</abbr>
+                            <expan>Escallonia</expan>
+                        </choice>
+                        <choice>
+                            <abbr>v</abbr>
+                            <expan>von</expan>
+                        </choice>
+                        <seg type="comment">
+                            <orig><persName key="H0015387"><choice>
+                                        <abbr>Aug</abbr>
+                                        <expan>Augustin</expan>
+                                    </choice>
+                                    <choice>
+                                        <abbr>St Hil</abbr>
+                                        <expan>Saint-Hilare</expan>
+                                    </choice></persName></orig>
+                            <note xml:id="nifn_l2l_sx"><bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/U79UQEQP">Saint-Hilaire, A. 1840</bibl>.</note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 52<supplied cert="high">.</supplied> Eigene Familie <seg type="comment">
+                            <orig><persName key="H0003693">Brown</persName>
+                                <persName key="H0000226">Franklin</persName></orig>
+                            <note xml:id="nxkv_hjl_sx"><bibl sameAs="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/ZBXUFTMN">Franklin 1823</bibl>, 766.</note>
+                        </seg> Kunth <seg type="comment">
+                            <orig>
+                                <choice>
+                                    <abbr>Spec</abbr>
+                                    <expan>Species</expan>
+                                </choice>
+                            </orig>
+                            <note xml:id="nk1y_15r_gx"><ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/6A9ZSS73">Humboldt/BonplandKunth 1815-1825</ref></note>
+                        </seg> II 335 III 36.<anchor type="used" xml:id="byx_5cr_gx"/>
+                    </note> Bei Eucalyptus und <lb/>Metrosideros <add place="superlinear">und
+                        Melaleuca</add> sind die Blätter simplicia und <lb/>ihre Stellung auf der
+                    Schneide rührt von einer <lb/>halben Drehung des Blattstiels her; dabei ist
+                    <lb/>zu bemerken, daß beide Blattflächen von gleicher <lb/>Beschaffenheit sind.
+                        <persName key="H0004222">Jussieu</persName> sagt <add place="superlinear">ganz richtig</add> daß eine <lb/>verticale Stellung
+                    sowohl bei Phyllodia als <lb/>bei eigentlichen Blättern vorkommen, ohne weder
+                    <lb/>der Myrtaceen noch der Gattung Acacia zu <lb/>erwähnen.</p>
+                <p>Ich brauche wohl nicht von neuem zu versichern, <lb/>wie gern ich Ihnen,
+                    hochverehrter Wohlthäter, <lb/>jederzeit zu Diensten stehe.</p>
+                <closer rend="paragraph">
+                    <salute>Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</salute>
+                    <signed>CKunth.</signed>
+                </closer>
+            </div>
+            <postscript>
+                <p>
+                    <rs type="person" key="H0001516">Meine Frau</rs> empfielt sich <lb/>der
+                    Fortdauer Ihrer hohen <lb/>Gewogenheit ganz ergebenst.</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002242" oldID="avhr_i31_s3j_sv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März
+                    1829 </title>
+
+            <editor>
+                <persName ref="http://d-nb.info/gnd/129271195">
+                    <surname>Werner</surname>
+                    <forename>Petra</forename>
+                </persName>
+            </editor>
+            <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin, Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 827 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 19,90 cm , B: 12,40 cm; Wasserzeichen: J. Whatman, Turkey Mill
+                            1828</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date when="1829-03-11" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Sie würden mir nicht <lb/>bloß ein thätiger <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>kenntnißreicher, sondern <lb/>auch ein angenehmer <seg type="comment">
+                        <orig>
+                            <lb/>Begleiter</orig>
+                        <note xml:id="nfvv_vkj_sv">Meyen hatte sich offensichtlich als Begleiter für
+                            Humboldts Russlandreise beworben. Wie Humboldt acht Tage zuvor an Karl
+                            Christian Gmelin schrieb, wurde er mit <quote>vielen ehrenvollen
+                                Anträgen […] aus allen Theilen <placeName key="H0005696">Europa</placeName>’s (seit 4 Monathen)</quote> bedrängt und war
+                            sich darüber klar, unfreundlich zu erscheinen. So war ihm u. a.
+                            Alexander <persName key="H0003603">Braun</persName> empfohlen worden, der gerade in <placeName key="H0006823">Heidelberg</placeName>
+                            sein Studium der Medizin und Naturwissenschaften mit Schwerpunkt Botanik
+                            abgeschlossen hatte. Bemerkenswert ist, dass Humboldt die von ihm so
+                            erwünschte und ersehnte Russlandreise gegenüber Gmelin als
+                                <quote>übrigens ziemlich unwichtige (…) Sommerreise nach dem
+                                    <placeName key="H0009659">Ural</placeName> und <placeName key="H0006725">Irtysch</placeName>
+                                (nicht nach dem <placeName key="H0000394">Caucasus</placeName>)</quote> bezeichnete. Vgl. <ref target="avhr_ixp_5fr_dw">Alexander von Humboldt an Karl Christian
+                                Gmelin. Berlin, 03. März 1829</ref>.</note>
+                    </seg> sein; aber <lb/>wie können Sie glau<lb break="no"/>ben, theurester Herr
+                        Doc<lb break="no"/>tor, daß zu einer schon <lb/>seit 2 Jahren beschlos<g ref="#typoHyphen"/><lb break="no"/>senen Reise nicht <lb/>schon alles besezt
+                    <lb/>sei? Ich kann nur <lb/>2 Personen mitnehmen<supplied cert="high">,</supplied>
+                    <lb/>
+                    <choice>
+                        <abbr>Prof</abbr>
+                        <expan>Professor</expan>
+                    </choice>
+                    <persName key="H0001040">Rose</persName> und <choice>
+                        <abbr>D</abbr>
+                        <expan>Doktor</expan>
+                    </choice>
+                    <persName key="H0005875">Eh<g ref="#typoHyphen"/><lb break="no"/>renberg</persName>. Es wird mich <lb/>freuen wenn ich
+                    <lb/>Gelegenheit fände, auf <lb/>andere Weise Ihre <lb/>lobenswerthen Zwekke zu
+                    <lb/>unterstüzen. Sie wissen <lb/>wie sehr ich Sie hochschäze.</p>
+                <closer>
+                    <salute/>
+                    <signed> AlHumboldt </signed>
+                    <dateline>
+                        <choice>
+                            <abbr>B</abbr>
+                            <expan>Berlin</expan>
+                        </choice> 11 Merz  <lb/>1829</dateline>
+                </closer>
+                <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

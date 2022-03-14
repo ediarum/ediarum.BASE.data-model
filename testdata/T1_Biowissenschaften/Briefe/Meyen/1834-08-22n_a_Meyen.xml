@@ -1,0 +1,110 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002240" oldID="avhr_oxh_pjg_1w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach 22.
+                    August 1834</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin,
+                            Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 821 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 22,40 cm , B: 13,50 cm</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1834-08-23" notAfter="1835-08-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Was ich von einer wirksamen Anerkennung  <lb/>Ihnen schrieb,
+                    theurester Professor,  <lb/>bezog sich allerdings auf die Schritte  <lb/>und
+                    Empfehlung die ich bei dem  <lb/>Ministerium erneuert. Wie soll ich  <lb/>Ihnen
+                    aber überhaupt Rath geben  <lb/>da für eine andere Cariere alles  <lb/>verspätet
+                    ist, da in dem Cabinett  <lb/>alles Unmittelbar eingeleitete zurük<g ref="#typoHyphen"/><lb break="no"/>gewiesen wird und ich selbst ohne
+                    <lb/>alle Spur von Wirksamkeit bin<supplied cert="high">.</supplied>
+                    <lb/>Das ist in solchen Fällen der  <lb/>Anklang meines Schmerzes. </p>
+                <closer>
+                    <salute/>
+                    <signed> AHt. </signed>
+                </closer>
+                <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="2r"/><gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="2v"/>
+            </div>
+            <div>
+                    <p>
+                    <address>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren  <lb/>Herrn Professor Meyen  <lb/>Friedrichstraße
+                            n 81. </addrLine>
+                    </address>
+                    </p>
+                </div>
+
+        </body>
+    </text>
+</TEI>

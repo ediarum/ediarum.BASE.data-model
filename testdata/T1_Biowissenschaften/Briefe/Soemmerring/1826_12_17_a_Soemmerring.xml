@@ -1,0 +1,123 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002728" oldID="prov_f2q_mcn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Samuel Thomas Soemmerring. [Frankfurt am Main, 17.
+                    Dezember 1826]</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift  / Frankfurter Goethe-Museum,
+                            Frankfurt am Main</institution>
+                        <repository>Handschriftensammlung</repository>
+                        <idno>Hs-5050 </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <date when="1826-12-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0015944">Soemmerring, Samuel Thomas Ritter von (1755–1830)
+                    </persName>
+                </correspAction>
+                <note>Die Datierung richtet sich nach Humboldts Aufenthalt in Frankfurt am Main auf
+                    der Rückkreise von Berlin nach Paris im Winter 1826. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="align(right)"/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Ein Hauptzwek meines Aufenthalts <lb/>in <placeName key="H0004798">Francfurth</placeName>, ich möchte sagen der einzige,
+                    <lb/>ist der Wunsch, <hi rendition="#uu">Ihnen</hi>
+                    <lb/>Verehrungswerther Freund, einmal <choice>
+                        <sic>wider</sic>
+                        <corr cert="high">wieder</corr>
+                    </choice>
+                    <lb/>persönlich den Ausdruk meiner Be<g ref="#typoHyphen"/><lb break="no"/>wunderung und Anhänglichkeit dar<lb break="no"/>zubringen.
+                    Erlauben Sie mir dass <lb/>ich um zwölf Uhr (<choice>
+                        <abbr>od.</abbr>
+                        <expan>oder</expan>
+                    </choice> zwi<lb break="no"/>schen 12–1 Uhr) Sie auf einige <lb/>Stunden besuche
+                    und bei Ihnen <lb/>fern von allem Eisen, im <lb/>Garten <choice>
+                        <abbr>od.</abbr>
+                        <expan>oder</expan>
+                    </choice> Felde, die <choice>
+                        <abbr>Magnet.</abbr>
+                        <expan>Magnetische</expan>
+                    </choice>
+                    <lb/>Inclination bestimme. Ich stelle <lb/>Ihnen dann auch meinen <lb/>braven
+                    jungen Freund, <rs type="person" key="H0002750">Valenciennes</rs>, Aide
+                    <lb/>naturaliste au <orgName key="H0000553">Jardin des Plantes</orgName>
+                    <lb/>
+                    <pb n="1v"/>vor, der mit <rs type="person" key="H0013277">Cuvier</rs> ein grosses <lb/>Fischwerk herausgiebt und <lb/>sehr angenehm
+                    und bescheiden <lb/>ist. Werden Sie mich noch <lb/>widerkennen?</p>
+                <signed>Al. Humboldt</signed>
+                <postscript>
+                    <p>Ich reise in der Nacht<address>
+                            <addrLine>
+                                <choice>
+                                    <abbr>
+                                        <pb n="2v"/>
+                                    </abbr>
+                                    <abbr>Sr</abbr>
+                                    <expan>Seiner</expan>
+                                </choice> Hochwohlgeboren</addrLine>
+                            <addrLine>Dem Herrn <choice>
+                                    <abbr>Geh.</abbr>
+                                    <expan>Geheim</expan>
+                                </choice> Rath</addrLine>
+                            <addrLine>von Sömmering.</addrLine>
+                        </address>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

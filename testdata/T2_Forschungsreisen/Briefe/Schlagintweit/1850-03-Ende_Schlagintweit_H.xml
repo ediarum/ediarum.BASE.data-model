@@ -1,0 +1,84 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_hgd_tj5_4cb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Hermann Schlagintweit. [o. O., Ende März
+                    1850]</title>
+                <?oxy_comment_start author="lmartin" timestamp="20180119T104532+0100" comment="Einmal kollationiert mit UP"?>
+            </titleStmt>
+            <?oxy_comment_end?>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Humboldt-Schloss Tegel</institution>
+                        <collection>Archiv des Humboldt-Schlosses Tegel</collection>
+                        <idno/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <date notBefore="1850-03-20" notAfter="1850-03-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <pb n="1r"/>
+              
+				<p>Es ist weniger anhaltendes Unwohlsein <lb/>als ein unglücklicher, schwer zu
+                    <lb/>überwindender Drang von Beschäftigungen, <lb/>der mich gehindert hat, das
+                    mir <lb/>so theure Bruderpaar zu sehen. <lb/>Kommen Sie beide freundlichst
+                    <lb/>Sonnabend um 1 Uhr. Ich nehme <lb/>dankbar, aber beschämt, Ihre Zuneigung
+                    <lb/>gern an. Der <persName key="H0002178">König</persName>, dem ich mehr<g ref="#typoHyphen"/><lb break="no"/>mals von Ihren schönen Arbeiten
+                    <lb/>gesprochen, und der die <placeName key="H0002402">Bergkette</placeName>
+                    liebt, <lb/>die Sie erforscht, würde allerdings Sie <lb/>empfangen und den
+                    Anfang des <choice>
+                        <sic>wichtige</sic>
+                        <corr cert="high">wichtigen</corr>
+                    </choice>
+                    <lb/>Werkes sehen, aber er geht Sonntag <lb/>nach <placeName key="H0008392">Potsdam</placeName>, bleibt dort ganz einsam <lb/><choice>
+                        <abbr><add place="left">u.</add></abbr>
+                        <expan><add place="left">und</add></expan>
+                    </choice>
+                    <gap unit="words" quantity="1" reason="illegible"/> in der Charwoche, da er
+                    <lb/>das Abendmal nimmt, also wäre <lb/>Er nur in den ersten Tagen des
+                    <lb/>April zu sehen<supplied cert="high">.</supplied> Ich werde alles <lb/>thun,
+                    was Sie wünschen, meine <lb/>lieben Freunde und Ihnen beiden <lb/>auch
+                    unmittelbar einen Brief <lb/>an den <persName key="H0003163">König von
+                        Baiern</persName> anbieten <lb/>in dem ich sage, was wir <del rendition="#s"><gap quantity="1" unit="words"/></del> Ihnen <lb/>und Ihrem <persName key="H0015552">Bruder</persName> verdanken. Der <lb/><add place="left">gerechte</add> politische Mismuth sollte mich <lb/>fast davon abhalten,
+                    aber wenn <lb/>ich mit Recht hoffen darf, <hi rendition="#uu">Ihnen</hi>
+                    <lb/>nüzlich zu werden, so ver<g ref="#typoHyphen"/><lb break="no"/>schwindet
+                    jede andere Berachtung<supplied cert="high">.</supplied><lb/>Ueber dieses alles
+                    sprechen wir <lb/>Sonnabend, mein theurer Hermann <lb/>Schlagintweit. Grüssen
+                    Sie <lb/>herzlich Ihren vortreflichen <lb/><persName key="H0015552">Bruder</persName>. </p>
+				<closer>
+					<salute>Ihr </salute>
+					<signed>AlHumboldt</signed>
+				</closer>
+                <pb n="1v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

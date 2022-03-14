@@ -1,0 +1,110 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0006508" oldID="avhr_pq1_h3g_1w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonntag,
+                    1833</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/129271195">
+                        <surname>Werner</surname>
+                        <forename>Petra</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/1017902623">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin,
+                            Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>IV 74, 826 Q</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 20,20 cm , B: 13,60 cm</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1833-07-01" notAfter="1833-08-02" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0014181">Meyen, Franz Julius Ferdinand
+                        (1804-1840)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Datierung nach Briefen von Wilhelm von Humboldt, der etwa ab 2.
+                    August 1833 nach Norderney gereist war. Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/68UB4XWG">Sydow
+                        1916</ref>, 372. Meyen erwähnte dieses Gespräch später in seinem Reisewerk
+                    in Abhandlung Nr. 3, vgl. <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/7BETSW9C">Meyen
+                        1834</ref>, 14.</note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <p>
+                    <pb n="1r"/>Ich wünschte, theurester Herr Doctor<supplied cert="high">,</supplied>
+                    <lb/>die Freude zu haben Sie einmal <lb/>wieder zu sehen, und meinem <rs type="person" key="H0012068">Bruder</rs><supplied cert="high">,</supplied>
+                    <lb/>der in 8 Tagen <placeName key="H0005221">Berlin</placeName>
+                        verlässt<supplied cert="high">,</supplied>
+                    <lb/>dieselbe Freude zu verschaffen. <lb/>Kommen Sie gütigst morgen Montag
+                    <lb/>nach 9 Uhr zu mir so führe <lb/>ich Sie zu meinem <rs type="person" key="H0012068">Bruder</rs>. <lb/>Vielleicht können Sie ihm
+                    etwas <lb/>über Sprachen zeigen? </p>
+                <closer>
+                    <salute/>
+                    <signed>Ihr <lb/>AlHumboldt</signed>
+                    <dateline>Sonntag</dateline>
+                    <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+                    <pb n="2r"/><gap unit="pages" quantity="1" reason="empty"/>
+                </closer>
+                    <pb n="2v"/>
+            </div>
+            <div>
+                    <p>
+                    <address>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren  <lb/>Herrn Doctor Meyen</addrLine>
+                    </address>
+                    </p>
+                </div>
+        </body>
+    </text>
+</TEI>

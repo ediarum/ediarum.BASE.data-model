@@ -1,0 +1,65 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_qrk_wmg_2db">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Von Carl Sigismund Kunth an Alexander von Humboldt. Berlin, 26. März
+                    1833</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz,
+                            Berlin</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Darmstaedter Lb 1820, Kunth</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                    <date when="1833-03-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+					<salute><pb n="4r"/>Mein verehrter Gönner,</salute>
+                </opener>
+				<p>Ich habe leider Beechey's Reise nicht, <lb/>Sie machten mich aber vor geraumer <lb/>Zeit
+                    darauf aufmerksam und schrieben <lb/>mir: „Ich gebe so eben Arnotts
+                    <lb/>Bearbeitung der Reise von Cap. Beechey <lb/>der Bibliothek zurück.“ Dieses
+                    Briefchen <lb/>ist bis jetzt zur Erinnerung auf <lb/>meinem Tisch liegen
+                    geblieben, <lb/>weil ich mir das Werk kommen <pb n="4v"/> lassen wollte, was
+                    aber unter <lb/>blieben ist.</p>
+                <p>Für den neusten Band der <lb/>Leopoldinischen Schriften statte <lb/>ich meinen
+                    ergebensten Dank <lb/>ab.</p>
+				<closer>
+                    <salute>Mit inniger Verehrung <lb/>und Dankbarkeit</salute>
+                    <signed>Ihr <lb/>ergebenster <lb/>CKunth.</signed>
+                </closer>
+                <dateline>Berlin, <lb/><choice>
+                        <abbr>d.</abbr>
+                        <expan>den</expan>
+                    </choice> 26<supplied cert="high">.</supplied> März 1833.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

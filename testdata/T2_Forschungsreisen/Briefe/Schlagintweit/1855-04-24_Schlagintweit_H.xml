@@ -1,0 +1,268 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_anr_lgl_bdb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hermann Schlagintweit an Alexander von Humboldt. Darjeeling, 24. April
+                    1855</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Bayerische Staatsbibliothek</institution>
+                        <collection/>
+                        <idno>Schlagintweitiana II.1.43</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                    <placeName key="ed_tzh_sgl_bdb">Darjeeling [Darjiling, Dārjiliṃ, Dārjiling,
+                        rDo-rje Gling] (Ort im Vorder-Himalaya (Indien) zwischen Nepal und
+                        Bhutan)</placeName>
+                    <date when="1855-04-24" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession"><pb n="64r"/>
+                <opener>
+                    <dateline><placeName key="ed_tzh_sgl_bdb">Darjeeling</placeName><supplied cert="high">,</supplied> 24<supplied cert="high">.</supplied> April
+                        1855</dateline>
+                    <salute>Hochverehrteste Excellenz!</salute>
+                </opener>
+                <p>Nachdem wir unsere Reise <?oxy_comment_start author="lmartin" timestamp="20180315T151503+0100" comment="einmal kollationiert mit UP am 15.03.2018"?>durch<?oxy_comment_end?>
+                    <placeName key="H0006686">Central<g ref="#typoHyphen"/><lb break="no"/>indien</placeName> vollendet<supplied cert="high">,</supplied> ist es
+                    unsere angenehmste <lb/><hi rendition="#u">Pflicht</hi>, Ihnen einige
+                    Mittheilungen über <lb/>dieselbe zu machen; wir müssen dabei <lb/>vor allem mit
+                    dem besten Danke erwähnen <lb/>wie wichtig und werthvoll Ihre Briefe <lb/>uns
+                    waren. Überall wurden wir in <lb/><choice>
+                        <sic>folge</sic>
+                        <corr cert="high">Folge</corr>
+                    </choice> Ihrer warmen Theilnahme an <lb/>unseren Bestrebungen mit der grössten
+                    <lb/>Zuvorkom̅enheit aufgenom̅en und <lb/><pb n="64v"/>fanden stets alle Hülfe
+                    der Behörden <lb/>da wir zur Förderung unserer Beob<lb break="no"/>achtungen
+                    wünschen konnten.</p>
+                <p>Ihr Name ist hier so verehrt und <lb/>bekannt wie überall; selbst viele der
+                    <lb/>unterichtetereren Natives in den <lb/>Städten, überraschten uns sehr häufig
+                    <lb/>mit den speciellsten Erkundigungen <lb/>nach Ihnen, nachdem <subst>
+                        <del rendition="#s">Sie</del>
+                        <add place="intralinear">sie</add>
+                    </subst> ge<g ref="#typoHyphen"/><lb break="no"/>hört hatten dass wir aus
+                        Deutsch<g ref="#typoHyphen"/><lb break="no"/>land kamen.</p>
+                <p>Wir haben uns erlaubt an den <persName key="H0002178">König</persName>
+                    <lb/>nicht nur einen Bericht über die <lb/>Reise (vielleicht mit Ausnahme
+                    <lb/>des ersten und letzten Satzes <subst>
+                        <del rendition="#ow">die</del>
+                        <add place="intralinear">für <lb/>die</add>
+                    </subst>
+                    <orgName key="H0000544"><choice>
+                            <abbr>geogr.</abbr>
+                            <expan>geographische</expan>
+                        </choice> Gesellschaft</orgName> passend) <lb/><pb n="69r"/>sondern auch den
+                    officiellen Rapport <lb/>an die indische Regierung zu übersenden. <lb/>Aus
+                    diesem würden wir Sie bitten <lb/>der <orgName key="H0000569">Academie</orgName>
+                    aus III <gap unit="chars" quantity="1" reason="illegible"/>. jenen <lb/>Theil
+                    der sich auf die Abend<supplied cert="high">-</supplied> und Morgen<g ref="#typoHyphen"/><lb break="no"/>röthe bezieht, und aus Theil IV.
+                    <lb/>vielleicht ebenfalls einiges mitzutheilen. <lb/><choice>
+                        <abbr>D<hi rendition="#sup">r</hi></abbr>
+                        <expan>Doktor</expan>
+                    </choice>
+                    <?oxy_comment_start author="lmartin" timestamp="20180307T155210+0100" comment="noch unbekannt - nicht enthalten in Karteien / Adressbuch Humboldts"?>Rath<?oxy_comment_end?>
+                    oder
+                    <?oxy_comment_start author="lmartin" timestamp="20180307T155151+0100" comment="Heinrich Georg August oder Julius?"?>Ewald<?oxy_comment_end?>
+                    wird wohl so <lb/>gütig <supplied cert="high">sein</supplied> die Sachen zu
+                    übersetzen; <lb/>es war uns bei der grossen Mannigfaltig<g ref="#typoHyphen"/><lb break="no"/>keit der interssantesten Gegenstände<supplied cert="high">,</supplied>
+                    <lb/>die uns jeden Tag umgeben<supplied cert="high">,</supplied> nicht möglich
+                    <lb/>selbst die Übersetzung zu machen.</p>
+                <p>In Theil III <gap unit="chars" quantity="1" reason="lost"/>. finden Sie, wenn
+                    noch <lb/>mit der Unvollständigkeit die auf <lb/><pb n="69v"/>Reisen fast
+                    unmöglich zu vermeiden <lb/>ist, verschiedene Beobachtungen <lb/>über die
+                    Abendröthe, die zunächst durch <lb/>Ihre Anregung uns au<supplied cert="high">f</supplied>gefallen <lb/>sind. (Auch das Alpenglühen, <del rendition="#s">ist</del>
+                    <lb/>die seconde coloration, <del rendition="#s">ist hier <lb/>ganz ebenso
+                        zu</del> und das lang an<g ref="#typoHyphen"/><lb break="no"/>dauernde
+                    nächtliche Leuchten <lb/>des Schnees ist hier <supplied cert="high">in</supplied>
+                    <subst>
+                        <del rendition="#s">ebenso zu</del>
+                        <add place="superlinear"><placeName key="ed_tzh_sgl_bdb">Darjeeling</placeName><g ref="#typoHyphen"/><lb break="no"/></add>
+                    </subst><placeName key="H0000349">Kinchinjinga</placeName> ebenso zu sehen wie
+                    <lb/>wir es in den <placeName key="H0002402">Alpen</placeName> gefunden;
+                    <lb/>ich werde nächstens wieder einige <lb/>Zeilen, speciell über diesen Gegen<g ref="#typoHyphen"/><lb break="no"/>stand Ihnen senden<supplied cert="high">.</supplied>)</p>
+                <p>Nachdem diese kleinen Mittheilungen <lb/><pb n="65r"/>der <orgName key="H0000569">Academie</orgName> vorgelegt, würden wir <lb/>sehr bitten, verzeihen Sie
+                    diese <lb/>rasche Folge fast zu unbescheidener <lb/>Wünsche, das erstere
+                        <persName key="H0002047"><choice>
+                            <abbr>Prof</abbr>
+                            <expan>Professor</expan>
+                        </choice> Poggen<g ref="#typoHyphen"/><lb break="no"/>dorff</persName> für
+                    die <seg type="comment">
+                        <orig>Annalen</orig>
+                        <note xml:id="nt2d_5zy_bdb">Poggendorffs Annalen der Physik und Chemie. Eine
+                            regelmäßig von 1824 bis 1877 erscheinende Fachzeitschrift.</note>
+                    </seg>, das 2<hi rendition="#sup">te</hi> der
+                    <?oxy_comment_start author="lmartin" timestamp="20180307T132652+0100" comment="auszeichnen, Registereintrag speichern"?><lb/>geologischen
+                    Gesellschaft<?oxy_comment_end?> mitzutheilen<supplied cert="high">.</supplied></p>
+                <p>Wir waren auf das freudigste von <lb/>dem Beitrage überrascht den <persName key="H0002178"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Seine</expan>
+                        </choice>
+                        <choice>
+                            <abbr>M<supplied cert="high">.</supplied></abbr>
+                            <expan>Majestät</expan>
+                        </choice>
+                        <lb/>der König</persName> uns zusenden ließ. Wir bitten <lb/>dem Könige
+                    wiederholt unseren tief<g ref="#typoHyphen"/><lb break="no"/>gefühlten Dank
+                    auszusprechen. <lb/>Diese Sendung war uns gerade jetzt <lb/>sehr werthvoll indem
+                    vielleicht von ihr <lb/><pb n="65v"/>die Möglichkeit nach <placeName key="H0010238">Sikkim</placeName> und dem <lb/><placeName key="H0000349">Kinchinjinga</placeName> zu kommen wesentlich <lb/>abhängt.</p>
+                <p>Unsere Pläne sind nemlich folgende<supplied cert="high">:</supplied>
+                    <lb/><persName key="H0015551">Meine beiden Brüder</persName> haben vor während
+                    <lb/>des Sommers zunächst <placeName key="H0000500">Kamaon</placeName>
+                    <lb/>und <placeName key="ed_cwj_xpp_tcb">Gurwal</placeName> zu besuchen und
+                    gegen <lb/>Ende des Sommers wo möglich <lb/>über die Pässe an der Westgrenze
+                        <lb/><placeName key="H0001596">Nepals</placeName> nach <placeName key="ed_hvs_3xz_zcb">Katmandu</placeName> zu gehen<supplied cert="high">.</supplied>
+                    <lb/>Der letztere Theil ihrer Reise ist <lb/>nicht ganz bestimmt festgestellt
+                    <lb/>doch sind vom indischen Gouverne<g ref="#typoHyphen"/><lb break="no"/>ment
+                    bereits sehr specielle Vor<g ref="#typoHyphen"/><lb break="no"/>schläge an die
+                    nepaulesische <lb/>Regierung gemacht worden<supplied cert="high">.</supplied></p>
+                <p>Ich selbst bin bereits <subst>
+                        <del rendition="#s">nach</del>
+                        <add place="intralinear">am</add>
+                    </subst>
+                    <lb/>
+                    <pb n="66r"/>3<hi rendition="#sup">ten</hi> April nach <placeName key="ed_tzh_sgl_bdb">Darjeeling</placeName> abgereist <lb/>und werde
+                    versuchen von da nach <lb/><placeName key="H0010238">Sikkim</placeName> zu
+                    gehen. Der <?oxy_comment_start author="lmartin" timestamp="20180312T152735+0100" comment="keine näheren Angaben - unbekannt"?>Raja<?oxy_comment_end?>
+                    <lb/>hat die erste Anfrage der Regierung <lb/>wie ich erst hier in <placeName key="ed_tzh_sgl_bdb">Darjeeling</placeName>
+                    <lb/>erfuhr entschieden mit Nein <lb/>beantwortet. Ich schlug jedoch <lb/>jetzt
+                    vor, zunächst durch <persName key="H0012858"><choice>
+                            <abbr>D<hi rendition="#sup">r</hi></abbr>
+                            <expan>Doktor</expan>
+                        </choice> Camp<g ref="#typoHyphen"/><lb break="no"/>bell</persName>, den
+                    Residenten in <subst>
+                        <del rendition="#s"><placeName key="H0010238">Sikkim</placeName></del>
+                        <lb/>
+                        <add place="intralinear"><placeName key="ed_tzh_sgl_bdb">Darjeeling</placeName></add>
+                    </subst>, nur direct an den Fuss <lb/>des <placeName key="H0000349">Kinchinjinga</placeName> zu gehen. <note place="left" hand="#author">Ich
+                        bitte dieses nicht weiter mit<g ref="#typoHyphen"/><lb break="no"/>zutheilen
+                        bis es glücklichen <lb/><unclear reason="illegible" cert="high">Erfolg</unclear> gehabt hat<supplied cert="high">.</supplied></note>Zu<g ref="#typoHyphen"/><lb break="no"/>gleich wird es
+                    ganz unvermeidlich <lb/>sein, wie wir bereits angedeutet<supplied cert="high">,</supplied>
+                    <lb/>wurde den Beamten des Raja <lb/>oder vielmehr indirect ihm selbst
+                    <lb/>bedeutende Geschenke bis zum <lb/><pb n="66v"/>Betrage von etwa 2000 Rupien
+                    <lb/>à 20
+                    <?oxy_comment_start author="lmartin" timestamp="20180315T145639+0100" comment="Silbergroschen?"?>Sgr<?oxy_comment_end?>
+                    zu machen, um unter<g ref="#typoHyphen"/><lb break="no"/>wegs nicht aufge<subst>
+                        <del rendition="#s">f</del>
+                        <add place="intralinear">h</add>
+                    </subst>alten zu werden<supplied cert="high">.</supplied>
+                    <lb/>Diess wird zunächst von dem vom <lb/><persName key="H0002178">Könige</persName> zu erhaltenden Beitrage <lb/>zu bezahlen sein. Leider
+                    wird uns <lb/>diess auch nöthigen uns in nicht <lb/>zu ferner Zeit wiederholt um
+                    eine <lb/>Goldsendung nach <placeName key="H0005221">Berlin</placeName> zu
+                    <lb/>senden. Dürften wir hoffen dass <lb/>Ihre gütige Vermittlung auch dieses
+                    <lb/>mal uns unterstützen wird<choice>
+                        <sic>.</sic>
+                        <corr cert="high">?</corr>
+                    </choice></p>
+                <p><pb n="67r"/>Unsere Sammlungen<subst>
+                        <del rendition="rendition_mfj_dcg_2db">, </del>
+                        <del rendition="#s">war</del>
+                        <add place="intralinear">bestehen</add>
+                    </subst>
+                    <lb/>vorzugsweise in <subst>
+                        <del rendition="#s">geologischen Hand<g ref="#typoHyphen"/><lb break="no"/>Gegenstän</del>
+                        <add place="intralinear">Felsarten und Versteinerungen</add>
+                    </subst>
+                    <lb/>und in einer ziemlich vollständigen <lb/><unclear reason="illegible" cert="high">F</unclear> Reihe aller characteristischen <lb/>Fluss<supplied cert="high">-</supplied> und Quellwasser, die wir <lb/>auf unserer Reise
+                    durch <placeName key="H0006686">Indien</placeName>
+                    <lb/>fanden. Sie wird in Glasflaschen <lb/>mit eingeriebenen Stöpseln und
+                    <lb/>gut versiegelt, <del rendition="#s">ein sehr interessantes <lb/>Mat</del>
+                    wie wir glauben, für spätere <lb/>Analyse ausreichend gesichert<supplied cert="high">.</supplied>
+                    <lb/>Unter den etnographischen Gegen<g ref="#typoHyphen"/><lb break="no"/>ständen dürften vielleicht besonders <lb/>die Photographien und Abgüsse
+                    <lb/>der Gesichter in Gips zu erwähnen <lb/><pb n="67v"/>sein. Alles bis jetzt
+                    gesam̅elte <lb/>Material liegt im <?oxy_comment_start author="lmartin" timestamp="20180312T153041+0100" comment="ebenfalls auszeichnen oder fest stehender Begriff?"?>Surveyor<?oxy_comment_end?>
+                    <lb/>Generals office <subst>
+                        <del rendition="rendition_txh_xcg_2db">(</del>
+                        <del rendition="#s">an das wir auch</del>
+                        <lb/>
+                        <add place="intralinear">in <placeName key="H0016218">Calcutta</placeName></add>
+                    </subst> und wird später mit <lb/>jenem aus dem Himalaya zusammen <lb/>nach
+                    Europa geschickt.</p>
+                <p>Dürften wir hoffen dass Sie <lb/>uns auch die ferne das Wohlwollen <lb/>und die
+                    Theilnahme bewahren, die <lb/>seit <subst>
+                        <del rendition="#s">dem Beginner</del>
+                        <add place="superlinear">unserer</add>
+                    </subst> ersten wissenschaft<g ref="#typoHyphen"/><lb break="no"/>lichen
+                    Versuchen unsere wesentliche <lb/>Stütze war und die uns stets die <lb/>schönste
+                        Erin<supplied cert="high">n</supplied>erung unseres Lebens <lb/>bleiben
+                    wird. Ich wage kaum hinzu<g ref="#typoHyphen"/><lb break="no"/>zufügen wie <subst>
+                        <del rendition="#s">wir</del>
+                        <add place="intralinear">sehr</add>
+                    </subst> wir durch einige <lb/>wenn auch noch so kleine Mittheilung<supplied cert="high">en</supplied>
+                    <lb/><pb n="68r"/>von Ihrer Hand erfreut wären<supplied cert="high">.</supplied></p>
+                <p>(Addresse <del rendition="#s">(</del> Surveyor
+                    <?oxy_comment_start author="lmartin" timestamp="20180315T150500+0100" comment="noch auszeichnen?"?>Generals<?oxy_comment_end?>
+                    office <lb/><placeName key="H0016218">Calcutta</placeName>).</p>
+                <closer>
+                    <salute>Mit dem Ausdrucke unbegrenzter <lb/>Verehrung und Hochachtung</salute>
+                    <salute>Euer Excellenz</salute>
+                    <salute>ganz dankbarst ergebener</salute>
+                    <signed><choice>
+                            <abbr>H.</abbr>
+                            <expan>Hermann</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Schlgtwt.</abbr>
+                            <expan>Schlagintweit</expan>
+                        </choice><address>
+                            <addrLine><choice>
+                                    <abbr>S<hi rendition="#sup">r</hi></abbr>
+                                    <expan>Seiner</expan>
+                                </choice> Excellenz</addrLine>
+                            <addrLine>H<hi rendition="#sup">err</hi>
+                                <choice>
+                                    <abbr>Bron</abbr>
+                                    <expan>Baron</expan>
+                                </choice> Humboldt</addrLine>
+                            <addrLine><choice>
+                                    <abbr>etc</abbr>
+                                    <expan>et cetera</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>etc</abbr>
+                                    <expan>et cetera</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>etc</abbr>
+                                    <expan>et cetera</expan>
+                                </choice> Berlin<lb/><pb n="68v"/><gap unit="pages" quantity="1" reason="empty"/></addrLine>
+                            <?oxy_comment_start author="lmartin" timestamp="20180307T113949+0100" comment="Bl.70r: Es folgt ein aufmontierter Briefumschlag(?) mit Humboldts Hand mit dem Text:
+II
+Calcutta
+Wichtiger Brief des Präsid. of the Royal soc.
+über Zustände von Darjeeling
+u Nepaul 16 März 1855
+
+Es ist unklar, ob dieser Teil dieses oder des folgenden Briefes ist."?>
+                            <addrLine><?oxy_comment_end?>
+                            </addrLine>
+                        </address></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

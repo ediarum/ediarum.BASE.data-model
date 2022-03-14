@@ -1,0 +1,255 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_ajg_gfw_hdb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Friedrich Wilhelm IV.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <date when="1857-06-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener><pb n="51r"/>
+                    <?oxy_comment_start author="goehmann" timestamp="20180328T154739+0200" comment="noch eine Anmerkung nicht vom Autor / zwischen Anrede und Brieftext"?><salute><?oxy_comment_end?><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Eure</expan>
+                        </choice> Königliche Majestät</salute>
+                </opener>
+                <p>haben, als ich Sie auf der Eisenbahn verliess, mir nicht bloss erlaubt, Sie
+                    haben<lb/>wie die herrliche Königin, mit der unaussprechbaren Huld, die das
+                    Glück<lb/>und der Trost meines greisen Alters ist, mir befohlen, von Zeit
+                    zu<lb/>Zeit Nachricht von mir und der langsam fortschreitenden, mich aber
+                    <lb/>keineswegs beunruhigenden oder im Arbeiten stöhrender Abnahme <lb/>meiner
+                    Kräfte zu geben. Die <hi rendition="#u">Löwen des Tages </hi>sind ⅔ der
+                    Schlagintweits <lb/><hi rendition="#u">Hermann</hi> und <persName key="H0015556"><hi rendition="#u">Robert</hi>,</persName> die über <placeName key="H0002353">Aegypten</placeName><hi rendition="#u"> hier angekommen</hi>
+                    sind,
+                        <?oxy_comment_start author="goehmann" timestamp="20180328T155925+0200" comment="alle Unterstreichungen nicht vom Autor"?><lb><?oxy_comment_end?></lb>gerade
+                    die, welche in <placeName key="H0000378">Kaschmir</placeName>, <placeName key="H0011319">Ladag</placeName>, <placeName key="H0009370">West–Tibet
+                    </placeName>und jenseits <lb/>der <placeName key="H0009370">Tibets
+                    </placeName>und <placeName key="H0009597">Turgestan </placeName>(<placeName key="H0010713">Yarkand</placeName> und <placeName key="H0000412">Khotan</placeName>) scheidenden <placeName key="H0000502">Kuenlun</placeName><lb/>–Kette waren, da wo jenseits des 18000 <choice>
+                        <abbr>engl.</abbr>
+                        <expan>englischen</expan>
+                    </choice> Fuss hohen Karakorum<pb n="51v"/> Alpenpasses noch kein Europäer von
+                    Süden her gelangt war, nach dem Zeugniss <lb/>der neuesten Reisenden <add place="superlinear">in der Gegend</add>, des Botanikers Thomsen, Joseph
+                    Hoogers ... <lb/>der in der geographischen Einleitung zur <hi rendition="#u">Flora Indiens</hi> (1856) sehr bestimmt sagt, <lb/>„the .. of the
+                        <placeName key="H0000502">Kouenlun</placeName>, forming the northern
+                    boundary of <placeName key="H0009370">Tibet</placeName> and <lb/>„not less
+                    abrated than the <placeName key="H0006863">Himalaya</placeName>, has not been
+                    crossed by any <lb/>„European traveller.“ <persName key="H0014336">Moorcroft</persName> war nur südlich vom <placeName key="H0000502">Kuenlun</placeName> bei <lb/>den heiligen Seen. Diese grosse Ausdehnung des
+                    geographischen Wissens <lb/>verdanken wir, wie schon Ritter ausgesprochen hat,
+                    allein <choice>
+                        <abbr>Ew.</abbr>
+                        <expan>Eurer</expan>
+                    </choice> Majestät <lb/>da <hi rendition="#u">Sie</hi> den ersten grossen
+                    Gedanken der <del rendition="#s"/><add place="superlinear">Reise mit
+                    </add>gefasst und <lb/>den englischen Gouvernment zur Mithülfe vorgeschlagen
+                    <lb/>haben, wie wir <hi rendition="#u">Ihrer</hi> Liebe zur Erdkunde die
+                    aegyptischen Ent<supplied cert="high">–</supplied>
+                    <?oxy_comment_start author="goehmann" timestamp="20180329T132822+0200" comment="richtig?  Zeilenumbruch mit Trennstrich aber so nicht gewährleistet"?><lb><?oxy_comment_end?></lb>deckungen
+                    von Le..sarius und Brugsch; die Kenntniss der altgermanischen
+                    <lb/>Sprachstamm–Districte des <placeName key="H0000394">Kaukasus
+                    </placeName>durch Rosen verdanken. Ich lobe<lb/>nicht, ich erzähle: <hi rendition="#u">Hermann
+                        <?oxy_comment_start author="goehmann" timestamp="20180329T154530+0200" comment="Unterstreichungen nicht vom Autor"?></hi><?oxy_comment_end?>und
+                    der jüngste, herangewachsene Schlagintweit, <lb/><persName key="H0015556"><hi rendition="#u">Robert</hi></persName>, haben sich in <placeName key="H0002379">Alexandria </placeName>getroffen, wohin der eine von
+                        <placeName key="H0016218">Calcutta</placeName>, <lb/>der andere von
+                        <placeName key="H0005304">Bombay</placeName>, in wenigen Wochen Unterschied
+                    ankam. Ein <lb/>Drittel Schlagintweit, <persName key="H0015552"><hi rendition="#u">Adolf</hi></persName><?oxy_comment_start author="goehmann" timestamp="20180329T154624+0200" comment="Unterstr. nicht vom Autor"?>
+                    <?oxy_comment_end?>ist noch in <placeName key="H0006686">Indien</placeName> bis
+                    November <lb/>geblieben. Wundersam ist es dass alle 3, so jung und daher noch
+                    viel <lb/>empfänglicher für klimatische Einflüsse in den brennend heissen
+                    Diamanten <lb/>Districten, wie in <add place="superlinear">den</add> verpesteten
+                    hohen Bergthälern immerfort unter Gottes <lb/>des Allmächtigen gnädigem Schuze
+                        <hi rendition="#u">ununterbrochen</hi> der kräftigsten <lb/>Gesundheit <add place="superlinear">sich erfreuen</add>, 3 Jahre lang, wie ich fünf Jahre
+                    und 3 Moante lang. Es <lb/>ist von den edelsten Gefühlen tiefer Dankbarkeit
+                    getrieben, dass <lb/><hi rendition="#u">die beiden Reisenden</hi><?oxy_comment_start author="goehmann" timestamp="20180329T154817+0200" comment="Unterstr. nicht vom Autor"?>
+                    <?oxy_comment_end?>von <placeName key="H0009514">Triest</placeName> aus, (ehe
+                    sie nach <placeName key="H0009046">München</placeName> zur alten <lb/>Mutter und
+                    zur dortigen <subst>
+                        <del rendition="#s">nach</del>
+                        <add place="superlinear">noch fünfköpfigen kleinen Schlagintweitbrut)</add>
+                    </subst>
+                    <lb/>geraden Weges sich nach <placeName key="H0005221">Berlin</placeName>
+                    begaben, da wo sie die Dankbarkeit <lb/>hinrief. Sie wollen in <placeName key="H0005221">Berlin</placeName> nur 4 Tage noch verweilen, um einen sie
+                    <lb/>begleitenden, auf Kosten der ostindischen Company ihnen mitgegebenen
+                    <lb/>jungen Inder, einen <hi rendition="#u">M...</hi> (Art Schriftgelehrter) der
+                    nur hindostani<choice>
+                        <sic>. Die</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>und arabisch, nicht englisch spricht, hier unterzubringen.
+                    <lb/>Schlagintweits haben so geläufig hindostani gelernt, dass sie das
+                    <lb/>letzte Jahr ohne alle Dolmetscher reisen konnten, Die Sammlungen <lb/>die
+                    sie bringen und die im ostindischen Hause jezt liegen aber zur <lb/>Hälfte
+                    ...sollen, werden unsere Museen auf das Glän<g ref="#typoHyphen"/><lb break="no"/>endste bereichern: <lb/>Herbarien von der Meeresküste bis zu 21000 Fuss Höhe
+                    am
+                    <?oxy_comment_start author="goehmann" timestamp="20180329T144403+0200" comment="noch ins Register"?>Ibi
+                    Gamir<?oxy_comment_end?> in <lb/><placeName key="H0009370">Thibet</placeName>
+                    gesammelt, mit allen Angaben der Höhen 3000 Arten; <lb/> in 12000 ...gläsern.
+                    Baumschnitte von prachtvollen Hölzern; <lb/>Fünf– bis sechshundert <lb/>Sechs<subst>
+                        <del rendition="#s">hundert</del>
+                        <add place="intralinear">tausend</add>
+                    </subst> Vögel .... .... und Bälge <lb/>46 Schädel verschiedener Menschenrassen;
+                    <lb/>250 Gipsabdrücke der Gesichter der ..., mit vielen dazugehörigen
+                    <lb/>Lichtbildern; 50 bis 60 Abgüsse von Händen und Füssen <lb/>(alles Gyps,
+                    viel Gyps, aber von den Lebenden Creatur genom̅en) <lb/>20 complette
+                    Skelette von Menschen im <placeName key="H0006863">Himalaya</placeName>,
+                        <placeName key="H0009370">Thibet</placeName>, schwer <lb/>zu erlangen.
+                    <lb/>Die wichtigsten geologischen Sammlungen, umfassend alle Gebirgsarten
+                    <lb/>vom 5<hi rendition="#sup">ten </hi>bis 37<hi rendition="#sup">sten</hi>
+                    Grad der Breite von der Insel <placeName key="H0007287">Ceylon
+                    </placeName><lb/>bis <placeName key="H0000412">Khotan</placeName> am nördlichen
+                    Abfall des <placeName key="H0000502">Kuenlun</placeName>, wohl 20,000
+                    <lb/>Stücke. Gebirgsarten, von denen Deutschland bisher kein einziges
+                    <lb/>besitzt. Ein Schaz von Versteinerungen an Kreide und Tertiärgebirgen
+                    <lb/>Das ... liche Gehörn des Einhorn, ein wildes Schaf dessen 2 Hörner so
+                    <lb/>nahe stehen dass sie unten eine Wulst bildend in ein einziges <lb/>Horn
+                        zusammenwachsen<pb n="52r"/> Kleider, Waffen, Hausgeräte</p>
+                <p>Es sind dazu schon auf dem Wege, <add place="superlinear">um </add>nach Bremen
+                    auszuschiffen <unclear reason="illegible" cert="high">zu</unclear> werden,
+                    <lb/>von <hi rendition="#u">lebendigen</hi> grossen Thieren:</p>
+                <p>zwei wilde eingefangene Esel aus Gorka
+                        <?oxy_comment_start author="goehmann" timestamp="20180329T155440+0200" comment="noch ins Reg. aufnehmen"?><lb><?oxy_comment_end?></lb>zwei
+                    turkestanische der zwei<supplied cert="high">–</supplied>bukligen <hi rendition="#u">Kamele</hi>, dieselbe Art <lb/>die dort wild ist, <lb/>zwei
+                    turkestanische <hi rendition="#u">Pferde</hi>, Hengste und Stuten. <lb/><del rendition="#s"/>Bestimmung der magnetischen Curven, Beobachtungen über
+                    <lb/>den jezigen Zustand des Erdmagnetismus in ganz <placeName key="H0006867">Hindustan</placeName>
+                    <lb/>im Auftrage des magnetischen Instituts unter der <lb/>Direction des Major
+                    General Edward S... dessen rötliche<lb/>Nordpol–Nase (es war dieselbe in der
+                    zwei ersten <lb/>arctischen Entdeckungsreisen unter ... und Parry) Ew.<choice>
+                        <abbr/>
+                        <expan>Eure</expan>
+                    </choice> Majestät <lb/>zu Charlottenhoff vor 8–10 Jahren zu der Abenddämerung
+                    <lb/>gesehen haben. Um sich dem Gouvernment zu ... <lb/>Zeit angenehm zu machen,
+                    wo das Parlament über die so lange <lb/>geduldeten, etwas unzüchtigen .....
+                    –Mittel ...<lb/>schnelleren Einsichten der Abgaben zu moralisiren beginnt,
+                    <lb/>hat die Ostinidsche Company die dreijährige grosse <lb/>magnetische Arbeit
+                    auf ihre Kosten in <placeName key="H0016218">Calcutta</placeName>
+                    drucken<lb/>lassen. Zehn Hefte (Reports on the procedures of the <lb/>Officers
+                    (Harmann,
+                    <?oxy_comment_start author="goehmann" timestamp="20180328T174820+0200" comment="Namen noch ins Reg. aufnehmen"?>Adolphis<?oxy_comment_end?>
+                    und <persName key="H0015556">Robert Schlagintweit</persName>, Erg.) ergänzend
+                    <lb/>zu the magnetic Survey of India 1855–1857; liegen auf <lb/>meinem Tische,
+                    über 200 Seiten lang wovon (sonderbar genug ) <del rendition="#s">noch</del> die
+                    lezten <lb/><del rendition="#s"/>in <placeName key="H0011337">Lahore</placeName>
+                    gedruckt sind.</p>
+                <p>Ich habe die Schlagintweits von ihrem Drange, sich Ew<supplied cert="high">.</supplied><choice>
+                        <abbr/>
+                        <expan>Eurer </expan>
+                    </choice> Majestät zu <lb/>Marienbad vorzustellen und über Marienbad nach
+                        <placeName key="H0009046">München</placeName> zur Mutter
+                        <?oxy_comment_start author="goehmann" timestamp="20180328T164213+0200" comment="marienbad noch aufnehmen register"?><lb><?oxy_comment_end?></lb>(...)
+                    zu gehen, nicht abhalten wollen. Ich habe eher dazu <lb/>gerathen, weil ich
+                    ....kann, dass diese bescheidenen und kühnen, sich <lb/>wissenschaftlich so
+                    vielfältig und glänzend
+                    <?oxy_comment_start author="goehmann" timestamp="20180329T160313+0200" comment="müsste sich auszeichnenden... heissen - ändern?"?>ausgezeichneten<?oxy_comment_end?>
+                    jungen Leute <lb/><choice>
+                        <abbr>Ew. </abbr>
+                        <expan>Eurer </expan>
+                    </choice>Majestät einige Stunden angenehme Unterhaltung gewähren <lb/>werden.
+                    ... ... und ich erst <del rendition="#s">Ihren</del> den Reisenden, <lb/>dass <choice>
+                        <abbr>Ew<supplied cert="high">.</supplied>
+                        </abbr>
+                        <expan>Eure </expan>
+                    </choice>Majestät ihnen noch auf ein Jahr von jezt <lb/>an, die bisherige
+                    Unterstüzung huldreichst schenken<lb/>mögen.</p>
+                <p>Von der ostindischen
+                    <?oxy_comment_start author="goehmann" timestamp="20180328T165208+0200" comment="ostind. C. aufnehmen / Register"?>Company<?oxy_comment_end?>,
+                    die (wie der Sohn meines Freundes, des berühmten<lb/>Staatsmannes <persName key="H0012876">Canning</persName>, der jezige General Gouverneur) der
+                    dankendsten<lb/>und wohlthätigsten Antheil an der Expedition genommen hat, hört
+                    <lb/>alle persönliche Geldunterstüzung auf, von dem Augenblick, wo die
+                    <lb/>Reisenden in <placeName key="H0009514">Triest</placeName> landen. Die
+                    Company wird <unclear reason="covered" cert="high">aber</unclear> höchst–wahr<g ref="#typoHyphen"/><lb break="no"/>scheinlich das Reisewerk<supplied cert="high">,</supplied> englisch von ihnen geschrieben, und mit <lb/>vielen
+                    Karten und ... versehen, auf öffentliche Kosten drucken <lb/>lassen. <del rendition="#s"/><add place="superlinear"><hi rendition="#u">Für</hi></add><hi rendition="#u"> die deutsche Ausgabe </hi><add place="superlinear"><hi rendition="#u"><?oxy_comment_start author="goehmann" timestamp="20180328T180200+0200" comment="Untestreichung nicht vom Autor"?>aber<?oxy_comment_end?></hi></add>
+                    einer, auf Befehl und theilweise auf <lb/>Kosten <choice>
+                        <abbr>Ew<supplied cert="high">.</supplied></abbr>
+                        <expan>Eurer</expan>
+                    </choice> Majestät, ganz wissenschatlicher Reise sind nicht Vorschüsse <lb/>von
+                    deutschen Buchhändlern zu <supplied cert="high">er</supplied>hoffen.<?oxy_comment_start author="goehmann" timestamp="20180329T123731+0200" comment="seitliche Anmrkung"?>
+                    <?oxy_comment_end?><placeName key="H0009370">Tibet</placeName> und der
+                    <lb/>Kuentür (mein Demant) intressiren <placeName key="H0005517">Deutschland</placeName> nicht <lb/>wie <placeName key="H0009392">Timbuktu</placeName>. Niemals totgeglaubte Reisende sind keine echten
+                    <lb/>=Dauerleichen; sie sind geologisch, magnetisch, Schädel abformend,
+                    <lb/>skelettirend; sie sind alles nur nicht dramatisch in den Augen <lb/>der
+                    Menge. <hi rendition="#u"><?oxy_comment_start author="goehmann" timestamp="20180328T180712+0200" comment="U. nicht vom Autor"?>Drei
+                        <?oxy_comment_end?></hi>solcher undramatischen Reisenden, <subst>
+                        <del rendition="#s">der</del>
+                        <add place="superlinear">von denen </add>
+                    </subst>3 Jahre <add place="superlinear">lang</add>
+                    <del rendition="#s">alle drei</del>
+                    <lb/><del rendition="#s">der</del> meist jeder wo anders war, wollen <del rendition="#s">aber</del> ... Ich .... Ew <choice>
+                        <abbr>Maj.</abbr>
+                        <expan>Majestät</expan>
+                    </choice>
+                    <lb/><hi rendition="#u"><?oxy_comment_start author="goehmann" timestamp="20180328T181054+0200" comment="U. nicht vom Autor"?>zur
+                        Erleichterung der deutschen Ausgabe<?oxy_comment_end?></hi> und da der reine
+                    Aether <lb/>wie alle Bergluft den Apptit, das Nahrungsbedürfniss bekanntlich
+                    erhöht <lb/><hi rendition="#u">schenken Sie der Dreiheit</hi> noch ein Jahr der
+                    bisherigen Unterstüzung. <lb/>Es ist viel Ausgabe, die (ich weiss es) <choice>
+                        <abbr>Ew.</abbr>
+                        <expan>Eurer</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Kgl.</abbr>
+                        <expan>Königlichen</expan>
+                    </choice> Majestät unmittelbar <lb/>und ausschliesslich zur Last fällt. Aber ist
+                    ist Vollendung von dem <lb/>was Sie ins Leben gerufen zu Ehre und zu, Glanze
+                    Ihrer Epoche! Ich <lb/>verzage nicht....<lb/></p>
+                <p><pb n="52v"/>Nach <placeName key="H0000378">Kaschmir</placeName> und den
+                    Interessen der jungen Reisenden, die mich <add place="superlinear">sehr
+                    </add>beunruhigen <lb/>darf ich wohl noch zwei Curiosa berichten zu  .... des
+                    Imperialismus <lb/>sich wenigstens mit grosser delicatess für mich benommen hat.
+                    Der Brief <lb/>des Grafen Walenski ist in so .. der ausgezeichnetste. Da er von
+                    <lb/>der Beschäftigung des Kaisers Napoleons ... ...meines ... <lb/>und ..
+                    gewisser Vorliebe für meinen Charakter spricht. Ich darf <choice>
+                        <abbr><lb/>Ew.</abbr>
+                        <expan>Eure</expan>
+                    </choice> Königliche Majestät wohl um die Gnade bitten mir die beiden
+                    <lb/>Briefe wieder zufertigen zu lassen. Ich habe eine grosse, grosse Freude
+                    <lb/>über die Wiederkehr der warmen Tage, welche den Genuss der Besserung des
+                    <lb/>Prinzen so sehr begünstigen, Ihrer Constitution eine nothwendige
+                    Lebensbedingung.<lb/><lb/>Mit den herzlichsten Wünschen und der dankbarsten
+                    Ehrerbietung</p>
+               
+                <closer>
+                    <salute><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Eurer</expan>
+                        </choice> Königlichen Majestät <lb/>aller getreuester</salute>
+                    <signed><choice>
+                            <abbr>A</abbr>
+                            <expan>Alexander</expan>
+                        </choice>
+                        <supplied cert="high">von</supplied>Humboldt</signed>
+                    <dateline>Berlin, <lb/>den 20<supplied cert="high">.</supplied> Juni
+                        <lb/>1857</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

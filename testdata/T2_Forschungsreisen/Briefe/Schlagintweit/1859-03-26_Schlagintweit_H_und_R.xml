@@ -1,0 +1,171 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_jmp_bvc_5cb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hermann und Robert Schlagintweit an Alexander von Humboldt. Berlin, 26. März
+                    1859</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Berlin</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Nachl. Alexander von Humboldt, gr. Kasten 2, Mappe 4, Nr. 61</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                    <persName key="H0015556">Schlagintweit, Robert, Freiherr von
+                        (1833-1885)</persName>
+                    <placeName key="H0005221">Berlin (Hauptstadt der heutigen Bundesrepublik
+                        Deutschland)</placeName>
+                    <date when="1859-03-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession"><pb n="1r"/>
+                
+                <opener>
+                    <dateline>Berlin, den 26<hi rendition="#sup"><hi rendition="#uu">ten</hi></hi>
+                        März 1859</dateline>
+                    <note place="mTop" hand="#addressee">Schneehöhe</note>
+                    <salute>Hochverehrteste
+                        <?oxy_comment_start author="lmartin" timestamp="20180209T094816+0100" comment="einmal kollationiert mit UP am 09.02.2018
+"?>Excellenz<?oxy_comment_end?>!</salute>
+                </opener>
+                <p>Ihrem Wunsche gemäß beeilen wir uns, Ihnen einige Mit<g ref="#typoHyphen"/><lb break="no"/>theilungen über unsere Messungen der
+                    Schneegrenze an den <lb/>verschiedenen Abhängen der Gebirgsketten Hochasiens,
+                    nämlich <lb/>des <placeName key="H0006863">Himalaya</placeName>, <placeName key="H0000362">Karakorum</placeName> und <placeName key="H0000502">Kuenluen</placeName> zu senden.</p>
+                <p>Was uns diese Beobachtungen ganz besonders wichtig machte, <lb/>war die genaue
+                    Bestimmung der Verschiedenheit der Höhe der <lb/>Schneegrenze am südlichen und
+                    nördlichen Abfalle des <placeName key="H0006863">Himalaya</placeName>. <lb/>In
+                    der <bibl sameAs="zotero-667230-DV9UD9GW">Asie Centrale (deutsche Ausgabe <choice>
+                            <abbr>Bd.</abbr>
+                            <expan>Band</expan>
+                        </choice> II.</bibl>
+                    <choice>
+                        <abbr>S.</abbr>
+                        <expan>Seite</expan>
+                    </choice> 177 bis <choice>
+                        <abbr>S.</abbr>
+                        <expan>Seite</expan>
+                    </choice> 203) haben <lb/>Sie, wie bereits 1820, in bewunderungswürdier Weise
+                    alle That<g ref="#typoHyphen"/><lb break="no"/>sachen zusammengestellt, welche
+                    sich auf das so anormale Ver<g ref="#typoHyphen"/><lb break="no"/>hältniß
+                    beziehen, daß, verschieden von wohl allen anderen Ge<g ref="#typoHyphen"/><lb break="no"/>birgen der nördlichen Hemisphäre, im <placeName key="H0006863">Himalaya</placeName> die Schneegrenze <lb/>auf dem Südabhange weiter
+                    herabreicht als auf dem Nordabhange.</p>
+                <p>Es wurde dies zwar, in vorschneller Weise von Manchen be<g ref="#typoHyphen"/><lb break="no"/>stritten, die es theils nur theoretisch bezweifelten, theils nur
+                    <lb/>einzelne Punkte des <placeName key="H0006863">Himalaya</placeName> gesehen
+                    hatten. Aber neuere <lb/>Beobachter, wie: <persName key="H0011992">Hooker</persName>, <persName key="H0003944">Thompson</persName>, <persName key="ed_rks_lp2_5cb">Cunningham</persName>, <persName key="H0016116">Strachey</persName>, <persName key="H0011923">Hodg<g ref="#typoHyphen"/><lb break="no"/>son</persName>
+                    <choice>
+                        <abbr>etc.</abbr>
+                        <expan>et cetera</expan>
+                    </choice> theilen vollkommen Ihre Ansicht.</p>
+                <p>Nach unseren eigenen Beobachtungen (in der Länge von <lb/><placeName key="H0010238">Sikkim</placeName> bis <placeName key="H0000324">Kabul</placeName> und in der Breite von <placeName key="H0006686">Indien</placeName> bis <placeName key="H0010713">Yar<g ref="#typoHyphen"/><lb break="no"/>kand</placeName>) können wir Ihre Bestimmungen des
+                    Unterschiedes der <lb/>Höhe der Schneegrenze auf dem nördlichen und südlichen
+                        Ab<g ref="#typoHyphen"/><lb break="no"/>hange vollkommen bestätigen. Unter
+                    den Ursachen des</p>
+                <p>nie<g ref="#typoHyphen"/><lb break="no"/><pb n="1v"/>niedrigeren Standes der
+                    Schneegrenze auf der Südseite ist <lb/>als die bei weitem wichtigste, die große
+                    Verschiedenheit der <lb/>Schneemenge zu nennen, wie auch Sie es aussprechen.
+                    <lb/>Nichts kann in Beziehung auf raschen Wechsel des climati<g ref="#typoHyphen"/><lb break="no"/>schen Characters die Gegensätze
+                    übertreffen, die <placeName key="H0001596">Nepal</placeName> und <lb/><placeName key="H0009370">Tibet</placeName>, <placeName key="ed_ivg_w3p_tcb">Kulu</placeName> und <placeName key="ed_phl_dq2_5cb">Spiti</placeName>, in
+                    Beziehung auf atmosphärische <lb/>Feuchtigkeit und Regenmenge bieten.</p>
+                <p>Dieselbe Ursache macht sich nochmals, und zwar in einer <lb/>wenigstens eben so
+                    auffallenden Form geltend, wenn man <lb/>die <hi rendition="#u">mittlere</hi>
+                    Schneegrenze der 2<hi rendition="#sup"><hi rendition="#uu">ten</hi></hi> Kette,
+                    der nach uns <lb/>als eigentliche Wasserscheide zu betrachtenden <placeName key="H0000362">Karakorum<g ref="#typoHyphen"/><lb break="no"/>Kette</placeName> mit der <hi rendition="#u">mittleren</hi> Schneegrenze
+                    des <placeName key="H0006863">Himalaya</placeName> vergleicht. <lb/>Obwohl für
+                    den <placeName key="H0000362">Karakorum</placeName> die Breite (: im Mittel 3°)
+                        nörd<g ref="#typoHyphen"/><lb break="no"/>licher als für den <placeName key="H0006863">Himalaya</placeName> ist, steigt doch im <placeName key="H0000362">Karakorum</placeName>
+                    <lb/>die Schneegrenze noch bedeutend höher, aber die Differenz <lb/>zwischen den
+                    beiden Abhängen ist wieder dieselbe gewor<g ref="#typoHyphen"/><lb break="no"/>den, wie sie es gewöhnlich ist, am tibetanischen, am <lb/>Südabhange ist die
+                    Schneegrenze im Mittel 500 bis <?oxy_comment_start author="lmartin" timestamp="20180207T151846+0100" comment="Sonderzeichen am Ende der Zeile?"?>600<?oxy_comment_end?>
+                    <lb/>höher, als am nördlichen <placeName key="H0009597">Turkistanischen</placeName>.</p>
+                <p>In der 3<hi rendition="#sup"><hi rendition="#uu">ten</hi></hi> Kette endlich, im
+                        <placeName key="H0000502">Kuenluen</placeName>, ist der Unter<g ref="#typoHyphen"/><lb break="no"/>schied zwischen der größeren Höhe der
+                    Schneegrenze auf der <lb/>Südseite und der (geringeren) Höhe auf der Nordseite
+                    noch <lb/>bedeutender, weil hier die Nordseite der Region eines <lb/>etwas
+                    weniger trockneren Klimas zugewandt ist. Auch <lb/>die mittlere Höhe sinkt hier
+                    rascher als dem Breitenun<g ref="#typoHyphen"/><lb break="no"/>terschiede nach
+                    zu erwarten wäre.</p>
+                <p>Die folgende Zusammenstellung enthält die Mittel für die <lb/>Höhen der
+                    Schneegrenze, deren einzelne Bestimmungen (<seg type="comment">
+                        <orig><seg type="comment">
+                                <orig><bibl sameAs="zotero-667230-EEB299II"><choice>
+                                            <abbr>Bd.</abbr>
+                                            <expan>Band</expan>
+                                        </choice> 15</bibl> &amp; <bibl sameAs="zotero-667230-2ZWEHEI8">41</bibl>. <lb/>unserer
+                                    <?oxy_comment_start author="lmartin" timestamp="20180209T113934+0100" comment="Beobachtungsmanuskripte aus Indien und Hochasien während der Jahre 1854 bis 1858 von Hermann, Adolph und Robert Schlagintweit.
+43 Bde. (ursprünglich 46)
+BSB Schlagintweitiana  II.1 "?>Mansuscripte<?oxy_comment_end?></orig>
+                                <note xml:id="ncwd_m5r_5cb">Manuskriptbände zur Asienreise. Band 15
+                                    Hyposometrische Beobachtungen und Gang des Barometers. Band 41
+                                    Pflanzen-Geographie. – Periosische Erscheinungen der Pflanzen. –
+                                    Schneegrenzen.</note>
+                            </seg></orig>
+                    </seg>) wir früher das Glück hatten Ihnen vor<g ref="#typoHyphen"/><lb break="no"/>zulegen. <table rows="3" cols="3" rend="drawn">
+                        <row>
+                            <cell/>
+                            <cell cols="2">Schneelinie.</cell>
+                        </row>
+                        <row>
+                            <cell>Kette</cell>
+                            <cell>Südlicher Abhang</cell>
+                            <cell>Nördlicher Abhang</cell>
+                        </row>
+                        <row>
+                            <cell><placeName key="H0006863">Himalaya</placeName></cell>
+                            <cell><measure quantity="16000" unit="foot">16000 <choice>
+                                        <abbr>E. F.</abbr>
+                                        <expan>Englischer Fuß</expan>
+                                    </choice></measure></cell>
+                            <cell><measure quantity="17400" unit="foot">17400. <choice>
+                                        <abbr>E. F.</abbr>
+                                        <expan>Englischer Fuß</expan>
+                                    </choice></measure></cell>
+                        </row>
+                        <row>
+                            <cell><placeName key="H0000362">Karakorum</placeName></cell>
+                            <cell><measure quantity="19100" unit="foot">19100</measure></cell>
+                            <cell><measure quantity="18600" unit="foot">18600.</measure></cell>
+                        </row>
+                        <row>
+                            <cell><placeName key="H0000502">Kuenluen</placeName></cell>
+                            <cell><measure quantity="15200" unit="foot">15200</measure></cell>
+                            <cell><measure quantity="14400" unit="foot">14400</measure></cell>
+                        </row>
+                    </table></p>
+                <closer>
+                    <pb n="2r"/><salute>Mit dem Ausdruck der ausgezeichnetsten <lb/>Hochachtung und innigsten
+                        Verehrung</salute>
+                    <salute>Eurer Excellenz</salute>
+                    <salute>dankbarst ergebene</salute>
+                    <signed>Hermann Schlagintweit</signed>
+                    <signed>Robert Schlagintweit</signed>
+                </closer><pb n="2v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

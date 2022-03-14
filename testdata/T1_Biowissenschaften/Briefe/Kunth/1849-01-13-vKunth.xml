@@ -1,0 +1,468 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0015159" oldID="prov_hvn_mcn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Von Carl Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar
+                    1849</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin - Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 8, Nr. 23</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1288921</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788 - 1850 ) </persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date when="1849-01-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769 - 1859)
+                    </persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <salute>
+                        <pb n="1r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000001"/><note hand="#humboldt" place="mTop">Kunth III</note>Hochverehrtester
+                        Gönner,</salute>
+                </opener>
+                <p>
+                    <lb/>Auf die an mich hochgeneigtest gerichteten Fragen <lb/>habe ich die Ehre
+                    ganz ergebenst zu erwiedern:</p>
+                <p>1) als Beispiele des scheinbaren Contrastes zwischen <lb/>den Vegetationsorganen
+                    und Blüthentheilen <lb/>dürfte folgendes anzuführen sein:</p>
+                <p><metamark function="used" spanTo="#ztm_xc4_fx"/> a) Pflanzen, die bei äußerer
+                    Uebereinstimmung, <lb/>eine sehr verschiedene Blüthen- und Fruchtbildung
+                    <lb/>zeigen: <hi rendition="#u">Palmen</hi> und <hi rendition="#u">Cycadeen</hi>
+                    (die letzteren <lb/>den Coniferen am nächsten verwandt.); <hi rendition="#u">Cuscuta</hi> (eine <lb/>Convolvulacée) und <hi rendition="#u">Cassytha</hi>
+                    <seg type="comment">
+                        <orig><note hand="#humboldt" place="inline">Kunth <choice>
+                                    <abbr>p</abbr>
+                                    <expan>pa</expan>
+                                    <expan>gina</expan>
+                                </choice> 369</note></orig>
+                        <note xml:id="nvgj_21k_sx"><ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/7TQAQNC4/q/Kunth">Kunth 1831.</ref></note>
+                    </seg> (eine Laurinée); <lb/>
+                    <hi rendition="#u">Equisetum</hi> (eine Familie der Cryptogamen), <hi rendition="#u">Ephedra</hi>
+                    <lb/>(mit Gnetum eine besondere den Coniferen am nächsten <lb/><anchor type="used" xml:id="ztm_xc4_fx"/>
+                    <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000002"/>verwandte Familie, die Gnetaceen, bildend) und <lb/>
+                    <hi rendition="#u">Casuarina</hi> (diese gehörte früher zu den Amentaceen,
+                    <lb/>und bildet jetzt eine den Myriceen verwandte <lb/>Familie); <hi rendition="#u">Cactus</hi> und <hi rendition="#u">Euphorbia officinarum</hi>
+                    <lb/>und<hi rendition="#u">
+                        <choice>
+                            <abbr>E.</abbr>
+                            <expan>Euphoriba</expan>
+                        </choice> antiquorum</hi>; endlich <hi rendition="#u">Stapelia</hi> (aus
+                    <lb/>der Familie der Asclepiadeen) sieht wie <hi rendition="#u">Cereus</hi>
+                    <lb/>aus (eine Abtheilung von Cactus).</p>
+                <p>b) Pflanzen, die bei Uebereinstimmung <lb/>in der Blüthen- und Fruchtbildung, ein
+                    <lb/>sehr verschiedenes äußeres Ansehen haben: <lb/>
+                    <hi rendition="#u">Cactus</hi> und <hi rendition="#u">Ribes</hi>; <hi rendition="#u">Palmen</hi> und <hi rendition="#u">Juncus</hi>; <lb/>
+                    <hi rendition="#u">Coniferae</hi> und <hi rendition="#u">Cycadeae</hi>, <hi rendition="#u">Myriceae</hi> und <lb/>
+                    <hi rendition="#u">Casuarineae</hi>; <hi rendition="#u">Primualaceae</hi>
+                    (sämmtlich ☉ oder <lb/>Stauden) und <hi rendition="#u">Ardifeaceen</hi> (Bäume
+                    und <lb/>Sträucher); <hi rendition="#u">Onagrae</hi> (Oenothera, Fuchsia)
+                    <lb/>und <hi rendition="#u">Halorageae</hi> (Myriophyllum, Hippuris); <lb/>
+                    <del rendition="#s">
+                        <gap quantity="2" unit="words"/>
+                    </del>
+                    <hi rendition="#u">Papayaceae</hi> (Carica) und <lb/>
+                    <hi rendition="#u">Cucurbitaceae</hi>.</p>
+                <p>
+                    <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000003"/>c) Pflanzen aus derselben Familie von <lb/>
+                    <add place="intralinear">sehr</add> verschiedenem äußern Ansehen: <lb/>Saxifraga
+                    und Cunonia (Saxifrageae), <lb/>Cuscuta und Convolvulus (Convolvulaceae),
+                    <lb/>Laurus und Cassytha (Laurineae), <lb/>Tilia und <del rendition="#s">
+                        <gap quantity="1" unit="words"/>
+                    </del> Antichorus depressus <lb/>(ein kleines einjähriges Gewächs) (Tiliaceae)
+                    <lb/>Cereus, Pereskia, <choice>
+                        <orig>Rhipalis</orig>
+                        <reg>Rhipsalis</reg>
+                    </choice>, Melocactus <lb/>und Echinocactus (Cacteen), <lb/>Vicia und Robinia
+                    (Leguminosae), <lb/>Trifolium und Cercis (Leguminosae), <lb/>Pisum und Myroxylon
+                    (Leguminosae).</p>
+                <p>2.) <choice>
+                        <sic>Physionomie</sic>
+                        <corr cert="high">Physiognomie</corr>
+                    </choice><note hand="#humboldt" place="inline">? ?</note> und Aehnlichkeit der
+                        In<g ref="#typoHyphen"/><lb break="no"/>florescenz finden sich, außer bei
+                    den von <lb/>Ihnen selbst angeführten Familien (Gräsern <lb/>Cyperaceen, Palmen,
+                    Coniferen, Umbelliferen), <lb/>auch bei den Compositen (Köpfchen), den Cruci<g ref="#typoHyphen"/><lb break="no"/>feren (Trauben und Aehren), den Aroideen <lb/>
+                    <pb n="2v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000003"/>
+                    <fw type="folNum">4.</fw>(Spadix und Spatha) und den meisten übrigen, <lb/>auf
+                    äußeres Ansehen gegründeten Pflanzen<g ref="#typoHyphen"/><lb break="no"/>gruppen; so zeichnen sich die Proteaceen durch <lb/>zapfenartige Aehren und
+                    Köpfchen, und die <lb/>Labiaten durch die wirtelständigen Blüthen <lb/>aus. Bei
+                    den Leguminösen läßt sich aber <lb/>eine solche Uebereinstimmung nicht wahr<g ref="#typoHyphen"/><lb break="no"/>nehmen, wenn man diese Gruppe in ihrer
+                    <lb/>weitesten Ausdehnung nimmt. Theilt man <lb/>sie aber in Papilionaceen,
+                    Caesalpinieen <lb/>und Mimoseen ein, so <subst>
+                        <del rendition="#s">ist die</del>
+                        <add place="intralinear">bildet <lb/>
+                        </add>
+                    </subst>bei den letztern die Inflorescenz jederzeit <lb/>dichte Aehren oder
+                    Köpfchen.</p>
+                <p>3. Beispiele, wo in derselben Gattung folia <lb/>simplicia und composita
+                    (pinnata, ternata, <lb/>digitata) vorkommen <subst>
+                        <del rendition="#s">kommen</del>
+                        <add place="intralinear">sind</add>
+                    </subst> ziemlich <lb/>häufig, <choice>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> Bignonia, Rosa (berberifolia) <lb/>Cissus, Rhus (<choice>
+                        <abbr>R.</abbr>
+                        <expan>Rhus</expan>
+                    </choice> Cotinus), Spiraea, Fraxinus <lb/>
+                    <pb n="3r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000005"/>
+                    <fw type="folNum">5.</fw>(<choice>
+                        <abbr>F.</abbr>
+                        <expan>Fraxinus</expan>
+                    </choice> simplicifolia), Jasminum etc. <lb/>Außerdem kommen auch Fälle vor, wo
+                    sich <lb/>bei Foliis ternatis blos das Endblättchen aus<g ref="#typoHyphen"/><lb break="no"/>bildet, was alsdann mit dem Blattstiel <hi rendition="#u">ge<g ref="#typoHyphen"/><lb break="no"/>gliedert</hi> erscheint (<choice>
+                        <abbr>z. B.</abbr>
+                        <expan>zum Beispiel</expan>
+                    </choice> Citrus.)</p>
+                <p>Eine merkwürdige Blattform, nämlich ein <lb/>sogenanntes Folium lomentaceum kommt
+                    bei <lb/>Phyllarthron (aus der Familie der Bignoniaceen) <lb/>vor. Es entsteht,
+                    indem sich an einem <lb/>folium imparipinnatum mit geflügelter <lb/>Rhachis und
+                    Blattstiel blos das gipfelständige <lb/>Blättchen ausbildet<supplied cert="high">.</supplied>*</p>
+                <figure facs="Kunth/1849_01_13_3r.jpg" hand="#author">
+                    <figDesc>Schematische Zeichnung der Blattbildung bei der Gattung
+                        Phyllarthron.</figDesc>
+                </figure>
+                <p>Phyllodia, wie bei den Neuholländischen <lb/>Acacien, finden sich auch bei
+                    einigen <lb/>strauchartigen Oxalis-Arten, <choice>
+                        <abbr>namentl.</abbr>
+                        <expan>namentlich</expan>
+                    </choice>
+                    <lb/>bei der brasilianischen <choice>
+                        <abbr>O.</abbr>
+                        <expan>Oxalis</expan>
+                    </choice> mandioccana <lb/><persName key="H0000707">Raddi</persName>.</p>
+                <p>Ihre Frage, ob es Rosaceen mit einfachen <lb/>Blättern giebt, beantworte ich,
+                    ohne zu wissen <lb/>
+                    <pb n="3v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000007"/>ob Sie die Familie bei ihrer frühern (<persName key="H0004222">Jussieuschen</persName>) <lb/>Begrenzung oder bei der neuern engeren verstehen,<lb/>
+                    <del next="mit" rendition="#erased">beantworte ich</del> mit <hi rendition="#u">ja</hi>, habe aber die Ehre folgendes <lb/>zur Erläuterung <choice>
+                        <sic>hinzufügen</sic>
+                        <corr>hinzuzufügen</corr>
+                    </choice>: <lb/>Die Drupaceen (Prunus, Amygdalus) haben <lb/>jederzeit einfache
+                    Blätter, die Pomaceen (Pyrus, <lb/>Mespilus, Cydonia) <del rendition="#s">Sorbus</del> gleichfalls, mit <lb/>Ausnahme von Sorbus; die eigentlichen
+                    <lb/>Rosaceen (Potentilleen, Rubus, Rosa) haben <lb/>Folia ternata, digitata und
+                    pinnata, Spiraea <lb/>
+                    <add place="superlinear">
+                        <del rendition="#s">gleichzeitig</del>
+                    </add>dagegen, <del rendition="#s">folia si</del> die ebenfalls zu den ächten
+                    <lb/>Rosaceen gehört, folia simplicia und <lb/>Composita zugleich. Die
+                    Sanguisorbeen <lb/>endlich nähern sich den Potentilleen, <lb/>und haben wie
+                    diese Folia composita.</p>
+                <p>Die Familie der Rosaceen hat hiernach, <lb/>bei der ältern Begrenzung, eben so
+                    wenig, <lb/>wie die Leguminosen, eine äußere <choice>
+                        <sic>Physionomie</sic>
+                        <corr cert="high">Physiognomie</corr>
+                    </choice>, <lb/>wenn ich mich so ausdrücken darf.<note hand="#author" place="left" rend="sticked">
+                        <pb n="4r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000008"/>Bei der Leguminosen kommen selten <lb/>einfache Blätter vor, <choice>
+                            <abbr>z. B.</abbr>
+                            <expan>zum Beispiel</expan>
+                        </choice> bei <lb/>Cercis aus der Abtheilung der Papilio<g ref="#typoHyphen"/><lb break="no"/>naceae, und bei Bauhinia, welche zu <lb/>den
+                        Caesalpinieen gehört.<pb n="4v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000009"/>
+                    </note>
+                    <lb/>
+                    <pb n="5r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000010"/>(Die Berberis-Arten mit gefiederten Blättern bilden die Gattung Mahonia.)</p>
+                <p>Ihre Bemerkung, daß die meisten zusammen<g ref="#typoHyphen"/><lb break="no"/>gesetzten Blätter bei den Dicotyledones poly<g ref="#typoHyphen"/><lb break="no"/>petalae (welche auf der höchsten Stufe der Aus<g ref="#typoHyphen"/><lb break="no"/>bildung stehen) vorkommen, hat mich als
+                    neu <lb/>überrascht. Bei den Monopetalen kommen <lb/>wirklich Folia composita
+                    blos bei den Bignoniaceen <lb/>und Jasmineen vor. Die Solaneen, Valeria<g ref="#typoHyphen"/><lb break="no"/>neen, <del rendition="#s">Fabian</del>
+                    Labiaten, Compositen haben, <lb/>und zwar nur zuviele, <hi rendition="#u">scheinbar</hi> gefiederte <lb/>(<choice>
+                        <abbr>d. h.</abbr>
+                        <expan>das heißt</expan>
+                    </choice> fiedrig zerschnittene) Blätter.</p>
+                <p>Wenn die Gliederung der einzelnen <lb/>Blättchen mit dem Hauptstiel das Criterium
+                    <lb/>für zusammengesetzte Blätter ist, so finden <lb/>sich <subst>
+                        <del rendition="#s">bei</del>
+                        <add place="intralinear">dergleichen</add>
+                    </subst> bei den Monocotyledonen <lb/>nicht vor, als dann würden aber auch
+                    <lb/>die Rosaceen (Rosa, Potentilla, Rubus) keine <lb/>zusammengesetzten Blätter
+                    haben!! <lb/>
+                    <pb n="5v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000011"/>
+                    <fw type="folNum">8</fw>Folgt man dagegen der ältern Ansicht, so <lb/>haben
+                    viele Anthurium- (Pothos-) und Dioscorea- <lb/>Arten Folia digitata, und die
+                    größte Hälfte <lb/>der Palmen Folia pinnata.</p>
+                <p>
+                    <metamark function="used" spanTo="#kdk_2vy_gx"/>4) Das von <persName key="H0012873">Decandolle</persName> und <persName key="H0000726">Ramond</persName>
+                    <lb/>angeführte Rhododendrum ist ferrugineum <lb/>
+                    <del rendition="#s">denn</del> (<choice>
+                        <abbr>R.</abbr>
+                        <expan>Rhododendrum</expan>
+                    </choice> hirsutum kommt in den <placeName key="H0008509">Pyreneen</placeName>
+                    <lb/>nicht vor). <persName key="H0012873">Decandolle</persName> sagt in
+                    seiner <seg type="comment">
+                        <orig>Flore <lb/>française</orig>
+                        <note xml:id="nymy_rdz_gx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/IKM2DC9N">Lamarck/Candolle 1805-1815</ref>, III, 673.</note>
+                    </seg>: il croit ordinairement entre <lb/>1500 et 2500 <choice>
+                        <orig>metres</orig>
+                        <reg>mètres</reg>
+                    </choice>
+                    <choice>
+                        <orig>d’élevation</orig>
+                        <reg>d'élévation</reg>
+                    </choice>
+                    <choice>
+                        <orig>audessus</orig>
+                        <reg>au-dessus</reg>
+                    </choice> du <lb/>niveau de la mer. Je l’ai trouvé dans <placeName key="H0006630">le <lb/>Jura</placeName>, au fond
+                    d’un Creux du Vent, dans <lb/>un lieu qui n’a pas plus de 1000 à 1100 <lb/>
+                    <choice>
+                        <orig>metres</orig>
+                        <reg>mètres</reg>
+                    </choice> de hauteur.<anchor type="used" xml:id="kdk_2vy_gx"/>
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
+                <p><?oxy_custom_end?>5. Die Areca von <placeName key="H0001615">Neu-Zeeland</placeName> ist
+                    <lb/>Areca sapida <persName key="H0015932">
+                        <choice>
+                            <abbr>Soland.</abbr>
+                            <expan>Solander</expan>
+                        </choice>
+                    </persName> in <persName key="H0000177">
+                        <choice>
+                            <abbr>Forst.</abbr>
+                            <expan>Forster</expan>
+                        </choice>
+                    </persName>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Plant.</abbr>
+                                <expan>Plantis</expan>
+                            </choice>
+                            <choice>
+                                <abbr>esc.</abbr>
+                                <expan>esculentis</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="nwjk_pbz_gx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/MJQ63KAC">Forster 1789.</ref></note>
+                    </seg>
+                    <choice>
+                        <abbr>
+                            <lb/>Endl.</abbr>
+                        <expan>Endlicher</expan>
+                    </choice>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Flor.</abbr>
+                                <expan>Flora</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Norfolk.</abbr>
+                                <expan>Norfolkica</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="ni5m_mzy_gx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/PQKFNQCV">Endlicher 1833.</ref></note>
+                    </seg> 26. Sie wächst in <placeName key="H0001710">Insula<lb/>Norfolk</placeName> (<persName key="H0000177">Forster</persName>, <persName key="H0003142">Bauer</persName>) und in
+                        <placeName key="H0001615">Nova
+                        <lb/>Zeelandia</placeName> (<persName key="H0003061">J.
+                        Banks</persName>, <persName key="H0013268">A. Cunningham</persName>.)</p>
+                <p>
+                    <pb n="6r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000012"/>
+                    <fw type="folNum">9</fw>6) Bei Pandanus bilden die Blätter mehr<g ref="#typoHyphen"/><lb break="no"/>gliedrige, aufsteigende Spiralen.</p>
+                <p>
+                    <hi rendition="#mMM">7. In <persName key="H0012873">Decandolle’s</persName>
+                        <seg type="comment">
+                            <orig>Prodromus</orig>
+                            <note xml:id="nlb1_xsy_gx">
+                                <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/6ZR5F4D5">Candolle 1824-1873.</ref></note>
+                        </seg> werden von</hi>
+                    <persName key="H0003249">
+                        <lb/>Bentham</persName> 2397 Labiaten angeführt, darunter </p>
+                <table cols="2" rows="8">
+                    <row>
+                        <cell rendition="#right">410</cell>
+                        <cell>Salvia</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">250</cell>
+                        <cell>Hyptis</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">168</cell>
+                        <cell>Stachys</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">113</cell>
+                        <cell>Nepeta</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">92</cell>
+                        <cell>Teucrium</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">86</cell>
+                        <cell>Scutellaria</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">
+                            <hi rendition="#u">66</hi>
+                        </cell>
+                        <cell>Plectranthus</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#right">1186.</cell>
+                        <cell>Diese 7 Gattungen bilden also die <lb/>Hälfte aller bekannten
+                            Labiaten.</cell>
+                    </row>
+                </table>
+                <p>8.) <persName key="H0003249"> Bentham </persName> beschreibt in <persName key="H0012873">
+                        <choice>
+                            <abbr>Decand<ex>.</ex>
+                            </abbr>
+                            <expan>Decandolles</expan>
+                        </choice>
+                    </persName>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Prodr.</abbr>
+                                <expan>Prodromus</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="nwxl_1ty_gx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/6ZR5F4D5">Candolle 1824-1873.</ref></note>
+                    </seg>
+                    <lb/>429 eigentliche Ericen und 10 Pflanzen, <lb/>welche früher dieser Gattung
+                    angehörten, jetzt <lb/>aber die Gattungen Calluna, Macnabaea <lb/>und Pentapera
+                    bilden. <lb/>In den <placeName key="H0008744"> Mascarenen-
+                        <lb/>Inseln</placeName> (<placeName key="H0008769"> Mauritius </placeName>,
+                        <placeName key="H0008555">Madagascar</placeName>) wird <lb/>
+                    <pb n="6v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000013"/>die Gattung Erica durch Philippia vertreten, <lb/>jedoch finden sich auch 2
+                    Philippia am <lb/><placeName key="H0000355">Vorgebürge der guten
+                        Hoffnung</placeName>.</p>
+                <p>9) In einer Abhandlung von <persName key="H0013635">Griffith</persName>: <lb/>
+                    <seg type="comment">
+                        <orig>The Palms of the <placeName key="H0005360">British East
+                                India</placeName>
+                        </orig>
+                        <note xml:id="nphp_jty_gx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/VSSKKBR2">Griffith 1845.</ref></note>
+                    </seg>
+                    <lb/>in dem <placeName key="H0000332">Calcutta </placeName>Journal of
+                    Natural <lb/>History, die <add place="superlinear">ich</add> aber leider nur
+                    unvollständig <lb/>(bis <choice>
+                        <abbr>pag.</abbr>
+                        <expan>pagina</expan>
+                    </choice> 146) besitze, werden 45 <hi rendition="#u">neue<lb/>Palmen</hi>
+                    aufgeführt. Die Zahl aller <lb/>bekannten Palmen würde hiernach er<g ref="#typoHyphen"/><lb break="no"/>höhet werden müssen.</p>
+                <p>Ueber das Verhältniß <rs type="person" key="H0001518">meiner
+                        <lb/>Cousine</rs> zu <persName key="H0000740">Gustav
+                        Rasch</persName> weiß ich nichts, <lb/>indem wir schon seit Jahren außer
+                    <lb/>aller Verbindung mit ihr stehen.<note hand="#author" place="right" rend="sticked">
+                        <pb n="7r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000014"/>
+                        <hi rendition="#u">Pirijao</hi> vel <hi rendition="#u">Pihiguao</hi>, trunco
+                        aculeato, foliolis membra<g ref="#typoHyphen"/><lb break="no"/>naceis,
+                        undulato-crispis, singulis racemis 50 vel 80 <lb/>fructus largiens
+                        pomiformes, speciosissimos, flavos, ma<g ref="#typoHyphen"/><lb break="no"/>turitate rubescentes, plerumque abortu apyrenos, <lb/>2–3 pollicares,
+                        coctos vel assos alimentum prae<g ref="#typoHyphen"/><lb break="no"/>bentes,
+                        Musae et Solani tuberosi modo, farinosum, <lb/>saluberrimum. Cultam vidimus
+                        procerrimam <lb/>hanc palmam in ripa <placeName key="H0010593">Orinoci</placeName> et <placeName key="H0010507">Atabapi</placeName>
+                        <lb/>propter pagos <placeName key="H0009817">San Balthasar</placeName>
+                        et <placeName key="H0009817">Santa Barbara</placeName>. <lb/>An genus
+                        novum? <seg type="comment">
+                            <orig>
+                                <hi rendition="#u">
+                                    <choice>
+                                        <abbr>Nov.</abbr>
+                                        <expan>Nova</expan>
+                                    </choice>
+                                    <choice>
+                                        <abbr>Gen.</abbr>
+                                        <expan>Gener</expan>
+                                        <expan>a</expan>
+                                    </choice> et <choice>
+                                        <abbr>Spec.</abbr>
+                                        <expan>Species</expan>
+                                    </choice>
+                                </hi>
+                            </orig>
+                            <note xml:id="nc51_bxp_gx">
+                                <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/6A9ZSS73/q/nova%20genera">Humboldt/Bonpland/Kunth 1815-1825.</ref></note>
+                        </seg>
+                        <hi rendition="#u"> I <choice>
+                                <abbr>p.</abbr>
+                                <expan>pagina</expan>
+                            </choice> 315.</hi>
+                        <pb n="7v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000015"/>
+                    </note>
+                    <lb/>
+                    <pb n="8r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000016"/>Im Publicum genießt aber dieser Mann <lb/>keinen guten Ruf.</p>
+                <closer rend="paragraph">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster
+                        <signed>CKunth.</signed>
+                </closer>
+                <dateline>Berlin</dateline>
+                <dateline>den 13<hi rendition="#sup"><hi rendition="#u">ten</hi>
+                    </hi> Januar<lb/>1849.</dateline>
+                <postscript>
+                    <p>Wie gern ich Ihnen immer mit dergleichen <lb/>kleinen Ausweisen zu Befehl
+                        stehe, <lb/>brauche ich wohl nicht von neuem zu <lb/>versichern.</p>
+                </postscript>
+            </div>
+            <pb n="8v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001678000000017"/>
+            <note hand="#addressee" place="mTop"><p>
+                    <choice>
+                        <abbr>Prof</abbr>
+                        <expan>Professor</expan>
+                    </choice> Kunth</p>
+                <p>gegen die Physiognomik<supplied cert="high">.</supplied>
+                </p></note>
+        </body>
+    </text>
+</TEI>

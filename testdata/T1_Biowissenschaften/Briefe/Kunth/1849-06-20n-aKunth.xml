@@ -1,0 +1,82 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0005457" oldID="avhr_oww_k4c_2w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [nach 20.
+                    Juni 1849]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1849-06-20" notAfter="1849-08-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Die vorliegende Notiz nahm Humboldt auf einem Schreiben des bisher nicht näher
+                    identifzierten Theaterintendanten <persName key="H0013694">Alexandre de
+                        Guédémoff</persName> vor (Guédémoff an Humboldt. St. Petersburg, 20. Juni
+                    1848. Biblioteka Jagiellońska, Krakau, Sammlung Autographa). Darin kündigt
+                        <persName key="H0013694">Guédémoff</persName> an, Kunths Cousine
+                        <persName key="H0001518">Caroline Kunth</persName> zu
+                    engagieren.</note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>ein Brief von dem <lb/>
+                    <rs type="person" key="H0013694">Intendant des
+                        Spectacles</rs>
+                    <lb/>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <choice>
+                        <orig>Petersbourg</orig>
+                        <reg>Pétersbourg</reg>
+                    </choice> dem ich <lb/>
+                    <rs type="person" key="H0001518">die liebenswürdige Sängerin</rs>
+                    <lb/>warm empfohlen. Es ist <lb/>geklükt und der Brief <lb/>macht Ihnen und
+                        <rs type="person" key="H0001516">Ihrer
+                        <lb/>Gattin</rs> gewiss Freude, <lb/>mein Theurer.</p>
+                <signed>Ht</signed>
+                <postscript>
+                    <p>in Eile</p>
+                </postscript>
+                <dateline>Mittwochs</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_s4l_jnb_1db">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Robert </title>
+                <title>Schlagintweit] an Alexander von Humboldt. London, 19. Mai 1858</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Deutsches Literaturarchiv Marbach</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>A:Humboldt 62.2277</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0015556">Schlagintweit, Robert, Freiherr von
+                        (1833-1885)</persName>
+                    <placeName key="H0011492">London [Londres]</placeName>
+                    <date when="1858-05-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <pb n="64r"/>
+                <?oxy_comment_start author="lmartin" timestamp="20180321T161633+0100" comment="einmal kollationiert mit UP am 21.03.2018"?>
+                <opener>
+                    <?oxy_comment_end?>
+                    <dateline>London, 19<hi rendition="#sup">t.</hi> Mai 1858.</dateline>
+                    <address>
+                        <addrLine>(92 Jermyn Street <lb/>S.W.) <lb/>London <lb/></addrLine>
+                    </address>
+                    <address>
+                        <addrLine>117 Jermynstreet</addrLine>
+                    </address>
+                    <dateline>8<supplied cert="high">.</supplied> Juni 1858 </dateline>
+                </opener>
+                <p>Obwohl unsere Arrangements <lb/>mit dem <orgName key="ed_xqn_1bd_wcb">India
+                        House</orgName> noch <lb/>nicht so weit vorgeschritten <lb/>sind daß wir
+                    schon jetzt <lb/>Bestim̅tes berichten könnten <lb/>erlauben wir uns doch,
+                    Ihnen <lb/>einige Mittheilungen zu <lb/>machen da wir wie stets auf <lb/>Ihre
+                    gütige Theilnahme <lb/>rechnen. </p>
+                <p><pb n="64v"/>Wir sind erst seit 14 <lb/>Tagen in <placeName key="H0011492">London</placeName>, da wir in <lb/><placeName key="H0005371">Brüssel</placeName> in Folge der huldvollen <lb/>Aufnahme des <persName key="H0003220">Königs</persName> uns <lb/>mehrere Tage aufhielten.</p>
+                <p>Wir haben <persName key="ed_hvb_lxb_wcb"><choice>
+                            <abbr>Col.</abbr>
+                            <expan>Colonel</expan>
+                        </choice> Sykes</persName> und <lb/><persName key="H0015345">General
+                        Sabine</persName> öfters gesehen; <lb/>allein der Sturz des President
+                    <lb/>of the <orgName key="ed_ptj_5cy_fdb">Board of Control</orgName> (<persName key="ed_a44_wnx_fdb">Lord <lb/>Ellenborough</persName>) sowie die poli<g ref="#typoHyphen"/><lb break="no"/>tische Unsicherheit, besonders <lb/>in
+                    Beziehung auf <placeName key="H0006686">Indien</placeName>, <lb/>haben unsere
+                    Arrangements <lb/>etwas verzögert.</p>
+                <p>Wir benützen diese Gele<g ref="#typoHyphen"/><lb break="no"/>genheit, Ihnen
+                    mitzutheilen, <lb/>daß wir kürzlich von <persName key="H0011665">Professor
+                        <lb/>Harless</persName>, dem Ihnen
+                        <?oxy_comment_start author="lmartin" timestamp="20180321T151032+0100" comment="Nebenrechnung noch nachtragen"?><note place="mBottom" hand="#addressee" type="auxCalc"/><?oxy_comment_end?><?oxy_comment_start author="lmartin" timestamp="20180315T152236+0100" comment="Kopie liegt nur als Fragment vor"?>rühmlichst<?oxy_comment_end?></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002733" oldID="avhr_sqr_hqv_3v">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 12. Juli 1835] </title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1835-01-01" notAfter="1835-07-12" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund
+                        (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Die Anfrage zur geographischen Verbreitung der Pflanzen an den
+                    Atlantikküsten Afrikas und Südamerikas bezieht sich auf Recherchen zum Examen
+                    critique (<ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/EWHAUTU9">Oktav-Ausgabe</ref>, 2, 77-78). Der Druck der Folio-Ausgabe dieses Werkes
+                    war spätestens am 12. Juli 1835 beendet (vgl. <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/384RP7BM/q/Fiedler">Fiedler/Leitner 2000</ref> , 162). </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <p>
+                    <pb n="1r"/>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice> Kunth</p>
+                <p>Je vous supplie de <?oxy_comment_start author="paessler" timestamp="20160527T094242+0200" comment="H bezieht sich auf den Separatdruck von Robert Brown, Observations Systematical and Geographical on the Herbarium Collected by Professor Christian Smith, in the Vicinity of the Congo, During the Expedition to Explore that River under the Commmand of Captain Tuckey, in the Year 1816, London 1818. 
+
+Siehe: Examen critique, I, 77-78 (1836) , &quot;Rem. on the botany of the Congo River, p. 57&quot;, Perrottet, Guillemin, Richard, Flore de la Sénégambie, 1831, 18, 41, 73. Vorwort, Berlin November 1833. "?>
+                    <lb><?oxy_comment_end?></lb>disposer aussi de <seg type="comment">
+                        <orig>mon <lb/>exemplaire</orig>
+                        <note xml:id="nlmq_qcg_fx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/KG4X57GQ">Brown 1818</ref>.</note>
+                    </seg>, car les mots <lb/>sur la distribution <lb/>
+                    <choice>
+                        <orig>geographique</orig>
+                        <reg>géographique</reg>
+                    </choice>
+                    <choice>
+                        <orig>p</orig>
+                        <reg>page</reg>
+                    </choice> 57 sont <lb/>bien confus. Si Vous <lb/>
+                    <choice>
+                        <orig>ecrivez</orig>
+                        <reg>écrivez</reg>
+                    </choice> à <choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice>
+                    <persName key="H0004221">Adrien</persName>
+                    <lb/>
+                    <seg type="comment">
+                        <orig>Vous seriez aimable de <lb/>le prier de me procurer <lb/>par <choice>
+                                <abbr>Mr</abbr>
+                                <expan>Monsieur</expan>
+                            </choice>
+                            <persName key="H0001885">Perrotet</persName> une <lb/>liste des
+                            plantes connues <lb/>au <placeName key="H0010198">
+                                <choice>
+                                    <orig>Senegal</orig>
+                                    <reg>Sénégal</reg>
+                                </choice>
+                            </placeName> et <choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>
+                            <lb/>la Guyane ou <lb/>
+                            <placeName key="H0005346">
+                                <choice>
+                                    <orig>Bresil</orig>
+                                    <reg> Brésil</reg>
+                                </choice>
+                            </placeName>
+                            <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 59<supplied cert="high" prev="59">.</supplied>
+                        </orig>
+                        <note xml:id="nukf_cdg_fx">Vgl. <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/KG4X57GQ">Brown 1818</ref>, <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/4BIT4BGM">Guillemin/Perrottet/Richard 1830-1833</ref> sowie <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/EWHAUTU9/q/examen%20critique">Humboldt 1836-1839</ref> , II, 77–78. </note>
+                    </seg> Amitiés </p>
+                <closer>
+                    <signed>Ht</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

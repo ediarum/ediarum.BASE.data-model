@@ -1,0 +1,171 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="H0015181" oldID="avhr_sbv_55w_yy">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>O – Arbres fossiles</title>
+                <?oxy_comment_start author="leitner" timestamp="20170911T150138+0200" comment="gelesen UL"?>
+                <editor><?oxy_comment_end?>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="  http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <surname>Göhmann</surname>
+                        <forename>Karin</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://catalogue.bnf.fr/ark:/12148/cb16542070b">
+                        <surname>Barbasetti</surname>
+                        <forename>Laurence</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">
+                    <p>In der von Carl Sigismund Kunth zusammengestellten <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der Pflanzen</ref>
+                        verweisen zwei Siglen auf Fragen der Vegetationsgeschichte. Das mit der
+                        Sigle <ref xml:id="ed_uzr_fpw_1bb" type="siglum" target="#Geographie_der_Pflanzen_O">O</ref> markierte Blatt enthält
+                        Exzerpte aus zwei russischen Veröffentlichungen über fossile Wälder in
+                        Westrussland. Siehe auch Sigle <ref xml:id="ed_gb3_t3w_1bb" type="siglum" target="#Geographie_der_Pflanzen_X">X</ref>. </p></note></notesStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 82a, Bl. 7</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1255592</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                <placeName key="H0008129">Paris</placeName>
+                <date notBefore="1823-01-01" notAfter="1825-12-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p><pb n="7r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367062/1200/0/00000009.jpg"/><ref xml:id="ed_tgh_byw_yy" type="siglum" target="#Geographie_der_Pflanzen_O">O.</ref></p>
+                <p><choice>
+                        <orig>arbres</orig>
+                        <reg>Arbres</reg>
+                    </choice> fossiles</p>
+                <p>On trouve dans toutes les Provinces <lb/><choice>
+                        <abbr>sept</abbr>
+                        <expan>septentrionale</expan>
+                        <expan>s</expan>
+                    </choice> de la <placeName key="H0010689">Russie</placeName><supplied cert="high">,</supplied> surtout dans les <lb/>Gouvernements de <placeName key="H0001718">Novogorod</placeName>, <placeName key="H0009614">Twer</placeName><supplied cert="high">,</supplied>
+                    <lb/><placeName key="H0007986">Wologda</placeName><supplied cert="high">,</supplied> des masses immenses <lb/>de troncs de pins et de
+                        chênes<supplied cert="high">,</supplied>
+                    <lb/>généralement séparés de <choice>
+                        <sic>leur</sic>
+                        <corr cert="high">leurs</corr>
+                    </choice> ra<lb break="no"/>cines, quelquefois avec les raci<lb break="no"/>nes,
+                    tous dirigés du <choice>
+                        <abbr>N</abbr>
+                        <expan>nord</expan>
+                    </choice> au <lb/><choice>
+                        <abbr>S.</abbr>
+                        <expan>sud</expan>
+                    </choice> ou <supplied cert="high">du</supplied>
+                    <choice>
+                        <abbr>NO</abbr>
+                        <expan>nord-ouest</expan>
+                    </choice> au <choice>
+                        <abbr>SE</abbr>
+                        <expan>sud-est</expan>
+                    </choice><supplied cert="high">,</supplied> à <measure quantity="15" unit="fuss_preussisch">15 piés</measure> sous <lb/>sables d’alluvion,
+                    convertis en <lb/>lignites<supplied cert="high">,</supplied> en partie encore à
+                    employer <lb/>par les <choice>
+                        <sic>charpentier</sic>
+                        <corr cert="high">charpentiers</corr>
+                    </choice><supplied cert="high">,</supplied> mêlés d’osse<lb break="no"/>mens de
+                        mammouth<supplied cert="high">.</supplied>
+                    <seg type="comment">
+                        <orig>Kounizin</orig>
+                        <note xml:id="nwdk_smx_yy"><persName key="H0001512">Aleksandr
+                                Kunizyn</persName>.</note>
+                    </seg>
+                    <lb/>dans <seg type="comment">
+                        <orig><choice>
+                                <abbr>Bibl.</abbr>
+                                <expan>Bibliothèque</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Univ.</abbr>
+                                <expan>Universelle</expan>
+                            </choice> 1822. Mars <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 174</orig>
+                        <note xml:id="nox1_hmx_yy"><bibl sameAs="zotero-667230-HSGNEU5S">Kunizyn
+                                1822</bibl>.</note>
+                    </seg>.</p>
+                <p><choice>
+                        <orig>à</orig>
+                        <reg>À</reg>
+                    </choice> lier avec blocs de granite <lb/>venant du Nord.</p>
+                <p><note place="mBottom" hand="#author">et <seg type="comment">
+                            <orig><persName key="H0000141">Fleuriau</persName>
+                            </orig>
+                            <note xml:id="nuv3_mxx_yy">vgl. <bibl sameAs="zotero-667230-J64U2TSQ">Brongniart 1823</bibl>, 368–371.</note>
+                        </seg></note><lb/></p><p><pb n="7v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367062/1200/0/00000010.jpg"/>
+                    <seg type="comment">
+                        <orig>Punaises</orig>
+                        <note xml:id="nprb_rcx_m1b">Diese Notiz Humboldts bezieht sich  auf eine
+                            1821 im „Bazar Parisien“ erschienene Anzeige, die ein Mittel gegen
+                            Bettwanzen (punaises) bewarb. Im Werbetext wurde behauptet, Humboldt sei
+                            der Erfinder. Das Mittel wurde laut Anzeige von M. Mathieu, 5 Boulevard
+                            Bonne-Nouvelle vertrieben (vgl. <bibl sameAs="zotero-667230-QBSJ3IJN">Malo 1821</bibl>, 282).</note>
+                    </seg></p>
+                <p><choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice> Mathieu <choice>
+                        <abbr>Boulev</abbr>
+                        <expan>Boulevard</expan>
+                    </choice>
+                    <choice>
+                        <sic>bonne Nouvelles</sic>
+                        <corr cert="high">Bonne-Nouvelle</corr>
+                    </choice></p>
+            </div>
+        </body>
+    </text>
+</TEI>

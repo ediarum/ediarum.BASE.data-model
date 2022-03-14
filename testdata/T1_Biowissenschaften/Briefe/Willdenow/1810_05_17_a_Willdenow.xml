@@ -1,0 +1,496 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0006055" oldID="prov_nww_mcn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Karl Ludwig Willdenow. Paris, 17. Mai 1810</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Deutsches Literaturarchiv, Marbach</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <idno>66.243 A:Humboldt</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0008129">Paris</placeName>
+                    <date when="1810-05-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0006403">Willdenow, Karl Ludwig (1765–1812) </persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb n="1r"/>Mein theurer Willdenow! Es ist vor wenigen Wochen hier ein
+                    <lb/>junger Mensch angekommen, Namens <rs type="person" key="H0015802">Sellow</rs>, der in dem <orgName key="H0000532"><choice>
+                            <abbr>bot.</abbr>
+                            <expan>botanischen</expan>
+                        </choice> Gar<g ref="#typoHyphen"/><lb break="no"/>ten</orgName> gearbeitet <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> der mir eine Empfehlung von meinem Bruder <persName key="H0012068">Wil<lb break="no"/>helm</persName> gebracht. Er sieht freundlich,
+                    munter <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> lehrbegierig aus. So <lb/>elend auch Pflanzenzucht bekanntlich auch in
+                        <rs type="place" key="H0008129">Paris</rs> bestellt ist, <lb/>so kann ihm
+                    sein Aufenthalt doch in mancher Rüksicht nüzlich <lb/>werden. Da er in <rs type="place" key="H0008617">Malmaison</rs> keine Collegia hören kann, so
+                        ha<lb break="no"/>be ich es für besser gehalten, ihn im <orgName key="H0000553">Jardin des plantes</orgName> an<lb break="no"/>zustellen. Bei
+                    dem Zufluß junger Leute hat man ihm nicht <lb/>einmal die gewöhnlichen 34 Soli
+                    täglich schaffen können. Ich wer<lb break="no"/>de das erste Jahr gern für sein
+                    Auskommen sorgen, das heißt <lb/>ich werde von meiner Arbeit mit ihm theilen.
+                    Ich kann mir <measure quantity="1200" unit="livre_tournois">1200
+                        <lb/>livres</measure> abmüssigen, für das nächste Jahr muß man ihm von
+                        <placeName key="H0005221">Ber<lb break="no"/>lin</placeName> aus etwas
+                    verschaffen. Es hat mich tief geschmerzt daß Du <lb/>ihn an Andere <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> nicht an mich empfohlen hast. </p>
+                <p>Der Zwek dieser Zeilen ist eine Bitte, theurer Willdenow, aber <lb/>eine der
+                    ernsthaftesten Angelegenheiten meines Lebens. Ich rede <lb/>mit derselben
+                    Offenheit <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> treuen Liebe zu Dir, als vor 19 <lb/>Jahren, da ich zuerst Dir Hordeum
+                    murinum zur Bestimmung brachte<supplied cert="high">.</supplied>
+                    <lb/>Die Bitte ist selbstsüchtig, aber vielleicht lassen sich mehrerlei
+                    <lb/>Interessen dabei vereinigen<supplied cert="high">.</supplied> Mein Werk ist
+                    seiner Vollendung <lb/>nahe. Sechs Quartbände sind fertig <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Phys.</abbr>
+                                <expan>Physique</expan>
+                            </choice> Générale <choice>
+                                <abbr>od.</abbr>
+                                <expan>oder</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Géogr.</abbr>
+                                <expan>Géographie</expan>
+                            </choice> des plan<lb break="no"/>tes</orig>
+                        <note xml:id="nudy_yvn_dx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/NDEPCZEJ">Humboldt 1805.</ref>
+                        </note>
+                    </seg> – <seg type="comment">
+                        <orig>Astronomie 2 <choice>
+                                <abbr>B.</abbr>
+                                <expan>Bände</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="nbby_lwn_dx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/JUIGPC3H">Humboldt 1808-1811</ref>. </note>
+                    </seg> – <seg type="comment">
+                        <orig>Zoologie</orig>
+                        <note xml:id="nu52_fyn_dx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/4NTN2HVH">Humboldt 1811-1833.</ref>
+                        </note>
+                    </seg> – <seg type="comment">
+                        <orig>Mexico 2 <choice>
+                                <abbr>B.</abbr>
+                                <expan>Bände</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="npgs_lyn_dx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/C2ANAXJR">Humboldt 1811.</ref>
+                        </note>
+                    </seg>
+                    <supplied cert="high">.</supplied> Dazu 3 folio Bände<seg type="comment">
+                        <orig>
+                            <lb/>Plantes <choice>
+                                <abbr>équinox</abbr>
+                                <expan>équinoxiales</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="nyl4_gpv_dx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/TVIRV8EB">Humboldt 1808–1813</ref>. </note>
+                    </seg> – <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Melast.</abbr>
+                                <expan>Melastomacées</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="nxxp_ksv_dx">Humboldt/Bonpland 1816–1823.</note>
+                    </seg> – <seg type="comment">
+                        <orig>
+                            <unclear reason="illegible" cert="low">Moniminien</unclear>
+                        </orig>
+                        <note xml:id="nd3f_prw_dx">möglicherweise: Monomieae.</note>
+                    </seg> . Man drukt jezt <lb/>an den <seg type="comment">
+                        <orig>4 Bänden <choice>
+                                <abbr>histor.</abbr>
+                                <expan>historische</expan>
+                            </choice> Reise</orig>
+                        <note xml:id="nu1r_pvv_dx">Der Reisebericht (“Relation historique“ – <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/DR2NAW3J">Humboldt 1814–1825</ref>) erschien in drei Bänden, ein geplanter
+                            vierter Band ist nicht erschienen.</note>
+                    </seg>. <rs type="person" key="H0015624">Schöll</rs> hat sich mit einem überaus
+                    <lb/>reichen <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> liberalen Buchhändler <rs type="person" key="H0016109">Stone</rs>
+                    vereinigt, es fehlt we<lb break="no"/>der an Geld, noch an Vorschuß. Man
+                    verkauft jährlich für <lb/>mehr als <measure quantity="140000" unit="livre_tournois">140,000 livres</measure> von meinen Werken. Die
+                    Botanik bleibt <lb/>
+                    <pb n="1v"/>ganz zurük. Seit 11 Monathen ist 1 Heft plantes <choice>
+                        <abbr>équin</abbr>
+                        <expan>équinoxiales</expan>
+                    </choice>
+                    <lb/>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> 1 Heft <choice>
+                        <abbr>Melast.</abbr>
+                        <expan>Melastomacées</expan>
+                    </choice> erschienen. Die Ursachen brauche ich <lb/>Dir nicht zu enthüllen. Zu
+                    dem alten Uebel sind <lb/>neue dazu gekommen. Die <rs type="person" key="H0003174">Kaiserin Josephine</rs> hält <lb/>sich jezt bald in <rs type="place" key="H0008617">Malmaison</rs> bald in <rs type="place" key="H0001574">Navarre</rs> auf, <lb/><rs type="person" key="H0003476">Bonpland</rs> hat sich ganz in die administration ge<lb break="no"/>worfen,
+                    er hat <measure quantity="12000" unit="livre_tournois">12000 livres</measure>
+                    Gehalt <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> verspricht wissenschaft<lb break="no"/>liche Arbeiten die er nicht
+                    leisten kann, selbst bei <lb/>gutem Willen nicht leisten könnte. Es wäre unnüz
+                    <lb/>über verlorene Zeit zu klagen, es <choice>
+                        <abbr>kom̅t</abbr>
+                        <expan>kommt</expan>
+                    </choice> darauf <lb/>an, bessere Maaßregeln für die Zukunft zu neh<lb break="no"/>men. <rs type="person" key="H0003476"><choice>
+                            <abbr>Bonpl.</abbr>
+                            <expan>Bonpland</expan>
+                        </choice></rs> hat die vortreflichsten Eigenschaften <lb/>des Herzens, ich
+                    lebe auf dem freundschaftlichsten <lb/>Fuße mit ihm, aber weder ich, noch er
+                    selbst hat Ein<lb break="no"/>fluß auf ihn. Mir liegt wenig an den Plantes <lb/><choice>
+                        <abbr>équinox<ex>.</ex>
+                        </abbr>
+                        <expan>équinoxiales</expan>
+                    </choice>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Melast.</abbr>
+                        <expan>Melastomacées</expan>
+                    </choice><supplied cert="high">.</supplied> Mögen diese langsam
+                    <lb/>hinschländern – aber ich will nicht <rs type="place" key="H0005696">Europa</rs> verlassen <lb/>ehe ich nicht unsere Species habe erscheinen
+                    sehen, es <lb/>sind gewiß 12–1600 neue <choice>
+                        <abbr>Spec</abbr>
+                        <expan>Species</expan>
+                    </choice> nach denen zu urtheilen <lb/>die Du schon beschrieben. Ich habe von
+                        <rs type="person" key="H0003476"><choice>
+                            <abbr>B</abbr>
+                            <expan>Bonpland</expan>
+                        </choice></rs> verlangt, <lb/>daß er mir die Manuscripte 4 Quart- und 3 <choice>
+                        <abbr>fol.</abbr>
+                        <expan>folio</expan>
+                    </choice> Bände <lb/>herausgiebt, daß er mir die Herausgabe der <choice>
+                        <abbr>Spec.</abbr>
+                        <expan>Species</expan>
+                    </choice> über<g ref="#typoHyphen"/><lb break="no"/>läßt. Wärst Du barmherzig
+                    genug dieses Werk <lb/>zu übernehmen. Hier meine Vorschläge, ganz frei <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>zuthulich. </p>
+                <p>Du kömmst mit <persName key="H0006401">Frau</persName>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <persName key="H0006404">Kind</persName> hieher. Ich
+                    gebe Dir ein <lb/>hüpsches Quartier, das mir gehört <subst>
+                        <del rendition="#s">daß</del>
+                        <add place="intralinear">, </add>
+                    </subst>das ich aber nicht <lb/>bewohne nahe am <rs type="place" key="H0008071">Panthéon</rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> am <orgName key="H0000553">Jardin des plan<lb break="no"/>tes</orgName>. In <placeName key="H0008617">Malmaison</placeName>
+                    findest Du auch Wohnung für Dich <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>Deine Familie<supplied cert="high">.</supplied> Ich kenne Deine Art zu
+                        arbeiten<supplied cert="high">.</supplied> In wenigen <lb/>Monathen gehst Du
+                    das Herbarium <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> die <choice>
+                        <abbr>MSS</abbr>
+                        <expan>Manuscripte</expan>
+                    </choice> durch. <lb/>Du machst Dir hier Auszüge, Du <choice>
+                        <abbr>nim̅st</abbr>
+                        <expan>nimmst</expan>
+                    </choice> entweder <lb/>die <choice>
+                        <abbr>MSS</abbr>
+                        <expan>Manuscripte</expan>
+                    </choice> mit nach <placeName key="H0005221">Berlin</placeName>
+                    <choice>
+                        <abbr>od.</abbr>
+                        <expan>oder</expan>
+                    </choice> was mir besser scheint, <lb/>ich lasse abschreiben was Du willst. Eben
+                    so nimmst <lb/>Du die Pflanzen mit nach <placeName key="H0005221">Berlin</placeName>, die Du noch <lb/>näher studieren mußt. Ich wünsche eine
+                    Beschreibung <lb/>ganz wie in den Species. Zu allem was in unseren <choice>
+                        <abbr>
+                            <lb/>MSS</abbr>
+                        <expan>Manuscripten</expan>
+                    </choice>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> im Herbarium steht, wird <hi rendition="#u">Bonpl.</hi>
+                    <choice>
+                        <abbr>od.</abbr>
+                        <expan>oder</expan>
+                    </choice>
+                    <hi rendition="#u">Humb.</hi>
+                    <lb/>gesezt, zu allem was Du selbst beschreibst <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> discu<lb break="no"/>tirst <hi rendition="#u">Willd</hi>. So geschieht
+                    jedem sein Recht. Ein Quart <lb/>Band, linnéisch geordnet, entweder bloß neuere <choice>
+                        <abbr>Spec.</abbr>
+                        <expan>Species</expan>
+                    </choice>
+                    <lb/>12–1600 <choice>
+                        <abbr>od.</abbr>
+                        <expan>oder</expan>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">ich</del>
+                        <add place="intralinear">alle</add>
+                    </subst> von uns gesammelten Pflanzen 5–6000. <lb/>Ersteres hätte ich lieber, zu
+                    jeder beinah haben wir etwas <lb/>
+                    <pb n="2r"/>anzumerken <choice>
+                        <abbr>z.</abbr>
+                        <expan>zum</expan>
+                    </choice>
+                    <choice>
+                        <abbr>B.</abbr>
+                        <expan>Beispiel</expan>
+                    </choice> Standort und Höhe wo die Pflanze <lb/>wächst, wenig <choice>
+                        <abbr>od.</abbr>
+                        <expan>oder</expan>
+                    </choice> gar keine Synonima bloß Deine <lb/>Species citierend. Das ganze Werk
+                    lateinisch. Klein folio <lb/>wie <seg type="comment">
+                        <orig>
+                            <rs type="person" key="H0004230">la Billardiere</rs>
+                        </orig>
+                        <note xml:id="nzjg_bjp_bx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/RZ4ZAU8F">Labillardière 1804–1806.</ref></note>
+                    </seg>, mit linear Zeichnungen, wo von <lb/>schon ein 50 gestochen sind von <rs type="person" key="H0015800">Sellier</rs>. Man kann <lb/>5–6–800 <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> mehr stechen, das Werk trägt Kosten<supplied cert="high">.</supplied>
+                    <lb/>
+                    <rs type="person" key="H0004093">Turpin</rs> zeichnet schnell <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> wünscht aus Armuth Arbeit. Du <lb/>
+                    <choice>
+                        <sic>bezeichnetst</sic>
+                        <corr cert="high">bezeichnest</corr>
+                    </choice> hier, was Du gezeichnet haben willst. Von jedem <lb/>neuen genus läßt
+                    man eine <choice>
+                        <abbr>Spec.</abbr>
+                        <expan>Species</expan>
+                    </choice> vollständig schön zeich<lb break="no"/>nen <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> stechen. Wäre man der neuen genera gewiß, so <lb/>finge man damit an,
+                    wo nicht giebt man diese Zeichnungen <lb/>(ich meine die schattirten) in den
+                    plantes équinoxiales. <lb/>In einer Vorrede werde ich selbst aufs deutlichste
+                    sagen <lb/>was wir Dir verdanken. Titel <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Nova</expan>
+                    </choice>
+                    <choice>
+                        <abbr>gener.</abbr>
+                        <expan>genera</expan>
+                    </choice> et <choice>
+                        <abbr>Spec</abbr>
+                        <expan>Species</expan>
+                    </choice>
+                    <choice>
+                        <abbr>plantar.</abbr>
+                        <expan>plantarum</expan>
+                    </choice>
+                    <lb/>quas in <choice>
+                        <abbr>itin.</abbr>
+                        <expan>itinere</expan>
+                    </choice>
+                    <choice>
+                        <abbr>colleg.</abbr>
+                        <expan>collegerunt</expan>
+                    </choice>
+                    <choice>
+                        <abbr>H</abbr>
+                        <expan>Humboldt</expan>
+                    </choice> et <choice>
+                        <abbr>B</abbr>
+                        <expan>Bonpland</expan>
+                    </choice> in <choice>
+                        <abbr>ord.</abbr>
+                        <expan>ordinem</expan>
+                    </choice>
+                    <choice>
+                        <abbr>dig.</abbr>
+                        <expan>digessit</expan>
+                    </choice>
+                    <choice>
+                        <abbr>not.</abbr>
+                        <expan>notaciones</expan>
+                    </choice> luc. instr. W. Da<lb break="no"/>mit die Herausgabe des Textes,
+                    welcher die Hauptsache ist, <lb/>unabhängig bliebe von den Kupfern au trait,
+                    hielt ich <lb/>es für rathsam, die Kupfer im Texte gar nicht zu citiren <lb/>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> die Kupfer im gleichen formate ordnungslos Heftwei <lb/>se folgen zu
+                    lassen: Dann finge man mit <choice>
+                        <abbr>Spec.</abbr>
+                        <expan>Species</expan>
+                    </choice>
+                    <lb/>seltener generum an und hielt es das Publikum aus <lb/>so ließe man den
+                    Bettel der Salvien, Heliotropien <lb/>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Solan. folgen! Das alles, versteht sich, ganz wie Du <lb/>es willst.
+                    Liegt es in Deiner Lage den Vorschlag anzunehmen, <lb/>so weiß ich was Dich
+                    bewegt, Liebe zu mir, Gewißheit <lb/>ein nüzliches Werk in die Welt zu bringen <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> der Wissen<lb break="no"/>schaft, die Du neu begründet hast, einen
+                    neuen Dienst <lb/>zu erweisen. Ich muß noch einen Nebenpunkt berühren. Wir
+                    dürfen <lb/>uns nicht mit Deinem Schweiße bereichern. So bald Du die <lb/>Reise
+                    antreten kannst, zahlt Dir <persName key="H0000283">Friedländer</persName>
+                    <measure quantity="3000" unit="franc"> 3000 francs</measure><supplied cert="high">,</supplied>
+                    <lb/> es ist ein geringer Zuschuß zu den Reisekosten <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> so bald <lb/>wir den Contract mit den Buchhändlern geschlossen haben,
+                    <lb/>schmeichle ich mir mehr anbieten zu können – <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> zwar unter <lb/>dem strengsten Siegel der Verschwiegenheit. Es wäre
+                    nicht recht <lb/>von mir, Dich zu beordren. Ich könnte hinzufügen, Du
+                    <lb/>müßtest doch einmal das Dir so innigst verhaßte <placeName key="H0008129">Paris</placeName> sehen, <lb/>die Herbaria werden Dich
+                    interessiren, der <orgName key="H0000532">Garten</orgName> würde ge<g ref="#typoHyphen"/><lb break="no"/>winnen wenn Du im Herbste August–<choice>
+                        <abbr>Nov.</abbr>
+                        <expan>November</expan>
+                    </choice> hier wä<g ref="#typoHyphen"/><lb break="no"/>rest, Du könntest eigene <choice>
+                        <abbr>wissenschaftl.</abbr>
+                        <expan>wissenschaftliche</expan>
+                    </choice> Pläne anspinnen<supplied cert="high">.</supplied>
+                    <lb/> Ich verspreche, dazu mit <persName key="H0006401">Deiner theuren guten
+                        Frau</persName> alle <lb/>Schusterbuden von ganz Paris zu durchwandern!!
+                    Willst <lb/>Du schlechterdings nicht kommen, so müßte ich die <choice>
+                        <abbr>MSS</abbr>
+                        <expan>Manuscripte</expan>
+                    </choice>
+                    <lb/>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> das <choice>
+                        <abbr>Herbar.</abbr>
+                        <expan>Herbarium</expan>
+                    </choice> nach <placeName key="H0005221">Berlin</placeName> reisen
+                    lassen. Lezteres kostet <lb/>an transport dann auf neue hin <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> her <measure quantity="75" unit="louisdor">70–80 Louis
+                        <lb/>d'or</measure>, ich kann dazu eigentlich nicht über das <choice>
+                        <abbr>herbar.</abbr>
+                        <expan>herbarium</expan>
+                    </choice> des <orgName key="H0000565">
+                        <lb/>Musée</orgName> disponieren. Es ist selbst hart <subst>
+                        <del rendition="#s">W</del>
+                        <add place="intralinear">
+                            <persName key="H0003476">Bonpland</persName>
+                        </add>
+                    </subst>
+                    <lb/> die <choice>
+                        <abbr>MSS</abbr>
+                        <expan>Manuscripte</expan>
+                    </choice> zu nehmen, er kann auch gewiß manche mündliche <lb/>Aufklärung geben.
+                    Dazu ist Deine Anwesenheit nöthig, um <lb/>
+                    <pb n="2v"/>
+                    <rs type="person" key="H0004093">Turpin</rs> über die Zeichnungen zu
+                    instruieren. Was Du <lb/>theurer guter Willdenow, auch <choice>
+                        <abbr>bestim̅st</abbr>
+                        <expan>bestimmst</expan>
+                    </choice>, werde ich <lb/>in stiller Rührung gut heißen. Schreibe mir bald
+                    <lb/>einige freundliche Worte. Ich umarme den <persName key="H0006404">Kleinen</persName><supplied cert="high">.</supplied>
+                    <lb/> Meine schönsten Grüße <persName key="H0006401">Deiner theuren Gattin</persName><supplied cert="high">.</supplied>
+                </p>
+                <closer rend="paragraph">
+                    <signed>AHumboldt</signed>Rue de la vieille Estrapa<lb break="no"/>de <choice>
+                        <abbr>n</abbr>
+                        <expan>numéro</expan>
+                    </choice> 11. <dateline rend="align(left)">ce 17 Mai 1810.  </dateline>
+                </closer>
+            </div>
+            <postscript>
+                <p>Willst Du aber <rs type="place" key="H0008129">Paris</rs> recht genießen,
+                    <lb/>so denke aber ja nicht auf Umwege nach <lb/>
+                    <rs type="place" key="H0001654">Holland</rs>, <rs type="place" key="H0008945">Montpellier</rs>
+                    <choice>
+                        <abbr>od.</abbr>
+                        <expan>oder</expan>
+                    </choice>
+                    <placeName key="H0009594">Turin</placeName>. Das
+                    <lb/>erlaubt Dir Deine Zeit nicht und jede Woche <lb/>die Du nicht in den
+                    hiesigen Sammlungen <lb/>lebst, wird Dich gereuen. Mein Arm ist <lb/>immer lahm <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> sehr krank.</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

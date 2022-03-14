@@ -1,0 +1,77 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_qm4_xcq_ycb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Hermann und Robert Schlagintweit. [Potsdam, 01.
+                    <?oxy_comment_start author="lmartin" timestamp="20180223T134033+0100" comment="Ort und Datum unklar, auch auf unklares Schreibdatum (u.s.) hinweisen?"?>Dezember<?oxy_comment_end?>
+                    1857]</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>American Philosophical Society Library</institution>
+                        <collection><?oxy_comment_start author="lmartin" timestamp="20180223T134042+0100" comment="Signatur unklar"?>Alexander<?oxy_comment_end?>
+                            von Humboldt papers, 1801-1859 </collection>
+                        <idno>B: All. 3, v.
+                            <?oxy_comment_start author="lmartin" timestamp="20180315T141033+0100" comment="einmal kollationiert mit UP am 15.03.2018
+"?>4<?oxy_comment_end?></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <date when="1857-12-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                    <persName key="H0015556">Schlagintweit, Robert, Freiherr von
+                        (1833-1885)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession"><pb n="1r"/>
+                
+				<p>Der <persName key="H0002178">König</persName>, der mich gestern Nachmittag zum
+                    <lb/>ersten Male hatte kommen lassen <lb/>hat sich mit grosser Freundlichkeit
+                    <lb/>Ihrer beiden, meine theuren Freunde <lb/>und mit Besorgniss Ihres
+                    abwesenden <lb/><persName key="H0015552">Bruders</persName> erinnert: auch lässt
+                    die <lb/><persName key="H0002149">Königin</persName> sehr warm für die
+                    zierlichen <lb/>Bilder auf Elfenbein danken<supplied cert="high">.</supplied></p>
+				<closer>
+                    <salute>Ihr</salute>
+                    <signed>AlHumboldt <lb/><pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+                        <lb/><pb n="2r"/>
+                    </signed>
+                    <address>
+                        <addrLine><choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren <lb/>den Herrn Gebrüdern Schlagintweit
+                            <lb/>eiligst <lb/>AlHumboldt</addrLine>
+                        <?oxy_comment_start author="lmartin" timestamp="20180223T134142+0100" comment="Transkription auf Deutsch und Englisch durch H.S.? 
+
+Hinweis zu John Thomas Quekett?"?>
+                    </address>
+                    <?oxy_comment_end?>
+				</closer><pb n="2v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0000609" oldID="avhr_ahd_g1p_kv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend,
+                    [1843-1848] </title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1843-01-01" notAfter="1848-01-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Der Brief geht auf eine Anfrage des <persName key="H0015957">Duc de Dalmatie</persName> zurück. Dieser war von 1843
+                    bis 1848 französischer Gesandter in Preußen. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+            </div>
+            <div type="writingSession">
+                <pb n="1r"/><p>
+                    <note hand="#addressee" place="mTop">
+                         Graf Stollberg zu Wernigerode <unclear reason="illegible" cert="high">hat eine solche</unclear> Kastanienallee</note>Eine Bitte:
+                   Es ist dem <persName key="H0015957">Marquis de Dalmatie</persName>
+                    <lb/>von <placeName key="H0008129">Paris</placeName> aus die Frage
+                    vorgelegt worden <lb/>ob es wahr sei dass man in Deutschland <lb/>auf
+                    Eichstämmen habe Fagus castanea <lb/>mit Erfolg propfen können? Schreiben
+                    <lb/>Sie mir theurer Freund zwei Worte <lb/>darüber französisch, die ich
+                    brauchen <lb/>kann<supplied cert="high" prev="kann">.</supplied>
+                    <lb/>Ihr</p>
+                <signed>
+                    <lb/>AlHumboldt</signed>
+                <dateline>Sonnabend<address>
+                        <addrLine>
+                                    <pb n="1v"/>
+                                  <choice><abbr>Sr</abbr><expan>Seiner</expan></choice>
+                            Wohlgeboren </addrLine><addrLine>Herrn Professor Kunth</addrLine>
+                    </address>
+                </dateline>
+                <closer>
+                    <salute/>
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

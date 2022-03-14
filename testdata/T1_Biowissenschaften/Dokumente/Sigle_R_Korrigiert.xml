@@ -1,0 +1,97 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="avhr_pyq_twh_mcb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>R – Auszüge aus </title>
+                <title>E. G. Fischers '</title>
+                <title>Untersuchung über den eigentlichen Sinn der höheren Analysis'</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz,
+                            Germany</institution>
+                        <collection>Alexander von Humboldt Nachlässe und Autographe</collection>
+                        <idno>
+                            <idno type="shelfmark">Nachl. Alexander von Humboldt, gr. Kasten 12, Nr.
+                                99b, Bl. 1-111</idno>
+                            <idno type="URLCatalogue">http://kalliope-verbund.info/DE-611-HS-1447588</idno>
+                            <idno type="URLCatalogue">http://www.stabikat.de/DB=1/PPN?PPN=829063714 </idno>
+                            <idno type="URLImages">http://digital.staatsbibliothek-berlin.de/dms/werkansicht/?PPN=PPN829063714</idno>
+                            <idno type="URN">http://resolver.staatsbibliothek-berlin.de/SBB0001A59600000000</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                <placeName key="H0008129">Paris</placeName>
+                <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="80r"/>
+                <?oxy_comment_start author="lmartin" timestamp="20180110T142115+0100" comment="Verlinkung der Seiten fehlt!"?>
+                <p><?oxy_comment_end?><ref xml:id="ed_rzx_mr5_lcb" type="siglum" target="#Geographie_der_Pflanzen_R">R.</ref> Espèces</p>
+                <p><persName key="H0000107">Fischer</persName> dit avec raison <add place="superlinear">(<seg type="comment">
+                            <orig><choice>
+                                    <abbr>Unters.</abbr>
+                                    <expan>Untersuchung</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>üb.</abbr>
+                                    <expan>über</expan>
+                                </choice> höhere <lb/><choice>
+                                    <abbr>Analys.</abbr>
+                                    <expan>Analysis</expan>
+                                </choice></orig>
+                            <note xml:id="nj5k_d13_mcb"><bibl sameAs="zotero-667230-3IKQ9VKQ">Fischer, E. G. 1808</bibl>.</note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice>
+                        <subst>
+                            <del rendition="#ow">29</del>
+                            <add place="intralinear">19</add>
+                        </subst>.)</add> qu'il y a <lb/>sur la terre plus d'individus de plantes que d'<subst>
+                        <del rendition="#ow">espèces</del>
+                        <add place="across">animaux</add>
+                    </subst><supplied cert="high">,</supplied>
+                    <lb/>mais plus d'espèces d'animaux que de plantes. En effet<supplied cert="high">,</supplied>
+                    <lb/>il y a seuls autant <choice>
+                        <sic>d'insecte</sic>
+                        <corr cert="high">d'insectes</corr>
+                    </choice> que de plantes, pas <lb/>les mollusques. Donc le nombre <choice>
+                        <sic>des</sic>
+                        <corr cert="high">de</corr>
+                    </choice>
+                    <hi rendition="#u">types</hi> d'animaux (êtres qui <lb/><unclear reason="illegible" cert="high">sentent</unclear>) beaucoup plus grand que
+                    des plantes. D'ailleurs <lb/>faux de comparer les légumineuses, graminées aux
+                        classes<supplied cert="high">,</supplied>
+                    <lb/>poissons, oiseaux. Une graminée plus près d'organisation d'une <lb/>Musacée
+                    ou Orchidées ou Composée que le poisson du chien. Toutes <lb/>les plantes un
+                    même type.</p>
+                <pb n="80v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

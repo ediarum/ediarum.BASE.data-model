@@ -1,0 +1,258 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0006054" oldID="prov_pw5_mcn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Karl Ludwig Willdenow. Paris, 10. Oktober
+                    1811</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>         
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0003476">Bonpland, Aimé Jacques (1773–1858 ) </persName>
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0008129">Paris</placeName>
+                    <date when="1811-10-10" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0006403">Willdenow, Karl Ludwig (1765–1812) </persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <p><note hand="#author" place="mTop">Lies die Einlagen, mein Lieber, <choice>
+                            <abbr>u</abbr>
+                            <expan>und</expan>
+                        </choice> betreibe die Bitte von Cuvier</note>
+                    <pb n="1r"/>Mein theurer Willdenow! Mit unendlichem Schmerze habe <lb/>ich
+                    erfahren, daß Du von einer schweren Krankheit erstanden <lb/>bist. Vielleicht
+                    hat das Gerücht die Gefahr verschlimmert, <lb/>doch sind alle die Dich lieben,
+                    unendlich bekümmert um <lb/>Dich <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> die theuren Deinen. Es ist unmöglich Euch lange <lb/>nahe gewesen zu
+                    sein, ohne mit Zärtlichkeit an die Tage <lb/>des Zusammenlebens zu denken. Ich
+                    darf wohl <rs type="person" key="H0012241">Desfontaines</rs>, <lb/><rs type="person" key="H0013183">Corea</rs> , <rs type="person" key="H0003476">Bonpland</rs>, <rs type="person" key="H0012784">Dupetit Thouars</rs>,<rs type="person" key="H0004093"> Turpin</rs>, <add place="superlinear">Gay</add><supplied cert="high">,</supplied>
+                    <rs type="person" key="H0004274">Lamarck</rs>, <rs type="person" key="H0004222">Jussieu</rs><supplied cert="high">,</supplied>
+                    <add place="left">Berthollet, Malus..</add>
+                    <lb/>....nennen. Nie hat ein Reisender solche Theilnahme zu<lb break="no"/>rükgelassen, nie hat er sie aber auch so verdient. Mit <lb/>Wehmut, theurer
+                    Willdenow, denke ich an die Lage Deiner <lb/>guten, lieben <persName key="H0006401">Gattin</persName>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> des treflichen <persName key="H0006404">Wilhelms</persName>. Doch Du
+                    <lb/>bist genesen <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> wir können uns alle Glükwünschen. <lb/>Ich lebe mein altes, treibendes
+                    Wesen fort, viel Be<lb break="no"/>wegung <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> guter Wille und wenig Genuß. Der Arm <lb/>ist gar schlimm <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> stumpf. Ich bewohne jezt oft <lb/>die vieille Estrapade, die kleine
+                    Wohnung unten. Das <lb/>Zimmer, die Treppe – alles erinnert an Euch. Ich reise
+                    <lb/>diese Nacht nach <placeName key="H0007962">Wien</placeName>; eine Reise von
+                    6 Wochen. <lb/>Die Buchhändler sind des Teufels über meine Abwesenheiten
+                    <lb/>aber ich habe in 6 Jahren <rs type="person" key="H0012068">meinen
+                        Bruder</rs> nicht gesehen<supplied cert="high">,</supplied>
+                    <lb/><pb n="1v"/>ich bin Anfang Dezember wieder hier. Auch fürchte <lb/>ich die
+                    bald eintretende Kälte. Deine Comissionen <lb/>von Büchern habe ich auf zwei
+                    Wegen gemacht, <lb/>aber harre noch immer. Aber, überböser, der Du <lb/>den <rs type="person" key="H0003693">Brown</rs>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Nov</abbr>
+                                <expan>Nova</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Holl</abbr>
+                                <expan>Hollandia</expan>
+                            </choice>
+                        </orig>
+                        <note xml:id="ndvf_2mp_bx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/6AWI6XHF">Brown 1810a</ref>.</note>
+                    </seg>
+                    <ex> </ex>entführt hast, ohne es mir <lb/>zu sagen. Es wäre ja besser gewesen,
+                    ich hätte <lb/><rs type="person" key="H0003476">Bonpland</rs> vorbereiten
+                    können. Ich habe alles auf <lb/>Zufall geschoben. Schikke uns ja bald den <seg type="comment">
+                        <orig><rs type="person" key="H0003693">Brown</rs>
+                        </orig>
+                        <note xml:id="nvpw_y14_dx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/6AWI6XHF">Brown 1810a</ref>.</note>
+                    </seg>
+                    <lb/>zurük: ich habe hier keinen erhaschen können. <lb/>Deine Krankheit wird
+                    Deine Arbeiten unterbro<lb break="no"/>chen haben. Ich eile nie, aber dankbar
+                        wer<lb break="no"/>de ich im Winter etwas von Dir empfangen<supplied cert="high">.</supplied>
+                    <lb/>Schreibe nur hieher <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> nicht nach <placeName key="H0007962">Wien</placeName>, denn <lb/>kein
+                    Brief trift mich dort. Innigen Dank <lb/>für die schöne <seg type="comment">
+                        <orig>Baumzucht</orig>
+                        <note xml:id="nzcr_bb4_dx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/itemKey/EGT4G9ND">Willdenow 1811.</ref>.</note>
+                    </seg>. Die Vignette ist <lb/>gar hüpsch, das Buch bedarf meines Lobes nicht.
+                    <lb/>Der Mann zu Pferde<supplied cert="high">,</supplied> der<persName key="H0000248"> Kaiser</persName><supplied cert="high">,</supplied>
+                    <rs type="person" key="H0011719">Hayne</rs>?<rs type="person" key="H0003260">
+                        Frau <lb/>von Berg</rs>, die reitende Mutter, hätte sich besser
+                    <lb/>ausgenommen. Die <seg type="comment">
+                        <orig>Dedication</orig>
+                        <note xml:id="nmrd_5c4_dx">“Dem Herrn Freiherrn F. A. von Humboldt. Ritter
+                            des grossen rothen Adler-Ordens dritter Klasse, Königl. Preussischem
+                            Kammerherrn, mehrerer Akademien und Societäten Mitglied, zum Beweise
+                            seiner unbegrenzten Hochachtung zugeignet.“</note>
+                    </seg> macht mir immer <lb/>neue Freude.<rs type="person" key="H0013386">
+                        Gay</rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> seine <rs type="person" key="H0013385">Frau</rs> grüßen Euch
+                    <lb/>innigst. Wir sind immer schwanger <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> haben wieder <lb/>ein Mädchen gehabt. Jezt fühlen wir nichts. <lb/>Mit
+                    alter, dankbarster, innigster Liebe<supplied cert="high">.</supplied>
+                </p>
+                <p>Dein Dich brüderlich lie<g ref="#typoHyphen"/><lb break="no"/>bender</p>
+                <signed>Alex Humboldt</signed>
+                <dateline>Paris</dateline>
+                <dateline>den 10<supplied cert="high">.</supplied>
+                    <choice>
+                        <abbr>Okt</abbr>
+                        <expan>Oktober</expan>
+                    </choice>
+                </dateline>
+                <dateline>1811.</dateline>
+            </div>
+            <postscript>
+                <p>
+                    <add place="intralinear">Innige</add> Umarmungen (so ist es erlaubt) <lb/>an die
+                    theure <persName key="H0006401">Gattin</persName>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">Alexan</del>
+                        <add place="intralinear">
+                            <persName key="H0006404">Wilhelm</persName></add>
+                    </subst>
+                    <lb/><choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <rs type="person" key="H0015558">Schlechtenthal</rs>.</p>
+            </postscript>
+            <postscript>
+                <p>J’ai appris avec une peine extrême que vous avez fait une maladie
+                    <lb/>dangereuse. Maintenant que vous êtes retabli soignez, aussi bien, votre
+                    santé <lb/>que vos plantes. Vous seriez bien aimable de m’envoyer le Bocconia
+                        <lb/><pb n="2r"/>Cordata promis depuis si long-tems; d’y joindre des bulbes
+                    des nymphæ que vous <lb/>cultivez ainsi que d’autres plantes que vous savez ne
+                    pas <choice>
+                        <sic>exister</sic>
+                        <corr cert="high">existent</corr>
+                    </choice> à <rs type="place" key="H0008617">Malmaison</rs>. L’<rs type="person" key="H0003174">Impératrice</rs>
+                    <lb/>qui voit souvent votre nom sur les listes de ceux à qui elle donne la
+                    Malmaison <lb/>et les liliacées <subst>
+                        <del rendition="#ow">seraient</del>
+                        <add place="intralinear">serait</add>
+                    </subst> bien aisé, j'en suis sûre, de voir que vous cherchez à <lb/>augmenter
+                    ses richesses. Si vous envoyez quelque chose faites une caisse qui ne
+                    <lb/>surpasse <subst>
+                        <del rendition="#s">trois</del>
+                        <add place="superlinear">pas deux</add>
+                    </subst> pieds en <choice>
+                        <sic>logneur</sic>
+                        <corr cert="high">longeur</corr>
+                    </choice> et qui ait une largeur et une hauteur proportionée <lb/>et envoyez-la
+                    par la poste – au Directeur des postes de <rs type="place" key="H0010365">Strasbourg</rs>. Vous Mettrez <lb/>sur l’adresse</p>
+                <p>À Monsieur le <persName key="H0012989">Comte de la Valette</persName>
+                    <lb/>Directeur général des postes de l’<persName key="H0000248">Empereur
+                        français</persName>
+                    <lb/>à Paris</p>
+                <p>Plantes vivantes pour <choice>
+                        <abbr>S.</abbr>
+                        <expan>Sa</expan>
+                    </choice>
+                    <choice>
+                        <abbr>M.</abbr>
+                        <expan>Majesté</expan>
+                    </choice><rs type="person" key="H0003174">
+                        <choice>
+                            <abbr>L’Imp.</abbr>
+                            <expan>L'Impératrice</expan>
+                        </choice> Josép<g ref="#typoHyphen"/><lb break="no"/>hine</rs>
+                </p>
+                <p>Si parmi les plantes que vous avez vues à <rs type="place" key="H0008617">Malmaison</rs> il en est quelques unes <lb/>que vous deseriez marquez-les
+                    moi et je verrai à vous en faire l’envoi. <choice>
+                        <sic>Assé</sic>
+                        <corr cert="high">Assez</corr>
+                    </choice>
+                    <lb/>parlé de plantes<supplied cert="high">,</supplied> rapellez-moi au souvenir
+                    de <persName key="H0006401">Madame Willdenow</persName> et <lb/>du grand
+                        <persName key="H0006404">William</persName> ainsi qu’à celui de <choice>
+                        <abbr>M.Mess.</abbr>
+                        <expan>Messieurs</expan>
+                    </choice>
+                    <rs type="person" key="H0015558">Schlechtendalia</rs> et à l’aimable <lb/><choice>
+                        <abbr>M<hi rendition="#sup">r.</hi>
+                        </abbr>
+                        <expan>Monsieur</expan>
+                    </choice> qui cultive si bien vos plantes.</p>
+                <p>tout à vous Bonpland</p>
+                <p>j’attends avec impatience la fin de votre travail pour avoir mes
+                    <lb/>manuscripts.</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

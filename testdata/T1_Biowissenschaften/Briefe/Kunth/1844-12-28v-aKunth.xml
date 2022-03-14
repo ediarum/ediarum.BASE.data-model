@@ -1,0 +1,172 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002930" oldID="avhr_igk_jgs_jv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 28. Dezember 1844]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von
+                        (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date notBefore="1844-12-01" notAfter="1844-12-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund
+                        (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Der im vorliegenden Brief erwähnte <persName key="H0001393">Karl Koch</persName> war im Oktober 1844 von einer
+                    gemeinsam mit <persName key="H0001046">Georg
+                        Rosen</persName> unternommenen Kaukasusreise zurückgekehrt. Die ebenfalls im
+                    Brief erwähnte Reise nach <placeName key="H0008129">Paris</placeName>
+                    trat Humboldt am 28. Dezember 1844 an. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Ich habe nie von Anstellung des sehr <lb/>
+                    <choice>
+                        <orig>gewohnlichen</orig>
+                        <reg>gewöhnlichen</reg>
+                    </choice> und sehr <choice>
+                        <orig>einfaltigen</orig>
+                        <reg>einfältigen</reg>
+                    </choice>
+                    <persName key="H0001393">
+                        <lb/>Koch</persName>
+                    <choice>
+                        <orig>gehort</orig>
+                        <reg>gehört</reg>
+                    </choice> und Sie werden, theurer <lb/>Freund, doch nicht glauben, dass ich
+                    <lb/>ihn irgendwo empfehlen <choice>
+                        <orig>wurde</orig>
+                        <reg>würde</reg>
+                    </choice><supplied cert="high">.</supplied>
+                    <lb/>Selbst der Zuschuss zu seiner Reise <lb/>war ganz ohne mein Wissen
+                    <lb/>durch Einfluss der <rs type="person" key="H0015374">Grossherzogin</rs>
+                    auf <lb/>den <rs type="person" key="H0005881">Missions-Minister</rs>
+                    gegeben: ich <lb/>habe bloss damals die schon ge<g ref="#typoHyphen"/><lb break="no"/>schehene Sache dadurch zu verbessern <lb/>gesucht dass sie zu
+                    einer Sprach <lb/>Expedition (<persName key="H0001046">Rosen</persName>) Gelegenheit
+                        gab<supplied cert="high" prev="gab">.</supplied>
+                    <lb/>Es <choice>
+                        <orig>ware</orig>
+                        <reg>wäre</reg>
+                    </choice> eine reine Tollheit <persName key="H0001393">Koch</persName>
+                    als <lb/>Botaniker anzustellen<supplied cert="high" prev="anzustellen">.</supplied> Ich habe bloss <lb/>
+                    <choice>
+                        <orig>gehort</orig>
+                        <reg>gehört</reg>
+                    </choice>, dass er hier den Winter <lb/>bleiben wolle um sein Buch! mit <lb/>
+                    <choice>
+                        <orig>Hulfe</orig>
+                        <reg>Hülfe</reg>
+                    </choice> der <rs type="org" key="H0000561">Bibliothek</rs>
+                        auszuarbeiten<supplied cert="high" prev="auszuarbeiten">.</supplied>
+                    <lb/>Ich werde vor meiner Abreise <lb/>mich gegen den <rs type="person" key="H0005881">Minister</rs> noch <lb/>sehr deutlich <choice>
+                        <orig>mundlich</orig>
+                        <reg>mündlich</reg>
+                    </choice>
+                    <choice>
+                        <orig>daruber</orig>
+                        <reg>darüber</reg>
+                    </choice>
+                    <lb/>
+                    <choice>
+                        <orig>aussern</orig>
+                        <reg>äussern</reg>
+                    </choice>, es schriftlich erlaubt meine <lb/>Lage zum <rs type="person" key="H0005881">
+                        <choice>
+                            <abbr>Min.</abbr>
+                            <expan>Minister</expan>
+                        </choice>
+                    </rs>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> der gänzliche <lb/>Mangel der Veranlassung nicht<supplied cert="high" prev="nicht">.</supplied>
+                    <lb/>
+                    <rs type="person" key="H0001393">Der Mann</rs> verspricht <choice>
+                        <orig>ubrigens</orig>
+                        <reg>übrigens</reg>
+                    </choice> kindisch <lb/>alles: hatte er doch <choice>
+                        <orig>wahrend</orig>
+                        <reg>während</reg>
+                    </choice>
+                    <lb/>er <persName key="H0014251">Mitscherlich</persName> schmeichelt
+                        <persName key="H0004530">Liebig</persName>
+                    <lb/>Anerbietungen gemacht, <persName key="H0014251">
+                        <choice>
+                            <sic>Mitsch's</sic>
+                            <corr>Mitscherlich's</corr>
+                        </choice>
+                    </persName>
+                    <lb/>
+                    <choice>
+                        <orig>argstem</orig>
+                        <reg>ärgstem</reg>
+                    </choice> Feinde<supplied cert="high" prev="Feinde">.</supplied> Ich habe
+                        allerding<supplied cert="high" prev="allerding">s</supplied>
+                    <lb/>die Abreise aufgeschoben nicht <lb/>sowohl der Kälte wegen, als weil
+                    <lb/>der <rs type="person" key="H0002178">
+                        <choice>
+                            <orig>Konig</orig>
+                            <reg>König</reg>
+                        </choice>
+                    </rs>
+                    <choice>
+                        <orig>zogert</orig>
+                        <reg>zögert</reg>
+                    </choice> Briefe abzuschreiben <lb/>an die <choice>
+                        <abbr>kon</abbr>
+                        <expan>königliche</expan>
+                    </choice> Familie in den <lb/>
+                    <placeName key="H0009549">Tuilerien</placeName> die ich mitnehmen
+                        soll<supplied cert="high" prev="soll">.</supplied>
+                </p>
+                <closer>
+                    <salute>Mit inniger Liebe</salute>
+                    <signed>Ihr AlHumboldt <lb/>
+                    </signed>
+                    <address>
+                        <addrLine>
+                            <pb n="1v"/>Herrn <choice>
+                                <abbr>Prof.</abbr>
+                                <expan>Professor</expan>
+                            </choice> Kunth</addrLine>
+                        <addrLine>Wohlgeboren</addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

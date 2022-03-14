@@ -1,0 +1,2332 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="H0002731" oldID="humboldts_gliederung">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Matériaux pour la nouvelle édition de la Géographie des plantes</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="  http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <surname>Göhmann</surname>
+                        <forename>Karin</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://catalogue.bnf.fr/ark:/12148/cb16542070b">
+                        <surname>Barbasetti</surname>
+                        <forename>Laurence</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 50, Bl. 1–23</idno>
+                            <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB00019EFB00000000</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                <placeName key="H0008129">Paris</placeName>
+                <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="1r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000001.jpg"/>
+                <p><note place="mTop" hand="#author">
+                        <p>hier <lb/>8000 <choice>
+                                <abbr>Spec</abbr>
+                                <expan>Species</expan>
+                            </choice> von <lb/><placeName key="H0000355">Cap</placeName> –
+                                <placeName key="H0007831">Orange River</placeName></p>
+                        <p><persName key="H0003784">Burchell</persName> gewiss <lb/><persName key="H0003693">Brown</persName>.</p>
+                    </note><choice>
+                        <orig>matériaux</orig>
+                        <reg>Matériaux</reg>
+                    </choice> pour la <lb/><choice>
+                        <abbr>nouv.</abbr>
+                        <expan>nouvelle</expan>
+                    </choice> édition de la <lb/><hi rendition="#u">Géographie des plantes</hi><note place="mBottom" hand="#author">un peu <choice>
+                            <abbr><hi rendition="#u">Géogr</hi></abbr>
+                            <expan><hi rendition="#u">Géographie</hi></expan>
+                        </choice><hi rendition="#u"> </hi><lb/><hi rendition="#u">des
+                                animaux<supplied cert="high">.</supplied></hi></note></p>
+                <pb n="1v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000002.jpg"/>
+                <p><gap unit="pages" quantity="1" reason="empty"/></p>
+                <pb n="2r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000003.jpg"/>
+                <p><hi rendition="#u">Géographie des Plantes</hi></p>
+                <p>1. <lb/>Steppe</p>
+                <p>Donnez tableaux de cette nature. Décrivez <placeName key="H0000374">Steppe
+                        <lb/>des Kirgises</placeName> d'après <seg type="comment">
+                        <orig>Lichtenstein in Eversmann</orig>
+                        <note xml:id="npwv_lbh_rz"><bibl sameAs="zotero-667230-MEHAKE72">Eversmann/Lichtenstein 1823</bibl>.</note>
+                    </seg>
+                    <lb/><choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 114, <note place="left" hand="#author">Peupliers <lb/>autour des
+                        <lb/>rivières, les <lb/>Mauritia de <lb/>ces contrées <choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 17 <lb/>(gigantische <lb/>Dolden <measure quantity="3" unit="fuss_preussisch">3</measure>–<lb break="no"/><measure quantity="4" unit="fuss_preussisch">4 Fuss</measure> hoch <lb/>Ferula persica
+                        <lb/>mitten in Steppe<supplied cert="high">.</supplied><lb/><choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 52<supplied cert="high">)</supplied>.</note> ces déserts vivifiés
+                    par des Agames <lb/>non Lézards, durs de peau, ne respirant pas par la <lb/>peau
+                    et ayant pour cela plus d’activité de <lb/>vie pulmonaire dürrhäutige <hi rendition="#u">Steppenamphibien</hi>
+                    <lb/>et comment la Steppe s’anime. Les plantes nour<g ref="#typoHyphen"/><lb break="no"/>rissent des insectes, en floraison peut<supplied cert="high">-</supplied>être seule<lb break="no"/>ment périodiquement. Les insectes
+                    appellent <lb/>et contribuent au développement des Agames, <lb/>ceux-ci (peuvent
+                    jeûner longtems) nourrissent <lb/>les Vipères, les serpens, les oiseaux<supplied cert="high">.</supplied>
+                    <persName key="H0004521">Lichtenstein</persName>
+                    <lb/>in Eversmann <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 141 (<seg type="comment">
+                        <orig><choice>
+                                <abbr>Relat</abbr>
+                                <expan>Relation</expan>
+                            </choice>
+                            <choice>
+                                <abbr>hist.</abbr>
+                                <expan>historique</expan>
+                            </choice></orig>
+                        <note xml:id="ndhf_3gs_lz"><bibl sameAs="zotero-667230-DR2NAW3J">Humboldt
+                                1814–1825</bibl>. </note>
+                    </seg> III <choice>
+                        <abbr>p.</abbr>
+                        <expan>page</expan>
+                    </choice> 4)<supplied cert="high">.</supplied></p>
+                <p>Steppes de <placeName key="H0007134">Caracas</placeName>
+                    <seg type="comment">
+                        <orig>Chiquire</orig>
+                        <note xml:id="nf1p_klf_4z">Das Capybara oder Wasserschwein (Hydrochoerus
+                            hydrochaeris).</note>
+                    </seg>, Crocodiles, Jaguars, <placeName key="H0000374">Steppes des Kirguises
+                        </placeName><lb/>Dipus<supplied cert="high">,</supplied> Arctomys,
+                        Mures<supplied cert="high">,</supplied>
+                    <add place="left">Steppenfüchse <lb/>(Canis Caragan) <lb/>Heerden von
+                        <lb/>Antilope Saiga <lb/><choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 22.</add>, <seg type="comment">
+                        <orig><choice>
+                                <abbr>Eversm.</abbr>
+                                <expan>Eversmann</expan>
+                            </choice></orig>
+                        <note xml:id="nvsg_vbh_rz"><bibl sameAs="zotero-667230-MEHAKE72">Eversmann/Lichtenstein 1823</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 123. 9.</p>
+                <p>2. <lb/><choice>
+                        <orig>genres</orig>
+                        <reg>Genres</reg>
+                    </choice> des <lb/>2 continens</p>
+                <p>Les mêmes genres dans les 2 continens. Boa tartarica (<persName key="H0013277">Cuvier</persName>
+                    <lb/>s’étoit trompé) Lichtenstein dans Eversman <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 146. <lb/>(<seg type="comment">
+                        <orig><choice>
+                                <abbr>Rel.</abbr>
+                                <expan>Relation</expan>
+                            </choice>
+                            <subst>
+                                <del rendition="#s">is</del>
+                                <add place="intralinear">historique</add>
+                            </subst></orig>
+                        <note xml:id="nkln_w2s_lz"><bibl sameAs="zotero-667230-DR2NAW3J">Humboldt
+                                1814–1825</bibl>.</note>
+                    </seg> II <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 364)<supplied cert="high">.</supplied></p>
+                <p>3. <lb/>Limites des <lb/>pins</p>
+                <p>Comment à l’occasion des projets de construction <lb/>de flottes d’<persName key="H0013873">Alexandre</persName> les anciens ont déterminé <lb/>la limite
+                    des pins pas au sud de <placeName key="H0010418">l’Iaxartes</placeName>.
+                    <lb/>Stellen in <seg type="comment">
+                        <orig>Ritter II</orig>
+                        <note xml:id="nr1m_qgs_lz"><bibl sameAs="zotero-667230-6S8HHGMW">Ritter
+                                1817–1818</bibl>, II, (=3. Buch,Westasien). </note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 658. </p>
+                <pb n="2v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000004.jpg"/>
+                <p>4. <lb/>Wassermelonen</p>
+                <p>Géographie de la plante <seg type="comment">
+                        <orig>Ritter II</orig>
+                        <note xml:id="nzpd_2hs_lz"><bibl sameAs="zotero-667230-6S8HHGMW">Ritter
+                                1817–1818</bibl>, II, (=3. Buch, Westasien).</note>
+                    </seg> 679.</p>
+                <p>5. <lb/>Polar-Vege<lb break="no"/>tation</p>
+                <p><choice>
+                        <orig>plus</orig>
+                        <reg>Plus</reg>
+                    </choice> chaud qu’on le croit sur terre par réver<lb break="no"/>bération du
+                    sol <persName key="H0015758">Scoresby</persName>, <bibl sameAs="zotero-667230-THCSVGPW">Greenland Voyage <lb/>1823</bibl>. <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 344 trouve <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 70° entre <placeName key="H0000354">Cap <lb/>Brewster</placeName> et
+                        <placeName key="H0005495">Davy’s Sound</placeName>
+                    <choice>
+                        <abbr>th</abbr>
+                        <expan>thermomètre</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Fahr.</abbr>
+                        <expan>Fahrenheit</expan>
+                    </choice><supplied cert="high">,</supplied>
+                    <lb/>à terre toujours au<supplied cert="high">-</supplied>dessus de <measure quantity="70" unit="fahrenheit">70°</measure>
+                    <lb/>quand à bord il étoit également à <lb/>l’ombre <measure quantity="40" unit="fahrenheit">40° <choice>
+                            <abbr>F</abbr>
+                            <expan>Fahrenheit</expan>
+                        </choice></measure>.</p>
+                <p>6 <lb/>Plantes du <lb/>Grönland <note place="mBottom" hand="#author"><persName key="H0015758">Scoresby</persName>
+                        <seg type="comment">
+                            <orig>Green<g ref="#typoHyphen"/><lb break="no"/>land Voyage</orig>
+                            <note xml:id="nk3y_ym3_3z"><bibl sameAs="zotero-667230-THCSVGPW">Scoresby 1823</bibl>.</note>
+                        </seg>
+                        <lb/><choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 188. 215 <lb/>et <seg type="comment">
+                            <orig>Hooker</orig>
+                            <note xml:id="nedy_2s3_3z"><persName key="H0011993">William Jackson
+                                    Hookers</persName> „List of Plants, from the East Coast of
+                                Greenland, with some remarks“ in <bibl sameAs="zotero-667230-THCSVGPW">Scoresby 1823</bibl>, 410–415.
+                            </note>
+                        </seg>
+                        <lb/><choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 411</note></p>
+                <p>Entre <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 70–74:</p>
+                <p>Seul <subst>
+                        <del rendition="#s">arbustre</del>
+                        <add place="intralinear"><hi rendition="#u">arbre</hi></add>
+                    </subst> un Saule gros comme le <add place="superlinear">doigt</add><supplied cert="high">,</supplied>
+                    <add place="left"><metamark/>et ne poussant <lb/>des branches que
+                            <lb/>latéralement<supplied cert="high">,</supplied> n’<lb break="no"/>ayant jamais de <lb/>hauteur que <lb/><measure quantity="2" unit="pouce">2</measure>–<measure quantity="3" unit="pouce">3 pou<g ref="#typoHyphen"/><lb break="no"/>ces</measure>!</add> puis <hi rendition="#u">Andromeda tetragona</hi>, Ranunculus <lb/>nivalis, Cochlearia
+                        anglica<supplied cert="high">,</supplied> Cyclo<lb break="no"/>binum
+                    latifolium, <hi rendition="#u">Saxifrage</hi> cernua, <lb/><choice>
+                        <abbr>S.</abbr>
+                        <expan>Saxifraga</expan>
+                    </choice> caespitosa, <choice>
+                        <abbr>S.</abbr>
+                        <expan>Saxifraga</expan>
+                    </choice> oppositifolia<supplied cert="high">,</supplied>
+                    <lb/>Dryas octopetala, <hi rendition="#u">Papaver</hi> nudicaule<supplied cert="high">,</supplied>
+                    <lb/>Rhodiola rosea, Lusula arcuata, Arni<g ref="#typoHyphen"/><lb break="no"/>ca <choice>
+                        <abbr>angustifol.</abbr>
+                        <expan>angustifolia</expan>
+                    </choice><supplied cert="high">,</supplied>
+                    <add place="left"><metamark/>Vaccinium <lb/>pubescens, <lb/>Aira
+                            spicata<supplied cert="high">,</supplied>
+                        <lb/>Festuca vivipara<supplied cert="high">,</supplied>
+                        <lb/>Alopecurus alpinus, <lb/>Potentilla verna, <lb/>Poa laxa<supplied cert="high">,</supplied>
+                        <lb/>des Stellariae<supplied cert="high">,</supplied>
+                        <lb/>Rumex digynus <lb/>(Oxyria renifor<lb break="no"/>mis <persName key="H0011993"><choice>
+                                <abbr>Hook</abbr>
+                                <expan>Hooker</expan>
+                            </choice></persName>)<supplied cert="high">,</supplied>
+                        <lb/>Veronica alpina</add><supplied cert="high">.</supplied></p>
+                <p>À <placeName key="H0006553">Jameson’s Land</placeName> plusieurs acres de
+                    <lb/>terre couverts de graminées d’un pié <lb/>de <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice>, comme de belles prairies <lb/><choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 70° ’25. Cependant de tout le <lb/>voyage seulement 45 espèces (quelle
+                    <lb/>différence avec <placeName key="H0001715">Norvège</placeName> où hauts
+                    arbres) <lb/>mais parmi <choice>
+                        <sic>lesquels</sic>
+                        <corr cert="high">lesquelles</corr>
+                    </choice> 29 genres!! </p>
+                <pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000005.jpg"/>
+                <p>7 <lb/>Anfang</p>
+                <p>Ganze terrassen in Abtroknungstheorie, dass <lb/>Höchste zuerst trokken Scythia
+                    tradition <lb/>der Nord<supplied cert="high">-</supplied> und Wetterseite
+                        <persName key="H0004225">Justin</persName>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>lib</abbr>
+                                <expan>liber</expan>
+                            </choice> II I <choice>
+                                <abbr>c</abbr>
+                                <expan>caput</expan>
+                            </choice>
+                            <subst>
+                                <del rendition="#s">2</del>
+                                <add place="intralinear">1</add>
+                            </subst></orig>
+                        <note xml:id="ndh3_mz3_3z">Marcus Junianus Justinus: “Epitoma Historiarum
+                            Philippicarum“.</note>
+                    </seg>.</p>
+                <p>8 <lb/><choice>
+                        <orig>familles</orig>
+                        <reg>Familles</reg>
+                    </choice>: <lb/>proportions</p>
+                <p>Mon travail étendu par <persName key="H0014347">Moreau de Jon̅ès</persName>
+                    <lb/>(<seg type="comment">
+                        <orig><choice>
+                                <abbr>Hist.</abbr>
+                                <expan>Histoire</expan>
+                            </choice>
+                            <choice>
+                                <abbr>phys.</abbr>
+                                <expan>physique</expan>
+                            </choice> des Antilles <choice>
+                                <abbr>T</abbr>
+                                <expan>Tome</expan>
+                            </choice> I</orig>
+                        <note xml:id="ng3k_cch_rz"><bibl sameAs="zotero-667230-SM3P6NFT">Moreau de
+                                Jonnès 1822</bibl>. </note>
+                    </seg>) <placeName key="H0002471">Antilles</placeName> ont <lb/>1823 <choice>
+                        <abbr>phanér.</abbr>
+                        <expan>phanérogames</expan>
+                    </choice> 600 <choice>
+                        <abbr>crypt</abbr>
+                        <expan>cryptogames</expan>
+                    </choice> dont 160 <lb/>fougères<supplied cert="high">.</supplied></p>
+                <p>9 <lb/><choice>
+                        <orig>fécondité</orig>
+                        <reg>Fécondité</reg>
+                    </choice></p>
+                <p>Un Oranger <add place="superlinear">de <measure quantity="20" unit="pied_de_roi">20 <choice>
+                                <sic>pié</sic>
+                                <corr cert="high">piés</corr>
+                            </choice></measure> de </add><choice>
+                        <abbr><add place="superlinear">haut</add></abbr>
+                        <expan><add place="superlinear">hauteur</add></expan>
+                    </choice> à <placeName key="H0010109">l’île <choice>
+                            <abbr>St</abbr>
+                            <expan>Saint</expan>
+                        </choice><supplied cert="high">-</supplied>Michel</placeName> (<placeName key="H0002641">Azores</placeName>) <lb/>a donné dans l’année 1822 … 29000
+                        fruits<supplied cert="high">.</supplied>
+                    <seg type="comment">
+                        <orig><lb/><choice>
+                                <abbr>An.</abbr>
+                                <expan>Annales</expan>
+                            </choice> des voyages 1823 <choice>
+                                <abbr><add place="sublinear">T</add></abbr>
+                                <expan><add place="sublinear">Tome</add></expan>
+                            </choice><add place="sublinear"> 18</add>
+                            <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 426</orig>
+                        <note xml:id="nsc2_qcj_3z"><bibl sameAs="zotero-667230-HVVJUESU">Anonym
+                                1823</bibl>.</note>
+                    </seg>.</p>
+                <p>10 <lb/>Amérique <lb/>arctique <lb/><hi rendition="#u"><persName key="H0000226">Franklin</persName></hi></p>
+                <p><choice>
+                        <orig>beaux</orig>
+                        <reg>Beaux</reg>
+                    </choice> arbres de <choice>
+                        <sic>pin</sic>
+                        <corr cert="high">pins</corr>
+                    </choice>, peupliers, <unclear reason="illegible" cert="high"><seg type="comment">
+                            <orig>laxis</orig>
+                            <note xml:id="nopx_zcj_3z">vielmehr: larix?</note>
+                        </seg></unclear> Saulis <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 54°–61° au sud <add place="left"><metamark/>du grand Lac <lb/>des
+                            Escla<g ref="#typoHyphen"/><lb break="no"/>ves. Comment <lb/>Asie? frage
+                            <lb/><persName key="H0001337"><choice>
+                                <abbr>Klapr.</abbr>
+                                <expan>Klaproth</expan>
+                            </choice></persName></add>. <lb/>plus de forêts, seulement quelques <subst>
+                        <del rendition="#s">arbres</del>
+                        <add place="superlinear">bouleaux et pins</add>
+                    </subst> isolés parmi <lb/>des arbustes et <supplied cert="high">de</supplied>
+                    la mousse <lb/>de <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 64°–67°½ depuis 67° 28’ sur le <placeName key="H0007577">Copper<lb break="no"/>mine River</placeName> plus <subst>
+                        <del rendition="#s">de</del>
+                        <add place="intralinear">un</add>
+                    </subst> seul arbre. <persName key="H0000226">Francklin</persName>
+                    <seg type="comment">
+                        <orig><lb/>journey to the Polar Sea</orig>
+                        <note xml:id="nem2_pch_rz"><bibl sameAs="zotero-667230-ZBXUFTMN">Franklin
+                                1823</bibl>.</note>
+                    </seg> (Carte 3)<supplied cert="high">.</supplied></p>
+                <p>(<?oxy_comment_start author="paessler" timestamp="20170427T143523+0200" comment="bis hier kollationiert mit IS, 27.04.17"?>Richardson<?oxy_comment_end?>
+                    <choice>
+                        <sic>colligit</sic>
+                        <corr cert="high">colligea</corr>
+                    </choice> 663 <choice>
+                        <abbr>esp.</abbr>
+                        <expan>espèces</expan>
+                    </choice> dont 410 phanérogames<del rendition="#s">)</del>
+                    <lb/>de <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 56°–68.° <choice>
+                        <abbr>Monocot.</abbr>
+                        <expan>Monocotylédones</expan>
+                    </choice> frage <persName key="H0001517">Kunth</persName>.) <seg type="comment">
+                        <orig><choice>
+                                <abbr>Frankl.</abbr>
+                                <expan>Franklin</expan>
+                            </choice></orig>
+                        <note xml:id="nnwr_kch_rz"><bibl sameAs="zotero-667230-ZBXUFTMN">Franklin
+                                1823</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 728<supplied cert="high">.</supplied>
+                    <lb/>Le <choice>
+                        <sic>Crytogramma</sic>
+                        <corr cert="high">Cryptogramma</corr>
+                    </choice> acrostichoïdes <persName key="H0003693">Brown</persName> que <persName key="H0014148">Menzies</persName>
+                    <lb/>avoit trouvé à <placeName key="H0001696">Nootka</placeName> végète <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 60° au <placeName key="H0007577">Copper<lb break="no"/>mine
+                        River</placeName>
+                    <choice>
+                        <abbr>p.</abbr>
+                        <expan>page</expan>
+                    </choice> 767!</p>
+                <p>Ce qui croît foliatum on barren grounds près 65–<lb break="no"/>68° <choice>
+                        <abbr>Arbut.</abbr>
+                        <expan>Arbutus alpina</expan>
+                    </choice>, <choice>
+                        <abbr>Rhod.</abbr>
+                        <expan>Rhododendron</expan>
+                    </choice>
+                    <choice>
+                        <abbr>lappon.</abbr>
+                        <expan>lapponicum</expan>
+                    </choice><supplied cert="high">,</supplied>
+                    <choice>
+                        <abbr>Empetr</abbr>
+                        <expan>Empetrum</expan>
+                    </choice> nigrum, <lb/>Dufourea arctica, <choice>
+                        <sic>Cenomice</sic>
+                        <corr cert="high">Cenomyce</corr>
+                    </choice> rangiferina, Cetraria <lb/>nivalis, cucullata, islandica <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 534<supplied cert="high">.</supplied></p>
+                <p>11 <lb/><hi rendition="#u"><choice>
+                            <orig>extrêmes</orig>
+                            <reg>Extrêmes</reg>
+                        </choice></hi></p>
+                <p><choice>
+                        <orig>plantes</orig>
+                        <reg>Plantes</reg>
+                    </choice> agames dans les eaux bouillantes <lb/>et urédo des Neiges du<?oxy_comment_start author="paessler" timestamp="20170504T143045+0200" comment="nochmals überprüfen"?>
+                    <persName key="H0001064"><choice>
+                            <abbr>Cap</abbr>
+                            <expan>Capitaine</expan>
+                        </choice> Ross</persName>. <lb/><?oxy_comment_end?>hauteur<supplied cert="high">:</supplied>
+                    <placeName key="H0007391">Chimborazo</placeName> et plantes
+                        souterraines<supplied cert="high">,</supplied>
+                    <lb/>durée <supplied cert="high">–</supplied> fugace<supplied cert="high">:</supplied> byssus et Adansonia<supplied cert="high">,</supplied>
+                    <lb/>petitesse<supplied cert="high">:</supplied>
+                    <choice>
+                        <abbr>cryptog.</abbr>
+                        <expan>cryptogames</expan>
+                    </choice> –
+                    <?oxy_comment_start author="paessler" timestamp="20170323T145933+0100" comment="Eutassa heterophylla"?>Eutassa<?oxy_comment_end?>.
+                        <unclear reason="illegible" cert="high">Quel</unclear>
+                    <supplied cert="high">est</supplied> le plus <lb/>petit <supplied cert="high">des</supplied> phanérogames<supplied cert="high">?</supplied>
+                    <add place="left"><metamark/><choice>
+                            <orig>quelles</orig>
+                            <reg>Quelles</reg>
+                        </choice> familles <supplied cert="high">ont les arbres</supplied>
+                        <lb/>les plus hauts <lb/>(<choice>
+                            <sic>palmier</sic>
+                            <corr cert="high">palmiers</corr>
+                        </choice><supplied cert="high">,</supplied> pins<supplied cert="high">,</supplied>
+                        <lb/>Eucalyptus)<supplied cert="high">,</supplied> les plus <lb/>gros.
+                        Lesquels <lb/>ne cessent <lb/>de grandir<supplied cert="high">?</supplied>
+                        <lb/>Fucus <choice>
+                            <abbr>gigant</abbr>
+                            <expan>gigantea</expan>
+                        </choice>
+                        <lb/>de <measure quantity="40" unit="pied_de_roi">40
+                    piés</measure>.</add></p>
+                <pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000006.jpg"/>
+                <p>12 <lb/>Plantes tro<g ref="#typoHyphen"/><lb break="no"/>picales</p>
+                <p>Les mêmes empreintes, aspect tropi<lb break="no"/>cal <seg type="comment">
+                        <orig>reconnu par <choice>
+                                <abbr>Mr</abbr>
+                                <expan>Mister</expan>
+                            </choice> Jameson</orig>
+                        <note xml:id="ngbx_2cr_3z">Vgl. die von <persName key="H0004138">Robert
+                                Jameson</persName> angefertigte „List of Specimens of the Rocks
+                            brought from the Eastern Coast of Greenland, with Geognostical
+                            Memoranda“ in <bibl sameAs="zotero-667230-THCSVGPW">Scoresby
+                            1823</bibl>, 399–409.</note>
+                    </seg> dans les <lb/>houilles de <placeName key="H0008808">Melville’s
+                        Island</placeName> au<supplied cert="high">-</supplied>delà <lb/>du cercle
+                    polaire. <persName key="H0015758">Scoresby</persName>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>Voy</abbr>
+                                <expan>Voyage</expan>
+                            </choice>
+                            <lb/>to Greenland</orig>
+                        <note xml:id="nqld_5cr_3z"><bibl sameAs="zotero-667230-THCSVGPW">Scoresby
+                                1823</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 408.</p>
+                <p>13 <lb/>Thalasso<lb break="no"/>phytes</p>
+                <p><persName key="H0004287">Lamouroux</persName> m’a dit:</p>
+                <p>Maximum des espèces<supplied cert="high">,</supplied> plus grande variété
+                    <lb/>par les 35°–42° <choice>
+                        <abbr>lat.</abbr>
+                        <expan>latitude</expan>
+                    </choice>
+                    <choice>
+                        <abbr>bor</abbr>
+                        <expan>boréale</expan>
+                    </choice> et australe<supplied cert="high">,</supplied>
+                    <lb/>variété diminue vers <placeName key="H0002500">l’équateur</placeName> et
+                    les <lb/>pôles. Sous les mêmes <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitudes</expan>
+                    </choice> des deux <lb/>côtes de <placeName key="H0002602">l’Atlantique</placeName> et même de <placeName key="H0002500"><lb/>l’équateur</placeName> pas mêmes espèces, mais <lb/>formes analogues,
+                    comme les Rubus <lb/>et Saxifrages des <placeName key="H0002454">Andes</placeName>. Les Laminaires <lb/>(<choice>
+                        <abbr>fuc.</abbr>
+                        <expan>fucus</expan>
+                    </choice>
+                    <choice>
+                        <abbr>sachar.</abbr>
+                        <expan>sacharinus</expan>
+                    </choice>) surtout vers les pô<lb break="no"/>les, les Sargassoïdes sous les
+                        tropi<lb break="no"/>ques et climats très tempérés, <placeName key="H0008895">Mé<lb break="no"/>diterranée</placeName>. Un d’eux<supplied cert="high">,</supplied> le Fucus <lb/>natans<supplied cert="high">,</supplied> seulement dans <placeName key="H0002602">l'Océan <lb/><choice>
+                            <abbr>atlant</abbr>
+                            <expan>atlantique</expan>
+                        </choice></placeName>, seulement au nord de l’<lb break="no"/>équateur. Les
+                    plus petits Fucus <lb/>de quelques lignes à 1 <choice>
+                        <abbr>po</abbr>
+                        <expan>pouce</expan>
+                    </choice> dans les <lb/>Floridées et <choice>
+                        <sic>Dicto</sic>
+                        <corr cert="high"><choice>
+                                <abbr>Dictyo</abbr>
+                                <expan>Dictyotées</expan>
+                            </choice></corr>
+                    </choice>… La zone <lb/>australe comme plus aquatique plus <lb/>riche en formes:
+                    c’est là les plus <lb/><choice>
+                        <sic>grandes</sic>
+                        <corr cert="high">grands</corr>
+                    </choice><supplied cert="high">,</supplied> Fucus giganteus, de <measure quantity="800" unit="pied_de_roi">800 <lb/>piés</measure>; <choice>
+                        <abbr>fuc.</abbr>
+                        <expan>fucus</expan>
+                    </choice> buccinalis énorme du <lb/><placeName key="H0000451">Congo</placeName>.
+                    Ulves et Conferves partout <lb/>dans les mers. Les Sargassoïdes à <lb/>feuilles
+                    distinctes et vésicules pédiculées<supplied cert="high">,</supplied>
+                    <lb/>la forme la plus parfaite<supplied cert="high">,</supplied> la plus déve<lb break="no"/>loppée aussi sous les tropiques. On <lb/>connoit 7–800 Fucus,
+                        <persName key="H0004287"><choice>
+                            <abbr>Lamour.</abbr>
+                            <expan>Lamouroux</expan>
+                        </choice></persName> croit <lb/>le quart de ceux qui existent<supplied cert="high">.</supplied>
+                    <lb/>Les <choice>
+                        <abbr>fuc.</abbr>
+                        <expan>fucus</expan>
+                    </choice> des <placeName key="H0009136">États<supplied cert="high">-</supplied>Unis</placeName> d’autres <lb/>espèces que ceux des côtes <choice>
+                        <sic>opposés</sic>
+                        <corr cert="high">opposées</corr>
+                    </choice>
+                    <lb/>d’<placeName key="H0005696">Europe</placeName>. La substance verte = dans
+                    les <lb/>plantes <choice>
+                        <sic>terrestre</sic>
+                        <corr cert="high">terrestres</corr>
+                    </choice> seulement dans <lb/>les ulvacées, dans les Fucus <add place="left"><choice>
+                            <sic>vert</sic>
+                            <corr cert="high">verts</corr>
+                        </choice> toujours brunâtre olivâtre<supplied cert="high">,</supplied>
+                        <lb/>aussi la lumière les <choice>
+                            <sic>rend<supplied cert="high">-</supplied>il</sic>
+                            <corr cert="high">rend-elle</corr>
+                        </choice>
+                        <lb/>toujours brun noirâtre.</add>
+                    <?oxy_comment_start author="paessler" timestamp="20170504T145914+0200" comment="bis hier kollationiert mit IS, 4.5.17"?></p>
+                <?oxy_comment_end?>
+                <pb n="5r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000011.jpg"/>
+                <p>Géographie des <lb/>animaux</p>
+                <p>Les poissons d’une même côte <choice>
+                        <abbr>p e.</abbr>
+                        <expan>par exemple</expan>
+                    </choice> côte <choice>
+                        <abbr>occ</abbr>
+                        <expan>occidentale</expan>
+                    </choice> de l’<lb break="no"/><choice>
+                        <abbr><choice>
+                                <abbr>Anc.</abbr>
+                                <expan>Ancien</expan>
+                            </choice></abbr>
+                    </choice> continent les mêmes (au <placeName key="H0000355">Cap</placeName> et
+                        <placeName key="H0008895">Méditerranée</placeName>) <lb/>malgré l’énorme <choice>
+                        <abbr>différ</abbr>
+                        <expan>différence</expan>
+                    </choice> de <choice>
+                        <abbr>lat.</abbr>
+                        <expan>latitude</expan>
+                    </choice>; au contraire <choice>
+                        <sic><lb/>différent</sic>
+                        <corr cert="high">différents</corr>
+                    </choice> sous même <choice>
+                        <abbr>lat.</abbr>
+                        <expan>latitude</expan>
+                    </choice> en <placeName key="H0005696">Europe</placeName> et <placeName key="H0001698">North <lb/>Amérique</placeName>. Sur ces dernières côtes pas
+                    un poisson <lb/>de mer d’<placeName key="H0005696">Europe</placeName>. <persName key="H0002750">Valenciennes</persName>.</p>
+                <p><choice>
+                        <orig>poissons</orig>
+                        <reg>Poissons</reg>
+                    </choice> du <placeName key="H0000355">Cap</placeName>. est-ce comme plantes
+                        <placeName key="H0005696"><choice>
+                            <abbr>europ.</abbr>
+                            <expan>européennes</expan>
+                        </choice></placeName> de <placeName key="H0002625"><lb/><choice>
+                            <abbr>Nouv.</abbr>
+                            <expan>Nouvelle</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Holl.</abbr>
+                            <expan>Hollande</expan>
+                        </choice></placeName> qui ne sont pas dans montagnes <choice>
+                        <abbr>inter<lb break="no"/>méd.</abbr>
+                        <expan>intermédiaires</expan>
+                    </choice> des tropiques, ou existent<supplied cert="high">-</supplied>ils aussi
+                    au <placeName key="H0010198">Sé<g ref="#typoHyphen"/><lb break="no"/>négal</placeName> sous les eaux chaudes de la surface<supplied cert="high">.</supplied>
+                    <lb/>Côtes opposées même <choice>
+                        <sic>raprochées</sic>
+                        <corr cert="high">rapprochées</corr>
+                    </choice> diffèrent souvent par <lb/>les coquilles (<placeName key="H0004801">France</placeName><supplied cert="high">,</supplied>
+                    <placeName key="H0005653"><choice>
+                            <abbr>Anglet.</abbr>
+                            <expan>Angleterre</expan>
+                        </choice></placeName>)<supplied cert="high">.</supplied></p>
+                <p>Poissons de mer<supplied cert="high">,</supplied> forme en <seg type="comment">
+                        <orig>eau <choice>
+                                <sic>salé</sic>
+                                <corr cert="high">salée</corr>
+                            </choice></orig>
+                        <note xml:id="nc2w_fpr_3z">wohl vielmehr: eau douce (Süßwasser).</note>
+                    </seg>
+                    <choice>
+                        <sic>Raje</sic>
+                        <corr cert="high">Raie</corr>
+                    </choice> Oréno<lb break="no"/>que. Dauphin Orénoque. (Atherina en <placeName key="H0007549">Lac <lb/>de Côme</placeName>) <persName key="H0002750"><choice>
+                            <abbr>Valenc.</abbr>
+                            <expan>Valenciennes</expan>
+                        </choice></persName></p>
+                <p><choice>
+                        <abbr>Pleur.</abbr>
+                        <expan>Pleuronectes</expan>
+                    </choice> flesus a remonté à <placeName key="H0007852">Orléans</placeName>. Sic
+                    plantes <lb/>des côtes <subst>
+                        <del rendition="#s">se perdent</del>
+                        <add place="superlinear">vont</add>
+                    </subst> dans l’intérieur.</p>
+                <p>13 <lb/><choice>
+                        <orig>s'acclimater</orig>
+                        <reg>S'acclimater</reg>
+                    </choice></p>
+                <p>Si cela étoit vrai, plus
+                    <?oxy_comment_start author="paessler" timestamp="20170508T145602+0200" comment="oder des?
+"?>de<?oxy_comment_end?>
+                    limites de hauteur.
+                        <?oxy_comment_start author="paessler" timestamp="20170612T102854+0200" comment="Candolle behauptet: Die Höhe übt nur über die Temperatur Einfluss auf die Vegetation aus (Bourguet 2015, 127). "?>Ce<?oxy_comment_end?><lb break="no"/>pendant des plantes d’un même genre<supplied cert="high">,</supplied> des <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteurs</expan>
+                    </choice>
+                    <lb/>bien différentes. Les Gentiana accaulis et <subst>
+                        <del rendition="#s">bavaricia</del>
+                        <add place="intralinear">
+                            <lb/>bavarica</add>
+                    </subst> sur les sommités les plus <choice>
+                        <abbr>élevés</abbr>
+                        <expan>élevées</expan>
+                    </choice> des <placeName key="H0002402"><lb/>Alpes</placeName>, <choice>
+                        <abbr>G.</abbr>
+                        <expan>Gentiana</expan>
+                    </choice> purpurea et punctata <supplied cert="high">sur</supplied> les
+                        <placeName key="H0002402">Alpes</placeName> de <lb/>moyenne hauteur<supplied cert="high">,</supplied>
+                    <choice>
+                        <abbr>G.</abbr>
+                        <expan>Gentiana</expan>
+                    </choice> verna <supplied cert="high">dans</supplied> les plaines.</p>
+                <p>Zahlenverhältnisse <lb/>der Familien</p>
+                <p><add place="sublinear"><seg type="comment">
+                            <orig>
+                                <hi rendition="#u">Statistique chez Arago</hi></orig>
+                            <note xml:id="nbnn_dlm_jz">Gemeint sind die von Louis Joseph Gay-Lussac
+                                und François Arago herausgegebenen Annales de Chimie et de Physique.
+                                Vgl. <bibl sameAs="zotero-667230-9GA9CG67">Humboldt 1816 </bibl>,
+                                    <bibl sameAs="zotero-667230-AW96XBG3">Humboldt 1821</bibl>
+                                .</note>
+                        </seg></add> Meine bestätigt 1) in <seg type="comment">
+                        <orig>Flore d’Auvergne</orig>
+                        <note xml:id="nmw2_31m_jz"><bibl sameAs="zotero-667230-94XV2FUS">vgl.
+                                Déribier de Cheissac 1824</bibl>, 113–120. </note>
+                    </seg>
+                </p>
+                <p>2) <seg type="comment">
+                        <orig>Hepaticae Javanicae Acta <hi rendition="#u">Bonn</hi> XII</orig>
+                        <note xml:id="nslm_mrm_jz"><bibl sameAs="zotero-667230-96JKPMUP">Reinwardt/Blume/Nees von Esenbeck 1824</bibl> .</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 181. </p>
+                <p>3) <persName key="H0000922">Ringier</persName>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>Helvet.</abbr>
+                                <expan>Helvetia</expan>
+                            </choice></orig>
+                        <note xml:id="nup4_3ml_jz"><bibl sameAs="zotero-667230-6FTI54XW">Ringier
+                                1823</bibl>. </note>
+                    </seg>!! <seg type="comment">
+                        <orig>Férrussac Août 1824</orig>
+                        <note xml:id="nbv4_zll_jz"><bibl sameAs="zotero-667230-MNFVDPCZ">Férussac
+                                1824</bibl>. </note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 340. </p>
+                
+                <note place="left" hand="#author" rend="sticked"><pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000009.jpg"/><?oxy_comment_start author="kraft" timestamp="20170912T145532+0200" comment="Paginierung in &lt;note/&gt; eingefügt (war vorher außerhalb)"?><p><?oxy_comment_end?>Swamps
+                        entre <subst>
+                            <del rendition="#s">Red River <lb/>de Natchitotches et</del>
+                            <add place="superlinear"><placeName key="H0001637"><choice>
+                                        <abbr>N.</abbr>
+                                        <expan>New</expan>
+                                    </choice> Madrid</placeName> et bouche d’</add>
+                        </subst><placeName key="H0002297">Arkan<lb break="no"/>sas</placeName> où <subst>
+                            <del rendition="#s">Cypressus</del>
+                            <add place="intralinear">Cupressus</add>
+                        </subst>
+                        <lb/>distiche à (knees) excroissan<lb break="no"/>ces coniques des racines
+                        <lb/>de <measure quantity="2" unit="foot">2</measure>–<measure quantity="10" unit="foot">10 piés <choice>
+                                <abbr>angl</abbr>
+                                <expan>anglais</expan>
+                            </choice></measure> ressemblent <lb/>aux monuments des cimetières
+                            <lb/>d’église<supplied cert="high">.</supplied>
+                        <seg type="comment">
+                            <orig>Long</orig>
+                            <note xml:id="nisg_mtm_vz"><bibl sameAs="zotero-667230-33W64XHK">James
+                                    1823</bibl>.</note>
+                        </seg> II 318. 342</p><pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000010.jpg"/>
+                    <gap unit="pages" quantity="1" reason="empty"/></note>
+                
+
+                <pb n="5v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000012.jpg"/>
+                <p>14 <lb/>Hybridité</p>
+                <p>Croisement dans les plantes <choice>
+                        <sic>sauvage</sic>
+                        <corr cert="high">sauvages</corr>
+                    </choice> beaucoup plus <lb/>rare qu’on ne le pense parce qu’il suppose <lb/>un
+                    grand rapprochement des
+                    <?oxy_comment_start author="paessler" timestamp="20170607T095232+0200" comment="Artgenosse, Gleichartige"?>congénères<?oxy_comment_end?>
+                    et <choice>
+                        <sic><?oxy_comment_start author="paessler" timestamp="20170815T115248+0200" comment="Grammatikfehler, Germanismus!"?>leur</sic>
+                        <corr cert="high">le</corr>
+                    </choice><?oxy_comment_end?>
+                    <lb/>développement simultané des organes de la <lb/>fructification, des
+                    circonstances particulières <lb/>et rares que deux excellens observateurs <lb/><choice>
+                        <abbr>Mrs</abbr>
+                        <expan>Messieurs</expan>
+                    </choice>
+                    <persName key="H0013711">Guillemin</persName> et <persName key="H0012421">Dumas</persName> ont <choice>
+                        <sic>exposés</sic>
+                        <corr cert="high">exposées</corr>
+                    </choice><supplied cert="high">.</supplied>
+                    <lb/><subst>
+                        <add place="left">Plusieurs</add>
+                        <del rendition="#s">Beaucoup</del>
+                    </subst>
+                    <choice>
+                        <sic>de</sic>
+                        <corr type="deleted"/>
+                    </choice> plantes hybrides ne sont décidém<lb break="no"/>ent pas <choice>
+                        <sic>féconde</sic>
+                        <corr cert="high">fécondes</corr>
+                    </choice>
+                    <choice>
+                        <abbr>p. e.</abbr>
+                        <expan>par exemple</expan>
+                    </choice> Ranunculus lacerus <lb/>et Centaurea hybrida, des autres
+                        douteux<supplied cert="high">.</supplied><note place="left" hand="#author"><seg type="comment">
+                            <orig><choice>
+                                    <abbr>Mém.</abbr>
+                                    <expan>Mémoires</expan>
+                                </choice> de <lb/>la <choice>
+                                    <abbr>Soc.</abbr>
+                                    <expan>Société</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>d’<lb break="no"/>hist.</abbr>
+                                    <expan>d'histoire</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>nat.</abbr>
+                                    <expan>naturelle</expan>
+                                </choice>
+                                <lb/><choice>
+                                    <abbr>T</abbr>
+                                    <expan>Tome</expan>
+                                </choice> I</orig>
+                            <note xml:id="ncgp_gls_3z"><bibl sameAs="zotero-667230-X7PXSKBQ">Guillemin/Dumas 1823</bibl>.</note>
+                        </seg>
+                        <choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 90.</note>
+                    <lb/>Il paroit que les espèces se forment plutôt par <lb/><add place="left">longue</add> influence de la température, du sol<supplied cert="high">,</supplied>
+                    <lb/>par des soudures et avortemens souvent <lb/>répétés et devenus
+                    constans.</p>
+                <p><hi rendition="#u">Himalaya</hi></p>
+                <p><choice>
+                        <sic>Un</sic>
+                        <corr cert="high">Une</corr>
+                    </choice> Campanula en graines mûres <lb/><choice>
+                        <sic>recueilli</sic>
+                        <corr cert="high">recueillie</corr>
+                    </choice> par <persName key="H0013412"><choice>
+                            <abbr>Capt</abbr>
+                            <expan>Captain</expan>
+                        </choice> Gerard</persName> dans <lb/><placeName key="H0006863">le
+                        Himalaya</placeName> (<choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 32° <choice>
+                        <abbr>N</abbr>
+                        <expan>Nord</expan>
+                    </choice>) à <measure quantity="16800" unit="foot"><lb/>16800 piés <add place="sublinear"><choice>
+                                <abbr>angl</abbr>
+                                <expan>anglais</expan>
+                            </choice></add></measure> de <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice> où <choice>
+                        <abbr>therm</abbr>
+                        <expan>thermomètre</expan>
+                    </choice>
+                    <lb/>étoit <choice>
+                        <abbr>Oct.</abbr>
+                        <expan>Octobre</expan>
+                    </choice> à midi <measure quantity="27" unit="fahrenheit"><lb/>27° <choice>
+                            <abbr>F.</abbr>
+                            <expan>Fahrenheit</expan>
+                        </choice></measure><supplied cert="high">,</supplied> arbustes encore plus
+                        haut<supplied cert="high">.</supplied>
+                    <lb/><persName key="H0013123">Colebrooke</persName>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>Trans</abbr>
+                                <expan>Transactions</expan>
+                            </choice> of the <choice>
+                                <abbr>Geol.</abbr>
+                                <expan>Geological</expan>
+                            </choice>
+                            <lb/><choice>
+                                <abbr>Soc.</abbr>
+                                <expan>Society</expan>
+                            </choice> Second series <choice>
+                                <abbr>Vol</abbr>
+                                <expan>Volume</expan>
+                            </choice> I <choice>
+                                <abbr>P</abbr>
+                                <expan>Part</expan>
+                            </choice> I <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 131</orig>
+                        <note xml:id="njrl_lss_jz"><bibl sameAs="zotero-667230-RDK3N4CM">Colebrooke
+                                1824</bibl>.</note>
+                    </seg>.</p>
+                <p>15</p>
+                <p>Dans l’Expédition de <persName key="H0004605">Major Long</persName> on a trouvé
+                    <lb/>dans les plaines prairies entre la <placeName key="H0008331"><choice>
+                            <abbr>Riv.</abbr>
+                            <expan>Rivière</expan>
+                        </choice> Platte</placeName>
+                    <lb/>et <placeName key="H0000351">le Kanzas</placeName> des centaines <supplied cert="high">d'</supplied>acres <subst>
+                        <del rendition="#s">toutes</del>
+                        <add place="intralinear">tous</add>
+                    </subst>
+                    <lb/>couverts de Vitis qu’on <choice>
+                        <sic>cru</sic>
+                        <corr cert="high">crut</corr>
+                    </choice> être le même <lb/>que celui <placeName key="H0005696">d’Europe</placeName> avec les plus beaux <lb/>Traits. Arrêtant les
+                        sables<supplied cert="high">,</supplied> ces pampres <lb/>couchés sur le sol
+                    forment des collines <lb/>dunes. </p>
+                <p>Sauvagesia überall (<persName key="H0015387"><choice>
+                            <abbr>S.</abbr>
+                            <expan>Saint</expan>
+                        </choice><supplied cert="high">-</supplied><choice>
+                            <abbr>Hil</abbr>
+                            <expan>Hilaire</expan>
+                        </choice></persName> et <persName key="H0003690">Brown</persName>) Scoparia
+                    dulcis auch <lb/><placeName key="H0002625">Neu Holland</placeName>. Sphenoclea
+                    hatte fest <persName key="H0003693">Brown</persName>
+                    <lb/>geglaubt<supplied cert="high">,</supplied> sei mit Reis gekommen, glaubt
+                    jezt <lb/>nicht mehr. – Quidam (<persName key="H0013382">Gay</persName>?) der
+                    600 <choice>
+                        <abbr>pl.</abbr>
+                        <expan>plantae</expan>
+                    </choice>
+                    <placeName key="H0010198">Senegal</placeName>
+                    <lb/>besizt will 30 <placeName key="H0002429"><choice>
+                            <abbr>amerik.</abbr>
+                            <expan>amerikanische</expan>
+                        </choice></placeName> haben leguminöse <hi rendition="#u">baum</hi>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>grass Ponceletia <placeName key="H0009525">Tristan D’Acuña</placeName>
+                    <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <placeName key="H0005696">Europa</placeName>
+                    <lb/><persName key="H0003693">Brown</persName> zweifelt ob dieselbe <choice>
+                        <abbr>spec</abbr>
+                        <expan>species</expan>
+                    </choice> das grass, leugnet <lb/>nicht <choice>
+                        <abbr>legum.</abbr>
+                        <expan>leguminose</expan>
+                    </choice> Bäume. War es <persName key="H0013382">Gay</persName>? </p>
+                <p><hi rendition="#u">Geographie</hi>
+                    <lb/>Thiere<choice>
+                        <sic>.</sic>
+                        <corr cert="high"> </corr>
+                    </choice></p>
+                <p><choice>
+                        <orig>allen</orig>
+                        <reg>Allen</reg>
+                    </choice> Welttheilen (<placeName key="H0001715">Norvège</placeName>, <placeName key="H0000355">Cap</placeName>. <placeName key="H0007259">Cayenne</placeName>.<choice>
+                        <orig>.</orig>
+                        <reg> </reg>
+                    </choice>) <lb/><subst>
+                        <del rendition="#s">eigen</del>
+                        <add place="intralinear">gemeinschaftlich</add>
+                    </subst> Otus brachyotus, <lb/>Strix flammea et Pandion Haliaetos. <seg type="comment">
+                        <orig>F. <lb/>Temmink</orig>
+                        <note xml:id="ns4q_xdt_jz">vielmehr <persName key="H0003886">Coenraad Jacob
+                                Temminck</persName> .</note>
+                    </seg> in <persName key="H0003446"><choice>
+                            <abbr>F</abbr>
+                            <expan>Friedrich</expan>
+                        </choice> Boie</persName>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>Tageb</abbr>
+                                <expan>Tagebuch</expan>
+                            </choice> einer Reise durch <lb/>Norwegen</orig>
+                        <note xml:id="nifj_jft_jz"><bibl sameAs="zotero-667230-Q8DKR25Z">Boie
+                                1822</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 153. Tringa alpina <placeName key="H0001715">Norwegen</placeName> et
+                        <lb/><persName key="H0001503">Kuhl</persName>
+                    <supplied cert="high">l'a</supplied> trouvé au <placeName key="H0000355">Cap de
+                        bonne <choice>
+                            <abbr>Esp.</abbr>
+                            <expan>Espérance</expan>
+                        </choice></placeName>
+                    <choice>
+                        <abbr>l. c</abbr>
+                        <expan>loco citato</expan>
+                    </choice>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 259.
+                    <?oxy_comment_start author="paessler" timestamp="20170509T102650+0200" comment="bis hierhin kollationiert mit IS, 8.5.17"?></p>
+                <?oxy_comment_end?>
+                <note place="mBottom" hand="#author" rend="sticked"> 
+                    <pb n="6r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000013.jpg"/>
+                    <p>Végétaux dans <lb/>la <hi rendition="#u">neige</hi>
+                        <lb/>des <placeName key="H0002402">Alpes</placeName><supplied cert="high">,</supplied>
+                        <lb/>neige rouge. <lb/>Urédo<supplied cert="high">.</supplied>
+                        <lb/><seg type="comment">
+                            <orig><choice>
+                                    <abbr>An.</abbr>
+                                    <expan>Annales</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>Déc</abbr>
+                                    <expan>Décembre</expan>
+                                </choice> 1824</orig>
+                            <note xml:id="ngtz_pst_jz"><bibl sameAs="zotero-667230-MF6KQPT4">Peschier 1824</bibl>.</note>
+                        </seg>
+                        <lb/><choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 392 </p><pb n="6v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000014.jpg"/><p><gap unit="pages" quantity="1" reason="empty"/></p></note>
+                <note rend="inserted"><pb n="7r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000015.jpg"/>
+                <p><hi rendition="#u">Botanica</hi> Géognosie</p>
+                <p><placeName key="H0006568">Java</placeName>
+                    <?oxy_comment_start author="paessler" timestamp="20170407T161954+0200" comment="vermutlich mündliche oder schriftliche Mitteilung - siehe zum Beispiel: 
+http://resolver.staatsbibliothek-berlin.de/SBB00019E3C00000000"?>(<persName key="H0000815"><choice>
+                            <abbr>Dr</abbr>
+                            <expan>Docteur</expan>
+                        </choice> Reinwardt 1824</persName><supplied cert="high">)</supplied><?oxy_comment_end?></p>
+                <p><choice>
+                        <orig>toute</orig>
+                        <reg>Toute</reg>
+                    </choice> l’île basalte et trachytes. plus <lb/>hautes montagnes mesurées
+                        <measure quantity="1600" unit="toise">1600 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>. il <lb/>y en a où il gèle (pas de neige)<supplied cert="high">,</supplied>
+                    <lb/>on les croit <measure quantity="1800" unit="toise">1800 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>. Pas de roches <lb/>primitives, mais gerölle de <choice>
+                        <sic>quarz</sic>
+                        <corr cert="high">quartz</corr>
+                    </choice><supplied cert="high">,</supplied>
+                    <lb/>bergkristall, carriole! (Il y a <lb/>des roches granitiques à <placeName key="H0005320">Bornéo</placeName> et <lb/>à <placeName key="H0010400">Sumatra</placeName> quoique étain de <placeName key="H0010400">Sumatra</placeName>
+                    <lb/>en terrain d’alluvion! À l’est <lb/>de <placeName key="H0006568">Java</placeName>, dans <subst>
+                        <del rendition="#s">Pett</del>
+                        <add place="intralinear">Petites</add>
+                    </subst>
+                    <placeName key="H0008926">Mo<lb break="no"/>luques</placeName> tout basaltes
+                        <del rendition="#s"><gap quantity="1" unit="words"/></del> entou<g ref="#typoHyphen"/><lb break="no"/>rés de calcaire <choice>
+                        <sic>madréporiques</sic>
+                        <corr cert="high">madréporique</corr>
+                    </choice> qui <lb/>se forme encore et „qui sont <lb/>soulevés lentement de nos
+                        jours<supplied cert="high">.</supplied>
+                    <lb/><persName key="H0000815"><choice>
+                            <abbr>Mr</abbr>
+                            <expan>Monsieur</expan>
+                        </choice>
+                        <choice>
+                            <abbr>R.</abbr>
+                            <expan>Reinwardt</expan>
+                        </choice></persName> assure qu’à <placeName key="H0005099">Banda</placeName>
+                    tout <lb/>dans la mer voisine que dans les <lb/>plaines de l’intérieur<supplied cert="high">.</supplied> Exemples <lb/>de ces soulèvemens lents sans
+                    <lb/>explosions qui ne se font que <lb/>plus tard, souvent soulèvemens sur
+                    <lb/>des filons.“</p>
+                <p>Hautes <choice>
+                        <sic>montagne</sic>
+                        <corr cert="high">montagnes</corr>
+                    </choice> de <placeName key="H0006568">Java</placeName> rien <lb/>que Vaccinium,
+                    Rhododendron, <lb/>des chênes, Pinus dammara <lb/>et Pinus lanceolata et
+                    beaucoup <lb/>d’autres formes européennes. </p>
+                <pb n="7v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000016.jpg"/>
+                <p><gap unit="pages" quantity="1" reason="empty"/></p></note>
+                <note rend="inserted">
+                <pb n="8r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000017.jpg"/>
+                <p><placeName key="H0008895">Bassin de la Méditerranée</placeName></p>
+                <p><choice>
+                        <orig>belles</orig>
+                        <reg>Belles</reg>
+                    </choice> observations sur les Flores de <lb/><placeName key="H0008895">ce
+                        bassin</placeName>
+                    <persName key="H0002870">Viviani</persName>
+                    <seg type="comment">
+                        <orig>Florae Libycae <lb/>Specimen <subst>
+                                <del rendition="#s">p</del>
+                                <add place="intralinear">1824</add>
+                            </subst></orig>
+                        <note xml:id="nymr_jxf_mz"><bibl sameAs="zotero-667230-RDU8878D">Viviani
+                                1824</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> X</p>
+                <p>que <placeName key="H0005696">l’Europe</placeName> reçoit les plantes
+                        <lb/><placeName key="H0002331"><choice>
+                            <abbr>afric.</abbr>
+                            <expan>africaines</expan>
+                        </choice></placeName> par 3 <choice>
+                        <sic>chemin</sic>
+                        <corr cert="high">chemins</corr>
+                    </choice> I e <subst>
+                        <del rendition="#s">Lybia</del>
+                        <add place="intralinear">
+                            <lb/><placeName key="H0011430">Libya</placeName></add>
+                    </subst> in <placeName key="H0010922">Graeciam</placeName><supplied cert="high">,</supplied>
+                    <placeName key="H0010274"><choice>
+                            <abbr>Sicil.</abbr>
+                            <expan>Siciliam</expan>
+                        </choice></placeName> et <lb/><placeName key="H0006750"><choice>
+                            <abbr>Ital.</abbr>
+                            <expan>Italiam</expan>
+                        </choice></placeName>
+                    <choice>
+                        <abbr>meridion.</abbr>
+                        <expan>meridionalem</expan>
+                    </choice> II ex <placeName key="H0002331">Africa</placeName>
+                    <lb/><choice>
+                        <abbr>bor.</abbr>
+                        <expan>boreali</expan>
+                    </choice> per <placeName key="H0010123"><choice>
+                            <abbr>Sardin</abbr>
+                            <expan>Sardiniam</expan>
+                        </choice></placeName> et <placeName key="H0000469">Corsicam</placeName> III
+                    ab <placeName key="H0002331"><lb/>Africae</placeName>
+                    <choice>
+                        <abbr>bor.</abbr>
+                        <expan>borealis</expan>
+                    </choice> oris occiduis in<lb/><placeName key="H0010330"><choice>
+                            <abbr>Hisp.</abbr>
+                            <expan>Hispaniam</expan>
+                        </choice></placeName><supplied cert="high">,</supplied>
+                    <placeName key="H0008412">Provinciam</placeName> et <placeName key="H0011438"><choice>
+                            <abbr>Ligur</abbr>
+                            <expan>Liguriam</expan>
+                        </choice></placeName>. Heisst <lb/><choice>
+                        <abbr>philosoph</abbr>
+                        <expan>philosophisch</expan>
+                    </choice> wohl nur dass so die <lb/><choice>
+                        <abbr>gegenübersteh.</abbr>
+                        <expan>gegenüberstehenden</expan>
+                    </choice> Pflanzen sich <lb/>ähnlich sehen.</p>
+                <p><placeName key="H0011438">Liguria</placeName> hat <placeName key="H0002331"><add place="left"><metamark/><choice>
+                                <abbr>african.</abbr>
+                                <expan>africanische</expan>
+                            </choice></add></placeName> Pflanzen aus <choice>
+                        <abbr>südl</abbr>
+                        <expan>südlichem</expan>
+                    </choice>
+                    <lb/><placeName key="H0006750"><choice>
+                            <abbr>Ital.</abbr>
+                            <expan>Italien</expan>
+                        </choice></placeName> die nicht westlicher gehen als Iris <choice>
+                        <abbr>Sisyrinch</abbr>
+                        <expan>Sisyrinchium</expan>
+                    </choice><supplied cert="high">,</supplied>
+                    <lb/>Cerinthe aspera, Prasium <lb/>majus und <subst>
+                        <del rendition="#s">Pfla</del>
+                        <add place="intralinear"><add place="left"><metamark/>
+                                <placeName key="H0002331"><choice>
+                                        <abbr>afric.</abbr>
+                                        <expan>africanische</expan>
+                                    </choice></placeName>
+                            </add>Pflanzen</add>
+                    </subst>
+                    <lb/>aus <placeName key="H0010330">Spanien</placeName> die nicht <lb/>weiter ins <choice>
+                        <abbr>südl.</abbr>
+                        <expan>südliche</expan>
+                    </choice>
+                    <placeName key="H0006750"><choice>
+                            <abbr>Ital</abbr>
+                            <expan>Italien</expan>
+                        </choice></placeName>
+                    <lb/>gehen als Cneorum <lb/>tricoccum, Aphyllantes <lb/>monspelliensis,
+                    Bupleurum <lb/><choice>
+                        <abbr>fruticos.</abbr>
+                        <expan>fruticosum</expan>
+                    </choice> (<choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> XI) <placeName key="H0002331"><add place="left"><metamark/><choice>
+                                <abbr>afric</abbr>
+                                <expan>africanische</expan>
+                            </choice></add></placeName> Pflanzen <lb/>aus <placeName key="H0010123"><choice>
+                            <abbr>Sard</abbr>
+                            <expan>Sardinien</expan>
+                        </choice></placeName> und <placeName key="H0000469">Corsica</placeName>
+                    <lb/>die man weder in <placeName key="H0010330"><choice>
+                            <abbr>Span</abbr>
+                            <expan>Spanien</expan>
+                        </choice></placeName>
+                    <lb/>noch <choice>
+                        <abbr>südl.</abbr>
+                        <expan>südlichem</expan>
+                    </choice>
+                    <placeName key="H0006750"><choice>
+                            <abbr>Ital.</abbr>
+                            <expan>Italien</expan>
+                        </choice></placeName> findet <lb/>als Iris juncea, <choice>
+                        <abbr>Ranuncul.</abbr>
+                        <expan>Ranunculus</expan>
+                    </choice>
+                    <lb/>flabellatus, Car<g ref="#typoHyphen"/><lb break="no"/>thamus <choice>
+                        <abbr>cretic</abbr>
+                        <expan>creticus</expan>
+                    </choice></p>
+                <p><add place="left"><placeName key="H0000469">Corsica</placeName> hat <lb/>eigene
+                        Pflanzen die <lb/>an <placeName key="H0005696"><choice>
+                                <abbr>europ.</abbr>
+                                <expan>europäischen</expan>
+                            </choice></placeName> Küsten fehlen: <lb/>als Arum pictum, Clema<lb break="no"/>tis semitriloba, Helleborus <lb/>lividus, Arnica corsica,
+                        <lb/>Rosa corsica <persName key="H0002870"><choice>
+                                <abbr>Viv.</abbr>
+                                <expan>Viviani</expan>
+                            </choice></persName><supplied cert="high">,</supplied> Tyhmus
+                        <lb/>corsicus <choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice>
+                    XI.</add><?oxy_comment_start author="paessler" timestamp="20170509T153402+0200" comment="bis hier koll. mit IS, 9.5.17
+"?></p>
+                <?oxy_comment_end?>
+                <pb n="8v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000018.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </note>
+            </div>
+            <note rend="inserted" rendition="#mPrint">
+                <pb n="9r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000019.jpg"/><fw type="folNum">89</fw>
+                <p rendition="#mPrint"><persName key="H0013508"> notre
+                        auteur</persName> comme ayant ajouté plusieurs faits à ceux que <lb/>déjà
+                        <persName key="H0011195">Olafsen</persName> et <persName key="H0001773">Pavelsen</persName> avoient observés; il cite encore un <lb/>petit écrit de
+                    notre savant ami, <persName key="H0013347">M. le docteur Garlieb</persName>, et
+                    <lb/>il auroit dû en citer un autre par <persName key="H0002775">M. le comte
+                        Vargas de Bédé<g ref="#typoHyphen"/><lb break="no"/>mar</persName>. On
+                    trouve de nouvelles observations, en petit nombre, <lb/>dans les voyages de
+                        <persName key="H0013837">Mackenzie</persName> et de <persName key="H0011993">Hooker</persName>. Mais il man<g ref="#typoHyphen"/><lb break="no"/>que à
+                    ces notions disséminées le coup d'œil du génie et de <lb/>la science; il y
+                    manque l'ensemble qui, en classant les faits, <lb/>leur donne une valeur réelle,
+                    et, en coordonnant les résul<g ref="#typoHyphen"/><lb break="no"/>tats, en fait
+                    sortir des conclusions décisives. Que ne pou<g ref="#typoHyphen"/><lb break="no"/>vons-nous voir <persName key="H0003007">M. le baron Léopold de Buch</persName>
+                    parcourant <lb/>cette terre singulière où tout semble l'appeler, tout, dis-je,
+                    <lb/>les feux souterrains et les fontaines bouillantes, et les dé<g ref="#typoHyphen"/><lb break="no"/>bris d'un monde primitif, et l'amour
+                    d'une nation qui le <lb/>recevroit en frère.</p>
+                <p rendition="#mPrint">Dans l'état actuel de la géologie <placeName key="H0006739">islandoise</placeName>, il paroît que <lb/>la masse des montagnes de
+                        <placeName key="H0006739">l'Islande</placeName> se compose de <hi rendition="#i">Trapp</hi>, <lb/>tant de transition que de formation
+                    primitive, et que le <lb/>mica, le quartz, le grès, d'ancienne formation, y
+                    abondent, <lb/>tandis que le calcaire y est excessivement rare. On ignore
+                    <lb/>si le granite propre y existe; on ignore les rapports et la <lb/>puissance
+                    des bancs de porphyre qui y ont été aperçus.<note type="handwritten" place="right" hand="H0012069"><choice>
+                            <abbr><hi rendition="#u">Géogr</hi></abbr>
+                            <expan><hi rendition="#u">Géographie</hi></expan>
+                        </choice><hi rendition="#u"> des <lb/>plantes</hi>
+                        <lb/>Limites<supplied cert="high">.</supplied>
+                        <lb/><placeName key="H0006739">Islande</placeName>
+                        <lb/><persName key="H0013508">Gliemann</persName>
+                        <lb/><bibl sameAs="zotero-667230-B6K3G2V6"><choice>
+                                <abbr>geogr.</abbr>
+                                <expan>geographische</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Besch</abbr>
+                                <expan>Beschreibung</expan>
+                            </choice>
+                            <lb/><choice>
+                                <abbr>v.</abbr>
+                                <expan>von</expan>
+                            </choice> Island <lb/>1824</bibl></note></p>
+                <p rendition="#mPrint">Mais il y a quelques traits particuliers de la géologie de
+                        <lb/><placeName key="H0006739">l'Islande</placeName> qui sont bien
+                    éclaircis. Nous ne parlerons pas ici <lb/>des <hi rendition="#i">Zéolithes</hi>
+                    de la côte du nord, les plus magnifiques qu'on <lb/>puisse voir, ni des <hi rendition="#i">basaltes</hi>, dont la forme et la situation
+                    <lb/>extraordinaires mériteroient à elles seules un voyage géolo<g ref="#typoHyphen"/><lb break="no"/>gique; nous ne nous arrêterons qu'à
+                    l'espèce de charbon de <lb/>terre particulière à <placeName key="H0006739">l'Islande</placeName> et qu'on y appelle le <hi rendition="#i">surtur<g ref="#typoHyphen"/><lb break="no"/>brand</hi> ou le <hi rendition="#i">svarta-torf</hi>
+                    <note place="foot" n="(I)">De ces deux noms, l'un, <hi rendition="#i">svarta-torf</hi>, signifie tout simplement <lb/><hi rendition="#i">tourbe noire,</hi> et rappelle la tourbe appelée <hi rendition="#i">Klyn</hi> dans le <placeName key="H0006536">Jutland</placeName>;<pb n="9v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000020.jpg"/>l'autre remonte à une haute antiquité. <hi rendition="#i">Surtur</hi> est
+                        le Pluton de la my<g ref="#typoHyphen"/><lb break="no"/>thologie <placeName key="H0010276">scandinave</placeName>, et <hi rendition="#i">surtur-brand</hi> veut dire <hi rendition="#i">tison de <persName key="H0002028">Platon</persName></hi>. Ainsi, <lb/>l'idée du feu
+                        central du globe se trouve chez ce peuple long-temps <lb/>avant que
+                            <persName key="H0012094">M. Hutton</persName> n'eût inventé le système
+                        plutonien de géologie. </note>Cette substance, dont on avoit d'abord fait
+                    une espèce <lb/><pb n="9v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000020.jpg"/>
+                    <fw type="folNum">90</fw> toute nouvelle, paroît se confondre avec la masse de
+                        subs<g ref="#typoHyphen"/><lb break="no"/>tances analogues que, dans l'état
+                    actuel de la science, on <lb/>ne peut désigner que sous le nom de charbon de
+                    terre. <lb/>Les Islandois eux-mêmes commencent à l'appeler <hi rendition="#i">stein-kol</hi>, et <lb/>elle n'a paru différente de ce genre que par le
+                    nombre très<g ref="#typoHyphen"/><lb break="no"/>grand de variétés qu'elle
+                    présente. Tantôt elle approche <lb/>de l'éclat et de la dureté du charbon de
+                    terre résineux, <lb/>tantôt elle ressemble à de la houille fibreuse. C'est dans
+                    <lb/>ce dernier état que <persName key="H0013347">M. Garlieb</persName> a
+                    examiné le <hi rendition="#i">surtur-brand</hi>;<lb/>et, comme il y a cru
+                    reconnoître des bois étrangers à <placeName key="H0006739">l'Is<g ref="#typoHyphen"/><lb break="no"/>lande</placeName>, tels que le <hi rendition="#i">populus tremula</hi> et <hi rendition="#i">takamahaka</hi>,
+                    il a <lb/>soutenu que le <hi rendition="#i">surtur-brand</hi> devoit son origine
+                    à d'an<g ref="#typoHyphen"/><lb break="no"/>ciennes masses de bois flottans;
+                    mais d'autres couches de <lb/>cette substance présentent une carbonisation plus
+                        com<g ref="#typoHyphen"/><lb break="no"/>plète et une situation tout-à-fait
+                    analogue à celle du char<g ref="#typoHyphen"/><lb break="no"/>bon de terre. Dans
+                    le
+                    <?oxy_comment_start author="paessler" timestamp="20170407T130228+0200" comment="noch auszeichnen"?>mont
+                        <hi rendition="#i">Lœck</hi>,<?oxy_comment_end?> on voit quatre couches
+                    <lb/>horizontales de <hi rendition="#i">surtur-brand</hi>, épaisses de 2 à 4
+                    pieds; la <lb/>plus basse renferme les matières les plus carbonisées, les
+                    <lb/>plus compactes. Les couches de schiste d'ardoise grise, qui <lb/>séparent
+                    la deuxième et la troisième couche du <hi rendition="#i">surtur-</hi><lb break="no"/><hi rendition="#i">brand</hi>, contiennent des empreintes des
+                    feuilles de bouleau, <lb/>de sorbiers et de saules, ainsi que des feuilles
+                    grandes <lb/>comme la main et semblabes à celles du chêne. Dans le <lb/>mont <hi rendition="#i">sandvigs-brand</hi>, les couches du <hi rendition="#i">surtur-brand</hi> sont <lb/>précisément séparées par les mêmes bancs de
+                    schiste qui, <lb/>dans les <placeName key="H0004756">îles Feroer</placeName>,
+                    séparent les charbons de terre. Le <lb/><hi rendition="#i">surtur-brand
+                    </hi>paroît le plus souvent se montrer à un niveau <lb/>de 5 à 600, comme à <hi rendition="#i">Stega-Hlid</hi>, à <hi rendition="#i">Grœnna-Hlid</hi> et
+                    dans <lb/>beaucoup d'autres places, indiquées par l'auteur de cette
+                    <lb/>description. Toute <placeName key="H0006739">l'île</placeName> en est
+                        parsemée.<lb/><pb n="10r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000021.jpg"/>
+                    <fw type="folNum">97</fw>donneroient aux plantes cultivées un abri contre les
+                    vents <lb/>furieux. On a prétendu que jadis la chaîne de montagnes <lb/>par
+                    laquelle <placeName key="H0006739">l'île</placeName> est traversée, étoit
+                    couverte de forêts; <lb/>c'est une allégation contraire à la vérité. La ligne
+                    des neiges <lb/>perpétuelles commence généralement en <placeName key="H0006739">Islande</placeName> à 26 ou <lb/>2700 pieds au-dessus du niveau de la mer;
+                    c'est aussi à <lb/>cette hauteur que la végétation s'arrête, et on ne peut pas
+                    <lb/>s'attendre à trouver des arbres à cette élévation. Or, quelle <lb/>cause
+                    auroit donc fait varier considérablement cette ligne <lb/>depuis l'an 800, que
+                    les navigateurs <placeName key="H0010276">scandinaves</placeName>, en dé<g ref="#typoHyphen"/><lb break="no"/>couvrant cette <placeName key="H0006739">île</placeName>, lui donnèrent le nom de <hi rendition="#i">Terre de glace
+                        <lb/></hi>(<placeName key="H0006739">Is-land</placeName>), ou de neige (<hi rendition="#i">snœ-land</hi>), et la signalèrent comme <lb/>une demeure
+                    moins agréable que la <placeName key="H0001715">Norwège</placeName>? Au<g ref="#typoHyphen"/><lb break="no"/>cune trace ne marque l'existence ancienne
+                    des arbres sur les <lb/>hautes montagnes de <placeName key="H0006739">l'Islande</placeName>, et ceux qui citent le <hi rendition="#i">Sur<g ref="#typoHyphen"/><lb break="no"/>tur-brand</hi> comme restes
+                    d'anciennes forêts ignorent les <lb/>premières notions de la géographie
+                    physique; ils appliquent <lb/>au monde actuel les phénomènes des siècles
+                    antérieurs à <lb/>l'existence de l'homme.</p>
+                <p rendition="#mPrint">Il <supplied cert="high">y</supplied> a cependant eu une
+                    diminution des forêts
+                        e<?oxy_comment_start author="paessler" timestamp="20170815T123346+0200" comment="ändern. Flüchtigkeitsfehler
+"?>n<placeName key="H0006720"> Irlande</placeName>, <?oxy_comment_end?><lb/>diminution
+                    provenue des consommations prodigues d'une <lb/>population, accoutumée à brûler
+                    des troncs entiers d'arbres, <lb/>et peu soigneuse à en replanter.</p>
+                <p rendition="#mPrint">Nous avons cherché, sur la carte et dans la description de
+                        <lb/><persName key="H0013508">M. Gliemann</persName>, les endroits dont le
+                        <hi rendition="#i">nom</hi> indique l'ancienne <lb/>existence des forêts
+                    épuisées par ces abus, et nous avons <lb/>appris que c'étoit sur quelques
+                    collines de 1000 pieds d'élé<g ref="#typoHyphen"/><lb break="no"/>vation, tout
+                    au plus, que l'ancienne <placeName key="H0006739">Islande</placeName> voyoit
+                    croître <lb/>quelques bouquets de <hi rendition="#i">bouleaux</hi>, de <hi rendition="#i">sorbiers</hi>, et peut-être de <lb/>peupliers trembles,
+                    bouquets plus étendus et plus épais que <lb/>ceux d'aujourd'hui. Ces endroits
+                    sont 1° <hi rendition="#i"><placeName key="ed_pb1_qlv_v1b">Fagraskcogar-<lb break="no"/>Fiell</placeName></hi>, c'est-à-dire les rochers aux
+                    belles forêts, à l'est du <lb/><placeName key="ed_wv1_xlv_v1b">golfe de
+                        Faxa</placeName>; 2° <hi rendition="#i">Blâskoga-Heide</hi>, c'est-à-dire la
+                        lande<note type="handwritten" place="mBottom" hand="H0012069"><choice>
+                            <abbr>Géogr</abbr>
+                            <expan>Géographie</expan>
+                        </choice> des <lb/>plantes.<p>Islande forêts? <lb/><persName key="H0013508">Gliemann</persName>
+                            <bibl sameAs="zotero-667230-B6K3G2V6"><choice>
+                                    <abbr>Geogr.</abbr>
+                                    <expan>Geographische</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>Beschr</abbr>
+                                    <expan>Beschreibung</expan>
+                                </choice>
+                                <lb/><choice>
+                                    <abbr>v.</abbr>
+                                    <expan>von</expan>
+                                </choice> Island 1824</bibl></p></note><note place="foot" n="">TOME
+                        XXV</note><pb n="10v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000022.jpg"/>des forêts bleues, au nord du <placeName key="ed_om3_p1v_v1b">lac
+                        Myvatn</placeName>; 3° <placeName key="ed_akm_ccv_v1b"><hi rendition="#i">Eskifiordr</hi></placeName>, <lb/>c'est-à<supplied cert="high">-</supplied>dire la baie des Frènes, sur la côte orientale; c'est
+                    <lb/>peut-être par erreur qu'on a dit <hi rendition="#i">esk</hi> (<hi rendition="#i">fraxinus excelsior</hi>) <lb/>au lieu d'<hi rendition="#i">esp </hi>(<hi rendition="#i">populus tremula</hi>); 4° <placeName key="ed_ozf_hdv_v1b"><hi rendition="#i">Starriskogar</hi></placeName>,
+                        c'est-<lb break="no"/>à<supplied cert="high">-</supplied>dire forêts roides,
+                    élevées, ou <hi rendition="#i">Arskogar</hi>, c'est-à-dire <lb/>forêts à bois de
+                    chauffage, sur le <placeName key="ed_ahw_scv_v1b">golfe <hi rendition="#i">Eyafiord</hi></placeName>; 5° les <lb/>endroits nommés <hi rendition="#i">Holt</hi>, comme par exemple <hi rendition="#i">Mickla-Holt</hi>
+                    <lb/>et autres; mais ce mot est un peu vague, et peut s'appliquer <lb/>aux
+                    arbrisseaux et au bois flottant. Tels sont les endroits <lb/>peu nombreux où les
+                    noms <placeName key="H0006739">islandois</placeName> indiquent d'anciennes
+                    <lb/>forêts. On cite encore le bois de Thingwalla, détruit, <lb/>en 1587, par
+                    une éruption volcanique. De nos jours, le <lb/>bois de Fnioske a été dévasté par
+                    les charbonniers. C'est <lb/>à ce peu de faits qu'il faut réduire la prétendue
+                        magnifi<g ref="#typoHyphen"/><lb break="no"/>cence des anciennes forêts de
+                        <placeName key="H0006739">l'Islande</placeName>, tant de fois citées
+                    <lb/>par les géologues, lorsqu'ils veulent faire parade d'éru<g ref="#typoHyphen"/><lb break="no"/>dition.</p>
+                <p rendition="#mPrint">Aux argumens que nous fournit la topographie de
+                        <lb/><persName key="H0013508">M. Gliemann</persName> (et dont cet estimable
+                    auteur ne s'est pas <lb/>aperçu), nous pouvons joindre des témoignages histori<g ref="#typoHyphen"/><lb break="no"/>ques. Les anciens <placeName key="H0006739">Islandois</placeName> alloient, comme ceux de nos <lb/>jours,
+                    chercher dans la <placeName key="H0010276">Scandinavie</placeName> des bois pour
+                        cons<g ref="#typoHyphen"/><lb break="no"/>truire leurs appartemens
+                        intérieurs<note place="foot" n="(I)">Niala-Saga, chap. 2, chap. 32, chap.
+                        170. Je sais bien que <lb/>dans le même saga, il est question de coupes de
+                        bois (<hi rendition="#i">skogar-hœgg</hi>) <lb/>et d' hommes exilés dans les
+                        bois (<hi rendition="#i">skogar-madr</hi>); mais ces expres<g ref="#typoHyphen"/><lb break="no"/>sions ne supposent pas nécessairement
+                        qu'il y eût dans <placeName key="H0006739">l'île</placeName> des <lb/>forêts
+                        considérables.</note>.</p>
+                <p rendition="#mPrint">
+                    <lb/>Si les forêts eussent jadis couvert une grande partie de <placeName key="H0006739"><lb/>l'île</placeName>, pourquoi n'offriroit-elle pas des
+                    endroits nommés d'a<g ref="#typoHyphen"/><lb break="no"/>près les <hi rendition="#i">bierk</hi> (<hi rendition="#i">bouleaux</hi>) et les <hi rendition="#i">rogn</hi> (<hi rendition="#i">s<hi rendition="#i">orbus
+                            aucuparia</hi></hi>), <lb/>ou d'après d'autres arbres qui y auraient
+                    abondé? <persName key="H0013508">M. Glie<g ref="#typoHyphen"/><lb break="no"/>mann</persName> rapporte, mais avec de sages doutes, deux traits qui
+                        <lb/><pb n="11r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000023.jpg"/>
+                    <fw type="folNum">99</fw> sembleroient attester le contraire. Une tradition
+                    vague <lb/>s'est conservée à <placeName key="ed_glh_hz5_v1b"><hi rendition="#i">Urdir</hi></placeName>, dans le district du nord, qu'il y ve<g ref="#typoHyphen"/><lb break="no"/>noit jadis quelques chênes, et <supplied cert="high">que</supplied> la situation est favorable pour <lb/>abriter de
+                    grands arbres, mais les Islandois donnent à tout <lb/>arbre élevé le nom d'<hi rendition="#i">eyk</hi>, chêne <note place="foot" n=""><hi rendition="#i">Eyk</hi> signifioit aussi, chez les anciens <placeName key="H0010276">Scandinaves</placeName>, un arbre en <lb/>général. Voy, <hi rendition="#i">Edda</hi>, <hi rendition="#i">Harbardz-Liodh</hi>, St.
+                        21.</note>. Une autre tradition, <lb/>mais tout-à-fait vague, désigne un
+                    endroit comme ayant <lb/>été planté de pins et de sapins; mais, c'est peut-être
+                    le sou<g ref="#typoHyphen"/>
+                    <lb break="no"/>venir d'une tentative de quelques Islandois pour intro<g ref="#typoHyphen"/><lb break="no"/>duire ces grands arbres conifères qui
+                    paroissent être natu<g ref="#typoHyphen"/><lb break="no"/>rellement étrangers à
+                        <placeName key="H0006739">l'île</placeName>. On vient de renouveler cet
+                    essai <lb/>avec quelque succès; mais le sol de <placeName key="H0006739">l'Islande</placeName> réunit rare<g ref="#typoHyphen"/><lb break="no"/>ment
+                    les qualités qui, en <placeName key="H0001715">Norwège</placeName>, assurent la
+                    belle venue <lb/>de ces arbres. On feroit mieux peut-être de chercher à
+                    <lb/>coloniser des arbres du <placeName key="H0000345">Canada</placeName>,
+                    accoutumés au mauvais <lb/>sol et aux variations extrêmes de température.</p>
+                <p rendition="#mPrint">Aujourd'hui, des bouleaux blancs isolés ou en petits
+                    <lb/>groupes, s'élevant à 10 pieds, des bouleaux nains très<g ref="#typoHyphen"/><lb break="no"/>abondans, des sorbiers, de 12 à 16 pieds, des saules de
+                    <lb/>18 espèces, quelques-uns de 8 pieds, des genevriers et <lb/>toute sorte
+                    d'arbrissaux forment les sous-bois qui diversi<g ref="#typoHyphen"/><lb break="no"/>fient les collines solitaires et les rivages déserts de cette
+                    <lb/>île polaire. La vallée de la <placeName key="ed_mqq_c1v_v1b">rivière de <hi rendition="#i">Lagafliot</hi></placeName> et le bassin <lb/>de <hi rendition="#i">Dale-Syssel</hi>, autour du <placeName key="ed_nmt_kfv_v1b">golfe <hi rendition="#i">Hvam</hi></placeName>, sont les régions <lb/>de
+                    l'intérieur où le bouleau prospère le plus; il y atteint <lb/>quelquefois 20
+                    pieds. On montroit autrefois à <hi rendition="#i">Mula</hi>, dans <lb/>le <hi rendition="#i"><placeName key="ed_zfn_j3v_v1b">Rangarvella</placeName></hi>,
+                    un bouleau de 20 pieds, âgé de 67 ans. <lb/>Les sorbiers prospèrent sur la côte
+                    occidentale jusqu'à <lb/><placeName key="ed_hnd_ghv_v1b"><hi rendition="#i">Vatn-fiord</hi></placeName>, à 66 degrés 20 minutes.</p>
+                <p rendition="#mPrint">Il paroît, d'après ces diverses données, que la géographie
+                    <lb/>végétale de <placeName key="H0006739">l'Islande</placeName>, située entre
+                    le 63<hi rendition="#sup">eme</hi> et le 60<hi rendition="#sup">eme</hi> paral<g ref="#typoHyphen"/><add place="mBottom"> </add>
+                    <lb/><pb n="11v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000024.jpg"/>
+                    <fw type="folNum">100</fw> lèle, répond à peu près à celle du <placeName key="H0004774">Finmark</placeName> ou de la <placeName key="H0011377">La<g ref="#typoHyphen"/><lb break="no"/>ponie</placeName>-<placeName key="H0001715">Norwégienne</placeName>, entre 67 et 72 degrés de
+                        latitude<note place="foot" n="(I)">Dans un troisième extrait de la <hi rendition="#i">Géographie botanique</hi> de <lb/><persName key="H0015668">M. Schow</persName>, nous donnerons incessamment quelques
+                        aperçus inté<g ref="#typoHyphen"/><lb break="no"/>ressans sur l'échelle de
+                        la végétation de <placeName key="H0005696">l'Europe</placeName>.</note>.</p>
+                <p rendition="#mPrint">Le règne animal de <placeName key="H0006739">l'île</placeName> est bien plus important pour l'é<g ref="#typoHyphen"/><lb break="no"/>conomie politique. Les rennes qui manquoient à <placeName key="H0006739">l'île</placeName>, y ont <lb/>été importées et commencent à
+                    peupler tout l'intérieur. On <lb/>comptoit, en 1822, jusqu'à 340,752 moutons,
+                    21,803 bœufs <lb/>et vaches, et 28,443 chevaux, parmi lesquels 8,238 sau<g ref="#typoHyphen"/><lb break="no"/>vages ou indomptés. Le nombre de chevaux
+                    est considéré <lb/>par les économistes du pays comme trois fois plus grand
+                    <lb/>qu'il ne devroit l'être dans l'intérêt du pays ; ils ont peut<g ref="#typoHyphen"/><lb break="no"/>être raison, et pourtant, comme
+                        <placeName key="H0010276">Scandinave</placeName>, j'aime à voir <lb/>les
+                        <placeName key="H0006739">Islandois</placeName>, par ce caprice pour les
+                    chevaux, attester <lb/>leur origine.</p>
+                <p rendition="#mPrint"> L'accroissement des bêtes à laine est au contraire d'une
+                    <lb/>utilité extrême pour le pays, car c'est l'exportation de bas, <lb/>de gants
+                    et de gilets de laine, qui donne à cette pauvre et <lb/>triste <placeName key="H0006739">Islande</placeName> un avantage constant dans le bilan
+                        commer<g ref="#typoHyphen"/><lb break="no"/>cial; malheureusement <persName key="H0013508">M. Gliemann</persName> n'entre pas dans ces <lb/>détails
+                    qu'il regarde comme étrangers à la géographie. <lb/>L'accroissement des bêtes à
+                    laine est très-rapide; le nom<g ref="#typoHyphen"/><lb break="no"/>bre de ces
+                    animaux étoit, en 1784, après le tremblement <lb/>de terre, de 42,000 têtes; </p>
+                <p rendition="#mPrint">En 1804, 218, 918, dont 102,305 brebis mères; en 1822,
+                        <lb/>340,752, dont 154,993.</p>
+                <p rendition="#mPrint">Les cochons sont en nombre extrêmement petit; il n'y <lb/>a
+                    guère que les marchands danois qui en tiennent, et on <lb/>prétend qu'ils ne
+                    peuvent pas prospérer. Cette allégation <lb/>nous paroît peu fondée. Les anciens
+                    documens historiques </p>
+            </note><note rend="inserted">
+                <pb n="12r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000025.jpg"/>
+                <p><choice>
+                        <abbr>Subst.</abbr>
+                        <expan>Substitution</expan>
+                    </choice> alimentaire!</p>
+                <p>Ein Artocarpus <gap unit="chars" quantity="1" reason="illegible"/>
+                    <choice>
+                        <abbr>Spe</abbr>
+                        <expan>Species</expan>
+                    </choice> wild bei <placeName key="H0010546"><lb/>Rio Janeiro</placeName> hat
+                    walzenförmige <measure quantity="2" unit="fuss_preussisch"><lb/>2</measure>–<measure quantity="4" unit="fuss_preussisch">4
+                        Fuß</measure> lange <measure quantity="0.5" unit="fuss_preussisch">½</measure>–<measure quantity="2" unit="fuss_preussisch">2 Fuß</measure>
+                    <lb/>dikke Früchte, von <measure quantity="0.50" unit="zentner">½</measure>–<measure quantity="2" unit="zentner">2 <choice>
+                            <abbr>Ct</abbr>
+                            <expan>Zentnern</expan>
+                        </choice></measure>
+                    <lb/>Gewicht<supplied cert="high">.</supplied> Ein Baum oft <lb/><hi rendition="#u">50–60 Früchte</hi> sehr eßbar<supplied cert="high">.</supplied></p>
+                <p><persName key="H0003329">Beyrich</persName> in <seg type="comment">
+                        <orig>Verhandlungen des <lb/>Berliner Garten Vereins 1824</orig>
+                        <note xml:id="ntfh_4xf_mz"><bibl sameAs="zotero-667230-H9GIFE9X">Beyrich
+                                1824</bibl>.</note>
+                    </seg>
+                    <lb/><choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 286<supplied cert="high">.</supplied>
+                    <lb/></p>
+                <pb n="12v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000026.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </note>
+            <div>
+                <pb n="17r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000027.jpg"/>
+                <p>
+                    <note place="left" hand="#author" rend="sticked"><pb n="13r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000029.jpg"/>
+                        <p>16. <hi rendition="#uu">Palmier </hi><hi rendition="#uu">limites</hi></p><p>vont au Sud vers <placeName key="H0005384">Buenos
+                                <lb/>ayres</placeName> jusque 34–35° <choice>
+                                <abbr>lat</abbr>
+                                <expan>latitude</expan>
+                            </choice>
+                            <lb/>comme à la <placeName key="H0002625"><choice>
+                                    <abbr>Nouv</abbr>
+                                    <expan>Nouvelle</expan>
+                                </choice>
+                                <lb/>Hollande</placeName>
+                            <persName key="H0015387"><choice>
+                                    <abbr>St</abbr>
+                                    <expan>Saint</expan>
+                                </choice><supplied cert="high">-</supplied><lb break="no"/>Hilaire</persName>
+                            <seg type="comment">
+                                <orig>aperçu</orig>
+                                <note xml:id="na2d_5db_mz"><bibl sameAs="zotero-667230-BBE9DFJ6">Saint-Hilaire, A. 1823</bibl>.</note>
+                            </seg>
+                            <?oxy_comment_start author="paessler" timestamp="20170331T115850+0200" comment="auch zitiert in RH!"?><lb><?oxy_comment_end?></lb><choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 60.</p><pb n="13v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000030.jpg"/>
+                        <gap unit="pages" quantity="1" reason="empty"/>
+                    </note>
+                </p>
+                <p>
+                    <note place="left" hand="#author" rend="sticked"><pb n="14r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000031.jpg"/>
+                        <p>17. <hi rendition="#uu">Cactus limites</hi></p><p>Le plus au nord des
+                                Cactus<supplied cert="high">,</supplied> le <choice>
+                                <abbr><hi rendition="#u">C.</hi></abbr>
+                                <expan><hi rendition="#u">Cactus</hi></expan>
+                            </choice><hi rendition="#u"> fragilis</hi>
+                            <lb/>de <placeName key="H0008888">Missoury</placeName><supplied cert="high">,</supplied> découvert dans le Voyage <lb/>de <persName key="H0004506">Lewis</persName> et <persName key="H0013081">Clark</persName> et décrit par <lb/><persName key="H0005033"><choice>
+                                    <abbr>Mr</abbr>
+                                    <expan>Mister</expan>
+                                </choice> Nuttall</persName>. <persName key="H0004605">Long</persName>
+                            <seg type="comment">
+                                <orig><choice>
+                                        <abbr>Exped.</abbr>
+                                        <expan>Expedition</expan>
+                                    </choice> To the Rocky <lb/><choice>
+                                        <abbr>Mount.</abbr>
+                                        <expan>Mountains</expan>
+                                    </choice></orig>
+                                <note xml:id="ncrk_12b_mz"><bibl sameAs="zotero-667230-33W64XHK">James 1823</bibl>.</note>
+                            </seg>
+                            <choice>
+                                <abbr>T.</abbr>
+                                <expan>Tome</expan>
+                            </choice> I 449<supplied cert="high">.</supplied>
+                        </p><pb n="14v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000032.jpg"/><gap unit="pages" quantity="1" reason="empty"/>
+                    </note>
+                </p>
+                <p>
+                    <note place="left" hand="#author" rend="sticked"><pb n="15r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000033.jpg"/>
+                        <p>18 <hi rendition="#uu">Peuplier d’Italie</hi>
+                        </p><p>Au <placeName key="H0008887">Misissipi</placeName><supplied cert="high">,</supplied> le plus connu est <lb/>Populus angulata
+                                <persName key="H0002227">Pursh</persName> (Cotton<g ref="#typoHyphen"/><lb break="no"/>wood) très différent de <choice>
+                                <abbr>P.</abbr>
+                                <expan>Populus</expan>
+                            </choice> dilatata <lb/>Lomardy poplar qui n’est nullement <lb/>sauvage
+                            aux <placeName key="H0009136">États<supplied cert="high">-</supplied>Unis</placeName>. <choice>
+                                <abbr>P.</abbr>
+                                <expan>Populus</expan>
+                            </choice> angulata <lb/>dont quelques exemplaires de <placeName key="H0002297">l’Arkansas</placeName>
+                            <lb/>et pas <placeName key="H0001568">Natchitoches</placeName> ont
+                                <measure quantity="142" unit="foot">142 piés <choice>
+                                    <abbr>angl</abbr>
+                                    <expan>anglais</expan>
+                                </choice></measure>
+                            <lb/>de <choice>
+                                <abbr>haut</abbr>
+                                <expan>hauteur</expan>
+                            </choice> et <measure quantity="5" unit="foot">5 <choice>
+                                    <sic>pié</sic>
+                                    <corr cert="high">piés</corr>
+                                </choice>
+                                <choice>
+                                    <abbr>diam.</abbr>
+                                    <expan>diamètre</expan>
+                                </choice></measure> n’est pas <lb/>pyramidal <persName key="H0004605">Long</persName>
+                            <seg type="comment">
+                                <orig><choice>
+                                        <abbr>Exped</abbr>
+                                        <expan>Expedition</expan>
+                                    </choice></orig>
+                                <note xml:id="nqbf_hth_wz"><bibl sameAs="zotero-667230-33W64XHK">James 1823</bibl>. </note>
+                            </seg> II <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 164.</p>
+                        <pb n="15v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000034.jpg"/>
+                        <gap unit="pages" quantity="1" reason="empty"/>
+                    </note>
+                </p>
+                <p>
+                    <note place="left" hand="#author" rend="sticked"><pb n="16r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000035.jpg"/>
+                        <p>19 <seg type="comment">
+                                <orig><hi rendition="#uu">Höhe der Bäume</hi></orig>
+                                <note xml:id="nwzq_h5j_wz">Vgl. <bibl sameAs="zotero-667230-33W64XHK">James 1823</bibl>, II, 156.
+                                </note>
+                            </seg></p>
+                        <p>Pines of <placeName key="H0001696">Nootka</placeName>
+                            <measure quantity="120" unit="foot">120 piés <choice>
+                                    <abbr>angl.</abbr>
+                                    <expan>anglais</expan>
+                                </choice></measure></p>
+                        <p><placeName key="H0001710">Norfolk Island</placeName>
+                            <measure quantity="180" unit="foot">180 <choice>
+                                    <abbr>pi</abbr>
+                                    <expan>pieds</expan>
+                                </choice></measure></p>
+                        <p><choice>
+                                <orig>on</orig>
+                                <reg>On</reg>
+                            </choice> the <placeName key="H0007537">Columbia river</placeName>
+                            <measure quantity="230" unit="foot">230 piés</measure><supplied cert="high">,</supplied>
+                            <lb/>même <measure quantity="300" unit="foot">300 <choice>
+                                    <abbr>pi</abbr>
+                                    <expan>pieds</expan>
+                                </choice></measure> (<measure quantity="8" unit="foot">8 <choice>
+                                    <abbr>pi</abbr>
+                                    <expan>pieds</expan>
+                                </choice></measure>
+                            <choice>
+                                <abbr>diam.</abbr>
+                                <expan>diamètre</expan>
+                            </choice>) <seg type="comment">
+                                <orig><persName key="H0004506">Lewis</persName>
+                                    <lb/><persName key="H0013081">Clark</persName>
+                                    <choice>
+                                        <abbr>Vol</abbr>
+                                        <expan>Volume</expan>
+                                    </choice> II <choice>
+                                        <abbr>p</abbr>
+                                        <expan>page</expan>
+                                    </choice> 156 </orig>
+                                <note xml:id="nab4_b5j_wz"><bibl sameAs="zotero-667230-XTJC9E3N">Lewis/Clark 1814</bibl>. Vgl. <bibl sameAs="zotero-667230-33W64XHK">James 1823</bibl> , II,
+                                    165.</note>
+                            </seg><lb/>eine Abies<supplied cert="high">.</supplied>
+                        </p><pb n="16v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000036.jpg"/><gap unit="pages" quantity="1" reason="empty"/></note>
+                </p>
+                <pb n="17r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000037.jpg"/>
+                <p>20 <placeName key="H0001721">Nowaja Semla</placeName></p>
+                <p>En <placeName key="H0010218">Sibérie</placeName><supplied cert="high">,</supplied> agriculture possible pas au<supplied cert="high">-</supplied>delà <lb/>de 59 et 60° <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> et <placeName key="H0001703">Cap Nord</placeName>. À <placeName key="H0001721">Nowaja <lb/>Semla</placeName><supplied cert="high">,</supplied>
+                    <choice>
+                        <abbr>Th.</abbr>
+                        <expan>Thermomètre</expan>
+                    </choice> en été à peine <measure quantity="2" unit="reamur">+2° <choice>
+                            <abbr>R</abbr>
+                            <expan>Réaumur</expan>
+                        </choice></measure>. Seulement <lb/>vers l’extrémité australe de l’île
+                        Salix<supplied cert="high">,</supplied>
+                    <lb/>incubacea <measure quantity="1" unit="arschin">une arschine</measure> de <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice><supplied cert="high">.</supplied>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr><lb/>Petersb.</abbr>
+                                <expan>Petersburgische</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Zeitschr.</abbr>
+                                <expan>Zeitschrift</expan>
+                            </choice> 1823 Juin <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 264.</orig>
+                        <note xml:id="nf1l_xxy_lz">Humboldt bezieht sich in diesem Abschnitt auf
+                            zwei Artikel der St. Petersburgischen Zeitschrift über die Geographie
+                            Sibiriens (<bibl sameAs="zotero-667230-QVEPF5GZ">Anonym 1823a</bibl>,
+                            insbesondere Seite 264) und die Insel Nowaja Semlja (<bibl sameAs="zotero-667230-XHN5Q8XN">Čishov 1823</bibl>, insbesondere
+                            Seite 300). </note>
+                    </seg></p>
+                <p><choice>
+                        <abbr>Geolog.</abbr>
+                        <expan>Geologische</expan>
+                    </choice> Träume über Entstehung der Pflanzenarten <lb/><persName key="H0001266">Kastner</persName>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>Meteor.</abbr>
+                                <expan>Meteorologie</expan>
+                            </choice> II <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 118.</orig>
+                        <note xml:id="nmbq_zxt_lz"><bibl sameAs="zotero-667230-MZZPJVQC">Kastner
+                                1823–1830</bibl>, II, 1. Abteilung, 119–121.</note>
+                    </seg></p>
+                <pb n="[k.A.]" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000038.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>                <pb n="[k.A.]" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000039.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="17v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000040.jpg"/>
+                <p><choice>
+                        <orig>gegen</orig>
+                        <reg>Gegen</reg>
+                    </choice> mich (<seg type="comment">
+                        <orig><choice>
+                                <abbr>Géogr.</abbr>
+                                <expan>Géographie</expan>
+                            </choice></orig>
+                        <note xml:id="noml_kjb_y1b"><bibl sameAs="zotero-667230-5BIJ6MM2">Humboldt
+                                1817</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 60)<supplied cert="high">.</supplied>
+                    <choice>
+                        <orig>dass</orig>
+                        <reg>Dass</reg>
+                    </choice> Sauvagesia <lb/>beiden Continenten<supplied cert="high">:</supplied>
+                    <persName key="H0015387"><choice>
+                            <abbr>A.</abbr>
+                            <expan>Augustin</expan>
+                        </choice>
+                        <supplied cert="high">de</supplied>
+                        <choice>
+                            <abbr>St.</abbr>
+                            <expan>Saint</expan>
+                        </choice><supplied cert="high">-</supplied>Hilaire</persName>
+                    <seg type="comment">
+                        <orig>dans Annales <lb/>de <choice>
+                                <abbr>l'Hist</abbr>
+                                <expan>l'Histoire</expan>
+                            </choice>
+                            <choice>
+                                <abbr>nat.</abbr>
+                                <expan>naturelle</expan>
+                            </choice>
+                            <choice>
+                                <abbr>T</abbr>
+                                <expan>Tome</expan>
+                            </choice> III <choice>
+                                <abbr>Sept.</abbr>
+                                <expan>Septembre</expan>
+                            </choice> 1824</orig>
+                        <note xml:id="ni1y_sk3_wz">Ein von <persName key="H0012241">René
+                                Desfontaines</persName> verfasster und in der Académie des Sciences
+                            verlesener Bericht über <persName key="H0015387">Augustin de
+                                Saint-Hilaires</persName> „Monographie des genres Sauvagesia et
+                            Lavradia“ erschien vielmehr 1824 in den „Annales des Sciences
+                            naturelles“ (<bibl sameAs="zotero-667230-QJZ8ZVQA">Desfontaines
+                                1824</bibl>).  Die Monographie selbst erschien in Band 11 der
+                            „Mémoires du Muséum d'histoire naturelle“ (<bibl sameAs="zotero-667230-VAMZISQ2">Saint-Hilaire 1824</bibl>) sowie im
+                            ersten Band seiner „Histoire des plantes les plus remarquables du Brésil
+                            et du Paraguay“ (<bibl sameAs="zotero-667230-MK2CIHU2">Saint-Hilaire, A.
+                                1824–1826</bibl>, I).</note>
+                    </seg>, <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 50.</p>
+                <p>Zahlen<supplied cert="high">:</supplied>
+                    <persName key="H0003693">Brown</persName> erzählt (1824) daß <persName key="H0012008">Horsfield</persName> aus <lb/><placeName key="H0006568">Java</placeName> an 2000 <choice>
+                        <abbr>phanerog.</abbr>
+                        <expan>phanerogamen</expan>
+                    </choice> mitgebracht<supplied cert="high">,</supplied> er glaubt <lb/>es seien
+                    3000 <choice>
+                        <abbr>spec.</abbr>
+                        <expan>species</expan>
+                    </choice>
+                    <choice>
+                        <abbr>phan</abbr>
+                        <expan>phanerogamen</expan>
+                    </choice> wenigstens in <lb/><placeName key="H0006568">Java</placeName>; aber
+                        <persName key="H0003784">Burchal</persName> besize aus <placeName key="H0000355">Cap de <lb/>bonne<supplied cert="high">-</supplied><choice>
+                            <abbr>espér.</abbr>
+                            <expan>espérance</expan>
+                        </choice></placeName> bis über <placeName key="H0007831">Orange
+                        river</placeName> hinaus <lb/>7–8000 <choice>
+                        <abbr>phanerog.</abbr>
+                        <expan>phanerogamen</expan>
+                    </choice> sehr sicher!</p>
+                <p>neu 6000 <choice>
+                            <abbr>phanerog</abbr>
+                            <expan>phanerogamen</expan>
+                        </choice>
+                        <persName key="H0003693">Brown</persName> (1827)</p>
+                
+                <note place="left" hand="#author" rend="sticked"><pb n="18r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000041.jpg"/>
+                    <p><hi rendition="#uu">Vögelzahl</hi></p><p>Im ganzen <placeName key="H0010833">Canton Genève</placeName> (<placeName key="H0011412">Léman</placeName>)
+                        <lb/>Berge mitgerechnet kennt man nur <lb/>242 Vögel darin 185
+                        einheimisch<supplied cert="high">,</supplied>
+                        <lb/>57 zufällige Gäste sind<supplied cert="high">.</supplied> (Nur <lb/><hi rendition="#uu">22</hi> bewohnen den <placeName key="H0010834">Genfer
+                            See</placeName>. wie <lb/>viel hat <placeName key="H0011324">See
+                                Tezcuco</placeName>?) <persName key="H0004933">Necker</persName>
+                        <lb/>in <persName key="H0014080">Meisner</persName>
+                        <seg type="comment">
+                            <orig>Annales der <lb/><choice>
+                                <abbr>allg.</abbr>
+                                <expan>allgemeinen</expan>
+                            </choice>
+                                <choice>
+                                    <abbr>Schweiz.</abbr>
+                                    <expan>Schweizerischen</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>Gesellsch</abbr>
+                                    <expan>Gesellschaft</expan>
+                                </choice>
+                                <lb/><choice>
+                                    <abbr>B</abbr>
+                                    <expan>Band</expan>
+                                </choice> I <choice>
+                                    <abbr>p</abbr>
+                                    <expan>pagina</expan>
+                                </choice></orig>
+                            <note xml:id="nyzx_5l3_wz"><bibl sameAs="zotero-667230-QW2U73KK">Necker
+                                1824</bibl>.</note>
+                        </seg> 112<supplied cert="high">.</supplied></p>
+                    <p><persName key="H0014223">Milbert</persName> a envoyé au <orgName key="H0000565">Musée de <lb/>Paris</orgName> de <placeName key="H0001698">l'Amérique du Nord</placeName>
+                        <lb/>seul 400 espèces <subst>
+                            <del rendition="#s">d'oisea</del>
+                            <add place="intralinear">
+                                <lb/>d'oiseaux</add>
+                        </subst><supplied cert="high">.</supplied>
+                        <note place="left" hand="#author"><metamark/><persName key="H0003446"><choice>
+                            <abbr>F</abbr>
+                            <expan>Friedrich</expan>
+                        </choice> Boje</persName>
+                            <lb/><seg type="comment">
+                                <orig><choice>
+                                    <abbr>Tageb.</abbr>
+                                    <expan>Tagebuch</expan>
+                                </choice> einer Reise <lb/>durch Norwegen</orig>
+                                <note xml:id="nudp_zl3_wz"><bibl sameAs="zotero-667230-Q8DKR25Z">Boie 1822</bibl>.</note>
+                            </seg>
+                            <lb/>comte en <placeName key="H0001715">Norwège</placeName>
+                            <lb/>239 espèces <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 347–352<supplied cert="high">,</supplied>
+                            <lb/>er nennt sie <lb/>familles!
+                        </note>
+                    </p>
+                    <pb n="18v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000042.jpg"/><gap unit="pages" quantity="1" reason="empty"/></note>                
+                
+                
+                
+                <p>Cerealia herrlich in <persName key="H0006423">Winch</persName>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>Geogr.</abbr>
+                                <expan>Geographical</expan>
+                            </choice>
+                            <choice>
+                                <abbr>distr</abbr>
+                                <expan>distribution</expan>
+                            </choice> 1825</orig>
+                        <note xml:id="nh2f_cj3_wz"><bibl sameAs="zotero-667230-HRKAMQDN">Winch
+                                1825</bibl>. </note>
+                    </seg>
+                    <lb/><choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 17–51. ich besize.</p>
+                <p>Lignites<supplied cert="high">:</supplied> des palmiers de <measure quantity="15" unit="pied_de_roi">15 piés</measure> que <lb/>les Arabes redressent sans
+                        mortier<supplied cert="high">.</supplied>
+                </p>
+
+                <pb n="[k.A.]" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000043.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="[k.A.]" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000044.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="21r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000049.jpg"/>
+                <p>
+                    <note place="left" hand="#author" rend="sticked"><pb n="19r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000045.jpg"/>
+                        <p><placeName key="H0009136">États<supplied cert="high">-</supplied>Unis</placeName></p>
+                        <p><choice>
+                                <orig>cette</orig>
+                                <reg>Cette</reg>
+                            </choice> coupe de <lb/>a–b existe par <persName key="H0004605">Major
+                                <lb/>Long</persName>
+                            <seg type="comment">
+                                <orig><choice>
+                                        <abbr>Journ.</abbr>
+                                        <expan>Journal</expan>
+                                    </choice> of <choice>
+                                        <abbr>Acad</abbr>
+                                        <expan>Academy</expan>
+                                    </choice>
+                                    <lb/>of <choice>
+                                        <abbr>nat.</abbr>
+                                        <expan>natural</expan>
+                                    </choice>
+                                    <choice>
+                                        <abbr>sc.</abbr>
+                                        <expan>sciences</expan>
+                                    </choice> of Phila<lb break="no"/>delphia sous les 41 <lb/>et
+                                    35° <choice>
+                                        <abbr>lat</abbr>
+                                        <expan>latitude</expan>
+                                    </choice></orig>
+                                <note xml:id="nggn_sd5_x1b"><bibl sameAs="zotero-667230-9KIPK4XT">James 1822</bibl>.</note>
+                            </seg>
+                            <lb/>(<seg type="comment">
+                                <orig>Férrusac!</orig>
+                                <note xml:id="nldp_c25_x1b">Vgl. die Besprechung von <bibl sameAs="zotero-667230-9KIPK4XT">James 1822</bibl> im von
+                                        <persName key="H0000081">Baron d'Audebert de
+                                        Férussac</persName> herausgegebenen „Bulletin général et
+                                    universel des annonces et des nouvelles scientifiques“ (<bibl sameAs="zotero-667230-9R498QDM">Coquebert de Montbret
+                                        1823</bibl>).</note>
+                            </seg>)</p>
+                        <p><measure quantity="8500" unit="foot">8500 <choice>
+                                    <abbr>p.</abbr>
+                                    <expan>pieds</expan>
+                                </choice></measure> sur <lb/>la plaine <lb/>et <measure quantity="11500" unit="foot">11500 <choice>
+                                    <abbr>p</abbr>
+                                    <expan>pieds</expan>
+                                </choice></measure>
+                            <lb/><supplied cert="high">sur</supplied> la mer </p>
+                        <p><seg type="comment">
+                                <orig>Pocket <choice>
+                                        <abbr>Gaz</abbr>
+                                        <expan>Gazetteer</expan>
+                                    </choice>
+                                    <choice>
+                                        <abbr>p</abbr>
+                                        <expan>page</expan>
+                                    </choice> 162</orig>
+                                <note xml:id="nttj_shm_vz">vgl. <bibl sameAs="zotero-667230-FCGUICH8">Morse/Morse 1823</bibl>,
+                                    164.</note>
+                            </seg>
+                            <note place="mTop" hand="#author">à <choice>
+                                    <abbr>par</abbr>
+                                    <expan>parallèle</expan>
+                                </choice> 38° – <measure quantity="10200" unit="foot">10200 piés <choice>
+                                        <abbr>angl</abbr>
+                                        <expan>anglais</expan>
+                                    </choice></measure><p>          41<supplied cert="high">°</supplied> – <measure quantity="12000" unit="foot">12000</measure>
+                                </p><p><seg type="comment">
+                                        <orig>Long et <lb/>James</orig>
+                                        <note xml:id="nfqf_mh5_x1b"><bibl sameAs="zotero-667230-9KIPK4XT">James 1822</bibl>.
+                                        </note>
+                                    </seg></p><note place="right" hand="#author">piés
+                                    <lb/>anglois</note></note>
+                        </p>
+                        <p>
+                            <figure facs="GdP_Dokumente/Humboldts_Gliederung_19r.jpg" hand="#author">
+                                <p><placeName key="ed_qks_q55_cbb">Astoria</placeName> bois; chaîne
+                                    côtière; savane; a) <placeName key="ed_lxk_1ts_x1b">James
+                                        Peak</placeName> 12000 p[ieds,] un autre 12500 p[ieds];
+                                    bois; 3000 p[ieds] savane; <placeName key="H0008887">Missisipi</placeName> bois 5–800 piés; b) <placeName key="H0009010">Mount Washington</placeName> 6634 p[ieds];
+                                    <placeName key="H0016421">Alleghanys</placeName>
+                                    haut[eur] moyenne 3500 p[ieds]; <placeName key="H0002602">Oc[éan] atl[antique]</placeName></p>
+                                <figDesc>Höhenprofil der Vereinigten Staaten nach Long. Humboldts
+                                    Beschriftung von links nach rechts.</figDesc>
+                            </figure>
+                        </p><p><seg type="comment">
+                                <orig>Melish et <lb/>Warden</orig>
+                                <note xml:id="nrgc_h14_y1b">Vgl. <bibl sameAs="zotero-667230-5JNWUDR7">Melish 1822</bibl> und
+                                    Warden <bibl sameAs="zotero-667230-IQ5G3TGB">1820</bibl>. Aus
+                                    beiden geographischen Beschreibungen der USA zitiert Humboldt
+                                    zum Beispiel in <bibl sameAs="zotero-667230-DR2NAW3J">Humboldt
+                                        1814–1825</bibl>, III, 180–181.</note>
+                            </seg></p>
+                        <p><persName key="H0013300">Gallatin</persName> observe que limite <lb/>des
+                            forêts va comme côte <lb/>de <choice>
+                                <abbr>NE</abbr>
+                                <expan>Nord-Est</expan>
+                            </choice> au <choice>
+                                <abbr>SO</abbr>
+                                <expan>Sud-Ouest</expan>
+                            </choice>. de <placeName key="H0008314">Pittsbourg</placeName>
+                            <lb/>vers <placeName key="H0010345"><choice>
+                                    <abbr>S.</abbr>
+                                    <expan>Saint</expan>
+                                </choice><supplied cert="high">-</supplied>Louis</placeName> (le
+                            nord de <placeName key="H0006669">l’état <lb/>Illinois</placeName> en
+                            prairies) et de là <lb/>vers <placeName key="H0010446">Red
+                                river</placeName> de <placeName key="H0001568">Natchitoches</placeName><supplied cert="high">.</supplied>
+                            <lb/>Le pays en savanes (prairies) plus <add place="left"><metamark/>lentement <lb/>cultivable<supplied cert="high">,</supplied>
+                                <lb/>pas de bois pour <lb/>chauffer et con<lb break="no"/>struire.
+                                Sol moins <lb/>bon. Les Indiens à <lb/>l’ouest de cette <lb/><choice>
+                                    <choice>
+                                        <sic>lignes</sic>
+                                        <corr cert="high">ligne</corr>
+                                    </choice>
+                                </choice> cherchent les <lb/>bois sur les lisières <lb/>des rivières
+                                pour hiber<lb break="no"/>ner<supplied cert="high">,</supplied></add>
+                            <add place="across"><metamark/>de nouveau du <lb/>bois autour <placeName key="H0010647">Rocky <lb/><choice>
+                                            <abbr>Mount</abbr>
+                                            <expan>Mountains</expan>
+                                        </choice></placeName>. pais savanes <lb/>à l’ouest et de
+                                        nou<lb break="no"/>veau excellent pays <lb/>et avec bois
+                                    entre <subst>
+                                        <del rendition="#s">R</del>
+                                        <add place="intralinear">
+                                            <lb/>chaîne</add>
+                                    </subst> côtière <lb/>et <placeName key="H0008175">Océan <lb/><choice>
+                                            <abbr>pacif</abbr>
+                                            <expan>pacifique</expan>
+                                        </choice></placeName></add><supplied cert="high">.</supplied>
+                        </p>
+                        <pb n="19v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000046.jpg"/> 5 h 38' 49''<p><del rendition="#s">15 75 </del><supplied cert="high"><del rendition="#s">+</del></supplied><del rendition="#s"> 730
+                                </del><supplied cert="high"><del rendition="#s">+</del></supplied><del rendition="#s"> 210</del></p><p>75.<supplied cert="high">0000</supplied>
+                            <supplied cert="high">+</supplied> 930<supplied cert="high">00</supplied>
+                            <supplied cert="high">+</supplied> 1215 <supplied cert="high">=</supplied> 84 42 15</p><p>150 <supplied cert="high">-</supplied>
+                            100 <supplied cert="high">=</supplied> 50 </p><p><unclear reason="illegible" cert="low">140 </unclear><supplied cert="high"><unclear reason="illegible" cert="low">+</unclear></supplied><unclear reason="illegible" cert="low"> 120
+                                </unclear><supplied cert="high"><unclear reason="illegible" cert="low">=</unclear></supplied><unclear reason="illegible" cert="low"> </unclear><supplied cert="high"><unclear reason="illegible" cert="low">2</unclear></supplied><unclear reason="illegible" cert="low">60</unclear></p><p>339283</p><p>5530558 <supplied cert="high">+</supplied> 0249877 <supplied cert="high">=</supplied>
+                            5780435</p><p>603,160</p></note>
+                </p>
+                <p><lb/></p>
+                <p>
+                    <note place="mBottom" hand="#author" rend="sticked"><pb n="20r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000047.jpg"/><placeName key="H0009010">Mount Washington</placeName>
+                        <?oxy_comment_start author="paessler" timestamp="20170818T114823+0200" comment="vgl. relation historique III, fast identischer Wortlaut
+"?><lb><?oxy_comment_end?></lb>(<placeName key="H0001634"><choice>
+                                <abbr>N</abbr>
+                                <expan>New</expan>
+                            </choice> Hampshire</placeName>) plus <lb/>haut des <placeName key="H0009136">États<supplied cert="high">-</supplied><lb break="no"/>Unis</placeName> .. <choice>
+                            <abbr>lat</abbr>
+                            <expan>latitude</expan>
+                        </choice> 44°¼ <measure quantity="6634" unit="foot"><lb/>6634
+                            piés</measure> <add place="mBottom" hand="#author"><metamark/>d'après
+                                <lb/><persName key="ed_d2w_5f4_y1b"><choice>
+                                    <abbr>Cap.</abbr>
+                                    <expan>Captain</expan>
+                                </choice> Par<g ref="#typoHyphen"/><lb break="no"/>tridge</persName></add>
+                        <choice>
+                            <abbr>angl.</abbr>
+                            <expan>anglais</expan>
+                        </choice>
+                        <lb/>dans les <placeName key="H0007957">White
+                            <lb/>Mountains</placeName><p>limite des arbres <lb/>dans ces montagnes
+                                <lb/><measure quantity="4428" unit="foot">4428 piés <choice>
+                                    <abbr>angl.</abbr>
+                                    <expan>anglais</expan>
+                                </choice></measure><supplied cert="high">.</supplied></p><pb n="20v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000048.jpg"/><note place="left" hand="#author" type="auxCalc">
+                            <p>16000 <supplied cert="high">×</supplied> 94 <supplied cert="high">=</supplied> 1504000</p>
+                            <p>795522<supplied cert="high">-</supplied> 22015 <supplied cert="high">=</supplied> 77357</p>
+                            <p>4026 <supplied cert="high">-</supplied> 3350 <supplied cert="high">=</supplied> 676</p>
+                            <p>2800000 <supplied cert="high">÷</supplied> 55<supplied cert="high">00</supplied>
+                                <supplied cert="high">=</supplied>
+                                <?oxy_comment_start author="paessler" timestamp="20170511T144340+0200" comment="eigentlich: 509.09"?>508</p>
+                            <?oxy_comment_end?>
+                            <p>25100 <supplied cert="high">÷</supplied> 156 <supplied cert="high">=</supplied> 160</p>
+                            <p>121000 <supplied cert="high">÷</supplied> 16<supplied cert="high">0</supplied>
+                                <supplied cert="high">=</supplied> 756</p>
+                            <?oxy_comment_start author="paessler" timestamp="20170512T112007+0200" comment="Lücke"?>
+                            <?oxy_comment_end?>
+                        </note></note>
+                </p>
+                <pb n="[k.A.]" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000050.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>                <pb n="[k.A.]" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000051.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="21v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000052.jpg"/>
+                <p>Sauvagesia</p>
+                <p><persName key="H0015387"><choice>
+                            <abbr>St</abbr>
+                            <expan>Saint</expan>
+                        </choice><supplied cert="high">-</supplied>Hilaire</persName><seg type="comment">
+                        <orig><choice>
+                                <abbr>Pl.</abbr>
+                                <expan>Plantes</expan>
+                            </choice> remarquables</orig>
+                        <note xml:id="nnx5_xnc_wz"><bibl sameAs="zotero-667230-MK2CIHU2">Saint-Hilaire, A. 1824–1826</bibl>, I.</note>
+                    </seg>
+                    <lb/><choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 26.</p>
+                <p><placeName key="H0000451">Congo</placeName></p>
+                <p><choice>
+                        <orig>le</orig>
+                        <reg>Le</reg>
+                    </choice> P <persName key="ed_czy_sz1_y1b">Leandro do Sacramento</persName>
+                    <lb/>assure avoir vu sur 30 <choice>
+                        <abbr>pl.</abbr>
+                        <expan>plantes</expan>
+                    </choice>
+                    <placeName key="ed_z2y_dmc_wz">d'<lb break="no"/>Angola</placeName> 28 du
+                        <placeName key="H0005346">Brésil</placeName>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 26!</p>
+                <p>Plantes qui <lb/>s'étendent <lb/>dans le sens <lb/>des méridiens<supplied cert="high">.</supplied></p>
+                <p><persName key="H0000726">Ramond</persName>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>An</abbr>
+                                <expan>Annales</expan>
+                            </choice> du Musée <choice>
+                                <abbr>Vol.</abbr>
+                                <expan>Volume</expan>
+                            </choice> IV <lb/><choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 497</orig>
+                        <note xml:id="ner2_f2g_4z">vielmehr: <bibl sameAs="zotero-667230-6MT42IMH">Ramond 1804</bibl>, 397–398.</note>
+                    </seg><supplied cert="high">.</supplied></p>
+                <p><choice>
+                        <orig>quelques</orig>
+                        <reg>Quelques</reg>
+                    </choice> espèces <lb/>du même <lb/>genre parcourent <lb/>le monde, d’<lb break="no"/>autres espèces <lb/>très restreintes<supplied cert="high">.</supplied></p>
+                <p><choice>
+                        <orig>restreintes</orig>
+                        <reg>Restreintes</reg>
+                    </choice>
+                    <choice>
+                        <abbr>Sauvag.</abbr>
+                        <expan>Sauvagesia</expan>
+                    </choice> tenella <lb/><choice>
+                        <abbr>S.</abbr>
+                        <expan>Sauvagesia</expan>
+                    </choice> Sprengelii, Lavradia <lb/>racemosa <choice>
+                        <abbr>St</abbr>
+                        <expan>Saint</expan>
+                    </choice><supplied cert="high">-</supplied><choice>
+                        <abbr>Hil</abbr>
+                        <expan>Hilaire</expan>
+                    </choice>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 28<supplied cert="high">.</supplied></p>
+                <p>Lignites <choice>
+                        <sic>au pol</sic>
+                        <corr cert="high">aux Pôles</corr>
+                    </choice> sud et nord <seg type="comment">
+                        <orig>mon <hi rendition="#u">Gisement</hi></orig>
+                        <note xml:id="nclx_4nc_wz"><bibl sameAs="zotero-667230-SN8XPNM3">Humboldt
+                                1823</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 208. <lb/><choice>
+                        <sic>Suturbrand</sic>
+                        <corr cert="high">Surturbrand</corr>
+                    </choice></p>
+                <p>Hydrophytes. <persName key="H0004287"><choice>
+                            <abbr>Mr</abbr>
+                            <expan>Monsieur</expan>
+                        </choice> Lamouroux</persName> dit dans son <seg type="comment">
+                        <orig><lb/>mémoire sur la <choice>
+                                <abbr>Géogr.</abbr>
+                                <expan>Géographie</expan>
+                            </choice> des plantes péla<lb break="no"/>giques</orig>
+                        <note xml:id="nxfg_h5b_y1b">“Distribution géographique des productions
+                            aquatiques“, in: <bibl sameAs="zotero-667230-W3VSFUPX">Bory de
+                                Saint-Vincent et al. 1825</bibl>, 245– 253, 250.</note>
+                    </seg> qu'il existe décrites et <lb/>dans les herbiers 1600 espèces d'Hy<lb break="no"/>drophytes, qu'il en a vu 1200 <lb/>espèces et qu'il croit qu'il <lb/><choice>
+                        <sic>existent</sic>
+                        <corr cert="high">existe</corr>
+                    </choice> sur le <choice>
+                        <sic>globes</sic>
+                        <corr cert="high">globe</corr>
+                    </choice> 6000 espèces<supplied cert="high">,</supplied>
+                    <lb/>il a <unclear reason="illegible" cert="high">négligé</unclear> température,
+                    salure…</p>
+                <note place="mBottom" hand="#author" rend="sticked"><pb n="22r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000053.jpg"/>
+                    <p><choice>
+                            <orig>pâturage</orig>
+                            <reg>Pâturage</reg>
+                        </choice> à <placeName key="ed_inz_dlc_wz">Sutledge</placeName>
+                        <lb/>à <measure quantity="14924" unit="foot">14924 piés</measure>
+                        <choice>
+                            <abbr>a.</abbr>
+                            <expan>altitude</expan>
+                        </choice> et pas <lb/>de neige encore à <measure quantity="16814" unit="foot">16814 piés</measure><supplied cert="high">.</supplied></p>
+                    <p><seg type="comment">
+                            <orig>Royal <choice>
+                                    <abbr>Instit.</abbr>
+                                    <expan>Institution</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>T</abbr>
+                                    <expan>Tome</expan>
+                                </choice> 9 <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 68</orig>
+                            <note xml:id="nsg1_fgc_wz"><bibl sameAs="zotero-667230-5DBFTFND">Webb
+                                    1820</bibl>.</note>
+                        </seg>.</p><pb n="22v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000054.jpg"/><gap unit="pages" quantity="1" reason="empty"/></note>
+                <pb n="23r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000055.jpg"/>
+                <p><choice>
+                        <orig>examinez</orig>
+                        <reg>Examinez</reg>
+                    </choice>
+                    <seg type="comment">
+                        <orig>l’article Géographie des plantes</orig>
+                        <note xml:id="ns3l_rb3_wz"><bibl sameAs="zotero-667230-284XRJSM">Bory de
+                                Saint-Vincent et al. 1825</bibl>.</note>
+                    </seg> de <persName key="H0013711"><lb/>Guillemin</persName>, <persName key="H0000081">Férrussac</persName>, <persName key="H0004287">Lamouroux</persName> et <persName key="H0003511">Bory</persName>
+                    <lb/>dans <choice>
+                        <abbr>Dict.</abbr>
+                        <expan>Dictionnaire</expan>
+                    </choice>
+                    <choice>
+                        <abbr>T</abbr>
+                        <expan>Tome</expan>
+                    </choice> 7 <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 240–301 très bons Hydrophytes <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 245 <lb/>ses <choice>
+                        <sic>origine</sic>
+                        <corr cert="high">origines</corr>
+                    </choice> dans l’eau <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 253 (<choice>
+                        <abbr>Géogr</abbr>
+                        <expan>Géographie</expan>
+                    </choice> des animaux <lb/><choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 254–274<supplied cert="high">)</supplied>. 290 Répondre à <persName key="H0003511">Bory</persName> qui regarde <lb/><choice>
+                        <abbr>quot</abbr>
+                        <expan>quotient</expan>
+                    </choice> incertain, oublie que l’on connoit <placeName key="H0005517"><choice>
+                            <abbr>l’Allem</abbr>
+                            <expan>l'Allemagne</expan>
+                        </choice></placeName><supplied cert="high">,</supplied>
+                    <placeName key="H0004801"><lb/><choice>
+                            <abbr>Fr.</abbr>
+                            <expan>France</expan>
+                        </choice></placeName><supplied cert="high">,</supplied>
+                    <placeName key="H0010177"><choice>
+                            <abbr>Suèd.</abbr>
+                            <expan>Suède</expan>
+                        </choice></placeName> si bien que <choice>
+                        <abbr>quot.</abbr>
+                        <expan>quotients</expan>
+                    </choice> ne peuvent plus <lb/>être altérés, que <choice>
+                        <abbr>nouv.</abbr>
+                        <expan>nouvelles</expan>
+                    </choice> Flores (<persName key="H0002227">Pursh</persName>) ne les <lb/>ont pas
+                    changé, qu’égalité de <placeName key="H0010179">Suisse</placeName>
+                    <placeName key="H0005517"><choice>
+                            <abbr>Alle</abbr>
+                            <expan>Allemagne</expan>
+                        </choice></placeName><supplied cert="high">,</supplied>
+                    <placeName key="H0004801"><choice>
+                            <abbr>Fr</abbr>
+                            <expan>France</expan>
+                        </choice></placeName>
+                    <lb/>et <placeName key="H0002626">Auvergne</placeName>
+                    <choice>
+                        <sic>prouven</sic>
+                        <corr cert="high">prouvent</corr>
+                    </choice> exactitude; il veut que <lb/>les cryptogames augmentent vers les
+                    tropiques <lb/><choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 301! <choice>
+                        <orig>il</orig>
+                        <reg>Il</reg>
+                    </choice> promet une carte <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 289. Région <lb/>des mousses <persName key="H0012873"><choice>
+                            <abbr>Cand</abbr>
+                            <expan>Candolle</expan>
+                        </choice></persName> = <choice>
+                        <abbr>Rég</abbr>
+                        <expan>Région</expan>
+                    </choice> des ombellifères <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 288.</p>
+                <p><choice>
+                        <orig>étendez</orig>
+                        <reg>Étendez</reg>
+                    </choice>
+                    <seg type="comment">
+                        <orig>l’article germination</orig>
+                        <note xml:id="ndlh_yxh_wz"><bibl sameAs="zotero-667230-IAWKXNJ6">Richard
+                                1825</bibl>.</note>
+                    </seg>
+                    <choice>
+                        <abbr>p</abbr>
+                        <expan>page</expan>
+                    </choice> 326 et <lb/><seg type="comment">
+                        <orig><hi rendition="#u">création</hi></orig>
+                        <note xml:id="nxgq_1yh_wz"><bibl sameAs="zotero-667230-ASHA7GPP">Bory de
+                                Saint-Vincent 1824</bibl>.</note>
+                    </seg><supplied cert="high">.</supplied></p>
+                <pb n="23v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000056.jpg"/>
+                <p><gap unit="pages" quantity="1" reason="empty"/></p>
+                <pb n="24r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000057.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="24v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000058.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="25r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000059.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="25v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000060.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="26r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000061.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="26v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000062.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="27r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000063.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="27v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000064.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="28r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000065.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="28v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000066.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb n="[k.A.]" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366465/1200/0/00000067.jpg"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_q45_1gk_wcb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Hermann Schlagintweit. Potsdam, 30. Oktober
+                    1852</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin, Berlin</institution>
+                        <collection>Humboldt Sammlung</collection>
+                        <idno>HU 99/54 QA</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <date when="1852-10-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                  
+                   
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession"><pb n="1r"/>
+                <p>Es ist schön, wenn unter Freunden, <?oxy_comment_start author="lmartin" timestamp="20180228T144205+0100" comment="einmal kollationiert mit UP, 28.02.2018"?>gleichzeitig<?oxy_comment_end?>
+                    <lb/>ein und derselbe Gedank<supplied cert="high">e</supplied> beide anregt. Ich
+                    <lb/>wollte Ihnen eben schreiben weil ich an <lb/><persName key="H0014452"><anchor type="verweisziel" xml:id="start_y5m_by1_1db"/>Murchison<anchor type="verweisziel" xml:id="stop_y5m_by1_1db"/></persName> zu <subst>
+                        <del rendition="#s">sch</del>
+                        <add place="intralinear">antworten</add>
+                    </subst> habe und <lb/>erbost bin dass in seiner <subst>
+                        <del rendition="#ow">A</del>
+                        <add place="across">E</add>
+                    </subst>röfnungsrede <lb/>der <orgName key="H0000581"><choice>
+                            <abbr>Geogr.</abbr>
+                            <expan>Geographical</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Soc.</abbr>
+                            <expan>Society</expan>
+                        </choice></orgName> Ihrer herrlichen Arbeiten <lb/>und derer Ihres uns so
+                        <persName key="H0015552">theuren Bruders</persName>
+                    <lb/>und der denkwürdigen Besteigungen des <lb/><placeName key="H0008958">Monte
+                        Rosa</placeName> gar nicht erwähnt. Auch <lb/>von der <choice>
+                        <abbr>Afrikan</abbr>
+                        <expan>Afrikanischen</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Exped.</abbr>
+                        <expan>Expedition</expan>
+                    </choice> keine Silbe. <lb/>Wie erklären Sie dieses Benehmen <lb/><choice>
+                        <abbr>v</abbr>
+                        <expan>von</expan>
+                    </choice> dem <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                    <ref target="avhr_q45_1gk_wcb">Miles gloriosus</ref>? Von <lb/>mir heisst es
+                    dagegen, dass ich wie <lb/>eine Laterne „von der Terrasse von <lb/><placeName key="H0010019">Sanssouci</placeName> die Welt erleuchte.“ Er glaubt
+                    <lb/>thöricht, ich könne als Kanzler eines <lb/>Ordens ihn vergeben. <persName key="H0000936">Ritter</persName> hat <lb/>die Rede auch. An <persName key="H0012372">Dove</persName> habe ich <lb/>das ganze <seg type="comment">
+                        <orig><choice>
+                                <abbr>J.</abbr>
+                                <expan>Journal</expan>
+                            </choice> du
+                            <?oxy_comment_start author="lmartin" timestamp="20180228T145240+0100" comment="noch auszeichnen?
+Brief an Dove, inkl. Beilage, liegt nicht vor"?>Cosmos<?oxy_comment_end?></orig>
+                        <note xml:id="nakb_gbl_bdb">Cosmos. Revue encyclopédique hebdomadaire des
+                            progrès des sciences. Ab 1852 turnusmäßig erscheinende Zeitschrift,
+                            herausgegeben von Benito R. de Monfort. </note>
+                    </seg> geschikt. Sie sollten <lb/>es auch lesen. Es enthält weit mehr <lb/><choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> neueres als die <seg type="comment">
+                        <orig><?oxy_comment_start author="lmartin" timestamp="20180305T142109+0100" comment="noch auszeichnen?"?>Comptes
+                            rendus</orig>
+                        <?oxy_comment_end?>
+                        <note xml:id="nn1j_rdl_bdb">Comptes rendus hebdomadaires des séances de
+                            l'Académie de sciences. Ab 1835 turnusmäßig erscheinende
+                            wissenschaftliche Zeitschrift, herausgegeben von der Académie des
+                            Sciences.</note>
+                    </seg>. Ich <lb/>werde Sie gern Montag zwischen <lb/>12 und 3 empfangen. </p>
+                <note place="mBottom" hand="#addressee">30<supplied cert="high">.</supplied>
+                    <choice>
+                        <abbr>Oct<supplied cert="high">.</supplied></abbr>
+                        <expan>October</expan>
+                    </choice>
+                    <?oxy_comment_start author="lmartin" timestamp="20180228T141716+0100" comment="note lässt sich nur hier setzen"?>1852<?oxy_comment_end?></note>
+                <closer>
+                    <salute>Mit der liebevollsten Hochschäzung</salute>
+                    <salute>Ihr</salute>
+                    <signed>AlHumboldt</signed>
+                    <dateline><choice>
+                            <abbr>Pots.</abbr>
+                            <expan>Potsdam</expan>
+                        </choice> Sonnabend</dateline>
+                </closer><pb n="1v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0011540" oldID="prov_iyf_3tp_25">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 9. Dezember
+                    1849</title><editor>
+                        <persName ref="http://d-nb.info/gnd/139028285">
+                            <surname>Päßler</surname>
+                            <forename>Ulrich</forename>
+                        </persName>
+                    </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0008392">Potsdam</placeName>
+                    <date when="1849-12-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="align(right)"/>
+                    <salute/>
+                </opener>
+                <p>
+                    <hi rendition="#u">
+                        <pb n="1r"/>Auszug aus einem Schreiben <lb/>
+                        <persName key="H0011993">Sir William Hooker’s</persName> an den
+                        <lb/>Geheimerath <persName key="H0003776">Bunsen</persName>. <placeName key="H0000407">Kew</placeName>. <lb/>4<hi rendition="#sup">ten</hi> December 1849:</hi>
+                </p>
+                <p>
+                    <foreign xml:lang="eng">In the matter of
+                            <?oxy_comment_start author="thomas" timestamp="20180313T161304+0100" comment="@UP: hier hab ich den Tag verschoben, &quot;Mr.&quot; gehört m.E. nicht in das &lt;persName&gt; Element hinein!"?>M<hi rendition="#u"><hi rendition="#sup">r.</hi></hi>
+                        <persName key="H0011641">Hannemann</persName><?oxy_comment_end?>, <lb/>your
+                        Excellency will see at <lb/>once that Humboldt’s testi<g ref="#typoHyphen"/>
+                        <lb break="no"/>mony is a host in itself <lb/>and therefore I shall
+                        „stretch <lb/>a point“ to make an opening <lb/>for him in the spring: —
+                        <lb/>earlier than the month of <lb/>May however I could not <lb/>with
+                        propriety. But if <lb/>that time will suit M<hi rendition="#sup"><hi rendition="#u">r.</hi>
+                        </hi>
+                        <persName key="H0011641">Hanne<g ref="#typoHyphen"/><lb break="no"/>
+                            <pb n="1v"/>mann</persName> and if he will inform <lb/>me so, I will
+                        take care he <lb/>shall be then admitted.</foreign>
+                    <milestone rendition="#vr" unit="section"/><?oxy_comment_start author="gerlach" timestamp="20151201T095915+0100" comment="Vgl. Humboldts Brief an Bunsen, Potsdam, 14.11.1849"?>
+                </p>
+                <?oxy_comment_end?>
+                <p>Wenn auch <persName key="H0011993">Hooker</persName> erst <lb/>
+                    <choice>
+                        <orig>fur</orig>
+                        <reg>für</reg>
+                    </choice> das <choice>
+                        <orig>Fruhjahr</orig>
+                        <reg>Frühjahr</reg>
+                    </choice> eine <lb/>bestimmte Anstellung <lb/>dem Herrn <persName key="H0011592">Hannemann</persName>
+                    <lb/>verheissen hat, so ist <lb/>doch wohl, wegen der <lb/>freundlichen Art, wie
+                    er <lb/>die Sache aufgenommen <lb/>zu hoffen, dass er ihn <lb/>früher an Andere
+                    <lb/>empfehlen wird. </p>
+                <p> Ihre Wünsche, theurer <lb/>Freund, werden also <lb/>wohl <choice>
+                        <orig>erfullt</orig>
+                        <reg>erfüllt</reg>
+                    </choice>
+                    <lb/>werden<supplied cert="high" prev="werden">.</supplied>
+                </p>
+                <closer rend="paragraph">
+                    <signed>AlHumboldt</signed>
+                    <dateline rend="align(right)">Potsdam 9<supplied cert="high" prev="9">.</supplied>
+                        <choice>
+                            <abbr>Dec</abbr>
+                            <expan>December</expan>
+                        </choice>
+                        <lb/>1849</dateline>
+                </closer>
+            </div>
+            <postscript>
+                <p><seg type="comment">
+                        <orig>Ich habe eben der <choice>
+                                <abbr>geogr</abbr>
+                                <expan>geographischen</expan>
+                            </choice>
+                            <lb/>Gesellschaft durch <persName key="H0000936">Ritter</persName>
+                            <lb/>Briefe des
+                            <?oxy_comment_start author="thomas" timestamp="20180313T161222+0100" comment="@UP: hier hab ich den Tag verschoben, &quot;jungen&quot; gehört m.E. nicht in das &lt;persName&gt; Element hinein!"?>jungen
+                                <persName key="H0011992">Hooker</persName><?oxy_comment_end?>
+                            <lb/>mitgetheilt</orig>
+                        <note xml:id="nzzs_mlj_sx">vgl. Humboldts Schreiben an Ritter, Potsdam,
+                            Sonntag, [vor 5. Januar 1850], <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/FVBJTHCM">Humboldt 2010</ref>, 108–109.</note>
+                    </seg> (<choice>
+                        <abbr>Jul.</abbr>
+                        <expan>Julius</expan>
+                    </choice> 1849) <lb/>nach denen er tief in <lb/>
+                    <placeName key="H0009370">Thibet</placeName> eingedrungen ist, <lb/>dort viele
+                    Pflanzen <lb/>sammlet, aber in Hoch<g ref="#typoHyphen"/><lb break="no"/>ebenen
+                        <measure unit="fuss_preussisch" quantity="15000">15000 Fuss</measure> lebt,
+                    <lb/>eine <choice>
+                        <orig>Hohe</orig>
+                        <reg>Höhe</reg>
+                    </choice> in der er seiner <lb/>Constitution nach, immer <lb/>an Kopfweh leidet. </p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

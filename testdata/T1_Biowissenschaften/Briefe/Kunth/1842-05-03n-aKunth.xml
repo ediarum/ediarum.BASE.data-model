@@ -1,0 +1,83 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0004892" oldID="avhr_wft_zxc_2w">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, nach 3. Mai
+                    1842]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                    <date from="1842-05-03" to="1842-06-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Diese Notiz schrieb Humboldt für Kunth auf einen Brief <persName key="H0015567">Matthias Jacob
+                        Schleidens</persName> vom 3. Mai 1842. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Ein curiosum zu verbrennen<supplied cert="high">.</supplied>
+                    <lb/>
+                    <rs type="person" key="H0015567">Der bescheidene
+                        Mann</rs> legt <lb/>
+                    <seg type="comment">
+                        <orig>eine neue brochure gegen <persName key="H0004530">Liebig</persName>
+                        </orig>
+                        <note xml:id="nypj_bs1_fx">Ein „Offenes Sendschreiben an Hrn. Dr. Justus
+                            Liebig“ (<ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/AGDAN8TC">Schleiden 1842</ref>). Bereits kurz zuvor hatte <persName key="H0015567">Schleiden</persName> eine
+                            Streitschrift gegen <persName key="H0004530">Liebigs</persName> Überlegungen zur Pflanzenphysiologie in seinem
+                            Werk „Die organische Chemie in ihrer Anwendung auf Agricultur und
+                            Physiologie“ veröffentlicht (<ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/8BW963VU">Schleiden 1842a</ref>). Zu Humboldts Stellung im Streit zwischen
+                                <persName key="H0015567">Schleiden</persName> und <persName key="H0004530">Liebig</persName> siehe
+                                <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/FPRUCHEU">Werner 2001</ref>.</note>
+                    </seg> bei, <lb/>die freilich <persName key="H0014251">Mitscherlich</persName> erfreuen <lb/>muss, aber strohgröber <lb/>als alles
+                    was er noch <lb/>geschrieben.</p>
+                <closer>
+                    <signed>Ihr <lb/>Ht</signed>
+                </closer>
+                <postscript>
+                    <p>Ich hoffe dass <lb/>mein Brief für <lb/>den Nepos in Ihre <lb/>Hände gekommen
+                            <lb/>ist<supplied cert="high">.</supplied> ich wollte <lb/>den Brief
+                        damit <lb/>er ihm nüzlicher <lb/>wird, etwas <lb/>würzen. </p>
+                    <p>
+                        <pb n="1v" facs="http://avhr_paessler:u2uZu3SpVk2qS06QW3SZ@telotadev.bbaw.de:9200/exist/webdav/db/projects/avhr/data/T1_Biowissenschaften/Briefe/Kunth/default_value"/>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

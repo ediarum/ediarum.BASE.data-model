@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD für ediarum.AVHR</title>
+        <editor>Stefan Dumont <email>dumont@bbaw.de</email></editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+        </publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Das ediarum zugrundeliegende TEI-XML-Schema basiert weitgehend auf dem Basisformat des Deutschen Textarchivs.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="avhr" source="file:/C:/Users/dumont/Google Drive/TELOTA/ediarum.SCHEMA/ediarum.compiled.odd" start="TEI">
+        <!-- ediarum -->
+        <moduleRef key="tei"/>
+        <moduleRef key="header" />
+        <moduleRef key="core" />
+        <moduleRef key="textstructure"/>
+        <moduleRef key="figures"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="msdescription" except="typeDesc"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="textcrit"/>
+        <moduleRef key="transcr"/>
+        <moduleRef key="gaiji" />
+        
+        <!-- ediarum.AVHR -->
+        <elementRef key="measure" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <classRef key="att.measurement" include="unit quantity" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <classSpec type="atts" ident="att.measurement" mode="change">
+          <attList>
+            <attDef ident="unit" mode="replace">
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </classSpec>
+        
+        <elementSpec ident="note" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="auxCalc" mode="add">
+                    <desc>Anmerkung ist "Nebenrechnung"</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="ref" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList mode="change">
+                <valItem ident="siglum" mode="add">
+                  <desc>Verweissiglen von Alexander von Humboldt oder seinen Mitarbeitern</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+      </schemaSpec>
+      
+    </body>
+  </text>
+</TEI>

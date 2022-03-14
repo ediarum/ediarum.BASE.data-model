@@ -1,0 +1,627 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="H0005459" oldID="avhr_anm_fwg_fw">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur, 3. Auflage
+                    (Anfang 1849)</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">
+                    <p>In einem <ref target="H0002924">Anfang 1849 verfassten Schreiben</ref> bat Humboldt Carl Sigismund Kunth,
+                        ein Exemplar des bereits gedruckten (aber noch nicht veröffentlichten)
+                        zweiten Bandes der dritten Auflage der Ansichten der Natur (<bibl sameAs="zotero-667230-2WVKCKG3">Humboldt 1849</bibl>) durchzusehen.
+                        Humboldt beabsichtigte offenbar, Kunths Kommentare, Korrekturen und Zusätze
+                        in einer geplanten englischen Übersetzung (<bibl sameAs="zotero-667230-MU3FGUXF">Humboldt 1849a</bibl>) zu
+                        berücksichtigen. Die hier dokumentierten Anmerkungen Kunths gingen jedoch
+                        nicht in die englische Ausgabe oder eine andere Ausgabe der Ansichten
+                        ein.</p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 8, Nr. 21, Bl. 3r-8v</idno>
+                            <idno type="uri">http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000001</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0001517">Kunth, Carl Sigismund</persName>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+                <p>
+                    <pb n="3r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000005"/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 145.</orig>
+                        <note xml:id="nywt_2gf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                </p>
+                <p>Wieviel Pflanzenarten es überhaupt auf <?oxy_comment_start author="paessler" timestamp="20160615T090944+0200" comment="kollationiert IS/UP, 21.06."?>
+                    <lb><?oxy_comment_end?></lb>der Erde giebt, und wieviel davon auf jede
+                    <lb/>einzelne Pflanzenfamilie kommen, dürfte <lb/>schon deshalb nie zu ermitteln
+                    sein, da der <lb/>Begriff Art <subst>
+                        <del rendition="#s">von den</del>
+                        <add place="intralinear">von den</add>
+                    </subst> Botanikern <lb/>nicht allein im Allgemeinen, sondern <lb/>selbst in den
+                    verschiedenen Familien ganz <lb/>verschieden aufgefaßt wird. Das einzige
+                    <lb/>Kriterium dafür, die gemeinschaftliche <lb/>Abstammung von ein und
+                    demselben <lb/>Individuum, läßt sich nur in sehr seltenen <lb/>Fällen und dann
+                    jederzeit nur bis auf <lb/>einen gewissen Punkt nachweisen. Sie <lb/>wird daher
+                    blos aus Gründen der Wahr<g ref="#typoHyphen"/><lb break="no"/>scheinlichkeit,
+                    wegen der <subst>
+                        <del rendition="#s">größern oder</del>
+                        <add place="intralinear">
+                            <lb/>großen</add>
+                    </subst> Uebereinstimmung aller Merk<g ref="#typoHyphen"/><lb break="no"/>male,
+                    vorausgesetzt, wobei <subst>
+                        <del rendition="#s">Nothwendig</del>
+                        <add place="intralinear">noth<g ref="#typoHyphen"/><lb break="no"/>wendig</add>
+                    </subst> die Individualität des Botanikers <lb/>in Betracht kommt. So machen
+                        <persName key="H0000795">Reichenbach</persName>
+                    <lb/>und <space dim="horizontal" unit="words" quantity="1"/> offenbar zu viel,
+                    andere <lb/>zu wenig Arten. Aber auch die Familien <lb/>
+                    <pb n="3v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000006"/>selbst <subst>
+                        <del rendition="#s">machen</del>
+                        <add place="superlinear">zeigen</add>
+                    </subst> hierin einen bedeutenden <lb/>Unterschied, bei solchen von sehr
+                    einfachem <lb/>Bau<supplied cert="high">,</supplied>
+                    <add place="left">
+                        <choice>
+                            <abbr>z.</abbr>
+                            <expan>zum</expan>
+                        </choice>
+                        <choice>
+                            <abbr>B.</abbr>
+                            <expan>Beispiel</expan>
+                        </choice> Gräser und Cyperaceen</add><supplied cert="high">,</supplied> wird
+                    auf geringere sehr variable, <lb/>bei anderen, <choice>
+                        <abbr>z.</abbr>
+                        <expan>zum</expan>
+                    </choice>
+                    <choice>
+                        <abbr>B.</abbr>
+                        <expan>Beispiel</expan>
+                    </choice> den Orchideen, auf wichtigere <lb/>und beständigere Merkmale Rücksicht
+                    <lb/>genommen. Eine Ausgleichung der hierbei <lb/>stattfindenden Irrthümer ist
+                    aber nicht an<g ref="#typoHyphen"/><lb break="no"/>zunehmen. Blos in dem Falle,
+                    daß sämmt<g ref="#typoHyphen"/><lb break="no"/>liche Pflanzenarten von einem und
+                    demselben <lb/>Botaniker und nach demselben Princip unter<g ref="#typoHyphen"/><lb break="no"/>sucht und bearbeitet worden wären, würde <lb/>sich
+                    vielleicht ein richtigeres <hi rendition="#u">relatives</hi>
+                    <lb/>Zahlenverhältniß zwischen den Familien <lb/>herausstellen, aber nie die <hi rendition="#u">absolute</hi>
+                    <lb/>Zahl <add place="superlinear">weder</add> aller bekannten Arten <del rendition="#s">
+                        <add place="left">noch die Zahl der Arten in den den einzelnen
+                            Familien</add>
+                    </del>
+                    <add place="sublinear">noch der Arten der einzelnen Familien</add> ergeben.</p>
+                <p>
+                    <pb n="4r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000007"/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 182.</orig>
+                        <note xml:id="nakj_4gf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                </p>
+                <p>Daß der Stamm der Coniferen eine so bedeutende <lb/>Höhe erreicht, kann
+                    vielleicht darin seinen <lb/>Grund haben, daß hier die respectiven <lb/>Aeste
+                    (Triebe) nicht in <add place="superlinear">ihren</add>
+                    <hi rendition="#u">sämmtlichen</hi> Blatt<g ref="#typoHyphen"/><lb break="no"/>achseln, sondern <hi rendition="#u">nur in <add place="superlinear">
+                            <del rendition="#s">
+                                <gap quantity="1" unit="words"/>
+                            </del>
+                        </add> einigen</hi> der <lb/>oberen: Knospen ausbilden, wodurch <choice>
+                        <sic>noth<g ref="#typoHyphen"/><lb break="no"/>wenig</sic>
+                        <corr cert="high">nothwendig</corr>
+                    </choice> jene weniger erschöpft werden, <lb/>sich also kräftiger ausbilden <add place="superlinear">können</add>, als bei <lb/>den Laubhölzern (<choice>
+                        <abbr>z.</abbr>
+                        <expan>zum</expan>
+                    </choice>
+                    <choice>
+                        <abbr>B.</abbr>
+                        <expan>Beispiel</expan>
+                    </choice> Eichen), wo sich <lb/>
+                    <hi rendition="#u">in allen Blattachseln</hi> Knospen erzeugen. </p>
+                <p><persName key="H0005935">Endlicher</persName> theilt die Coniferen, welche
+                    <lb/>er als eine <hi rendition="#u">Klasse</hi> betrachtet wissen will, <lb/>in
+                    vier <hi rendition="#u">Familien</hi>: die Cupressineen, <lb/>Abietineen,
+                    Taxineen und Gneteen <lb/>(Ephedra, Gnetum). Für andre Botaniker <lb/>
+                    <subst>
+                        <del rendition="#s">bilden die Coniferen jene Fa</del>
+                        <add place="intralinear">bilden <lb/>diese Familien</add>
+                    </subst> bloße <hi rendition="#u">Unterabtheilungen</hi>
+                    <lb/>der <hi rendition="#u">
+                        <add place="sublinear">größern</add> Familie</hi>.</p>
+                <p>&#160;</p>
+                <p>
+                    <pb n="4v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000008"/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 201.</orig>
+                        <note xml:id="nwc3_wgf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                </p>
+                <p>Sehr große Verschiedenheiten in der Länge <lb/>der Nadeln (1–3 Zoll) und in der
+                    Größe <lb/>der Zapfen (1–3 Zoll) habe ich an Pinus <lb/>Sylvestris in <placeName key="H0009002">Morfontaines</placeName> bei <placeName key="H0008129">Paris</placeName> beo<g ref="#typoHyphen"/><lb break="no"/>bachtet, so daß man hier leicht in Versuchung <lb/>kommen
+                    könnte, verschiedene Arten zu <lb/>unterscheiden. </p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 203.</orig>
+                        <note xml:id="nxml_ygf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg> Ich kann in meiner Ansicht <lb/>über das sogenannte Umwallen <subst>
+                        <del rendition="#s">des</del>
+                        <add place="intralinear">der</add>
+                    </subst>
+                    <lb/>
+                    <subst>
+                        <del rendition="#s">Ta</del>
+                        <add place="intralinear">Tannenstöcke</add>
+                    </subst> nichts ändern.<note hand="#author" place="mBottom"><metamark/>Die
+                        Holzfasern (Holzzellen) enstehen aus den Zellen des Cambium durch
+                            Streckung<supplied cert="high">.</supplied>
+                    </note>
+                </p>
+                <p>
+                    <seg type="comment">
+                        <orig>Pag. 206.</orig>
+                        <note xml:id="nx5s_1hf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                </p>
+                <p>Die Blätter von Gingko sind nicht kurz <lb/>sondern ziemlich (1–2 Zoll) lang
+                    gestielt, <lb/><persName key="H0005935">
+                        Endlicher</persName> nennt sie selbst longi petiolata.</p>
+                <p>
+                    <pb n="5r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000009"/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 207. <choice>
+                                <abbr>Anmerk.</abbr>
+                                <expan>Anmerkung</expan>
+                            </choice> 24.</orig>
+                        <note xml:id="nn1c_chf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                </p>
+                <p>Die beiden Gattungen Calladium und Pothos <lb/>sind jetzt auf wenige Arten
+                    beschränkt. Namentlich <subst>
+                        <del rendition="#s">ist <lb/>giebt es außer</del>
+                        <add place="intralinear">besteht</add>
+                    </subst> die letztere <del rendition="#s">jetzt</del> blos noch <lb/>aus Pothos
+                    scandens <persName key="H0004551">
+                        <choice>
+                            <abbr>L.</abbr>
+                            <expan>Linné</expan>
+                        </choice>
+                    </persName> und <subst>
+                        <del rendition="#s">3</del>
+                        <add place="intralinear">vier</add>
+                    </subst> zweifel<g ref="#typoHyphen"/><lb break="no"/>haften <persName key="H0001103">Roxburghschen</persName>
+                    Arten, und kommt blos <lb/>in <placeName key="H0007873">Ostindien</placeName> vor. Die
+                    sehr zahlreichen <lb/>
+                    <placeName key="H0002429">amerikanischen</placeName>
+                    <add place="superlinear">Pothos-</add>Arten bilden <subst>
+                        <del rendition="#s">jetzt die</del>
+                        <add place="intralinear">dagegen die</add>
+                    </subst>
+                    <lb/>Gattung Anthurium. Pothos pinnatus <lb/>gehört zu Scindapsus, einer
+                    außerdem noch <lb/>an neuen Arten reichen Gattung der <choice>
+                        <abbr>östl.</abbr>
+                        <expan>östlichen</expan>
+                    </choice> Hemisphäre. <lb/>Hiernach kann es nicht mehr heißen: <lb/>„Caladium
+                    und Pothos sind bloß Formen <lb/>der Tropenwelt“ denn folgende <lb/>Gattungen
+                    sind in demselben Falle: <lb/>Arisaema, Sauromatum, Amorpho<g ref="#typoHyphen"/><lb break="no"/>phallus, <del rendition="#s">Calcut</del> Colocasia, Anthurium,
+                    <lb/>Philodendrum, Aglaonema, Scindaphus, <lb/>Monstera <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> viele andre. <del rendition="#s">sind in demselben Falle.</del>
+                    &#160;&#160;</p>
+                <p>
+                    <pb n="5v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000010"/>Caladium arboreum ist jetzt ein <lb/>Philodendrum; diese letztere Gattung
+                    <lb/>ist blos <placeName key="H0002429">amerikanisch</placeName> und
+                    ziemlich <lb/>reich an Arten.</p>
+                <p>Arum Dracunculus jetzt Dracunculus vulgaris <add place="sublinear">
+                        <persName key="H0015663">Schott</persName>
+                    </add>.</p>
+                <p>— tenuifolium = Biarum tenuifolium <persName key="H0015663">Schott</persName>.</p>
+                <p>— cordifolium <persName key="H0003511">Bory</persName> = Colocasia? Boryi <persName key="H0001517">
+                        <choice>
+                            <abbr>Kth</abbr>
+                            <expan>Kunth</expan>
+                        </choice>
+                    </persName>.</p>
+                <p>Dracontium (Calla <persName key="H0001517">
+                        <choice>
+                            <abbr>Kth.</abbr>
+                            <expan>Kunth</expan>
+                        </choice>
+                    </persName>) pertusum <persName key="H0004551">
+                        <choice>
+                            <abbr>Linn</abbr>
+                            <expan>Linné</expan>
+                        </choice>
+                    </persName>. <lb/>heißt <del rendition="#s">ist</del> jetzt
+                    Monstera Adansonii <persName key="H0015663">Schott</persName>.</p>
+                <p>
+                    <del rendition="#s">Von Aletris arborea <persName key="H0006403">Willd.</persName> (Dracaena <lb/>arborea <persName key="H0004550">Link</persName>) ist spa wird späte</del><del rendition="#s">r <lb/>in der Note zu pag. 247 die Rede sein.</del>
+                </p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 213.</orig>
+                        <note xml:id="nstk_phf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg> Die <subst>
+                        <del rendition="#s">bei</del>
+                        <add place="intralinear">beiden</add>
+                    </subst> Dracaena-Arten <lb/>aus <placeName key="H0002625">Neuholland</placeName> heißen
+                    jetzt Cordyline <lb/>terminalis und indivisa. Es giebt <lb/>aber außerdem <del rendition="#s">ja</del>
+                    <add place="superlinear">
+                        <del rendition="#s">aber</del>
+                    </add> eine große Menge von Dracaena- <lb/>
+                    <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> Cordyline-Arten in beiden Hemisphären!</p>
+                <p>
+                    <pb n="6r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000011"/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 213.</orig>
+                        <note xml:id="nbgp_fhf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg> Da das Genus Rhipidodendrum <lb/><persName key="H0006403">
+                        <choice>
+                            <abbr>
+                                Willd.</abbr>
+                            <expan>Willdenow</expan>
+                        </choice>
+                    </persName> als Unterabtheilung der Gattung <lb/>Aloe beibehalten wird, so
+                    dürfte vielleicht das <lb/>
+                    <hi rendition="#u">einst</hi> zu streichen sein.</p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 214</orig>
+                        <note xml:id="nxxn_ghf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>. Würde es auf jeden Fall heißen <lb/>müssen: Phytelephas macrocarpa (aus <lb/>
+                    <placeName key="H0008229">Peru</placeName>
+                    <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <placeName key="H0001610">
+                        <choice>
+                            <sic>Neu-Granata</sic>
+                            <corr cert="high">Neu-Granada</corr>
+                        </choice>
+                    </placeName>) und microcarpa <lb/>(aus <placeName key="H0008229">Peru</placeName>) <persName key="H0001131">
+                        <choice>
+                            <abbr>Ruiz.</abbr>
+                            <expan>Ruiz López</expan>
+                        </choice>
+                    </persName> et <persName key="H0001818">
+                        <choice>
+                            <abbr>Pav.</abbr>
+                            <expan>Pavón</expan>
+                        </choice>
+                    </persName> sind daher die <hi rendition="#u">beiden</hi>
+                    <lb/>einzigen Pandoneen des <placeName key="H0002429">neuen
+                        Continents</placeName>. <lb/>Dies ist aber nicht richtig, denn Phytelephas
+                    <lb/>ist blos ein genus Pandaneis affine, ächte <lb/>Pandaneen des <placeName key="H0002429">neuen Continents</placeName> dagegen sind:
+                    <lb/>Carludovica <persName key="H0001131">
+                        <choice>
+                            <abbr>Ruiz.</abbr>
+                            <expan>Ruiz López</expan>
+                        </choice>
+                    </persName> et <persName key="H0001818">
+                        <choice>
+                            <abbr>Pav.</abbr>
+                            <expan>Pavón</expan>
+                        </choice>
+                    </persName> (mit 9 Arten) <lb/>Cyclanthus <persName key="H0002054">
+                        <choice>
+                            <abbr>Poit.</abbr>
+                            <expan>Poiteau</expan>
+                        </choice>
+                    </persName> (mit 2 Arten) und Wettinia <lb/>
+                    <persName key="H0002046">
+                        <choice>
+                            <abbr>Poepp.</abbr>
+                            <expan>Poeppig</expan>
+                        </choice>
+                    </persName> (mit 1 Art.)</p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 228.</orig>
+                        <note xml:id="nxpn_hhf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                    <hi rendition="#u">Liliengewächse</hi>. <subst>
+                        <del rendition="#s">Hierunter</del>
+                        <add place="intralinear">Hiermit</add>
+                    </subst>
+                    <lb/>scheinen aber nach den citirten Gattungen <lb/>(Alstroemeria, Pancratium,
+                        Haemanthus<supplied cert="high">,</supplied>
+                    <lb/>Crinum) die Amaryllideen gemeint <lb/>zu sein. <del rendition="#s">Das
+                        Haupt Vaterland der <lb/>einzi ächten Amaryllis ist <placeName key="H0002331">Afrika</placeName>.</del>
+                </p>
+                <p>
+                    <pb n="6v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000012"/>
+                    <add place="left">Das Vaterland</add> der <del rendition="#s">die</del>
+                        Gattung<del rendition="#s">en</del> Amaryllis, in der jetzigen <lb/>engern
+                    Begrenzung, ist das <placeName key="H0000355">Vorgebirge <lb/>der guten
+                        Hoffnung</placeName>; Zephyranthis, Ha<g ref="#typoHyphen"/><lb break="no"/>branthus, Hippenstrum und mehrere <lb/>andere auf Unkosten von Amaryllis <lb/>
+                    <subst>
+                        <del rendition="#s">be</del>
+                        <add place="intralinear">gebildete</add>
+                    </subst> Gattungen <choice>
+                        <sic>gehören</sic>
+                        <corr cert="high">sind</corr>
+                    </choice>
+                    <add place="superlinear">dagegen</add> in <placeName key="H0002429">Amerika</placeName>
+                    <lb/>zu Hause. Haemanthus kommt <del rendition="#s">fast</del>
+                    <lb/>nur in <placeName key="H0002331">Afrika</placeName> vor. Unser Haemanthus <lb/>dubius gehört einer andern
+                    Gattung <lb/>(Phaed<del rendition="#s">e</del>ranassa <choice>
+                        <sic>chloracea</sic>
+                        <corr cert="high">chloracra</corr>
+                    </choice>
+                    <persName key="H0011799">
+                        <add place="superlinear"><choice>
+                                <abbr>Herb.</abbr>
+                                <expan>Herbert</expan>
+                            </choice></add></persName>) an.</p>
+                <p>Die eigentlichen Liliaceen (Tulipaceen <lb/><persName key="H0012873">
+                        <choice>
+                            <abbr>
+                                DC.</abbr>
+                            <expan>de Candolle</expan>
+                        </choice>
+                    </persName>
+                    <add place="left">
+                        <choice>
+                            <abbr>z.</abbr>
+                            <expan>zum</expan>
+                        </choice>
+                        <choice>
+                            <abbr>B.</abbr>
+                            <expan>Beispiel</expan>
+                        </choice>
+                        <choice>
+                            <abbr>L.</abbr>
+                            <expan>Lilium</expan>
+                        </choice> Erythronium</add>, Lilium, Fritillaria, Tulipa, Gagea, <lb/>
+                    <del rendition="#s">f</del> Yucca) fehlen meines Wissens am <lb/>
+                    <placeName key="H0000355">Cap</placeName> gänzlich<supplied cert="high">.</supplied>
+                </p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 228. <choice>
+                                <abbr>n.</abbr>
+                                <expan>Note</expan>
+                            </choice> 29.</orig>
+                        <note xml:id="nifp_3hf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg> Wenn das am Ende des Satzes <lb/>Gesagte überhaupt behauptet werden kann,
+                    so <lb/>gilt es alsdann von <hi rendition="#u">sämmtlichen</hi> Irideen. </p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 236.</orig>
+                        <note xml:id="nd4x_jhf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg> Ich würde setzen: Die Gruppe begreift <lb/>die beiden großen <persName key="H0004551">Linnéischen</persName> Geschlechter Melastoma <lb/>und
+                    Rhexia in sich, welche von spätern Botanikern <lb/>namentlich <persName key="H0012873">Decandolle</persName> in zahlreiche kleinere zer<g ref="#typoHyphen"/><lb break="no"/>theilt worden sind und zwar mir Recht. </p>
+                <p>
+                    <pb n="7r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000013"/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 227.</orig>
+                        <note xml:id="ndt1_lhf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                </p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <persName key="H0004485">Graf Suminski</persName>
+                        </orig>
+                        <note xml:id="nd2z_wy4_bx"><bibl sameAs="zotero-667230-BHXBR3K8">Leszczyc-Sumiński 1848</bibl>, 10–14.</note>
+                    </seg> erklärt das was <lb/>
+                    <persName key="H0004894">Nägeli</persName> bei den Farrn für zwei verschiedne
+                    <lb/>Entwicklungsstufen der Antheridien <lb/>(Spiralfaserorgane, <del rendition="#s">deren eigentliche Functi<g ref="#typoHyphen"/><lb break="no"/>onen noch unbekannt sind) erklärt sie <lb/>und</del> wovon Analoga bei den
+                        Moosen<del rendition="#s">)</del>
+                    <lb/>
+                    <del rendition="#s">hält für</del> vorkommen, deren eigentliche <lb/>Funktionen
+                    jedoch noch unbekannt sind) <supplied cert="high">hält,</supplied>
+                    <lb/>für die eigentlichen Geschlechtsorgane. <lb/>Ich habe mir dies nicht klar
+                    machen <lb/>können. </p>
+                <p>
+                    <pb n="7v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000014"/><gap unit="pages" quantity="1" reason="empty"/>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <pb n="8r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000015"/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 242–248.</orig>
+                        <note xml:id="nn51_mhf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                </p>
+                <p>Der Systematiker berücksichtigt gleichzeitig <lb/>die (beständigern)
+                    Fruktifications- und <lb/>die (weniger beständigen) Vegetations<g ref="#typoHyphen"/><lb break="no"/>organe; der Physiognomiker dagegen legt <add place="right">eine
+                        größere <lb/>
+                    </add>
+                    <del rendition="#s">eine zu große</del> Wichtigkeit auf die letztern, <lb/>und
+                    vernachläßigt <add place="superlinear">oder übersieht</add>
+                    <del rendition="#s">oft</del> mehr oder weniger <lb/>die erstern. Er <subst>
+                        <del rendition="#s">findet daher</del>
+                        <add place="intralinear">nähert auf <lb/>diese Weise</add>
+                    </subst> Ephedra der Gattung <lb/>Equisetum, die <placeName key="H0002625">neuholländischen</placeName>
+                    Acacien <lb/>den Winden, <note hand="#author" place="right">Die
+                        Fruktificationsorgane zeigen auch nicht die geringste Uebereinstimmung. <del rendition="#s">außer daß sie</del>
+                    </note> und übersieht vielleicht <lb/>die große <subst>
+                        <del rendition="#s">Uebereinstim habituelle</del>
+                        <add place="intralinear">reelle <lb/>Uebereinstimmung</add>
+                    </subst> zwischen Ribes <lb/>und Cactus. Ich kann mich in meinem
+                    <lb/>gegenwärtigen Gesundheitszustande <lb/>nicht deutlicher ausdrücken, was ich
+                    <lb/>eigentlich meine. </p>
+                <p>
+                    <pb n="8v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000016"/>
+                    <seg type="comment">
+                        <orig>
+                            <choice>
+                                <abbr>Pag.</abbr>
+                                <expan>Pagina</expan>
+                            </choice> 247.</orig>
+                        <note xml:id="nd5d_nhf_hx">
+                            <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                    </seg>
+                </p>
+                <p>Die Gattung Aletris gegenwärtig<del rendition="#s">e</del>
+                    <lb/>blos auf drei Arten beschränkt <lb/>(Aletris farinosa und aurea aus
+                        <placeName key="H0001698">Nord<g ref="#typoHyphen"/><lb break="no"/>amerika</placeName> und Aletris
+                    japonica <persName key="H0004278">Lambert</persName>) <lb/>und <del rendition="#s">de</del> zu den <subst>
+                        <del rendition="#s">Haemoros</del>
+                        <add place="intralinear">Haemodoraceen</add>
+                    </subst>
+                    <add place="left">
+                        <lb/>gehörig,</add>
+                    <del rendition="#s">gehört,</del> dürfte hier nicht gemeint <lb/>sein, eben so
+                    wenig (obgleich sie <choice>
+                        <abbr>pag.</abbr>
+                        <expan>pagina</expan>
+                    </choice> 213 <lb/>ausdrücklich genannt wird) Aletris <lb/>arborea<persName key="H0006402">
+                        <choice>
+                            <abbr>Willd.</abbr>
+                            <expan>Willdenow</expan>
+                        </choice>
+                    </persName> (Dracaena arborea <persName key="H0004550">Link</persName>.)
+                    <lb/>eine <hi rendition="#u">blos in den Gärten vorkommende</hi>
+                    <placeName key="H0002331">
+                        <lb/>afrikanische</placeName>? Pflanze, die noch nicht geblüht <lb/>hat.
+                    Wahrscheinlich ist <add place="superlinear">
+                        <seg type="comment">
+                            <orig>(p. 247.)</orig>
+                            <note xml:id="ndfh_4hf_hx">
+                                <ref target="https://www.zotero.org/groups/avh-r/items/collectionKey/NFW9QRUD/itemKey/2WVKCKG3/q/Ansichten%20der%20natur">Humboldt 1849</ref>, II.</note>
+                        </seg>
+                    </add> damit Aletris <lb/>guineensis <persName key="H0004125">
+                        <choice>
+                            <abbr>Jacq.</abbr>
+                            <expan>Jacquin</expan>
+                        </choice>
+                    </persName> (<choice>
+                        <sic>Sanseviera</sic>
+                        <corr cert="high">Sansevieria</corr>
+                    </choice>｢ guineensis <lb/><persName key="H0006402">
+                        
+                        <choice>
+                            <abbr>Willd.</abbr>
+                            <expan>Willdenow</expan>
+                        </choice>
+                    </persName>) oder Aletris fragrans <persName key="H0004551">
+                        <choice>
+                            <abbr>Linn.</abbr>
+                            <expan>Linné</expan>
+                        </choice>
+                    </persName> (Dracaena｢｢<note hand="#author" place="mBottom"><metamark/>&amp;)<metamark/><metamark/> Diese Namen sind die richtigen und
+                        beizubehalten.</note>
+                    <lb/>fragrans<persName key="H0001298">
+                        <choice>
+                            <abbr>Gawl.</abbr>
+                            <expan>Gawler</expan>
+                        </choice></persName>) gemeint, beide in <placeName key="H0011142">Guinea</placeName>
+                    <lb/>und <placeName key="H0010229">Sierra
+                        Leone</placeName> einheimisch. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

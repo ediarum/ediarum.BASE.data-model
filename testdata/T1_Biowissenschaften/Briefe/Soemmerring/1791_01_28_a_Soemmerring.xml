@@ -1,0 +1,328 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0002656" oldID="prov_n52_fcn_rt">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Samuel Thomas Soemmerring. Hamburg, 28. Januar und
+                    20. Februar 1791</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift / Frankfurter Goethe-Museum,
+                            Frankfurt am Main</institution>
+                        <repository>Handschriftensammlung</repository>
+                        <idno>Hs-5051</idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" sameAs="zotero-667230-II75I6MN">Loewenberg 1866,
+                            146–147 (Teildruck)</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="2" sameAs="zotero-667230-9PZUBNH7">Bruhns 1872, I ,
+                            109–110; 22–23, Anm.; 113 Anm.; 116–117 (Teildruck)</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="3" sameAs="zotero-667230-KTDB7KDQ">Loewenberg 1886,
+                            336–339</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="4" sameAs="zotero-667230-WFDJIWK6">Humboldt 1973,
+                            121–123</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="5" sameAs="zotero-667230-ERRZUGRJ">Soemmerring 1998,
+                            824–828</bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName key="H0006791">Hamburg</placeName>
+                    <date from="1791-01-28" to="1791-02-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0015944">Soemmerring, Samuel Thomas Ritter von
+                        (1755-1830)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="align(right)">
+                        <pb n="1r"/>Hamburg, den 28.ten <choice>
+                            <abbr>Jan.</abbr>
+                            <expan>Januar</expan>
+                        </choice> 1791.</dateline>
+                </opener>
+                <p> Fünf volle Monathe sind nun schon verflossen, seitdem ich <lb/>die <placeName key="H0010465">Rheinufer</placeName> verließ. Wenn Sie aus der Art, wie ich
+                    mich <lb/>damals an Sie drängte, aus der frohen Stimmung, in die <lb/>mich jede
+                    Aeußerung Ihres Vertrauens und Ihrer liebevollen <lb/>Zuneigung versezte, auf
+                        <add place="right">Wärme</add> und Herzlichkeit des Charakters <lb/>in mir
+                    schlossen, so muß es Ihnen jezt um so <lb/>räthselhafter sein, daß Sie seit fünf
+                    Monathen keine <lb/>Zeile von mir sahen, daß ich eine Erlaubniß nicht
+                    <lb/>benuzte, die Sie mir selbst freiwillig ertheilten. Nicht <lb/>jugendliche
+                    Eitelkeit allein (von der ich mich übrigens nur zu <lb/>wenig frei fühle!)
+                    sondern die Empfindung, durch die Ach<g ref="#typoHyphen"/><lb break="no"/>tung
+                    guter und edler Menschen geehrt zu sein, läßt <lb/>mich wünschen, daß Ihnen mein
+                    Stillschweigen nicht gleich<g ref="#typoHyphen"/><lb break="no"/>gültig und
+                    unbemerkt gewesen ist. Ich möchte die Schuld <lb/>gern vermehren, weil ich es
+                    doch nicht unternehme, <lb/>mich zu rechtfertigen. In der That, mein Bester, die
+                        Ursa<g ref="#typoHyphen"/><lb break="no"/>chen meiner Nachlässigkeit sind so
+                    einfach, daß sie gewiß <lb/>
+                    <pb n="1v"/>jedem andern, als Ihnen, geringfügig scheinen würden, <lb/>der Sie
+                    wissen, daß Einfachheit und Wahrheit immer <lb/>am nächsten mit einander
+                    verwandt sind. Ich verließ <lb/>
+                    <placeName key="H0002573">Aschaffenburg</placeName> (das mir <persName key="H0014421">Müllers</persName> geistvolle Unterhaltung <lb/>und <persName key="H0013547">Gollizins</persName> ungekünstelte Gutmüthigkeit in der That
+                    <lb/>sehr, sehr lieb gemacht hatten) mit dem festen <lb/>Entschlusse, Ihnen,
+                    sobald ich <placeName key="H0006791">Hamburg</placeName> erreicht haben
+                    <lb/>würde, so manches auszuschütten, wo von mein Herz da<g ref="#typoHyphen"/><lb break="no"/>mals sehr voll war. Ich glaubte, so manches beobach<g ref="#typoHyphen"/><lb break="no"/>tet zu haben, woraus ich frohe Aussichten
+                    in die <lb/>Zukunft ahndete, und ich glaubte, dies alles noch <lb/>einmal
+                    inniger und froher zu genießen, wenn ich es ei<g ref="#typoHyphen"/><lb break="no"/>nem teilnehmenden Freunde mittheilte. Eine unglükliche
+                    <lb/>Tour, die ich bald zu Fuß, bald zu Wagen, in dem <lb/>unfreundlichsten
+                    Wetter, durch das <placeName key="H0009188">Vogelsgebirge</placeName> und einen
+                    <lb/>Theil der <placeName key="H0010481">Rhöne</placeName> machte, knüpfte bald
+                    eine neue Ge<g ref="#typoHyphen"/><lb break="no"/>dankenreihe an jene an. Die
+                    gesammleten Minerialien <lb/>sollten geordnet, manche kleine Beobachtung (Sie
+                    wissen <lb/>wohl, was man in meinem Alter für einen Werth <lb/>auf so etwas
+                    legt!) aufgezeichnet werden. Der neue Auf<g ref="#typoHyphen"/><lb break="no"/>
+                    <pb n="2r"/>enthalt in <placeName key="H0006791">Hamburg</placeName> und
+                    hundertlei kleine Geschäfte, welche <lb/>mit jeder Einrichtung unzertrennlich
+                    verbunden sind, zerstreu<g ref="#typoHyphen"/><lb break="no"/>ten mich noch
+                    mehr. So war, ohne daß ich es mir <lb/>selbst kaum bewußt war, eine lange, lange
+                    Zeit <lb/>verflossen und fast meine ganze Correspondenz blieb un<lb break="no"/>terbrochen. Ein vernachlässigter Brief liegt einem Zentner <lb/>schwer auf dem
+                    Herzen, er ist immer drükkender, <lb/>je weniger man sich durch eine <hi rendition="#u">höfliche</hi> Entschuldigung <lb/>rechtfertigen darf. Man
+                    wartet, <subst>
+                        <del rendition="#s">sich zu</del>
+                        <add place="intralinear">aus einer</add>
+                    </subst>
+                    <lb/>Art von Rechthaberei, ein Hinderniß ab, auf das man, ex <lb/>post, die
+                    ganze Schuld schieben könne und so vergeht ei<g ref="#typoHyphen"/><lb break="no"/>ne Woche nach der anderen, bis die Schaam sich darin <lb/>mengt
+                    und einen völlig verstummen macht. Wenn es <lb/>gegründet ist, daß diese Schaam
+                    und Gewissenhaf<g ref="#typoHyphen"/><lb break="no"/>tigkeit von einer
+                    allzugroßen Leber herrühren, so <lb/>leide ich warlich stark an der
+                    Leberkrankheit, und die <lb/>einzige Kurmethode, die ich Ihnen vorschlagen kann,
+                    <lb/>ist daß Sie mir für mein offenherziges Geständniß <lb/>Verzeihung schenken
+                    und mir die Freundschaft und Lie<g ref="#typoHyphen"/><lb break="no"/>be
+                    wiedergeben, in deren Besiz ich mich so glücklich schäze. <lb/>
+                    <pb n="2v"/>Außer dem, was meine individuelle Lage betrift und die <lb/>Sie
+                    wahrscheinlich schon durch <persName key="H0000177">Forster</persName> kennen,
+                    darf ich Ihnen <lb/>von hier aus wenig verkündigen. Ich lebe in <placeName key="H0006791">Hamburg</placeName>
+                    <lb/>
+                    <hi rendition="#u">zufrieden</hi>, aber nicht <hi rendition="#u">froh</hi>,
+                    weniger froh selbst als in <placeName key="H0010897">Göt<lb break="no"/>tingen</placeName>, wo der Umgang von ein <choice>
+                        <abbr>od.</abbr>
+                        <expan>oder</expan>
+                    </choice> zwei Freunden und <add place="superlinear">die</add> Nähe
+                    <lb/>Moosbewachsener Berge mich für die Einförmigkeit meiner Lage
+                    <lb/>entschädigten. Zufrieden, das heißt durch Ueberlegung zu<lb break="no"/>frieden bin ich überall, wo ich meinen Zwekken nä<lb break="no"/>her komme.
+                    Ich lerne auf der hiesigen Handelsakademie und <lb/>durch <persName key="H0003804">Büschens</persName> Umgang sehr viel. Alles Mercantilische
+                    <lb/>war mir neu, und ich liebe es, weil ich es für nüzlich <lb/>halte.
+                    Eigentliche Kollegia höre ich wenig, desto fleißiger <lb/>suche ich für mich zu
+                    sein. <persName key="H0005854">Ebelings</persName> große Bibliothek <lb/>kommt
+                    mir sehr zu statten. Philologie, Reisebeschreibungen, <lb/>Geschichtsbücher
+                    besizt <persName key="H0005854">Ebeling</persName>, alles Mathematische und
+                    Physikalische <lb/>
+                    <persName key="H0003804">Büsch</persName> und das Naturhistorische <persName key="H0000806">Reimarus</persName> sehr vollständig. <lb/>Denken Sie Sich
+                    nun den freiesten Gebrauch aller dieser <lb/>Hülfsmittel, ein enges Zimmer in
+                    einem einsamen <lb/>Garten, keine Stöhrung, als eine Glokke, die zum <lb/>Mittag
+                    und Abendessen läutet – und Sie müssen gestehen, <lb/>mein Lieber, daß man in
+                        <placeName key="H0006791">Hamburg</placeName>, troz <placeName key="H0010897">Göttingen</placeName>, studi<g ref="#typoHyphen"/><lb break="no"/>ren kann. Mineralogie und Botanik (beide aus Büchern!!) fül<lb break="no"/>len meine Nebenstunden aus. Dazu habe ich angefangen dänisch
+                    <lb/>und schwedisch zu lernen, weil die Gelegenheit dazu hier <lb/>
+                    <pb n="3r"/>sehr bequem ist. Ein 7 <choice>
+                        <abbr>od</abbr>
+                        <expan>oder</expan>
+                    </choice> 8 Monath ist so ein Leben erträglich, <lb/>aber nach diesen sehnt man
+                    sich auch nach einem freieren Wirkungs<g ref="#typoHyphen"/><lb break="no"/>kreise. An Umgang, nemlich Zusammenessen nennt man hier <lb/>Umgang, fehlt es
+                    mir bei dem allen nicht. Ich bin in allen <lb/>Cirklen, in den bürgerlichen und
+                    adelichen, die sich nach <lb/>der löblichen Indianischen Methode hübsch
+                    kastenmäßig von ein<g ref="#typoHyphen"/><lb break="no"/>ander getrennt haben.
+                    Da aber hier alles Karten spielt, <lb/>so besuche ich keine Gesellschaft vor dem
+                    Abendessen, wo denn <lb/>der physische Genuß freilich sehr groß ist. So viel man
+                    am <lb/>
+                    <placeName key="H0010465">Rhein</placeName> auch immer über Adelsstolz klagen
+                    mag, so möchte <lb/>ich doch behaupten, daß der Uebermuth des hiesigen <persName key="H0003250">Bentincki<g ref="#typoHyphen"/><lb break="no"/>schen</persName> (nicht<persName key="H0015540">
+                        <choice>
+                            <abbr>Schimmelman̅ischen</abbr>
+                            <expan>Schimmelmannischen</expan>
+                        </choice></persName>) Cirkels jenen weit übertrift<supplied cert="high">.</supplied>
+                    <lb/>Die Vernunft unserer westlichen Nachbarn wird dieses Jahrhun<g ref="#typoHyphen"/><lb break="no"/>dert überleben, aber Deutschland wird
+                    noch lange anstaunen, prü<lb break="no"/>fen, vorbereiten — und den
+                    entscheidenden Augenblik versäumen. <lb/>Ist Ihnen die <choice>
+                        <abbr>Berlin.</abbr>
+                        <expan>Berlinische</expan>
+                    </choice> Monathsschrift und <seg type="comment">
+                        <orig><choice>
+                                <abbr>H.</abbr>
+                                <expan>Herrn</expan>
+                            </choice> von <persName key="H0000721">Rhamdors</persName>
+                            <lb/>Verteidigung des Adels</orig>
+                        <note xml:id="nmxh_4vk_2y"><bibl sameAs="zotero-667230-DU4BUB8U">Ramdohr
+                                1791</bibl>.</note>
+                    </seg> in die Hände gefallen? Ich kann <lb/>dem nichts als <persName key="H0002027">Plattners</persName> Dedication an den <persName key="H0015354">Kurfürsten</persName>
+                    <lb/>vor der Neuen Anthropologie <subst>
+                        <del rendition="#s">entges</del>
+                        <add place="intralinear">entgegenstellen</add>
+                    </subst><subst>
+                        <del rendition="#ow">?</del>
+                        <add place="intralinear">!</add>
+                    </subst> Von <lb/>einem Leipziger Professor ließ sich so etwas erwarten.
+                        <persName key="H0002027">Platt<g ref="#typoHyphen"/><lb break="no"/>ner
+                    </persName> kennt nur zwei Wege, entweder in den Stand der <lb/>Natur
+                    zurüktreten, à la <persName key="H0001099">Rousseau</persName> auf allen Vieren
+                    gehen, <lb/>und wie die Philosophen im <persName key="H0004671">Luzian</persName> Erdschwämme suchen, <lb/>oder unter den Ministern eines
+                        <persName key="H0015354">
+                        <choice>
+                            <abbr>Kf.</abbr>
+                            <expan>Kurfürsten</expan>
+                        </choice> von Sachsen</persName> zu stehen, das <lb/>
+                    <pb n="3v"/>Abendmahl wie ein moralisches Purgirmittel gebrauchen zu müs<g ref="#typoHyphen"/><lb break="no"/>sen, dabei aber eine Audienz bei einem
+                    Fürsten haben <lb/>
+                    <subst>
+                        <del rendition="#s">zu können</del>
+                        <add place="intralinear">, es dem Publikum öffentlich sagen zu
+                            <lb/>können....</add>
+                    </subst> das sind unsere Philosophen und dann <lb/>fürchten die Despoten unser
+                    philosophisches Jahrhundert! <lb/>Es ist mir ein sehr niederschlagender Gedanke,
+                    wenn Män<g ref="#typoHyphen"/><lb break="no"/>ner wie <persName key="H0013356">Garve</persName>, <persName key="H0002027">Plattner</persName>, <persName key="H0015253">Zimmermann</persName> p. niederreißen, was <lb/>andere so
+                    mühsam aufgeführt haben. Es giebt derer, <lb/>welche mehr auf Glauben wie auf
+                    Ueberzeugung, auf <lb/>Autorität mehr, wie auf eigenes Nachdenken bauen <lb/>so
+                    viele, und darin liegt der Grund einer Wahrheit, <lb/>deucht mich, die so oft
+                    verkannt wird, daß die großen <lb/>Charaktere allgemein <hi rendition="#u">bewunderter</hi> und gefeierter Menschen <lb/>durch ihre Schwachheiten oft
+                    mehr böses für die Nachwelt <lb/>stiften, als ihre Tugenden Seegen und Wohlthat
+                        ver<g ref="#typoHyphen"/><lb break="no"/>breiten. – <persName key="H0012862">Campe</persName> hat ein Projekt, nach <placeName key="H0002429">Amerika</placeName> zu <lb/>reisen. Ob er es ausführt ist noch ungewiß.
+                    Denken <choice>
+                        <sic>sie</sic>
+                        <corr cert="high">Sie</corr>
+                    </choice>
+                    <lb/>Sich aber, Lieber, <choice>
+                        <sic>den</sic>
+                        <corr cert="high">die</corr>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">Grund</del>
+                        <add place="superlinear">Veranlassung</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#s">den</del>
+                        <add place="across">die</add>
+                    </subst> er angiebt, nicht <lb/>etwa um die <choice>
+                        <abbr>westind.</abbr>
+                        <expan>westindische</expan>
+                    </choice> Jugend mit einem Transport <lb/>seiner Kinderbibliotheken,
+                    Robinsonaden p. zu beglükken, <lb/>nicht um den Wilden seinen neuen Beweis für
+                    die Un<g ref="#typoHyphen"/><lb break="no"/>sterblichkeit der Seele zu predigen,
+                    nicht um das Tanzen <lb/>in <placeName key="H0008246">Philadelphia</placeName>
+                    nach den Regeln der Keuschheit zu reguliren, <lb/>– nein um die Verfassung des
+                        <placeName key="H0009136">
+                        <choice>
+                            <abbr>Nordamerikan.</abbr>
+                            <expan>Nordamerikanischen</expan>
+                        </choice> Freistaats</placeName> in der Nähe <lb/>
+                    <pb n="4r"/>zu studiren, <subst>
+                        <del rendition="#s">es</del>
+                        <add place="intralinear">sie</add>
+                    </subst> nach einem Jahre (denn so lange soll ihn <lb/>Europa entbehren) der
+                    alten Welt laut zu verkündigen <lb/>und so Freiheit und Wahrheit über die
+                    Menschheit zu ver<lb break="no"/>breiten. Ist je eine drolligere Idee in eines
+                    Menschen <lb/>Kopf gekommen! Ich erwarte täglich den Brief, worin <lb/>
+                    <persName key="H0012862">Campe</persName> mir das Mitreisen anbietet.</p>
+                <p>den 20ten <choice>
+                        <abbr>Febr.</abbr>
+                        <expan>Februar</expan>
+                    </choice>
+                </p>
+                <p>So weit schrieb ich diesen Brief vor etwa 3 Wochen. Ich <lb/>wollte ihn nicht
+                    unvollendet abschikken, und ich wurde wenige <lb/>Tage nachher krank.
+                    Verschleimungen waren wahrscheinlich wieder <lb/>die Ursachen eines <add place="superlinear">ziemlich</add> heftigen Flußfiebers. Ich fürchtete ein
+                    <lb/>Faulfieber, das hier wie eine allgemeine Epidemie war. <lb/>Aber ich kam
+                    diesmal besser davon und bin jezt ganz <lb/>hergestellt. – Von unserem
+                    treflichen <persName key="H0004109">Jacobi</persName> habe ich lange <lb/>nichts vernommen. Durch <persName key="H0013084">Claudius</persName> weiß ich daß
+                    Sie die<g ref="#typoHyphen"/><lb break="no"/>sen Herbst bei ihm waren. Schreiben Sie mir doch ja <lb/>von
+                    ihm, von seinen jezigen Arbeiten p<supplied cert="high">.</supplied>
+                </p>
+                <p>Ich lege diesem langen Briefe eine Zeichnung von einer <lb/>sogenannten
+                    versteinten Kinderhand bei, welche im <placeName key="H0010486">Riegels<g ref="#typoHyphen"/><lb break="no"/>dorfer</placeName> Schiefer gefunden ist. Die Phalangen zeigen
+                    <lb/>wohl hinlänglich, daß die Taze keinem <choice>
+                        <abbr>menschl.</abbr>
+                        <expan>menschlichen</expan>
+                    </choice> Geschöpfe <lb/>gehört hat. Vielleicht wissen Sie mir zu bestimmen,
+                    <lb/>was es sei, etwa eine Otter? Das wäre nicht unpas<lb break="no"/>send. Denn
+                    30 Lachter vom Tage liegt in <placeName key="H0010487">Riegelsdorf</placeName>
+                    <lb/>ein mächtiges Lager verkiester Fische und zwar gekrümm<g ref="#typoHyphen"/><lb break="no"/>ter.</p>
+                <p>
+                    <pb n="4v"/>Ist <persName key="H0015855">Sikkingen</persName>
+                    <persName key="H0000177">Forstern</persName> noch nicht näher? Wenn Sie
+                    sie <lb/>doch zusammen bringen könnten. <persName key="H0000177">Forster</persName>
+                    <add place="superlinear">würde</add> gewiß den <persName key="H0015855">Grafen</persName>
+                    <lb/>sehr lieb gewinnen. Versichern Sie <add place="superlinear">ihn</add> doch <subst>
+                        <del rendition="#s">der</del>
+                        <add place="intralinear">meiner</add>
+                    </subst> innigsten <lb/>Hochachtung und sagen Sie ihm, daß ich die Versuche
+                    <lb/>mit dem Phosphoresciren der Kartoffeln nachgemacht, viel<lb break="no"/>fältig wiederholt habe und daß es mir nie mit dem <lb/>Leuchten geglükt habe.
+                    Wenn wir die Entdekkung von <lb/>
+                    <persName key="H0000198">Fourcroy</persName> daß viele Pflanzen
+                    Eiweißmaterie enthalten, <lb/>den thierischen Leimen der Cerealien, das
+                    flüchtige <lb/>Alkali der Tetradydinamisten, das Leuchten der Kartof<g ref="#typoHyphen"/><lb break="no"/>feln (das sich beim Rindfleisch und Lachs ja auch <lb/>findet)
+                    zusammen nehmen, so kommen wir den Ue<g ref="#typoHyphen"/><lb break="no"/>bereinstimmungen zwischen Thier und Pflanze immer nä<g ref="#typoHyphen"/><lb break="no"/>her. – Noch eine Frage, mein Bester! Wo lese ich <lb/>wohl etwas
+                    ausführliches über die Entstehung der thierischen <lb/>Knochen, die doch wahrer
+                    Kalkstein mit Phosphorsäure ge<g ref="#typoHyphen"/><lb break="no"/>sättigt, <persName key="H0006329">Wernersche</persName> uncristallisirte Apatiten sind. Ich <lb/>möchte gern
+                    wissen woher die Kalkerde, bei der <choice>
+                        <abbr>wenig</abbr>
+                        <expan>wenigen</expan>
+                    </choice>
+                    <lb/>Nahrung des Kindes, entsteht.</p>
+                <closer rend="paragraph">
+                    <salute>Leben Sie wohl, mein Bester! Grüßen Sie <lb/><seg type="comment">
+                            <orig>Forsters</orig>
+                            <note xml:id="nsvt_kqh_1cb"><persName key="H0000177">Georg
+                                    Forster</persName> und  dessen Ehefrau <persName key="H0012030">Therese Huber</persName>, die wie Soemmerring in <placeName key="H0008587">Mainz</placeName> lebten.</note>
+                        </seg> und vergessen Sie nicht Ihren</salute>
+                    <signed>Humboldt.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="H0006049" oldID="avhr_c1r_3wz_hv">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Sonntag, [8. Juli
+                    1845]</title><editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska, Krakau</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Sammlung Autographa, A. von Humboldt (ehemals Preußische Staatsbibliothek, Berlin)</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0008392">Potsdam</placeName>
+                    <date when="1845-07-08" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0001517">Kunth, Carl Sigismund (1788-1850 )</persName>
+                    <placeName key="H0005221">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Am 9. Juli 1845 teilte Kabinettsminister <persName key="H0015288">Emil Ernst Illaire</persName>
+                    Humboldt schriftlich mit, dass <persName key="H0002178">Friedrich Wilhelm
+                        IV</persName>. Kunth eine Unterstützung von 500 Talern für eine
+                    wissenschaftliche Reise nach <placeName key="H0007962">Wien</placeName>, <placeName key="H0009764">Salzburg</placeName> und <placeName key="H0009409">Tirol</placeName> bewilligt habe (Biblioteka
+                    Jagiellońska, Krakau, Sammlung Autographa). </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <pb n="1r"/>Ich habe vorgestern, mein theurer Freund, <lb/>Ihren Brief und meinen
+                Commentar <lb/>dem <rs type="person" key="H0002178">Könige</rs>
+                <choice>
+                    <orig>eingehandigt</orig>
+                    <reg>eingehändigt</reg>
+                </choice> und gestern <lb/>Abend hat mir bereits der <rs type="person" key="H0002178">
+                    <choice>
+                        <orig>Konig</orig>
+                        <reg>König</reg>
+                    </choice></rs> gesagt <lb/>dass alles vorgetragen und genehmigt <lb/>sei (500
+                    <measure quantity="500" unit="reichsthaler"><choice>
+                        <abbr>r</abbr>
+                        <expan>Reichstaler</expan>
+                    </choice></measure>)<supplied cert="high" prev=")">.</supplied> Da alle
+                menschlichen <lb/>Geschäfte erst <del rendition="#s">leider</del> als vollendet
+                <lb/>sicher werden, so ist es mir <lb/>eine Freude Ihnen zu sagen <lb/>was zu Ihrer
+                Aufheiterung bei<lb break="no"/>tragen kann. Der <rs type="person" key="H0002178">
+                    <choice>
+                        <orig>Konig</orig>
+                        <reg>König</reg>
+                    </choice>
+                </rs> hat bei <lb/>dieser Gelegenheit eine recht <lb/>auffallende Vorliebe für Sie
+                    bezeigt<supplied cert="high" prev="bezeigt">.</supplied>
+                <lb/>Er sagte „ich <choice>
+                    <orig>hatte</orig>
+                    <reg>hätte</reg>
+                </choice> ihn rufen <lb/>sollen, als ich neulich mit Ihnen <lb/>auf der Terrasse <choice>
+                    <abbr>v</abbr>
+                    <expan>von</expan>
+                </choice>
+                <placeName key="H0010019">Sanssouci</placeName>
+                <lb/>war.“</p>
+            <closer>Dankbarst</closer>
+            <closer>Ihr <lb/>AlHumboldt <dateline><choice>
+                        <abbr>Potsd.</abbr>
+                        <expan>Potsdam</expan>
+                    </choice> Sonntags<address>
+                        <addrLine><choice>
+                                <abbr>
+                                    <pb n="1v"/>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren</addrLine>
+                        <addrLine>Herrn Professor Kunth </addrLine>
+                        <addrLine><choice>
+                                <abbr>Schüzenstr.</abbr>
+                                <expan>Schützenstraße</expan>
+                            </choice>
+                            <choice>
+                                <abbr>n</abbr>
+                                <expan>numero</expan>
+                            </choice> 7</addrLine>
+                        <addrLine>AlHumboldt</addrLine>
+                    </address>
+                </dateline>
+            </closer>
+        </body>
+    </text>
+</TEI>

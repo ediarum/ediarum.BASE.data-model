@@ -1,0 +1,1534 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" xml:id="H0006180" oldID="avhr_a1z_zb1_px">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ac – Flora der Krim und des Kaukasus</title>
+                <editor>
+                    <persName ref=" http://d-nb.info/gnd/1076202020">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref=" http://d-nb.info/gnd/1057364150">
+                        <surname>Leitner</surname>
+                        <forename>Ulrike</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial"><p>Verfasser des Manuskripts ist wahrscheinlich der Botaniker und kaiserlich-russische Staatsrat
+                            <persName key="H0013953">Friedrich August Marschall von
+                            Bieberstein</persName>. Mehrere Forschungreisen führten Marschall von
+                        Bieberstein auf die Krim, in den Kaukasus und ans Kaspische Meer. Sein
+                        Hauptwerk ist die dreibändige „Flora taurico-caucasica“ (<bibl sameAs="zotero-667230-UUIEQ92Q">Marschall von Bieberstein
+                            1808–1819</bibl>). Das vermutlich als Antwort auf Fragen Humboldts
+                        abgefasste Dokument enhält eine Auflistung der auf der Krim (Taurische
+                        Halbinsel) und im Kaukasus vorkommenden Pflanzenfamilien, angeordnet nach
+                        dem Linné'schen System, sowie ergänzende Erläuterungen zur
+                        Pflanzengeographie der behandelten Regionen. Karl Sigismund Kunth verweist
+                        auf diese kommentierte Pflanzenliste in seiner 1825 angelegten <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der
+                            Pflanzen</ref> unter der Nr. 28 „Flore du Caucause“ (Sigle <ref xml:id="ed_qjp_kyt_z1b" type="siglum" target="#Geographie_der_Pflanzen_Ac">Ac</ref>). </p></note></notesStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 81a, Bl. 15-16</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2832871</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0013953">Marschall von Bieberstein, Friedrich August
+                    (1768-1826)</persName>
+                <placeName>St. Petersburg</placeName>
+                <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="15r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367402/1200/0/00000001.jpg"/>
+                <table rows="104" cols="10">
+                    <row>
+                        <cell cols="10"><hi rendition="#uu">Dicotyledoneae</hi>
+                            <note place="right" hand="prov_ok1_jwq_ls"><ref xml:id="ed_cqb_3x1_fy" type="siglum" target="#Geographie_der_Pflanzen_Ac">Ac</ref></note></cell>
+                    </row>
+                    <row>
+                        <cell cols="10">I. Polypetalae.</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice><choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>St.</abbr>
+                                <expan>Steppe</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>Casp.</abbr>
+                                <expan>Caspisches Meer</expan>
+                            </choice></cell>
+                        <cell><seg type="comment">
+                                <orig><choice>
+                                        <abbr>C</abbr>
+                                        <expan>Caucaus</expan>
+                                    </choice></orig>
+                                <note xml:id="ngy2_fcp_px">Gemeint ist das kaukasische Vorgebirge.
+                                    Vgl. Biebersteins Erläuterung.</note>
+                            </seg></cell>
+                        <cell><choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>alp.</abbr>
+                                <expan>alpes</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>C</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice></cell>
+                    </row>
+                    <row>
+                        <cell>Ranunculaceae</cell>
+                        <cell rendition="#right">66</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">13</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Berberideae</cell>
+                        <cell rendition="#right"> 2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"> 1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Nymphaeaceae</cell>
+                        <cell rendition="#right"> 2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"> 2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Papaveraceae</cell>
+                        <cell rendition="#right">19</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"> 2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"> 2</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Cruciferae</cell>
+                        <cell rendition="#right">145</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">17</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Capparideae</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Acera</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Hypericeae</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Vites</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Gerania</cell>
+                        <cell rendition="#right">34</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Malvaceae</cell>
+                        <cell rendition="#right">11</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Tiliaceae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Cisteae</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Arioleae</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Rutaceae</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Caryophylleae</cell>
+                        <cell rendition="#right">101</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">12</cell>
+                        <cell rendition="#right">20</cell>
+                        <cell rendition="#right">15</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Frankeniaceae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Lineae</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Mimoseae</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Leguminosae</cell>
+                        <cell rendition="#right">237</cell>
+                        <cell rendition="#right">18</cell>
+                        <cell rendition="#right">28</cell>
+                        <cell rendition="#right">13</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">27</cell>
+                        <cell rendition="#right">21</cell>
+                        <cell rendition="#right">42</cell>
+                        <cell rendition="#right">9</cell>
+                    </row>
+                    <row>
+                        <cell>Rasaceae</cell>
+                        <cell rendition="#right">104</cell>
+                        <cell rendition="#right">15</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">14</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">7</cell>
+                    </row>
+                    <row>
+                        <cell>Myrtheae</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Terebintheae</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Rhamneae</cell>
+                        <cell rendition="#right">12</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Onagrae</cell>
+                        <cell rendition="#right">11</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Salicariae</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Ficoideae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Portulaceae</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Cacteae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Sarifrageae</cell>
+                        <cell rendition="#right">13</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Semperviveae</cell>
+                        <cell rendition="#right">15</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Umbelliferae</cell>
+                        <cell rendition="#right">118</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">19</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">4</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#right">973</cell>
+                        <cell rendition="#right">70</cell>
+                        <cell rendition="#right">59</cell>
+                        <cell rendition="#right">41</cell>
+                        <cell rendition="#right">37</cell>
+                        <cell rendition="#right">116</cell>
+                        <cell rendition="#right">98</cell>
+                        <cell rendition="#right">129</cell>
+                        <cell rendition="#right">30</cell>
+                    </row>
+                    <row>
+                        <cell cols="10">II. Monopetalae.</cell>
+                    </row>
+                    <row>
+                        <cell>Lorantheae</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Caprifoliaceae </cell>
+                        <cell rendition="#right">11</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Rubiaceae</cell>
+                        <cell rendition="#right">41</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Valerianeae</cell>
+                        <cell rendition="#right">18</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Dipsaceae</cell>
+                        <cell rendition="#right">20</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Corymbiferae</cell>
+                        <cell rendition="#right">129</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">12</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">17</cell>
+                        <cell rendition="#right">22</cell>
+                        <cell rendition="#right">19</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Cynareae</cell>
+                        <cell rendition="#right">96</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">17</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">18</cell>
+                        <cell rendition="#right">3</cell>
+                    </row>
+                    <row>
+                        <cell>Cichoraceae</cell>
+                        <cell rendition="#right">93</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right">14</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right">11</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Cucurbitaceae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Campanulaceae</cell>
+                        <cell rendition="#right">25</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Ericeae</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">3</cell>
+                    </row>
+                    <row>
+                        <cell>Rhodoreae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Guajacaneae</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Apocyneae</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>St.</abbr>
+                                <expan>Steppe</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>Casp.</abbr>
+                                <expan>Caspisches Meer</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>alp.</abbr>
+                                <expan>alpes</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice></cell>
+                    </row>
+                    <row>
+                        <cell>Gentianeae</cell>
+                        <cell rendition="#right">20</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Polemoniaceae</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Convolvulaceae</cell>
+                        <cell rendition="#right">13</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Borragineae</cell>
+                        <cell rendition="#right">55</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Solaneae</cell>
+                        <cell rendition="#right">27</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Scrophulareae</cell>
+                        <cell rendition="#right">22</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Labiatae</cell>
+                        <cell rendition="#right">113</cell>
+                        <cell rendition="#right">13</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">18</cell>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Pyrenaceae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Jasmineae</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Orobancheae</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Pediculareae</cell>
+                        <cell rendition="#right">48</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Globulariae</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Lysimachiae</cell>
+                        <cell rendition="#right">21</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                    </row>
+                    <row>
+                        <cell>Polygaleae</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#right">801</cell>
+                        <cell rendition="#right">58</cell>
+                        <cell rendition="#right">38</cell>
+                        <cell rendition="#right">45</cell>
+                        <cell rendition="#right">30</cell>
+                        <cell rendition="#right">109</cell>
+                        <cell rendition="#right">86</cell>
+                        <cell rendition="#right">107 </cell>
+                        <cell rendition="#right">21</cell>
+                    </row>
+                    <row>
+                        <cell cols="10">III. Incompletae.</cell>
+                    </row>
+                    <row>
+                        <cell>Staticeae</cell>
+                        <cell rendition="#right"> 9</cell>
+                        <cell/>
+                        <cell> </cell>
+                        <cell rendition="#right"> 1</cell>
+                        <cell rendition="#right"> 3</cell>
+                        <cell rendition="#right"> 1</cell>
+                        <cell> </cell>
+                        <cell> 2</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>Plantagineae</cell>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Amarantheae</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Aristolochiae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Eloeagneae</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Thymelaeae</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Laurinae</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Polygoneae</cell>
+                        <cell rendition="#right">24</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Atripliceae</cell>
+                        <cell rendition="#right">63</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">18</cell>
+                        <cell rendition="#right">29</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Euphorbiaceae</cell>
+                        <cell rendition="#right">32</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Urticeae</cell>
+                        <cell rendition="#right">11</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Amentaceae</cell>
+                        <cell rendition="#right">24</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">4</cell>
+                    </row>
+                    <row>
+                        <cell>Cupressinae</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                    </row>
+                    <row>
+                        <cell>Fraxineae</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#right">199</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">23</cell>
+                        <cell rendition="#right">42</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">23</cell>
+                        <cell rendition="#right">13</cell>
+                    </row>
+                    <row>
+                        <cell cols="10">IV. Polycotyledonae </cell>
+                    </row>
+                    <row>
+                        <cell>Coniferae     </cell>
+                        <cell rendition="#right"> 4</cell>
+                        <cell> </cell>
+                        <cell rendition="#right"> 1</cell>
+                        <cell> </cell>
+                        <cell/>
+                        <cell/>
+                        <cell rendition="#right"> 1</cell>
+                        <cell rendition="#right"> 1</cell>
+                        <cell rendition="#right"> 1</cell>
+                    </row>
+                    <row>
+                        <cell cols="10"><hi rendition="#uu">Monocotylendoneae</hi></cell>
+                    </row>
+                    <row>
+                        <cell>Orchideae </cell>
+                        <cell rendition="#right"> 40</cell>
+                        <cell rendition="#right"> 4</cell>
+                        <cell rendition="#right"> 2</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell rendition="#right"> 8</cell>
+                        <cell> </cell>
+                        <cell rendition="#right"> 5</cell>
+                        <cell> 17</cell>
+                    </row>
+                    <row>
+                        <cell>Irideae</cell>
+                        <cell rendition="#right">21</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">8</cell>
+                        <cell rendition="#right">3</cell>
+                    </row>
+                    <row>
+                        <cell>Narcisseae</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Asphodeleae</cell>
+                        <cell rendition="#right">43</cell>
+                        <cell rendition="#right">11</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">2</cell>
+                    </row>
+                    <row>
+                        <cell>Lilia</cell>
+                        <cell rendition="#right">12</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Merenderae</cell>
+                        <cell rendition="#right">7</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Alismeae</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Junceae</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Asparageae</cell>
+                        <cell rendition="#right">16</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">1</cell>
+                    </row>
+                    <row>
+                        <cell>Aroideae</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Gramina</cell>
+                        <cell rendition="#right">139</cell>
+                        <cell rendition="#right">10</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">12</cell>
+                        <cell rendition="#right">12</cell>
+                        <cell rendition="#right">12</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">12</cell>
+                        <cell rendition="#right">5</cell>
+                    </row>
+                    <row>
+                        <cell>Cyperoideae</cell>
+                        <cell rendition="#right">50</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">9</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">2</cell>
+                        <cell rendition="#right">3</cell>
+                    </row>
+                    <row>
+                        <cell>Typheae</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Nojades</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#right">360</cell>
+                        <cell rendition="#right">42</cell>
+                        <cell rendition="#right">19</cell>
+                        <cell rendition="#right">18</cell>
+                        <cell rendition="#right">33</cell>
+                        <cell rendition="#right">46</cell>
+                        <cell rendition="#right">17</cell>
+                        <cell rendition="#right">40</cell>
+                        <cell rendition="#right">31</cell>
+                    </row>
+                    <row>
+                        <cell cols="10"><pb n="15v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367402/1200/0/00000002.jpg"/><hi rendition="#uu">Acotyledonae</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice>
+                        </cell>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice>
+                        </cell>
+                        <cell><choice>
+                                <abbr>St.</abbr>
+                                <expan>Steppe</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>Casp.</abbr>
+                                <expan>Caspisches Meer</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>alp.</abbr>
+                                <expan>alpes</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice></cell>
+                        <cell><choice>
+                                <abbr>T.</abbr>
+                                <expan>Taurus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>C.</abbr>
+                                <expan>Caucasus</expan>
+                            </choice>
+                            <choice>
+                                <abbr>m.</abbr>
+                                <expan>montes</expan>
+                            </choice></cell>
+                    </row>
+                    <row>
+                        <cell>Equisetaceae</cell>
+                        <cell rendition="#right"> 3 </cell>
+                        <cell rendition="#right">1</cell>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Narsileaceae</cell>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Lycopodaceae</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell>Filices</cell>
+                        <cell rendition="#right">18</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">5</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#right">24</cell>
+                        <cell rendition="#right">1</cell>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right"/>
+                        <cell rendition="#right">3</cell>
+                        <cell rendition="#right">6</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right">4</cell>
+                        <cell rendition="#right"/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#right">2357<note hand="#author" place="right"><choice>
+                                    <abbr><hi rendition="#uu">NB</hi></abbr>
+                                    <expan>Nota Bene</expan>
+                                </choice> die Summen sind <lb/>nicht richtig addirt.</note></cell>
+                        <cell rendition="#right">178</cell>
+                        <cell rendition="#right">126</cell>
+                        <cell rendition="#right">127</cell>
+                        <cell rendition="#right">145</cell>
+                        <cell rendition="#right">280</cell>
+                        <cell rendition="#right">216</cell>
+                        <cell rendition="#right">304</cell>
+                        <cell rendition="#right">96</cell>
+                    </row>
+                    <note hand="#author" place="right"/>
+                </table>
+                <p>Die <placeName key="H0000489">Taurische Halbinsel</placeName> beträgt ungefähr
+                        <space dim="horizontal" unit="words" quantity="1"/> vom Flächeninhalt
+                        <?oxy_comment_start author="paessler" timestamp="20170113T114755+0100" comment="Brieftext mit UL kollationiert, 13.01.17"?><lb><?oxy_comment_end?></lb>des
+                    ganzen Landstrichs und enthält 304. ihr eigenthümliche <lb/>Pflanzen, also etwa
+                    den 8<hi rendition="#sup"><hi rendition="#u">ten</hi></hi> Theil des <subst>
+                        <del rendition="#s">ganzen</del>
+                        <add place="across">Ganzen</add></subst>. Von diesen <lb/>304 fallen
+                    <?oxy_comment_start author="paessler" timestamp="20161014T082849+0200" comment="T.m."?>auf
+                    den schmalen aber warmen Strich längst <lb/>der südlichen Küste <placeName key="H0000489">Tauriens</placeName> 126, also circa ⅖ der <placeName key="H0000489">Taurien</placeName>
+                    <lb/>eigenthümlichen
+                    Gewächse.<?oxy_comment_end?><?oxy_comment_start author="paessler" timestamp="20161014T082811+0200" comment=" = T."?>
+                    Auch die Zahl 178 für den <choice>
+                        <abbr>nördl.</abbr>
+                        <expan>nördlichen</expan>
+                    </choice>
+                    <lb/>Abhang des <placeName key="H0000490">taurischen Gebirges</placeName> und
+                    die Steppen bei <lb/><placeName key="H0008214">Perecop</placeName> ist sehr
+                    bedeutend. <?oxy_comment_end?></p>
+                <p>1<?oxy_comment_start author="paessler" timestamp="20161014T082915+0200" comment="= St."?>27.
+                    Pflanzen gehören eigenthümlich den Steppen im <lb/>Norden des <placeName key="H0000394">Caucasus</placeName> und <placeName key="H0000489">Tauriens</placeName>, die ganz niedrigen
+                    <?oxy_comment_start author="paessler" timestamp="20161014T081816+0200" comment=" = Casp" mid="4"?><lb/><?oxy_comment_end?>Gegenden
+                    am <placeName key="H0000384">Caspischen Meere</placeName> ausgenommen, die die
+                    <lb/>große Zahl von 145 geben; ein Beweis der Eigenthüm<g ref="#typoHyphen"/><lb break="no"/>lichkeit des Bodens<supplied cert="high">,</supplied> nicht des
+                    Reichthums an Pflanzen.<?oxy_comment_end mid="4"?></p>
+                <p><?oxy_comment_start author="paessler" timestamp="20161014T083017+0200" comment="= C."?>Der
+                    lange Strich der <placeName key="H0000394">Kaukasischen Vorgebirge</placeName>
+                    <lb/>im Norden vom <placeName key="H0002581">Asowschen</placeName> bis zum
+                        <placeName key="H0000384">Kaspischen Meere</placeName>
+                    <lb/>etwa <space dim="horizontal" unit="words" quantity="1"/> des Ganzen, enthält
+                    nur 280 eigen<g ref="#typoHyphen"/><lb break="no"/>thümliche Pflanzen, ob zwar
+                    das schon ziemlich <lb/>hohe Gebirge <subst>
+                        <del rendition="#s">vom</del>
+                        <add place="intralinear">um</add>
+                    </subst>
+                    <placeName key="ed_sjn_sjs_l1b">Nartsana</placeName> mitgerechnet
+                    ist.<lb/><?oxy_comment_end?></p>
+                <p><?oxy_comment_start author="paessler" timestamp="20161014T083228+0200" comment="C. alp."?>Die
+                    noch wenig untersuchte Alpenkette hat <lb/>216 Gewächse gegeben, ob zwar
+                    eigentlich nur drei <lb/>kleine Gegenden derselben etwas bekannt sind.
+                    <lb/>nemlich der Weg von <placeName key="H0000376">Casbek</placeName> bis <subst>
+                        <add place="intralinear"><del rendition="#s"><gap quantity="1" unit="words"/></del><placeName key="ed_kvl_h1r_y1b">Kajschaur</placeName></add></subst>; <lb/>der <placeName key="ed_yfn_g3q_y1b">Schagdagh</placeName>, und
+                    der <placeName key="ed_frt_w3q_y1b">Tyfendagh</placeName> im Oestlichen
+                        <placeName key="H0000394">Kaukasus</placeName>.<?oxy_comment_end?></p>
+                <p><pb n="16r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367402/1200/0/00000003.jpg"/><?oxy_comment_start author="paessler" timestamp="20161014T081657+0200" comment="= C. m"?>Der <choice>
+                        <abbr>südl.</abbr>
+                        <expan>südliche</expan>
+                    </choice> Abhang der <placeName key="H0000394">Kaukasischen
+                        Vorgebirge</placeName>, die Ebenen <lb/>am untern <placeName key="ed_g2v_fmq_y1b">Kur</placeName>, das <placeName key="ed_ywk_kgq_y1b">Imeretische Quergebirge</placeName> und die <lb/>Vorgebirge der hohen
+                    <?oxy_comment_start author="paessler" timestamp="20170821T192709+0200" comment="= Armenien, noch auszeichnen. "?>Armenischen<?oxy_comment_end?>
+                    Kette, sämtlich, <lb/>bis auf die nächste Umgebung von <placeName key="H0009378">Tiflis</placeName>, nur sehr <lb/>flüchtig untersucht, haben 304 Pflanzen
+                    geliefert, <lb/><?oxy_comment_end?>gerade so viel wie die <placeName key="H0000489">Krimmische Halbinsel</placeName>. <lb/>Es ist aber
+                    wahrscheinlich noch lange die Hälfte <lb/>der Pflanzen nicht bekannt.</p>
+                <p><?oxy_comment_start author="paessler" timestamp="20161014T083437+0200" comment="T. C.m."?>Von
+                    den im <placeName key="H0000394">Kaukasus</placeName> vorkommenden Gewächsen
+                    <lb/>findet man auf dem höhern <placeName key="H0000490">Taurischen
+                        Gebirge</placeName>
+                    <lb/>96, die als subalpin angesehen sind;<?oxy_comment_end?> die übrigen
+                    <lb/>885 sind mehr oder weniger den niedern <lb/>Bergen und den Steppen
+                        <placeName key="H0000489">Tauriens</placeName> und im Norden <lb/>des
+                        <placeName key="H0000394">Kaukasus</placeName> gemeinschaftlich; noch ein
+                    Beweiß, <lb/>wenn man übrigens daran zweifeln könnte, <lb/>daß <placeName key="H0000489">Taurien</placeName> eigentlich nur ein vom <placeName key="H0000394">Kaukasus</placeName>
+                    <lb/>abgerissenes Stück ist, dem die korrespon<g ref="#typoHyphen"/><lb break="no"/>dierende Alpenkette fehlt. Vor der ungeheuren <lb/>Erdrevolution
+                    die diesen nunmehr fehlenden <lb/>Alpenstrich in die Tiefe des <placeName key="H0010175">Meeres</placeName> ver<g ref="#typoHyphen"/><lb break="no"/>senkte, mag auch die Verbindung des <lb/><placeName key="H0000394">Kaukasus</placeName> mit dem <placeName key="H0000489">Taurus</placeName>
+                    <subst>
+                        <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <add place="superlinear"><placeName key="H0000426">Kleinasiens</placeName></add>
+                    </subst> deutlicher <lb/>gewesen sein, von der jetzt kaum noch <lb/>in dem
+                        <placeName key="ed_ywk_kgq_y1b">Imeretischen Quergebirge</placeName> Spuren
+                        existiren.<pb n="16v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367402/1200/0/00000004.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,2973 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="document avhr" oldID="avhr_2783_29903" xml:id="H0016409">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>F – Énumération des Plantes de la Province de Quito</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName>
+                        <surname>Göhmann</surname>
+                        <forename>Karin</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://catalogue.bnf.fr/ark:/12148/cb16542070b">
+                        <surname>Barbasetti</surname>
+                        <forename>Laurence</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                        Wissenschaften (BBAW)</ref>
+                </publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">
+                    <p>Humboldts „Énumération des Plantes de la Province de Quito“ weist ein
+                        außergewöhnliches Format auf: Die Pflanzenliste besteht aus drei schmalen
+                        Papierstreifen von insgesamt dreieinhalb Meter Länge. </p>
+                    <p>Die Liste stellt eine Flora der Provincia de Quito dar, gegliedert in drei
+                        Höhenstufen: heiße Region von 0 bis 300 Toisen (0 bis circa 600 Meter),
+                        gemäßigte Region von 1100 bis 1600 Toisen (circa 2100 bis 3100 Meter) und
+                        kalte Region von 1600 bis 2460 Toisen (circa 3100 bis 4800 Meter). Die Arten
+                        und Höhenangaben entnahm Humboldt den Bänden der „Nova genera et species
+                        plantarum“ (<bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth
+                            1815–1825</bibl>) bis zur 29. Lieferung (Schluss des 6. Bandes), die im
+                        September/Oktober 1824 erschien (vgl. <bibl sameAs="zotero-667230-384RP7BM">Fiedler/Leitner 2000</bibl>, 313). Möglicherweise bildet diese
+                        Zusammenstellung eine Vorstufe zur „Distributio Geographica Plantarum
+                        Aequinoctialium Orbis Novi“, dem letzten, den Regionalfloren gewidmeten
+                        Abschnitt des 7. Bandes der „Nova genera“. Dort findet sich die Flora
+                        Quitensis in der Quartausgabe auf den Seiten 377–413 (vgl. Sigle <ref target="#Geographie_der_Pflanzen_E" type="siglum" xml:id="ed_mln_wsb_bbb">E</ref>). Humboldts der Auflistung beigelegte
+                        Analyse (Blatt 1r und 1v des vorliegenden Dokuments) zeigt sein
+                        Problembewusstsein gegenüber der pflanzenarithmetischen Methode: Da Bonpland
+                        und er sich nur sehr kurz in der Ebene bzw. heißen Höhenstufe aufgehalten
+                        hatten, konnten sie dort auch nur entsprechend wenig Arten aufnehmen.
+                        Ähnlich verhielt es sich mit der kalten Region. Aussagen über die
+                        Verhältnisse der Pflanzenfamilien ließen sich daher höchstens für die
+                        gemäßigte Region treffen (siehe dazu auch <bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth
+                        1815–1825</bibl>, VII, 379). In der <ref target="H0000005">Ideensammlun g
+                            zur Neuausgabe der Geographie der Pflanzen</ref> trägt das vorliegende
+                        Dokument die Nummer 15 und die Bezeichnung „Flor von Quito“ (Sigle <ref target="#Geographie_der_Pflanzen_F" type="siglum" xml:id="ed_fwx_l5b_bbb">F</ref>).</p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 33, Bl. 1–6</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1035563</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
+                <placeName key="H0008129">Paris</placeName>
+                <date cert="high" notAfter="1824-11-30" notBefore="1824-09-30"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000051.jpg" n="6r"/>
+                <p>
+                    <ref target="#Geographie_der_Pflanzen_F" type="siglum" xml:id="ed_g4z_xll_j1b">F</ref>
+                </p>
+                <p>Énumération <lb/>des <lb/>Plantes de la <placeName key="H0010784"><choice>
+                            <abbr>Prov.</abbr>
+                            <expan>Province</expan>
+                        </choice> de Quito</placeName></p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000052.jpg" n="6v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000001.jpg" n="1r"/>
+                <p>Relevé de nos plantas de
+                        <?oxy_comment_start author="paessler" timestamp="20170711T151838+0200" comment="vergleichen mit de Candolles Artikel in Mémoires de la Société d&apos;Arcueil (III, 1813)! Ähnliche Einteilung der Pflanzenarten. "?><lb><?oxy_comment_end?></lb>la
+                        <placeName key="H0010784"><choice>
+                            <abbr>Prov.</abbr>
+                            <expan>Province</expan>
+                        </choice> de Quito</placeName> sans la <placeName key="H0006541"><lb/><choice>
+                            <abbr>Prov.</abbr>
+                            <expan>Province</expan>
+                        </choice> de Jaén de Braca<g ref="#typoHyphen"/><lb break="no"/>moros</placeName>.</p>
+                <milestone rendition="#hr" unit="section"/>
+                <p><choice>
+                        <orig>relevé</orig>
+                        <reg>Relevé</reg>
+                    </choice> avec Cryptogamie jusqu’à <lb/>fin du cahier
+                    29.<?oxy_comment_start author="paessler" timestamp="20170809T115116+0200" comment="Wohl Fasc. 29, das Ende von Band. VI. Kryptogamen beginnen allerdings mit Bd. VII. Vielleicht bedeutet es, dass Fasc. 30 noch nicht gedruckt wurde? - erschien November 1824 
+Vgl. Fiedler/Leitner 313
+Fasciculus = Heft, Lieferung!"?></p>
+                <?oxy_comment_end?>
+                <p>1) Je trouve <hi rendition="#uu">163</hi> espèces <lb/>de <measure quantity="1600" unit="toise">1600</measure>–<measure quantity="2460" unit="toise">2460 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice><supplied cert="high">,</supplied>
+                        <lb/></measure>dont 61 seules au<supplied cert="high">-</supplied><lb break="no"/>dessus de <measure quantity="2000" unit="toise">2000 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>.</p>
+                <p>2) <choice>
+                        <orig>de</orig>
+                        <reg>De</reg>
+                    </choice>
+                    <measure quantity="1100" unit="toise">1100</measure>–<measure quantity="1600" unit="toise">1600 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice><supplied cert="high">,</supplied></measure>
+                    <lb/>il y a <hi rendition="#uu">405</hi> espèces<supplied cert="high">,</supplied>
+                    <lb/>dont ⅔ de <lb/><measure quantity="1300" unit="toise">1300</measure>–<measure quantity="1500" unit="toise">1500 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice>.</measure></p>
+                <p>3) Dans la plaine de <lb/>0–<measure quantity="20" unit="toise">20 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure><supplied cert="high">,</supplied> il y a 68
+                        <lb/>espèces<supplied cert="high">.</supplied></p>
+                <p>163 <supplied cert="high">+</supplied> 406 <supplied cert="high">+</supplied> 68
+                        <supplied cert="high">=</supplied> 636 plantes</p>
+                <p><choice>
+                        <orig>on</orig>
+                        <reg>On</reg>
+                    </choice> voit combien les <lb/>chances inégales, nous <lb/>n’avons fait aucun
+                    <lb/>séjour dans les Plaines, <lb/>on n’a pas recueilli <lb/>ce que l’on avoit
+                    de <lb/><placeName key="H0010783">Quito</placeName>, presque pas <lb/>recueilli
+                    de Mimoses<supplied cert="high">,</supplied>
+                    <lb/>presque pas de Melas<lb break="no"/>tomacées! Donc il <lb/>seroit faux de
+                    tirer <lb/>des conclusions sur propor<lb break="no"/>tions des familles<supplied cert="high">,</supplied> on <lb/>ne pourroit le faire que <lb/>pour la <hi rendition="#u">zone tempérée</hi>
+                    <lb/>au plus<supplied cert="high">.</supplied> Nous n’avons <lb/>pas ⅓ des
+                    plantes <choice>
+                        <abbr>temp</abbr>
+                        <expan>tempérées</expan>
+                    </choice><supplied cert="high">,</supplied>
+                    <lb/>donc il y a pour le <lb/>moins: <table cols="2" rows="3">
+                        <row>
+                            <cell rendition="#right"><choice>
+                                    <abbr>tempérés</abbr>
+                                    <expan>tempérées</expan>
+                                </choice></cell>
+                            <cell>1200 <choice>
+                                    <abbr>sp.</abbr>
+                                    <expan>species</expan>
+                                </choice></cell>
+                        </row>
+                        <row>
+                            <cell rendition="#right"><choice>
+                                    <abbr>chauds</abbr>
+                                    <expan>chaudes</expan>
+                                </choice> …</cell>
+                            <cell>2000</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#right">froides .. </cell>
+                            <cell> 500</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>3700</cell>
+                        </row>
+                    </table>
+                </p>
+                <p>plantes phanérogames<note hand="#author" place="left"><hi rendition="#u">Tournez</hi></note></p>
+                <p><hi rendition="#u">minimum</hi>
+                </p>
+                <p><placeName key="H0004801">France</placeName> 3400 <lb/>phanérogames</p>
+                <p><placeName key="H0008129">Paris</placeName> 1500 <choice>
+                        <abbr>phan</abbr>
+                        <expan>phanérogames</expan>
+                    </choice>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000002.jpg" n="1v"/>
+                <p><choice>
+                        <orig>combien</orig>
+                        <reg>Combien</reg>
+                    </choice>
+                    <choice>
+                        <sic>les</sic>
+                        <corr cert="high">des</corr>
+                    </choice>
+                    <subst>
+                        <del rendition="#s">pla</del>
+                        <add place="intralinear">espèces</add>
+                    </subst>
+                    <lb/>au-dessus de <measure quantity="2000" unit="toise">2000 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure><supplied cert="high">?</supplied>
+                    <choice>
+                        <orig><lb/>ne</orig>
+                        <reg>Ne</reg>
+                    </choice> doivent<supplied cert="high">-</supplied>elles pas <lb/>être
+                    nombreuses lorsqu’<lb break="no"/>on réfléchit que nous <lb/>en avons ramassé 60
+                    <lb/>espèces dans les peu <lb/>d’heures que nous <lb/>avons été à cette
+                    <lb/>hauteur.</p>
+                <p>Demandez à <hi rendition="#u"><persName key="ed_kgb_rcm_j1b">Richard</persName></hi>
+                    <lb/>combien une seule <lb/>personne ramasse<supplied cert="high">,</supplied>
+                    la <lb/>première année des <lb/>1500<supplied cert="high">,</supplied>
+                    phanérogames <lb/>de<placeName key="H0008129"> Paris</placeName>?</p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000003.jpg" n="2r"/>
+                <p>
+                    <list>
+                        <item>Galactia glaucescens <lb/>prope <placeName key="H0008205">Penipe</placeName>
+                            <measure quantity="1240" unit="toise">1240 <choice>
+                                    <abbr>hex</abbr>
+                                    <expan>hexapodes</expan>
+                                </choice></measure></item>
+                        <item>Indigofera tephrosioides<note hand="H0012069" place="right">Lyco<p>L
+                                    L</p><p>C C L Lec</p><p>– L Leci</p></note>
+                            <lb/>prope <placeName key="H0007658">Cuenca</placeName>
+                            <measure quantity="1350" unit="toise">1350 <choice>
+                                    <abbr>hex.</abbr>
+                                    <expan>hexapodes</expan>
+                                </choice></measure></item>
+                        <item>Tephrosia astragalina <lb/><placeName key="H0008205">Penipe</placeName>
+                            <measure quantity="1308" unit="toise">1308 <choice>
+                                    <abbr>hex</abbr>
+                                    <expan>hexapodes</expan>
+                                </choice></measure></item>
+                        <item>Lupinus sarmentosus <choice>
+                                <abbr>Lam.</abbr>
+                                <expan>Lamarck</expan>
+                            </choice><?oxy_comment_start author="paessler" timestamp="20170626T115359+0200" comment="Lamarck, Encyclopédie méthodique. Botanique. Bd. 3, S. 626. Artikel Lupin geschrieben von Desrousseaux, 620-627"?>
+                            <?oxy_comment_end?><lb/><placeName key="H0002477">Antisana</placeName>
+                            <choice>
+                                <abbr>alt.</abbr>
+                                <expan>altitudine</expan>
+                            </choice>
+                            <measure quantity="2000" unit="toise">2000. <choice>
+                                    <abbr>hex.</abbr>
+                                    <expan>hexapodarum</expan>
+                                </choice></measure></item>
+                    </list>
+                    <note hand="H0012069" place="mBottom">
+                        <list>
+                            <item>0–1100</item>
+                            <item>1100–1600</item>
+                            <item>1600–2460</item>
+                        </list>
+                    </note>
+                </p>
+                <p>
+                    <list>
+                        <item rendition="#s">
+                            <del rendition="#s">Caxamarca</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Truxillo</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Peru</del>
+                        </item>
+                    </list>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000004.jpg" n="2v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+            </div>
+            <div>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000007.jpg" n="3a-r"/>
+                <p>Regio frigida de <measure quantity="1600" unit="toise">1600</measure>–<measure quantity="2460" unit="toise">2460 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure><list>
+                        <item>Polypodium tenuifolium <placeName key="H0009574">Tunguragua</placeName> I 9. (<measure quantity="1658" unit="toise">1658 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure>)</item>
+                        <item>Gleichenia revoluta <placeName key="H0010784">Quito</placeName>
+                            <measure quantity="1560" unit="toise">1560 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Lycopodium <subst>
+                                <del rendition="#s">crassunum</del>
+                                <add place="intralinear">crassum</add>
+                            </subst>
+                            <placeName key="H0002477">Antisana</placeName>
+                            <measure quantity="2218" unit="toise">2218 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item rendition="#s"><del rendition="#s">— </del><subst>
+                                <del rendition="#s">linifolium</del>
+                                <add place="intralinear"><del rendition="#s">linifolium</del></add>
+                            </subst><del rendition="#s"> Villa Ibarra 980 t.</del></item>
+                        <item>Carex pichinchensis <measure quantity="2100" unit="toise">2100 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Aristida bromoides <measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Aegopogon cenchroides <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><choice>
+                                <sic>Dejeuxia</sic>
+                                <corr cert="high">Deyeuxia </corr>
+                            </choice> rigida <measure quantity="2200" unit="toise">2200 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Bromus lanatus <measure quantity="2180" unit="toise">2180 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Festuca andicola <measure quantity="1790" unit="toise">1790 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— quadridentata <measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— dasyantha <measure quantity="2260" unit="toise">2260 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Poa mulalensis <measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Melica scabra <measure quantity="1850" unit="toise">1850 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><supplied cert="high">Poa</supplied> dactyloides <measure quantity="2208" unit="toise">2208 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Ischaemum hispidum <measure quantity="2100" unit="toise">2100. <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Luzula alopecurus <measure quantity="2100" unit="toise">2100 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Alstroemeria glaucescens <measure quantity="1840" unit="toise">1840 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Moraea <subst>
+                                <del rendition="#ow">chimborazensis</del>
+                                <add place="across">chimboracensis</add>
+                            </subst>
+                            <measure quantity="1640" unit="toise">1640 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><subst>
+                                <del rendition="#s">Sylirinchium</del>
+                                <add place="intralinear">Sisyrinchium</add>
+                            </subst> pusillum <measure quantity="1500" unit="toise">1500 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Ophrys paleacea <measure quantity="1662" unit="toise">1662 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Lomatia obliqua <measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Oxybaphus glabrifolius <measure quantity="1680" unit="toise">1680 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Plantago rigida <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— nubigena <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— linearis <measure quantity="1700" unit="toise">1700 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000009.jpg" n="3b-r"/>
+                        <item>Gardoquia elegans <measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Thymus nubigenus <measure quantity="2000" unit="toise">2000 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><choice>
+                                <abbr>Castileja</abbr>
+                                <expan>Castilleja</expan>
+                            </choice> nubigena <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><choice>
+                                <sic>Budleja</sic>
+                                <corr cert="high">Buddleja</corr>
+                            </choice> pichinchensis <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Mimulus andicolus <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><subst>
+                                <del rendition="#s">Cac</del>
+                                <add place="intralinear">Calceolaria</add>
+                            </subst> nivalis <lb/><measure quantity="1980" unit="toise">1980 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><choice>
+                                <abbr>Calc.</abbr>
+                                <expan>Calceoloaria</expan>
+                            </choice> saxatilis <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— rosmarinifo<g ref="#typoHyphen"/><lb break="no"/>lia <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— hyssopifolia <measure quantity="1700" unit="toise">1700.</measure></item>
+                        <item>— ericoides <measure quantity="1800" unit="toise">1800<choice>
+                                    <abbr> t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Sibthorpia pichin<lb break="no"/>chensis <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                    </list></p>
+                <p>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>T</abbr>
+                                <expan>Tome</expan>
+                            </choice> III</orig>
+                        <note xml:id="nirr_rs2_x1b"><bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, III. </note>
+                    </seg>
+                </p>
+                <p>
+                    <list>
+                        <item>Witheringia angustifolia <lb/><measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Solanum aureum <measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Anchusa pygmaea <measure quantity="2100" unit="toise"><subst>
+                                    <del rendition="#ow">2000</del>
+                                    <add place="across">2100</add>
+                                </subst>
+                                <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><subst>
+                                <del rendition="#s">Da</del>
+                                <add place="intralinear">Gentiana</add>
+                            </subst>
+                            <subst>
+                                <del rendition="#s">limossloi</del>
+                                <add place="intralinear">
+                                    <lb/>limoselloides</add>
+                            </subst>
+                            <measure quantity="2100" unit="toise">2100</measure></item>
+                        <item><choice>
+                                <abbr>G.</abbr>
+                                <expan>Gentiana</expan>
+                            </choice> rupicola <measure quantity="2500" unit="toise">2500 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— cernua <measure quantity="1700" unit="toise">1700 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— diffusa <measure quantity="2100" unit="toise">2100 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— sedifolia <measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Cynanchum serpyllifolium <lb/><measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Vaccinium empetrifolium <lb/><measure quantity="1650" unit="toise">1650 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— penaeoides <lb/><measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Escallonia tortuosa <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>— berberifolia <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>Lysipomia montioides <subst>
+                                <del rendition="#s">21</del>
+                                <add place="intralinear">
+                                    <measure quantity="2100" unit="toise"><lb/>2100</measure></add>
+                            </subst></item>
+                        <item>— reniformis <measure quantity="2500" unit="toise"><hi rendition="#u">2500</hi></measure></item>
+                        <item>— acaulis <measure quantity="2100" unit="toise">2100</measure></item>
+                        <item>Valeriana rigida <measure quantity="1700" unit="toise">1700 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— aretioides <measure quantity="2000" unit="toise">2000 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— alypifolia <measure quantity="2000" unit="toise"><subst>
+                                    <del rendition="#s">2000</del>
+                                    <add place="intralinear">2000</add>
+                                </subst>
+                                <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— hirtella <measure quantity="2200" unit="toise">2200 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— plantaginea <measure quantity="2000" unit="toise">2000</measure></item>
+                        <item>Spermacoce dichotoma <lb/><measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000011.jpg" n="3c-r"/>
+                        <item>Hedyotis hypnoides <lb/><measure quantity="2400" unit="toise"><hi rendition="#u">2400</hi></measure></item>
+                        <item><choice>
+                                <abbr>H.</abbr>
+                                <expan>Hedyotis</expan>
+                            </choice> serpens <measure quantity="2000" unit="toise">2000 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                    </list>
+                </p>
+                <p>Composées <lb/><seg type="comment">
+                        <orig><choice>
+                                <abbr>T</abbr>
+                                <expan>Tome</expan>
+                            </choice> IV</orig>
+                        <note xml:id="nnpt_gt2_x1b"><bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, IV.</note>
+                    </seg></p>
+                <p>
+                    <list>
+                        <item>Homanthis pungens <measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— multiflorus <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>Chuquiraga insignis <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item><choice>
+                                <sic>Bacharis</sic>
+                                <corr cert="high">Baccharis</corr>
+                            </choice> arbutifolia <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>— <choice>
+                                <sic>gnidifolia</sic>
+                                <corr cert="high">gnidiifolia</corr>
+                            </choice>
+                            <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>Conyza pusilla <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>— cardaminifolia <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>— floribunda <measure quantity="1500" unit="toise">1500</measure></item>
+                        <item>Aster rupestris <measure quantity="1800" unit="toise">1800</measure></item>
+                        <item>— ochraceus <measure quantity="1800" unit="toise">1800</measure></item>
+                        <item>Diplostephium lavand<lb break="no"/>dulifolium <measure quantity="1600" unit="toise">1600.</measure></item>
+                        <item>Andromachia acaulis <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>— nubigena <measure quantity="1800" unit="toise">1800</measure></item>
+                        <item>— volubilis <measure quantity="2000" unit="toise">2000</measure></item>
+                        <item>Eupatorium pichichense <lb/><measure quantity="1750" unit="toise">1750 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— salviaefolium <measure quantity="1800" unit="toise">1800</measure></item>
+                        <item>Dumerilia paniculata <lb/><measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Cacalia teretifolia <lb/><measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— angustifolia</item>
+                        <item>— patens <measure quantity="1700" unit="toise">1700 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— arenaria <measure quantity="1600" unit="toise">1600</measure></item>
+                        <item>— senecioides <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>— humilis <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>Culcitium ledifo<lb break="no"/>lium <measure quantity="2300" unit="toise">2300</measure>–<lb break="no"/><measure quantity="2400" unit="toise">2400</measure></item>
+                        <item>— reflexum <measure quantity="2300" unit="toise">2300</measure></item>
+                        <item>— nivale <measure quantity="2400" unit="toise">2400</measure></item>
+                        <item>— rufescens <measure quantity="2300" unit="toise">2300</measure></item>
+                        <item>Senecio nubigenus <lb/><measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— pulchellus <measure quantity="1800" unit="toise">1800</measure></item>
+                        <item>Werneria rigida <measure quantity="1800" unit="toise"><lb/>1800</measure>–<measure quantity="2000" unit="toise">2000</measure></item>
+                        <item>— humilis <measure quantity="2000" unit="toise">2000</measure></item>
+                        <item>— pumila</item>
+                        <item>— graminifolia} <lb/><measure quantity="2000" unit="toise">2000</measure></item>
+                        <item>— nubigena <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>— disticha <measure quantity="2100" unit="toise">2100</measure></item>
+                        <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000013.jpg" n="3d-r"/>
+                        <item>Senecio <choice>
+                                <abbr>bacharoides</abbr>
+                                <expan>baccharoides</expan>
+                            </choice>
+                            <measure quantity="1800" unit="toise">1800.</measure></item>
+                        <item>Verbesina arborea <lb/><measure quantity="1700" unit="toise">1700 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><subst>
+                                <del rendition="#s">Hely</del>
+                                <add place="sublinear">Helianthus</add>
+                            </subst> argenteus <lb/><measure quantity="2100" unit="toise">2100 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Bidens andicola <lb/><measure quantity="1750" unit="toise">1750 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Wiborgia urti<g ref="#typoHyphen"/><lb break="no"/>caefolia <measure quantity="1700" unit="toise"><lb/>1700</measure></item>
+                        <item>Cacosmia <lb/>rugosa <measure quantity="1700" unit="toise">1700
+                                <lb/></measure>Hippia peduncu<lb break="no"/>laris <measure quantity="1800" unit="toise">1800</measure></item>
+                        <item>Homanthis pinna<lb break="no"/>tifidus <measure quantity="1970" unit="toise">1970 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Myrrhis <?oxy_comment_start author="paessler" timestamp="20170628T130841+0200" comment="Bd. 5, S. 13
+ab hier: Bd. 5"?>andicola<?oxy_comment_end?>
+                            <lb/><measure quantity="2100" unit="toise">2100</measure></item>
+                        <item>Fragosa aretioi<g ref="#typoHyphen"/><lb break="no"/>des <measure quantity="2100" unit="toise">2100.</measure></item>
+                        <item>Pectophytum <lb/>pedunculare <lb/>dès <measure quantity="2100" unit="toise">2100</measure></item>
+                        <item>Eryngium humile <lb/><measure quantity="1900" unit="toise">1900 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Ranunculus nu<g ref="#typoHyphen"/><lb break="no"/>bigenus <measure quantity="2100" unit="toise">2100 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><choice>
+                                <abbr>R.</abbr>
+                                <expan>Ranunculus</expan>
+                            </choice> Gusmanni <lb/><measure quantity="2430" unit="toise">2430 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><choice>
+                                <abbr>R.</abbr>
+                                <expan>Ranunculus</expan>
+                            </choice> peruvianus <lb/><measure quantity="1900" unit="toise">1900 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><choice>
+                                <abbr>R.</abbr>
+                                <expan>Ranunculus</expan>
+                            </choice> praemorsus <measure quantity="2100" unit="toise">2100</measure></item>
+                        <item><choice>
+                                <abbr>R.</abbr>
+                                <expan>Ranunculus</expan>
+                            </choice> sibbaldioides <measure quantity="2100" unit="toise">2100</measure></item>
+                        <item>Draba aretioides <lb/><measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— Bonplandiana <lb/><measure quantity="1900" unit="toise">1900</measure></item>
+                        <item>Eudema rupestris <lb/><measure quantity="2428" unit="toise">2428 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— nubigena <lb/><measure quantity="2428" unit="toise">2428 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Arabis andicola <measure quantity="2200" unit="toise">2200 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Hypericum acerosum <lb/><measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Erodium millefolium <lb/><measure quantity="1600" unit="toise">1600 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Geranium <subst>
+                                <del rendition="#s">diffus</del>
+                                <add place="intralinear">acaule</add>
+                            </subst>
+                            <lb/><measure quantity="2100" unit="toise"><subst>
+                                    <del rendition="#s">1300</del>
+                                    <add place="intralinear">2100</add>
+                                </subst>
+                                <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000015.jpg" n="3e-r"/>
+                        <item>Sidu phyllanthos <lb/><measure quantity="2100" unit="toise">2100 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— pichinchensis <lb/><measure quantity="2356" unit="toise">2356 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Sagina quitensis <measure quantity="1600" unit="toise">1600.</measure></item>
+                        <item>Stellaria serpyllifolia <lb/><measure quantity="2100" unit="toise">2100 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Cerastium imbricatum <lb/><measure quantity="2000" unit="toise">2000 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Arenaria tetra<g ref="#typoHyphen"/><lb break="no"/>gyna <measure quantity="2200" unit="toise">2200</measure></item>
+                        <item>— serpens <placeName key="H0007391"><lb/><choice>
+                                    <abbr>Chimb.</abbr>
+                                    <expan>Chimborazo</expan>
+                                </choice></placeName>
+                            <lb/><measure quantity="1700" unit="toise">1700 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— muscoides. <measure quantity="2000" unit="toise">2000</measure></item>
+                        <item>— <choice>
+                                <sic>dicranioides</sic>
+                                <corr cert="high">dicranoides</corr>
+                            </choice>
+                            <lb/><measure quantity="2100" unit="toise">2100 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Saxifraga andicola <lb/><measure quantity="1700" unit="toise">1700 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Ribes frigidum</item>
+                        <item>Calandrinia acaulis <lb/><measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Montia fontana <lb/><measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>Osteomeles ferru<lb break="no"/>ginea <lb/><measure quantity="1600" unit="toise">1600</measure></item>
+                        <item>Rubus floribundus <lb/><measure quantity="1800" unit="toise">1800 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure>
+                            <lb/>— nubigenus <measure quantity="1700" unit="toise">1700</measure></item>
+                        <item>Alchemilla rupestris <lb/><measure quantity="2250" unit="toise">2250 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Polylepis lanuginosa <lb/>(<placeName key="H0007391"><hi rendition="#u"><choice>
+                                        <abbr>Chimb</abbr>
+                                        <expan>Chimborazo</expan>
+                                    </choice></hi></placeName>) <measure quantity="1700" unit="toise">1700 </measure></item>
+                        <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000017.jpg" n="3f-r"/>
+                        <item>Racodium rupestre <choice>
+                                <abbr>Pers. </abbr>
+                                <expan><persName key="H0001891">Persoon</persName>
+                                </expan>
+                            </choice>(<placeName key="H0002477">Antisana</placeName>). <measure quantity="2250" unit="toise">2250 <choice>
+                                    <abbr>hex</abbr>
+                                    <expan>hexapodes</expan>
+                                </choice></measure></item>
+                        <item>Gyrophora tessellata. <add place="sublinear"><persName key="ed_vqs_5nl_l1b"><choice>
+                                        <abbr>ach.</abbr>
+                                        <expan>Acharius</expan>
+                                    </choice></persName>
+                            </add><placeName key="H0007607">Cotopaxi</placeName> prope <placeName key="H0010402">Suniguaicu</placeName>)</item>
+                        <item><choice>
+                                <abbr>G.</abbr>
+                                <expan>Gyrophora </expan>
+                            </choice>cylindrica <persName key="ed_vqs_5nl_l1b"><choice>
+                                    <abbr>ach.</abbr>
+                                    <expan>Acharius</expan>
+                                </choice></persName> cum praecedente</item>
+                        <item rend="#s" rendition="#s"><del rendition="#s">Graphis serpentina ach.
+                                prope Chilto 1340 hex</del></item>
+                        <item rendition="#s">
+                            <del rendition="#s">Parmelia perlata ach. prope Quito</del>
+                            <del rendition="#s">.</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Borrera furfuracea </del>
+                            <add place="sublinear">
+                                <del rendition="#s">ach.</del>
+                            </add>
+                            <del rendition="#s"> prope alausi alt. 12</del>
+                            <del rendition="#s">48.</del>
+                        </item>
+                        <item>
+                            <add place="superlinear">Bryum argenteum <measure quantity="2370" unit="toise">2370 <choice>
+                                        <abbr>t</abbr>
+                                        <expan>toises</expan>
+                                    </choice></measure></add>
+                        </item>
+                        <item>Borrera <choice>
+                                <sic>flavescens</sic>
+                                <corr cert="high">flavicans</corr>
+                            </choice>. <persName key="ed_vqs_5nl_l1b"><choice>
+                                    <abbr>ach.</abbr>
+                                    <expan>Acharius</expan>
+                                </choice></persName>
+                            <placeName key="H0008253">Pichincha</placeName>
+                            <choice>
+                                <abbr>alt.</abbr>
+                                <expan>altitudo</expan>
+                            </choice>
+                            <measure quantity="2040" unit="toise">2040 </measure></item>
+                        <item>Sticta fuliginosa <persName key="ed_vqs_5nl_l1b"><choice>
+                                    <abbr>ach.</abbr>
+                                    <expan>Acharius</expan>
+                                </choice></persName>
+                            <placeName key="H0008253">Pichincha </placeName><choice>
+                                <abbr>alt.</abbr>
+                                <expan>altitudo</expan>
+                            </choice>
+                            <measure quantity="1950" unit="toise">1950 <choice>
+                                    <abbr>hex</abbr>
+                                    <expan>hexapodarum</expan>
+                                </choice></measure></item>
+                        <item rendition="#s">
+                            <del rendition="#s">Roccella tinctoria ach. Riobamba 1482 hex</del>
+                        </item>
+                        <item><subst>
+                                <del rendition="#s">Cenomyce</del>
+                                <add place="superlinear">Cenomyce</add>
+                            </subst> vermicularis <persName key="ed_vqs_5nl_l1b"><choice>
+                                    <abbr>ach.</abbr>
+                                    <expan>Acharius</expan>
+                                </choice></persName>
+                            <placeName key="H0002477">Antisana</placeName>
+                            <measure quantity="2490" unit="toise">2490</measure></item>
+                        <item>Baeomyces fungoides <persName key="ed_vqs_5nl_l1b"><choice>
+                                    <abbr>ach.</abbr>
+                                    <expan>Acharius</expan>
+                                </choice></persName>
+                            <placeName key="H0011013">Guamote</placeName>
+                            <measure quantity="1600" unit="toise">1600</measure></item>
+                        <item>Stereocaulon botryosum <persName key="ed_vqs_5nl_l1b"><choice>
+                                    <abbr>ach.</abbr>
+                                    <expan>Acharius</expan>
+                                </choice></persName>
+                            <placeName key="H0002477">Antisana</placeName>
+                            <measure quantity="2490" unit="toise">2490</measure></item>
+                        <item rendition="#s"><del rendition="#s">Cornicularia bicolor. ach. (Ticsan
+                                alausi.)</del></item>
+                        <item>Usnea melaxantha <persName key="ed_vqs_5nl_l1b"><choice>
+                                    <abbr>ach.</abbr>
+                                    <expan>Acharius</expan>
+                                </choice></persName> (<placeName key="H0002477">Antisana</placeName>
+                            <measure quantity="1880" unit="toise">1880</measure>)</item>
+                        <item>Collema spongiosum <persName key="ed_vqs_5nl_l1b"><choice>
+                                    <abbr>ach.</abbr>
+                                    <expan>Acharius</expan>
+                                </choice></persName>
+                            <placeName key="H0008253">Pichincha</placeName>
+                            <measure quantity="2402" unit="toise">2402</measure></item>
+                        <item rendition="#s">
+                            <del rendition="#s">Jungermania furcata Hook. (prope Quito)</del>
+                        </item>
+                        <item>Gymnostomum<add place="superlinear">
+                                <subst>
+                                    <add place="superlinear">julaceum</add>
+                                    <del rendition="#s">juleaceum</del>
+                                </subst></add>
+                            <subst>
+                                <del rendition="#s">ach</del>
+                                <add place="superlinear"><persName key="H0011993"><choice>
+                                            <abbr>Hook.</abbr>
+                                            <expan>Hooker</expan>
+                                        </choice></persName></add>
+                            </subst> (<placeName key="H0008253">Pichincha</placeName>
+                            <choice>
+                                <abbr>alt.</abbr>
+                                <expan>altitudo</expan>
+                            </choice>
+                            <measure quantity="2340" unit="toise">2340 <choice>
+                                    <abbr>hex</abbr>
+                                    <expan>hexapodarum</expan>
+                                </choice></measure>)</item>
+                        <item>Polytrichum <subst>
+                                <del rendition="#s">com</del>
+                                <add place="intralinear">juniperinum</add>
+                            </subst>
+                            <choice>
+                                <abbr><choice>
+                                        <abbr>Hedw.</abbr>
+                                        <expan>Hedwig</expan>
+                                    </choice></abbr>
+                                <abbr> </abbr>
+                            </choice><placeName key="H0002477">Antisana</placeName>
+                            <measure quantity="2350" unit="toise">2350 <choice>
+                                    <abbr>hex.</abbr>
+                                    <expan>hexapodes</expan>
+                                </choice></measure></item>
+                    </list>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000008.jpg" n="3a-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000010.jpg" n="3b-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000012.jpg" n="3c-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000014.jpg" n="3d-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000016.jpg" n="3e-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000018.jpg" n="3f-v"/>
+                <p>
+                    <list>
+                        <item rendition="#s">
+                            <del rendition="#s">Bryum megalocarpum inter <placeName key="H0009554">Tulcans</placeName> et <placeName key="H0010783">Quito</placeName>
+                            </del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Hypnum pallidum cum praecedente</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Hypnum andicola cum praecedente</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Polypodium </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">angustifol.</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">angustifolium</del>
+                                </expan>
+                            </choice>
+                            
+                            <persName key="H0016188">
+                                <choice>
+                                    <abbr>
+                                        <del rendition="#s">Sw.</del>
+                                    </abbr>
+                                    <expan>
+                                        <del rendition="#s">Swartz</del>
+                                    </expan>
+                                </choice>
+                            </persName>
+                            <placeName key="H0002368">
+                                <del rendition="#s">Alausí</del>
+                            </placeName>
+                            <del rendition="#s">
+                                <placeName key="H0008469">Pumallacta</placeName> 1450</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Polypodium </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">tenuifol.</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">tenuifolium</del>
+                                </expan>
+                            </choice>
+                            <del rendition="#s"> </del>
+                            <persName key="H0006403">
+                                <choice>
+                                    <abbr>
+                                        <del rendition="#s">W.</del>
+                                    </abbr>
+                                    <expan>
+                                        <del rendition="#s">Willdenow</del>
+                                    </expan>
+                                </choice>
+                            </persName>
+                            <del rendition="#s"> (</del>
+                            <placeName key="H0009574">
+                                <del rendition="#s">Tunguragua </del>
+                            </placeName>
+                            <del rendition="#s">1658)</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Pteris sagittata </del>
+                            <persName key="H0016188">
+                                <choice>
+                                    <abbr>
+                                        <del rendition="#s">Sw.</del>
+                                    </abbr>
+                                    <expan>
+                                        <del rendition="#s">Swartz</del>
+                                    </expan>
+                                </choice>
+                            </persName>
+                            <del rendition="#s"> </del>
+                            <placeName key="H0007379">
+                                <choice>
+                                    <sic>
+                                        <del rendition="#s">Chilo</del>
+                                    </sic>
+                                    <corr cert="high">
+                                        <del rendition="#s">Chillo</del>
+                                    </corr>
+                                </choice>
+                            </placeName>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">alt.</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">altitudo</del>
+                                </expan>
+                            </choice>
+                            <del rendition="#s"> 1370 </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">hex</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">hexapodes</del>
+                                </expan>
+                            </choice>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Lomaria angustifolia </del>
+                            <placeName key="H0006637">
+                                <del rendition="#s">Ibarra</del>
+                            </placeName>
+                            <del rendition="#s"> 1184</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Cheilanthes marginata <choice>
+                                    <abbr>alt.</abbr>
+                                    <expan>altitudo</expan>
+                                </choice>
+                            </del>
+                            <placeName key="H0008205">
+                                <del rendition="#s">Penipe</del>
+                            </placeName>
+                            <del rendition="#s"> 1300</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Gleichenia revoluta (</del>
+                            <placeName key="H0010116">
+                                <del rendition="#s">Saraguru</del>
+                            </placeName>
+                            <del rendition="#s"> et <placeName key="H0008465">Pulla</placeName> 1560 </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">hex</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">hexapodes</del>
+                                </expan>
+                            </choice>
+                            <del rendition="#s">)</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Lycopodium crassum ( </del>
+                            <placeName key="H0007462">
+                                <del rendition="#s">Chussulongo</del>
+                            </placeName>
+                            <del rendition="#s"> 2218 </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">hex</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">hexapodes</del>
+                                </expan>
+                            </choice>
+                            <del rendition="#s">)</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Lycopodium linifolium </del>
+                            <persName key="H0004551">
+                                <choice>
+                                    <abbr>
+                                        <del rendition="#s">L.</del>
+                                    </abbr>
+                                    <expan>
+                                        <del rendition="#s">Linné</del>
+                                    </expan>
+                                </choice>
+                                <del rendition="#s"> </del>
+                            </persName>
+                            <placeName key="H0006637">
+                                <del rendition="#s">Ibarra </del>
+                            </placeName>
+                            <del rendition="#s">980 </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">hex</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">hexapodes</del>
+                                </expan>
+                            </choice>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Piper tumidum in montanis </del>
+                            <placeName key="H0010784">
+                                <del rendition="#s">Regni Quitensis</del>
+                            </placeName>
+                            <del rendition="#s"> </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">alt.</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">altitudo</del>
+                                </expan>
+                            </choice>
+                            <del rendition="#s"> 1500 </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">hex.</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">hexapodes</del>
+                                </expan>
+                            </choice>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Piper piluliferum </del>
+                            <placeName key="H0007658">
+                                <del rendition="#s">Cuenca</del>
+                            </placeName>
+                            <del rendition="#s"> </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">alt.</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">altitudo</del>
+                                </expan>
+                            </choice>
+                            <del rendition="#s"> 1400 </del>
+                            <choice>
+                                <abbr>
+                                    <del rendition="#s">hex</del>
+                                </abbr>
+                                <expan>
+                                    <del rendition="#s">hexapodes</del>
+                                </expan>
+                            </choice>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Piper barbatum inter </del>
+                            <placeName key="H0011466">
+                                <del rendition="#s">Lloa</del>
+                            </placeName>
+                            <del rendition="#s"> et </del>
+                            <placeName key="H0010783">
+                                <del rendition="#s">Quito</del>
+                            </placeName>
+                            <del rendition="#s"> 1492</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Peperomia peploides </del>
+                            <placeName key="H0009038">
+                                <del rendition="#s">Mulalo </del>
+                            </placeName>
+                            <del rendition="#s">1590</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s"><gap quantity="1" unit="words"/> Cyperus aureus </del>
+                            <placeName key="H0011115">
+                                <del rendition="#s">Guayaquil</del>
+                            </placeName>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Mariscus polyphyllus </del>
+                            <placeName key="H0007379">
+                                <del rendition="#s">Chillo</del>
+                            </placeName>
+                            <del rendition="#s"> 1350</del>
+                        </item>
+                        <item rendition="#s">
+                            <del rendition="#s">Papyrus comosa </del>
+                            <placeName key="H0011115">
+                                <del rendition="#s">Guayaquil</del>
+                            </placeName>
+                        </item>
+                    </list>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000021.jpg" n="4a-r"/>
+                <p>Regio calida 0–<measure quantity="300" unit="toise">300 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure> et même à <measure quantity="1100" unit="toise">1100 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure></p>
+                <p>
+                    <list>
+                        <item>Cyperus aureus <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Papyrus comosa <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Scirpus <subst>
+                                <del rendition="#s">elegand</del>
+                                <add place="intralinear">elegans</add>
+                            </subst>
+                            <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Paspalum conjugatum <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— vaginatum <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Cenchrus pungens <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Chloris radiata <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Bambusa <choice>
+                                <sic>gudua</sic>
+                                <corr cert="high">guadua</corr>
+                            </choice>
+                            <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><subst>
+                                <del rendition="#s">Heth</del>
+                                <add place="intralinear">Heteranthera</add>
+                            </subst> reniformis <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Cocos nucifera <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Epidendrum Vanilla <measure quantity="20" unit="toise">20<choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Mertensia pubescens <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Cecropia peltata <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Croton glandulosus <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— rivinifolius <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— alnifolius <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Dalechampia hibiscoides <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Jatropha urens <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Carica papaya <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Clerodendrum molle <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Vitex gigantea <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><choice>
+                                <sic>Cytharexylum</sic>
+                                <corr cert="high">Citharexylum</corr>
+                            </choice> molle <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Lippia <subst>
+                                <del rendition="#s">citrod</del>
+                                <add place="intralinear">citriodora</add>
+                            </subst>
+                            <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Priva echinata <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Avicennia tomentosa <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Datura guayaquilensis <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Lycium guayaquilense <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                    </list>
+                </p>
+                <p>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000023.jpg" n="4b-r"/>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>T</abbr>
+                                <expan>Tome</expan>
+                            </choice> III</orig>
+                        <note xml:id="nszt_4t2_x1b"><bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, III.</note>
+                    </seg>
+                </p>
+                <p>
+                    <list>
+                        <item>Tournefortia <subst>
+                                <del rendition="#s">pli</del>
+                                <add place="intralinear">psilostachya</add>
+                            </subst>
+                            <lb/><measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— cuspidata</item>
+                        <item>Convolvulus abutiloides <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Crescentia cujete <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Prestonia glabrata <measure quantity="20" unit="toise">20
+                            </measure></item>
+                        <item>Machaonia acuminata <lb/><measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Cinchona caduciflora <measure quantity="500" unit="toise">500 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— scrobiculata <measure quantity="500" unit="toise">500 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Genipa americana <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Lycopodium linifolium <lb/><measure quantity="980" unit="toise">980 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Mussaenda pubescens <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Pacourina <choice>
+                                <sic>cirsifolia</sic>
+                                <corr cert="high">cirsiifolia</corr>
+                            </choice>
+                            <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Conyza lyrata <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Mikania tafallana <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Anona uliginosa <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— cherimolia <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— bonplandiana <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Cissampelos guayaquilensis <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Capparis guayaquilensis <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Ionidium circaeoides <lb/><measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Tribulus maximus <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Conocarpus erectus <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Myrtus guayaquilensis <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>Melastoma guayaquilense</item>
+                        <item>Adenaria purpurata <lb/><measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— floribunda <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item><subst>
+                                <del rendition="#s">Ac</del>
+                                <add place="intralinear">Acacia</add>
+                            </subst> macra<g ref="#typoHyphen"/><lb break="no"/>cantha <measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— cochliacantha <lb/><measure quantity="20" unit="toise">20 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></item>
+                        <item>— acantholoba</item>
+                        <item>— guachapele.</item>
+                        <item>Inga candida.</item>
+                    </list>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000022.jpg" n="4a-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000024.jpg" n="4b-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000029.jpg" n="5a-r"/>
+                <p>Regio frigida <lb/>de <measure quantity="1100" unit="toise">1100 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure>–<measure quantity="1600" unit="toise">1600 <choice>
+                            <abbr>t</abbr>
+                            <expan>toises</expan>
+                        </choice></measure><note hand="#author" place="right">pas <placeName key="H0007391"><choice>
+                                <abbr>Chimboraz</abbr>
+                                <expan>Chimborazo</expan>
+                            </choice>
+                        </placeName><lb/>seul mais <lb/><placeName key="H0007607">Cotopaxi</placeName><supplied cert="high">,</supplied>
+                        <lb/><placeName key="H0009574"><choice>
+                                <abbr>Tungurag</abbr>
+                                <expan>Tunguragua</expan>
+                            </choice></placeName><supplied cert="high">,</supplied>
+                        <placeName key="H0008253"><choice>
+                                <abbr>Pich</abbr>
+                                <expan>Pichincha</expan>
+                            </choice></placeName><supplied cert="high">,</supplied>
+                        <lb/><placeName key="H0002477"><choice>
+                                <abbr>Antisan</abbr>
+                                <expan>Antisana</expan>
+                            </choice></placeName> et <placeName key="H0002454">Andes</placeName>
+                        <lb/>de <placeName key="H0010783">Quito</placeName>
+                        <lb/>en <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <lb/>général<supplied cert="high">.</supplied></note></p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <note hand="#author" place="right"><choice>
+                                    <abbr>H</abbr>
+                                    <expan>Humboldt</expan>
+                                </choice> et <choice>
+                                    <abbr>Bonpl</abbr>
+                                    <expan>Bonpland</expan>
+                                </choice><supplied cert="high">,</supplied>
+                                <choice>
+                                    <sic><lb/><unclear cert="high" reason="illegible">voiez</unclear></sic>
+                                    <corr cert="high">voyez</corr>
+                                </choice> Kunth.</note>
+                        </orig>
+                        <note xml:id="ngvs_rt2_x1b"><bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>.</note>
+                    </seg>
+                </p>
+                <list>
+                    <item>
+                        <add place="right">Polypodium angustifolium <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></add>
+                    </item>
+                    <item>
+                        <add place="right">Lycopodium linifolium <lb/><measure quantity="1000" unit="toise">1000 <choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure></add>
+                    </item>
+                    <item>Pteris sagittata <placeName key="H0007379">Chillo</placeName>
+                        <measure quantity="1370" unit="toise">1370 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Lomaria angustifolia <placeName key="H0006637">Villa Ibarra</placeName>
+                        <measure quantity="1184" unit="toise">1184 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Cheilanthes marginata <placeName key="H0008205">Penipe
+                            </placeName><measure quantity="1300" unit="toise">1300.</measure></item>
+                    <item>Piper tumidum <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— piluliferum <del rendition="#s">Cu</del>
+                        <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— barbatum <measure quantity="1492" unit="toise">1492 <choice>
+                                <abbr>t.</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Peperomia peploides <placeName key="H0007607">Cotopaxi
+                            </placeName><measure quantity="1590" unit="toise">1590 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Panicum avenaceum <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Mariscus polyphyllus <measure quantity="1350" unit="toise">1350 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Paspalum Humboldtianum <measure quantity="1260" unit="toise">1260 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— candidum <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— pallidum <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— platicaule <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Panicum avenaceum <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— divergens <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Setaria purpurascens <measure quantity="1350" unit="toise"><subst>
+                                <del rendition="#ow">1450</del>
+                                <add place="across">1350</add>
+                            </subst>
+                            <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— <del rendition="#s">cernu</del> cernua <measure quantity="1029" unit="toise">1029 <choice>
+                                <abbr>t.</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Gymnotrix tristachya <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t.</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Stipa ibarrensis <measure quantity="2184" unit="toise">2184 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— eminens <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Podosaemum elegans <measure quantity="1600" unit="toise">1600 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— stipoides <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Stipa <subst>
+                            <del rendition="#s">ery</del>
+                            <add place="intralinear">eriostachya</add>
+                        </subst>
+                        <measure quantity="1350" unit="toise">1350 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Polypogon elongatus <measure quantity="1350" unit="toise">1350 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><choice>
+                            <sic>Wilfa</sic>
+                            <corr cert="high">Vilfa</corr>
+                        </choice> elegans <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure><?oxy_comment_start author="goehmann" timestamp="20170724T174559+0200" comment="Buch :  Vilfa   Bd. I S. 137   "?></item>
+                    <?oxy_comment_end?>
+                    <item>— fasciculata <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000031.jpg" n="5b-r"/>
+                    <?oxy_comment_start author="leitner" timestamp="20170911T184802+0200" comment="die Seitenangabe wird falsch dargestellt- die folgenden auch"?>
+                    <item><?oxy_comment_end?><choice>
+                            <sic>Dejeuxia</sic>
+                            <corr cert="high">Deyeuxia</corr>
+                        </choice> coarctata 
+                        <subst>
+                            <del rendition="#s">1740 
+                                <choice>
+                                <sic>t</sic>
+                                <corr/>
+                            </choice></del>
+                            <add place="sublinear">
+                                <measure quantity="1460" unit="toise">1460 <choice>
+                                    <abbr>t.</abbr>
+                                    <expan>toises</expan>
+                                </choice></measure>                                
+                            </add>
+                        </subst></item>
+                    <item rendition="#s">— <del rendition="#s">rigida 2200t</del></item>
+                    <item>— recta <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— ligulata <measure quantity="1550" unit="toise">1550 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— effusa <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Bromus procerus <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— unioloides <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— caldasii <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— segetum <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— pitensis <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Festuca <choice>
+                            <sic>myurus</sic>
+                            <corr cert="high">myuros</corr>
+                        </choice>
+                        <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure>
+                    </item>
+                    <item>Poa patula <measure quantity="1360" unit="toise">1360 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— nigricans <measure quantity="1360" unit="toise">1360 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— Montufari <measure quantity="1360" unit="toise">1360 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— tenax <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— depauperata <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— remota <measure quantity="1500" unit="toise">1500 </measure></item>
+                    <item rendition="#s">
+                        <del rendition="#s">— dactyloides</del>
+                        <lb/><measure quantity="2208" unit="toise"><del rendition="#s">2208<choice>
+                                    <abbr>t</abbr>
+                                    <expan>toises</expan>
+                                </choice></del></measure></item>
+                    <item>— pallida <measure quantity="1205" unit="toise">1205 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Polyodon distichum <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Chondrosium humile <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Triticum attenuatum <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Andropogon montufari <measure quantity="1370" unit="toise">1370 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— glaucescens <measure quantity="1400" unit="toise"><subst>
+                                <del rendition="#s">2</del>
+                                <add place="intralinear">1400</add>
+                            </subst>
+                            <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— lanuginosus <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— argenteus <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Eriocaulon microcephalum <lb/><measure quantity="1540" unit="toise">1540 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Xyris subulata <measure quantity="1380" unit="toise">1380 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Dioscorea coriacea </item>
+                    <item>— piperifolia } <measure quantity="1340" unit="toise">1340 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Pancratium incarnatum <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— aurantiacum <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Haemanthus dubius <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Alstroemeria caldasii <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Tillandsia incarnata <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Altensteinia fimbriata <measure quantity="1030" unit="toise">1030 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— pilifera <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Trichoceros antennifer <measure quantity="1350" unit="toise">1350 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Pachyphyllum distichum <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Anguloa superba <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— grandiflora <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Dendrobium pusillum <measure quantity="900" unit="toise">900 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Masdevallia uniflora <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Stelis pusilla <measure quantity="1220" unit="toise">1220 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— pulchella <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toisen</expan>
+                            </choice></measure></item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000033.jpg" n="5c-r"/>
+                    <item>Morus celtidifolia <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— <subst>
+                            <del rendition="#s">cort</del>
+                            <add place="intralinear">corylifolia</add>
+                        </subst>
+                        <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Boehmeria ballotaefolia <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— <choice>
+                            <sic>ampulacea</sic>
+                            <corr cert="high">ampullacea</corr>
+                        </choice>
+                        <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— petiolaris <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Gunnera scabra <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Euphorbia cestrifolia <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Croton pellitus <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— elegans <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— coriaceus <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Phyllanthus symphoricarpoides <measure quantity="1000" unit="toise">1000
+                        </measure></item>
+                    <item>— cornifolius <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><subst>
+                            <del rendition="#s">Sy</del>
+                            <add place="intralinear">Sicyos</add>
+                        </subst> parviflorus <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Passiflora manicata <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Tacsonia tripartita <measure quantity="1580" unit="toise">1580 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— glaberrima <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Daphne macrophylla <measure quantity="1240" unit="toise">1240 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Oreocallis grandiflora <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Persea ferruginea <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— sericea <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— cinnamomifolia <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Basella marginata <measure quantity="1600" unit="toise">1600 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— obovata <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Chenopodium ambrosioides</item>
+                    <item>— petiolare } <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Amaranthus quitensis <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Iresine diffusa <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Alternanthera sericea <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Pinguicula calyptrata <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Dicliptera multiflora <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— pilosa <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Ruellia quitensis <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Duranta triacantha <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Citharexylum ilicifolium <lb/><measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Lantana rugulosa <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Lippia scorodonioides <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Verbena microphylla <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— inflata <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Salvia collina <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— <subst>
+                            <del rendition="#s">legu</del>
+                            <add place="intralinear">leonuroides</add>
+                        </subst>
+                        <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— lutea <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— macrostachya <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— rubescens <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— phoenicea <measure quantity="1480" unit="toise">1480 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— leucocephala <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— scutellarioides <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— rumicifolia <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Sideritis paniculata <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000035.jpg" n="5d-r"/>
+                    <item>Stachys elliptica <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— debilis <measure quantity="1300" unit="toise">1300<choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Gardoquia grandiflora <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— tomentosa <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Bysteropogon mollis <lb/><measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Hyptis polyantha <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Scutellaria volubilis <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><choice>
+                            <sic>Pyrolema</sic>
+                            <corr cert="high">Perilomia</corr>
+                        </choice> ocymoides <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><choice>
+                            <sic>Castileja</sic>
+                            <corr cert="high">Castilleja</corr>
+                        </choice> lithospermoi<lb break="no"/>des <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Euphrasia stricta <measure quantity="1500" unit="toise">1500<choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— melampyroides 1400 </item>
+                    <item>Lamourouxia virgata <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><choice>
+                            <sic>Budleja</sic>
+                            <corr cert="high">Buddleja</corr>
+                        </choice> mollis <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Linaria glabrata <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Gratiola peruviana <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Herpestis chamaedryoides <lb/><measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Calceolaria <choice>
+                            <sic>chelorioides</sic>
+                            <corr cert="high">chelidonioides</corr>
+                        </choice><lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— gracilis <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— stricta <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— serrata <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— lamiifolia <measure quantity="1500" unit="toise">1500 </measure></item>
+                    <item>— lanata <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— amplexicaulis <measure quantity="1300" unit="toise">1300</measure>
+                    </item>
+                    <item>— floribunda <measure quantity="1500" unit="toise">1500 </measure></item>
+                    <item>— graminifolia <measure quantity="1500" unit="toise">1500
+                        </measure></item>
+                    <item>— lavandulaefolia <measure quantity="1600" unit="toise">1600</measure>
+                    </item>
+                    <item rendition="#s">
+                        <del rendition="#s">Columellia sericea</del>
+                    </item>
+                    <item>Columellia sericea <measure quantity="1300" unit="toise">1300
+                        </measure></item>
+                    <item>Veronica chillensis <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Gesneria ulmifolia <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— elongata <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Nicotiana ybarrensis <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Solanum caldasii<measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— ochranthum <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— pteropodum <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— loxense <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— venosum <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— obovatum <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— <choice>
+                            <sic>brevifolum</sic>
+                            <corr cert="high">brevifolium</corr>
+                        </choice>
+                        <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000037.jpg" n="5e-r"/>
+                    <item>— <subst>
+                            <del rendition="#s">lang</del>
+                            <add place="intralinear">lanuginosum</add>
+                        </subst>
+                        <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— chrysophyllum <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— cajanumense <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Capsicum violaceum <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Lycium fuchsioides <measure quantity="1400" unit="toise"><subst>
+                                <del rendition="#ow">1500</del>
+                                <add place="across">1400</add>
+                            </subst>
+                            <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— loxense <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— cornifolium <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Cestrum tomentosum <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— affine <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— auriculatum <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Cordia ferruginea <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Tournefortia loxensis <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Heliotropium peruvianum <lb/><measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— incanum <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Myosotis grandiflora <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure>
+                    </item>
+                    <item>Convolvulus glaucescens <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— purpureus <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Dichondra repens <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Cuscuta foetida <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Wigandia crispa <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Tecoma rosaefolia <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— sorbifolia <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Cantua pyrifolia <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— quercifolia <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Gentiana gracilis <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— saxifragoides <measure quantity="1500" unit="toise">1500
+                        </measure></item>
+                    <item>— hypericoides <measure quantity="1200 " unit="toise">1200</measure></item>
+                    <item>Swertia brevicornis <measure quantity="1400" unit="toise">1400</measure>
+                    </item>
+                    <item>Erythraea quitensis <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Lucuma obovatum <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Thibaudia rupestris <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item><choice>
+                            <sic>Gualtheria</sic>
+                            <corr cert="high">Gaultheria</corr>
+                        </choice> reticulata<lb/><measure quantity="1300" unit="toise">1300.
+                        </measure></item>
+                    <item>— tomentosa <measure quantity="1400" unit="toise">1400 </measure></item>
+                    <item>Befaria grandiflora <measure quantity="1600" unit="toise">1600</measure>
+                    </item>
+                    <item>Escallonia pendula <measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>Campanula flagellaris <measure quantity="1500 " unit="toise">1500</measure>
+                    </item>
+                    <item>— arida <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Lobelia scandens <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— foliosa <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— fastigiata <measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>— tenera <measure quantity="1300" unit="toise">1300</measure>
+                    </item>
+                    <item>— micrantha <measure quantity="1200 " unit="toise">1200</measure>
+                    </item>
+                    <item>— subtilis <measure quantity="1300" unit="toise">1300</measure>
+                    </item>
+                    <item>Lysipomia aretioides <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure>
+                    </item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000039.jpg" n="5f-r"/>
+                    <item><subst>
+                            <del rendition="#s">Centhr</del>
+                            <add place="intralinear">Centranthus</add>
+                        </subst> latifolius <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Valeriana tomentosa <measure quantity="1100" unit="toise">1100</measure>.</item>
+                    <item>— urticaefolia <measure quantity="1200" unit="toise">1200</measure></item>
+                    <item>— pyramidalis <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— polemonioides <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>Galium involucratum <measure quantity="1500" unit="toise"><lb/>1500</measure></item>
+                    <item><choice>
+                            <abbr>G.</abbr>
+                            <expan>Galium</expan>
+                        </choice> canescens <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— obovatum <measure quantity="1300" unit="toise">1300</measure></item>
+                    <item>Rubia hirta <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— nitida <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— debilis <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Psychotria magnoliaefolia <lb/><measure quantity="1200" unit="toise">1200</measure></item>
+                    <item>Hedyotis thymifolia <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>Cinchona condaminea <add place="superlinear"><measure quantity="900" unit="toise">900</measure>–</add><measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure>
+                    </item>
+                    <item>— ovalifolia <measure quantity="700" unit="toise">700</measure>–<measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item>Exostema peruviana <measure quantity="1000" unit="toise">1000 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Gonzalea tomentosa <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Loranthus destructor <measure quantity="1200" unit="toise">1200</measure></item>
+                </list>
+                <p><seg type="comment">
+                        <orig><add place="left"><choice>
+                                    <abbr>T</abbr>
+                                    <expan>Tome</expan>
+                                </choice> IV</add></orig>
+                        <note xml:id="nqsp_5w2_x1b"><bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth 1825</bibl>, IV.</note>
+                    </seg>
+                    <lb/>composées</p>
+                <list>
+                    <item><subst>
+                            <del rendition="#s">Hipp</del>
+                            <add place="intralinear">Hypochaeris</add>
+                        </subst> sessiliflora <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Apargia chillensis <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Onoseris salicifolia <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— hyssopifolia <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>Barnadesia spinosa <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— arborea <measure quantity="1600" unit="toise">1600</measure></item>
+                    <item>Dasyphyllum argenteum <lb/><measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>Vernonia geminata <measure quantity="1100" unit="toise">1100</measure></item>
+                    <item>— suaveolens <measure quantity="1000" unit="toise">1000</measure></item>
+                    <item><choice>
+                            <sic>Bacharis</sic>
+                            <corr cert="high">Baccharis</corr>
+                        </choice> humifusa <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— alpina <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— micrantha <measure quantity="1600" unit="toise">1600</measure>.</item>
+                    <item>— quitensis <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— berberifolia <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— grandiflora <measure quantity="1600" unit="toise">1600</measure></item>
+                    <item>— mollis <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— hambatensis <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>— riparia <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>— cinnamomifolia <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>— assuensis <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>— fuliginea <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>Conyza riparia <measure quantity="1000" unit="toise">1000</measure></item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000041.jpg" n="5g-r"/>
+                    <item>Gnaphalium candicans<lb/><measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— alatum <measure quantity="1200" unit="toise">1200 </measure></item>
+                    <item>— elegans <measure quantity="1300" unit="toise">1300 </measure></item>
+                    <item>— graveolens <measure quantity="1500" unit="toise">1500 </measure></item>
+                    <item>Andromachia hieracioides <lb/><measure quantity="1400" unit="toise">1400</measure>. </item>
+                    <item>— grandiflora <lb/>1300 </item>
+                    <item>— igniaria <measure quantity="1400" unit="toise"><choice>
+                                <sic>140</sic>
+                                <corr cert="high">1400</corr>
+                            </choice></measure></item>
+                    <item>— verbascifolia <measure quantity="1100" unit="toise"><lb/>1100</measure>. </item>
+                    <item>Eupatorium rugosum <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— <subst>
+                            <del rendition="#s">soled</del>
+                            <add place="sublinear"><choice>
+                                    <sic>solidiganoides</sic>
+                                    <corr cert="high">solidaginoides</corr>
+                                </choice></add>
+                        </subst>
+                        <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— persicifolium <measure quantity="1600" unit="toise">1600 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— glutinosum <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item>— arboreum <measure quantity="1400" unit="toise">1400</measure>
+                    </item>
+                    <item>— prunifolium<measure quantity="1400" unit="toise">1400 </measure></item>
+                    <item>Mikania loxensis <measure quantity="1100" unit="toise">1100
+                        </measure></item>
+                    <item>— angularis <measure quantity="1100" unit="toise">1100 </measure></item>
+                    <item>Stevia quitensis <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>Piqueria artemisioides <measure quantity="1300" unit="toise"><lb/>1300
+                        </measure></item>
+                    <item>Perdicium flexuosum <lb/><measure quantity="1000" unit="toise">1000
+                        </measure></item>
+                    <item>Senecio <subst>
+                            <del rendition="#s">pedicularis</del>
+                            <add place="intralinear">pedicularifolius</add>
+                        </subst>
+                        <del rendition="#s"><gap quantity="1" unit="words"/></del>
+                        <measure quantity="1500" unit="toise"><lb/>1500 </measure></item>
+                    <item>— pimpinellifolius <lb/><measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— laciniatus <measure quantity="1100" unit="toise">1100</measure></item>
+                    <item>— amplexicaulis <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>— scytophyllus <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>— reflexus <measure quantity="1300" unit="toise">1300</measure></item>
+                    <item>— laurifolius <measure quantity="1100" unit="toise">1100</measure></item>
+                    <item>— <choice>
+                            <sic>bacharoides</sic>
+                            <corr cert="high">baccharoides</corr>
+                        </choice>
+                        <measure quantity="1800" unit="toise">1800</measure>
+                    </item>
+                    <item><subst>
+                            <del rendition="#s">Tact</del>
+                            <add place="sublinear">Tagetes</add>
+                        </subst> pusilla <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>— patula <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item>— ternifolia <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item>— multiflora <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item>Verbesina dentata<lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Spilanthes leucantha <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Heliopsis canescens <measure quantity="1100" unit="toise">1100</measure>. </item>
+                    <item>Wedelia <choice>
+                            <sic>helianthioi<lb break="no"/>des </sic>
+                            <corr cert="high">helianthoides</corr>
+                        </choice>
+                        <measure quantity="1300" unit="toise">1300 </measure></item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000043.jpg" n="5h-r"/>
+                    <item>Helianthus <subst>
+                            <del rendition="#s">argentus</del>
+                            <add place="sublinear">
+                                <lb/>aureus</add>
+                        </subst>
+                        <measure quantity="1300" unit="toise">1300</measure>. </item>
+                    <item>Bidens crithmifolia<measure quantity="1500" unit="toise"><lb/>1500
+                        </measure></item>
+                    <item>— humilis <measure quantity="1600" unit="toise">1600</measure>
+                    </item>
+                    <item>— alausensis <measure quantity="1300" unit="toise">1300</measure>
+                    </item>
+                    <item>— scandicina <measure quantity="1400" unit="toise">1400 </measure></item>
+                    <item>— floribunda <measure quantity="1500" unit="toise">15<measure quantity="1500" unit="toise">00 </measure></measure></item>
+                    <item>Heterospermum diver<lb break="no"/>sifolium <measure quantity="1400" unit="toise">1400</measure>. </item>
+                    <item>Xanthium catharticum <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Monactis dubia <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                </list>
+                <p>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>T</abbr>
+                                <expan>Tome</expan>
+                            </choice> V</orig>
+                        <note xml:id="nthk_p52_x1b"><bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, V.</note>
+                    </seg>
+                </p>
+                <list>
+                    <item>Aralia <choice>
+                            <sic>avicenniaefolia</sic>
+                        </choice><lb/><measure quantity="1600" unit="toise">1600 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— obtusiloba <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— ferruginea <measure quantity="1200" unit="toise">1200</measure>
+                    </item>
+                    <item>Hydrocotyle Humboldtii <measure quantity="1100" unit="toise">1100
+                        </measure></item>
+                    <item>Eryngium foetidum <measure quantity="500" unit="toise">500
+                        </measure></item>
+                    <item>Clematis sericea <measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Ranunculus tridentatus <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Senebiera pinnatifida <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— dubia <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Llagunoa prunifolia <lb/><measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Trigonia sericea <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Hypericum <subst>
+                            <del rendition="#s">thy</del>
+                            <add place="sublinear">thuyoides</add>
+                        </subst>
+                        <measure quantity="1500" unit="toise"><lb/>1500 </measure></item>
+                    <item>— laricifolium <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item>— aciculare <measure quantity="1100" unit="toise">1100 </measure></item>
+                    <item>— tarquense <measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>— multiflorum <measure quantity="1400" unit="versta">1400</measure>. </item>
+                    <item>Clusia elliptica <measure quantity="1100" unit="toise">1100</measure></item>
+                    <item>Laplacea speciosa <measure quantity="1100" unit="toise"><lb/>1100
+                        </measure></item>
+                    <item>Freziera canescens <measure quantity="1200" unit="toise">1200
+                        </measure></item>
+                    <item>— sericea <measure quantity="1300" unit="toise">1300 </measure></item>
+                    <item>Geranium chilloense <measure quantity="1300" unit="toise">1300
+                        </measure></item>
+                    <item>Rhynchotheca integrifolia <lb/><measure quantity="1250" unit="toise">1250 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— diversifolia <measure quantity="1500" unit="toise">1500
+                        </measure></item>
+                    <item>Oxalis elegans <measure quantity="1060" unit="toise">1060 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— peduncularis <measure quantity="1900" unit="toise">1900
+                        </measure></item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000045.jpg" n="5i-r"/>
+                    <item>— lotoides <measure quantity="1200" unit="toise">1200 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— albicans<measure quantity="1500" unit="toise"> 1500</measure>
+                    </item>
+                    <item>— <subst>
+                            <del rendition="#s">mycroph</del>
+                            <add place="sublinear">microphylla</add>
+                        </subst>
+                    </item>
+                    <item>Tropaeolum pubescens <measure quantity="1100" unit="toise">1100 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><subst>
+                            <del rendition="#s">Gaja</del>
+                            <add place="across">Gaya</add>
+                        </subst> canescens <measure quantity="1100" unit="toise">1100</measure>. </item>
+                    <item>Abutilon ibarrense <measure quantity="1200" unit="toise">1200
+                        </measure></item>
+                    <item>Malva peruviana <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item>Viola scandens <measure quantity="1100" unit="toise">1100
+                        </measure></item>
+                    <item>Jonidium microphyllum <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><choice>
+                            <sic>Monina</sic>
+                            <corr cert="high">Monnina</corr>
+                        </choice> ligustrifolia <lb/><measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— pilosa <measure quantity="1400" unit="toise">1400 </measure></item>
+                </list>
+                <p>
+                    <seg type="comment">
+                        <orig><choice>
+                                <abbr>T</abbr>
+                                <expan>Tome</expan>
+                            </choice>VI</orig>
+                        <note xml:id="nahw_h52_x1b"><bibl sameAs="zotero-667230-6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, VI.</note>
+                    </seg>
+                </p>
+                <list>
+                    <item> — ovata <measure quantity="1500" unit="toise"><lb/>1500</measure></item>
+                    <item><choice>
+                            <sic>Drimaria</sic>
+                            <corr cert="high">Drymaria</corr>
+                        </choice> stellarioides <lb/><measure quantity="1400" unit="toise">1400</measure>.</item>
+                    <item>Stellaria cuspidata</item>
+                    <item>Cerastium Willdenowii</item>
+                    <item>Tillaea rubescens <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Sedum quitense <measure quantity="1500" unit="toise"><lb/>1500</measure>
+                    </item>
+                    <item>Weinmannia ellip<lb break="no"/>tica <measure quantity="1100 " unit="toise">1100 </measure></item>
+                    <item>—balbisiana <lb/><measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>— macrophylla <lb/><measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>— microphylla <lb/><measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>— fagaroides <measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>Cactus Humboldtii <measure quantity="1000" unit="toise">1000
+                        </measure></item>
+                    <item>— icosagonus <measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><note hand="#author" place="left"><choice>
+                                <abbr><hi rendition="#uu">Chimbora</hi></abbr>
+                                <expan><hi rendition="#uu">Chimborazo</hi></expan>
+                            </choice></note>— sepium <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000047.jpg" n="5j-r"/>
+                    <item>— laetus</item>
+                    <item>— nanus } <measure quantity="1000" unit="toise">1000</measure>. </item>
+                    <item>— serpens</item>
+                    <item>— Bonplandi } <measure quantity="1000" unit="toise">1000 </measure></item>
+                    <item>Calandrinia caulescens <lb/><measure quantity="1300" unit="toise">1300
+                        </measure></item>
+                    <item>Oenothera tarquensis <measure quantity="1400" unit="toise"><lb/>1400
+                        </measure></item>
+                    <item>Fuchsia loxensis <measure quantity="1100" unit="toise">1100
+                        </measure></item>
+                    <item>Loasa loxensis <measure quantity="1100" unit="toise">1100
+                        </measure></item>
+                    <item><choice>
+                            <sic>Myrthus</sic>
+                            <corr cert="high">Myrtus</corr>
+                        </choice> microphylla <lb/><measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>Melastoma aspergillare <lb/><measure quantity="1600" unit="toise">1600 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— caelatum <measure quantity="1100" unit="toise"><lb/>1100</measure>
+                    </item>
+                    <item>—floribundum <lb/><measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>Rhexia excelsa <measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>— conferta <measure quantity="1100" unit="toise">1100 </measure></item>
+                    <item>campanularis <lb/><measure quantity="1100" unit="toise">1100</measure></item>
+                    <item>— sarmentosa <measure quantity="1000" unit="toise">1000</measure>
+                    </item>
+                    <item>reticulata <measure quantity="1100" unit="toise">1100</measure>
+                    </item>
+                    <item>Mespilus stipulosa <measure quantity="1400" unit="toise"><lb/>1400</measure></item>
+                    <item>Ancistrum argen<lb break="no"/>teum <measure quantity="1600" unit="toise">1600.</measure></item>
+                    <item>Inga insignis <lb/><measure quantity="1400" unit="toise">1400</measure></item>
+                    <item>— ornifolia <lb/><measure quantity="1500" unit="toise">1500
+                        </measure></item>
+                    <item>— taxifolia <lb/><measure quantity="1300" unit="toise">1300
+                        </measure></item>
+                    <item>Galactia glaucescens <lb/><measure quantity="1300" unit="toise">1300
+                        </measure></item>
+                    <item>Indigofera tephrosioides <lb/><measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Tephrosia astragalina</item>
+                    <item>
+                        <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure>
+                    </item>
+                </list>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000049.jpg" n="5k-r"/>
+                <p>
+                    <hi rendition="#u">
+                        <choice>
+                            <abbr>Cryptog.</abbr>
+                            <expan>Cryptogames</expan>
+                        </choice>
+                    </hi>
+                    <del rendition="#s">
+                        <gap quantity="1" unit="words"/>
+                    </del>
+                    <?oxy_comment_start author="paessler" timestamp="20170809T112827+0200" comment="VII, 92 ff."?>
+                </p>
+                <?oxy_comment_end?>
+                <list>
+                    <item>Boletus spathulatus <measure quantity="1100" unit="toise">1100
+                        </measure></item>
+                    <item>— tenuis</item>
+                    <item>— fibrosus</item>
+                    <item>— telephoroides <measure quantity="1000" unit="toise"><lb/>1000</measure>
+                    </item>
+                    <item>— striatus</item>
+                    <item>Thelephora Pavonia <measure quantity="1000" unit="toise"><lb/>1000</measure>
+                    </item>
+                    <item>— sanguinea</item>
+                    <item>Graphis serpentina <lb/><measure quantity="1400" unit="toise">1400 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Parmelia perlata <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item><choice>
+                            <sic>Borera</sic>
+                            <corr cert="high">Borrera</corr>
+                        </choice> furfuracea <lb/><measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Roccella tinctoria <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Cornicularia bi<lb break="no"/>color <measure quantity="1300" unit="toise">1300 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Jungermannia furcata <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Dicranum densum</item>
+                    <item>Neckera crispa</item>
+                    <item>— pennata } <measure quantity="1500" unit="toise">1500</measure></item>
+                    <item>Bryum megalocarpum <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>Hypnum pallidum <lb/><measure quantity="1500" unit="toise">1500 <choice>
+                                <abbr>t</abbr>
+                                <expan>toises</expan>
+                            </choice></measure></item>
+                    <item>— andicola <measure quantity="1500" unit="toise">1500</measure>
+                    </item>
+                    <item rendition="#s">
+                        <del rendition="#s">
+                            <gap quantity="1" unit="words"/>
+                        </del>
+                    </item>
+                </list>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000030.jpg" n="5a-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000032.jpg" n="5b-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000034.jpg" n="5c-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000036.jpg" n="5d-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000038.jpg" n="5e-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000040.jpg" n="5f-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000042.jpg" n="5g-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000044.jpg" n="5h-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000046.jpg" n="5i-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000048.jpg" n="5j-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+                <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000050.jpg" n="5k-v"/>
+                <p>
+                    <gap quantity="1" reason="empty" unit="pages"/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

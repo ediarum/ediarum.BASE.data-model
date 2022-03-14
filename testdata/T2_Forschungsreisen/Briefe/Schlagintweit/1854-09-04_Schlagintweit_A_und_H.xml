@@ -1,0 +1,98 @@
+<?xml-model href="file:/C:/Users/dumont/Google%20Drive/TELOTA/ediarum.SCHEMA/ediarum.avhr.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter avhr" xml:id="avhr_pxb_z1c_ycb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Adolph  und Hermann  Schlagintweit. Berlin, 4.
+                    September 1854</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</ref></publisher>
+                <pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin, Berlin</institution>
+                        <collection>Humboldt Sammlung</collection>
+                        <idno>HU 99/62 QA</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName key="H0005221">Berlin (Hauptstadt der heutigen Bundesrepublik
+                        Deutschland)</placeName>
+                    <date when="1854-09-04" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="H0015552">Schlagintweit, Adolph von (1829-1857)</persName>
+                    <persName key="H0015557">Schlagintweit-Sakünlünski, Hermann
+                        (1826-1882)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <pb n="1r"/>
+                <opener>
+                    <dateline>Berlin<supplied cert="high">,</supplied> 4<supplied cert="high">.</supplied>
+                        <choice>
+                            <abbr>Sept<supplied cert="high">.</supplied></abbr>
+                            <expan>September</expan>
+                        </choice> 1854.</dateline>
+                    <address>
+                        <addrLine>An Hermann <choice>
+                                <abbr>u</abbr>
+                                <expan>und</expan>
+                            </choice> Adolph</addrLine>
+                        <addrLine>Schlagintweit</addrLine>
+                    </address>
+                    
+                </opener>
+				<p>Ich hatte diese Nacht, wo ich 4 lange, <lb/>warme und listige Briefe
+                    <?oxy_comment_start author="lmartin" timestamp="20180221T151115+0100" comment=" Digitalisat: An dieser Stelle etwas überschrieben?
+"?>für<?oxy_comment_end?>
+                    Sie schrieb <lb/>meine liebenswürdigen, theuren Freunde, <lb/>nicht die Musse
+                    gehabt, Ihnen ein Wort <lb/>der Liebe, des Andenkens, der innigen <lb/>Achtung,
+                    und des ewigen Abschiede zu <lb/>sagen. Unter allen Dingen zu denen ich
+                    <lb/>mitgewirkt, ist Ihre <choice>
+                        <abbr>Exped.</abbr>
+                        <expan>Expedition</expan>
+                    </choice> nun eine <lb/>der wichtigsten geblieben. Es wird <lb/>mich dieselbe
+                    noch im Sterben erfreuen. <lb/>Sie werden geniessen, was zwischen <lb/>der
+                    <?oxy_comment_start author="lmartin" timestamp="20180221T154331+0100" comment="Korrektur (Doppel K)?"?>Rückunft<?oxy_comment_end?>
+                    in <placeName key="H0008847">Mexico</placeName> und der Sibi<g ref="#typoHyphen"/><lb break="no"/>rischen Reise ununterbrochen meine <lb/>Phantasie <unclear reason="illegible" cert="high">beschäftigt</unclear> hat. Möge <lb/>es Ihnen
+                    wohl gehen.</p>
+				<closer>
+					<salute>Ihr</salute>
+				    <signed>AlHumboldt</signed></closer>
+            </div>
+            
+            <postscript>
+             
+                <p>Schicken Sie von <lb/><placeName key="H0002325">Aden</placeName> an <persName key="H0001040"><choice>
+                            <abbr>G<supplied cert="high">.</supplied></abbr>
+                            <expan>Gustav</expan>
+                        </choice> Rose</persName> 3-4 <lb/>Stücke Basalt, ob <lb/>es
+                        <?oxy_comment_start author="lmartin" timestamp="20180228T150620+0100" comment="Wort erst mit Hilfe von Digitalisat entzifferbar"?><gap unit="words" quantity="1" reason="illegible"/><?oxy_comment_end?>. ob nicht
+                    <lb/>etwas mehr Porphyr, <lb/>Grünstein, Trachyt<lb/>artiges daneben? <lb/>Wie
+                    viel Angst hat <lb/>mir Ihr theurer <lb/><persName key="H0015556">Robert
+                    </persName>verursacht, <lb/>auch der <persName key="H0002178">König</persName>
+                    <lb/>der auf das lebhaf<g ref="#typoHyphen"/><lb break="no"/>teste mit seiner
+                    <lb/>Vorstellung <lb/>beschäftigt <lb/>war. Es giebt <lb/>auch Könige die
+                    <lb/>Gemüth haben. </p>
+            </postscript><pb n="1v"/>
+            <gap unit="pages" quantity="1" reason="empty"/>
+        </body>
+    </text>
+</TEI>
