@@ -1,60 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="22.0">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="ediarum.SCHEMA.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="22.0" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>ediarum.compiled.odd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TEI ODD to RelaxNG XML 2022</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>ediarum.odd</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Compiling ODD</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>ediarum.avhr.odd</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TEI ODD to RELAX NG (XML syntax)</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>sources/basisformat_ms.odd</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Compiling ODD</String>
+                                        <String>Compiling ODD 2022</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -81,7 +61,7 @@
                                     <String></String>
                                 </field>
                                 <field name="buildFilePath">
-                                    <String>${frameworkDir('tei')}\xml\tei\stylesheet\odd\build-to.xml$</String>
+                                    <String>${frameworksDir}\tei\xml\tei\stylesheet\odd\build-to.xml</String>
                                 </field>
                                 <field name="ditaParams">
                                     <list>
@@ -90,7 +70,7 @@
                                                 <String>defaultSource</String>
                                             </field>
                                             <field name="description">
-                                                <String></String>
+                                                <String>Tei source file.</String>
                                             </field>
                                             <field name="value">
                                                 <String>${frameworks}/tei/xml/tei/odd/p5subset.xml</String>
@@ -113,7 +93,7 @@
                                                 <String>inputFile</String>
                                             </field>
                                             <field name="description">
-                                                <String></String>
+                                                <String>Path to the TEI P5 XML input file.</String>
                                             </field>
                                             <field name="value">
                                                 <String>${cf}</String>
@@ -136,7 +116,7 @@
                                                 <String>lang</String>
                                             </field>
                                             <field name="description">
-                                                <String></String>
+                                                <String>The language of the output strings like "Attributes", "Class", "Datatype", "Declaration", "Note", "Optional", "Required", "Recommended", etc.</String>
                                             </field>
                                             <field name="value">
                                                 <String>en</String>
@@ -159,7 +139,7 @@
                                                 <String>outputFile</String>
                                             </field>
                                             <field name="description">
-                                                <String></String>
+                                                <String>Path where the output ODD file will be saved.</String>
                                             </field>
                                             <field name="value">
                                                 <String>${cfd}/${cfn}.compiled.odd</String>
@@ -182,33 +162,10 @@
                                                 <String>oxygenlib</String>
                                             </field>
                                             <field name="description">
-                                                <String></String>
+                                                <String>Path to the Oxygen library folder.</String>
                                             </field>
                                             <field name="value">
                                                 <String>${oxygenInstallDir}/lib</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>profile</String>
-                                            </field>
-                                            <field name="description">
-                                                <String></String>
-                                            </field>
-                                            <field name="value">
-                                                <String>default</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -250,7 +207,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>Compiling ODD</String>
+                                    <String>Compiling ODD 2022</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -286,7 +243,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputResource">
                                     <null/>
@@ -295,10 +252,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="locationToOpenInBrowserURL">
-                                    <String>${cfd}/${cfne}.compiled.odd</String>
+                                    <String>${cfd}/${cfn}.compiled.odd</String>
                                 </field>
                                 <field name="openInEditor">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="showInHTMLPane">
                                     <Boolean>false</Boolean>
@@ -333,12 +290,20 @@
                                         <String>${oxygenHome}/lib/oxygenEclipse.jar</String>
                                         <String>${oxygenHome}/lib/oxygenAuthorEclipse.jar</String>
                                         <String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
-                                        <String>${oxygenHome}/lib/resolver.jar</String>
-                                        <String>${oxygenHome}/lib/xercesImpl.jar</String>
-                                        <String>${oxygenHome}/lib/saxon9ee.jar</String>
-                                        <String>${oxygenHome}/lib/saxon.jar</String>
+                                        <String>${oxygenHome}/lib/*resolver*.jar</String>
+                                        <String>${oxygenHome}/lib/*xerces*.jar</String>
+                                        <String>${oxygenHome}/lib/*saxon*9*.jar</String>
+                                        <String>${oxygenHome}/lib/*saxon*10*.jar</String>
+                                        <String>${oxygenHome}/lib/saxon*6*.jar</String>
                                         <String>${oxygenHome}/lib/xml-apis-ext.jar</String>
-                                        <String>${oxygenHome}/lib/log4j.jar</String>
+                                        <String>${oxygenHome}/lib/oxygen-patched-slf4j.jar</String>
+                                        <String>${oxygenHome}/lib/logback-classic-*.jar</String>
+                                        <String>${oxygenHome}/lib/logback-core-*.jar</String>
+                                        <String>${oxygenHome}/lib/log4j-over-slf4j-*.jar</String>
+                                        <String>${oxygenHome}/lib/log4j-to-slf4j-*.jar</String>
+                                        <String>${oxygenHome}/lib/log4j-api-*.jar</String>
+                                        <String>${oxygenHome}/lib/*log4j*.jar</String>
+                                        <String>${oxygenHome}/lib/oxygen-basic-utilities.jar</String>
                                     </String-array>
                                 </field>
                             </antScenario>
@@ -431,7 +396,7 @@
                                                 <String>Path where the output schema file will be saved.</String>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/${cfn}.rng</String>
+                                                <String>${cfd}/${cfn}.rng</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -513,13 +478,13 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="showConsoleAlways">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="advancedOptionsMap">
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>TEI ODD to RELAX NG (XML syntax)</String>
+                                    <String>TEI ODD to RelaxNG XML 2022</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -564,7 +529,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="locationToOpenInBrowserURL">
-                                    <String>${pd}/${cfn}.rng</String>
+                                    <String>${cfd}/${cfn}.rng</String>
                                 </field>
                                 <field name="openInEditor">
                                     <Boolean>true</Boolean>
@@ -601,12 +566,20 @@
                                         <String>${oxygenHome}/lib/oxygenEclipse.jar</String>
                                         <String>${oxygenHome}/lib/oxygenAuthorEclipse.jar</String>
                                         <String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
-                                        <String>${oxygenHome}/lib/resolver.jar</String>
-                                        <String>${oxygenHome}/lib/xercesImpl.jar</String>
-                                        <String>${oxygenHome}/lib/saxon9ee.jar</String>
+                                        <String>${oxygenHome}/lib/*resolver*.jar</String>
+                                        <String>${oxygenHome}/lib/*xerces*.jar</String>
+                                        <String>${oxygenHome}/lib/*saxon*9*.jar</String>
+                                        <String>${oxygenHome}/lib/*saxon*10*.jar</String>
                                         <String>${oxygenHome}/lib/saxon.jar</String>
                                         <String>${oxygenHome}/lib/xml-apis-ext.jar</String>
-                                        <String>${oxygenHome}/lib/log4j.jar</String>
+                                        <String>${oxygenHome}/lib/oxygen-patched-slf4j.jar</String>
+                                        <String>${oxygenHome}/lib/logback-classic-*.jar</String>
+                                        <String>${oxygenHome}/lib/logback-core-*.jar</String>
+                                        <String>${oxygenHome}/lib/log4j-over-slf4j-*.jar</String>
+                                        <String>${oxygenHome}/lib/log4j-to-slf4j-*.jar</String>
+                                        <String>${oxygenHome}/lib/log4j-api-*.jar</String>
+                                        <String>${oxygenHome}/lib/*log4j*.jar</String>
+                                        <String>${oxygenHome}/lib/oxygen-basic-utilities.jar</String>
                                     </String-array>
                                 </field>
                             </antScenario>
