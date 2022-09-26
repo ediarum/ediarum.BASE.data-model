@@ -19,7 +19,7 @@
   </teiHeader>
   <text>
     <body>
-      <schemaSpec ident="avhr" source="file:/C:/Users/dumont/Google Drive/TELOTA/ediarum.SCHEMA/ediarum.compiled.odd" start="TEI">
+      <schemaSpec ident="avhr" source="http://telota.bbaw.de/ediarum/base/schema/ediarum.compiled.odd" start="TEI">
         <!-- ediarum -->
         <moduleRef key="tei"/>
         <moduleRef key="header" />
@@ -34,8 +34,27 @@
         <moduleRef key="gaiji" />
         
         <!-- ediarum.AVHR -->
-        <elementRef key="measure" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
-        <classRef key="att.measurement" include="unit quantity" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <classRef key="att.docStatus" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="revisionDesc" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <elementRef key="listChange" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <elementRef key="change" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <elementSpec ident="revisionDesc" module="header" mode="change">
+          <attList>
+            <attDef ident="status" mode="replace">
+              <valList type="closed">
+                <valItem ident="intern"/>
+                <valItem ident="basis"/>
+                <valItem ident="basis+"/>
+                <valItem ident="print"/>
+                <valItem ident="final"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementRef key="measure" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <classRef key="att.measurement" include="unit quantity" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
         
         <classSpec type="atts" ident="att.measurement" mode="change">
           <attList>
@@ -46,6 +65,33 @@
             </attDef>
           </attList>
         </classSpec>
+        
+        <!-- 2022: Temporärer Fix, um Verwendung von head zu berücksichtigen -->
+        <elementSpec ident="head" module="core" mode="change">
+            <classes mode="change">
+              <memberOf key="model.pLike" mode="add"/>
+            </classes>
+        </elementSpec>
+        
+        <elementSpec ident="name" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace">
+              <valList type="closed">
+                <valItem ident="plant">
+                  <desc>Name ist der einer Pflanze</desc>
+                </valItem>
+                <valItem ident="animal">
+                  <desc>Name ist der eines Tieres</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="replace" usage="opt">
+              <valList type="closed">
+                <valItem ident="vernacular"></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
         
         <elementSpec ident="note" module="core" mode="change">
           <attList>
