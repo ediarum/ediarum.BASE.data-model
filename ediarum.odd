@@ -20,7 +20,7 @@
   <text>
     <body>
       <!-- besser über https://github.com/deutschestextarchiv/dtabf/tree/master/schema/dist abrufen (raw dann) -->
-      <schemaSpec ident="ediarum" source="http://telotadev.bbaw.de/oxygen/basisformat_ms.compiled.odd" start="TEI">
+      <schemaSpec ident="ediarum" source="https://raw.githubusercontent.com/deutschestextarchiv/dtabf/master/schema/dist/basisformat_ms.xml" start="TEI">
         <!-- DTABf -->
         <moduleRef key="tei"/>
         <moduleRef key="header" />
@@ -30,13 +30,13 @@
         <moduleRef key="linking"/>
         <moduleRef key="msdescription" except="typeDesc"/>
         <moduleRef key="namesdates"/>
-        <moduleRef key="textcrit" include="listWit witness" url="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <moduleRef key="textcrit" include="listWit witness" url="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         <moduleRef key="transcr"/>
         
         <!-- ediarum -->
-        <moduleRef key="gaiji" include="g" url="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
-        <classRef key="att.canonical" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
-        <classRef key="att.written" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <moduleRef key="gaiji" include="g" url="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <classRef key="att.canonical" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <classRef key="att.written" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         
         <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
           <attList>
@@ -59,6 +59,9 @@
             <attDef ident="rend" mode="change">
               <valList type="closed" mode="change">
                 <valItem ident="sticked" mode="add"/>
+                <!-- 2022: sticked / inserted / drawn nur AvHR ??? -->
+                <valItem ident="inserted" mode="add"/>
+                <valItem ident="drawn" mode="add"/>
                 <valItem ident="paragraph" mode="add"/>
                 <valItem ident="align(right)" mode="add"/>
                 <valItem ident="align(left)" mode="add"/>
@@ -81,6 +84,16 @@
             </attDef>
             <attDef ident="oldID" usage="opt" mode="add">
               <datatype>
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="p" module="core" mode="change">
+          <attList>
+            <attDef ident="resp" mode="replace">
+              <datatype maxOccurs="unbounded">
                 <dataRef key="teidata.pointer"/>
               </datatype>
             </attDef>
@@ -141,8 +154,8 @@
           </attList>
         </elementSpec>
         
-<!--        <elementRef key="listWit" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml"  />
-        <elementRef key="witness" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml"  />
+<!--        <elementRef key="listWit" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"  />
+        <elementRef key="witness" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"  />
 -->     
         <elementSpec ident="creation" module="header" mode="add">
           <classes>
@@ -155,7 +168,7 @@
           </content>
         </elementSpec>
         
-        <elementRef key="abstract" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="abstract" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
         
         <elementSpec ident="correspDesc" module="header" mode="add">
           <!-- vermutlich nur nötig bis Update DTABf -->
@@ -210,6 +223,7 @@
                 </valItem>
               </valList>
             </attDef>
+            <attDef ident="ref" mode="delete"></attDef>
           </attList>
         </elementSpec>
         
@@ -242,6 +256,12 @@
                 <valItem ident="high"/>
               </valList>
             </attDef>
+            <!-- 2022 -->
+            <attDef ident="calendar" mode="add">
+              <datatype>
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+            </attDef>
           </attList>
         </elementSpec>
                 
@@ -264,7 +284,7 @@
         <elementSpec ident="row" module="core" mode="change">
           <!-- Workaround, which allows using of Oxygen XML Author implemented insert.table feature -->
           <attList>
-            <attDef ident="role" usage="opt" mode="add">
+            <attDef ident="role" usage="opt" mode="replace">
               <valList type="closed">
                 <valItem ident="label"/>
               </valList>
@@ -279,7 +299,8 @@
                 <dataRef key="teidata.enumerated"/>
               </datatype>
             </attDef>
-            <attDef ident="hand" mode="add">
+            <!-- 2022: mode="add" für zu Dubletten -->
+            <attDef ident="hand" mode="replace">
               <datatype>
                 <dataRef key="teidata.enumerated"/>
               </datatype>
@@ -293,7 +314,7 @@
           </content>
         </elementSpec>
 <!--        
-        <elementSpec ident="g" module="gaiji" mode="add" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml">
+        <elementSpec ident="g" module="gaiji" mode="add" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml">
           <classes>
             <memberOf key="model.gLike"/>
           </classes>
@@ -325,6 +346,14 @@
                 <valItem ident="no"/>
               </valList>
             </attDef>
+             <!-- 2022: oder doch nur AvHR? 
+             mode="add" geht nicht, führt zur Dubletten für lb/@type im RNG; 
+             mode="replace" scheint zu gehen --> 
+             <attDef ident="type" mode="replace">
+               <valList type="closed">
+                 <valItem ident="preserve"></valItem>
+               </valList>
+             </attDef>
           </attList>
         </elementSpec>
         
@@ -356,6 +385,7 @@
             <attDef ident="reason" mode="change">
               <valList type="closed" mode="change">
                 <valItem ident="empty" mode="add"/>
+                <valItem ident="covered" mode="add"/>
               </valList>
             </attDef>
           </attList>
@@ -395,7 +425,7 @@
           </attList>
         </elementSpec>
         
-        <elementRef key="anchor" source="http://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <elementRef key="anchor" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
                
         <elementSpec ident="corr" module="core" mode="change">
           <!-- vermutlich nur nötig bis Update DTABf -->
@@ -418,6 +448,8 @@
           <attList>
             <attRef name="sameAs" class="att.global.linking"  />
             <attRef name="n" class="att.global"  />
+            <!-- 2022: resp (nur in AvHR? -->
+            <attRef name="resp" class="att.global.responsibility" />
             <attDef ident="type" mode="replace">
               <valList type="closed">
                 <valItem ident="print"/>
@@ -434,6 +466,11 @@
                 <valItem ident="next" mode="add"/>
                 <valItem ident="prev" mode="add"/>
               </valList>
+            </attDef>
+            <attDef ident="resp" mode="replace">
+              <datatype maxOccurs="unbounded">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
             </attDef>
           </attList>
         </elementSpec>
@@ -459,14 +496,87 @@
           </attList>
         </elementSpec>
         
-        <elementSpec ident="add" module="core" mode="change">
-          <!-- vermutlich nur nötig bis Update DTABf -->
-          <!-- funzt nicht im Chaining -->
+        <!-- 2022: Unterschiede zw. note und add bei @place anschauen und diskutieren -->
+        <elementSpec ident="note" module="core" mode="change">
+          <!--  vermutlich nur nötig bis Update DTABf 
+          funzt nicht im Chaining, mTop und mBottom werden entweder nicht korrekt ergänzt (mehrfache Regeln für valList im RNG) 
+           oder die DTABf-Values fallen raus und werden durch die TEI-Standard-Values ersetzt plus die zwei ediaurm.
+          2022 Ergo muss man hier alle Werte nochmal mit aufnehmen -->
           <attList>
-            <attDef ident="place">
-              <valList mode="change">
-                <valItem ident="mTop" mode="add"><desc>Manuskripte: Einfügung am oberen Seitenrand</desc></valItem>
-                <valItem ident="mBottom" mode="add"><desc>Manuskripte: Einfügung am unteren Seitenrand</desc></valItem>
+            <attDef ident="place" mode="replace">
+              <valList mode="replace" type="closed">
+                <valItem ident="left">
+                  <desc>Marginalie links</desc>
+                </valItem>
+                <valItem ident="right">
+                  <desc>Marginalie rechts</desc>
+                </valItem>
+                <valItem ident="foot">
+                  <desc>Fußnote</desc>
+                </valItem>
+                <valItem ident="end">
+                  <desc>Endnote</desc>
+                </valItem>
+                <!-- 2022: in AvHR/ediarum noch nicht mInline! -->
+                <valItem ident="inline">
+                  <desc>Manuskripte: Anmerkung innerhalb der Zeile</desc>
+                </valItem>
+                <valItem ident="mTop">
+                  <desc>Manuskripte: am oberen Rand</desc>
+                </valItem>
+                <valItem ident="mBottom">
+                  <desc>Manuskripte: am unteren Rand</desc>
+                </valItem>
+                <!-- 2022: nur Avhr! -->
+                <valItem ident="opposite">
+                  <desc>Auf der gegenüberliegenden Seite</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="resp" mode="replace">
+              <datatype maxOccurs="unbounded">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="add" module="core" mode="change">
+          <!--  vermutlich nur nötig bis Update DTABf 
+          funzt nicht im Chaining, mTop und mBottom werden entweder nicht korrekt ergänzt (mehrfache Regeln für valList im RNG) 
+           oder die DTABf-Values fallen raus und werden durch die TEI-Standard-Values ersetzt plus die zwei ediaurm.
+          2022 Ergo muss man hier alle Werte nochmal mit aufnehmen -->
+          <attList>
+            <attDef ident="place" mode="change">
+              <valList type="closed" mode="replace">
+                <valItem ident="across">
+                  <desc>
+                    Manuskripte: Hinzufügung durch Überschreibung des zu korrigierenden Textes.
+                  </desc>
+                </valItem>
+                <valItem ident="intralinear">
+                  <desc>
+                    Manuskripte: Einfügung innerhalb der Textzeile, jedoch ohne bestehenden Text zu überschreiben.
+                  </desc>
+                </valItem>
+                <valItem ident="superlinear">
+                  <desc>Manuskripte: Einfügung über der Zeile.</desc>
+                </valItem>
+                <valItem ident="sublinear">
+                  <desc>Manuskripte: Einfügung unter der Zeile.</desc>
+                </valItem>
+                <valItem ident="left">
+                  <desc>Manuskripte: Einfügung am linken Rand.</desc>
+                </valItem>
+                <valItem ident="right">
+                  <desc>Manuskripte: Einfügung am rechten Rand.</desc>
+                </valItem>
+                <valItem ident="mTop">
+                  <desc>Manuskripte: am oberen Rand</desc>
+                </valItem>
+                <valItem ident="mBottom">
+                  <desc>Manuskripte: am unteren Rand</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
