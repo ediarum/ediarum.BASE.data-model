@@ -36,8 +36,7 @@
         <!-- ehd.API -->
         <elementSpec ident="TEI" module="textstructure" mode="change">
           <attList>
-            <attDef ident="doctype" ns="http://www.telota.de" mode="delete"/>            
-            <attDef ident="xml:id" usage="req" mode="delete"/>            
+            <attDef ident="doctype" ns="http://www.telota.de" mode="delete"/>                        
             <attDef ident="oldID" usage="opt" mode="delete"/>
           </attList>
         </elementSpec>
@@ -52,6 +51,20 @@
             </attDef>
           </attList>
         </elementSpec>
+        
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="ref" mode="replace">
+              <datatype>
+                <dataRef key="teidata.pointer"></dataRef>                  
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementRef key="keywords" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <elementRef key="term" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         
       </schemaSpec>
       

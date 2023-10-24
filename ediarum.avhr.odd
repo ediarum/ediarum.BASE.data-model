@@ -34,6 +34,16 @@
         <moduleRef key="gaiji" />
         
         <!-- ediarum.AVHR -->
+        <elementSpec ident="title" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace" usage="opt">
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
         <classRef key="att.docStatus" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
         <elementRef key="revisionDesc" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         <elementRef key="listChange" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
@@ -75,13 +85,16 @@
         
         <elementSpec ident="name" module="namesdates" mode="change">
           <attList>
-            <attDef ident="type" mode="replace">
+            <attDef ident="type" mode="replace" usage="rec">
               <valList type="closed">
                 <valItem ident="plant">
                   <desc>Name ist der einer Pflanze</desc>
                 </valItem>
                 <valItem ident="animal">
                   <desc>Name ist der eines Tieres</desc>
+                </valItem>
+                <valItem ident="mineral">
+                  <desc>Name ist der eines Minerals</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -99,6 +112,89 @@
               <valList type="closed" mode="change">
                 <valItem ident="auxCalc" mode="add">
                     <desc>Anmerkung ist "Nebenrechnung"</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="place" mode="replace">
+              <valList mode="replace" type="closed">
+                <valItem ident="left">
+                  <desc>Marginalie links</desc>
+                </valItem>
+                <valItem ident="right">
+                  <desc>Marginalie rechts</desc>
+                </valItem>
+                <valItem ident="foot">
+                  <desc>Fußnote</desc>
+                </valItem>
+                <valItem ident="end">
+                  <desc>Endnote</desc>
+                </valItem>
+                <!-- 2022: in AvHR/ediarum noch nicht mInline! -->
+                <valItem ident="inline">
+                  <desc>Manuskripte: Anmerkung innerhalb der Zeile</desc>
+                </valItem>
+                <valItem ident="mTop">
+                  <desc>Manuskripte: am oberen Rand</desc>
+                </valItem>
+                <valItem ident="mBottom">
+                  <desc>Manuskripte: am unteren Rand</desc>
+                </valItem>
+                <!-- nur Avhr! -->
+                <valItem ident="opposite">
+                  <desc>Auf der gegenüberliegenden Seite</desc>
+                </valItem>
+                <valItem ident="overleaf">
+                  <desc>Auf der Rückseite des Blattes</desc>
+                </valItem>
+                <valItem ident="continuedElsewhere">
+                  <desc>An anderer Stelle</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="add" module="core" mode="change">
+          <attList>
+            <attDef ident="place" mode="change">
+              <valList type="closed" mode="replace">
+                <valItem ident="across">
+                  <desc>
+                    Manuskripte: Hinzufügung durch Überschreibung des zu korrigierenden Textes.
+                  </desc>
+                </valItem>
+                <valItem ident="intralinear">
+                  <desc>
+                    Manuskripte: Einfügung innerhalb der Textzeile, jedoch ohne bestehenden Text zu überschreiben.
+                  </desc>
+                </valItem>
+                <valItem ident="superlinear">
+                  <desc>Manuskripte: Einfügung über der Zeile.</desc>
+                </valItem>
+                <valItem ident="sublinear">
+                  <desc>Manuskripte: Einfügung unter der Zeile.</desc>
+                </valItem>
+                <valItem ident="left">
+                  <desc>Manuskripte: Einfügung am linken Rand.</desc>
+                </valItem>
+                <valItem ident="right">
+                  <desc>Manuskripte: Einfügung am rechten Rand.</desc>
+                </valItem>
+                <valItem ident="mTop">
+                  <desc>Manuskripte: am oberen Rand</desc>
+                </valItem>
+                <valItem ident="mBottom">
+                  <desc>Manuskripte: am unteren Rand</desc>
+                </valItem>
+                <!-- nur Avhr! -->
+                <valItem ident="opposite">
+                  <desc>Auf der gegenüberliegenden Seite</desc>
+                </valItem>
+                <valItem ident="overleaf">
+                  <desc>Auf der Rückseite des Blattes</desc>
+                </valItem>
+                <valItem ident="continuedElsewhere">
+                  <desc>An anderer Stelle</desc>
                 </valItem>
               </valList>
             </attDef>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ediarum.REGISTER.schema</title>
+        <author xml:id="SD">Stefan Dumont</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der
+            Wissenschaften</ref>
+        </publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2023-01-31" who="#SD">Initial ODD</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <schemaSpec ident="ediarum.REGISTER.schema" xml:lang="en" prefix="tei_" targetLang="en"
+        docLang="en">
+        <moduleRef key="core"
+          include="p list item label title bibl desc listBibl name note ptr publisher pubPlace ref term"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="header"
+          include="teiHeader fileDesc titleStmt publicationStmt availability sourceDesc profileDesc textClass keywords editionStmt idno licence"/>
+        <moduleRef key="textstructure" include="TEI text body"/>
+        <moduleRef key="namesdates"
+          include="birth death floruit forename listOrg listPerson listPlace location org orgName persName person personGrp place placeName surname"/>
+        <moduleRef key="linking" include="linkGrp"/>
+
+        <classSpec ident="att.datable" type="atts" mode="delete"/>
+        <classSpec ident="att.declarable" type="atts" mode="delete"/>
+        <classSpec ident="att.placement" type="atts" mode="delete"/>
+        <classSpec ident="att.sortable" type="atts" mode="delete"/>
+        <classSpec ident="model.addressLike" type="model" mode="delete"/>
+        <classSpec ident="model.egLike" type="model" mode="delete"/>
+        <classSpec ident="model.emphLike" type="model" mode="delete"/>
+        <classSpec ident="model.graphicLike" type="model" mode="delete"/>
+        <classSpec ident="model.headLike" type="model" mode="delete"/>
+        <dataSpec ident="teidata.certainty" mode="delete"/>
+        <dataSpec ident="teidata.duration.iso" mode="delete"/>
+        <dataSpec ident="teidata.outputMeasurement" mode="delete"/>
+        <dataSpec ident="teidata.pattern" mode="delete"/>
+        <dataSpec ident="teidata.probCert" mode="delete"/>
+        <dataSpec ident="teidata.probability" mode="delete"/>
+        <dataSpec ident="teidata.replacement" mode="delete"/>
+        <dataSpec ident="teidata.truthValue" mode="delete"/>
+        <dataSpec ident="teidata.versionNumber" mode="delete"/>
+        <dataSpec ident="teidata.xTruthValue" mode="delete"/>
+        <dataSpec ident="teidata.xpath" mode="delete"/>
+
+        <classSpec ident="att.global" mode="change" module="tei" type="atts">
+          <attList>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+          </attList>
+        </classSpec>
+        <classSpec ident="att.global.rendition" mode="delete" module="tei" type="atts"/>
+        <classSpec ident="att.fragmentable" mode="delete" module="tei" type="atts"/>
+        <classSpec ident="att.divLike" mode="delete" module="tei" type="atts"/>
+        <classSpec ident="att.declaring" mode="delete" module="tei" type="atts"/>
+        <classSpec ident="att.written" mode="delete" module="tei" type="atts"/>
+        <classSpec ident="att.global.source" mode="delete" module="tei" type="atts"/>
+        <classSpec ident="att.global.responsibility" mode="delete" module="tei" type="atts"/>
+
+      </schemaSpec>
+
+
+    </body>
+  </text>
+</TEI>

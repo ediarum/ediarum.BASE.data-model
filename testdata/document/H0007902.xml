@@ -1,0 +1,851 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0007902">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>U – Südsee. Exzerpte aus Adelbert von Chamissos „Bemerkungen und Ansichten auf einer Entdeckungs-Reise“</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <surname>Göhmann</surname>
+                        <forename>Karin</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://catalogue.bnf.fr/ark:/12148/cb16542070b">
+                        <surname>Barbasetti</surname>
+                        <forename>Laurence</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: U – Südsee. Exzerpte aus Adelbert von Chamissos „Bemerkungen und Ansichten auf einer Entdeckungs-Reise“, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0007902">https://edition-humboldt.de/v8/H0007902</ref>
+                </p>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0007902</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0007902.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">
+                    <p>In Kunths Ideensammlung zur Neuausgabe der <hi rendition="#i">Ideen zu einer
+                            Geographie der Pflanzen</hi> wird auf das vorliegende Dokument unter der
+                        Nr. 23 „<placeName ref="https://editon-humboldt.de/H0010384 https://www.geonames.org/4030483">Mer du Sud</placeName>. <placeName ref="https://editon-humboldt.de/H0009642 https://www.geonames.org/5877199">Alasca</placeName> Chamisso“ (Sigle <ref xml:id="ed_xfr_tvt_z1b" type="siglum" target="#Geographie_der_Pflanzen_U">U</ref>) verwiesen. Es enthält
+                        ausschließlich Auszüge aus <persName ref="https://editon-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Adelbert von
+                            Chamisso</persName>s 1821 erschienenem Reisebericht (<bibl corresp="https://edition-humboldt.de/DUC9S3NR">Chamisso 1821</bibl>). Humboldt
+                        exzerpiert Informationen zur Pflanzenwanderung zwischen dem <placeName ref="https://editon-humboldt.de/H0002429">amerika</placeName>nischen Kontinent, der <placeName ref="https://editon-humboldt.de/H0007900">pazifischen Inselwelt</placeName> sowie <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australien</placeName> und notiert <persName ref="https://editon-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName>s Beobachtung einer geringen
+                        Ähnlichkeit der Vegetationen westlich und östlich der <placeName ref="https://editon-humboldt.de/H0005217 https://www.geonames.org/4031767">Beringstraße</placeName>. Humboldt lobt <persName ref="https://editon-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName>s Beobachtungen zur Vegetationsabfolge
+                        auf Korallenriffen. </p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 79a, Bl. 4–6</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2832781</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 274–277.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
+                <date notBefore="1821-01-01" notAfter="1825-12-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <pb n="6v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00019F4900000014"/>
+                    <hi rendition="#u">Südsee</hi>
+                </p>
+                <p>
+                    <choice>
+                        <abbr>Géogr.</abbr>
+                        <expan>Géographie</expan>
+                    </choice> des <choice>
+                        <abbr>Pl.</abbr>
+                        <expan>Plantes</expan>
+                    </choice>
+                </p>
+                <p>
+                    <persName ref="https://editon-humboldt.de/H0000177 http://d-nb.info/gnd/118534416">Forster</persName> a trouvé <add place="superlinear">dans la </add>
+                    <placeName ref="https://editon-humboldt.de/H0001612 https://www.geonames.org/2139685">
+                        <choice>
+                            <abbr>Nouv</abbr>
+                            <expan>Nouvelle</expan>
+                        </choice>
+                        <supplied cert="high">-</supplied>
+                        <lb break="no"/>Calédonie</placeName> 3 plantes <lb/>américaines<supplied cert="high">:</supplied>
+                </p>
+                <p>
+                    <list>
+                        <item>
+                            <name type="plant">Murucuia aurantia</name>
+                        </item>
+                        <item>
+                            <name type="plant">Ximenesia encelioides</name>
+                        </item>
+                        <item>
+                            <name type="plant">Waltheria americana</name>
+                        </item>
+                    </list>
+                </p>
+                <p>
+                    <persName ref="https://editon-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName> y ajoute <lb/>des plantes
+                        maritimes<supplied cert="high">:</supplied>
+                </p>
+                <p>
+                    <list>
+                        <item>
+                            <name type="plant">Ipomaea maritima</name>
+                        </item>
+                        <item>
+                            <name type="plant">Dodonaea viscosa</name>
+                        </item>
+                        <item>
+                            <name type="plant">Suriana <choice>
+                                    <abbr>marit.</abbr>
+                                    <expan>maritima</expan>
+                                </choice>
+                            </name>
+                        </item>
+                        <item>
+                            <name type="plant">Guilandina Bonduc</name>
+                        </item>
+                    </list>
+                </p>
+                <p>
+                    <choice>
+                        <sic>trouvés</sic>
+                        <corr cert="high">trouvées</corr>
+                    </choice> à <placeName ref="https://editon-humboldt.de/H0010434 https://www.geonames.org/2080009">Radak</placeName>
+                    <supplied cert="high">,</supplied>
+                    <lb/>
+                    <ref xml:id="de8e73b9-971f-4794-8e73-b9971f479490" corresp="#d8aa4d9f-225a-4a0b-aa4d-9f225a0a0be6">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue III <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 33</bibl>
+                    </ref>
+                    <note xml:id="d8aa4d9f-225a-4a0b-aa4d-9f225a0a0be6" corresp="#de8e73b9-971f-4794-8e73-b9971f479490">Der dritte Band des Reiseberichts Otto von
+                            Kotzebues (<bibl corresp="https://edition-humboldt.de/DUC9S3NR">Chamisso 1821</bibl>)
+                            enthält Adelbert von Chamissos „Bemerkungen und Ansichten auf einer
+                            Entdeckungs-Reise. Unternommen in den Jahren 1815–1818 auf Kosten Sr.
+                            Erlaucht des Reichs-Kanzlers Grafen Romanzoff auf dem Schiffe Rurick
+                            unter dem Befehle des Lieutenants der Russisch-Kaiserlichen Marine Otto
+                            von Kotzebue“. </note>.</p>
+                <p>un <name type="plant">Acacia</name> sans feuilles <lb/>= <choice>
+                        <sic>celle</sic>
+                        <corr cert="high">celui</corr>
+                    </choice> de <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">New <choice>
+                            <abbr>Holl</abbr>
+                            <expan>Holland</expan>
+                        </choice>
+                    </placeName>
+                    <lb/>est <choice>
+                        <sic>colossale</sic>
+                        <corr cert="high">colossal</corr>
+                    </choice>
+                    <choice>
+                        <sic>à</sic>
+                        <corr cert="high">aux</corr>
+                    </choice>
+                    <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0009852 https://www.geonames.org/5855797">Sandwich <choice>
+                            <abbr>I.</abbr>
+                            <expan>Inseln</expan>
+                        </choice>
+                    </placeName>
+                    <lb/>
+                    <ref xml:id="c5044e24-31aa-40c5-844e-2431aa20c54c" corresp="#a81b064f-b6e7-4968-9b06-4fb6e76968ee">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                            <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 34</bibl>
+                    </ref>
+                    <note xml:id="a81b064f-b6e7-4968-9b06-4fb6e76968ee" corresp="#c5044e24-31aa-40c5-844e-2431aa20c54c">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue
+                                1821</bibl>, III.</note>.</p>
+                <note place="left" hand="#author">
+                    <ref xml:id="ed_aks_2y1_py" type="siglum" target="#Geographie_der_Pflanzen_U">U</ref>
+                </note>
+                <p>
+                    <name type="plant">Barringtonia speciosa</name>
+                    <lb/>orne <placeName ref="https://editon-humboldt.de/H0007869 https://www.geonames.org/7729894">Asie <choice>
+                            <abbr>or.</abbr>
+                            <expan>orientale</expan>
+                        </choice>
+                    </placeName> et <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0010384 https://www.geonames.org/4030483">Mer du
+                        Sud</placeName>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>Mensch folgt der <lb/>Cocos Palme wo sie <lb/>in <placeName ref="https://editon-humboldt.de/H0010384 https://www.geonames.org/4030483">Südsee</placeName> sich auf <lb/>Corallenriefe ansiedelt<supplied cert="high">,</supplied>
+                    <lb/>
+                    <ref xml:id="be77d625-317c-4a5e-b7d6-25317cca5e88" corresp="#e1bd9447-53a3-4c8f-bd94-4753a3ac8fc5">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                            <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 35</bibl>
+                    </ref>
+                    <note xml:id="e1bd9447-53a3-4c8f-bd94-4753a3ac8fc5" corresp="#be77d625-317c-4a5e-b7d6-25317cca5e88">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Chamisso
+                                1821</bibl>, III.</note>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>
+                    <persName ref="https://editon-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName> décrit <lb/>très bien comment
+                        <supplied cert="high">la</supplied> végéta<g ref="#typoHyphen"/>
+                    <lb break="no"/>tion commence sur les <lb/>Corallenriefe der <placeName ref="https://editon-humboldt.de/H0010384 https://www.geonames.org/4030483">Südsee</placeName>
+                    <lb/>besonders um <placeName ref="https://editon-humboldt.de/H0010434 https://www.geonames.org/2080009">Radack</placeName>
+                    <lb/>zuerst <name type="plant">
+                        <choice>
+                            <sic>Sacvola</sic>
+                            <corr cert="high">Scaevola</corr>
+                        </choice> Koenigii</name>
+                    <lb/>et <name type="plant">Tournefortia sericea</name>
+                    <supplied cert="high">,</supplied>
+                    <lb/>dann <name type="plant">Pandanus</name>, <name type="plant">Cerbera</name>
+                    <supplied cert="high">,</supplied>
+                    <lb/>
+                    <choice>
+                        <orig>da̅n</orig>
+                        <reg>dann</reg>
+                    </choice>
+                    <name type="plant">Guettarda speciosa</name>
+                    <supplied cert="high">,</supplied>
+                    <name type="plant">
+                        <lb/>Morinda citrifolia</name>
+                    <supplied cert="high">,</supplied>
+                    <lb/>
+                    <name type="plant">Terminalia moluccensis</name>
+                    <lb/>
+                    <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue III <choice>
+                            <abbr>p</abbr>
+                            <expan>page</expan>
+                        </choice> 108</bibl>
+                </p>
+                <p>Auf <placeName ref="https://editon-humboldt.de/H0010434 https://www.geonames.org/2080009">Radack</placeName> nur <lb/>50 <choice>
+                        <abbr>spec.</abbr>
+                        <expan>species</expan>
+                    </choice>
+                    <choice>
+                        <orig>Phaenéro<lb break="no"/>games</orig>
+                        <reg>Phanérogames</reg>
+                    </choice>. <ref xml:id="c1a0c76e-adac-4c5f-a0c7-6eadaccc5f6a" corresp="#d14e29ea-74c7-4c0d-8e29-ea74c77c0d6c">
+                        <choice>
+                                <abbr>l.</abbr>
+                                <expan>loco</expan>
+                            </choice>
+                            <choice>
+                                <abbr>c</abbr>
+                                <expan>citato</expan>
+                            </choice>
+                    </ref>
+                    <note xml:id="d14e29ea-74c7-4c0d-8e29-ea74c77c0d6c" corresp="#c1a0c76e-adac-4c5f-a0c7-6eadaccc5f6a">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Chamisso
+                                1821</bibl>, 108.</note>
+                </p>
+                <p>
+                    <choice>
+                        <orig>
+                            <hi rendition="#u">nombre</hi>
+                        </orig>
+                        <reg>
+                            <hi rendition="#u">Nombre</hi>
+                        </reg>
+                    </choice>
+                </p>
+                <p>
+                    <choice>
+                        <sic>il</sic>
+                        <corr cert="high">Il</corr>
+                    </choice> y a à <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0009388 https://www.geonames.org/4033346">l’Île Romanzow</placeName>
+                    <lb/>18 plantes sauvages<supplied cert="high">,</supplied>
+                    <lb/>3 <choice>
+                        <abbr>Monoc.</abbr>
+                        <expan>Monocotylédones</expan>
+                    </choice> et <lb/>15 <choice>
+                        <abbr>Dicot.</abbr>
+                        <expan>Dicotylédones</expan>
+                    </choice>
+                    <ref xml:id="a218869d-f5d6-487e-9886-9df5d6087eee" corresp="#e90ef6b1-8fc1-490c-8ef6-b18fc1390cc6">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                            <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 139</bibl>
+                    </ref>
+                    <note xml:id="e90ef6b1-8fc1-490c-8ef6-b18fc1390cc6" corresp="#a218869d-f5d6-487e-9886-9df5d6087eee">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Chamisso
+                                1821</bibl>.</note>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <note place="left" hand="#author">
+                    <ref xml:id="ed_fyb_ky1_py" type="siglum" target="#Geographie_der_Pflanzen_U">U.</ref>
+                </note>
+                <p>
+                    <placeName ref="https://editon-humboldt.de/H0009852 https://www.geonames.org/5855797">
+                        <choice>
+                            <abbr>Sandw.</abbr>
+                            <expan>Sandwich</expan>
+                        </choice>
+                        <choice>
+                            <abbr>I.</abbr>
+                            <expan>Inseln</expan>
+                        </choice>
+                    </placeName>
+                    <choice>
+                        <abbr>végét.</abbr>
+                        <expan>végétation</expan>
+                    </choice> diffè<lb break="no"/>re totalement de <supplied cert="high">celle de
+                        la</supplied>
+                    <placeName ref="https://editon-humboldt.de/H0017307">
+                        <lb/>
+                        <choice>
+                            <abbr>Calif</abbr>
+                            <expan>Californie</expan>
+                        </choice>
+                    </placeName>
+                    <supplied cert="high">.</supplied> Il y a des <name type="plant">Aca<lb break="no"/>cia</name> (aphylles)<supplied cert="high">,</supplied>
+                    <name type="plant">Santalum</name>
+                    <supplied cert="high">,</supplied>
+                    <lb/>
+                    <name type="plant">Metrosideros</name>
+                    <supplied cert="high">,</supplied>
+                    <name type="plant">Pandanus</name>
+                    <supplied cert="high">,</supplied>
+                    <lb/>
+                    <name type="plant">Tacca</name>
+                    <ref xml:id="ae9dcd3a-e2ef-4b6b-9dcd-3ae2ef7b6bcc" corresp="#b147f088-3432-42a5-87f0-883432b2a5cf">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                            <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 144</bibl>
+                    </ref>
+                    <note xml:id="b147f088-3432-42a5-87f0-883432b2a5cf" corresp="#ae9dcd3a-e2ef-4b6b-9dcd-3ae2ef7b6bcc">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue
+                                1821</bibl>, III.</note>
+                    <supplied cert="high">.</supplied>
+                    <note place="right" hand="#author">tournez</note>
+                </p>
+                <p>
+                    <pb n="6r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000013.jpg"/>
+                    <choice>
+                        <sic>cultivé</sic>
+                        <corr cert="high">Cultivés</corr>
+                    </choice> à <placeName ref="https://editon-humboldt.de/H0009852 https://www.geonames.org/5855797">Sandwich <choice>
+                            <abbr>I.</abbr>
+                            <expan>Inseln</expan>
+                        </choice>
+                    </placeName>
+                </p>
+                <list>
+                    <item>racine de Taro</item>
+                    <item>
+                        <name type="plant">Arum <choice>
+                                <abbr>esculent</abbr>
+                                <expan>esculentum</expan>
+                            </choice>
+                        </name>
+                    </item>
+                    <item>
+                        <name type="plant">Tacca</name>
+                    </item>
+                    <item>Tea-root <name type="plant">Dracaena <lb/>
+                            <choice>
+                                <abbr>terminal.</abbr>
+                                <expan>terminalis</expan>
+                            </choice>
+                        </name>
+                    </item>
+                </list>
+                <p>
+                    <ref xml:id="e7b3d35c-8191-4ec8-b3d3-5c81910ec809" corresp="#e3bd6e4c-7781-4688-bd6e-4c7781e68883">
+                        <choice>
+                                <orig>was</orig>
+                                <reg>Was</reg>
+                            </choice> ist <hi rendition="#u">Kawa</hi>?</ref>
+                    <note xml:id="e3bd6e4c-7781-4688-bd6e-4c7781e68883" corresp="#e7b3d35c-8191-4ec8-b3d3-5c81910ec809">In seiner Beschreibung der auf den <placeName ref="https://editon-humboldt.de/H0009852 https://www.geonames.org/5855797">Sandwichinseln</placeName> kultivierten Nutzpflanzen
+                            erwähnt <persName ref="https://editon-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName> ein berauschendes
+                            Getränk, das aus der Pfefferpflanze Kava (<name type="plant">Piper
+                                methysticum</name>) gewonnen wird (<bibl corresp="https://edition-humboldt.de/DUC9S3NR">Chamisso 1821</bibl>, 145). </note>
+                </p>
+                <p>
+                    <choice>
+                        <orig>plantes</orig>
+                        <reg>Plantes</reg>
+                    </choice>
+                    <placeName ref="https://editon-humboldt.de/H0002429">américaines</placeName>
+                    <lb/>et <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">
+                        <choice>
+                            <abbr>europ.</abbr>
+                            <expan>européennes</expan>
+                        </choice>
+                    </placeName> ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>wildern in
+                        <placeName ref="https://editon-humboldt.de/H0009852 https://www.geonames.org/5855797">
+                        <choice>
+                            <abbr>Sand.</abbr>
+                            <expan>Sandwich</expan>
+                        </choice>
+                        <lb/>
+                        <choice>
+                            <abbr>Ins.</abbr>
+                            <expan>Inseln</expan>
+                        </choice>
+                    </placeName> ehe man <lb/>einheimische <choice>
+                        <abbr>Flor</abbr>
+                        <expan>Flora</expan>
+                    </choice>
+                    <lb/>hat kennen<lb break="no"/>gelernt<supplied cert="high">,</supplied>
+                    <ref xml:id="a6232261-b8c4-4af4-a322-61b8c44af4b8" corresp="#f255ffb9-4ee1-4c8f-95ff-b94ee11c8fed">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                            <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 145</bibl>
+                    </ref>
+                    <note xml:id="f255ffb9-4ee1-4c8f-95ff-b94ee11c8fed" corresp="#a6232261-b8c4-4af4-a322-61b8c44af4b8">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue
+                                1821</bibl>, III.</note>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>
+                    <placeName ref="https://editon-humboldt.de/H0000343 https://www.geonames.org/2125072">
+                        <hi rendition="#u">Kamtschatka</hi>
+                    </placeName>
+                </p>
+                <p>Ebene</p>
+                <p>
+                    <placeName ref="https://editon-humboldt.de/H0002636 https://www.geonames.org/2126968">Baye d’Awatscha</placeName>
+                    <supplied cert="high">:</supplied>
+                </p>
+                <p>
+                    <list>
+                        <item>
+                            <name type="plant">Spiraea kamtschatica</name>
+                        </item>
+                        <item>
+                            <name type="plant">Allium ursinum</name>
+                        </item>
+                        <item>
+                            <name type="plant">Mayanthemum canadense</name>
+                        </item>
+                        <item>
+                            <name type="plant">Uvularia amplexifolia</name>
+                        </item>
+                        <item>
+                            <name type="plant">Trillium obovatum</name>
+                            <lb/>
+                            <persName ref="https://editon-humboldt.de/H0002227 http://d-nb.info/gnd/1055363785">Pursh</persName>
+                        </item>
+                    </list>
+                </p>
+                <list>
+                    <head>Hügel<supplied cert="high">:</supplied>
+                    </head>
+                    <item>
+                        <name type="plant">Atragene alpina</name>
+                    </item>
+                    <item>
+                        <name type="plant">
+                            <choice>
+                                <abbr>Rhodod.</abbr>
+                                <expan>Rhododendron</expan>
+                            </choice>
+                            <choice>
+                                <abbr>kamtschat</abbr>
+                                <expan>kamtschaticum</expan>
+                            </choice>
+                        </name>
+                    </item>
+                    <item>
+                        <name type="plant">Empetrum nigrum</name>
+                    </item>
+                    <item>
+                        <name type="plant">Trientalis <choice>
+                                <abbr>europ.</abbr>
+                                <expan>europaea</expan>
+                            </choice>
+                        </name>
+                    </item>
+                    <item>
+                        <name type="plant">Linnaea borealis</name>
+                    </item>
+                    <item>
+                        <name type="plant">Cornus suecica</name>
+                    </item>
+                </list>
+                <p>
+                    <ref xml:id="f7e5fb71-5e18-4df8-a5fb-715e188df854" corresp="#de9fb5e2-d448-44b3-9fb5-e2d448a4b3a0">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                            <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 164.</bibl>
+                    </ref>
+                    <note xml:id="de9fb5e2-d448-44b3-9fb5-e2d448a4b3a0" corresp="#f7e5fb71-5e18-4df8-a5fb-715e188df854">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue
+                                1821</bibl>, III.</note>
+                </p>
+                <note place="left" hand="#author" rend="sticked">
+                    <pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000009.jpg"/>
+                    <placeName ref="https://editon-humboldt.de/H0001697 https://www.geonames.org/5870368">Norton Sound</placeName>
+                    <lb/>noch hohe Bäume. <lb/>
+                    <choice>
+                        <abbr>nördl.</abbr>
+                        <expan>nördlich</expan>
+                    </choice>
+                    <choice>
+                        <abbr>v</abbr>
+                        <expan>von</expan>
+                    </choice>
+                    <placeName ref="https://editon-humboldt.de/H0005217 https://www.geonames.org/4031767">Berings <lb/>Straße</placeName> bloß <name type="plant">Betula <lb/>nana</name>
+                    <supplied cert="high">.</supplied> Aussi
+                        <lb/>
+                    <persName ref="https://editon-humboldt.de/H0013837 http://d-nb.info/gnd/120907534">Mackenzie</persName> a <choice>
+                        <abbr>trouv</abbr>
+                        <expan>trouvé</expan>
+                    </choice>
+                    <lb/>arbres élevés <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice>
+                    <lb/>68° à <ref xml:id="c771331d-e38d-47c1-b133-1de38df7c17d" corresp="#dc329037-390b-4998-b290-37390b49980b">
+                        <placeName ref="https://editon-humboldt.de/H0008546 https://www.geonames.org/6063271">
+                            <hi rendition="#u">sa</hi>
+                                rivière</placeName>
+                    </ref>
+                    <note xml:id="dc329037-390b-4998-b290-37390b49980b" corresp="#c771331d-e38d-47c1-b133-1de38df7c17d">Gemeint ist der nach <persName ref="https://editon-humboldt.de/H0013837 http://d-nb.info/gnd/120907534">Alexander Mackenzie</persName> benannte <placeName ref="https://editon-humboldt.de/H0008546 https://www.geonames.org/6063271">Mackenzie River</placeName> im Nordwesten <placeName ref="https://editon-humboldt.de/H0000345 https://www.geonames.org/6251999">Kanadas</placeName>.</note>.<pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000010.jpg"/>
+                    <gap unit="pages" quantity="1" reason="empty"/>
+                </note>
+                <p>
+                    <choice>
+                        <orig>auf</orig>
+                        <reg>Auf</reg>
+                    </choice>
+                    <hi rendition="#u">
+                        <placeName ref="https://editon-humboldt.de/H0009642 https://www.geonames.org/5877199">Unalaschka</placeName>
+                    </hi>
+                </p>
+                <p>Ebene<supplied cert="high">:</supplied>
+                    <del rendition="#s">A</del>
+                </p>
+                <p>
+                    <list>
+                        <item>des Myrtilles,</item>
+                        <item>
+                            <name type="plant">Lupinus nootkaensis</name>
+                        </item>
+                        <item>
+                            <name type="plant">Mimulus luteus</name>
+                            <lb/>
+                            <persName ref="https://editon-humboldt.de/H0002227 http://d-nb.info/gnd/1055363785">Pursh</persName>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <choice>
+                                    <abbr>M.</abbr>
+                                    <expan>Mimulus</expan>
+                                </choice> guttatus</name>
+                            <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">
+                                <choice>
+                                    <abbr>Willd</abbr>
+                                    <expan>Willdenow</expan>
+                                </choice>
+                            </persName>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <choice>
+                                    <abbr>Epilob.</abbr>
+                                    <expan>Epilobium</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>angustifol</abbr>
+                                    <expan>angustifolium</expan>
+                                </choice>
+                            </name>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <add place="left">
+                                    <choice>
+                                        <abbr>E.</abbr>
+                                        <expan>Epilobium</expan>
+                                    </choice> luteum</add>
+                            </name>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <choice>
+                                    <abbr>E.</abbr>
+                                    <expan>Epilobium</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>latifol.</abbr>
+                                    <expan>latifolium</expan>
+                                </choice>
+                            </name>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <choice>
+                                    <abbr>Rhodod.</abbr>
+                                    <expan>Rhododendron</expan>
+                                </choice> kamtscha<lb break="no"/>ticum</name>
+                        </item>
+                    </list>
+                </p>
+                <p>
+                    <ref xml:id="d9b09366-ac05-4afa-b093-66ac057afa15" corresp="#e7b9aa1a-1088-4c41-b9aa-1a10880c4121">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                            <choice>
+                                    <abbr>p</abbr>
+                                    <expan>page</expan>
+                                </choice> 166</bibl>
+                    </ref>
+                    <note xml:id="e7b9aa1a-1088-4c41-b9aa-1a10880c4121" corresp="#d9b09366-ac05-4afa-b093-66ac057afa15">
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue
+                                1821</bibl>, III .</note>
+                </p>
+                <p>
+                    <list>
+                        <item>
+                            <name type="plant">Uvularia <choice>
+                                    <abbr>amplexi<lb break="no"/>fol</abbr>
+                                    <expan>amplexifolia</expan>
+                                </choice>
+                            </name>
+                        </item>
+                        <item>
+                            <add place="mBottom">
+                                <metamark/>
+                                <name type="plant">Rubus
+                                    spectabilis</name>
+                            </add>
+                        </item>
+                        <item>
+                            <add place="mBottom">
+                                <name type="plant">Claytonia
+                                    unalaschcensis</name>
+                            </add>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <add place="mBottom">Sanguisorba <choice>
+                                        <abbr>canad.</abbr>
+                                        <expan>canadensis</expan>
+                                    </choice>
+                                </add>
+                            </name>
+                        </item>
+                        <item>
+                            <add place="mBottom">
+                                <name type="plant">
+                                    <choice>
+                                        <abbr>Lithosperm.</abbr>
+                                        <expan>Lithospermum</expan>
+                                    </choice>
+                                    <choice>
+                                        <abbr>angustif.</abbr>
+                                        <expan>angustifolium</expan>
+                                    </choice>
+                                </name>
+                            </add>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <add place="mBottom">Prunella <choice>
+                                        <abbr>vulgar.</abbr>
+                                        <expan>vulgaris</expan>
+                                    </choice>
+                                </add>
+                            </name>
+                        </item>
+                        <item>
+                            <add place="mBottom">
+                                <name type="plant">Romanzoffia
+                                    unalaschkensis</name>
+                            </add>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <add place="mBottom">Iris
+                            sibirica</add>
+                            </name>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <add place="mBottom">Geranium
+                                <lb/>pratense</add>
+                            </name>
+                        </item>
+                    </list>
+                    <note place="left" hand="#author">
+                        <ref xml:id="f381b474-3dfa-483a-81b4-743dfa083a6f" corresp="#ec0978a5-358e-4530-8978-a5358e3530c4">
+                            <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                                <choice>
+                                        <abbr>p.</abbr>
+                                        <expan>page</expan>
+                                    </choice> 167</bibl>
+                        </ref>
+                        <note xml:id="ec0978a5-358e-4530-8978-a5358e3530c4" corresp="#f381b474-3dfa-483a-81b4-743dfa083a6f">
+                            <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue 1821</bibl>, III.</note>
+                    </note>
+                </p>
+                <p>Im Ganzen peu d’<lb break="no"/>analogie de végéta<lb break="no"/>tion avec
+                        <placeName ref="https://editon-humboldt.de/H0000343 https://www.geonames.org/2125072">Kamtschatka</placeName>
+                    <supplied cert="high">.</supplied>
+                    <note place="left" hand="#author">
+                        <choice>
+                            <orig>
+                                <metamark/>cette</orig>
+                            <reg>Cette</reg>
+                        </choice>
+                        <choice>
+                            <abbr>différ.</abbr>
+                            <expan>différence</expan>
+                        </choice>
+                        <lb/>aussi observée <lb/>dans le <placeName ref="https://editon-humboldt.de/H0005217 https://www.geonames.org/4031767">
+                            <choice>
+                                <abbr>détr.</abbr>
+                                <expan>détroit</expan>
+                            </choice>
+                            <lb/>de Bering</placeName> entre <placeName ref="https://editon-humboldt.de/H0009942 https://www.geonames.org/2119248">
+                            <lb/>la baie
+                            du <choice>
+                                <abbr>S<hi rendition="#sup">t</hi>
+                                </abbr>
+                                <expan>Saint</expan>
+                            </choice>
+                            <lb/>Laurent</placeName>
+                        <lb/>et côte <lb/>
+                        <placeName ref="https://editon-humboldt.de/H0002429">
+                            <choice>
+                                <abbr>amér.</abbr>
+                                <expan>américaine</expan>
+                            </choice>
+                        </placeName>
+                        <ref xml:id="f0917a11-6220-4e52-917a-1162203e5239" corresp="#d261e1de-60cc-4d60-a1e1-de60cced60e6">
+                            <bibl corresp="https://edition-humboldt.de/DUC9S3NR">
+                                <choice>
+                                        <abbr>p</abbr>
+                                        <expan>page</expan>
+                                    </choice> 171</bibl>
+                        </ref>
+                        <note xml:id="d261e1de-60cc-4d60-a1e1-de60cced60e6" corresp="#f0917a11-6220-4e52-917a-1162203e5239">
+                            <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue 1821</bibl>, III.</note>
+                        <supplied cert="high">.</supplied>
+                    </note>
+                </p>
+                <note place="left" hand="#author" rend="sticked">
+                    <pb n="5r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000011.jpg"/>
+                    <p>
+                        <placeName ref="https://editon-humboldt.de/H0009642 https://www.geonames.org/5877199">Unalashka</placeName>
+                        <note place="right" hand="#author">
+                            <ref xml:id="ed_x2f_nyb_py" type="siglum" target="#Geographie_der_Pflanzen_U"> U</ref>
+                        </note>
+                    </p>
+                    <p>Berge<supplied cert="high">:</supplied>
+                    </p>
+                    <list>
+                        <item>
+                            <name type="plant">Azalea procumbens</name>
+                        </item>
+                        <item>
+                            <name type="plant">Andromeda tetragona</name>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <choice>
+                                    <sic>Linnea</sic>
+                                    <corr cert="high">Linnaea</corr>
+                                </choice> borealis</name>
+                        </item>
+                        <item>
+                            <name type="plant">Königia islandica</name>
+                        </item>
+                        <item>
+                            <del rendition="#s">
+                                <name type="plant">Alnus incana</name>
+                            </del>
+                        </item>
+                        <item>
+                            <del rendition="#s">
+                                <name type="plant">Betula nana</name>
+                            </del>
+                        </item>
+                        <item>
+                            <del rendition="#s">
+                                <name type="plant">Diapensia laponica</name>
+                            </del>
+                        </item>
+                    </list>
+                    <p>
+                        <bibl corresp="https://edition-humboldt.de/DUC9S3NR">Kotzebue <lb/>III <choice>
+                                <abbr>p</abbr>
+                                <expan>page</expan>
+                            </choice> 168</bibl>
+                        <supplied cert="high">.</supplied>
+                    </p>
+                    <p>
+                        <pb n="5v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000012.jpg"/>
+                        <gap unit="pages" quantity="1" reason="empty"/>
+                    </p>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

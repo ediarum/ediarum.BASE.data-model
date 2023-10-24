@@ -30,11 +30,11 @@
         <moduleRef key="linking"/>
         <moduleRef key="msdescription" except="typeDesc"/>
         <moduleRef key="namesdates"/>
-        <moduleRef key="textcrit" include="listWit witness" url="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <moduleRef key="textcrit" include="listWit witness" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         <moduleRef key="transcr"/>
         
         <!-- ediarum -->
-        <moduleRef key="gaiji" include="g" url="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
+        <moduleRef key="gaiji" include="g" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         <classRef key="att.canonical" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         <classRef key="att.written" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         
@@ -120,7 +120,12 @@
           <attList>
             <attDef ident="rend" mode="replace">
               <valList type="closed">
+                <valItem ident="nonExtant"/>
+                <valItem ident="concept"/>
                 <valItem ident="manuscript"/>
+                <valItem ident="copy"/>
+                <valItem ident="print"/>
+                <valItem ident="print-as-print"/>
               </valList>
             </attDef>
           </attList>
@@ -157,6 +162,16 @@
 <!--        <elementRef key="listWit" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"  />
         <elementRef key="witness" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"  />
 -->     
+        <elementSpec ident="witness" module="textcrit" mode="change">
+          <attList>
+            <attDef ident="select" mode="add">
+              <valList type="closed">
+                <valItem ident="#this"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
         <elementSpec ident="creation" module="header" mode="add">
           <classes>
             <memberOf key="model.profileDescPart"/>
@@ -168,7 +183,7 @@
           </content>
         </elementSpec>
         
-        <elementRef key="abstract" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="abstract" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>                
         
         <elementSpec ident="correspDesc" module="header" mode="add">
           <!-- vermutlich nur nötig bis Update DTABf -->
@@ -212,6 +227,7 @@
           </attList>
         </elementSpec>
         
+        
         <!-- text -->
         
         <elementSpec ident="persName" module="namesdates" mode="change">
@@ -224,6 +240,26 @@
               </valList>
             </attDef>
             <attDef ident="ref" mode="delete"></attDef>
+            <attDef ident="evidence" usage="opt" mode="add">
+              <valList type="closed">
+                <valItem ident="conjecture">
+                  <desc>Erschlossen.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="ref" mode="delete"></attDef>
+            <attDef ident="evidence" usage="opt" mode="add">
+              <valList type="closed">
+                <valItem ident="conjecture">
+                  <desc>Erschlossen.</desc>
+                </valItem>
+              </valList>
+            </attDef>
           </attList>
         </elementSpec>
         
@@ -338,6 +374,7 @@
             </attDef>
           </attList>
         </elementSpec>
+        
         
         <elementSpec ident="lb" module="core" mode="change">
            <attList>
@@ -526,10 +563,6 @@
                 </valItem>
                 <valItem ident="mBottom">
                   <desc>Manuskripte: am unteren Rand</desc>
-                </valItem>
-                <!-- 2022: nur Avhr! -->
-                <valItem ident="opposite">
-                  <desc>Auf der gegenüberliegenden Seite</desc>
                 </valItem>
               </valList>
             </attDef>
