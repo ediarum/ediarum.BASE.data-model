@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../ediarum.BASE.schema/ediarum.REGISTER.schema.odd</String>
+                                    <String>ediarum.odd</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -30,7 +30,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../ediarum.BASE.schema/ediarum.avhr.api.odd</String>
+                                    <String>ediarum.compiled.odd</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -50,11 +50,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../ediarum.BASE.schema/ediarum.avhr.odd</String>
+                                    <String>ediarum.avhr.odd</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Compiling ODD 2022</String>
+                                        <String>TEI ODD to RelaxNG XML 2022</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -70,11 +70,31 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../ediarum.BASE.schema/ediarum.odd</String>
+                                    <String>ediarum.avhr.api.odd</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Compiling ODD 2022</String>
+                                        <String>TEI ODD to RelaxNG XML 2022</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ediarum.REGISTER.schema.odd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TEI ODD to RelaxNG XML 2022</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -110,51 +130,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>ediarum.odd</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Compiling ODD 2022</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>../../../Downloads/basisformat_all.odd</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Compiling ODD 2022</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>ediarum.compiled.odd</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TEI ODD to RelaxNG XML 2022</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
