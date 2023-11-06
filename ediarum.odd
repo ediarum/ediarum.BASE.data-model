@@ -17,6 +17,13 @@
       </sourceDesc>
     </fileDesc>
   </teiHeader>
+  <!-- Hinweis, SD 2023-11-03: Beim Hinzufügen von Attributwerten in existierende valList's 
+   ist darauf zu achten, dass die Ebenen korrekt geändert
+    werden:
+    attDef -> mode="change"
+    valList -> mode="change"
+    valItem -> mode="add"
+    -->
   <text>
     <body>
       <!-- besser über https://github.com/deutschestextarchiv/dtabf/tree/master/schema/dist abrufen (raw dann) -->
@@ -59,6 +66,7 @@
             <attDef ident="rend" mode="change">
               <valList type="closed" mode="change">
                 <valItem ident="sticked" mode="add"/>
+                <valItem ident="within the line" mode="add"/> <!-- ediarum / Brief --> 
                 <!-- 2022: sticked / inserted / drawn nur AvHR ??? -->
                 <valItem ident="inserted" mode="add"/>
                 <valItem ident="drawn" mode="add"/>
@@ -349,19 +357,6 @@
             <macroRef key="macro.limitedContent"/>
           </content>
         </elementSpec>
-<!--        
-        <elementSpec ident="g" module="gaiji" mode="add" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml">
-          <classes>
-            <memberOf key="model.gLike"/>
-          </classes>
-          <attList>
-            <attDef ident="ref">
-              <valList type="closed">
-                <valItem ident="#typoHyphen"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>-->
         
         <elementSpec ident="div" module="core" mode="change">
           <!-- vermutlich nur nötig bis Update DTABf -->
@@ -540,36 +535,25 @@
            oder die DTABf-Values fallen raus und werden durch die TEI-Standard-Values ersetzt plus die zwei ediaurm.
           2022 Ergo muss man hier alle Werte nochmal mit aufnehmen -->
           <attList>
-            <attDef ident="place" mode="replace">
-              <valList mode="replace" type="closed">
-                <valItem ident="left">
-                  <desc>Marginalie links</desc>
-                </valItem>
-                <valItem ident="right">
-                  <desc>Marginalie rechts</desc>
-                </valItem>
-                <valItem ident="foot">
-                  <desc>Fußnote</desc>
-                </valItem>
-                <valItem ident="end">
-                  <desc>Endnote</desc>
-                </valItem>
-                <!-- 2022: in AvHR/ediarum noch nicht mInline! -->
-                <valItem ident="inline">
+            <!--<attDef ident="place" mode="change">
+              <valList type="closed" mode="change" >
+                <!-\- 2022: in AvHR/ediarum noch nicht mInline! -\->
+                <valItem ident="inline" mode="add">
                   <desc>Manuskripte: Anmerkung innerhalb der Zeile</desc>
                 </valItem>
-                <valItem ident="mTop">
-                  <desc>Manuskripte: am oberen Rand</desc>
-                </valItem>
-                <valItem ident="mBottom">
-                  <desc>Manuskripte: am unteren Rand</desc>
-                </valItem>
               </valList>
-            </attDef>
+            </attDef>-->
             <attDef ident="resp" mode="replace">
               <datatype maxOccurs="unbounded">
                 <dataRef key="teidata.pointer"/>
               </datatype>
+            </attDef>
+            <attDef ident="type" mode="change" usage="opt">
+              <valList type="closed" mode="change">
+                <valItem ident="handwritten" mode="add">
+                  <desc>Handwritten notes in printed texts</desc>
+                </valItem>
+              </valList> 
             </attDef>
           </attList>
         </elementSpec>
@@ -581,33 +565,11 @@
           2022 Ergo muss man hier alle Werte nochmal mit aufnehmen -->
           <attList>
             <attDef ident="place" mode="change">
-              <valList type="closed" mode="replace">
-                <valItem ident="across">
-                  <desc>
-                    Manuskripte: Hinzufügung durch Überschreibung des zu korrigierenden Textes.
-                  </desc>
-                </valItem>
-                <valItem ident="intralinear">
-                  <desc>
-                    Manuskripte: Einfügung innerhalb der Textzeile, jedoch ohne bestehenden Text zu überschreiben.
-                  </desc>
-                </valItem>
-                <valItem ident="superlinear">
-                  <desc>Manuskripte: Einfügung über der Zeile.</desc>
-                </valItem>
-                <valItem ident="sublinear">
-                  <desc>Manuskripte: Einfügung unter der Zeile.</desc>
-                </valItem>
-                <valItem ident="left">
-                  <desc>Manuskripte: Einfügung am linken Rand.</desc>
-                </valItem>
-                <valItem ident="right">
-                  <desc>Manuskripte: Einfügung am rechten Rand.</desc>
-                </valItem>
-                <valItem ident="mTop">
+              <valList type="closed" mode="change">
+                <valItem ident="mTop" mode="add">
                   <desc>Manuskripte: am oberen Rand</desc>
                 </valItem>
-                <valItem ident="mBottom">
+                <valItem ident="mBottom" mode="add">
                   <desc>Manuskripte: am unteren Rand</desc>
                 </valItem>
               </valList>
