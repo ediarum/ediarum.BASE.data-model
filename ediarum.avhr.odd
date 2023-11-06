@@ -115,38 +115,15 @@
                 </valItem>
               </valList>
             </attDef>
-            <attDef ident="place" mode="replace">
-              <valList mode="replace" type="closed">
-                <valItem ident="left">
-                  <desc>Marginalie links</desc>
-                </valItem>
-                <valItem ident="right">
-                  <desc>Marginalie rechts</desc>
-                </valItem>
-                <valItem ident="foot">
-                  <desc>Fußnote</desc>
-                </valItem>
-                <valItem ident="end">
-                  <desc>Endnote</desc>
-                </valItem>
-                <!-- 2022: in AvHR/ediarum noch nicht mInline! -->
-                <valItem ident="inline">
-                  <desc>Manuskripte: Anmerkung innerhalb der Zeile</desc>
-                </valItem>
-                <valItem ident="mTop">
-                  <desc>Manuskripte: am oberen Rand</desc>
-                </valItem>
-                <valItem ident="mBottom">
-                  <desc>Manuskripte: am unteren Rand</desc>
-                </valItem>
-                <!-- nur Avhr! -->
-                <valItem ident="opposite">
+            <attDef ident="place" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="opposite" mode="add">
                   <desc>Auf der gegenüberliegenden Seite</desc>
                 </valItem>
-                <valItem ident="overleaf">
+                <valItem ident="overleaf" mode="add">
                   <desc>Auf der Rückseite des Blattes</desc>
                 </valItem>
-                <valItem ident="continuedElsewhere">
+                <valItem ident="continuedElsewhere" mode="add">
                   <desc>An anderer Stelle</desc>
                 </valItem>
               </valList>
@@ -199,6 +176,32 @@
               </valList>
             </attDef>
           </attList>
+        </elementSpec>
+        
+        <elementSpec ident="reg" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace">
+              <valList type="closed">
+                <valItem ident="deleted"/>
+              </valList>
+            </attDef>
+            <attDef ident="cert" mode="replace">
+              <valList type="closed">
+                <valItem ident="low"/>
+                <valItem ident="high"/>
+              </valList>
+            </attDef>
+         </attList>
+        </elementSpec>
+        
+        <elementSpec ident="sic" module="core" mode="change">
+          <attList>
+            <attDef ident="ana" mode="add">
+              <valList type="closed">
+                <valItem ident="#break-off"/>
+              </valList>
+            </attDef>
+         </attList>
         </elementSpec>
         
         <elementSpec ident="ref" module="core" mode="change">
