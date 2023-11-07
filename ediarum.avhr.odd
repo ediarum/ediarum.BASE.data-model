@@ -83,6 +83,16 @@
             </classes>
         </elementSpec>
         
+        <elementSpec ident="p" module="core" mode="change">
+          <attList>
+            <attDef ident="hand" mode="replace">
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
         <elementSpec ident="name" module="namesdates" mode="change">
           <attList>
             <attDef ident="type" mode="replace" usage="rec">
@@ -92,6 +102,9 @@
                 </valItem>
                 <valItem ident="animal">
                   <desc>Name ist der eines Tieres</desc>
+                </valItem>
+                <valItem ident="animal|plant">
+                  <desc>Name ist der eines Pilzes, Alge o.ä.</desc>
                 </valItem>
                 <valItem ident="mineral">
                   <desc>Name ist der eines Minerals</desc>
@@ -115,17 +128,42 @@
                 </valItem>
               </valList>
             </attDef>
-            <attDef ident="place" mode="change">
-              <valList type="closed" mode="change">
-                <valItem ident="opposite" mode="add">
-                  <desc>Auf der gegenüberliegenden Seite</desc>
-                </valItem>
-                <valItem ident="overleaf" mode="add">
-                  <desc>Auf der Rückseite des Blattes</desc>
-                </valItem>
-                <valItem ident="continuedElsewhere" mode="add">
-                  <desc>An anderer Stelle</desc>
-                </valItem>
+            <attDef ident="place" mode="replace" usage="opt">
+              <datatype maxOccurs="unbounded"><dataRef key="teidata.enumerated"/></datatype>
+              <valList type="closed">
+                    <valItem ident="left">
+                      <desc>Manuskripte: Einfügung am linken Rand.</desc>
+                    </valItem>
+                    <valItem ident="right">
+                      <desc>Manuskripte: Einfügung am rechten Rand.</desc>
+                    </valItem>
+                    <valItem ident="foot">
+                      <desc>Fußnote</desc>
+                    </valItem>
+                    <valItem ident="end">
+                      <desc>Endnote</desc>
+                    </valItem>
+                    <valItem ident="mTop">
+                      <desc>Manuskripte: am oberen Rand</desc>
+                    </valItem>
+                    <valItem ident="mBottom">
+                      <desc>Manuskripte: am unteren Rand</desc>
+                    </valItem>
+                    <!-- Änderungen gg. DTABf -->
+                    <!-- inline statt mInline -->
+                    <valItem ident="inline">
+                      <desc>Manuskripte: Anmerkung innerhalb der Zeile</desc>
+                    </valItem>
+                    <!-- Änderungen gg. ediarum.BASE -->
+                    <valItem ident="opposite">
+                      <desc>Auf der gegenüberliegenden Seite</desc>
+                    </valItem>
+                    <valItem ident="overleaf">
+                      <desc>Auf der Rückseite des Blattes</desc>
+                    </valItem>
+                    <valItem ident="continuedElsewhere">
+                      <desc>An anderer Stelle</desc>
+                    </valItem>
               </valList>
             </attDef>
           </attList>
@@ -133,8 +171,9 @@
         
         <elementSpec ident="add" module="core" mode="change">
           <attList>
-            <attDef ident="place" mode="change">
-              <valList type="closed" mode="replace">
+            <attDef ident="place" mode="replace">
+              <valList type="closed">
+                <!-- place muss insgesamt ersetzt werden, sonst gibt es Fehler -->
                 <valItem ident="across">
                   <desc>
                     Manuskripte: Hinzufügung durch Überschreibung des zu korrigierenden Textes.
@@ -157,13 +196,13 @@
                 <valItem ident="right">
                   <desc>Manuskripte: Einfügung am rechten Rand.</desc>
                 </valItem>
+                <!-- nur Avhr! -->
                 <valItem ident="mTop">
                   <desc>Manuskripte: am oberen Rand</desc>
                 </valItem>
                 <valItem ident="mBottom">
                   <desc>Manuskripte: am unteren Rand</desc>
                 </valItem>
-                <!-- nur Avhr! -->
                 <valItem ident="opposite">
                   <desc>Auf der gegenüberliegenden Seite</desc>
                 </valItem>
