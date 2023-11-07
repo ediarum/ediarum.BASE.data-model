@@ -43,7 +43,6 @@
         <!-- ediarum -->
         <moduleRef key="gaiji" include="g" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         <classRef key="att.canonical" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
-        <classRef key="att.written" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml" />
         
         <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
           <attList>
@@ -528,21 +527,41 @@
           </attList>
         </elementSpec>
         
-        <!-- 2022: Unterschiede zw. note und add bei @place anschauen und diskutieren -->
         <elementSpec ident="note" module="core" mode="change">
           <!--  vermutlich nur nötig bis Update DTABf 
           funzt nicht im Chaining, mTop und mBottom werden entweder nicht korrekt ergänzt (mehrfache Regeln für valList im RNG) 
            oder die DTABf-Values fallen raus und werden durch die TEI-Standard-Values ersetzt plus die zwei ediaurm.
           2022 Ergo muss man hier alle Werte nochmal mit aufnehmen -->
           <attList>
-            <!--<attDef ident="place" mode="change">
-              <valList type="closed" mode="change" >
-                <!-\- 2022: in AvHR/ediarum noch nicht mInline! -\->
-                <valItem ident="inline" mode="add">
+            <attDef ident="place" mode="replace">
+              <datatype maxOccurs="unbounded"><dataRef key="teidata.enumerated"/></datatype>
+              <valList type="closed">
+                <valItem ident="left">
+                  <desc>Marginalie links</desc>
+                </valItem>
+                <valItem ident="right">
+                  <desc>Marginalie rechts</desc>
+                </valItem>
+                <valItem ident="foot">
+                  <desc>Fußnote</desc>
+                </valItem>
+                <valItem ident="end">
+                  <desc>Endnote</desc>
+                </valItem>
+                <valItem ident="mTop">
+                  <desc>Manuskripte: am oberen Rand</desc>
+                </valItem>
+                <valItem ident="mBottom">
+                  <desc>Manuskripte: am unteren Rand</desc>
+                </valItem>
+                <!-- Änderungen gg. DTABf -->
+                <!-- inline statt mInline -->
+                <valItem ident="inline">
                   <desc>Manuskripte: Anmerkung innerhalb der Zeile</desc>
                 </valItem>
+                
               </valList>
-            </attDef>-->
+            </attDef>
             <attDef ident="resp" mode="replace">
               <datatype maxOccurs="unbounded">
                 <dataRef key="teidata.pointer"/>
@@ -558,25 +577,10 @@
           </attList>
         </elementSpec>
         
-        <elementSpec ident="add" module="core" mode="change">
-          <!--  vermutlich nur nötig bis Update DTABf 
-          funzt nicht im Chaining, mTop und mBottom werden entweder nicht korrekt ergänzt (mehrfache Regeln für valList im RNG) 
-           oder die DTABf-Values fallen raus und werden durch die TEI-Standard-Values ersetzt plus die zwei ediaurm.
-          2022 Ergo muss man hier alle Werte nochmal mit aufnehmen -->
-          <attList>
-            <attDef ident="place" mode="change">
-              <valList type="closed" mode="change">
-                <valItem ident="mTop" mode="add">
-                  <desc>Manuskripte: am oberen Rand</desc>
-                </valItem>
-                <valItem ident="mBottom" mode="add">
-                  <desc>Manuskripte: am unteren Rand</desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-      
+        <!-- ident="add" nicht notwendig, 
+          da Attributwerte von @place in ediarum.BASE mit DTABf übereinstimmen 
+        -->
+        
       </schemaSpec>
       
     </body>
