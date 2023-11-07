@@ -255,6 +255,20 @@
           </attList>
         </elementSpec>
         
+        <elementSpec ident="foreign" mode="change">
+          <content>
+            <alternate minOccurs="0"
+              maxOccurs="unbounded">
+              <textNode/>
+              <classRef key="model.gLike"/>
+              <classRef key="model.attributable"/>
+              <classRef key="model.phrase"/>
+              <classRef key="model.global"/>
+              <classRef key="model.biblLike"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        
       </schemaSpec>
       
     </body>
