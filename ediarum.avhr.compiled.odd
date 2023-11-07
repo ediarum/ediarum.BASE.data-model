@@ -195,7 +195,35 @@
           <height extent="half the page"/>
         </egXML>
       </exemplum>
-    </attDef></attList></classSpec><classSpec rend="add" module="tei" type="atts" ident="att.cReferencing">
+    </attDef></attList></classSpec><classSpec rend="add" module="tei" type="atts" ident="att.written">
+  <desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2018-06-15" xml:lang="en">provides an attribute to indicate the hand in which
+    the content of an element was written in the source being transcribed.</desc>
+  
+  <classes xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples"/>
+  <attList xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples">
+  	<attDef ident="hand" usage="opt">
+  	  <desc versionDate="2018-06-15" xml:lang="en">points to a <gi>handNote</gi> element describing the hand considered responsible for the
+  	    content of the element concerned.</desc>
+  		
+  		
+  		
+  	
+  		
+  		<desc versionDate="2007-12-20" xml:lang="ko">간섭을 만든 당사자의 필적을 나타낸다.</desc>
+  		<desc versionDate="2008-04-05" xml:lang="ja">
+  			当該調整を行った主体の筆致を特定する．
+  		</desc>
+  		<desc versionDate="2008-03-30" xml:lang="fr">signale la main de celui qui est intervenue.</desc>
+  		<desc versionDate="2007-01-21" xml:lang="it">indica il responsabile dell'aggiunta o della cancellazione</desc>
+  		<desc versionDate="2007-05-04" xml:lang="es">indica el responsable de la adición o de la omisión.</desc>
+  		<datatype><dataRef key="teidata.pointer"/></datatype>
+  		
+  		
+  	</attDef>
+  	
+  </attList>
+  
+</classSpec><classSpec rend="add" module="tei" type="atts" ident="att.cReferencing">
   <desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2012-09-23" xml:lang="en">provides an attribute which may be used to supply a
   <term>canonical reference</term> as a means of identifying the
   target of a pointer.</desc>
@@ -3201,34 +3229,7 @@ en-tête et un texte, constitue un document TEI.</desc>
           définie de façon externe identifiant le référent. </p>
       </remarks>
       <remarks xml:lang="ja" versionDate="2018-12-31"><p>値はデータベースにおけるユニークな識別子や、外部で定義された指示対象を特定するなんらかの文字列であってよい。<att>key</att>属性の値に関してさだまった構文は提案されていない。なぜならば、それぞれのプロジェクトのやりかたに完全に依存するからである。同様の理由によって、データの相互交換においてこの属性は推奨されない。在るプロジェクトで用いられた値が他のプロジェクトの値と異なることを保証できないからである。そのような場面における魔法石的対処は、<ref target="#RFC4151">RFC4151</ref>に定義されるタグURIを値とする<att>ref</att>属性を用いて、標準的なウェブにおける習慣にしたがってmagic tokenを使うことである。</p></remarks>
-    </attDef></attList></classSpec><classSpec rend="add" module="tei" type="atts" ident="att.written">
-  <desc xmlns:rng="http://relaxng.org/ns/structure/1.0" versionDate="2021-08-22" xml:lang="en">provides attributes to indicate the hand in which
-    the content of an element was written in the source being transcribed.</desc>
-  
-  <classes xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
-  <attList xmlns:rng="http://relaxng.org/ns/structure/1.0">
-  	<attDef ident="hand" usage="opt">
-  	  <desc versionDate="2018-06-15" xml:lang="en">points to a <gi>handNote</gi> element describing the hand considered responsible for the
-  	    content of the element concerned.</desc>
-  		
-  		
-  		
-  	
-  		
-  		<desc versionDate="2007-12-20" xml:lang="ko">간섭을 만든 당사자의 필적을 나타낸다.</desc>
-  		<desc versionDate="2008-04-05" xml:lang="ja">当該調整を行った主体の筆致を特定する。
-  		</desc>
-  		<desc versionDate="2008-03-30" xml:lang="fr">signale la main de celui qui est intervenue.</desc>
-  		<desc versionDate="2007-01-21" xml:lang="it">indica il responsabile dell'aggiunta o della cancellazione</desc>
-  		<desc versionDate="2007-05-04" xml:lang="es">indica el responsable de la adición o de la omisión.</desc>
-  		<datatype><dataRef key="teidata.pointer"/></datatype>
-  		
-  		
-  	</attDef>
-  	
-  </attList>
-  
-</classSpec><classSpec rend="add" module="core" type="atts" ident="att.milestoneUnit">
+    </attDef></attList></classSpec><classSpec rend="add" module="core" type="atts" ident="att.milestoneUnit">
   <desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2012-07-16" xml:lang="en">provides an attribute to indicate the type of section which is changing at a specific milestone.</desc>
   <attList xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples">
     <attDef ident="unit" usage="req">
@@ -3426,11 +3427,15 @@ en-tête et un texte, constitue un document TEI.</desc>
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.
       </report>
     </constraint>
-  </constraintSpec><attList><attDef ident="resp" mode="replace">
+  </constraintSpec><attList><attDef ident="hand" mode="replace">
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+            </attDef><attDef ident="resp" mode="replace">
               <datatype maxOccurs="unbounded">
                 <dataRef key="teidata.pointer"/>
               </datatype>
-            </attDef><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="n" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="facs" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="sameAs" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="part" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="cert" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="hand" mode="delete"/></attList><exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" xml:lang="en">
+            </attDef><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="n" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="facs" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="sameAs" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="part" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="cert" mode="delete"/></attList><exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NJAL">
       <p>Hallgerd was outside. <q>There is blood on your axe,</q> she said. <q>What have you
                     done?</q>
@@ -4185,33 +4190,49 @@ Normalization</ref>
   commentatore o correttore.</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2016-11-24" xml:lang="de">
       enthält Buchstaben, Wörter oder Phrasen, die in den Ausgangstext von einem Autor, einem Schreiber oder im 
       Rahmen einer zuvor erfolgten Annotation oder Korrektur in den Ausgangstext eingefügt wurden
-  </desc><classes><memberOf key="att.global"/><memberOf key="model.pPart.transcriptional"/><memberOf key="att.transcriptional"/><memberOf key="att.placement"/><memberOf key="att.typed"/><memberOf key="att.dimensions"/></classes><content><macroRef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" key="macro.paraContent"/></content><attList><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="n" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="xml:lang" mode="delete"/><attDef ident="place" mode="change" rend="change" usage="req"><valList type="closed" mode="replace"><valItem ident="across">
+  </desc><classes><memberOf key="att.global"/><memberOf key="model.pPart.transcriptional"/><memberOf key="att.transcriptional"/><memberOf key="att.placement"/><memberOf key="att.typed"/><memberOf key="att.dimensions"/></classes><content><macroRef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" key="macro.paraContent"/></content><attList><attDef ident="place" mode="replace">
+              <valList type="closed">
+                
+                <valItem ident="across">
                   <desc>
                     Manuskripte: Hinzufügung durch Überschreibung des zu korrigierenden Textes.
                   </desc>
-                </valItem><valItem ident="intralinear">
+                </valItem>
+                <valItem ident="intralinear">
                   <desc>
                     Manuskripte: Einfügung innerhalb der Textzeile, jedoch ohne bestehenden Text zu überschreiben.
                   </desc>
-                </valItem><valItem ident="superlinear">
+                </valItem>
+                <valItem ident="superlinear">
                   <desc>Manuskripte: Einfügung über der Zeile.</desc>
-                </valItem><valItem ident="sublinear">
+                </valItem>
+                <valItem ident="sublinear">
                   <desc>Manuskripte: Einfügung unter der Zeile.</desc>
-                </valItem><valItem ident="left">
+                </valItem>
+                <valItem ident="left">
                   <desc>Manuskripte: Einfügung am linken Rand.</desc>
-                </valItem><valItem ident="right">
+                </valItem>
+                <valItem ident="right">
                   <desc>Manuskripte: Einfügung am rechten Rand.</desc>
-                </valItem><valItem ident="mTop">
+                </valItem>
+                
+                <valItem ident="mTop">
                   <desc>Manuskripte: am oberen Rand</desc>
-                </valItem><valItem ident="mBottom">
+                </valItem>
+                <valItem ident="mBottom">
                   <desc>Manuskripte: am unteren Rand</desc>
-                </valItem><valItem ident="opposite">
+                </valItem>
+                <valItem ident="opposite">
                   <desc>Auf der gegenüberliegenden Seite</desc>
-                </valItem><valItem ident="overleaf">
+                </valItem>
+                <valItem ident="overleaf">
                   <desc>Auf der Rückseite des Blattes</desc>
-                </valItem><valItem ident="continuedElsewhere">
+                </valItem>
+                <valItem ident="continuedElsewhere">
                   <desc>An anderer Stelle</desc>
-                </valItem></valList></attDef><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="sameAs" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="facs" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="unit" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="quantity" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="extent" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="cert" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="type" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="subtype" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="resp" mode="delete"/></attList><exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" xml:lang="en">
+                </valItem>
+              </valList>
+            </attDef><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="n" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="xml:lang" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="sameAs" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="facs" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="unit" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="quantity" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="extent" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="cert" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="type" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="subtype" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="resp" mode="delete"/></attList><exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#COEDADD-eg-84">The story I am
     going to relate is true as to its main facts, and as to the
     consequences <add place="above">of these facts</add> from which
@@ -4477,6 +4498,9 @@ concerned, as further discussed in section <ref target="http://www.tei-c.org/rel
                 </valItem>
                 <valItem ident="animal">
                   <desc>Name ist der eines Tieres</desc>
+                </valItem>
+                <valItem ident="animal|plant">
+                  <desc>Name ist der eines Pilzes, Alge o.ä.</desc>
                 </valItem>
                 <valItem ident="mineral">
                   <desc>Name ist der eines Minerals</desc>
@@ -5385,46 +5409,50 @@ TOURS</addrLine>
   </remarks><listRef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples">
     
     <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSHD">4.2.1. Headings and Trailers</ref>
-  </listRef></elementSpec><elementSpec rend="change" module="core" ident="note"><gloss xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2017-06-25" xml:lang="de">Anmerkung</gloss><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2005-01-14" xml:lang="en">contains a note or annotation.</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2009-01-06" xml:lang="fr">contient une note ou une annotation</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2007-05-04" xml:lang="es">contiene una nota o aclaración</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2007-05-02" xml:lang="zh-TW">包含附註或註釋。</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2007-01-21" xml:lang="it">contiene una nota o un'annotazione</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2006-10-28" xml:lang="ja">注釈・コメント．</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2017-06-25" xml:lang="de">enthält eine Anmerkung oder Annotation.</desc><classes><memberOf key="att.global"/><memberOf key="model.noteLike"/><memberOf key="att.placement"/><memberOf key="att.pointing"/><memberOf key="att.typed"/><memberOf key="att.written"/></classes><content><macroRef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" key="macro.specialPara"/></content><attList><attDef ident="place" mode="replace">
-              <valList mode="replace" type="closed">
-                <valItem ident="left">
-                  <desc>Marginalie links</desc>
-                </valItem>
-                <valItem ident="right">
-                  <desc>Marginalie rechts</desc>
-                </valItem>
-                <valItem ident="foot">
-                  <desc>Fußnote</desc>
-                </valItem>
-                <valItem ident="end">
-                  <desc>Endnote</desc>
-                </valItem>
-                
-                <valItem ident="inline">
-                  <desc>Manuskripte: Anmerkung innerhalb der Zeile</desc>
-                </valItem>
-                <valItem ident="mTop">
-                  <desc>Manuskripte: am oberen Rand</desc>
-                </valItem>
-                <valItem ident="mBottom">
-                  <desc>Manuskripte: am unteren Rand</desc>
-                </valItem>
-                
-                <valItem ident="opposite">
-                  <desc>Auf der gegenüberliegenden Seite</desc>
-                </valItem>
-                <valItem ident="overleaf">
-                  <desc>Auf der Rückseite des Blattes</desc>
-                </valItem>
-                <valItem ident="continuedElsewhere">
-                  <desc>An anderer Stelle</desc>
-                </valItem>
+  </listRef></elementSpec><elementSpec rend="change" module="core" ident="note"><gloss xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2017-06-25" xml:lang="de">Anmerkung</gloss><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2005-01-14" xml:lang="en">contains a note or annotation.</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2009-01-06" xml:lang="fr">contient une note ou une annotation</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2007-05-04" xml:lang="es">contiene una nota o aclaración</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2007-05-02" xml:lang="zh-TW">包含附註或註釋。</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2007-01-21" xml:lang="it">contiene una nota o un'annotazione</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2006-10-28" xml:lang="ja">注釈・コメント．</desc><desc xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" versionDate="2017-06-25" xml:lang="de">enthält eine Anmerkung oder Annotation.</desc><classes><memberOf key="att.global"/><memberOf key="model.noteLike"/><memberOf key="att.placement"/><memberOf key="att.pointing"/><memberOf key="att.typed"/><memberOf key="att.written"/></classes><content><macroRef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" key="macro.specialPara"/></content><attList><attDef ident="place" mode="replace" usage="opt">
+              <datatype maxOccurs="unbounded"><dataRef key="teidata.enumerated"/></datatype>
+              <valList type="closed">
+                    <valItem ident="left">
+                      <desc>Manuskripte: Einfügung am linken Rand.</desc>
+                    </valItem>
+                    <valItem ident="right">
+                      <desc>Manuskripte: Einfügung am rechten Rand.</desc>
+                    </valItem>
+                    <valItem ident="foot">
+                      <desc>Fußnote</desc>
+                    </valItem>
+                    <valItem ident="end">
+                      <desc>Endnote</desc>
+                    </valItem>
+                    <valItem ident="mTop">
+                      <desc>Manuskripte: am oberen Rand</desc>
+                    </valItem>
+                    <valItem ident="mBottom">
+                      <desc>Manuskripte: am unteren Rand</desc>
+                    </valItem>
+                    
+                    
+                    <valItem ident="inline">
+                      <desc>Manuskripte: Anmerkung innerhalb der Zeile</desc>
+                    </valItem>
+                    
+                    <valItem ident="opposite">
+                      <desc>Auf der gegenüberliegenden Seite</desc>
+                    </valItem>
+                    <valItem ident="overleaf">
+                      <desc>Auf der Rückseite des Blattes</desc>
+                    </valItem>
+                    <valItem ident="continuedElsewhere">
+                      <desc>An anderer Stelle</desc>
+                    </valItem>
               </valList>
             </attDef><attDef ident="resp" mode="replace">
               <datatype maxOccurs="unbounded">
                 <dataRef key="teidata.pointer"/>
               </datatype>
-            </attDef><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="target" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="evaluate" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="cert" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="facs" mode="delete"/><attDef ident="type" mode="change" rend="change" usage="opt"><valList type="closed" mode="change"><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="editorial"><desc>editorischer Kommentar</desc></valItem><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="remarkResponsibility"><desc>nur in &lt;teiHeader&gt; zu verwenden</desc></valItem><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="remarkRevisionDTA"><desc>nur in &lt;teiHeader&gt; zu verwenden</desc></valItem><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="remarkSource"><desc>nur in &lt;teiHeader&gt; zu verwenden</desc></valItem><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="remarkDocument"><desc>nur in &lt;teiHeader&gt; zu verwenden</desc></valItem><valItem ident="auxCalc" mode="add">
+            </attDef><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="target" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="evaluate" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="cert" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="facs" mode="delete"/><attDef ident="type" mode="change" rend="change" usage="opt"><valList type="closed" mode="change"><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="editorial"><desc>editorischer Kommentar</desc></valItem><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="remarkResponsibility"><desc>nur in &lt;teiHeader&gt; zu verwenden</desc></valItem><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="remarkRevisionDTA"><desc>nur in &lt;teiHeader&gt; zu verwenden</desc></valItem><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="remarkSource"><desc>nur in &lt;teiHeader&gt; zu verwenden</desc></valItem><valItem xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="remarkDocument"><desc>nur in &lt;teiHeader&gt; zu verwenden</desc></valItem><valItem ident="handwritten" mode="add">
+                  <desc>Handwritten notes in printed texts</desc>
+                </valItem><valItem ident="auxCalc" mode="add">
                     <desc>Anmerkung ist "Nebenrechnung"</desc>
                 </valItem></valList></attDef><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="subtype" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="anchored" mode="delete"/><attDef xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" ident="targetEnd" mode="delete"/></attList><exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:teix="http://www.tei-c.org/ns/Examples" xml:lang="en">
     <p>In the following example, the translator has supplied a footnote

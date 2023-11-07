@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-11-03T10:16:34Z. .
+Schema generated from ODD source 2023-11-07T16:03:14Z. .
 TEI Edition: 
 TEI Edition Location: https://www.tei-c.org/Vault/P5//
   
@@ -102,6 +102,17 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5//
                   <data type="anyURI"/>
                </oneOrMore>
             </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.written.attributes">
+      <ref name="att.written.attribute.hand"/>
+   </define>
+   <define name="att.written.attribute.hand">
+      <optional>
+         <attribute name="hand">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
+            <data type="anyURI"/>
          </attribute>
       </optional>
    </define>
@@ -1843,17 +1854,6 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          </attribute>
       </optional>
    </define>
-   <define name="att.written.attributes">
-      <ref name="att.written.attribute.hand"/>
-   </define>
-   <define name="att.written.attribute.hand">
-      <optional>
-         <attribute name="hand">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
-            <data type="anyURI"/>
-         </attribute>
-      </optional>
-   </define>
    <define name="att.docStatus.attributes">
       <ref name="att.docStatus.attribute.status"/>
    </define>
@@ -1958,6 +1958,14 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
                      <data type="anyURI"/>
                   </oneOrMore>
                </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="hand">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <data type="token">
+                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               </data>
             </attribute>
          </optional>
          <empty/>
@@ -2332,37 +2340,35 @@ Normalization 12. Critical Apparatus]</a:documentation>
          <ref name="att.global.linking.attribute.next"/>
          <ref name="att.global.linking.attribute.prev"/>
          <ref name="att.transcriptional.attributes"/>
-         <attribute name="place">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies where this item is placed.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <choice>
-                     <value>across</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Hinzufügung durch Überschreibung des zu korrigierenden Textes. </a:documentation>
-                     <value>intralinear</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung innerhalb der Textzeile, jedoch ohne bestehenden Text zu überschreiben. </a:documentation>
-                     <value>superlinear</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung über der Zeile.</a:documentation>
-                     <value>sublinear</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung unter der Zeile.</a:documentation>
-                     <value>left</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung am linken Rand.</a:documentation>
-                     <value>right</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung am rechten Rand.</a:documentation>
-                     <value>mTop</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: am oberen Rand</a:documentation>
-                     <value>mBottom</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: am unteren Rand</a:documentation>
-                     <value>opposite</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Auf der gegenüberliegenden Seite</a:documentation>
-                     <value>overleaf</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Auf der Rückseite des Blattes</a:documentation>
-                     <value>continuedElsewhere</value>
-                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">An anderer Stelle</a:documentation>
-                  </choice>
-               </oneOrMore>
-            </list>
-         </attribute>
+         <optional>
+            <attribute name="place">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>across</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Hinzufügung durch Überschreibung des zu korrigierenden Textes. </a:documentation>
+                  <value>intralinear</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung innerhalb der Textzeile, jedoch ohne bestehenden Text zu überschreiben. </a:documentation>
+                  <value>superlinear</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung über der Zeile.</a:documentation>
+                  <value>sublinear</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung unter der Zeile.</a:documentation>
+                  <value>left</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung am linken Rand.</a:documentation>
+                  <value>right</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung am rechten Rand.</a:documentation>
+                  <value>mTop</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: am oberen Rand</a:documentation>
+                  <value>mBottom</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: am unteren Rand</a:documentation>
+                  <value>opposite</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Auf der gegenüberliegenden Seite</a:documentation>
+                  <value>overleaf</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Auf der Rückseite des Blattes</a:documentation>
+                  <value>continuedElsewhere</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">An anderer Stelle</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -2436,6 +2442,8 @@ Normalization 12. Critical Apparatus]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Name ist der einer Pflanze</a:documentation>
                   <value>animal</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Name ist der eines Tieres</a:documentation>
+                  <value>animal|plant</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Name ist der eines Pilzes, Alge o.ä.</a:documentation>
                   <value>mineral</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Name ist der eines Minerals</a:documentation>
                </choice>
@@ -2829,28 +2837,32 @@ Normalization 12. Critical Apparatus]</a:documentation>
          <optional>
             <attribute name="place">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <choice>
-                  <value>left</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Marginalie links</a:documentation>
-                  <value>right</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Marginalie rechts</a:documentation>
-                  <value>foot</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fußnote</a:documentation>
-                  <value>end</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Endnote</a:documentation>
-                  <value>inline</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Anmerkung innerhalb der Zeile</a:documentation>
-                  <value>mTop</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: am oberen Rand</a:documentation>
-                  <value>mBottom</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: am unteren Rand</a:documentation>
-                  <value>opposite</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Auf der gegenüberliegenden Seite</a:documentation>
-                  <value>overleaf</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Auf der Rückseite des Blattes</a:documentation>
-                  <value>continuedElsewhere</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">An anderer Stelle</a:documentation>
-               </choice>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <value>left</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung am linken Rand.</a:documentation>
+                        <value>right</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Einfügung am rechten Rand.</a:documentation>
+                        <value>foot</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fußnote</a:documentation>
+                        <value>end</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Endnote</a:documentation>
+                        <value>mTop</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: am oberen Rand</a:documentation>
+                        <value>mBottom</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: am unteren Rand</a:documentation>
+                        <value>inline</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Manuskripte: Anmerkung innerhalb der Zeile</a:documentation>
+                        <value>opposite</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Auf der gegenüberliegenden Seite</a:documentation>
+                        <value>overleaf</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Auf der Rückseite des Blattes</a:documentation>
+                        <value>continuedElsewhere</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">An anderer Stelle</a:documentation>
+                     </choice>
+                  </oneOrMore>
+               </list>
             </attribute>
          </optional>
          <optional>
@@ -2867,6 +2879,8 @@ Normalization 12. Critical Apparatus]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">nur in &lt;teiHeader&gt; zu verwenden</a:documentation>
                   <value>remarkDocument</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">nur in &lt;teiHeader&gt; zu verwenden</a:documentation>
+                  <value>handwritten</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Handwritten notes in printed texts</a:documentation>
                   <value>auxCalc</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Anmerkung ist "Nebenrechnung"</a:documentation>
                </choice>
