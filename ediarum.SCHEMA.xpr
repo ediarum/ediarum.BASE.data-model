@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>ediarum.avhr.api.odd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TEI ODD to RelaxNG XML 2022</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>ediarum.avhr.odd</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -30,7 +50,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>ediarum.avhr.api.odd</String>
+                                    <String>../../../../Downloads/basisformat_ms_compiled.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -71,26 +91,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>../../../../Downloads/basisformat_ms.odd</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TEI ODD to RelaxNG XML 2022</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../../../../Downloads/basisformat_ms_compiled.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
