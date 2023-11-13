@@ -172,6 +172,7 @@
         <elementSpec ident="add" module="core" mode="change">
           <attList>
             <attDef ident="place" mode="replace">
+              <datatype maxOccurs="unbounded"><dataRef key="teidata.enumerated"/></datatype>
               <valList type="closed">
                 <!-- place muss insgesamt ersetzt werden, sonst gibt es Fehler -->
                 <valItem ident="across">
