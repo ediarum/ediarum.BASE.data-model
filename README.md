@@ -1,5 +1,7 @@
 # ediarum.BASE.data-model
 
+**WIP - work in progress (Nov 2023)**
+
 This repository contains the definition of the ediarum.BASE data model as ODD. It is based on the _Base format_ of the German Text Archive (DTABf). It is therefore also formally derived from this (using ODD chaining), i.e. the (compiled) DTABf ODD is specified as the source schema in the ODD.
 
 The "dist" folder contains:
