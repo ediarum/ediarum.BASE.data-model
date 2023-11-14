@@ -17,18 +17,10 @@
       </sourceDesc>
     </fileDesc>
   </teiHeader>
-  <!-- Hinweis, SD 2023-11-03: Beim Hinzufügen von Attributwerten in existierende valList's 
-   ist darauf zu achten, dass die Ebenen korrekt geändert
-    werden:
-    attDef -> mode="change"
-    valList -> mode="change"
-    valItem -> mode="add"
-    -->
   <text>
     <body>
-      <!-- besser über https://github.com/deutschestextarchiv/dtabf/tree/master/schema/dist abrufen (raw dann) -->
+      <!-- DTABf -->
       <schemaSpec ident="ediarum" source="https://raw.githubusercontent.com/deutschestextarchiv/dtabf/master/schema/dist/basisformat_ms.xml" start="TEI">
-        <!-- DTABf -->
         <moduleRef key="tei"/>
         <moduleRef key="header" />
         <moduleRef key="core"/>
@@ -65,8 +57,7 @@
             <attDef ident="rend" mode="change">
               <valList type="closed" mode="change">
                 <valItem ident="sticked" mode="add"/>
-                <valItem ident="within the line" mode="add"/> <!-- ediarum / Brief --> 
-                <!-- 2022: sticked / inserted / drawn nur AvHR ??? -->
+                <valItem ident="within the line" mode="add"/> <!-- ediarum / Brief, zu optimieren --> 
                 <valItem ident="inserted" mode="add"/>
                 <valItem ident="drawn" mode="add"/>
                 <valItem ident="paragraph" mode="add"/>
@@ -342,7 +333,7 @@
                 <dataRef key="teidata.enumerated"/>
               </datatype>
             </attDef>
-            <!-- 2022: mode="add" für zu Dubletten -->
+            <!-- mode="add" für zu Dubletten -->
             <attDef ident="hand" mode="replace">
               <datatype>
                 <dataRef key="teidata.enumerated"/>
